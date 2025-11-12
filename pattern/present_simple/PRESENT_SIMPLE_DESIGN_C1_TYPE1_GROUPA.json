@@ -90,12 +90,6 @@
         "distractor": "implement pragmatically"
       }
     },
-    "ARTICLE_OBJ": [
-      "solutions",
-      "models",
-      "concepts",
-      "changes"
-    ],
     "PREP_TIME": [
       "throughout development",
       "during sprints",

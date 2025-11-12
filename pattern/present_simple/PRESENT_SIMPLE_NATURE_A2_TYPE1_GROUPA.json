@@ -29,12 +29,12 @@
           "walked",
           "are walking"
         ],
-        "places": [
-          "in the forest",
-          "by the river",
-          "near the mountains"
-        ],
-        "distractor": "walk slowly"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       },
       "explore": {
         "correct_forms": [
@@ -45,12 +45,12 @@
           "explored",
           "are exploring"
         ],
-        "places": [
-          "in the forest",
-          "by the river",
-          "in nature"
-        ],
-        "distractor": "explore carefully"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       },
       "observe": {
         "correct_forms": [
@@ -61,12 +61,12 @@
           "observed",
           "are observing"
         ],
-        "places": [
-          "in the forest",
-          "by the river",
-          "in the field"
-        ],
-        "distractor": "observe closely"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       }
     },
     "PREP_PLACE": [

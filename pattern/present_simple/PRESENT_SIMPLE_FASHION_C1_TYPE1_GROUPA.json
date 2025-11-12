@@ -34,12 +34,12 @@
           "showcased",
           "are showcasing"
         ],
-        "places": [
-          "in showrooms",
-          "at presentations",
-          "online"
+        "objects": [
+          "collections",
+          "products",
+          "designs"
         ],
-        "distractor": "showcase elegantly"
+        "distractor": "discontinue"
       },
       "launch": {
         "correct_forms": [
@@ -50,12 +50,12 @@
           "launched",
           "are launching"
         ],
-        "places": [
-          "in stores",
-          "globally",
-          "seasonally"
+        "objects": [
+          "products",
+          "collections",
+          "lines"
         ],
-        "distractor": "launch successfully"
+        "distractor": "withdraw"
       },
       "promote": {
         "correct_forms": [
@@ -66,12 +66,12 @@
           "promoted",
           "are promoting"
         ],
-        "places": [
-          "on social media",
-          "in marketing",
-          "through campaigns"
+        "objects": [
+          "brands",
+          "collections",
+          "products"
         ],
-        "distractor": "promote aggressively"
+        "distractor": "conceal"
       },
       "distribute": {
         "correct_forms": [
@@ -82,18 +82,21 @@
           "distributed",
           "are distributing"
         ],
-        "places": [
-          "to retailers",
-          "internationally",
-          "through channels"
+        "objects": [
+          "products",
+          "merchandise",
+          "collections"
         ],
-        "distractor": "distribute efficiently"
+        "distractor": "hoard"
       }
     },
     "PREP_PLACE": [
       "in showrooms",
       "in stores",
-      "online"
+      "online",
+      "at presentations",
+      "globally",
+      "internationally"
     ],
     "FREQUENCY": [
       "seasonally",

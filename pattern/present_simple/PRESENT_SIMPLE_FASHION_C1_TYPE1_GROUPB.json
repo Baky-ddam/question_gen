@@ -34,12 +34,12 @@
           "showcased",
           "is showcasing"
         ],
-        "places": [
-          "in showrooms",
-          "at presentations",
-          "online"
-        ],
-        "distractor": "showcases beautifully"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       },
       "launches": {
         "correct_forms": [
@@ -50,12 +50,12 @@
           "launched",
           "is launching"
         ],
-        "places": [
-          "in stores",
-          "globally",
-          "seasonally"
-        ],
-        "distractor": "launches triumphantly"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       },
       "promotes": {
         "correct_forms": [
@@ -66,12 +66,12 @@
           "promoted",
           "is promoting"
         ],
-        "places": [
-          "on social media",
-          "in marketing",
-          "through campaigns"
-        ],
-        "distractor": "promotes strategically"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       },
       "distributes": {
         "correct_forms": [
@@ -82,12 +82,12 @@
           "distributed",
           "is distributing"
         ],
-        "places": [
-          "to retailers",
-          "internationally",
-          "through channels"
-        ],
-        "distractor": "distributes widely"
+        "distractor": "ignore",
+        "objects": [
+          "items",
+          "things",
+          "elements"
+        ]
       }
     },
     "PREP_PLACE": [
