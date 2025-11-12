@@ -28,7 +28,7 @@
           "played",
           "is playing"
         ],
-        "distractor": "plays well",
+        "distractor": "stops",
         "objects": [
           "football",
           "tennis",
@@ -44,7 +44,7 @@
           "practiced",
           "is practicing"
         ],
-        "distractor": "practices hard",
+        "distractor": "stops",
         "objects": [
           "drills",
           "exercises",
@@ -60,7 +60,7 @@
           "did",
           "is doing"
         ],
-        "distractor": "does well",
+        "distractor": "ignore",
         "objects": [
           "yoga",
           "gymnastics",

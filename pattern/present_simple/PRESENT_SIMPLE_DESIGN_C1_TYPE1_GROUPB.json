@@ -39,7 +39,7 @@
           "systems",
           "frameworks"
         ],
-        "distractor": "conceptualizes brilliantly"
+        "distractor": "abandon"
       },
       "prototypes": {
         "correct_forms": [
@@ -55,7 +55,7 @@
           "interfaces",
           "iterations"
         ],
-        "distractor": "prototypes innovatively"
+        "distractor": "abandon"
       },
       "refines": {
         "correct_forms": [
@@ -71,7 +71,7 @@
           "designs",
           "details"
         ],
-        "distractor": "refines elegantly"
+        "distractor": "abandon"
       },
       "implements": {
         "correct_forms": [
@@ -87,7 +87,7 @@
           "features",
           "solutions"
         ],
-        "distractor": "implements efficiently"
+        "distractor": "abandon"
       }
     },
     "PREP_TIME": [

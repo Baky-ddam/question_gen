@@ -33,7 +33,7 @@
           "mathematics",
           "history"
         ],
-        "distractor": "studies well"
+        "distractor": "avoid"
       },
       "learns": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "skills",
           "subjects"
         ],
-        "distractor": "learns easily"
+        "distractor": "avoid"
       },
       "practices": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "writing",
           "speaking"
         ],
-        "distractor": "practices daily"
+        "distractor": "quits"
       },
       "reviews": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "lessons",
           "materials"
         ],
-        "distractor": "reviews frequently"
+        "distractor": "avoid"
       }
     },
     "PREP_TIME": [

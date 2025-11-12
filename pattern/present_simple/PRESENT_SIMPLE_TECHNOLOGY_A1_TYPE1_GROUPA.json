@@ -33,7 +33,7 @@
           "phones",
           "tablets"
         ],
-        "distractor": "use devices"
+        "distractor": "break"
       },
       "check": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "messages",
           "notifications"
         ],
-        "distractor": "check often"
+        "distractor": "ignore"
       },
       "browse": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "apps",
           "the internet"
         ],
-        "distractor": "browse safely"
+        "distractor": "ignore"
       }
     },
     "TIME": [

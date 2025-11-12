@@ -33,7 +33,7 @@
           "paintings",
           "sculptures"
         ],
-        "distractor": "create skillfully"
+        "distractor": "demolish"
       },
       "paint": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "canvases",
           "murals"
         ],
-        "distractor": "paint carefully"
+        "distractor": "ruin"
       },
       "design": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "sculptures",
           "concepts"
         ],
-        "distractor": "design creatively"
+        "distractor": "neglect"
       },
       "exhibit": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "collections",
           "pieces"
         ],
-        "distractor": "exhibit proudly"
+        "distractor": "neglect"
       }
     },
     "FREQUENCY": [

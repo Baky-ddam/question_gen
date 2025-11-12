@@ -33,7 +33,7 @@
           "rice",
           "vegetables"
         ],
-        "distractor": "eats fast"
+        "distractor": "wastes"
       },
       "drinks": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "milk",
           "juice"
         ],
-        "distractor": "drinks much"
+        "distractor": "ignore"
       },
       "cooks": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "soup",
           "rice"
         ],
-        "distractor": "cooks badly"
+        "distractor": "burns"
       },
       "prepares": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "food",
           "lunch"
         ],
-        "distractor": "prepares quickly"
+        "distractor": "burns"
       }
     }
   }

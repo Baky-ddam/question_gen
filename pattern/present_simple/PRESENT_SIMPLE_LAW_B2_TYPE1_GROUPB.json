@@ -33,7 +33,7 @@
           "defendants",
           "plaintiffs"
         ],
-        "distractor": "represents faithfully"
+        "distractor": "disregard"
       },
       "defends": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "rights",
           "interests"
         ],
-        "distractor": "defends tenaciously"
+        "distractor": "disregard"
       },
       "prosecutes": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "criminals",
           "cases"
         ],
-        "distractor": "prosecutes relentlessly"
+        "distractor": "disregard"
       },
       "advises": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "organizations",
           "corporations"
         ],
-        "distractor": "advises expertly"
+        "distractor": "disregard"
       }
     },
     "PREP_PLACE": [

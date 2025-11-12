@@ -33,7 +33,7 @@
           "a budget",
           "the savings"
         ],
-        "distractor": "invests safely"
+        "distractor": "neglect"
       },
       "saves": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "a fund",
           "the savings"
         ],
-        "distractor": "saves regularly"
+        "distractor": "neglect"
       },
       "manages": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "the portfolio",
           "their finances"
         ],
-        "distractor": "manages effectively"
+        "distractor": "neglect"
       },
       "tracks": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "the budget",
           "investments"
         ],
-        "distractor": "tracks meticulously"
+        "distractor": "neglect"
       }
     },
     "PREP_TIME": [

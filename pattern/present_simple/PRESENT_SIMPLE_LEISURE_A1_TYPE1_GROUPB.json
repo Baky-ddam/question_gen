@@ -33,7 +33,7 @@
           "sports",
           "music"
         ],
-        "distractor": "plays well"
+        "distractor": "stop"
       },
       "watch": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "TV",
           "shows"
         ],
-        "distractor": "watches carefully"
+        "distractor": "ignore"
       },
       "enjoy": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "sports",
           "hobbies"
         ],
-        "distractor": "enjoys life"
+        "distractor": "hate"
       }
     },
     "FREQUENCY": [

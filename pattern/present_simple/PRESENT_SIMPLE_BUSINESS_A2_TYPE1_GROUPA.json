@@ -33,7 +33,7 @@
           "conferences",
           "events"
         ],
-        "distractor": "attend carefully"
+        "distractor": "avoid"
       },
       "organize": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "projects",
           "events"
         ],
-        "distractor": "organize well"
+        "distractor": "skip"
       },
       "prepare": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "documents",
           "presentations"
         ],
-        "distractor": "prepare carefully"
+        "distractor": "ruin"
       },
       "review": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "proposals",
           "budgets"
         ],
-        "distractor": "review daily"
+        "distractor": "ignore"
       }
     },
     "FREQUENCY": [

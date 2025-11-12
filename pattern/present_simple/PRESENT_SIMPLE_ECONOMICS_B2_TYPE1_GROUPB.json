@@ -33,7 +33,7 @@
           "trends",
           "data"
         ],
-        "distractor": "analyzes objectively"
+        "distractor": "disregard"
       },
       "forecasts": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "inflation",
           "recession"
         ],
-        "distractor": "forecasts precisely"
+        "distractor": "disregard"
       },
       "evaluates": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "strategies",
           "outcomes"
         ],
-        "distractor": "evaluates judiciously"
+        "distractor": "disregard"
       },
       "monitors": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "rates",
           "indices"
         ],
-        "distractor": "monitors vigilantly"
+        "distractor": "disregard"
       }
     },
     "PREP_PLACE": [

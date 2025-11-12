@@ -29,7 +29,7 @@
           "watched",
           "are watching"
         ],
-        "distractor": "watch carefully",
+        "distractor": "ignore",
         "objects": [
           "movies",
           "TV shows",
@@ -45,7 +45,7 @@
           "listened",
           "are listening"
         ],
-        "distractor": "listen attentively",
+        "distractor": "ignore",
         "objects": [
           "music",
           "podcasts",
@@ -61,7 +61,7 @@
           "read",
           "are reading"
         ],
-        "distractor": "read fast",
+        "distractor": "burn",
         "objects": [
           "books",
           "magazines",
@@ -77,7 +77,7 @@
           "played",
           "are playing"
         ],
-        "distractor": "play well",
+        "distractor": "stop",
         "objects": [
           "games",
           "video games",

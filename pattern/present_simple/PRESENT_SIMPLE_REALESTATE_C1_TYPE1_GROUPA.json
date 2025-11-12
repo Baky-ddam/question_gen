@@ -33,7 +33,7 @@
           "portfolios",
           "assets"
         ],
-        "distractor": "acquire cautiously"
+        "distractor": "abandon"
       },
       "develop": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "sites",
           "infrastructure"
         ],
-        "distractor": "develop rapidly"
+        "distractor": "abandon"
       },
       "lease": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "units",
           "properties"
         ],
-        "distractor": "lease generously"
+        "distractor": "abandon"
       },
       "appraise": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "assessments",
           "properties"
         ],
-        "distractor": "appraise fairly"
+        "distractor": "abandon"
       }
     },
     "PREP_TIME": [

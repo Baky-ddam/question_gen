@@ -65,7 +65,7 @@
           "comments",
           "pictures"
         ],
-        "distractor": "doesn't dislike"
+        "distractor": "avoid"
       },
       "follow": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "pages",
           "friends"
         ],
-        "distractor": "doesn't unfollow"
+        "distractor": "avoid"
       }
     },
     "FREQUENCY": [

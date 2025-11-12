@@ -33,7 +33,7 @@
           "concertos",
           "sonatas"
         ],
-        "distractor": "composes melodiously"
+        "distractor": "destroys"
       },
       "performs": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "pieces",
           "recitals"
         ],
-        "distractor": "performs brilliantly"
+        "distractor": "skips"
       },
       "practices": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "exercises",
           "techniques"
         ],
-        "distractor": "practices conscientiously"
+        "distractor": "skips"
       },
       "records": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "tracks",
           "songs"
         ],
-        "distractor": "records flawlessly"
+        "distractor": "destroys"
       }
     },
     "PREP_TIME": [

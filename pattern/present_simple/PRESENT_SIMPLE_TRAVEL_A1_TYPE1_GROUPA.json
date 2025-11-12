@@ -33,7 +33,7 @@
           "cities",
           "beaches"
         ],
-        "distractor": "visit hotels"
+        "distractor": "avoid"
       },
       "travel": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "to Asia",
           "by plane"
         ],
-        "distractor": "travel safely"
+        "distractor": "ignore"
       },
       "explore": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "destinations",
           "monuments"
         ],
-        "distractor": "explore carefully"
+        "distractor": "avoid"
       }
     },
     "FREQUENCY": [

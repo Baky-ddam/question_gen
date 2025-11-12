@@ -33,7 +33,7 @@
           "essays",
           "poetry"
         ],
-        "distractor": "write beautifully"
+        "distractor": "discard"
       },
       "publish": {
         "correct_forms": [
@@ -49,7 +49,7 @@
           "articles",
           "works"
         ],
-        "distractor": "publish regularly"
+        "distractor": "censor"
       },
       "revise": {
         "correct_forms": [
@@ -65,7 +65,7 @@
           "drafts",
           "texts"
         ],
-        "distractor": "revise thoroughly"
+        "distractor": "overlook"
       },
       "critique": {
         "correct_forms": [
@@ -81,7 +81,7 @@
           "pieces",
           "publications"
         ],
-        "distractor": "critique harshly"
+        "distractor": "overlook"
       }
     },
     "PREP_TIME": [
