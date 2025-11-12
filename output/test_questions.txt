@@ -1,0 +1,64 @@
+================================================================================
+EYESH ENGLISH EXAM - GENERATED QUESTIONS
+================================================================================
+
+Question 1
+--------------------------------------------------------------------------------
+ID: GERUND_VERBS_DAILY_0000
+Pattern: GERUND_VERBS_DAILY
+Focus: gerund_verbs
+Level: B1
+Domain: daily_life
+
+You avoid ____ after work.
+
+  A. reading books
+  B. arguing with people ✓
+  C. to argue with people
+  D. argue with people
+
+Correct Answer: B
+Explanation: The verb 'avoid' requires a gerund (verb + -ing) as its object.
+
+================================================================================
+
+Question 2
+--------------------------------------------------------------------------------
+ID: GERUND_VERBS_DAILY_0001
+Pattern: GERUND_VERBS_DAILY
+Focus: gerund_verbs
+Level: B1
+Domain: daily_life
+
+They mind ____ after work.
+
+  A. share your ideas
+  B. to share your ideas
+  C. sharing your ideas ✓
+  D. reading books
+
+Correct Answer: C
+Explanation: The verb 'mind' (in questions and negatives) requires a gerund (verb + -ing) as its object.
+
+================================================================================
+
+Question 3
+--------------------------------------------------------------------------------
+ID: INFINITIVE_VERBS_DAILY_0002
+Pattern: INFINITIVE_VERBS_DAILY
+Focus: infinitive_verbs
+Level: B1
+Domain: daily_life
+
+You plan ____ next year.
+
+  A. study abroad
+  B. to study abroad ✓
+  C. studying abroad
+  D. to learn Spanish
+
+Correct Answer: B
+Explanation: The verb 'plan' requires an infinitive (to + verb) as its object.
+
+================================================================================
+

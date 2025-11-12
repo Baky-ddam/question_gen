@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PETS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Pets",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in pet care contexts. Students must identify words that naturally pair with verbs related to animal care and companionship.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Tim",
+      "Sarah",
+      "my sister"
+    ],
+    "VERB": {
+      "has": {
+        "correct_forms": [
+          "three dogs",
+          "a cute cat",
+          "many pets",
+          "pet hamsters",
+          "tropical fish"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "tropical plants",
+        "objects": [],
+        "explanation": "The verb 'ha' commonly collocates with 'three', 'a', 'many' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "feeds": {
+        "correct_forms": [
+          "pets every morning",
+          "the dog twice daily",
+          "birds regularly",
+          "fish once a day",
+          "cats at night"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "guests at night",
+        "objects": [],
+        "explanation": "The verb 'feed' commonly collocates with 'pets', 'the', 'birds' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "walks": {
+        "correct_forms": [
+          "the dog daily",
+          "pets in the garden",
+          "dogs every morning",
+          "her puppy twice a day",
+          "animals regularly"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "outside regularly",
+        "objects": [],
+        "explanation": "The verb 'walk' commonly collocates with 'the', 'pets', 'dogs' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "loves": {
+        "correct_forms": [
+          "all animals",
+          "pet cats",
+          "small dogs",
+          "furry pets",
+          "animal companionship"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "human companionship",
+        "objects": [],
+        "explanation": "The verb 'love' commonly collocates with 'all', 'pet', 'small' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "plays": {
+        "correct_forms": [
+          "with pets daily",
+          "fetch with dogs",
+          "with cats",
+          "games with animals",
+          "with pets outside"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "with friends outside",
+        "objects": [],
+        "explanation": "The verb 'play' commonly collocates with 'with', 'fetch', 'with' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "at home",
+      "every day",
+      "always",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

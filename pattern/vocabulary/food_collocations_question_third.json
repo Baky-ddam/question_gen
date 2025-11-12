@@ -1,0 +1,121 @@
+{
+  "pattern_id": "FOOD_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Food",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in Food contexts.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Carlos",
+      "Sophie",
+      "your chef"
+    ],
+    "VERB": {
+      "cook": {
+        "correct_forms": [
+          "gourmet meals",
+          "complicated recipes",
+          "ethnic dishes",
+          "vegan cuisine",
+          "seafood regularly"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "plain cooking",
+        "objects": [],
+        "explanation": "The verb 'cook' commonly collocates with 'gourmet', 'complicated', 'ethnic' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "eat": {
+        "correct_forms": [
+          "breakfast every morning",
+          "organic food only",
+          "meat regularly",
+          "desserts after meals",
+          "snacks between meals"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "no snacks",
+        "objects": [],
+        "explanation": "The verb 'eat' commonly collocates with 'breakfast', 'organic', 'meat' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prepare": {
+        "correct_forms": [
+          "meals in advance",
+          "lunch for work",
+          "weekly meal plans",
+          "special occasion dinners",
+          "family recipes"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "modern recipes",
+        "objects": [],
+        "explanation": "The verb 'prepare' commonly collocates with 'meals', 'lunch', 'weekly' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "grow": {
+        "correct_forms": [
+          "vegetables at home",
+          "herbs in the garden",
+          "organic produce",
+          "seasonal crops",
+          "tomatoes and peppers"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "leafy greens only",
+        "objects": [],
+        "explanation": "The verb 'grow' commonly collocates with 'vegetables', 'herbs', 'organic' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "experiment": {
+        "correct_forms": [
+          "with new ingredients",
+          "with fusion cuisine",
+          "with presentation styles",
+          "with cooking techniques",
+          "with flavor combinations"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "familiar flavors",
+        "objects": [],
+        "explanation": "The verb 'experiment' commonly collocates with 'with', 'with', 'with' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in the kitchen",
+      "when cooking",
+      "for meals",
+      "regularly",
+      "typically"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

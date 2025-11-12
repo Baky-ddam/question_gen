@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_TECHNOLOGY_A1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "She checks email at night.",
+  "explanation": "-s form for Group B subjects with technology vocabulary.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "john"
+    ],
+    "VERB": {
+      "uses": {
+        "correct_forms": [
+          "uses"
+        ],
+        "wrong_forms": [
+          "use",
+          "used",
+          "is using"
+        ],
+        "objects": [
+          "computers",
+          "phones",
+          "tablets"
+        ],
+        "distractor": "uses often"
+      },
+      "checks": {
+        "correct_forms": [
+          "checks"
+        ],
+        "wrong_forms": [
+          "check",
+          "checked",
+          "is checking"
+        ],
+        "objects": [
+          "email",
+          "messages",
+          "notifications"
+        ],
+        "distractor": "checks daily"
+      },
+      "browses": {
+        "correct_forms": [
+          "browses"
+        ],
+        "wrong_forms": [
+          "browse",
+          "browsed",
+          "is browsing"
+        ],
+        "objects": [
+          "websites",
+          "apps",
+          "the internet"
+        ],
+        "distractor": "browses always"
+      }
+    },
+    "TIME": [
+      "in the morning",
+      "at night"
+    ]
+  }
+}

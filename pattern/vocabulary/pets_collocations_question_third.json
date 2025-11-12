@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PETS_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Pets",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in pet care contexts. Students must identify words that naturally pair with verbs related to animal care and companionship.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Ben",
+      "Kate",
+      "your brother"
+    ],
+    "VERB": {
+      "have": {
+        "correct_forms": [
+          "any pets",
+          "a favorite animal",
+          "dogs or cats",
+          "time for pets",
+          "space for animals"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "space for hobbies",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'any', 'a', 'dogs' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "animals",
+          "big dogs",
+          "small cats",
+          "pet birds",
+          "exotic pets"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "exotic food",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'animals', 'big', 'small' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "take": {
+        "correct_forms": [
+          "care of pets",
+          "dogs for walks",
+          "animals to the vet",
+          "responsibility seriously",
+          "good care of animals"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "good care of toys",
+        "objects": [],
+        "explanation": "The verb 'take' commonly collocates with 'care', 'dogs', 'animals' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "train": {
+        "correct_forms": [
+          "dogs properly",
+          "pets regularly",
+          "animals well",
+          "puppies at home",
+          "pets with patience"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "workers with patience",
+        "objects": [],
+        "explanation": "The verb 'train' commonly collocates with 'dogs', 'pets', 'animals' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "spend": {
+        "correct_forms": [
+          "time with pets",
+          "money on animals",
+          "hours with dogs",
+          "weekends with pets",
+          "free time with animals"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "free time with games",
+        "objects": [],
+        "explanation": "The verb 'spend' commonly collocates with 'time', 'money', 'hours' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "at home",
+      "usually",
+      "often",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

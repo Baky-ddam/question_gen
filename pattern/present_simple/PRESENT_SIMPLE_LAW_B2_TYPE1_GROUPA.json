@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_LAW_B2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} {TIME}.",
+  "example": "Lawyers represent clients in court daily.",
+  "explanation": "B2 legal domain with complex sentence structure.",
+  "chunks": {
+    "SUBJ": [
+      "lawyers",
+      "attorneys",
+      "they"
+    ],
+    "VERB": {
+      "represent": {
+        "correct_forms": [
+          "represent"
+        ],
+        "wrong_forms": [
+          "represents",
+          "represented",
+          "are representing"
+        ],
+        "article_objects": [
+          "clients",
+          "defendants",
+          "plaintiffs"
+        ],
+        "distractor": "represent loyally"
+      },
+      "defend": {
+        "correct_forms": [
+          "defend"
+        ],
+        "wrong_forms": [
+          "defends",
+          "defended",
+          "are defending"
+        ],
+        "article_objects": [
+          "cases",
+          "rights",
+          "interests"
+        ],
+        "distractor": "defend vigorously"
+      },
+      "prosecute": {
+        "correct_forms": [
+          "prosecute"
+        ],
+        "wrong_forms": [
+          "prosecutes",
+          "prosecuted",
+          "are prosecuting"
+        ],
+        "article_objects": [
+          "offenders",
+          "criminals",
+          "cases"
+        ],
+        "distractor": "prosecute aggressively"
+      },
+      "advise": {
+        "correct_forms": [
+          "advise"
+        ],
+        "wrong_forms": [
+          "advises",
+          "advised",
+          "are advising"
+        ],
+        "article_objects": [
+          "clients",
+          "organizations",
+          "corporations"
+        ],
+        "distractor": "advise wisely"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "clients",
+      "cases",
+      "defendants",
+      "organizations"
+    ],
+    "PREP_PLACE": [
+      "in court",
+      "at the office",
+      "during trials"
+    ],
+    "TIME": [
+      "daily",
+      "regularly",
+      "frequently"
+    ]
+  }
+}

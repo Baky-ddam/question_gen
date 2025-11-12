@@ -1,0 +1,127 @@
+[
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0000",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You want ____ soon.",
+    "options": {
+      "A": "travelling abroad",
+      "B": "to visit Paris",
+      "C": "travel abroad",
+      "D": "to travel abroad"
+    },
+    "correct_answer": "D",
+    "explanation": "The verb 'want' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0001",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You love ____ every day.",
+    "options": {
+      "A": "trying new things",
+      "B": "try new things",
+      "C": "to try new things",
+      "D": "reading books"
+    },
+    "correct_answer": "A",
+    "explanation": "The verb 'love' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0002",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You plan ____ in the future.",
+    "options": {
+      "A": "to learn Spanish",
+      "B": "to start a business",
+      "C": "start a business",
+      "D": "starting a business"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'plan' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0003",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "They mind ____ after work.",
+    "options": {
+      "A": "reading books",
+      "B": "helping others",
+      "C": "to help others",
+      "D": "help others"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'mind' (in questions and negatives) requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0004",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "I plan ____ soon.",
+    "options": {
+      "A": "changing jobs",
+      "B": "to change jobs",
+      "C": "change jobs",
+      "D": "to learn Spanish"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'plan' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  }
+]

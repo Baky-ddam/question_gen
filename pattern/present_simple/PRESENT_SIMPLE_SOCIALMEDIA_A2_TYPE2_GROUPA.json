@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_SOCIALMEDIA_A2_TYPE2_GROUPA",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "social_media",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "I don't post photos every day.",
+  "explanation": "Negative present simple: Group A don't + verb.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we"
+    ],
+    "VERB": {
+      "post": {
+        "correct_forms": [
+          "don't post"
+        ],
+        "wrong_forms": [
+          "doesn't post",
+          "didn't post",
+          "am not posting"
+        ],
+        "objects": [
+          "photos",
+          "videos",
+          "updates"
+        ],
+        "distractor": "don't share"
+      },
+      "share": {
+        "correct_forms": [
+          "don't share"
+        ],
+        "wrong_forms": [
+          "doesn't share",
+          "didn't share",
+          "am not sharing"
+        ],
+        "objects": [
+          "photos",
+          "news",
+          "stories"
+        ],
+        "distractor": "don't post"
+      },
+      "like": {
+        "correct_forms": [
+          "don't like"
+        ],
+        "wrong_forms": [
+          "doesn't like",
+          "didn't like",
+          "am not liking"
+        ],
+        "objects": [
+          "posts",
+          "comments",
+          "pictures"
+        ],
+        "distractor": "don't dislike"
+      },
+      "follow": {
+        "correct_forms": [
+          "don't follow"
+        ],
+        "wrong_forms": [
+          "doesn't follow",
+          "didn't follow",
+          "am not following"
+        ],
+        "objects": [
+          "accounts",
+          "pages",
+          "friends"
+        ],
+        "distractor": "don't unfollow"
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

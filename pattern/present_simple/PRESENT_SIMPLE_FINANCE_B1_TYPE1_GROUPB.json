@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_FINANCE_B1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "B1",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_TIME}.",
+  "example": "She manages the portfolio every month.",
+  "explanation": "Group B -s form with finance complexity.",
+  "chunks": {
+    "SUBJ": [
+      "the investor",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "invests": {
+        "correct_forms": [
+          "invests"
+        ],
+        "wrong_forms": [
+          "invest",
+          "invested",
+          "is investing"
+        ],
+        "article_objects": [
+          "the portfolio",
+          "a budget",
+          "the savings"
+        ],
+        "distractor": "invests safely"
+      },
+      "saves": {
+        "correct_forms": [
+          "saves"
+        ],
+        "wrong_forms": [
+          "save",
+          "saved",
+          "is saving"
+        ],
+        "article_objects": [
+          "the money",
+          "a fund",
+          "the savings"
+        ],
+        "distractor": "saves regularly"
+      },
+      "manages": {
+        "correct_forms": [
+          "manages"
+        ],
+        "wrong_forms": [
+          "manage",
+          "managed",
+          "is managing"
+        ],
+        "article_objects": [
+          "the assets",
+          "the portfolio",
+          "their finances"
+        ],
+        "distractor": "manages effectively"
+      },
+      "tracks": {
+        "correct_forms": [
+          "tracks"
+        ],
+        "wrong_forms": [
+          "track",
+          "tracked",
+          "is tracking"
+        ],
+        "article_objects": [
+          "their expenses",
+          "the budget",
+          "investments"
+        ],
+        "distractor": "tracks meticulously"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "the portfolio",
+      "a budget",
+      "the money",
+      "their expenses"
+    ],
+    "PREP_TIME": [
+      "in the morning",
+      "every month",
+      "regularly",
+      "daily"
+    ]
+  }
+}

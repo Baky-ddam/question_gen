@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ECONOMICS_B2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} {FREQUENCY}.",
+  "example": "Economists analyze markets in research regularly.",
+  "explanation": "B2 economics with sophisticated vocabulary.",
+  "chunks": {
+    "SUBJ": [
+      "economists",
+      "analysts",
+      "they"
+    ],
+    "VERB": {
+      "analyze": {
+        "correct_forms": [
+          "analyze"
+        ],
+        "wrong_forms": [
+          "analyzes",
+          "analyzed",
+          "are analyzing"
+        ],
+        "article_objects": [
+          "markets",
+          "trends",
+          "data"
+        ],
+        "distractor": "analyze thoroughly"
+      },
+      "forecast": {
+        "correct_forms": [
+          "forecast"
+        ],
+        "wrong_forms": [
+          "forecasts",
+          "forecasted",
+          "are forecasting"
+        ],
+        "article_objects": [
+          "growth",
+          "inflation",
+          "recession"
+        ],
+        "distractor": "forecast accurately"
+      },
+      "evaluate": {
+        "correct_forms": [
+          "evaluate"
+        ],
+        "wrong_forms": [
+          "evaluates",
+          "evaluated",
+          "are evaluating"
+        ],
+        "article_objects": [
+          "policies",
+          "strategies",
+          "outcomes"
+        ],
+        "distractor": "evaluate carefully"
+      },
+      "monitor": {
+        "correct_forms": [
+          "monitor"
+        ],
+        "wrong_forms": [
+          "monitors",
+          "monitored",
+          "are monitoring"
+        ],
+        "article_objects": [
+          "indicators",
+          "rates",
+          "indices"
+        ],
+        "distractor": "monitor closely"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "markets",
+      "growth",
+      "policies",
+      "indicators"
+    ],
+    "PREP_PLACE": [
+      "in the markets",
+      "in research",
+      "at institutions"
+    ],
+    "FREQUENCY": [
+      "daily",
+      "regularly",
+      "constantly"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_LEISURE_A1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "leisure",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "She watches movies usually.",
+  "explanation": "Present simple Group B (he/she/it) adds -s to the verb. Use with frequency markers for habitual actions.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "it"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "plays"
+        ],
+        "wrong_forms": [
+          "play",
+          "played",
+          "is playing"
+        ],
+        "objects": [
+          "games",
+          "sports",
+          "music"
+        ],
+        "distractor": "plays well"
+      },
+      "watch": {
+        "correct_forms": [
+          "watches"
+        ],
+        "wrong_forms": [
+          "watch",
+          "watched",
+          "is watching"
+        ],
+        "objects": [
+          "movies",
+          "TV",
+          "shows"
+        ],
+        "distractor": "watches carefully"
+      },
+      "enjoy": {
+        "correct_forms": [
+          "enjoys"
+        ],
+        "wrong_forms": [
+          "enjoy",
+          "enjoyed",
+          "is enjoying"
+        ],
+        "objects": [
+          "reading",
+          "sports",
+          "hobbies"
+        ],
+        "distractor": "enjoys life"
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually"
+    ]
+  }
+}

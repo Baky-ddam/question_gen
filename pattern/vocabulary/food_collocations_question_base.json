@@ -1,0 +1,120 @@
+{
+  "pattern_id": "FOOD_COLLOCATIONS_QUESTION_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Food",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Do {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in Food contexts.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "cook": {
+        "correct_forms": [
+          "homemade meals daily",
+          "traditional dishes",
+          "vegetarian food",
+          "healthy recipes",
+          "international cuisine"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "takeout orders",
+        "objects": [],
+        "explanation": "The verb 'cook' commonly collocates with 'homemade', 'traditional', 'vegetarian' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "organic ingredients",
+          "local produce",
+          "fresh vegetables",
+          "whole grains",
+          "lean proteins"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "packaged snacks",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'organic', 'local', 'fresh' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "follow": {
+        "correct_forms": [
+          "special diets",
+          "cooking recipes exactly",
+          "food bloggers",
+          "nutrition guidelines",
+          "meal plans"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "spontaneous cooking",
+        "objects": [],
+        "explanation": "The verb 'follow' commonly collocates with 'special', 'cooking', 'food' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "trying new cuisines",
+          "experimental cooking",
+          "food festivals",
+          "farmers markets",
+          "cooking shows"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "regular dining",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'trying', 'experimental', 'food' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "buy": {
+        "correct_forms": [
+          "groceries weekly",
+          "fresh produce daily",
+          "in-season fruits",
+          "local products",
+          "bulk items"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "convenience foods",
+        "objects": [],
+        "explanation": "The verb 'buy' commonly collocates with 'groceries', 'fresh', 'in-season' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "at home",
+      "when cooking",
+      "for meals",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

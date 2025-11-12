@@ -1,0 +1,83 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_NATURE_A2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "nature",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {PREP_PLACE} {TIME}.",
+  "example": "We walk in the forest every day.",
+  "explanation": "Nature domain with spatial + temporal context.",
+  "chunks": {
+    "SUBJ": [
+      "we",
+      "you",
+      "animals",
+      "they"
+    ],
+    "VERB": {
+      "walk": {
+        "correct_forms": [
+          "walk"
+        ],
+        "wrong_forms": [
+          "walks",
+          "walked",
+          "are walking"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "near the mountains"
+        ],
+        "distractor": "walk slowly"
+      },
+      "explore": {
+        "correct_forms": [
+          "explore"
+        ],
+        "wrong_forms": [
+          "explores",
+          "explored",
+          "are exploring"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "in nature"
+        ],
+        "distractor": "explore carefully"
+      },
+      "observe": {
+        "correct_forms": [
+          "observe"
+        ],
+        "wrong_forms": [
+          "observes",
+          "observed",
+          "are observing"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "in the field"
+        ],
+        "distractor": "observe closely"
+      }
+    },
+    "PREP_PLACE": [
+      "in the forest",
+      "by the river",
+      "near the mountains"
+    ],
+    "TIME": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "BUSINESS_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Business",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in business and professional contexts. Students must select the word that naturally collocates with the given verb based on typical usage in workplace English.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "unnecessary meetings",
+          "social networking events",
+          "late-night conferences",
+          "unprepared presentations",
+          "random webinars"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "industry conferences",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'unnecessary', 'social', 'late-night' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "accept": {
+        "correct_forms": [
+          "unrealistic deadlines",
+          "unpaid overtime",
+          "unclear job offers",
+          "vague contracts",
+          "unfair terms"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "beneficial deals",
+        "objects": [],
+        "explanation": "The verb 'accept' commonly collocates with 'unrealistic', 'unpaid', 'unclear' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "respond": {
+        "correct_forms": [
+          "to spam emails",
+          "to cold calls",
+          "to unclear requests",
+          "to urgent messages immediately",
+          "to every notification"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "to priority tasks",
+        "objects": [],
+        "explanation": "The verb 'respond' commonly collocates with 'to', 'to', 'to' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prioritize": {
+        "correct_forms": [
+          "minor tasks",
+          "email management",
+          "administrative work",
+          "social media activity",
+          "personal projects"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "critical deadlines",
+        "objects": [],
+        "explanation": "The verb 'prioritize' commonly collocates with 'minor', 'email', 'administrative' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "work": {
+        "correct_forms": [
+          "during weekends",
+          "on public holidays",
+          "without breaks",
+          "overtime unnecessarily",
+          "outside office hours"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "within work time",
+        "objects": [],
+        "explanation": "The verb 'work' commonly collocates with 'during', 'on', 'without' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in my profession",
+      "at the office",
+      "normally",
+      "as a policy",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

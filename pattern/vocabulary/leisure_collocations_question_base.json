@@ -1,0 +1,120 @@
+{
+  "pattern_id": "LEISURE_COLLOCATIONS_QUESTION_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Leisure",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Do {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in leisure and hobby contexts. Students must select words that naturally collocate with recreation and entertainment verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "enjoy": {
+        "correct_forms": [
+          "outdoor activities",
+          "reading books",
+          "watching movies",
+          "listening to music",
+          "creative hobbies"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "routine tasks",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'outdoor', 'reading', 'watching' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "play": {
+        "correct_forms": [
+          "sports regularly",
+          "musical instruments",
+          "board games",
+          "video games",
+          "team sports"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "individual activities",
+        "objects": [],
+        "explanation": "The verb 'play' commonly collocates with 'sports', 'musical', 'board' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "spend": {
+        "correct_forms": [
+          "time outdoors",
+          "weekends with family",
+          "evenings relaxing",
+          "free time exercising",
+          "holidays traveling"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "holidays home",
+        "objects": [],
+        "explanation": "The verb 'spend' commonly collocates with 'time', 'weekends', 'evenings' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "participate": {
+        "correct_forms": [
+          "in group activities",
+          "in community events",
+          "in sports clubs",
+          "in cultural programs",
+          "in social gatherings"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "in small meetings",
+        "objects": [],
+        "explanation": "The verb 'participate' commonly collocates with 'in', 'in', 'in' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "collect": {
+        "correct_forms": [
+          "stamps or coins",
+          "vintage items",
+          "art pieces",
+          "sports memorabilia",
+          "books"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "electronic media",
+        "objects": [],
+        "explanation": "The verb 'collect' commonly collocates with 'stamps', 'vintage', 'art' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in your free time",
+      "for fun",
+      "during leisure hours",
+      "regularly",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

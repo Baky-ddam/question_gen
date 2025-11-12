@@ -1,0 +1,121 @@
+{
+  "pattern_id": "LEISURE_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Leisure",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in leisure and hobby contexts. Students must select words that naturally collocate with recreation and entertainment verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Michael",
+      "Laura",
+      "my friend"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "television regularly",
+          "sports events",
+          "streaming services",
+          "YouTube videos",
+          "online content"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "outdoor activities",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'television', 'sports', 'streaming' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "play": {
+        "correct_forms": [
+          "musical instruments",
+          "card games",
+          "chess",
+          "tennis",
+          "golf"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "badminton",
+        "objects": [],
+        "explanation": "The verb 'play' commonly collocates with 'musical', 'card', 'chess' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "collect": {
+        "correct_forms": [
+          "stamps",
+          "coins",
+          "vintage items",
+          "memorabilia",
+          "antiques"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "experiences",
+        "objects": [],
+        "explanation": "The verb 'collect' commonly collocates with 'stamps', 'coins', 'vintage' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "attend": {
+        "correct_forms": [
+          "music festivals",
+          "sporting events",
+          "theater performances",
+          "art galleries",
+          "exhibitions"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "private parties",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'music', 'sporting', 'theater' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "practice": {
+        "correct_forms": [
+          "yoga regularly",
+          "meditation daily",
+          "martial arts",
+          "dance routines",
+          "breathing exercises"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "gym workouts",
+        "objects": [],
+        "explanation": "The verb 'practice' commonly collocates with 'yoga', 'meditation', 'martial' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "during leisure time",
+      "for relaxation",
+      "generally",
+      "typically",
+      "as a habit"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

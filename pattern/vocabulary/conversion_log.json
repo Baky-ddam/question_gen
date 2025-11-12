@@ -1,0 +1,547 @@
+{
+  "total": 60,
+  "success": 60,
+  "errors": 0,
+  "conversions": [
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_affirmative_base.json",
+      "old_id": "BUSINESS_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "BUSINESS_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Business",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_affirmative_third.json",
+      "old_id": "BUSINESS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "BUSINESS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Business",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_negative_base.json",
+      "old_id": "BUSINESS_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "BUSINESS_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Business",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_negative_third.json",
+      "old_id": "BUSINESS_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "BUSINESS_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Business",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_question_base.json",
+      "old_id": "BUSINESS_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "BUSINESS_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Business",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_business_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/business_collocations_question_third.json",
+      "old_id": "BUSINESS_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "BUSINESS_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Business",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_affirmative_base.json",
+      "old_id": "FILM_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "FILM_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Film",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_affirmative_third.json",
+      "old_id": "FILM_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "FILM_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Film",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_negative_base.json",
+      "old_id": "FILM_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "FILM_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Film",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_negative_third.json",
+      "old_id": "FILM_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "FILM_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Film",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_question_base.json",
+      "old_id": "FILM_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "FILM_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Film",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_film_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/film_collocations_question_third.json",
+      "old_id": "FILM_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "FILM_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Film",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_cooking_collocations_affirmative_base.json",
+      "old_id": "FOOD_COOKING_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "FOOD_COOKING_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Food Cooking",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_cooking_collocations_affirmative_third.json",
+      "old_id": "FOOD_COOKING_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "FOOD_COOKING_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Food Cooking",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_collocations_negative_base.json",
+      "old_id": "FOOD_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "FOOD_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Food",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_collocations_negative_third.json",
+      "old_id": "FOOD_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "FOOD_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Food",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_collocations_question_base.json",
+      "old_id": "FOOD_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "FOOD_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Food",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_food_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/food_collocations_question_third.json",
+      "old_id": "FOOD_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "FOOD_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Food",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_affirmative_base.json",
+      "old_id": "GARDENING_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "GARDENING_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Gardening",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_affirmative_third.json",
+      "old_id": "GARDENING_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "GARDENING_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Gardening",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_negative_base.json",
+      "old_id": "GARDENING_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "GARDENING_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Gardening",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_negative_third.json",
+      "old_id": "GARDENING_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "GARDENING_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Gardening",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_question_base.json",
+      "old_id": "GARDENING_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "GARDENING_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Gardening",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_gardening_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/gardening_collocations_question_third.json",
+      "old_id": "GARDENING_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "GARDENING_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Gardening",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_affirmative_base.json",
+      "old_id": "LEISURE_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "LEISURE_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Leisure",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_affirmative_third.json",
+      "old_id": "LEISURE_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "LEISURE_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Leisure",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_negative_base.json",
+      "old_id": "LEISURE_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "LEISURE_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Leisure",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_negative_third.json",
+      "old_id": "LEISURE_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "LEISURE_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Leisure",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_question_base.json",
+      "old_id": "LEISURE_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "LEISURE_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Leisure",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_leisure_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/leisure_collocations_question_third.json",
+      "old_id": "LEISURE_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "LEISURE_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Leisure",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_affirmative_base.json",
+      "old_id": "PETS_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "PETS_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Pets",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_affirmative_third.json",
+      "old_id": "PETS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "PETS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Pets",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_negative_base.json",
+      "old_id": "PETS_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "PETS_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Pets",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_negative_third.json",
+      "old_id": "PETS_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "PETS_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Pets",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_question_base.json",
+      "old_id": "PETS_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "PETS_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Pets",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_pets_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/pets_collocations_question_third.json",
+      "old_id": "PETS_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "PETS_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Pets",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_affirmative_base.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Psychology",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_affirmative_third.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Psychology",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_negative_base.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Psychology",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_negative_third.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Psychology",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_question_base.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Psychology",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_psychology_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/psychology_collocations_question_third.json",
+      "old_id": "PSYCHOLOGY_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "PSYCHOLOGY_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Psychology",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_affirmative_base.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Technology",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_affirmative_third.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Technology",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_negative_base.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Technology",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_negative_third.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Technology",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_question_base.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Technology",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_technology_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/technology_collocations_question_third.json",
+      "old_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Technology",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_affirmative_base.json",
+      "old_id": "TRAVEL_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "TRAVEL_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Travel",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_affirmative_third.json",
+      "old_id": "TRAVEL_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "TRAVEL_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Travel",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_negative_base.json",
+      "old_id": "TRAVEL_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "TRAVEL_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Travel",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_negative_third.json",
+      "old_id": "TRAVEL_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "TRAVEL_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Travel",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_question_base.json",
+      "old_id": "TRAVEL_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "TRAVEL_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Travel",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_travel_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/travel_collocations_question_third.json",
+      "old_id": "TRAVEL_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "TRAVEL_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Travel",
+      "structure": "question",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_affirmative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_affirmative_base.json",
+      "old_id": "WEATHER_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "new_id": "WEATHER_COLLOCATIONS_AFFIRMATIVE_BASE",
+      "domain": "Weather",
+      "structure": "affirmative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_affirmative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_affirmative_third.json",
+      "old_id": "WEATHER_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "new_id": "WEATHER_COLLOCATIONS_AFFIRMATIVE_THIRD",
+      "domain": "Weather",
+      "structure": "affirmative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_negative_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_negative_base.json",
+      "old_id": "WEATHER_COLLOCATIONS_NEGATIVE_BASE",
+      "new_id": "WEATHER_COLLOCATIONS_NEGATIVE_BASE",
+      "domain": "Weather",
+      "structure": "negative",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_negative_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_negative_third.json",
+      "old_id": "WEATHER_COLLOCATIONS_NEGATIVE_THIRD",
+      "new_id": "WEATHER_COLLOCATIONS_NEGATIVE_THIRD",
+      "domain": "Weather",
+      "structure": "negative",
+      "conjugation": "third"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_question_base.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_question_base.json",
+      "old_id": "WEATHER_COLLOCATIONS_QUESTION_BASE",
+      "new_id": "WEATHER_COLLOCATIONS_QUESTION_BASE",
+      "domain": "Weather",
+      "structure": "question",
+      "conjugation": "base"
+    },
+    {
+      "original": "/Users/baky/Documents/edu_mining/question_generator/pattern/present_simple/present_simple_weather_question_third.json",
+      "converted": "/Users/baky/Documents/edu_mining/question_generator/pattern/vocabulary/weather_collocations_question_third.json",
+      "old_id": "WEATHER_COLLOCATIONS_QUESTION_THIRD",
+      "new_id": "WEATHER_COLLOCATIONS_QUESTION_THIRD",
+      "domain": "Weather",
+      "structure": "question",
+      "conjugation": "third"
+    }
+  ]
+}

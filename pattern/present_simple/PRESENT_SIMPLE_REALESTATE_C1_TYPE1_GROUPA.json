@@ -1,0 +1,110 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_REALESTATE_C1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "real_estate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{PREP_TIME}, {SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} because {REASON}.",
+  "example": "Currently, investors acquire properties in prime locations because it's profitable.",
+  "explanation": "C1 real estate with fronted adverbial and complex structure.",
+  "chunks": {
+    "SUBJ": [
+      "investors",
+      "developers",
+      "they"
+    ],
+    "VERB": {
+      "acquire": {
+        "correct_forms": [
+          "acquire"
+        ],
+        "wrong_forms": [
+          "acquires",
+          "acquired",
+          "are acquiring"
+        ],
+        "article_objects": [
+          "properties",
+          "portfolios",
+          "assets"
+        ],
+        "distractor": "acquire cautiously"
+      },
+      "develop": {
+        "correct_forms": [
+          "develop"
+        ],
+        "wrong_forms": [
+          "develops",
+          "developed",
+          "are developing"
+        ],
+        "article_objects": [
+          "projects",
+          "sites",
+          "infrastructure"
+        ],
+        "distractor": "develop rapidly"
+      },
+      "lease": {
+        "correct_forms": [
+          "lease"
+        ],
+        "wrong_forms": [
+          "leases",
+          "leased",
+          "are leasing"
+        ],
+        "article_objects": [
+          "spaces",
+          "units",
+          "properties"
+        ],
+        "distractor": "lease generously"
+      },
+      "appraise": {
+        "correct_forms": [
+          "appraise"
+        ],
+        "wrong_forms": [
+          "appraises",
+          "appraised",
+          "are appraising"
+        ],
+        "article_objects": [
+          "valuations",
+          "assessments",
+          "properties"
+        ],
+        "distractor": "appraise fairly"
+      }
+    },
+    "PREP_TIME": [
+      "Currently",
+      "Increasingly",
+      "Strategically",
+      "Typically"
+    ],
+    "ARTICLE_OBJ": [
+      "properties",
+      "projects",
+      "spaces",
+      "assets"
+    ],
+    "PREP_PLACE": [
+      "in prime locations",
+      "in emerging markets",
+      "downtown"
+    ],
+    "REASON": [
+      "it's profitable",
+      "demand is high",
+      "location is strategic"
+    ]
+  }
+}

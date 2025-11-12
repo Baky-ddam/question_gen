@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_BUSINESS_A2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "Employees prepare reports every day.",
+  "explanation": "Business domain with Group A base forms.",
+  "chunks": {
+    "SUBJ": [
+      "we",
+      "employees",
+      "they"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "attend"
+        ],
+        "wrong_forms": [
+          "attends",
+          "attended",
+          "are attending"
+        ],
+        "objects": [
+          "meetings",
+          "conferences",
+          "events"
+        ],
+        "distractor": "attend carefully"
+      },
+      "organize": {
+        "correct_forms": [
+          "organize"
+        ],
+        "wrong_forms": [
+          "organizes",
+          "organized",
+          "are organizing"
+        ],
+        "objects": [
+          "meetings",
+          "projects",
+          "events"
+        ],
+        "distractor": "organize well"
+      },
+      "prepare": {
+        "correct_forms": [
+          "prepare"
+        ],
+        "wrong_forms": [
+          "prepares",
+          "prepared",
+          "are preparing"
+        ],
+        "objects": [
+          "reports",
+          "documents",
+          "presentations"
+        ],
+        "distractor": "prepare carefully"
+      },
+      "review": {
+        "correct_forms": [
+          "review"
+        ],
+        "wrong_forms": [
+          "reviews",
+          "reviewed",
+          "are reviewing"
+        ],
+        "objects": [
+          "contracts",
+          "proposals",
+          "budgets"
+        ],
+        "distractor": "review daily"
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

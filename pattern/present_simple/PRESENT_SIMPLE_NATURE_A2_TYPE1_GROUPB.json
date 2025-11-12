@@ -1,0 +1,83 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_NATURE_A2_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "nature",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {PREP_PLACE} {TIME}.",
+  "example": "The bird observes by the river usually.",
+  "explanation": "Group B in nature domain.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the bird",
+      "it"
+    ],
+    "VERB": {
+      "walks": {
+        "correct_forms": [
+          "walks"
+        ],
+        "wrong_forms": [
+          "walk",
+          "walked",
+          "is walking"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "near the mountains"
+        ],
+        "distractor": "walks alone"
+      },
+      "explores": {
+        "correct_forms": [
+          "explores"
+        ],
+        "wrong_forms": [
+          "explore",
+          "explored",
+          "is exploring"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "in nature"
+        ],
+        "distractor": "explores freely"
+      },
+      "observes": {
+        "correct_forms": [
+          "observes"
+        ],
+        "wrong_forms": [
+          "observe",
+          "observed",
+          "is observing"
+        ],
+        "places": [
+          "in the forest",
+          "by the river",
+          "in the field"
+        ],
+        "distractor": "observes intently"
+      }
+    },
+    "PREP_PLACE": [
+      "in the forest",
+      "by the river",
+      "near the mountains"
+    ],
+    "TIME": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

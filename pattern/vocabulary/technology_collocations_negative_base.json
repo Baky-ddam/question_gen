@@ -1,0 +1,120 @@
+{
+  "pattern_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Technology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in technology contexts. Students must identify words that naturally pair with technology-related verbs in digital and computing environments.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "social media platforms",
+          "cloud storage services",
+          "smartphone apps excessively",
+          "public WiFi networks",
+          "outdated software"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "encryption tools",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'social', 'cloud', 'smartphone' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "trust": {
+        "correct_forms": [
+          "unknown websites",
+          "free VPN services",
+          "suspicious email attachments",
+          "unverified apps",
+          "online advertisements"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "secure sites",
+        "objects": [],
+        "explanation": "The verb 'trust' commonly collocates with 'unknown', 'free', 'suspicious' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "download": {
+        "correct_forms": [
+          "pirated software",
+          "files from unknown sources",
+          "cracked applications",
+          "suspicious attachments",
+          "untested programs"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "secure downloads",
+        "objects": [],
+        "explanation": "The verb 'download' commonly collocates with 'pirated', 'files', 'cracked' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "share": {
+        "correct_forms": [
+          "personal information online",
+          "passwords with anyone",
+          "private photos publicly",
+          "banking details",
+          "location data"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "safe data",
+        "objects": [],
+        "explanation": "The verb 'share' commonly collocates with 'personal', 'passwords', 'private' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "install": {
+        "correct_forms": [
+          "unnecessary browser extensions",
+          "unknown plugins",
+          "untrusted software",
+          "random applications",
+          "suspicious programs"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "trusted programs",
+        "objects": [],
+        "explanation": "The verb 'install' commonly collocates with 'unnecessary', 'unknown', 'untrusted' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "on my devices",
+      "for security reasons",
+      "normally",
+      "as a rule",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

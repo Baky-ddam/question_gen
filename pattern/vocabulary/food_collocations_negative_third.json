@@ -1,0 +1,121 @@
+{
+  "pattern_id": "FOOD_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Food",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in Food contexts.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Maria",
+      "James",
+      "my chef"
+    ],
+    "VERB": {
+      "eat": {
+        "correct_forms": [
+          "gluten products",
+          "dairy items",
+          "meat dishes",
+          "spicy food",
+          "raw vegetables"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "lactose-free options",
+        "objects": [],
+        "explanation": "The verb 'eat' commonly collocates with 'gluten', 'dairy', 'meat' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "cook": {
+        "correct_forms": [
+          "meat dishes",
+          "complicated recipes",
+          "baked goods",
+          "fermented foods",
+          "pressure cooker meals"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "stovetop meals",
+        "objects": [],
+        "explanation": "The verb 'cook' commonly collocates with 'meat', 'complicated', 'baked' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "use": {
+        "correct_forms": [
+          "microwave ovens",
+          "pre-made sauces",
+          "instant mixes",
+          "food processors",
+          "canned goods"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "fresh produce",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'microwave', 'pre-made', 'instant' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "follow": {
+        "correct_forms": [
+          "recipe instructions exactly",
+          "cooking shows",
+          "food bloggers",
+          "celebrity chefs",
+          "trendy diets"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "nutritional science",
+        "objects": [],
+        "explanation": "The verb 'follow' commonly collocates with 'recipe', 'cooking', 'food' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "meal planning",
+          "food shopping",
+          "cooking for crowds",
+          "elaborate preparations",
+          "kitchen cleanup"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "meal delivery",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'meal', 'food', 'cooking' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in the kitchen",
+      "when preparing meals",
+      "generally",
+      "typically",
+      "most of the time"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

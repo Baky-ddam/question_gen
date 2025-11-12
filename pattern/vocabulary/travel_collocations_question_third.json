@@ -1,0 +1,121 @@
+{
+  "pattern_id": "TRAVEL_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Travel",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in travel contexts. Students must identify words that naturally pair with the given verbs in tourism and travel-related situations.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Marco",
+      "Lisa",
+      "your friend"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "foreign countries regularly",
+          "exotic destinations",
+          "off-the-beaten-path places",
+          "UNESCO heritage sites",
+          "small villages"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "ski resorts",
+        "objects": [],
+        "explanation": "The verb 'visit' commonly collocates with 'foreign', 'exotic', 'off-the-beaten-path' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "solo traveling",
+          "group adventures",
+          "backpacking trips",
+          "road trips",
+          "cruises"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "day trips",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'solo', 'group', 'backpacking' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "plan": {
+        "correct_forms": [
+          "trips carefully",
+          "itineraries in detail",
+          "every activity",
+          "routes in advance",
+          "budgets precisely"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "random choices",
+        "objects": [],
+        "explanation": "The verb 'plan' commonly collocates with 'trips', 'itineraries', 'every' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "travel": {
+        "correct_forms": [
+          "light with carry-on only",
+          "with travel companions",
+          "during off-season",
+          "for extended periods",
+          "on a budget"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "luxury style",
+        "objects": [],
+        "explanation": "The verb 'travel' commonly collocates with 'light', 'with', 'during' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "document": {
+        "correct_forms": [
+          "travel experiences",
+          "trips through photos",
+          "journeys in blogs",
+          "adventures on social media",
+          "memories in journals"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "mental memories only",
+        "objects": [],
+        "explanation": "The verb 'document' commonly collocates with 'travel', 'trips', 'journeys' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "when traveling",
+      "on trips",
+      "during vacations",
+      "while exploring",
+      "typically"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

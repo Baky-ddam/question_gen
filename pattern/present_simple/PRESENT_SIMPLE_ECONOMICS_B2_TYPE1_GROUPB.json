@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ECONOMICS_B2_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} {FREQUENCY}.",
+  "example": "She forecasts growth at institutions daily.",
+  "explanation": "Group B in economics with -s form.",
+  "chunks": {
+    "SUBJ": [
+      "the economist",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "analyzes": {
+        "correct_forms": [
+          "analyzes"
+        ],
+        "wrong_forms": [
+          "analyze",
+          "analyzed",
+          "is analyzing"
+        ],
+        "article_objects": [
+          "markets",
+          "trends",
+          "data"
+        ],
+        "distractor": "analyzes objectively"
+      },
+      "forecasts": {
+        "correct_forms": [
+          "forecasts"
+        ],
+        "wrong_forms": [
+          "forecast",
+          "forecasted",
+          "is forecasting"
+        ],
+        "article_objects": [
+          "growth",
+          "inflation",
+          "recession"
+        ],
+        "distractor": "forecasts precisely"
+      },
+      "evaluates": {
+        "correct_forms": [
+          "evaluates"
+        ],
+        "wrong_forms": [
+          "evaluate",
+          "evaluated",
+          "is evaluating"
+        ],
+        "article_objects": [
+          "policies",
+          "strategies",
+          "outcomes"
+        ],
+        "distractor": "evaluates judiciously"
+      },
+      "monitors": {
+        "correct_forms": [
+          "monitors"
+        ],
+        "wrong_forms": [
+          "monitor",
+          "monitored",
+          "is monitoring"
+        ],
+        "article_objects": [
+          "indicators",
+          "rates",
+          "indices"
+        ],
+        "distractor": "monitors vigilantly"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "markets",
+      "growth",
+      "policies",
+      "indicators"
+    ],
+    "PREP_PLACE": [
+      "in the markets",
+      "in research",
+      "at institutions"
+    ],
+    "FREQUENCY": [
+      "daily",
+      "regularly",
+      "constantly"
+    ]
+  }
+}

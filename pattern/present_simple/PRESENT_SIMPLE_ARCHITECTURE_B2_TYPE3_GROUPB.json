@@ -1,0 +1,52 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ARCHITECTURE_B2_TYPE3_GROUPB",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "architecture",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {BASE_VERB} {ARTICLE_OBJ} {PREP_PLACE} {TIME}.",
+  "example": "She doesn't renovate structures downtown hastily.",
+  "explanation": "Type 3 Group B: doesn't + base verb in architecture.",
+  "chunks": {
+    "SUBJ": [
+      "the architect",
+      "he",
+      "she"
+    ],
+    "AUX": {
+      "doesn't": {
+        "correct_forms": ["doesn't"],
+        "wrong_forms": ["don't", "didn't", "isn't"],
+        "objects": [],
+        "distractor": "won't"
+      }
+    },
+    "BASE_VERB": [
+      "design",
+      "construct",
+      "renovate",
+      "plan"
+    ],
+    "ARTICLE_OBJ": [
+      "buildings",
+      "structures",
+      "spaces",
+      "projects"
+    ],
+    "PREP_PLACE": [
+      "in urban areas",
+      "in residential zones",
+      "downtown"
+    ],
+    "TIME": [
+      "without consultation",
+      "hastily",
+      "carelessly"
+    ]
+  }
+}

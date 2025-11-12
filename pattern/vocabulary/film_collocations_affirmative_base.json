@@ -1,0 +1,120 @@
+{
+  "pattern_id": "FILM_COLLOCATIONS_AFFIRMATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Film",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in film and cinema contexts. Students must identify words that naturally pair with verbs related to movies and entertainment.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "movies on weekends",
+          "films at the cinema",
+          "comedies with friends",
+          "action movies",
+          "new releases"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "documentaries",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'movies', 'films', 'comedies' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "animated films",
+          "romantic comedies",
+          "scary movies",
+          "adventure stories",
+          "superhero films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "slow movies",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'animated', 'romantic', 'scary' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "movie nights",
+          "going to cinemas",
+          "film festivals",
+          "watching trailers",
+          "discussing films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "comparing versions",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'movie', 'going', 'film' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "subtitles to dubbing",
+          "original versions",
+          "big screens",
+          "evening shows",
+          "comfortable seats"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "front rows",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'subtitles', 'original', 'big' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "rent": {
+        "correct_forms": [
+          "movies online",
+          "DVDs sometimes",
+          "new releases",
+          "classic films",
+          "family movies"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "movie cameras",
+        "objects": [],
+        "explanation": "The verb 'rent' commonly collocates with 'movies', 'DVDs', 'new' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "often",
+      "every week",
+      "on Fridays",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

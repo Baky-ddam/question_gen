@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_HEALTHCARE_A2_TYPE2_GROUPA",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "healthcare",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {ADVERB}.",
+  "example": "I don't eat vegetables regularly.",
+  "explanation": "Negative present simple: Group A uses 'don't' + base verb. Focus on natural object-adverb pairings for healthcare activities.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "they"
+    ],
+    "VERB": {
+      "eat": {
+        "correct_forms": [
+          "don't eat"
+        ],
+        "wrong_forms": [
+          "doesn't eat",
+          "didn't eat",
+          "am not eating"
+        ],
+        "objects": [
+          "vegetables",
+          "fruits",
+          "healthy food"
+        ],
+        "distractor": "don't cook"
+      },
+      "drink": {
+        "correct_forms": [
+          "don't drink"
+        ],
+        "wrong_forms": [
+          "doesn't drink",
+          "didn't drink",
+          "am not drinking"
+        ],
+        "objects": [
+          "water",
+          "milk",
+          "juice"
+        ],
+        "distractor": "don't pour"
+      },
+      "take": {
+        "correct_forms": [
+          "don't take"
+        ],
+        "wrong_forms": [
+          "doesn't take",
+          "didn't take",
+          "am not taking"
+        ],
+        "objects": [
+          "vitamins",
+          "medicine",
+          "supplements"
+        ],
+        "distractor": "don't swallow"
+      },
+      "exercise": {
+        "correct_forms": [
+          "don't exercise"
+        ],
+        "wrong_forms": [
+          "doesn't exercise",
+          "didn't exercise",
+          "am not exercising"
+        ],
+        "objects": [
+          "at the gym",
+          "in the park",
+          "at home"
+        ],
+        "distractor": "don't rest"
+      }
+    },
+    "ADVERB": [
+      "regularly",
+      "enough",
+      "daily"
+    ]
+  }
+}

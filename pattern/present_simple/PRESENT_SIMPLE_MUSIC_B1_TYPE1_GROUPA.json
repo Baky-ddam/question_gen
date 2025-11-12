@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_MUSIC_B1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "B1",
+  "domain": "music",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_TIME}.",
+  "example": "Musicians perform concerts regularly.",
+  "explanation": "Music domain with article+noun for B1 level.",
+  "chunks": {
+    "SUBJ": [
+      "musicians",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "compose": {
+        "correct_forms": [
+          "compose"
+        ],
+        "wrong_forms": [
+          "composes",
+          "composed",
+          "are composing"
+        ],
+        "article_objects": [
+          "symphonies",
+          "concertos",
+          "sonatas"
+        ],
+        "distractor": "compose beautifully"
+      },
+      "perform": {
+        "correct_forms": [
+          "perform"
+        ],
+        "wrong_forms": [
+          "performs",
+          "performed",
+          "are performing"
+        ],
+        "article_objects": [
+          "concerts",
+          "pieces",
+          "recitals"
+        ],
+        "distractor": "perform excellently"
+      },
+      "practice": {
+        "correct_forms": [
+          "practice"
+        ],
+        "wrong_forms": [
+          "practices",
+          "practiced",
+          "are practicing"
+        ],
+        "article_objects": [
+          "scales",
+          "exercises",
+          "techniques"
+        ],
+        "distractor": "practice diligently"
+      },
+      "record": {
+        "correct_forms": [
+          "record"
+        ],
+        "wrong_forms": [
+          "records",
+          "recorded",
+          "are recording"
+        ],
+        "article_objects": [
+          "albums",
+          "tracks",
+          "songs"
+        ],
+        "distractor": "record professionally"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "symphonies",
+      "concerts",
+      "scales",
+      "albums"
+    ],
+    "PREP_TIME": [
+      "in the morning",
+      "every day",
+      "after school",
+      "regularly"
+    ]
+  }
+}

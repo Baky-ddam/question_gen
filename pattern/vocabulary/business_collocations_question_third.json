@@ -1,0 +1,121 @@
+{
+  "pattern_id": "BUSINESS_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Business",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in business and professional contexts. Students must select the word that naturally collocates with the given verb based on typical usage in workplace English.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Richard",
+      "Amanda",
+      "your boss"
+    ],
+    "VERB": {
+      "manage": {
+        "correct_forms": [
+          "multiple projects simultaneously",
+          "large teams effectively",
+          "budgets carefully",
+          "client relationships",
+          "international operations"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "local operations",
+        "objects": [],
+        "explanation": "The verb 'manage' commonly collocates with 'multiple', 'large', 'budgets' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "work": {
+        "correct_forms": [
+          "remotely full-time",
+          "flexible hours",
+          "on weekends sometimes",
+          "overtime regularly",
+          "across time zones"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "single timezone",
+        "objects": [],
+        "explanation": "The verb 'work' commonly collocates with 'remotely', 'flexible', 'on' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "handle": {
+        "correct_forms": [
+          "difficult clients",
+          "conflict resolution",
+          "crisis management",
+          "complex negotiations",
+          "sensitive information"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "public information",
+        "objects": [],
+        "explanation": "The verb 'handle' commonly collocates with 'difficult', 'conflict', 'crisis' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "achieve": {
+        "correct_forms": [
+          "sales targets consistently",
+          "project milestones",
+          "performance objectives",
+          "quarterly goals",
+          "team KPIs"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "individual metrics",
+        "objects": [],
+        "explanation": "The verb 'achieve' commonly collocates with 'sales', 'project', 'performance' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "report": {
+        "correct_forms": [
+          "to senior management",
+          "progress weekly",
+          "financial results",
+          "team performance",
+          "project status"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "task lists",
+        "objects": [],
+        "explanation": "The verb 'report' commonly collocates with 'to', 'progress', 'financial' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in the workplace",
+      "professionally",
+      "at the company",
+      "regularly",
+      "typically"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

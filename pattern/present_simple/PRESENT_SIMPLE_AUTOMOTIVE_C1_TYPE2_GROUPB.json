@@ -1,0 +1,109 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_AUTOMOTIVE_C1_TYPE2_GROUPB",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "automotive",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} {TIME} because {REASON}.",
+  "example": "The engineer doesn't test prototypes at facilities without certification because regulations demand it.",
+  "explanation": "C1 Group B automotive negative.",
+  "chunks": {
+    "SUBJ": [
+      "the manufacturer",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "manufacture": {
+        "correct_forms": [
+          "doesn't manufacture"
+        ],
+        "wrong_forms": [
+          "don't manufacture",
+          "didn't manufacture",
+          "isn't manufacturing"
+        ],
+        "article_objects": [
+          "vehicles",
+          "components",
+          "prototypes"
+        ],
+        "distractor": "doesn't produce"
+      },
+      "assemble": {
+        "correct_forms": [
+          "doesn't assemble"
+        ],
+        "wrong_forms": [
+          "don't assemble",
+          "didn't assemble",
+          "isn't assembling"
+        ],
+        "article_objects": [
+          "cars",
+          "engines",
+          "units"
+        ],
+        "distractor": "doesn't construct"
+      },
+      "test": {
+        "correct_forms": [
+          "doesn't test"
+        ],
+        "wrong_forms": [
+          "don't test",
+          "didn't test",
+          "isn't testing"
+        ],
+        "article_objects": [
+          "vehicles",
+          "systems",
+          "prototypes"
+        ],
+        "distractor": "doesn't examine"
+      },
+      "distribute": {
+        "correct_forms": [
+          "doesn't distribute"
+        ],
+        "wrong_forms": [
+          "don't distribute",
+          "didn't distribute",
+          "isn't distributing"
+        ],
+        "article_objects": [
+          "vehicles",
+          "models",
+          "products"
+        ],
+        "distractor": "doesn't market"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "vehicles",
+      "cars",
+      "engines",
+      "prototypes"
+    ],
+    "PREP_PLACE": [
+      "in factories",
+      "at facilities",
+      "on assembly lines"
+    ],
+    "TIME": [
+      "without certification",
+      "hastily",
+      "without inspection"
+    ],
+    "REASON": [
+      "safety standards require it",
+      "regulations demand it",
+      "liability concerns exist"
+    ]
+  }
+}

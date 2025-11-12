@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_SPORTS_A1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "He plays football usually.",
+  "explanation": "Group B verbs add -s for habitual sports activities.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Tom"
+    ],
+    "VERB": {
+      "plays": {
+        "correct_forms": [
+          "plays"
+        ],
+        "wrong_forms": [
+          "play",
+          "played",
+          "is playing"
+        ],
+        "distractor": "plays well",
+        "objects": [
+          "football",
+          "tennis",
+          "basketball"
+        ]
+      },
+      "practices": {
+        "correct_forms": [
+          "practices"
+        ],
+        "wrong_forms": [
+          "practice",
+          "practiced",
+          "is practicing"
+        ],
+        "distractor": "practices hard",
+        "objects": [
+          "drills",
+          "exercises",
+          "techniques"
+        ]
+      },
+      "does": {
+        "correct_forms": [
+          "does"
+        ],
+        "wrong_forms": [
+          "do",
+          "did",
+          "is doing"
+        ],
+        "distractor": "does well",
+        "objects": [
+          "yoga",
+          "gymnastics",
+          "training"
+        ]
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually"
+    ]
+  }
+}

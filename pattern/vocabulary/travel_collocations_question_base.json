@@ -1,0 +1,120 @@
+{
+  "pattern_id": "TRAVEL_COLLOCATIONS_QUESTION_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Travel",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Do {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in travel contexts. Students must identify words that naturally pair with the given verbs in tourism and travel-related situations.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "museums and galleries",
+          "local attractions",
+          "historical landmarks",
+          "natural parks",
+          "cultural sites"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "airport lounges",
+        "objects": [],
+        "explanation": "The verb 'visit' commonly collocates with 'museums', 'local', 'historical' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "independent travel",
+          "organized tours",
+          "budget accommodations",
+          "luxury hotels",
+          "adventure activities"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "travel magazines",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'independent', 'organized', 'budget' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "book": {
+        "correct_forms": [
+          "flights in advance",
+          "accommodation early",
+          "travel insurance",
+          "guided excursions",
+          "airport transfers"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "spontaneous bookings",
+        "objects": [],
+        "explanation": "The verb 'book' commonly collocates with 'flights', 'accommodation', 'travel' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "research": {
+        "correct_forms": [
+          "destinations thoroughly",
+          "local customs",
+          "travel requirements",
+          "best travel times",
+          "visa regulations"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "general overviews",
+        "objects": [],
+        "explanation": "The verb 'research' commonly collocates with 'destinations', 'local', 'travel' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "cultural experiences",
+          "local cuisine",
+          "meeting new people",
+          "outdoor adventures",
+          "photography opportunities"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "minimal activities",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'cultural', 'local', 'meeting' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "when traveling",
+      "on vacation",
+      "during trips",
+      "while abroad",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

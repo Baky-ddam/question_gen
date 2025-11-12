@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_FASHION_C1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "fashion",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{GERUND}, {SUBJ} ____ {PREP_PLACE} {FREQUENCY}.",
+  "example": "Analyzing consumer behavior, she launches collections online quarterly.",
+  "explanation": "C1 Group B with gerund adverbial.",
+  "chunks": {
+    "SUBJ": [
+      "the designer",
+      "he",
+      "she"
+    ],
+    "GERUND": [
+      "Following trends",
+      "Analyzing consumer behavior",
+      "Forecasting styles",
+      "Curating collections"
+    ],
+    "VERB": {
+      "showcases": {
+        "correct_forms": [
+          "showcases"
+        ],
+        "wrong_forms": [
+          "showcase",
+          "showcased",
+          "is showcasing"
+        ],
+        "places": [
+          "in showrooms",
+          "at presentations",
+          "online"
+        ],
+        "distractor": "showcases beautifully"
+      },
+      "launches": {
+        "correct_forms": [
+          "launches"
+        ],
+        "wrong_forms": [
+          "launch",
+          "launched",
+          "is launching"
+        ],
+        "places": [
+          "in stores",
+          "globally",
+          "seasonally"
+        ],
+        "distractor": "launches triumphantly"
+      },
+      "promotes": {
+        "correct_forms": [
+          "promotes"
+        ],
+        "wrong_forms": [
+          "promote",
+          "promoted",
+          "is promoting"
+        ],
+        "places": [
+          "on social media",
+          "in marketing",
+          "through campaigns"
+        ],
+        "distractor": "promotes strategically"
+      },
+      "distributes": {
+        "correct_forms": [
+          "distributes"
+        ],
+        "wrong_forms": [
+          "distribute",
+          "distributed",
+          "is distributing"
+        ],
+        "places": [
+          "to retailers",
+          "internationally",
+          "through channels"
+        ],
+        "distractor": "distributes widely"
+      }
+    },
+    "PREP_PLACE": [
+      "in showrooms",
+      "in stores",
+      "online"
+    ],
+    "FREQUENCY": [
+      "seasonally",
+      "quarterly",
+      "annually"
+    ]
+  }
+}

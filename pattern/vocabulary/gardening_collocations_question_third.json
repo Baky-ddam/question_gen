@@ -1,0 +1,121 @@
+{
+  "pattern_id": "GARDENING_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Gardening",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in gardening and horticulture contexts. Students must select words that naturally collocate with gardening-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Paul",
+      "Karen",
+      "your mother"
+    ],
+    "VERB": {
+      "grow": {
+        "correct_forms": [
+          "vegetables at home",
+          "organic produce",
+          "beautiful flowers",
+          "fruit trees",
+          "garden herbs"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "dried herbs",
+        "objects": [],
+        "explanation": "The verb 'grow' commonly collocates with 'vegetables', 'organic', 'beautiful' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "have": {
+        "correct_forms": [
+          "a big garden",
+          "many plants",
+          "gardening experience",
+          "outdoor space",
+          "fruit trees"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "potted plants",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'a', 'many', 'gardening' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "spend": {
+        "correct_forms": [
+          "time gardening",
+          "weekends outside",
+          "hours planting",
+          "mornings in the garden",
+          "free time with plants"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "free time gaming",
+        "objects": [],
+        "explanation": "The verb 'spend' commonly collocates with 'time', 'weekends', 'hours' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "know": {
+        "correct_forms": [
+          "about plants",
+          "gardening techniques",
+          "plant names",
+          "growing seasons",
+          "soil types"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "food types",
+        "objects": [],
+        "explanation": "The verb 'know' commonly collocates with 'about', 'gardening', 'plant' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "use": {
+        "correct_forms": [
+          "organic fertilizer",
+          "natural methods",
+          "gardening tools",
+          "compost bins",
+          "rainwater systems"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "tap water only",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'organic', 'natural', 'gardening' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "at home",
+      "usually",
+      "well",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

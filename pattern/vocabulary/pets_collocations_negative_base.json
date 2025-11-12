@@ -1,0 +1,120 @@
+{
+  "pattern_id": "PETS_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Pets",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in pet care contexts. Students must identify words that naturally pair with verbs related to animal care and companionship.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "have": {
+        "correct_forms": [
+          "any pets",
+          "large dogs",
+          "exotic animals",
+          "many pets",
+          "farm animals"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "farm visits",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'any', 'large', 'exotic' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "big dogs",
+          "noisy pets",
+          "exotic animals",
+          "high-maintenance pets",
+          "aggressive animals"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "friendly animals",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'big', 'noisy', 'exotic' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "allow": {
+        "correct_forms": [
+          "pets indoors",
+          "dogs on furniture",
+          "animals in bedrooms",
+          "pets on beds",
+          "cats on counters"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "plants on counters",
+        "objects": [],
+        "explanation": "The verb 'allow' commonly collocates with 'pets', 'dogs', 'animals' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "feed": {
+        "correct_forms": [
+          "pets table scraps",
+          "dogs chocolate",
+          "cats milk",
+          "pets junk food",
+          "animals human food"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "animals pet food",
+        "objects": [],
+        "explanation": "The verb 'feed' commonly collocates with 'pets', 'dogs', 'cats' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "animal behavior",
+          "pet needs",
+          "training methods",
+          "pet signals",
+          "animal communication"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "verbal communication",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'animal', 'pet', 'training' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "at home",
+      "at all",
+      "very well",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

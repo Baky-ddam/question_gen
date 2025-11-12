@@ -1,0 +1,120 @@
+{
+  "pattern_id": "LEISURE_COLLOCATIONS_AFFIRMATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Leisure",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in leisure and hobby contexts. Students must select words that naturally collocate with recreation and entertainment verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "documentary films",
+          "live sports",
+          "comedy shows",
+          "streaming series",
+          "classic movies"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "outdated shows",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'documentary', 'live', 'comedy' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "play": {
+        "correct_forms": [
+          "board games",
+          "video games",
+          "musical instruments",
+          "team sports",
+          "card games"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "violent sports",
+        "objects": [],
+        "explanation": "The verb 'play' commonly collocates with 'board', 'video', 'musical' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "read": {
+        "correct_forms": [
+          "fiction novels",
+          "online articles",
+          "mystery books",
+          "historical biographies",
+          "science magazines"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "boring manuals",
+        "objects": [],
+        "explanation": "The verb 'read' commonly collocates with 'fiction', 'online', 'mystery' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "listen": {
+        "correct_forms": [
+          "classical music",
+          "popular podcasts",
+          "audiobooks",
+          "jazz performances",
+          "radio programs"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "annoying advertisements",
+        "objects": [],
+        "explanation": "The verb 'listen' commonly collocates with 'classical', 'popular', 'audiobooks' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "practice": {
+        "correct_forms": [
+          "yoga regularly",
+          "meditation daily",
+          "creative writing",
+          "photography skills",
+          "dance routines"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "unhealthy routines",
+        "objects": [],
+        "explanation": "The verb 'practice' commonly collocates with 'yoga', 'meditation', 'creative' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in free time",
+      "on weekends",
+      "every evening",
+      "after work",
+      "regularly"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

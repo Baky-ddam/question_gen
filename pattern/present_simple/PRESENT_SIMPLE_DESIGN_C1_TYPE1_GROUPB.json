@@ -1,0 +1,105 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_DESIGN_C1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "design",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ}, who {RELATIVE_CLAUSE}, ____ {ARTICLE_OBJ} {PREP_TIME}.",
+  "example": "The designer, who focuses on UX, prototypes models during sprints.",
+  "explanation": "C1 Group B design with relative clause and -s form.",
+  "chunks": {
+    "SUBJ": [
+      "the designer",
+      "he",
+      "she"
+    ],
+    "RELATIVE_CLAUSE": [
+      "specializes in branding",
+      "works remotely",
+      "focuses on UX",
+      "collaborates with clients"
+    ],
+    "VERB": {
+      "conceptualizes": {
+        "correct_forms": [
+          "conceptualizes"
+        ],
+        "wrong_forms": [
+          "conceptualize",
+          "conceptualized",
+          "is conceptualizing"
+        ],
+        "article_objects": [
+          "solutions",
+          "systems",
+          "frameworks"
+        ],
+        "distractor": "conceptualizes brilliantly"
+      },
+      "prototypes": {
+        "correct_forms": [
+          "prototypes"
+        ],
+        "wrong_forms": [
+          "prototype",
+          "prototyped",
+          "is prototyping"
+        ],
+        "article_objects": [
+          "models",
+          "interfaces",
+          "iterations"
+        ],
+        "distractor": "prototypes innovatively"
+      },
+      "refines": {
+        "correct_forms": [
+          "refines"
+        ],
+        "wrong_forms": [
+          "refine",
+          "refined",
+          "is refining"
+        ],
+        "article_objects": [
+          "concepts",
+          "designs",
+          "details"
+        ],
+        "distractor": "refines elegantly"
+      },
+      "implements": {
+        "correct_forms": [
+          "implements"
+        ],
+        "wrong_forms": [
+          "implement",
+          "implemented",
+          "is implementing"
+        ],
+        "article_objects": [
+          "changes",
+          "features",
+          "solutions"
+        ],
+        "distractor": "implements efficiently"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "solutions",
+      "models",
+      "concepts",
+      "changes"
+    ],
+    "PREP_TIME": [
+      "throughout development",
+      "during sprints",
+      "in iterations"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "TRAVEL_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Travel",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in travel contexts. Students must identify words that naturally pair with the given verbs in tourism and travel-related situations.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "tourist traps",
+          "crowded places",
+          "expensive restaurants",
+          "overrated attractions",
+          "package tours"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "scenic viewpoints",
+        "objects": [],
+        "explanation": "The verb 'visit' commonly collocates with 'tourist', 'crowded', 'expensive' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "book": {
+        "correct_forms": [
+          "last-minute flights",
+          "expensive hotels",
+          "tours without reviews",
+          "random accommodations",
+          "overpriced packages"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "discounted packages",
+        "objects": [],
+        "explanation": "The verb 'book' commonly collocates with 'last-minute', 'expensive', 'tours' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "trust": {
+        "correct_forms": [
+          "unlicensed tour guides",
+          "street vendors",
+          "unofficial taxi services",
+          "unverified websites",
+          "random travel agents"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "licensed operators",
+        "objects": [],
+        "explanation": "The verb 'trust' commonly collocates with 'unlicensed', 'street', 'unofficial' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "rushed itineraries",
+          "guided group tours",
+          "tourist crowds",
+          "jet lag",
+          "long layovers"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "flexible schedules",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'rushed', 'guided', 'tourist' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "chain hotels",
+          "all-inclusive resorts",
+          "organized excursions",
+          "busy tourist seasons",
+          "connecting flights"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "direct routes",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'chain', 'all-inclusive', 'organized' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "when traveling abroad",
+      "on vacation",
+      "during trips",
+      "as a rule",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

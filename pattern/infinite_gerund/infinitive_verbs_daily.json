@@ -1,0 +1,104 @@
+{
+  "pattern_id": "INFINITIVE_VERBS_DAILY",
+  "focus": "infinitive_verbs",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "Some verbs in English are followed by infinitives (to + verb). Common verbs that take infinitives include: want, plan, hope, decide, need, promise, agree, refuse.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "want": {
+        "correct_forms": [
+          "to learn Spanish",
+          "to buy a car",
+          "to travel abroad",
+          "to improve my skills",
+          "to save money"
+        ],
+        "wrong_forms": [
+          "to fail exams",
+          "to have problems",
+          "to be sick"
+        ],
+        "distractor": "to waste time",
+        "objects": [],
+        "explanation": "The verb 'want' requires an infinitive (to + verb) as its object."
+      },
+      "plan": {
+        "correct_forms": [
+          "to visit Paris",
+          "to start a business",
+          "to move abroad",
+          "to change jobs",
+          "to study abroad"
+        ],
+        "wrong_forms": [
+          "to quit early",
+          "to avoid work",
+          "to waste time"
+        ],
+        "distractor": "to give up",
+        "objects": [],
+        "explanation": "The verb 'plan' requires an infinitive (to + verb) as its object."
+      },
+      "hope": {
+        "correct_forms": [
+          "to find a job",
+          "to make friends",
+          "to improve quickly",
+          "to succeed",
+          "to learn something new"
+        ],
+        "wrong_forms": [
+          "to fail tests",
+          "to lose friends",
+          "to have accidents"
+        ],
+        "distractor": "to make enemies",
+        "objects": [],
+        "explanation": "The verb 'hope' requires an infinitive (to + verb) as its object."
+      },
+      "decide": {
+        "correct_forms": [
+          "to take a break",
+          "to try harder",
+          "to change careers",
+          "to pursue my dreams"
+        ],
+        "wrong_forms": [
+          "to give up",
+          "to stop trying",
+          "to quit everything"
+        ],
+        "distractor": "to avoid challenges",
+        "objects": [],
+        "explanation": "The verb 'decide' requires an infinitive (to + verb) as its object."
+      }
+    },
+    "CONTEXT": [
+      "soon",
+      "next year",
+      "someday",
+      "in the future",
+      "eventually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_conjugation",
+      "context_distractor"
+    ]
+  }
+}

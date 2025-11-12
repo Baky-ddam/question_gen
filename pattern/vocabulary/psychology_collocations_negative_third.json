@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Psychology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in psychology and mental health contexts. Students must identify words that naturally pair with psychological and behavioral verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Brian",
+      "Nina",
+      "my colleague"
+    ],
+    "VERB": {
+      "feel": {
+        "correct_forms": [
+          "sad often",
+          "angry easily",
+          "jealous",
+          "lonely anymore",
+          "anxious in public"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "confident in public",
+        "objects": [],
+        "explanation": "The verb 'feel' commonly collocates with 'sad', 'angry', 'jealous' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "being alone",
+          "crowded places",
+          "social events",
+          "meeting new people",
+          "group activities"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "solo activities",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'being', 'crowded', 'social' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "show": {
+        "correct_forms": [
+          "emotions easily",
+          "weakness",
+          "fear publicly",
+          "affection openly",
+          "negative feelings"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "positive feelings",
+        "objects": [],
+        "explanation": "The verb 'show' commonly collocates with 'emotions', 'weakness', 'fear' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "get": {
+        "correct_forms": [
+          "stressed easily",
+          "angry quickly",
+          "upset often",
+          "worried unnecessarily",
+          "discouraged"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "lost",
+        "objects": [],
+        "explanation": "The verb 'get' commonly collocates with 'stressed', 'angry', 'upset' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "trust": {
+        "correct_forms": [
+          "people easily",
+          "strangers",
+          "new acquaintances",
+          "others quickly",
+          "anyone immediately"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "loved ones immediately",
+        "objects": [],
+        "explanation": "The verb 'trust' commonly collocates with 'people', 'strangers', 'new' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "often",
+      "very much",
+      "at all",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

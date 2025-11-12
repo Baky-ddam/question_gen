@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_POLITICS_B2_TYPE2_GROUPA",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "politics",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_TIME} because {REASON}.",
+  "example": "Politicians don't support policies in parliament because it's controversial.",
+  "explanation": "B2 politics with reason clauses and negatives.",
+  "chunks": {
+    "SUBJ": [
+      "politicians",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "support": {
+        "correct_forms": [
+          "don't support"
+        ],
+        "wrong_forms": [
+          "doesn't support",
+          "didn't support",
+          "are not supporting"
+        ],
+        "article_objects": [
+          "policies",
+          "reforms",
+          "initiatives"
+        ],
+        "distractor": "don't oppose"
+      },
+      "implement": {
+        "correct_forms": [
+          "don't implement"
+        ],
+        "wrong_forms": [
+          "doesn't implement",
+          "didn't implement",
+          "are not implementing"
+        ],
+        "article_objects": [
+          "laws",
+          "changes",
+          "measures"
+        ],
+        "distractor": "don't introduce"
+      },
+      "propose": {
+        "correct_forms": [
+          "don't propose"
+        ],
+        "wrong_forms": [
+          "doesn't propose",
+          "didn't propose",
+          "are not proposing"
+        ],
+        "article_objects": [
+          "bills",
+          "amendments",
+          "solutions"
+        ],
+        "distractor": "don't suggest"
+      },
+      "approve": {
+        "correct_forms": [
+          "don't approve"
+        ],
+        "wrong_forms": [
+          "doesn't approve",
+          "didn't approve",
+          "are not approving"
+        ],
+        "article_objects": [
+          "budgets",
+          "legislation",
+          "decisions"
+        ],
+        "distractor": "don't authorize"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "policies",
+      "laws",
+      "bills",
+      "budgets"
+    ],
+    "PREP_TIME": [
+      "in parliament",
+      "at meetings",
+      "during sessions"
+    ],
+    "REASON": [
+      "it's controversial",
+      "it's unpopular",
+      "it's ineffective"
+    ]
+  }
+}

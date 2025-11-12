@@ -1,0 +1,121 @@
+{
+  "pattern_id": "FILM_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Film",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in film and cinema contexts. Students must identify words that naturally pair with verbs related to movies and entertainment.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Jack",
+      "Emma",
+      "my brother"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "romantic films",
+          "cartoons anymore",
+          "war movies",
+          "fantasy films",
+          "detective stories"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "mystery shows",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'romantic', 'cartoons', 'war' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "boring movies",
+          "predictable endings",
+          "remakes",
+          "sequels",
+          "franchise films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "standalone films",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'boring', 'predictable', 'remakes' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "go": {
+        "correct_forms": [
+          "to the cinema weekly",
+          "to crowded theaters",
+          "to opening nights",
+          "to film premieres",
+          "to midnight showings"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "to daytime shows",
+        "objects": [],
+        "explanation": "The verb 'go' commonly collocates with 'to', 'to', 'to' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "buy": {
+        "correct_forms": [
+          "expensive tickets",
+          "cinema snacks",
+          "film magazines",
+          "movie merchandise",
+          "collector editions"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "standard versions",
+        "objects": [],
+        "explanation": "The verb 'buy' commonly collocates with 'expensive', 'cinema', 'film' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "remember": {
+        "correct_forms": [
+          "actor names",
+          "film titles",
+          "plot details",
+          "character names",
+          "director names"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "film studios",
+        "objects": [],
+        "explanation": "The verb 'remember' commonly collocates with 'actor', 'film', 'plot' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "often",
+      "very much",
+      "at all",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

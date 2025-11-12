@@ -1,0 +1,95 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ENTERTAINMENT_A1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "entertainment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ACTIVITY}.",
+  "example": "They watch movies.",
+  "explanation": "Group A base form for entertainment activities.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "watch"
+        ],
+        "wrong_forms": [
+          "watches",
+          "watched",
+          "are watching"
+        ],
+        "activities": [
+          "movies",
+          "TV shows",
+          "videos"
+        ],
+        "distractor": "watch carefully"
+      },
+      "listen": {
+        "correct_forms": [
+          "listen"
+        ],
+        "wrong_forms": [
+          "listens",
+          "listened",
+          "are listening"
+        ],
+        "activities": [
+          "music",
+          "podcasts",
+          "songs"
+        ],
+        "distractor": "listen attentively"
+      },
+      "read": {
+        "correct_forms": [
+          "read"
+        ],
+        "wrong_forms": [
+          "reads",
+          "read",
+          "are reading"
+        ],
+        "activities": [
+          "books",
+          "magazines",
+          "comics"
+        ],
+        "distractor": "read fast"
+      },
+      "play": {
+        "correct_forms": [
+          "play"
+        ],
+        "wrong_forms": [
+          "plays",
+          "played",
+          "are playing"
+        ],
+        "activities": [
+          "games",
+          "video games",
+          "sports"
+        ],
+        "distractor": "play well"
+      }
+    },
+    "ACTIVITY": [
+      "movies",
+      "music",
+      "books",
+      "games"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_SPORTS_A1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "We play football every day.",
+  "explanation": "Use base form verbs with Group A subjects for routine sports activities.",
+  "chunks": {
+    "SUBJ": [
+      "we",
+      "you",
+      "they"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "play"
+        ],
+        "wrong_forms": [
+          "plays",
+          "played",
+          "are playing"
+        ],
+        "distractor": "play hard",
+        "objects": [
+          "football",
+          "tennis",
+          "basketball"
+        ]
+      },
+      "practice": {
+        "correct_forms": [
+          "practice"
+        ],
+        "wrong_forms": [
+          "practices",
+          "practiced",
+          "are practicing"
+        ],
+        "distractor": "practice daily",
+        "objects": [
+          "drills",
+          "exercises",
+          "techniques"
+        ]
+      },
+      "do": {
+        "correct_forms": [
+          "do"
+        ],
+        "wrong_forms": [
+          "does",
+          "did",
+          "are doing"
+        ],
+        "distractor": "do well",
+        "objects": [
+          "yoga",
+          "gymnastics",
+          "training"
+        ]
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually"
+    ]
+  }
+}

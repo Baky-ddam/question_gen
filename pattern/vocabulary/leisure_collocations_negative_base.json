@@ -1,0 +1,120 @@
+{
+  "pattern_id": "LEISURE_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Leisure",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in leisure and hobby contexts. Students must select words that naturally collocate with recreation and entertainment verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "reality TV shows",
+          "violent movies",
+          "lengthy documentaries",
+          "commercial advertisements",
+          "dubbed films"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "quality series",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'reality', 'violent', 'lengthy' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "play": {
+        "correct_forms": [
+          "violent video games",
+          "gambling games",
+          "competitive sports",
+          "contact sports",
+          "multiplayer games online"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "offline games",
+        "objects": [],
+        "explanation": "The verb 'play' commonly collocates with 'violent', 'gambling', 'competitive' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "spend": {
+        "correct_forms": [
+          "money on concerts",
+          "time on social media",
+          "weekends indoors",
+          "evenings watching TV",
+          "holidays working"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "money on hobbies",
+        "objects": [],
+        "explanation": "The verb 'spend' commonly collocates with 'money', 'time', 'weekends' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "crowded events",
+          "loud parties",
+          "extreme activities",
+          "late nights out",
+          "team competitions"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "individual pursuits",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'crowded', 'loud', 'extreme' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "participate": {
+        "correct_forms": [
+          "in group activities",
+          "in organized events",
+          "in competitive games",
+          "in social clubs",
+          "in public performances"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "in personal projects",
+        "objects": [],
+        "explanation": "The verb 'participate' commonly collocates with 'in', 'in', 'in' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in my free time",
+      "for entertainment",
+      "normally",
+      "as a rule",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "BUSINESS_COLLOCATIONS_QUESTION_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Business",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Do {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in business and professional contexts. Students must select the word that naturally collocates with the given verb based on typical usage in workplace English.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "weekly team meetings",
+          "professional conferences",
+          "networking events",
+          "training workshops",
+          "client presentations"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "leisure activities",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'weekly', 'professional', 'networking' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prioritize": {
+        "correct_forms": [
+          "urgent tasks first",
+          "client needs",
+          "deadlines strictly",
+          "quality over speed",
+          "team collaboration"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "individual work",
+        "objects": [],
+        "explanation": "The verb 'prioritize' commonly collocates with 'urgent', 'client', 'deadlines' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "communicate": {
+        "correct_forms": [
+          "with clients regularly",
+          "through email primarily",
+          "via video calls",
+          "in written reports",
+          "face-to-face when possible"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "remote only",
+        "objects": [],
+        "explanation": "The verb 'communicate' commonly collocates with 'with', 'through', 'via' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "delegate": {
+        "correct_forms": [
+          "routine tasks",
+          "administrative work",
+          "research projects",
+          "data entry",
+          "follow-up activities"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "key negotiations",
+        "objects": [],
+        "explanation": "The verb 'delegate' commonly collocates with 'routine', 'administrative', 'research' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "set": {
+        "correct_forms": [
+          "clear objectives",
+          "realistic deadlines",
+          "performance goals",
+          "quality standards",
+          "team expectations"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "loose expectations",
+        "objects": [],
+        "explanation": "The verb 'set' commonly collocates with 'clear', 'realistic', 'performance' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at work",
+      "professionally",
+      "in business",
+      "regularly",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

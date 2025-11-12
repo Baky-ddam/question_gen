@@ -1,0 +1,120 @@
+{
+  "pattern_id": "FOOD_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Food",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in Food contexts.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "eat": {
+        "correct_forms": [
+          "fast food regularly",
+          "processed snacks",
+          "fried dishes often",
+          "sugary desserts",
+          "red meat daily"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "balanced meals",
+        "objects": [],
+        "explanation": "The verb 'eat' commonly collocates with 'fast', 'processed', 'fried' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "cook": {
+        "correct_forms": [
+          "complicated recipes",
+          "deep-fried foods",
+          "elaborate desserts",
+          "spicy dishes",
+          "exotic ingredients"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "familiar recipes",
+        "objects": [],
+        "explanation": "The verb 'cook' commonly collocates with 'complicated', 'deep-fried', 'elaborate' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "use": {
+        "correct_forms": [
+          "artificial sweeteners",
+          "processed ingredients",
+          "canned vegetables",
+          "frozen meals",
+          "artificial flavors"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "fresh produce",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'artificial', 'processed', 'canned' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "follow": {
+        "correct_forms": [
+          "fad diets",
+          "strict meal plans",
+          "calorie counting apps",
+          "food trends blindly",
+          "extreme restrictions"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "expert advice",
+        "objects": [],
+        "explanation": "The verb 'follow' commonly collocates with 'fad', 'strict', 'calorie' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "waste": {
+        "correct_forms": [
+          "fresh ingredients",
+          "leftover meals",
+          "good produce",
+          "edible food",
+          "quality products"
+        ],
+        "wrong_forms": [
+          "everyday items",
+          "common objects",
+          "general things"
+        ],
+        "distractor": "contaminated food",
+        "objects": [],
+        "explanation": "The verb 'waste' commonly collocates with 'fresh', 'leftover', 'good' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at home",
+      "when cooking",
+      "normally",
+      "as a rule",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ART_B1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "B1",
+  "domain": "art",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {FREQUENCY}.",
+  "example": "She designs sculptures regularly.",
+  "explanation": "Group B in art with -s form.",
+  "chunks": {
+    "SUBJ": [
+      "the artist",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "creates": {
+        "correct_forms": [
+          "creates"
+        ],
+        "wrong_forms": [
+          "create",
+          "created",
+          "is creating"
+        ],
+        "article_objects": [
+          "artwork",
+          "paintings",
+          "sculptures"
+        ],
+        "distractor": "creates masterfully"
+      },
+      "paints": {
+        "correct_forms": [
+          "paints"
+        ],
+        "wrong_forms": [
+          "paint",
+          "painted",
+          "is painting"
+        ],
+        "article_objects": [
+          "masterpieces",
+          "canvases",
+          "murals"
+        ],
+        "distractor": "paints beautifully"
+      },
+      "designs": {
+        "correct_forms": [
+          "designs"
+        ],
+        "wrong_forms": [
+          "design",
+          "designed",
+          "is designing"
+        ],
+        "article_objects": [
+          "installations",
+          "sculptures",
+          "concepts"
+        ],
+        "distractor": "designs artistically"
+      },
+      "exhibits": {
+        "correct_forms": [
+          "exhibits"
+        ],
+        "wrong_forms": [
+          "exhibit",
+          "exhibited",
+          "is exhibiting"
+        ],
+        "article_objects": [
+          "artworks",
+          "collections",
+          "pieces"
+        ],
+        "distractor": "exhibits globally"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "artwork",
+      "paintings",
+      "sculptures",
+      "collections"
+    ],
+    "FREQUENCY": [
+      "daily",
+      "regularly",
+      "often",
+      "frequently"
+    ]
+  }
+}

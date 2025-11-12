@@ -1,0 +1,120 @@
+{
+  "pattern_id": "WEATHER_COLLOCATIONS_AFFIRMATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Weather",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in weather and climate contexts. Students must select words that naturally collocate with weather-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "like": {
+        "correct_forms": [
+          "sunny weather",
+          "warm days",
+          "cool evenings",
+          "spring seasons",
+          "clear skies"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "cloudy skies",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'sunny', 'warm', 'cool' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "check": {
+        "correct_forms": [
+          "weather forecasts daily",
+          "temperature regularly",
+          "rain predictions",
+          "weather apps",
+          "sky conditions"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "traffic conditions",
+        "objects": [],
+        "explanation": "The verb 'check' commonly collocates with 'weather', 'temperature', 'rain' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "sunny days",
+          "nice weather",
+          "cool breezes",
+          "warm sunshine",
+          "beautiful sunsets"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "dark evenings",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'sunny', 'nice', 'cool' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "warm weather",
+          "dry seasons",
+          "sunny days",
+          "mild temperatures",
+          "clear weather"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "foggy weather",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'warm', 'dry', 'sunny' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "wear": {
+        "correct_forms": [
+          "light clothes",
+          "warm jackets",
+          "raincoats",
+          "sun hats",
+          "comfortable shoes"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "high heels",
+        "objects": [],
+        "explanation": "The verb 'wear' commonly collocates with 'light', 'warm', 'raincoats' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "usually",
+      "in summer",
+      "every day",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "FILM_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Film",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in film and cinema contexts. Students must identify words that naturally pair with verbs related to movies and entertainment.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "scary movies",
+          "violent films",
+          "sad stories",
+          "long movies",
+          "boring films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "exciting films",
+        "objects": [],
+        "explanation": "The verb 'watch' commonly collocates with 'scary', 'violent', 'sad' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "horror films",
+          "science fiction",
+          "westerns",
+          "musicals",
+          "silent movies"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "talking pictures",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'horror', 'science', 'westerns' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "go": {
+        "correct_forms": [
+          "to cinemas often",
+          "to late shows",
+          "to film festivals",
+          "to movie theaters alone",
+          "to 3D screenings"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "to regular screenings",
+        "objects": [],
+        "explanation": "The verb 'go' commonly collocates with 'to', 'to', 'to' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "sad endings",
+          "complicated plots",
+          "slow movies",
+          "black and white films",
+          "dubbed versions"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "original versions",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'sad', 'complicated', 'slow' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "foreign films without subtitles",
+          "complex stories",
+          "art house movies",
+          "symbolic films",
+          "abstract plots"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "straightforward plots",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'foreign', 'complex', 'art' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "often",
+      "very much",
+      "at all",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

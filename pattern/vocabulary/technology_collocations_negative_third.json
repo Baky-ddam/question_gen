@@ -1,0 +1,121 @@
+{
+  "pattern_id": "TECHNOLOGY_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Technology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in technology contexts. Students must identify words that naturally pair with technology-related verbs in digital and computing environments.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Alex",
+      "Emma",
+      "my colleague"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "video conferencing tools",
+          "project management software",
+          "collaborative platforms",
+          "automation tools",
+          "AI assistants"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "paper documents",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'video', 'project', 'collaborative' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "trust": {
+        "correct_forms": [
+          "facial recognition systems",
+          "biometric authentication",
+          "cloud-based solutions",
+          "third-party services",
+          "automated systems completely"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "human oversight",
+        "objects": [],
+        "explanation": "The verb 'trust' commonly collocates with 'facial', 'biometric', 'cloud-based' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "update": {
+        "correct_forms": [
+          "software automatically",
+          "operating systems frequently",
+          "mobile apps regularly",
+          "device firmware",
+          "security patches immediately"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "verified patches",
+        "objects": [],
+        "explanation": "The verb 'update' commonly collocates with 'software', 'operating', 'mobile' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "backup": {
+        "correct_forms": [
+          "data regularly",
+          "important files",
+          "system configurations",
+          "work documents",
+          "personal photos"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "spam emails",
+        "objects": [],
+        "explanation": "The verb 'backup' commonly collocates with 'data', 'important', 'system' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "complex algorithms",
+          "programming concepts",
+          "technical documentation",
+          "coding languages",
+          "system architecture"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "standard operations",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'complex', 'programming', 'technical' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at work",
+      "with technology",
+      "generally",
+      "typically",
+      "most of the time"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

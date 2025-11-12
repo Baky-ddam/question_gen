@@ -1,0 +1,120 @@
+{
+  "pattern_id": "GARDENING_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Gardening",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in gardening and horticulture contexts. Students must select words that naturally collocate with gardening-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "chemical pesticides",
+          "artificial fertilizers",
+          "plastic pots",
+          "harmful sprays",
+          "toxic products"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "eco products",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'chemical', 'artificial', 'plastic' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "grow": {
+        "correct_forms": [
+          "exotic plants",
+          "difficult flowers",
+          "tropical fruits",
+          "rare species",
+          "demanding crops"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "simple crops",
+        "objects": [],
+        "explanation": "The verb 'grow' commonly collocates with 'exotic', 'difficult', 'tropical' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "have": {
+        "correct_forms": [
+          "much free time",
+          "a large garden",
+          "expensive tools",
+          "professional equipment",
+          "greenhouse space"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "outdoor space",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'much', 'a', 'expensive' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "weeding tasks",
+          "hard physical work",
+          "muddy hands",
+          "insect problems",
+          "constant maintenance"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "occasional care",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'weeding', 'hard', 'muddy' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "need": {
+        "correct_forms": [
+          "expensive equipment",
+          "special training",
+          "large spaces",
+          "professional help",
+          "costly materials"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "cheap materials",
+        "objects": [],
+        "explanation": "The verb 'need' commonly collocates with 'expensive', 'special', 'large' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "for gardening",
+      "at all",
+      "very much",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

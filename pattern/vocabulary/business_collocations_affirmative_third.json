@@ -1,0 +1,122 @@
+{
+  "pattern_id": "BUSINESS_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Business",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in business and professional contexts. Students must select the word that naturally collocates with the given verb based on typical usage in workplace English.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "David",
+      "Jennifer",
+      "the manager",
+      "my boss"
+    ],
+    "VERB": {
+      "manages": {
+        "correct_forms": [
+          "multiple projects",
+          "small teams",
+          "client relationships",
+          "daily operations",
+          "important deadlines"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "workplace conflicts",
+        "objects": [],
+        "explanation": "The verb 'manage' commonly collocates with 'multiple', 'small', 'client' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "attends": {
+        "correct_forms": [
+          "business meetings",
+          "professional conferences",
+          "client presentations",
+          "team briefings",
+          "training sessions"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "redundancy announcements",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'business', 'professional', 'client' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "develops": {
+        "correct_forms": [
+          "marketing strategies",
+          "business plans",
+          "new products",
+          "professional skills",
+          "client portfolios"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "company debts",
+        "objects": [],
+        "explanation": "The verb 'develop' commonly collocates with 'marketing', 'business', 'new' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "negotiates": {
+        "correct_forms": [
+          "contract terms",
+          "business deals",
+          "partnership agreements",
+          "salary increases",
+          "project budgets"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "contract terminations",
+        "objects": [],
+        "explanation": "The verb 'negotiate' commonly collocates with 'contract', 'business', 'partnership' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "analyzes": {
+        "correct_forms": [
+          "market trends",
+          "sales data",
+          "customer feedback",
+          "financial reports",
+          "competitor strategies"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "company scandals",
+        "objects": [],
+        "explanation": "The verb 'analyze' commonly collocates with 'market', 'sales', 'customer' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at the office",
+      "every week",
+      "during work hours",
+      "regularly",
+      "in meetings"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

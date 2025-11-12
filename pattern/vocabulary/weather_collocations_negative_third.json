@@ -1,0 +1,121 @@
+{
+  "pattern_id": "WEATHER_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Weather",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in weather and climate contexts. Students must select words that naturally collocate with weather-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Chris",
+      "Amy",
+      "it"
+    ],
+    "VERB": {
+      "like": {
+        "correct_forms": [
+          "sunny weather",
+          "warm days",
+          "summer heat",
+          "dry seasons",
+          "tropical climate"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "arctic climate",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'sunny', 'warm', 'summer' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "rain": {
+        "correct_forms": [
+          "much here",
+          "in summer",
+          "every day",
+          "at night",
+          "heavily"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "lightly",
+        "objects": [],
+        "explanation": "The verb 'rain' commonly collocates with 'much', 'in', 'every' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "snow": {
+        "correct_forms": [
+          "in this area",
+          "during winter",
+          "very often",
+          "in the city",
+          "anymore"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "usually",
+        "objects": [],
+        "explanation": "The verb 'snow' commonly collocates with 'in', 'during', 'very' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "mind": {
+        "correct_forms": [
+          "cold weather",
+          "rainy days",
+          "cloudy skies",
+          "winter months",
+          "bad weather"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "good weather",
+        "objects": [],
+        "explanation": "The verb 'mind' commonly collocates with 'cold', 'rainy', 'cloudy' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "affect": {
+        "correct_forms": [
+          "his mood",
+          "her plans",
+          "daily routine",
+          "outdoor activities",
+          "work schedule"
+        ],
+        "wrong_forms": [
+          "weather apps",
+          "thermometers",
+          "rain gauges"
+        ],
+        "distractor": "meal schedule",
+        "objects": [],
+        "explanation": "The verb 'affect' commonly collocates with 'his', 'her', 'daily' and similar words in weather contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "very much",
+      "at all",
+      "often",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

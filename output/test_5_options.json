@@ -1,0 +1,56 @@
+[
+  {
+    "question_id": "GERUND_VERBS_DAILY_0000",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "They love ____ on weekends.",
+    "options": {
+      "A": "listening to music",
+      "B": "having problems",
+      "C": "listen to music",
+      "D": "listens to music",
+      "E": "to listen to music"
+    },
+    "correct_answer": "A",
+    "explanation": "The verb 'love' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_conjugation",
+      "context_distractor"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0001",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "We decide ____ next year.",
+    "options": {
+      "A": "takes a break",
+      "B": "to take a break",
+      "C": "take a break",
+      "D": "taking a break",
+      "E": "to give up"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'decide' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_conjugation",
+      "context_distractor"
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PSYCHOLOGY_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Psychology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in psychology and mental health contexts. Students must identify words that naturally pair with psychological and behavioral verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Greg",
+      "Diana",
+      "your friend"
+    ],
+    "VERB": {
+      "feel": {
+        "correct_forms": [
+          "happy at work",
+          "comfortable in crowds",
+          "confident in public",
+          "stressed often",
+          "relaxed on weekends"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "free on weekends",
+        "objects": [],
+        "explanation": "The verb 'feel' commonly collocates with 'happy', 'comfortable', 'confident' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "think": {
+        "correct_forms": [
+          "about others' feelings",
+          "positively",
+          "before acting",
+          "deeply about problems",
+          "creatively"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "logically",
+        "objects": [],
+        "explanation": "The verb 'think' commonly collocates with 'about', 'positively', 'before' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "being around people",
+          "quiet environments",
+          "social activities",
+          "new experiences",
+          "routine"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "schedule",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'being', 'quiet', 'social' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "get": {
+        "correct_forms": [
+          "nervous easily",
+          "angry quickly",
+          "upset often",
+          "stressed at work",
+          "worried about things"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "confused about things",
+        "objects": [],
+        "explanation": "The verb 'get' commonly collocates with 'nervous', 'angry', 'upset' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "show": {
+        "correct_forms": [
+          "emotions openly",
+          "kindness to others",
+          "empathy",
+          "respect for feelings",
+          "understanding"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "knowledge",
+        "objects": [],
+        "explanation": "The verb 'show' commonly collocates with 'emotions', 'kindness', 'empathy' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "often",
+      "regularly",
+      "normally",
+      "generally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

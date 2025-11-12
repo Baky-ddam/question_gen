@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_SOCIALMEDIA_A2_TYPE2_GROUPB",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "social_media",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "She doesn't follow accounts usually.",
+  "explanation": "Negative Group B: doesn't + verb.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my friend"
+    ],
+    "VERB": {
+      "post": {
+        "correct_forms": [
+          "doesn't post"
+        ],
+        "wrong_forms": [
+          "don't post",
+          "didn't post",
+          "isn't posting"
+        ],
+        "objects": [
+          "photos",
+          "videos",
+          "updates"
+        ],
+        "distractor": "doesn't share"
+      },
+      "share": {
+        "correct_forms": [
+          "doesn't share"
+        ],
+        "wrong_forms": [
+          "don't share",
+          "didn't share",
+          "isn't sharing"
+        ],
+        "objects": [
+          "photos",
+          "news",
+          "stories"
+        ],
+        "distractor": "doesn't post"
+      },
+      "like": {
+        "correct_forms": [
+          "doesn't like"
+        ],
+        "wrong_forms": [
+          "don't like",
+          "didn't like",
+          "isn't liking"
+        ],
+        "objects": [
+          "posts",
+          "comments",
+          "pictures"
+        ],
+        "distractor": "doesn't dislike"
+      },
+      "follow": {
+        "correct_forms": [
+          "doesn't follow"
+        ],
+        "wrong_forms": [
+          "don't follow",
+          "didn't follow",
+          "isn't following"
+        ],
+        "objects": [
+          "accounts",
+          "pages",
+          "friends"
+        ],
+        "distractor": "doesn't unfollow"
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

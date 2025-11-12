@@ -1,0 +1,122 @@
+{
+  "pattern_id": "TECHNOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Technology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in technology contexts. Students must identify words that naturally pair with technology-related verbs in digital and computing environments.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Mark",
+      "Emma",
+      "my colleague",
+      "the developer"
+    ],
+    "VERB": {
+      "uses": {
+        "correct_forms": [
+          "cloud storage",
+          "social media platforms",
+          "productivity apps",
+          "video conferencing tools",
+          "password managers"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "infected files",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'cloud', 'social', 'productivity' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "checks": {
+        "correct_forms": [
+          "email notifications",
+          "social media updates",
+          "online news",
+          "weather forecasts",
+          "stock prices"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "phishing emails",
+        "objects": [],
+        "explanation": "The verb 'check' commonly collocates with 'email', 'social', 'online' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "downloads": {
+        "correct_forms": [
+          "mobile applications",
+          "software updates",
+          "digital content",
+          "educational resources",
+          "productivity tools"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "dangerous attachments",
+        "objects": [],
+        "explanation": "The verb 'download' commonly collocates with 'mobile', 'software', 'digital' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "browses": {
+        "correct_forms": [
+          "online stores",
+          "educational websites",
+          "news portals",
+          "tech forums",
+          "streaming platforms"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "dangerous domains",
+        "objects": [],
+        "explanation": "The verb 'browse' commonly collocates with 'online', 'educational', 'news' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "shares": {
+        "correct_forms": [
+          "digital files",
+          "important documents",
+          "photos online",
+          "useful links",
+          "technical knowledge"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "confidential data",
+        "objects": [],
+        "explanation": "The verb 'share' commonly collocates with 'digital', 'important', 'photos' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "daily",
+      "at work",
+      "for communication",
+      "regularly",
+      "every morning"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

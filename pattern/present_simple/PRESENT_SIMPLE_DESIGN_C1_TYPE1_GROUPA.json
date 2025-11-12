@@ -1,0 +1,105 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_DESIGN_C1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "design",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ}, who {RELATIVE_CLAUSE}, ____ {ARTICLE_OBJ} {PREP_TIME}.",
+  "example": "Designers, who specialize in branding, conceptualize solutions throughout development.",
+  "explanation": "C1 design with relative clause introducing subject expertise.",
+  "chunks": {
+    "SUBJ": [
+      "designers",
+      "professionals",
+      "they"
+    ],
+    "RELATIVE_CLAUSE": [
+      "specialize in branding",
+      "work remotely",
+      "focus on UX",
+      "collaborate with clients"
+    ],
+    "VERB": {
+      "conceptualize": {
+        "correct_forms": [
+          "conceptualize"
+        ],
+        "wrong_forms": [
+          "conceptualizes",
+          "conceptualized",
+          "are conceptualizing"
+        ],
+        "article_objects": [
+          "solutions",
+          "systems",
+          "frameworks"
+        ],
+        "distractor": "conceptualize abstractly"
+      },
+      "prototype": {
+        "correct_forms": [
+          "prototype"
+        ],
+        "wrong_forms": [
+          "prototypes",
+          "prototyped",
+          "are prototyping"
+        ],
+        "article_objects": [
+          "models",
+          "interfaces",
+          "iterations"
+        ],
+        "distractor": "prototype rapidly"
+      },
+      "refine": {
+        "correct_forms": [
+          "refine"
+        ],
+        "wrong_forms": [
+          "refines",
+          "refined",
+          "are refining"
+        ],
+        "article_objects": [
+          "concepts",
+          "designs",
+          "details"
+        ],
+        "distractor": "refine meticulously"
+      },
+      "implement": {
+        "correct_forms": [
+          "implement"
+        ],
+        "wrong_forms": [
+          "implements",
+          "implemented",
+          "are implementing"
+        ],
+        "article_objects": [
+          "changes",
+          "features",
+          "solutions"
+        ],
+        "distractor": "implement pragmatically"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "solutions",
+      "models",
+      "concepts",
+      "changes"
+    ],
+    "PREP_TIME": [
+      "throughout development",
+      "during sprints",
+      "in iterations"
+    ]
+  }
+}

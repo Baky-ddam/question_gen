@@ -1,0 +1,120 @@
+{
+  "pattern_id": "PSYCHOLOGY_COLLOCATIONS_NEGATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Psychology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} don't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in psychology and mental health contexts. Students must identify words that naturally pair with psychological and behavioral verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "feel": {
+        "correct_forms": [
+          "comfortable in crowds",
+          "confident speaking publicly",
+          "safe in new places",
+          "happy under pressure",
+          "relaxed around strangers"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "friendly around strangers",
+        "objects": [],
+        "explanation": "The verb 'feel' commonly collocates with 'comfortable', 'confident', 'safe' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "stressful situations",
+          "negative people",
+          "conflict",
+          "confrontation",
+          "uncertainty"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "certainty",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'stressful', 'negative', 'conflict' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "complex emotions",
+          "other perspectives",
+          "social cues",
+          "nonverbal signals",
+          "hidden meanings"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "obvious meanings",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'complex', 'other', 'social' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "worry": {
+        "correct_forms": [
+          "about small things",
+          "about the future",
+          "about others' opinions",
+          "unnecessarily",
+          "about past mistakes"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "about future plans",
+        "objects": [],
+        "explanation": "The verb 'worry' commonly collocates with 'about', 'about', 'about' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "express": {
+        "correct_forms": [
+          "feelings easily",
+          "emotions openly",
+          "anger publicly",
+          "disagreement directly",
+          "vulnerability"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "confidence",
+        "objects": [],
+        "explanation": "The verb 'expres' commonly collocates with 'feelings', 'emotions', 'anger' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "often",
+      "very much",
+      "at all",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0000",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "We plan ____ next year.",
+    "options": {
+      "A": "study abroad",
+      "B": "to study abroad",
+      "C": "to learn Spanish",
+      "D": "studying abroad"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'plan' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0001",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "We plan ____ next year.",
+    "options": {
+      "A": "visitting Paris",
+      "B": "visit Paris",
+      "C": "to learn Spanish",
+      "D": "to visit Paris"
+    },
+    "correct_answer": "D",
+    "explanation": "The verb 'plan' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0002",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You decide ____ in the future.",
+    "options": {
+      "A": "change careers",
+      "B": "changing careers",
+      "C": "to change careers",
+      "D": "to learn Spanish"
+    },
+    "correct_answer": "C",
+    "explanation": "The verb 'decide' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0003",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You decide ____ soon.",
+    "options": {
+      "A": "taking a break",
+      "B": "to take a break",
+      "C": "take a break",
+      "D": "to learn Spanish"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'decide' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0004",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "I enjoy ____ on weekends.",
+    "options": {
+      "A": "playing sports",
+      "B": "to play sports",
+      "C": "play sports",
+      "D": "eating junk food"
+    },
+    "correct_answer": "A",
+    "explanation": "The verb 'enjoy' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0005",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "They hope ____ in the future.",
+    "options": {
+      "A": "succeed",
+      "B": "succeeding",
+      "C": "to succeed",
+      "D": "to learn Spanish"
+    },
+    "correct_answer": "C",
+    "explanation": "The verb 'hope' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0006",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "You enjoy ____ on weekends.",
+    "options": {
+      "A": "eating junk food",
+      "B": "listening to music",
+      "C": "to listen to music",
+      "D": "listen to music"
+    },
+    "correct_answer": "B",
+    "explanation": "The verb 'enjoy' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0007",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "They avoid ____ on weekends.",
+    "options": {
+      "A": "eating junk food",
+      "B": "reading books",
+      "C": "eat junk food",
+      "D": "to eat junk food"
+    },
+    "correct_answer": "A",
+    "explanation": "The verb 'avoid' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "INFINITIVE_VERBS_DAILY_0008",
+    "pattern_id": "INFINITIVE_VERBS_DAILY",
+    "focus": "infinitive_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "I hope ____ in the future.",
+    "options": {
+      "A": "succeeding",
+      "B": "succeed",
+      "C": "to learn Spanish",
+      "D": "to succeed"
+    },
+    "correct_answer": "D",
+    "explanation": "The verb 'hope' requires an infinitive (to + verb) as its object.",
+    "distractor_methods": [
+      "to_gerund",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  },
+  {
+    "question_id": "GERUND_VERBS_DAILY_0009",
+    "pattern_id": "GERUND_VERBS_DAILY",
+    "focus": "gerund_verbs",
+    "level": "B1",
+    "domain": "daily_life",
+    "category": "grammar",
+    "sub_grammar": [
+      "present_simple"
+    ],
+    "sentence": "We enjoy ____ in free time.",
+    "options": {
+      "A": "eating junk food",
+      "B": "play sports",
+      "C": "to play sports",
+      "D": "playing sports"
+    },
+    "correct_answer": "D",
+    "explanation": "The verb 'enjoy' requires a gerund (verb + -ing) as its object.",
+    "distractor_methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_context"
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "TRAVEL_COLLOCATIONS_AFFIRMATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Travel",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in travel contexts. Students must identify words that naturally pair with the given verbs in tourism and travel-related situations.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "different countries",
+          "historical sites",
+          "local markets",
+          "famous museums",
+          "cultural festivals"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "forbidden sites",
+        "objects": [],
+        "explanation": "The verb 'visit' commonly collocates with 'different', 'historical', 'local' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "explore": {
+        "correct_forms": [
+          "new destinations",
+          "hidden beaches",
+          "mountain trails",
+          "ancient ruins",
+          "coastal towns"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "unsafe regions",
+        "objects": [],
+        "explanation": "The verb 'explore' commonly collocates with 'new', 'hidden', 'mountain' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "book": {
+        "correct_forms": [
+          "hotel rooms online",
+          "flight tickets early",
+          "guided tours",
+          "vacation packages",
+          "accommodation in advance"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "overpriced hotels",
+        "objects": [],
+        "explanation": "The verb 'book' commonly collocates with 'hotel', 'flight', 'guided' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "solo travel",
+          "group tours",
+          "budget accommodations",
+          "off-season trips",
+          "direct flights"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "crowded airports",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'solo', 'group', 'budget' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "cultural experiences",
+          "local cuisine",
+          "scenic views",
+          "adventure activities",
+          "historical tours"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "luggage tags",
+          "boarding passes"
+        ],
+        "distractor": "tourist scams",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'cultural', 'local', 'scenic' and similar words in travel contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "when traveling abroad",
+      "during vacations",
+      "on every trip",
+      "whenever possible",
+      "regularly"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

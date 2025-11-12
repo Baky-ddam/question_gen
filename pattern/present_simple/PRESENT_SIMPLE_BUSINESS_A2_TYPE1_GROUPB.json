@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_BUSINESS_A2_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "The manager organizes meetings usually.",
+  "explanation": "Group B -s form in business context.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the manager"
+    ],
+    "VERB": {
+      "attends": {
+        "correct_forms": [
+          "attends"
+        ],
+        "wrong_forms": [
+          "attend",
+          "attended",
+          "is attending"
+        ],
+        "objects": [
+          "meetings",
+          "conferences",
+          "events"
+        ],
+        "distractor": "attends actively"
+      },
+      "organizes": {
+        "correct_forms": [
+          "organizes"
+        ],
+        "wrong_forms": [
+          "organize",
+          "organized",
+          "is organizing"
+        ],
+        "objects": [
+          "meetings",
+          "projects",
+          "events"
+        ],
+        "distractor": "organizes efficiently"
+      },
+      "prepares": {
+        "correct_forms": [
+          "prepares"
+        ],
+        "wrong_forms": [
+          "prepare",
+          "prepared",
+          "is preparing"
+        ],
+        "objects": [
+          "reports",
+          "documents",
+          "presentations"
+        ],
+        "distractor": "prepares thoroughly"
+      },
+      "reviews": {
+        "correct_forms": [
+          "reviews"
+        ],
+        "wrong_forms": [
+          "review",
+          "reviewed",
+          "is reviewing"
+        ],
+        "objects": [
+          "contracts",
+          "proposals",
+          "budgets"
+        ],
+        "distractor": "reviews carefully"
+      }
+    },
+    "FREQUENCY": [
+      "every day",
+      "usually",
+      "often"
+    ]
+  }
+}

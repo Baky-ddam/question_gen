@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_TECHNOLOGY_A1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I use computers in the morning.",
+  "explanation": "Base form for Group A with technology-related activities.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "use"
+        ],
+        "wrong_forms": [
+          "uses",
+          "used",
+          "am using"
+        ],
+        "objects": [
+          "computers",
+          "phones",
+          "tablets"
+        ],
+        "distractor": "use devices"
+      },
+      "check": {
+        "correct_forms": [
+          "check"
+        ],
+        "wrong_forms": [
+          "checks",
+          "checked",
+          "am checking"
+        ],
+        "objects": [
+          "email",
+          "messages",
+          "notifications"
+        ],
+        "distractor": "check often"
+      },
+      "browse": {
+        "correct_forms": [
+          "browse"
+        ],
+        "wrong_forms": [
+          "browses",
+          "browsed",
+          "am browsing"
+        ],
+        "objects": [
+          "websites",
+          "apps",
+          "the internet"
+        ],
+        "distractor": "browse safely"
+      }
+    },
+    "TIME": [
+      "in the morning",
+      "at night"
+    ]
+  }
+}

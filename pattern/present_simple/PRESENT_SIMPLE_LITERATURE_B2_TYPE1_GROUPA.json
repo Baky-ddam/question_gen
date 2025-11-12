@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_LITERATURE_B2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "B2",
+  "domain": "literature",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} {PREP_TIME} because {REASON}.",
+  "example": "Authors write novels regularly because readers demand it.",
+  "explanation": "B2 literature with reason clauses.",
+  "chunks": {
+    "SUBJ": [
+      "authors",
+      "writers",
+      "they"
+    ],
+    "VERB": {
+      "write": {
+        "correct_forms": [
+          "write"
+        ],
+        "wrong_forms": [
+          "writes",
+          "wrote",
+          "are writing"
+        ],
+        "article_objects": [
+          "novels",
+          "essays",
+          "poetry"
+        ],
+        "distractor": "write beautifully"
+      },
+      "publish": {
+        "correct_forms": [
+          "publish"
+        ],
+        "wrong_forms": [
+          "publishes",
+          "published",
+          "are publishing"
+        ],
+        "article_objects": [
+          "books",
+          "articles",
+          "works"
+        ],
+        "distractor": "publish regularly"
+      },
+      "revise": {
+        "correct_forms": [
+          "revise"
+        ],
+        "wrong_forms": [
+          "revises",
+          "revised",
+          "are revising"
+        ],
+        "article_objects": [
+          "manuscripts",
+          "drafts",
+          "texts"
+        ],
+        "distractor": "revise thoroughly"
+      },
+      "critique": {
+        "correct_forms": [
+          "critique"
+        ],
+        "wrong_forms": [
+          "critiques",
+          "critiqued",
+          "are critiquing"
+        ],
+        "article_objects": [
+          "works",
+          "pieces",
+          "publications"
+        ],
+        "distractor": "critique harshly"
+      }
+    },
+    "ARTICLE_OBJ": [
+      "novels",
+      "books",
+      "manuscripts",
+      "works"
+    ],
+    "PREP_TIME": [
+      "every year",
+      "regularly",
+      "frequently"
+    ],
+    "REASON": [
+      "readers demand it",
+      "it's their passion",
+      "the market requires it"
+    ]
+  }
+}

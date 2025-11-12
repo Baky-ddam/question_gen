@@ -1,0 +1,121 @@
+{
+  "pattern_id": "LEISURE_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Leisure",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in leisure and hobby contexts. Students must select words that naturally collocate with recreation and entertainment verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Peter",
+      "Rachel",
+      "your friend"
+    ],
+    "VERB": {
+      "enjoy": {
+        "correct_forms": [
+          "photography",
+          "gardening",
+          "painting",
+          "cycling",
+          "cooking as a hobby"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "working extra",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'photography', 'gardening', 'painting' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "practice": {
+        "correct_forms": [
+          "yoga daily",
+          "meditation regularly",
+          "martial arts",
+          "running marathons",
+          "swimming weekly"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "rare swimming",
+        "objects": [],
+        "explanation": "The verb 'practice' commonly collocates with 'yoga', 'meditation', 'martial' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "attend": {
+        "correct_forms": [
+          "concerts frequently",
+          "art exhibitions",
+          "theater performances",
+          "sports events",
+          "film festivals"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "streaming services",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'concerts', 'art', 'theater' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "outdoor adventures",
+          "indoor activities",
+          "solo hobbies",
+          "group entertainment",
+          "creative pursuits"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "passive hobbies",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'outdoor', 'indoor', 'solo' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "dedicate": {
+        "correct_forms": [
+          "time to hobbies",
+          "weekends to projects",
+          "evenings to learning",
+          "mornings to exercise",
+          "holidays to travel"
+        ],
+        "wrong_forms": [
+          "ticket stubs",
+          "program booklets",
+          "membership cards"
+        ],
+        "distractor": "holidays to home",
+        "objects": [],
+        "explanation": "The verb 'dedicate' commonly collocates with 'time', 'weekends', 'evenings' and similar words in leisure contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "during free time",
+      "for relaxation",
+      "as a hobby",
+      "regularly",
+      "typically"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

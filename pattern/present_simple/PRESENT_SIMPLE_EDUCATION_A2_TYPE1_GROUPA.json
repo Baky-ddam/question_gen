@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_EDUCATION_A2_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PREP_TIME}.",
+  "example": "Students study English after school.",
+  "explanation": "Group A verbs in education context with prep+time for specific timing.",
+  "chunks": {
+    "SUBJ": [
+      "students",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "study": {
+        "correct_forms": [
+          "study"
+        ],
+        "wrong_forms": [
+          "studies",
+          "studied",
+          "are studying"
+        ],
+        "objects": [
+          "English",
+          "mathematics",
+          "history"
+        ],
+        "distractor": "study hard"
+      },
+      "learn": {
+        "correct_forms": [
+          "learn"
+        ],
+        "wrong_forms": [
+          "learns",
+          "learned",
+          "are learning"
+        ],
+        "objects": [
+          "languages",
+          "skills",
+          "subjects"
+        ],
+        "distractor": "learn quickly"
+      },
+      "practice": {
+        "correct_forms": [
+          "practice"
+        ],
+        "wrong_forms": [
+          "practices",
+          "practiced",
+          "are practicing"
+        ],
+        "objects": [
+          "grammar",
+          "writing",
+          "speaking"
+        ],
+        "distractor": "practice daily"
+      },
+      "review": {
+        "correct_forms": [
+          "review"
+        ],
+        "wrong_forms": [
+          "reviews",
+          "reviewed",
+          "are reviewing"
+        ],
+        "objects": [
+          "notes",
+          "lessons",
+          "materials"
+        ],
+        "distractor": "review often"
+      }
+    },
+    "PREP_TIME": [
+      "in the morning",
+      "after school",
+      "during class"
+    ]
+  }
+}

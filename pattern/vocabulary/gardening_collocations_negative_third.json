@@ -1,0 +1,121 @@
+{
+  "pattern_id": "GARDENING_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Gardening",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in gardening and horticulture contexts. Students must select words that naturally collocate with gardening-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Mike",
+      "Lisa",
+      "my father"
+    ],
+    "VERB": {
+      "water": {
+        "correct_forms": [
+          "plants every day",
+          "the garden regularly",
+          "flowers properly",
+          "vegetables enough",
+          "seedlings carefully"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "soil carefully",
+        "objects": [],
+        "explanation": "The verb 'water' commonly collocates with 'plants', 'the', 'flowers' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "gardening work",
+          "outdoor activities",
+          "getting dirty",
+          "physical effort",
+          "early mornings"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "late nights",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'gardening', 'outdoor', 'getting' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "have": {
+        "correct_forms": [
+          "green fingers",
+          "gardening skills",
+          "plant knowledge",
+          "patience for growing",
+          "outdoor space"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "indoor space",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'green', 'gardening', 'plant' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "grow": {
+        "correct_forms": [
+          "vegetables successfully",
+          "flowers beautifully",
+          "healthy plants",
+          "anything edible",
+          "gardens easily"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "lawns easily",
+        "objects": [],
+        "explanation": "The verb 'grow' commonly collocates with 'vegetables', 'flowers', 'healthy' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "plant care",
+          "soil types",
+          "watering needs",
+          "seasonal planting",
+          "fertilizer use"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "basic tools",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'plant', 'soil', 'watering' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "for gardening",
+      "at all",
+      "very well",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

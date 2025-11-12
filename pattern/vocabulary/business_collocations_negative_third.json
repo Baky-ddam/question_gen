@@ -1,0 +1,121 @@
+{
+  "pattern_id": "BUSINESS_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Business",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in business and professional contexts. Students must select the word that naturally collocates with the given verb based on typical usage in workplace English.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "David",
+      "Jennifer",
+      "my manager"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "team-building activities",
+          "industry conferences",
+          "networking sessions",
+          "training workshops",
+          "board meetings"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "one-on-ones",
+        "objects": [],
+        "explanation": "The verb 'attend' commonly collocates with 'team-building', 'industry', 'networking' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "delegate": {
+        "correct_forms": [
+          "important tasks",
+          "critical projects",
+          "client relationships",
+          "strategic decisions",
+          "key responsibilities"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "simple assignments",
+        "objects": [],
+        "explanation": "The verb 'delegate' commonly collocates with 'important', 'critical', 'client' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "tolerate": {
+        "correct_forms": [
+          "poor performance",
+          "unprofessional behavior",
+          "missed deadlines",
+          "sloppy work",
+          "negative attitudes"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "constructive feedback",
+        "objects": [],
+        "explanation": "The verb 'tolerate' commonly collocates with 'poor', 'unprofessional', 'missed' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "micromanage": {
+        "correct_forms": [
+          "team members",
+          "experienced staff",
+          "routine projects",
+          "daily operations",
+          "autonomous workers"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "trainee work",
+        "objects": [],
+        "explanation": "The verb 'micromanage' commonly collocates with 'team', 'experienced', 'routine' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "compromise": {
+        "correct_forms": [
+          "on quality standards",
+          "on ethical principles",
+          "on safety regulations",
+          "on core values",
+          "on company policies"
+        ],
+        "wrong_forms": [
+          "office parties",
+          "coffee breaks",
+          "parking spaces"
+        ],
+        "distractor": "on scheduling conflicts",
+        "objects": [],
+        "explanation": "The verb 'compromise' commonly collocates with 'on', 'on', 'on' and similar words in professional contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "in the workplace",
+      "professionally",
+      "generally",
+      "typically",
+      "as a rule"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "pattern_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Technology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Do {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in technology contexts. Students must identify words that naturally pair with technology-related verbs in digital and computing environments.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "password managers",
+          "two-factor authentication",
+          "cloud storage services",
+          "encrypted messaging apps",
+          "VPN services"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "public networks",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'password', 'two-factor', 'cloud' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "backup": {
+        "correct_forms": [
+          "important files regularly",
+          "data automatically",
+          "photos to the cloud",
+          "documents weekly",
+          "system configurations"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "no configurations",
+        "objects": [],
+        "explanation": "The verb 'backup' commonly collocates with 'important', 'data', 'photos' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "update": {
+        "correct_forms": [
+          "software regularly",
+          "operating systems promptly",
+          "apps automatically",
+          "security patches immediately",
+          "device firmware"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "never firmware",
+        "objects": [],
+        "explanation": "The verb 'update' commonly collocates with 'software', 'operating', 'apps' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "check": {
+        "correct_forms": [
+          "email frequently",
+          "social media daily",
+          "online notifications",
+          "tech news regularly",
+          "app updates"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "automatic updates",
+        "objects": [],
+        "explanation": "The verb 'check' commonly collocates with 'email', 'social', 'online' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefer": {
+        "correct_forms": [
+          "laptops over tablets",
+          "Android devices",
+          "wired connections",
+          "desktop computers",
+          "open-source software"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "proprietary software",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'laptops', 'Android', 'wired' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "for work",
+      "daily",
+      "with technology",
+      "regularly",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

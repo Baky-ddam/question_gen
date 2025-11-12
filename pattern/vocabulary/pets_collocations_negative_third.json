@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PETS_COLLOCATIONS_NEGATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Pets",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} doesn't {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in pet care contexts. Students must identify words that naturally pair with verbs related to animal care and companionship.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Dan",
+      "Lucy",
+      "my friend"
+    ],
+    "VERB": {
+      "have": {
+        "correct_forms": [
+          "any pets",
+          "time for animals",
+          "space for dogs",
+          "pet allergies",
+          "animal experience"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "work experience",
+        "objects": [],
+        "explanation": "The verb 'have' commonly collocates with 'any', 'time', 'space' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "like": {
+        "correct_forms": [
+          "cats",
+          "small animals",
+          "pet responsibility",
+          "animal hair",
+          "noisy pets"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "quiet pets",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'cats', 'small', 'pet' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "walk": {
+        "correct_forms": [
+          "the dog regularly",
+          "pets daily",
+          "animals in rain",
+          "dogs early morning",
+          "pets at night"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "alone at night",
+        "objects": [],
+        "explanation": "The verb 'walk' commonly collocates with 'the', 'pets', 'animals' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "take": {
+        "correct_forms": [
+          "care of pets properly",
+          "dogs to the vet",
+          "animals seriously",
+          "responsibility well",
+          "time with pets"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "time with friends",
+        "objects": [],
+        "explanation": "The verb 'take' commonly collocates with 'care', 'dogs', 'animals' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "clean": {
+        "correct_forms": [
+          "pet areas regularly",
+          "litter boxes daily",
+          "animal cages",
+          "pet bowls",
+          "dog beds"
+        ],
+        "wrong_forms": [
+          "food bowls",
+          "water dishes",
+          "pet carriers"
+        ],
+        "distractor": "own beds",
+        "objects": [],
+        "explanation": "The verb 'clean' commonly collocates with 'pet', 'litter', 'animal' and similar words in pets contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "usually",
+      "at home",
+      "at all",
+      "very well",
+      "normally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

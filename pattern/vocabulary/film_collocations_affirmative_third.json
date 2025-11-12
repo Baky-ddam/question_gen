@@ -1,0 +1,121 @@
+{
+  "pattern_id": "FILM_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Film",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in film and cinema contexts. Students must identify words that naturally pair with verbs related to movies and entertainment.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Tom",
+      "Mary",
+      "my sister"
+    ],
+    "VERB": {
+      "watches": {
+        "correct_forms": [
+          "horror films",
+          "old movies",
+          "cartoon shows",
+          "drama series",
+          "foreign films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "talk shows",
+        "objects": [],
+        "explanation": "The verb 'watche' commonly collocates with 'horror', 'old', 'cartoon' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "likes": {
+        "correct_forms": [
+          "action scenes",
+          "happy endings",
+          "famous actors",
+          "simple stories",
+          "short films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "long movies",
+        "objects": [],
+        "explanation": "The verb 'like' commonly collocates with 'action', 'happy', 'famous' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoys": {
+        "correct_forms": [
+          "watching alone",
+          "cinema experiences",
+          "eating popcorn",
+          "weekend movies",
+          "late night films"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "morning screenings",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'watching', 'cinema', 'eating' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefers": {
+        "correct_forms": [
+          "comedies to dramas",
+          "new films",
+          "English movies",
+          "action to romance",
+          "home viewing"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "cinema going",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'comedies', 'new', 'English' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "buys": {
+        "correct_forms": [
+          "cinema tickets online",
+          "film merchandise",
+          "movie posters",
+          "DVD collections",
+          "snacks at theaters"
+        ],
+        "wrong_forms": [
+          "popcorn bags",
+          "ticket stubs",
+          "theater seats"
+        ],
+        "distractor": "restaurant food",
+        "objects": [],
+        "explanation": "The verb 'buy' commonly collocates with 'cinema', 'film', 'movie' and similar words in entertainment contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "often",
+      "every weekend",
+      "on Saturdays",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

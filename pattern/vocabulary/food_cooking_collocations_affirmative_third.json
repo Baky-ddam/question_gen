@@ -1,0 +1,122 @@
+{
+  "pattern_id": "FOOD_COOKING_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Food Cooking",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in food and cooking contexts. Students must select words that naturally collocate with cooking and eating verbs in culinary English.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Tom",
+      "Sarah",
+      "my mother",
+      "the chef"
+    ],
+    "VERB": {
+      "prepares": {
+        "correct_forms": [
+          "healthy meals",
+          "traditional dishes",
+          "fresh salads",
+          "homemade desserts",
+          "breakfast every morning"
+        ],
+        "wrong_forms": [
+          "kitchen towels",
+          "cutting boards",
+          "dish soap"
+        ],
+        "distractor": "moldy bread",
+        "objects": [],
+        "explanation": "The verb 'prepare' commonly collocates with 'healthy', 'traditional', 'fresh' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "cooks": {
+        "correct_forms": [
+          "Italian cuisine",
+          "vegetarian dishes",
+          "spicy food",
+          "seafood regularly",
+          "family recipes"
+        ],
+        "wrong_forms": [
+          "kitchen towels",
+          "cutting boards",
+          "dish soap"
+        ],
+        "distractor": "fast food constantly",
+        "objects": [],
+        "explanation": "The verb 'cook' commonly collocates with 'Italian', 'vegetarian', 'spicy' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "eats": {
+        "correct_forms": [
+          "fresh vegetables",
+          "organic produce",
+          "whole grains",
+          "lean protein",
+          "balanced meals"
+        ],
+        "wrong_forms": [
+          "kitchen towels",
+          "cutting boards",
+          "dish soap"
+        ],
+        "distractor": "spoiled milk",
+        "objects": [],
+        "explanation": "The verb 'eat' commonly collocates with 'fresh', 'organic', 'whole' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "prefers": {
+        "correct_forms": [
+          "home-cooked meals",
+          "fresh ingredients",
+          "spicy flavors",
+          "organic food",
+          "Mediterranean diet"
+        ],
+        "wrong_forms": [
+          "kitchen towels",
+          "cutting boards",
+          "dish soap"
+        ],
+        "distractor": "processed snacks",
+        "objects": [],
+        "explanation": "The verb 'prefer' commonly collocates with 'home-cooked', 'fresh', 'spicy' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "tries": {
+        "correct_forms": [
+          "new recipes",
+          "exotic cuisines",
+          "local specialties",
+          "different cooking methods",
+          "seasonal ingredients"
+        ],
+        "wrong_forms": [
+          "kitchen towels",
+          "cutting boards",
+          "dish soap"
+        ],
+        "distractor": "spoiled produce",
+        "objects": [],
+        "explanation": "The verb 'trie' commonly collocates with 'new', 'exotic', 'local' and similar words in food contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at home",
+      "every day",
+      "for dinner",
+      "on weekends",
+      "regularly"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

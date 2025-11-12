@@ -1,0 +1,121 @@
+{
+  "pattern_id": "PSYCHOLOGY_COLLOCATIONS_AFFIRMATIVE_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Psychology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in psychology and mental health contexts. Students must identify words that naturally pair with psychological and behavioral verbs.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Ryan",
+      "Monica",
+      "my friend"
+    ],
+    "VERB": {
+      "feels": {
+        "correct_forms": [
+          "happy at work",
+          "anxious in crowds",
+          "comfortable at home",
+          "stressed under pressure",
+          "calm in nature"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "wet in nature",
+        "objects": [],
+        "explanation": "The verb 'feel' commonly collocates with 'happy', 'anxious', 'comfortable' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "thinks": {
+        "correct_forms": [
+          "about others",
+          "positively about life",
+          "before speaking",
+          "deeply about problems",
+          "creatively"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "logically",
+        "objects": [],
+        "explanation": "The verb 'think' commonly collocates with 'about', 'positively', 'before' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "needs": {
+        "correct_forms": [
+          "alone time",
+          "close friends",
+          "mental breaks",
+          "positive feedback",
+          "quiet spaces"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "noisy spaces",
+        "objects": [],
+        "explanation": "The verb 'need' commonly collocates with 'alone', 'close', 'mental' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "tries": {
+        "correct_forms": [
+          "to be patient",
+          "to stay calm",
+          "to understand others",
+          "to control anger",
+          "to remain positive"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "to remain neutral",
+        "objects": [],
+        "explanation": "The verb 'trie' commonly collocates with 'to', 'to', 'to' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "shows": {
+        "correct_forms": [
+          "emotions clearly",
+          "kindness to others",
+          "empathy regularly",
+          "confidence in public",
+          "respect for feelings"
+        ],
+        "wrong_forms": [
+          "textbooks",
+          "research papers",
+          "case files"
+        ],
+        "distractor": "respect for rules",
+        "objects": [],
+        "explanation": "The verb 'show' commonly collocates with 'emotions', 'kindness', 'empathy' and similar words in psychology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "usually",
+      "often",
+      "normally",
+      "generally"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

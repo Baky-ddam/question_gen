@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_FOOD_A1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "She eats bread.",
+  "explanation": "Group B verbs (he/she/it) add -s to the base form.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my friend"
+    ],
+    "VERB": {
+      "eats": {
+        "correct_forms": [
+          "eats"
+        ],
+        "wrong_forms": [
+          "eat",
+          "ate",
+          "is eating"
+        ],
+        "objects": [
+          "bread",
+          "rice",
+          "vegetables"
+        ],
+        "distractor": "eats fast"
+      },
+      "drinks": {
+        "correct_forms": [
+          "drinks"
+        ],
+        "wrong_forms": [
+          "drink",
+          "drank",
+          "is drinking"
+        ],
+        "objects": [
+          "water",
+          "milk",
+          "juice"
+        ],
+        "distractor": "drinks much"
+      },
+      "cooks": {
+        "correct_forms": [
+          "cooks"
+        ],
+        "wrong_forms": [
+          "cook",
+          "cooked",
+          "is cooking"
+        ],
+        "objects": [
+          "pasta",
+          "soup",
+          "rice"
+        ],
+        "distractor": "cooks badly"
+      },
+      "prepares": {
+        "correct_forms": [
+          "prepares"
+        ],
+        "wrong_forms": [
+          "prepare",
+          "prepared",
+          "is preparing"
+        ],
+        "objects": [
+          "meals",
+          "food",
+          "lunch"
+        ],
+        "distractor": "prepares quickly"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_EDUCATION_A2_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PREP_TIME}.",
+  "example": "She reviews lessons during class.",
+  "explanation": "Group B -s form in education with temporal context.",
+  "chunks": {
+    "SUBJ": [
+      "the student",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "studies": {
+        "correct_forms": [
+          "studies"
+        ],
+        "wrong_forms": [
+          "study",
+          "studied",
+          "is studying"
+        ],
+        "objects": [
+          "English",
+          "mathematics",
+          "history"
+        ],
+        "distractor": "studies well"
+      },
+      "learns": {
+        "correct_forms": [
+          "learns"
+        ],
+        "wrong_forms": [
+          "learn",
+          "learned",
+          "is learning"
+        ],
+        "objects": [
+          "languages",
+          "skills",
+          "subjects"
+        ],
+        "distractor": "learns easily"
+      },
+      "practices": {
+        "correct_forms": [
+          "practices"
+        ],
+        "wrong_forms": [
+          "practice",
+          "practiced",
+          "is practicing"
+        ],
+        "objects": [
+          "grammar",
+          "writing",
+          "speaking"
+        ],
+        "distractor": "practices daily"
+      },
+      "reviews": {
+        "correct_forms": [
+          "reviews"
+        ],
+        "wrong_forms": [
+          "review",
+          "reviewed",
+          "is reviewing"
+        ],
+        "objects": [
+          "notes",
+          "lessons",
+          "materials"
+        ],
+        "distractor": "reviews frequently"
+      }
+    },
+    "PREP_TIME": [
+      "in the morning",
+      "after school",
+      "during class"
+    ]
+  }
+}

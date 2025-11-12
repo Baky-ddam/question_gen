@@ -1,0 +1,110 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_REALESTATE_C1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "real_estate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{PREP_TIME}, {SUBJ} ____ {ARTICLE_OBJ} {PREP_PLACE} because {REASON}.",
+  "example": "Strategically, she develops projects downtown because location is strategic.",
+  "explanation": "C1 Group B in real estate with -s form.",
+  "chunks": {
+    "SUBJ": [
+      "the investor",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "acquires": {
+        "correct_forms": [
+          "acquires"
+        ],
+        "wrong_forms": [
+          "acquire",
+          "acquired",
+          "is acquiring"
+        ],
+        "article_objects": [
+          "properties",
+          "portfolios",
+          "assets"
+        ],
+        "distractor": "acquires meticulously"
+      },
+      "develops": {
+        "correct_forms": [
+          "develops"
+        ],
+        "wrong_forms": [
+          "develop",
+          "developed",
+          "is developing"
+        ],
+        "article_objects": [
+          "projects",
+          "sites",
+          "infrastructure"
+        ],
+        "distractor": "develops expeditiously"
+      },
+      "leases": {
+        "correct_forms": [
+          "leases"
+        ],
+        "wrong_forms": [
+          "lease",
+          "leased",
+          "is leasing"
+        ],
+        "article_objects": [
+          "spaces",
+          "units",
+          "properties"
+        ],
+        "distractor": "leases selectively"
+      },
+      "appraises": {
+        "correct_forms": [
+          "appraises"
+        ],
+        "wrong_forms": [
+          "appraise",
+          "appraised",
+          "is appraising"
+        ],
+        "article_objects": [
+          "valuations",
+          "assessments",
+          "properties"
+        ],
+        "distractor": "appraises conservatively"
+      }
+    },
+    "PREP_TIME": [
+      "Currently",
+      "Increasingly",
+      "Strategically",
+      "Typically"
+    ],
+    "ARTICLE_OBJ": [
+      "properties",
+      "projects",
+      "spaces",
+      "assets"
+    ],
+    "PREP_PLACE": [
+      "in prime locations",
+      "in emerging markets",
+      "downtown"
+    ],
+    "REASON": [
+      "it's profitable",
+      "demand is high",
+      "location is strategic"
+    ]
+  }
+}

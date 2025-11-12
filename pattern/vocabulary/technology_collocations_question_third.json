@@ -1,0 +1,121 @@
+{
+  "pattern_id": "TECHNOLOGY_COLLOCATIONS_QUESTION_THIRD",
+  "focus": "verb_noun_collocations",
+  "level": "B1",
+  "domain": "Technology",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "Does {SUBJ} {VERB} ____ {CONTEXT}?",
+  "explanation": "This pattern tests common verb-noun collocations in technology contexts. Students must identify words that naturally pair with technology-related verbs in digital and computing environments.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Robert",
+      "Nina",
+      "your colleague"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "artificial intelligence tools",
+          "productivity software",
+          "collaboration platforms",
+          "design applications",
+          "coding environments"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "traditional approaches",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'artificial', 'productivity', 'collaboration' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "understand": {
+        "correct_forms": [
+          "programming languages",
+          "database systems",
+          "network protocols",
+          "cybersecurity concepts",
+          "cloud architecture"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "local systems",
+        "objects": [],
+        "explanation": "The verb 'understand' commonly collocates with 'programming', 'database', 'network' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "develop": {
+        "correct_forms": [
+          "mobile applications",
+          "web platforms",
+          "software solutions",
+          "automation scripts",
+          "database systems"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "existing systems",
+        "objects": [],
+        "explanation": "The verb 'develop' commonly collocates with 'mobile', 'web', 'software' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "troubleshoot": {
+        "correct_forms": [
+          "technical issues independently",
+          "network problems",
+          "software bugs",
+          "hardware failures",
+          "system errors"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "avoiding errors",
+        "objects": [],
+        "explanation": "The verb 'troubleshoot' commonly collocates with 'technical', 'network', 'software' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "rely": {
+        "correct_forms": [
+          "on cloud services",
+          "on automation tools",
+          "on AI assistants",
+          "on tech support",
+          "on online resources"
+        ],
+        "wrong_forms": [
+          "mouse pads",
+          "keyboard covers",
+          "cable ties"
+        ],
+        "distractor": "on offline methods",
+        "objects": [],
+        "explanation": "The verb 'rely' commonly collocates with 'on', 'on', 'on' and similar words in technology contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "at work",
+      "professionally",
+      "with technology",
+      "regularly",
+      "typically"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}

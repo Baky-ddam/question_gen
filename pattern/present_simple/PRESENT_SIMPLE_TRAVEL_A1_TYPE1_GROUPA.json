@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_TRAVEL_A1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {FREQUENCY}.",
+  "example": "We visit countries usually.",
+  "explanation": "Present simple Group A uses base verb form (I/you/we). Frequency markers like 'every day' indicate habitual action.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "visit"
+        ],
+        "wrong_forms": [
+          "visits",
+          "visited",
+          "am visiting"
+        ],
+        "objects": [
+          "countries",
+          "cities",
+          "beaches"
+        ],
+        "distractor": "visit hotels"
+      },
+      "travel": {
+        "correct_forms": [
+          "travel"
+        ],
+        "wrong_forms": [
+          "travels",
+          "travelled",
+          "am travelling"
+        ],
+        "objects": [
+          "around Europe",
+          "to Asia",
+          "by plane"
+        ],
+        "distractor": "travel safely"
+      },
+      "explore": {
+        "correct_forms": [
+          "explore"
+        ],
+        "wrong_forms": [
+          "explores",
+          "explored",
+          "am exploring"
+        ],
+        "objects": [
+          "new places",
+          "destinations",
+          "monuments"
+        ],
+        "distractor": "explore carefully"
+      }
+    },
+    "FREQUENCY": [
+      "sometimes",
+      "usually"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_PHOTOGRAPHY_C1_TYPE3_GROUPA",
+  "focus": "present_simple",
+  "level": "C1",
+  "domain": "photography",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{PREP_TIME}, {SUBJ} ____ {BASE_VERB} {ARTICLE_OBJ} {PREP_PLACE} because {REASON}.",
+  "example": "Professionally, photographers don't manipulate images during editing because authenticity matters.",
+  "explanation": "C1 Type 3 with fronted adverbial and sophisticated reasoning.",
+  "chunks": {
+    "SUBJ": [
+      "photographers",
+      "professionals",
+      "they"
+    ],
+    "AUX": {
+      "don't": {
+        "correct_forms": ["don't"],
+        "wrong_forms": ["doesn't", "didn't", "aren't"],
+        "objects": [],
+        "distractor": "won't"
+      }
+    },
+    "BASE_VERB": [
+      "manipulate",
+      "enhance",
+      "edit",
+      "retouch",
+      "compress"
+    ],
+    "ARTICLE_OBJ": [
+      "images",
+      "photos",
+      "files",
+      "content"
+    ],
+    "PREP_PLACE": [
+      "in post-production",
+      "during editing",
+      "for publication"
+    ],
+    "REASON": [
+      "authenticity matters",
+      "credibility is essential",
+      "ethical standards apply"
+    ],
+    "PREP_TIME": [
+      "Professionally",
+      "Conscientiously",
+      "Rigorously",
+      "Consistently"
+    ]
+  }
+}

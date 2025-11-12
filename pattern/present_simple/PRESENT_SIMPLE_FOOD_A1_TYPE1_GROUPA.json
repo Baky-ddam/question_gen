@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_FOOD_A1_TYPE1_GROUPA",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "I eat bread.",
+  "explanation": "Group A verbs use base form without -s. Works with all simple actions.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "they"
+    ],
+    "VERB": {
+      "eat": {
+        "correct_forms": [
+          "eat"
+        ],
+        "wrong_forms": [
+          "eats",
+          "ate",
+          "am eating"
+        ],
+        "objects": [
+          "bread",
+          "rice",
+          "vegetables"
+        ],
+        "distractor": "eat quickly"
+      },
+      "drink": {
+        "correct_forms": [
+          "drink"
+        ],
+        "wrong_forms": [
+          "drinks",
+          "drank",
+          "am drinking"
+        ],
+        "objects": [
+          "water",
+          "milk",
+          "juice"
+        ],
+        "distractor": "drink slowly"
+      },
+      "cook": {
+        "correct_forms": [
+          "cook"
+        ],
+        "wrong_forms": [
+          "cooks",
+          "cooked",
+          "am cooking"
+        ],
+        "objects": [
+          "pasta",
+          "soup",
+          "rice"
+        ],
+        "distractor": "cook well"
+      },
+      "prepare": {
+        "correct_forms": [
+          "prepare"
+        ],
+        "wrong_forms": [
+          "prepares",
+          "prepared",
+          "am preparing"
+        ],
+        "objects": [
+          "meals",
+          "food",
+          "lunch"
+        ],
+        "distractor": "prepare carefully"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ENVIRONMENT_B1_TYPE3_GROUPB",
+  "focus": "present_simple",
+  "level": "B1",
+  "domain": "environment",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {BASE_VERB} {OBJ} {TIME}.",
+  "example": "The company doesn't conserve water regularly.",
+  "explanation": "Type 3 Group B: Negative auxiliary only. Tests 'doesn't' selection with he/she/it subjects.",
+  "chunks": {
+    "SUBJ": [
+      "the company",
+      "he",
+      "she"
+    ],
+    "AUX": {
+      "doesn't": {
+        "correct_forms": ["doesn't"],
+        "wrong_forms": ["don't", "didn't", "isn't"],
+        "objects": [],
+        "distractor": "won't"
+      }
+    },
+    "BASE_VERB": {
+      "recycle": {
+        "correct_forms": ["recycle"],
+        "wrong_forms": ["recycling", "recycled", "recycles"],
+        "objects": [
+          "plastic",
+          "waste",
+          "materials"
+        ],
+        "distractor": "dispose"
+      },
+      "conserve": {
+        "correct_forms": ["conserve"],
+        "wrong_forms": ["conserving", "conserved", "conserves"],
+        "objects": [
+          "water",
+          "energy",
+          "resources"
+        ],
+        "distractor": "waste"
+      },
+      "protect": {
+        "correct_forms": ["protect"],
+        "wrong_forms": ["protecting", "protected", "protects"],
+        "objects": [
+          "the environment",
+          "natural habitats",
+          "ecosystems"
+        ],
+        "distractor": "damage"
+      },
+      "reduce": {
+        "correct_forms": ["reduce"],
+        "wrong_forms": ["reducing", "reduced", "reduces"],
+        "objects": [
+          "carbon emissions",
+          "pollution",
+          "consumption"
+        ],
+        "distractor": "increase"
+      }
+    },
+    "TIME": [
+      "enough",
+      "often",
+      "regularly",
+      "frequently"
+    ]
+  }
+}

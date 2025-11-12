@@ -1,0 +1,89 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_ENTERTAINMENT_A1_TYPE1_GROUPB",
+  "focus": "present_simple",
+  "level": "A1",
+  "domain": "entertainment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "John listens to music.",
+  "explanation": "Group B -s form for entertainment domain.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "Mary",
+      "John"
+    ],
+    "VERB": {
+      "watches": {
+        "correct_forms": [
+          "watches"
+        ],
+        "wrong_forms": [
+          "watch",
+          "watched",
+          "is watching"
+        ],
+        "distractor": "watches always",
+        "objects": [
+          "movies",
+          "TV shows",
+          "videos"
+        ]
+      },
+      "listens": {
+        "correct_forms": [
+          "listens"
+        ],
+        "wrong_forms": [
+          "listen",
+          "listened",
+          "is listening"
+        ],
+        "distractor": "listens daily",
+        "objects": [
+          "music",
+          "podcasts",
+          "songs"
+        ]
+      },
+      "reads": {
+        "correct_forms": [
+          "reads"
+        ],
+        "wrong_forms": [
+          "read",
+          "read",
+          "is reading"
+        ],
+        "distractor": "reads often",
+        "objects": [
+          "books",
+          "magazines",
+          "comics"
+        ]
+      },
+      "plays": {
+        "correct_forms": [
+          "plays"
+        ],
+        "wrong_forms": [
+          "play",
+          "played",
+          "is playing"
+        ],
+        "distractor": "plays hard",
+        "objects": [
+          "games",
+          "video games",
+          "sports"
+        ]
+      }
+    }
+  }
+}

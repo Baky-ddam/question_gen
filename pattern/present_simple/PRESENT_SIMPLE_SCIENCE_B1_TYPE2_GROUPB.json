@@ -1,0 +1,98 @@
+{
+  "pattern_id": "PRESENT_SIMPLE_SCIENCE_B1_TYPE2_GROUPB",
+  "focus": "present_simple",
+  "level": "B1",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.",
+  "example": "The scientist doesn't analyze data at the center usually.",
+  "explanation": "Group B negative in science domain.",
+  "chunks": {
+    "SUBJ": [
+      "the scientist",
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "conduct": {
+        "correct_forms": [
+          "doesn't conduct"
+        ],
+        "wrong_forms": [
+          "don't conduct",
+          "didn't conduct",
+          "isn't conducting"
+        ],
+        "objects": [
+          "experiments",
+          "research",
+          "studies"
+        ],
+        "distractor": "doesn't perform"
+      },
+      "perform": {
+        "correct_forms": [
+          "doesn't perform"
+        ],
+        "wrong_forms": [
+          "don't perform",
+          "didn't perform",
+          "isn't performing"
+        ],
+        "objects": [
+          "tests",
+          "procedures",
+          "analyses"
+        ],
+        "distractor": "doesn't conduct"
+      },
+      "analyze": {
+        "correct_forms": [
+          "doesn't analyze"
+        ],
+        "wrong_forms": [
+          "don't analyze",
+          "didn't analyze",
+          "isn't analyzing"
+        ],
+        "objects": [
+          "data",
+          "samples",
+          "results"
+        ],
+        "distractor": "doesn't examine"
+      },
+      "observe": {
+        "correct_forms": [
+          "doesn't observe"
+        ],
+        "wrong_forms": [
+          "don't observe",
+          "didn't observe",
+          "isn't observing"
+        ],
+        "objects": [
+          "phenomena",
+          "patterns",
+          "changes"
+        ],
+        "distractor": "doesn't notice"
+      }
+    },
+    "PREP_PLACE": [
+      "in the lab",
+      "at the center",
+      "in the field"
+    ],
+    "TIME": [
+      "every day",
+      "regularly",
+      "usually"
+    ]
+  }
+}

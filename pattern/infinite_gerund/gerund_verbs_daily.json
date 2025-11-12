@@ -1,0 +1,102 @@
+{
+  "pattern_id": "GERUND_VERBS_DAILY",
+  "focus": "gerund_verbs",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "sub_grammar": [
+    "present_simple"
+  ],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "Some verbs in English are followed by gerunds (verb + -ing). Common verbs that take gerunds include: enjoy, love, avoid, mind, finish, keep, suggest, practice.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "enjoy": {
+        "correct_forms": [
+          "reading books",
+          "watching TV",
+          "cooking dinner",
+          "playing sports",
+          "listening to music"
+        ],
+        "wrong_forms": [
+          "having problems",
+          "being late",
+          "making errors"
+        ],
+        "distractor": "losing things",
+        "objects": [],
+        "explanation": "The verb 'enjoy' requires a gerund (verb + -ing) as its object."
+      },
+      "avoid": {
+        "correct_forms": [
+          "eating junk food",
+          "waking up early",
+          "driving in traffic",
+          "making mistakes",
+          "arguing with people"
+        ],
+        "wrong_forms": [
+          "winning prizes",
+          "getting promotions",
+          "finding money"
+        ],
+        "distractor": "receiving gifts",
+        "objects": [],
+        "explanation": "The verb 'avoid' requires a gerund (verb + -ing) as its object."
+      },
+      "love": {
+        "correct_forms": [
+          "playing sports",
+          "listening to music",
+          "spending time with friends",
+          "trying new things"
+        ],
+        "wrong_forms": [
+          "having problems",
+          "being disappointed",
+          "feeling stressed"
+        ],
+        "distractor": "making mistakes",
+        "objects": [],
+        "explanation": "The verb 'love' requires a gerund (verb + -ing) as its object."
+      },
+      "mind": {
+        "correct_forms": [
+          "helping others",
+          "waiting a few minutes",
+          "sharing your ideas"
+        ],
+        "wrong_forms": [
+          "receiving compliments",
+          "getting rewards",
+          "having success"
+        ],
+        "distractor": "having success",
+        "objects": [],
+        "explanation": "The verb 'mind' (in questions and negatives) requires a gerund (verb + -ing) as its object."
+      }
+    },
+    "CONTEXT": [
+      "on weekends",
+      "every day",
+      "in free time",
+      "after work",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "to_infinitive",
+      "bare_infinitive",
+      "wrong_conjugation",
+      "context_distractor"
+    ]
+  }
+}

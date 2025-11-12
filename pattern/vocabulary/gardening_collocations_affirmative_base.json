@@ -1,0 +1,120 @@
+{
+  "pattern_id": "GARDENING_COLLOCATIONS_AFFIRMATIVE_BASE",
+  "focus": "verb_noun_collocations",
+  "level": "A2",
+  "domain": "Gardening",
+  "category": "vocabulary",
+  "sub_grammar": [],
+  "template": "{SUBJ} {VERB} ____ {CONTEXT}.",
+  "explanation": "This pattern tests common verb-noun collocations in gardening and horticulture contexts. Students must select words that naturally collocate with gardening-related verbs.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "grow": {
+        "correct_forms": [
+          "vegetables in summer",
+          "flowers in spring",
+          "tomatoes every year",
+          "herbs on the balcony",
+          "roses in the garden"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "weeds accidentally",
+        "objects": [],
+        "explanation": "The verb 'grow' commonly collocates with 'vegetables', 'flowers', 'tomatoes' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "water": {
+        "correct_forms": [
+          "plants every morning",
+          "the garden daily",
+          "flowers regularly",
+          "vegetables twice a week",
+          "seedlings carefully"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "fences mistakenly",
+        "objects": [],
+        "explanation": "The verb 'water' commonly collocates with 'plants', 'the', 'flowers' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "plant": {
+        "correct_forms": [
+          "seeds in spring",
+          "bulbs in autumn",
+          "new trees",
+          "flower beds",
+          "vegetable patches"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "signs temporarily",
+        "objects": [],
+        "explanation": "The verb 'plant' commonly collocates with 'seeds', 'bulbs', 'new' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "enjoy": {
+        "correct_forms": [
+          "working outside",
+          "fresh air",
+          "growing food",
+          "beautiful flowers",
+          "gardening tasks"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "household chores",
+        "objects": [],
+        "explanation": "The verb 'enjoy' commonly collocates with 'working', 'fresh', 'growing' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      },
+      "use": {
+        "correct_forms": [
+          "organic fertilizer",
+          "garden tools",
+          "compost for plants",
+          "natural methods",
+          "rainwater collection"
+        ],
+        "wrong_forms": [
+          "garden gnomes",
+          "watering cans",
+          "flower pots"
+        ],
+        "distractor": "tap water only",
+        "objects": [],
+        "explanation": "The verb 'use' commonly collocates with 'organic', 'garden', 'compost' and similar words in gardening contexts. These combinations sound natural to native English speakers and are frequently used together."
+      }
+    },
+    "CONTEXT": [
+      "regularly",
+      "in the garden",
+      "every week",
+      "at home",
+      "usually"
+    ]
+  },
+  "distractor_config": {
+    "methods": [
+      "related_words",
+      "wrong_collocation",
+      "semantic_mismatch",
+      "context_distractor"
+    ]
+  }
+}
