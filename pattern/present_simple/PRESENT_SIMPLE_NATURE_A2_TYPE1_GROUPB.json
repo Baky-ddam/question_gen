@@ -9,9 +9,9 @@
   "sub_grammar": [
     "present_simple"
   ],
-  "template": "{SUBJ} ____ {PREP_PLACE} {TIME}.",
-  "example": "The bird observes by the river usually.",
-  "explanation": "Group B in nature domain.",
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.",
+  "example": "The bird observes insects by the river usually.",
+  "explanation": "Group B in nature domain. Nested objects field ensures semantic verb-object pairing for meaningful sentences.",
   "chunks": {
     "SUBJ": [
       "he",
@@ -29,11 +29,11 @@
           "walked",
           "is walking"
         ],
-        "distractor": "ignore",
+        "distractor": "destroys",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "trails",
+          "paths",
+          "routes"
         ]
       },
       "explores": {
@@ -45,11 +45,11 @@
           "explored",
           "is exploring"
         ],
-        "distractor": "ignore",
+        "distractor": "pollutes",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "nature",
+          "habitats",
+          "areas"
         ]
       },
       "observes": {
@@ -61,11 +61,11 @@
           "observed",
           "is observing"
         ],
-        "distractor": "ignore",
+        "distractor": "ignores",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "wildlife",
+          "insects",
+          "birds"
         ]
       }
     },

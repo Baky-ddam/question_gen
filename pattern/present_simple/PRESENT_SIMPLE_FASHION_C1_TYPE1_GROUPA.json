@@ -9,9 +9,9 @@
   "sub_grammar": [
     "present_simple"
   ],
-  "template": "{GERUND}, {SUBJ} ____ {PREP_PLACE} {FREQUENCY}.",
+  "template": "{GERUND}, {SUBJ} ____ {OBJ} {PREP_PLACE} {FREQUENCY}.",
   "example": "Following trends, designers showcase collections in showrooms seasonally.",
-  "explanation": "C1 with gerund fronted adverbial.",
+  "explanation": "C1 with gerund fronted adverbial. Nested objects field ensures semantic verb-object pairing for meaningful sentences.",
   "chunks": {
     "SUBJ": [
       "designers",

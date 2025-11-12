@@ -9,9 +9,9 @@
   "sub_grammar": [
     "present_simple"
   ],
-  "template": "{SUBJ} ____ {PREP_PLACE} {TIME}.",
-  "example": "We walk in the forest every day.",
-  "explanation": "Nature domain with spatial + temporal context.",
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.",
+  "example": "We observe wildlife in the forest every day.",
+  "explanation": "Nature domain with spatial + temporal context. Nested objects field ensures semantic verb-object pairing for meaningful sentences.",
   "chunks": {
     "SUBJ": [
       "we",
@@ -29,11 +29,11 @@
           "walked",
           "are walking"
         ],
-        "distractor": "ignore",
+        "distractor": "destroy",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "trails",
+          "paths",
+          "routes"
         ]
       },
       "explore": {
@@ -45,11 +45,11 @@
           "explored",
           "are exploring"
         ],
-        "distractor": "ignore",
+        "distractor": "pollute",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "nature",
+          "ecosystems",
+          "habitats"
         ]
       },
       "observe": {
@@ -63,9 +63,9 @@
         ],
         "distractor": "ignore",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "wildlife",
+          "animals",
+          "birds"
         ]
       }
     },

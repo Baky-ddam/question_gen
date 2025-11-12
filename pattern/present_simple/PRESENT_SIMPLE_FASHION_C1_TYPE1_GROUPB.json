@@ -9,9 +9,9 @@
   "sub_grammar": [
     "present_simple"
   ],
-  "template": "{GERUND}, {SUBJ} ____ {PREP_PLACE} {FREQUENCY}.",
+  "template": "{GERUND}, {SUBJ} ____ {OBJ} {PREP_PLACE} {FREQUENCY}.",
   "example": "Analyzing consumer behavior, she launches collections online quarterly.",
-  "explanation": "C1 Group B with gerund adverbial.",
+  "explanation": "C1 Group B with gerund adverbial. Nested objects field ensures semantic verb-object pairing for meaningful sentences.",
   "chunks": {
     "SUBJ": [
       "the designer",
@@ -34,11 +34,11 @@
           "showcased",
           "is showcasing"
         ],
-        "distractor": "ignore",
+        "distractor": "discontinues",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "collections",
+          "products",
+          "designs"
         ]
       },
       "launches": {
@@ -50,11 +50,11 @@
           "launched",
           "is launching"
         ],
-        "distractor": "ignore",
+        "distractor": "withdraws",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "products",
+          "collections",
+          "lines"
         ]
       },
       "promotes": {
@@ -66,11 +66,11 @@
           "promoted",
           "is promoting"
         ],
-        "distractor": "ignore",
+        "distractor": "conceals",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "brands",
+          "collections",
+          "products"
         ]
       },
       "distributes": {
@@ -82,11 +82,11 @@
           "distributed",
           "is distributing"
         ],
-        "distractor": "ignore",
+        "distractor": "hoards",
         "objects": [
-          "items",
-          "things",
-          "elements"
+          "products",
+          "merchandise",
+          "collections"
         ]
       }
     },
