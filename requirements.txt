@@ -1,11 +1,13 @@
 # EYESH English Question Generator - Requirements
 # ===============================================
 #
-# This project uses only Python standard library modules.
-# No external dependencies are required.
-#
 # Minimum Python version: 3.8+
 #
+# External dependencies:
+
+# Excel file handling for dashboard system
+openpyxl>=3.0.0
+
 # Standard library modules used:
 # - json (for pattern loading)
 # - pathlib (for file handling)
@@ -14,9 +16,10 @@
 # - re (for regex operations)
 # - typing (for type hints)
 # - sys (for system operations)
+# - dataclasses (for data structures)
 
-# If you want to contribute or develop:
-# No packages needed - all built-in!
+# To install dependencies:
+# pip install -r requirements.txt
 
 # To verify your Python version:
 # python --version
