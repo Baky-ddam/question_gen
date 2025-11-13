@@ -1,0 +1,39 @@
+Sheet Name,Table ID,Column #,Column Letter,Big Header,Sub-header,Full Path,Has Merged Headers
+Media Plan,1,1,A,,Media Type,Media Plan > Media Type,Yes
+Media Plan,1,2,B,,Channel,Media Plan > Channel,Yes
+Media Plan,1,3,C,,Budget,Media Plan > Budget,Yes
+Media Plan,1,4,D,,0%,Media Plan > 0%,Yes
+Media Plan,1,5,E,,25%,Media Plan > 25%,Yes
+Media Plan,1,6,F,,50%,Media Plan > 50%,Yes
+Media Plan,1,7,G,,75%,Media Plan > 75%,Yes
+Media Plan,1,8,H,,100%,Media Plan > 100%,Yes
+Media Plan,1,9,I,,,Media Plan > ,Yes
+Media Plan,1,10,J,Budget (Jan-Dec),Jan,Media Plan > Budget (Jan-Dec) > Jan,Yes
+Media Plan,1,11,K,Budget (Jan-Dec),Feb,Media Plan > Budget (Jan-Dec) > Feb,Yes
+Media Plan,1,12,L,Budget (Jan-Dec),Mar,Media Plan > Budget (Jan-Dec) > Mar,Yes
+Media Plan,1,13,M,Budget (Jan-Dec),Apr,Media Plan > Budget (Jan-Dec) > Apr,Yes
+Media Plan,1,14,N,Budget (Jan-Dec),May,Media Plan > Budget (Jan-Dec) > May,Yes
+Media Plan,1,15,O,Budget (Jan-Dec),Jun,Media Plan > Budget (Jan-Dec) > Jun,Yes
+Media Plan,1,16,P,Budget (Jan-Dec),Jul,Media Plan > Budget (Jan-Dec) > Jul,Yes
+Media Plan,1,17,Q,Budget (Jan-Dec),Aug,Media Plan > Budget (Jan-Dec) > Aug,Yes
+Media Plan,1,18,R,Budget (Jan-Dec),Sep,Media Plan > Budget (Jan-Dec) > Sep,Yes
+Media Plan,1,19,S,Budget (Jan-Dec),Oct,Media Plan > Budget (Jan-Dec) > Oct,Yes
+Media Plan,1,20,T,Budget (Jan-Dec),Nov,Media Plan > Budget (Jan-Dec) > Nov,Yes
+Media Plan,1,21,U,Budget (Jan-Dec),Dec,Media Plan > Budget (Jan-Dec) > Dec,Yes
+Campaign Details,1,1,A,Buy Specifics,Target Audience,Campaign Details > Buy Specifics > Target Audience,Yes
+Campaign Details,1,2,B,Buy Specifics,Age Range,Campaign Details > Buy Specifics > Age Range,Yes
+Campaign Details,1,3,C,Buy Specifics,Gender,Campaign Details > Buy Specifics > Gender,Yes
+Campaign Details,1,4,D,Buy Specifics,Location,Campaign Details > Buy Specifics > Location,Yes
+Campaign Details,1,5,E,Buy Specifics,If excluded reason,Campaign Details > Buy Specifics > If excluded reason,Yes
+Campaign Details,1,6,F,,,Campaign Details > ,Yes
+Campaign Details,1,7,G,Cost Guarantee,L3 Benchmark,Campaign Details > Cost Guarantee > L3 Benchmark,Yes
+Campaign Details,1,8,H,Budget Variation Index,Jan,Campaign Details > Budget Variation Index > Jan,Yes
+Campaign Details,1,9,I,,Feb,Campaign Details > Feb,Yes
+Campaign Details,1,10,J,,Mar,Campaign Details > Mar,Yes
+Campaign Details,1,11,K,,Apr,Campaign Details > Apr,Yes
+Campaign Details,1,12,L,,May,Campaign Details > May,Yes
+Campaign Details,1,13,M,Seasonality,Jan,Campaign Details > Seasonality > Jan,Yes
+Campaign Details,1,14,N,,Feb,Campaign Details > Feb,Yes
+Campaign Details,1,15,O,,Mar,Campaign Details > Mar,Yes
+Campaign Details,1,16,P,,Apr,Campaign Details > Apr,Yes
+Campaign Details,1,17,Q,,May,Campaign Details > May,Yes
