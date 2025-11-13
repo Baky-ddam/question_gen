@@ -1,0 +1,71 @@
+{
+  "filename": "Demo_Arla_Example.xlsx",
+  "total_sheets": 2,
+  "total_tables": 2,
+  "sheets": [
+    {
+      "name": "Media Plan",
+      "table_count": 1,
+      "tables": [
+        {
+          "table_id": 1,
+          "dimensions": "2 rows x 21 columns",
+          "has_merged_headers": true,
+          "columns": [
+            "Media Plan > Media Type",
+            "Media Plan > Channel",
+            "Media Plan > Budget",
+            "Media Plan > 0%",
+            "Media Plan > 25%",
+            "Media Plan > 50%",
+            "Media Plan > 75%",
+            "Media Plan > 100%",
+            "Media Plan > ",
+            "Media Plan > Budget (Jan-Dec) > Jan",
+            "Media Plan > Budget (Jan-Dec) > Feb",
+            "Media Plan > Budget (Jan-Dec) > Mar",
+            "Media Plan > Budget (Jan-Dec) > Apr",
+            "Media Plan > Budget (Jan-Dec) > May",
+            "Media Plan > Budget (Jan-Dec) > Jun",
+            "Media Plan > Budget (Jan-Dec) > Jul",
+            "Media Plan > Budget (Jan-Dec) > Aug",
+            "Media Plan > Budget (Jan-Dec) > Sep",
+            "Media Plan > Budget (Jan-Dec) > Oct",
+            "Media Plan > Budget (Jan-Dec) > Nov",
+            "Media Plan > Budget (Jan-Dec) > Dec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Campaign Details",
+      "table_count": 1,
+      "tables": [
+        {
+          "table_id": 1,
+          "dimensions": "1 rows x 17 columns",
+          "has_merged_headers": true,
+          "columns": [
+            "Campaign Details > Buy Specifics > Target Audience",
+            "Campaign Details > Buy Specifics > Age Range",
+            "Campaign Details > Buy Specifics > Gender",
+            "Campaign Details > Buy Specifics > Location",
+            "Campaign Details > Buy Specifics > If excluded reason",
+            "Campaign Details > ",
+            "Campaign Details > Cost Guarantee > L3 Benchmark",
+            "Campaign Details > Budget Variation Index > Jan",
+            "Campaign Details > Feb",
+            "Campaign Details > Mar",
+            "Campaign Details > Apr",
+            "Campaign Details > May",
+            "Campaign Details > Seasonality > Jan",
+            "Campaign Details > Feb",
+            "Campaign Details > Mar",
+            "Campaign Details > Apr",
+            "Campaign Details > May"
+          ]
+        }
+      ]
+    }
+  ]
+}
