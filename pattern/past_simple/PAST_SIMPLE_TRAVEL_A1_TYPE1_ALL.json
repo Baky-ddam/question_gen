@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_TRAVEL_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I visited Paris yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "visited"
+        ],
+        "wrong_forms": [
+          "visit",
+          "visits",
+          "am visiting"
+        ],
+        "objects": [
+          "Paris",
+          "London",
+          "Rome",
+          "the museum"
+        ],
+        "distractor": "avoid"
+      },
+      "travel": {
+        "correct_forms": [
+          "traveled"
+        ],
+        "wrong_forms": [
+          "travel",
+          "travels",
+          "am traveling"
+        ],
+        "objects": [
+          "to Spain",
+          "around Europe",
+          "by train",
+          "to Asia"
+        ],
+        "distractor": "ignore"
+      },
+      "explore": {
+        "correct_forms": [
+          "explored"
+        ],
+        "wrong_forms": [
+          "explore",
+          "explores",
+          "am exploring"
+        ],
+        "objects": [
+          "the city",
+          "new places",
+          "the beach",
+          "the castle"
+        ],
+        "distractor": "avoid"
+      },
+      "book": {
+        "correct_forms": [
+          "booked"
+        ],
+        "wrong_forms": [
+          "book",
+          "books",
+          "am booking"
+        ],
+        "objects": [
+          "a hotel",
+          "a flight",
+          "tickets",
+          "the room"
+        ],
+        "distractor": "cancel"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last month",
+      "two days ago"
+    ]
+  }
+}

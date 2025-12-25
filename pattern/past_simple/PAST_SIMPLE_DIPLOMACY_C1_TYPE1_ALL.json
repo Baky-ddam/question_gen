@@ -1,0 +1,79 @@
+{
+  "pattern_id": "PAST_SIMPLE_DIPLOMACY_C1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "relative_clauses"],
+  "template": "After {PRIOR_EVENT}, {SUBJ} ____ that {RELATIVE_CLAUSE}.",
+  "example": "After months of deliberation, the Security Council ratified the resolution that established new sanctions.",
+  "explanation": "Past simple is used for completed diplomatic actions at specific past times. The C1 structure includes a prior event clause ('After months of deliberation') and a relative clause ('that established...'), creating a sophisticated multi-clause sentence. The completed past action requires past simple.",
+  "chunks": {
+    "PRIOR_EVENT": [
+      "months of deliberation",
+      "intensive negotiations",
+      "bilateral consultations",
+      "protracted discussions",
+      "diplomatic overtures",
+      "preliminary talks"
+    ],
+    "SUBJ": [
+      "the Security Council",
+      "member states",
+      "the delegation",
+      "negotiators",
+      "ambassadors",
+      "diplomatic envoys",
+      "foreign ministers",
+      "the summit participants"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["ratified"],
+        "wrong_forms": ["ratify", "ratifies", "have ratified"],
+        "objects": ["the treaty", "the resolution", "the accord"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["sanctioned"],
+        "wrong_forms": ["sanction", "sanctions", "have sanctioned"],
+        "objects": ["economic measures", "punitive actions", "restrictive policies"],
+        "distractor": "rescinded"
+      },
+      {
+        "correct_forms": ["negotiated"],
+        "wrong_forms": ["negotiate", "negotiates", "have negotiated"],
+        "objects": ["peace terms", "cease-fire agreements", "diplomatic settlements"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["brokered"],
+        "wrong_forms": ["broker", "brokers", "have brokered"],
+        "objects": ["bilateral agreements", "trade pacts", "reconciliation deals"],
+        "distractor": "abrogated"
+      },
+      {
+        "correct_forms": ["mediated"],
+        "wrong_forms": ["mediate", "mediates", "have mediated"],
+        "objects": ["territorial disputes", "border conflicts", "sovereignty issues"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["denounced"],
+        "wrong_forms": ["denounce", "denounces", "have denounced"],
+        "objects": ["human rights violations", "aggression acts", "unilateral actions"],
+        "distractor": "obliterated"
+      }
+    ],
+    "RELATIVE_CLAUSE": [
+      "established new sanctions",
+      "promoted regional stability",
+      "addressed humanitarian concerns",
+      "strengthened multilateral cooperation",
+      "ensured territorial integrity",
+      "guaranteed mutual defense"
+    ]
+  }
+}

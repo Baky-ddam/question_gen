@@ -1,0 +1,71 @@
+{
+  "pattern_id": "PAST_SIMPLE_ACADEMIA_C1_TYPE2_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "sequence_clauses"],
+  "template": "First {SUBJ} ____ , then {SEQUENCE}.",
+  "example": "First the researchers validated the methodology, then they published the findings in a peer-reviewed journal.",
+  "explanation": "Past simple is used for sequential completed actions in the past. This C1 pattern uses the sequence structure 'First... then...' to show the order of academic research steps. Both actions are completed in the past, requiring past simple in the blank and in the sequence clause.",
+  "chunks": {
+    "SUBJ": [
+      "the researchers",
+      "scholars",
+      "the academic team",
+      "investigators",
+      "the principal researcher",
+      "doctoral candidates",
+      "the research consortium",
+      "interdisciplinary experts"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["validated"],
+        "wrong_forms": ["validate", "validates", "have validated"],
+        "objects": ["the methodology", "the experimental design", "the theoretical approach"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["scrutinized"],
+        "wrong_forms": ["scrutinize", "scrutinizes", "have scrutinized"],
+        "objects": ["the empirical data", "the statistical results", "the quantitative evidence"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["synthesized"],
+        "wrong_forms": ["synthesize", "synthesizes", "have synthesized"],
+        "objects": ["divergent perspectives", "conflicting theories", "interdisciplinary findings"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["operationalized"],
+        "wrong_forms": ["operationalize", "operationalizes", "have operationalized"],
+        "objects": ["abstract constructs", "theoretical variables", "conceptual frameworks"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["triangulated"],
+        "wrong_forms": ["triangulate", "triangulates", "have triangulated"],
+        "objects": ["multiple data sources", "qualitative evidence", "research findings"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["replicated"],
+        "wrong_forms": ["replicate", "replicates", "have replicated"],
+        "objects": ["the original experiments", "previous studies", "established results"],
+        "distractor": "abrogated"
+      }
+    ],
+    "SEQUENCE": [
+      "they published the findings in a peer-reviewed journal",
+      "they disseminated the results at an international conference",
+      "they submitted the manuscript for academic review",
+      "they presented their conclusions to the scholarly community",
+      "they contributed to the theoretical discourse",
+      "they advanced the field's understanding"
+    ]
+  }
+}

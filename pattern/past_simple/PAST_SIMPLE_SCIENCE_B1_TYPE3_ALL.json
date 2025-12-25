@@ -1,0 +1,55 @@
+{
+  "pattern_id": "PAST_SIMPLE_SCIENCE_B1_TYPE3_ALL",
+  "focus": "past_simple_negative",
+  "level": "B1",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ discover {OBJ} {TIME}.",
+  "example": "The researchers didn't discover new evidence last month.",
+  "explanation": "Past simple negative uses 'didn't' with all subjects. Type 3 patterns test auxiliary choice (didn't vs doesn't vs don't vs haven't) with the base verb shown in the template.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the scientists",
+      "the researchers"
+    ],
+    "AUX": {
+      "didn't": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "haven't"
+        ],
+        "objects": [],
+        "distractor": "wasn't"
+      }
+    },
+    "OBJ": [
+      "new evidence",
+      "significant patterns",
+      "unusual results",
+      "clear solutions",
+      "important data",
+      "unexpected findings"
+    ],
+    "TIME": [
+      "last month",
+      "last year",
+      "yesterday",
+      "in 2023",
+      "two weeks ago",
+      "last summer"
+    ]
+  }
+}

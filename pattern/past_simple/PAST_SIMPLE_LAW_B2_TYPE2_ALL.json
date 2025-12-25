@@ -1,0 +1,127 @@
+{
+  "pattern_id": "PAST_SIMPLE_LAW_B2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "negation"],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The court didn't accept the evidence because it was inadmissible.",
+  "explanation": "Past simple negative uses 'didn't' + base verb to describe actions that did not occur in the past. Type 2 includes the auxiliary and verb together. The 'because' clause explains the reason for the negative action.",
+  "chunks": {
+    "SUBJ": [
+      "the judge",
+      "the court",
+      "the jury",
+      "the panel",
+      "the attorney",
+      "the counsel",
+      "the tribunal",
+      "the magistrate",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "accept": {
+        "correct_forms": [
+          "didn't accept"
+        ],
+        "wrong_forms": [
+          "doesn't accept",
+          "don't accept",
+          "hasn't accepted"
+        ],
+        "objects": [
+          "the evidence",
+          "the testimony",
+          "the plea",
+          "the argument",
+          "the settlement"
+        ],
+        "distractor": "immediately accepted"
+      },
+      "dismiss": {
+        "correct_forms": [
+          "didn't dismiss"
+        ],
+        "wrong_forms": [
+          "doesn't dismiss",
+          "don't dismiss",
+          "hasn't dismissed"
+        ],
+        "objects": [
+          "the charges",
+          "the case",
+          "the motion",
+          "the complaint",
+          "the appeal"
+        ],
+        "distractor": "automatically dismissed"
+      },
+      "sustain": {
+        "correct_forms": [
+          "didn't sustain"
+        ],
+        "wrong_forms": [
+          "doesn't sustain",
+          "don't sustain",
+          "hasn't sustained"
+        ],
+        "objects": [
+          "the objection",
+          "the challenge",
+          "the claim",
+          "the argument",
+          "the position"
+        ],
+        "distractor": "readily sustained"
+      },
+      "grant": {
+        "correct_forms": [
+          "didn't grant"
+        ],
+        "wrong_forms": [
+          "doesn't grant",
+          "don't grant",
+          "hasn't granted"
+        ],
+        "objects": [
+          "the motion",
+          "the request",
+          "the appeal",
+          "the extension",
+          "the injunction"
+        ],
+        "distractor": "immediately granted"
+      },
+      "uphold": {
+        "correct_forms": [
+          "didn't uphold"
+        ],
+        "wrong_forms": [
+          "doesn't uphold",
+          "don't uphold",
+          "hasn't upheld"
+        ],
+        "objects": [
+          "the conviction",
+          "the ruling",
+          "the decision",
+          "the sentence",
+          "the verdict"
+        ],
+        "distractor": "automatically upheld"
+      }
+    },
+    "REASON": [
+      "it was inadmissible",
+      "procedural errors occurred",
+      "insufficient evidence existed",
+      "the statute expired",
+      "jurisdictional issues arose",
+      "constitutional concerns remained"
+    ]
+  }
+}

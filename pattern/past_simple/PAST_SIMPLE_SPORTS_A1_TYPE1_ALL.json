@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_SPORTS_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I played football yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "played"
+        ],
+        "wrong_forms": [
+          "play",
+          "plays",
+          "am playing"
+        ],
+        "objects": [
+          "football",
+          "tennis",
+          "basketball",
+          "volleyball"
+        ],
+        "distractor": "stop"
+      },
+      "watch": {
+        "correct_forms": [
+          "watched"
+        ],
+        "wrong_forms": [
+          "watch",
+          "watches",
+          "am watching"
+        ],
+        "objects": [
+          "the game",
+          "the match",
+          "the race",
+          "the tournament"
+        ],
+        "distractor": "ignore"
+      },
+      "win": {
+        "correct_forms": [
+          "won"
+        ],
+        "wrong_forms": [
+          "win",
+          "wins",
+          "am winning"
+        ],
+        "objects": [
+          "the game",
+          "the match",
+          "the race",
+          "the trophy"
+        ],
+        "distractor": "lose"
+      },
+      "practice": {
+        "correct_forms": [
+          "practiced"
+        ],
+        "wrong_forms": [
+          "practice",
+          "practices",
+          "am practicing"
+        ],
+        "objects": [
+          "swimming",
+          "running",
+          "yoga",
+          "boxing"
+        ],
+        "distractor": "avoid"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last month",
+      "two days ago"
+    ]
+  }
+}

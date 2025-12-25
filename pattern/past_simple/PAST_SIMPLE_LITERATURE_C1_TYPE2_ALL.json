@@ -1,0 +1,79 @@
+{
+  "pattern_id": "PAST_SIMPLE_LITERATURE_C1_TYPE2_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "literature",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "temporal_clauses"],
+  "template": "Before {PRIOR_EVENT}, {SUBJ} ____ that {RELATIVE_CLAUSE}.",
+  "example": "Before the critical acclaim emerged, the author crafted the narrative that challenged conventional storytelling.",
+  "explanation": "Past simple is used for completed literary actions that occurred before another past event. This C1 pattern uses 'Before' to establish temporal sequence, followed by a relative clause ('that challenged...') for added complexity. Both actions are completed in the past, requiring past simple.",
+  "chunks": {
+    "PRIOR_EVENT": [
+      "the critical acclaim emerged",
+      "publication occurred",
+      "scholarly recognition arrived",
+      "literary prizes followed",
+      "widespread readership developed",
+      "the work gained prominence"
+    ],
+    "SUBJ": [
+      "the author",
+      "the novelist",
+      "the playwright",
+      "the poet",
+      "literary theorists",
+      "the biographer",
+      "modernist writers",
+      "the essayist"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["crafted"],
+        "wrong_forms": ["craft", "crafts", "have crafted"],
+        "objects": ["the narrative", "the prose", "the symbolic framework"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["reconstructed"],
+        "wrong_forms": ["reconstruct", "reconstructs", "have reconstructed"],
+        "objects": ["historical events", "biographical details", "cultural narratives"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["subverted"],
+        "wrong_forms": ["subvert", "subverts", "have subverted"],
+        "objects": ["literary conventions", "narrative expectations", "genre boundaries"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["juxtaposed"],
+        "wrong_forms": ["juxtapose", "juxtaposes", "have juxtaposed"],
+        "objects": ["contrasting themes", "disparate elements", "conflicting perspectives"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["reimagined"],
+        "wrong_forms": ["reimagine", "reimagines", "have reimagined"],
+        "objects": ["classical motifs", "traditional archetypes", "canonical texts"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["articulated"],
+        "wrong_forms": ["articulate", "articulates", "have articulated"],
+        "objects": ["existential themes", "philosophical questions", "universal truths"],
+        "distractor": "abrogated"
+      }
+    ],
+    "RELATIVE_CLAUSE": [
+      "challenged conventional storytelling",
+      "transcended genre limitations",
+      "redefined modernist aesthetics",
+      "questioned established norms",
+      "revolutionized narrative techniques",
+      "influenced subsequent generations"
+    ]
+  }
+}

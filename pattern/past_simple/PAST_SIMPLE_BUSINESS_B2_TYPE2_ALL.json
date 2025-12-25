@@ -1,0 +1,127 @@
+{
+  "pattern_id": "PAST_SIMPLE_BUSINESS_B2_TYPE2_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "result_clauses"],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "The company invested heavily in research, so innovation accelerated significantly.",
+  "explanation": "Past simple is used for completed business actions with clear results. The 'so' clause shows the consequence of the past action. All subjects use the same past verb form.",
+  "chunks": {
+    "SUBJ": [
+      "the corporation",
+      "the management",
+      "the investors",
+      "the leadership",
+      "the executives",
+      "the stakeholders",
+      "the board",
+      "they",
+      "we",
+      "the firm"
+    ],
+    "VERB": {
+      "invested": {
+        "correct_forms": [
+          "invested"
+        ],
+        "wrong_forms": [
+          "invest",
+          "invests",
+          "have invested"
+        ],
+        "objects": [
+          "heavily in research",
+          "in new technology",
+          "in infrastructure",
+          "in employee development",
+          "in market expansion"
+        ],
+        "distractor": "withdrew"
+      },
+      "diversified": {
+        "correct_forms": [
+          "diversified"
+        ],
+        "wrong_forms": [
+          "diversify",
+          "diversifies",
+          "have diversified"
+        ],
+        "objects": [
+          "the portfolio",
+          "the product range",
+          "their operations",
+          "the investments",
+          "the revenue streams"
+        ],
+        "distractor": "concentrated"
+      },
+      "outsourced": {
+        "correct_forms": [
+          "outsourced"
+        ],
+        "wrong_forms": [
+          "outsource",
+          "outsources",
+          "have outsourced"
+        ],
+        "objects": [
+          "production processes",
+          "customer service",
+          "IT operations",
+          "manufacturing",
+          "administrative tasks"
+        ],
+        "distractor": "internalized"
+      },
+      "expanded": {
+        "correct_forms": [
+          "expanded"
+        ],
+        "wrong_forms": [
+          "expand",
+          "expands",
+          "have expanded"
+        ],
+        "objects": [
+          "into new markets",
+          "the workforce",
+          "the facility",
+          "their operations",
+          "the distribution network"
+        ],
+        "distractor": "contracted"
+      },
+      "streamlined": {
+        "correct_forms": [
+          "streamlined"
+        ],
+        "wrong_forms": [
+          "streamline",
+          "streamlines",
+          "have streamlined"
+        ],
+        "objects": [
+          "the processes",
+          "operations",
+          "the workflow",
+          "decision-making",
+          "the supply chain"
+        ],
+        "distractor": "complicated"
+      }
+    },
+    "RESULT": [
+      "profits increased significantly",
+      "efficiency improved dramatically",
+      "costs decreased substantially",
+      "markets expanded rapidly",
+      "innovation accelerated",
+      "productivity rose"
+    ]
+  }
+}

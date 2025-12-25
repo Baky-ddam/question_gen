@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_WORK_A2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "A2",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "She didn't finish the report yesterday.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This shows that an action did not happen at a specific time in the past. Common time markers include 'yesterday,' 'last week,' and 'ago' expressions.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my colleague", "the manager"],
+    "TIME": ["yesterday", "last week", "last month", "two days ago", "in 2023"],
+    "VERB": [
+      {
+        "correct_forms": ["didn't work"],
+        "wrong_forms": ["don't work", "doesn't work", "isn't working"],
+        "objects": ["at the office", "from home", "on the project", "with the team"],
+        "distractor": "didn't quit"
+      },
+      {
+        "correct_forms": ["didn't finish"],
+        "wrong_forms": ["don't finish", "doesn't finish", "isn't finishing"],
+        "objects": ["the report", "the presentation", "the task", "the assignment"],
+        "distractor": "didn't destroy"
+      },
+      {
+        "correct_forms": ["didn't complete"],
+        "wrong_forms": ["don't complete", "doesn't complete", "isn't completing"],
+        "objects": ["the project", "the training", "the course", "the deadline"],
+        "distractor": "didn't abandon"
+      },
+      {
+        "correct_forms": ["didn't start"],
+        "wrong_forms": ["don't start", "doesn't start", "isn't starting"],
+        "objects": ["the new job", "the meeting", "the shift", "work early"],
+        "distractor": "didn't reject"
+      }
+    ]
+  }
+}

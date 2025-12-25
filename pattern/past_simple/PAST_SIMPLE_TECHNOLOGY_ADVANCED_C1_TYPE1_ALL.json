@@ -1,0 +1,87 @@
+{
+  "pattern_id": "PAST_SIMPLE_TECHNOLOGY_ADVANCED_C1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "technology_advanced",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "conditional_clauses"],
+  "template": "When {CONDITION}, {SUBJ} ____ {PREP_PLACE} {TIME}.",
+  "example": "When legacy systems became incompatible, the development team deprecated the outdated APIs in the codebase last quarter.",
+  "explanation": "Past simple is used for completed technical actions at specific past times. This C1 pattern uses a conditional clause ('When legacy systems became incompatible') to establish the context, followed by the main past simple action with location and time markers. The specific past time marker makes past simple necessary.",
+  "chunks": {
+    "CONDITION": [
+      "legacy systems became incompatible",
+      "security vulnerabilities emerged",
+      "scalability issues arose",
+      "performance bottlenecks materialized",
+      "architectural constraints manifested",
+      "technical debt accumulated"
+    ],
+    "SUBJ": [
+      "the development team",
+      "software architects",
+      "DevOps engineers",
+      "the engineering team",
+      "systems administrators",
+      "backend developers",
+      "infrastructure specialists",
+      "the technical committee"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["deprecated"],
+        "wrong_forms": ["deprecate", "deprecates", "have deprecated"],
+        "objects": ["the outdated APIs", "legacy protocols", "obsolete frameworks"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["integrated"],
+        "wrong_forms": ["integrate", "integrates", "have integrated"],
+        "objects": ["microservices architecture", "distributed systems", "cloud-native solutions"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["optimized"],
+        "wrong_forms": ["optimize", "optimizes", "have optimized"],
+        "objects": ["database queries", "algorithmic complexity", "resource allocation"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["refactored"],
+        "wrong_forms": ["refactor", "refactors", "have refactored"],
+        "objects": ["the monolithic codebase", "legacy modules", "tightly-coupled components"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["containerized"],
+        "wrong_forms": ["containerize", "containerizes", "have containerized"],
+        "objects": ["the application stack", "deployment pipelines", "service dependencies"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["orchestrated"],
+        "wrong_forms": ["orchestrate", "orchestrates", "have orchestrated"],
+        "objects": ["automated workflows", "continuous integration", "deployment strategies"],
+        "distractor": "abrogated"
+      }
+    ],
+    "PREP_PLACE": [
+      "in the codebase",
+      "across the infrastructure",
+      "within the production environment",
+      "throughout the system",
+      "in the repository",
+      "across all microservices"
+    ],
+    "TIME": [
+      "last quarter",
+      "during the migration",
+      "in the previous sprint",
+      "throughout the refactoring phase",
+      "in that critical period",
+      "during the system overhaul"
+    ]
+  }
+}

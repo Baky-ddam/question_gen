@@ -1,0 +1,120 @@
+{
+  "pattern_id": "PAST_SIMPLE_SCIENCE_B1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B1",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "When {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "When the experiment began, the scientists observed unusual patterns.",
+  "explanation": "Past simple describes completed scientific actions. B1 patterns use 'when' clauses to provide temporal context for past research activities.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the scientists",
+      "the researchers"
+    ],
+    "VERB": {
+      "observe": {
+        "correct_forms": [
+          "observed"
+        ],
+        "wrong_forms": [
+          "observe",
+          "observes",
+          "have observed"
+        ],
+        "objects": [
+          "unusual patterns",
+          "significant changes",
+          "unexpected results",
+          "clear evidence"
+        ],
+        "distractor": "overlooked"
+      },
+      "test": {
+        "correct_forms": [
+          "tested"
+        ],
+        "wrong_forms": [
+          "test",
+          "tests",
+          "have tested"
+        ],
+        "objects": [
+          "the hypothesis",
+          "different variables",
+          "multiple samples",
+          "various compounds"
+        ],
+        "distractor": "dismissed"
+      },
+      "discover": {
+        "correct_forms": [
+          "discovered"
+        ],
+        "wrong_forms": [
+          "discover",
+          "discovers",
+          "have discovered"
+        ],
+        "objects": [
+          "new species",
+          "important findings",
+          "breakthrough solutions",
+          "unknown properties"
+        ],
+        "distractor": "neglected"
+      },
+      "analyze": {
+        "correct_forms": [
+          "analyzed"
+        ],
+        "wrong_forms": [
+          "analyze",
+          "analyzes",
+          "have analyzed"
+        ],
+        "objects": [
+          "the data",
+          "the samples",
+          "the results",
+          "complex patterns"
+        ],
+        "distractor": "disregarded"
+      },
+      "record": {
+        "correct_forms": [
+          "recorded"
+        ],
+        "wrong_forms": [
+          "record",
+          "records",
+          "have recorded"
+        ],
+        "objects": [
+          "detailed observations",
+          "accurate measurements",
+          "important data",
+          "significant findings"
+        ],
+        "distractor": "ignored"
+      }
+    },
+    "CONDITION": [
+      "the experiment began",
+      "data collection started",
+      "they entered the lab",
+      "the study commenced",
+      "analysis was required",
+      "research funding arrived"
+    ]
+  }
+}

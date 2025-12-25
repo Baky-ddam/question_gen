@@ -1,0 +1,128 @@
+{
+  "pattern_id": "PAST_SIMPLE_CAREER_B1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME} because {REASON}.",
+  "example": "She applied for the position last month because she wanted better opportunities.",
+  "explanation": "Past simple uses the same past form for all subjects. At B1 level, we add reason clauses with 'because' to create more complex sentences about completed past actions.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the candidate",
+      "my colleague"
+    ],
+    "VERB": {
+      "apply": {
+        "correct_forms": [
+          "applied"
+        ],
+        "wrong_forms": [
+          "apply",
+          "applies",
+          "have applied"
+        ],
+        "objects": [
+          "for the position",
+          "for the job",
+          "for the promotion",
+          "to the company"
+        ],
+        "distractor": "rejected"
+      },
+      "interview": {
+        "correct_forms": [
+          "interviewed"
+        ],
+        "wrong_forms": [
+          "interview",
+          "interviews",
+          "have interviewed"
+        ],
+        "objects": [
+          "the candidates",
+          "several applicants",
+          "potential employees",
+          "qualified professionals"
+        ],
+        "distractor": "dismissed"
+      },
+      "accept": {
+        "correct_forms": [
+          "accepted"
+        ],
+        "wrong_forms": [
+          "accept",
+          "accepts",
+          "have accepted"
+        ],
+        "objects": [
+          "the offer",
+          "the contract",
+          "the new role",
+          "the opportunity"
+        ],
+        "distractor": "declined"
+      },
+      "submit": {
+        "correct_forms": [
+          "submitted"
+        ],
+        "wrong_forms": [
+          "submit",
+          "submits",
+          "have submitted"
+        ],
+        "objects": [
+          "the application",
+          "the resume",
+          "the documents",
+          "the portfolio"
+        ],
+        "distractor": "withdrew"
+      },
+      "complete": {
+        "correct_forms": [
+          "completed"
+        ],
+        "wrong_forms": [
+          "complete",
+          "completes",
+          "have completed"
+        ],
+        "objects": [
+          "the training",
+          "the certification",
+          "the course",
+          "the program"
+        ],
+        "distractor": "abandoned"
+      }
+    },
+    "TIME": [
+      "last week",
+      "last month",
+      "yesterday",
+      "two weeks ago",
+      "in January",
+      "in 2023"
+    ],
+    "REASON": [
+      "she wanted better opportunities",
+      "the salary was attractive",
+      "he needed a new challenge",
+      "the position matched her skills",
+      "they offered flexible hours",
+      "it was a great opportunity"
+    ]
+  }
+}

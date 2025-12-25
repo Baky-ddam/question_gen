@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_DAILY_ROUTINE_A2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "A2",
+  "domain": "daily_routine",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "He didn't wake up early yesterday.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This shows that a daily routine activity did not happen at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my roommate", "my colleague"],
+    "TIME": ["yesterday", "last Monday", "last Tuesday", "two days ago", "yesterday morning"],
+    "VERB": [
+      {
+        "correct_forms": ["didn't wake up"],
+        "wrong_forms": ["don't wake up", "doesn't wake up", "isn't waking up"],
+        "objects": ["early", "late", "at 6am", "at 7am", "before sunrise"],
+        "distractor": "didn't sleep"
+      },
+      {
+        "correct_forms": ["didn't eat"],
+        "wrong_forms": ["don't eat", "doesn't eat", "isn't eating"],
+        "objects": ["breakfast", "lunch", "dinner", "cereal", "toast"],
+        "distractor": "didn't skip"
+      },
+      {
+        "correct_forms": ["didn't go"],
+        "wrong_forms": ["don't go", "doesn't go", "isn't going"],
+        "objects": ["to work", "to school", "home", "shopping", "to bed early"],
+        "distractor": "didn't avoid"
+      },
+      {
+        "correct_forms": ["didn't take"],
+        "wrong_forms": ["don't take", "doesn't take", "isn't taking"],
+        "objects": ["a shower", "the bus", "a taxi", "a break", "medicine"],
+        "distractor": "didn't refuse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_FAMILY_A2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "A2",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "She didn't visit her grandmother yesterday.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This shows that a family activity did not happen at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my brother", "my parents"],
+    "TIME": ["yesterday", "last week", "last Sunday", "three days ago", "last month"],
+    "VERB": [
+      {
+        "correct_forms": ["didn't visit"],
+        "wrong_forms": ["don't visit", "doesn't visit", "isn't visiting"],
+        "objects": ["my grandmother", "my relatives", "my uncle", "my cousins", "family friends"],
+        "distractor": "didn't avoid"
+      },
+      {
+        "correct_forms": ["didn't help"],
+        "wrong_forms": ["don't help", "doesn't help", "isn't helping"],
+        "objects": ["my mother", "my father", "my sister", "my grandparents", "with the cleaning"],
+        "distractor": "didn't ignore"
+      },
+      {
+        "correct_forms": ["didn't call"],
+        "wrong_forms": ["don't call", "doesn't call", "isn't calling"],
+        "objects": ["my parents", "my brother", "my aunt", "my family", "home"],
+        "distractor": "didn't ignore"
+      },
+      {
+        "correct_forms": ["didn't meet"],
+        "wrong_forms": ["don't meet", "doesn't meet", "isn't meeting"],
+        "objects": ["my relatives", "my cousins", "family friends", "my grandparents", "at home"],
+        "distractor": "didn't avoid"
+      }
+    ]
+  }
+}

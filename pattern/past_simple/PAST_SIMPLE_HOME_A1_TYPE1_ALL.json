@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_HOME_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "home",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I cleaned my room yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "clean": {
+        "correct_forms": [
+          "cleaned"
+        ],
+        "wrong_forms": [
+          "clean",
+          "cleans",
+          "am cleaning"
+        ],
+        "objects": [
+          "my room",
+          "the house",
+          "the kitchen",
+          "the windows"
+        ],
+        "distractor": "break"
+      },
+      "cook": {
+        "correct_forms": [
+          "cooked"
+        ],
+        "wrong_forms": [
+          "cook",
+          "cooks",
+          "am cooking"
+        ],
+        "objects": [
+          "dinner",
+          "lunch",
+          "pasta",
+          "chicken"
+        ],
+        "distractor": "waste"
+      },
+      "fix": {
+        "correct_forms": [
+          "fixed"
+        ],
+        "wrong_forms": [
+          "fix",
+          "fixes",
+          "am fixing"
+        ],
+        "objects": [
+          "the door",
+          "the bike",
+          "the chair",
+          "the TV"
+        ],
+        "distractor": "break"
+      },
+      "wash": {
+        "correct_forms": [
+          "washed"
+        ],
+        "wrong_forms": [
+          "wash",
+          "washes",
+          "am washing"
+        ],
+        "objects": [
+          "the dishes",
+          "the car",
+          "my clothes",
+          "the floor"
+        ],
+        "distractor": "ignore"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last Sunday",
+      "two days ago"
+    ]
+  }
+}

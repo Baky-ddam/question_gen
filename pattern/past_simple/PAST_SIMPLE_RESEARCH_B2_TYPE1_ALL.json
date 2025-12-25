@@ -1,0 +1,135 @@
+{
+  "pattern_id": "PAST_SIMPLE_RESEARCH_B2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "relative_clauses"],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} that {RELATIVE_CLAUSE} {TIME}.",
+  "example": "The researchers analyzed the data that revealed unexpected patterns last year.",
+  "explanation": "Past simple describes completed research actions at specific past times. The relative clause 'that + clause' provides detail about the research object. All subjects use the same past verb form.",
+  "chunks": {
+    "SUBJ": [
+      "the researchers",
+      "the scientists",
+      "the team",
+      "the investigators",
+      "the scholars",
+      "the laboratory",
+      "the institute",
+      "they",
+      "we",
+      "the academics"
+    ],
+    "VERB": {
+      "analyzed": {
+        "correct_forms": [
+          "analyzed"
+        ],
+        "wrong_forms": [
+          "analyze",
+          "analyzes",
+          "have analyzed"
+        ],
+        "article_objects": [
+          "the data",
+          "the results",
+          "the samples",
+          "the findings",
+          "the variables"
+        ],
+        "distractor": "fabricated"
+      },
+      "hypothesized": {
+        "correct_forms": [
+          "hypothesized"
+        ],
+        "wrong_forms": [
+          "hypothesize",
+          "hypothesizes",
+          "have hypothesized"
+        ],
+        "article_objects": [
+          "the mechanism",
+          "the relationship",
+          "the correlation",
+          "the causation",
+          "the phenomenon"
+        ],
+        "distractor": "disproved"
+      },
+      "concluded": {
+        "correct_forms": [
+          "concluded"
+        ],
+        "wrong_forms": [
+          "conclude",
+          "concludes",
+          "have concluded"
+        ],
+        "article_objects": [
+          "the study",
+          "the investigation",
+          "the experiment",
+          "the research",
+          "the analysis"
+        ],
+        "distractor": "abandoned"
+      },
+      "conducted": {
+        "correct_forms": [
+          "conducted"
+        ],
+        "wrong_forms": [
+          "conduct",
+          "conducts",
+          "have conducted"
+        ],
+        "article_objects": [
+          "the trials",
+          "the experiments",
+          "the surveys",
+          "the interviews",
+          "the observations"
+        ],
+        "distractor": "sabotaged"
+      },
+      "published": {
+        "correct_forms": [
+          "published"
+        ],
+        "wrong_forms": [
+          "publish",
+          "publishes",
+          "have published"
+        ],
+        "article_objects": [
+          "the findings",
+          "the paper",
+          "the study",
+          "the results",
+          "the article"
+        ],
+        "distractor": "suppressed"
+      }
+    },
+    "RELATIVE_CLAUSE": [
+      "revealed unexpected patterns",
+      "challenged existing theories",
+      "confirmed the hypothesis",
+      "contradicted previous findings",
+      "advanced the field",
+      "supported the predictions"
+    ],
+    "TIME": [
+      "last year",
+      "in 2022",
+      "during the study",
+      "last semester",
+      "in September",
+      "last quarter"
+    ]
+  }
+}

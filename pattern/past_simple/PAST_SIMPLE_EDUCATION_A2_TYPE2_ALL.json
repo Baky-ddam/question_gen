@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_EDUCATION_A2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "A2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "He didn't study for the exam yesterday.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This shows that an educational activity did not happen at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my classmate", "the student"],
+    "TIME": ["yesterday", "last week", "last semester", "two months ago", "last year"],
+    "VERB": [
+      {
+        "correct_forms": ["didn't learn"],
+        "wrong_forms": ["don't learn", "doesn't learn", "isn't learning"],
+        "objects": ["English", "French", "math", "programming", "new skills"],
+        "distractor": "didn't forget"
+      },
+      {
+        "correct_forms": ["didn't study"],
+        "wrong_forms": ["don't study", "doesn't study", "isn't studying"],
+        "objects": ["history", "science", "literature", "chemistry", "for the exam"],
+        "distractor": "didn't skip"
+      },
+      {
+        "correct_forms": ["didn't pass"],
+        "wrong_forms": ["don't pass", "doesn't pass", "isn't passing"],
+        "objects": ["the exam", "the test", "the course", "the final", "all subjects"],
+        "distractor": "didn't fail"
+      },
+      {
+        "correct_forms": ["didn't attend"],
+        "wrong_forms": ["don't attend", "doesn't attend", "isn't attending"],
+        "objects": ["the class", "the lecture", "school", "university", "the workshop"],
+        "distractor": "didn't skip"
+      }
+    ]
+  }
+}

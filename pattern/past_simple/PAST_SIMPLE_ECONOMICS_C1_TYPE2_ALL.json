@@ -1,0 +1,80 @@
+{
+  "pattern_id": "PAST_SIMPLE_ECONOMICS_C1_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses"],
+  "template": "Despite {PRESSURE}, {SUBJ} ____ {PREP_TIME}.",
+  "example": "Despite mounting pressure, the central bank didn't devalue the currency during the crisis.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This C1 pattern uses a concessive clause ('Despite mounting pressure') to contrast expectations with the actual (negative) action. The specific past time marker requires past simple negative, not present perfect or other tenses.",
+  "chunks": {
+    "PRESSURE": [
+      "mounting pressure",
+      "international scrutiny",
+      "market expectations",
+      "economic turbulence",
+      "severe criticism",
+      "investor concerns"
+    ],
+    "SUBJ": [
+      "the central bank",
+      "financial institutions",
+      "policymakers",
+      "the Federal Reserve",
+      "the treasury",
+      "regulators",
+      "major investors",
+      "monetary authorities"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["didn't devalue"],
+        "wrong_forms": ["doesn't devalue", "don't devalue", "haven't devalued"],
+        "objects": ["the currency", "monetary reserves", "exchange mechanisms"],
+        "distractor": "didn't obliterate"
+      },
+      {
+        "correct_forms": ["didn't restructure"],
+        "wrong_forms": ["doesn't restructure", "don't restructure", "haven't restructured"],
+        "objects": ["debt obligations", "sovereign bonds", "fiscal commitments"],
+        "distractor": "didn't forsake"
+      },
+      {
+        "correct_forms": ["didn't liquidate"],
+        "wrong_forms": ["doesn't liquidate", "don't liquidate", "haven't liquidated"],
+        "objects": ["equity positions", "derivative portfolios", "strategic assets"],
+        "distractor": "didn't renounce"
+      },
+      {
+        "correct_forms": ["didn't implement"],
+        "wrong_forms": ["doesn't implement", "don't implement", "haven't implemented"],
+        "objects": ["austerity measures", "quantitative easing", "contractionary policies"],
+        "distractor": "didn't repudiate"
+      },
+      {
+        "correct_forms": ["didn't intervene"],
+        "wrong_forms": ["doesn't intervene", "don't intervene", "haven't intervened"],
+        "objects": ["in currency markets", "in liquidity crises", "in speculative attacks"],
+        "distractor": "didn't nullify"
+      },
+      {
+        "correct_forms": ["didn't tighten"],
+        "wrong_forms": ["doesn't tighten", "don't tighten", "haven't tightened"],
+        "objects": ["monetary policy", "lending standards", "capital requirements"],
+        "distractor": "didn't abrogate"
+      }
+    ],
+    "PREP_TIME": [
+      "during the crisis",
+      "in 2008",
+      "throughout the recession",
+      "last quarter",
+      "in that volatile period",
+      "during the downturn",
+      "in the previous fiscal year"
+    ]
+  }
+}

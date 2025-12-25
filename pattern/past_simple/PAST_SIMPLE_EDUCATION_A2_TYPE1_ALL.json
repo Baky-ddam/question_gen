@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_EDUCATION_A2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "She studied English last year.",
+  "explanation": "Past simple is used to describe completed educational activities at a specific time in the past. Use the past form of the verb with time markers like 'yesterday,' 'last semester,' or 'in 2022.'",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my classmate", "the student"],
+    "TIME": ["yesterday", "last week", "last semester", "two months ago", "in 2022", "last year"],
+    "VERB": [
+      {
+        "correct_forms": ["learned"],
+        "wrong_forms": ["learn", "learns", "am learning"],
+        "objects": ["English", "French", "math", "programming", "new skills"],
+        "distractor": "forgot"
+      },
+      {
+        "correct_forms": ["studied"],
+        "wrong_forms": ["study", "studies", "am studying"],
+        "objects": ["history", "science", "literature", "chemistry", "for the exam"],
+        "distractor": "skipped"
+      },
+      {
+        "correct_forms": ["passed"],
+        "wrong_forms": ["pass", "passes", "am passing"],
+        "objects": ["the exam", "the test", "the course", "the final", "all subjects"],
+        "distractor": "failed"
+      },
+      {
+        "correct_forms": ["attended"],
+        "wrong_forms": ["attend", "attends", "am attending"],
+        "objects": ["the class", "the lecture", "school", "university", "the workshop"],
+        "distractor": "skipped"
+      }
+    ]
+  }
+}

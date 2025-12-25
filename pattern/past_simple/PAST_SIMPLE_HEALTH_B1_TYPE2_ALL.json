@@ -1,0 +1,95 @@
+{
+  "pattern_id": "PAST_SIMPLE_HEALTH_B1_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "She didn't follow the treatment last month.",
+  "explanation": "Past simple negative uses 'didn't' + base verb. Type 2 patterns test the complete negative form (auxiliary + main verb together) for all subjects.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the patient",
+      "my sister"
+    ],
+    "VERB": {
+      "exercise_regularly": {
+        "correct_forms": [
+          "didn't exercise regularly"
+        ],
+        "wrong_forms": [
+          "doesn't exercise regularly",
+          "don't exercise regularly",
+          "haven't exercised regularly"
+        ],
+        "objects": [],
+        "distractor": "wasn't exercising regularly"
+      },
+      "follow_the_diet": {
+        "correct_forms": [
+          "didn't follow the diet"
+        ],
+        "wrong_forms": [
+          "doesn't follow the diet",
+          "don't follow the diet",
+          "haven't followed the diet"
+        ],
+        "objects": [],
+        "distractor": "wasn't following the diet"
+      },
+      "take_medication": {
+        "correct_forms": [
+          "didn't take medication"
+        ],
+        "wrong_forms": [
+          "doesn't take medication",
+          "don't take medication",
+          "haven't taken medication"
+        ],
+        "objects": [],
+        "distractor": "wasn't taking medication"
+      },
+      "visit_the_doctor": {
+        "correct_forms": [
+          "didn't visit the doctor"
+        ],
+        "wrong_forms": [
+          "doesn't visit the doctor",
+          "don't visit the doctor",
+          "haven't visited the doctor"
+        ],
+        "objects": [],
+        "distractor": "wasn't visiting the doctor"
+      },
+      "sleep_well": {
+        "correct_forms": [
+          "didn't sleep well"
+        ],
+        "wrong_forms": [
+          "doesn't sleep well",
+          "don't sleep well",
+          "haven't slept well"
+        ],
+        "objects": [],
+        "distractor": "wasn't sleeping well"
+      }
+    },
+    "TIME": [
+      "last week",
+      "last month",
+      "yesterday",
+      "in February",
+      "two days ago",
+      "last year"
+    ]
+  }
+}

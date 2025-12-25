@@ -1,0 +1,76 @@
+{
+  "pattern_id": "PAST_SIMPLE_WEATHER_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "weather",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "It rained yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "It"
+    ],
+    "VERB": {
+      "rain": {
+        "correct_forms": [
+          "rained"
+        ],
+        "wrong_forms": [
+          "rain",
+          "rains",
+          "is raining"
+        ],
+        "objects": [],
+        "distractor": "stop"
+      },
+      "snow": {
+        "correct_forms": [
+          "snowed"
+        ],
+        "wrong_forms": [
+          "snow",
+          "snows",
+          "is snowing"
+        ],
+        "objects": [],
+        "distractor": "stop"
+      },
+      "clear": {
+        "correct_forms": [
+          "cleared"
+        ],
+        "wrong_forms": [
+          "clear",
+          "clears",
+          "is clearing"
+        ],
+        "objects": [
+          "up"
+        ],
+        "distractor": "worsen"
+      },
+      "change": {
+        "correct_forms": [
+          "changed"
+        ],
+        "wrong_forms": [
+          "change",
+          "changes",
+          "is changing"
+        ],
+        "objects": [],
+        "distractor": "stay"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last night",
+      "two days ago"
+    ]
+  }
+}

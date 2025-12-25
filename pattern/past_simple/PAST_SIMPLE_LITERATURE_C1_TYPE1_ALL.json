@@ -1,0 +1,71 @@
+{
+  "pattern_id": "PAST_SIMPLE_LITERATURE_C1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "literature",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "result_clauses"],
+  "template": "{SUBJ} ____ , which {RESULT}.",
+  "example": "Literary critics analyzed the postmodern narrative, which redefined contemporary fiction.",
+  "explanation": "Past simple is used for completed literary analysis actions. This C1 pattern includes a result clause ('which redefined...') to show the impact of the critical analysis. The completed action in the past (implicit from context or explicit with time markers) requires past simple. The non-restrictive relative clause adds sophistication.",
+  "chunks": {
+    "SUBJ": [
+      "literary critics",
+      "the author",
+      "scholars",
+      "the novelist",
+      "biographers",
+      "the playwright",
+      "literary theorists",
+      "the poet"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["analyzed"],
+        "wrong_forms": ["analyze", "analyzes", "have analyzed"],
+        "objects": ["the postmodern narrative", "symbolic imagery", "thematic complexity"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["critiqued"],
+        "wrong_forms": ["critique", "critiques", "have critiqued"],
+        "objects": ["the allegorical framework", "narrative conventions", "stylistic choices"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["interpreted"],
+        "wrong_forms": ["interpret", "interprets", "have interpreted"],
+        "objects": ["the metaphorical layers", "ambiguous endings", "archetypal characters"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["deconstructed"],
+        "wrong_forms": ["deconstruct", "deconstructs", "have deconstructed"],
+        "objects": ["the textual ambiguities", "binary oppositions", "narrative structures"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["elucidated"],
+        "wrong_forms": ["elucidate", "elucidates", "have elucidated"],
+        "objects": ["intertextual references", "cultural subtexts", "philosophical underpinnings"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["contextualized"],
+        "wrong_forms": ["contextualize", "contextualizes", "have contextualized"],
+        "objects": ["the historical narrative", "socio-political themes", "authorial intent"],
+        "distractor": "abrogated"
+      }
+    ],
+    "RESULT": [
+      "redefined contemporary fiction",
+      "influenced subsequent generations",
+      "challenged traditional interpretations",
+      "sparked scholarly debate",
+      "transformed critical discourse",
+      "enriched literary theory"
+    ]
+  }
+}

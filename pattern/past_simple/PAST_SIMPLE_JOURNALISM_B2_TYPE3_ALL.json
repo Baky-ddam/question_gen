@@ -1,0 +1,109 @@
+{
+  "pattern_id": "PAST_SIMPLE_JOURNALISM_B2_TYPE3_ALL",
+  "focus": "past_simple_negative",
+  "level": "B2",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "all",
+  "sub_grammar": ["articles"],
+  "template": "{SUBJ} ____ verify {ARTICLE_OBJ} before {PAST_EVENT}.",
+  "example": "The editor didn't verify the sources before the publication deadline.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects to describe actions that did not happen at a specific past time. Type 3 focuses on auxiliary choice with the base verb in the template.",
+  "chunks": {
+    "SUBJ": [
+      "the journalist",
+      "the reporter",
+      "the editor",
+      "the correspondent",
+      "the investigator",
+      "the columnist",
+      "the newsroom",
+      "they",
+      "we",
+      "the team"
+    ],
+    "AUX": {
+      "didnt_verify": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the sources",
+          "the facts",
+          "the claims",
+          "the information",
+          "the allegations"
+        ],
+        "distractor": "always"
+      },
+      "didnt_disclose": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the conflicts",
+          "the bias",
+          "the sources",
+          "the funding",
+          "the affiliations"
+        ],
+        "distractor": "immediately"
+      },
+      "didnt_attribute": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the quotes",
+          "the statements",
+          "the findings",
+          "the data",
+          "the information"
+        ],
+        "distractor": "carefully"
+      },
+      "didnt_corroborate": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the testimony",
+          "the evidence",
+          "the accounts",
+          "the allegations",
+          "the claims"
+        ],
+        "distractor": "thoroughly"
+      }
+    },
+    "PAST_EVENT": [
+      "the publication deadline",
+      "the press conference",
+      "the broadcast",
+      "the story went live",
+      "the interview aired",
+      "the release"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "pattern_id": "PAST_SIMPLE_TECHNOLOGY_ADVANCED_C1_TYPE2_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "technology_advanced",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "contrast_clauses"],
+  "template": "While {CONTRAST}, {SUBJ} ____ {PREP_PLACE} {TIME}.",
+  "example": "While competitors hesitated, the engineering team implemented microservices architecture across the infrastructure last year.",
+  "explanation": "Past simple is used for completed technical actions in the past. This C1 pattern uses a contrast clause ('While competitors hesitated') to highlight different actions taken simultaneously. The specific past time marker ('last year') requires past simple for the main action.",
+  "chunks": {
+    "CONTRAST": [
+      "competitors hesitated",
+      "industry standards evolved slowly",
+      "legacy systems persisted",
+      "traditional approaches dominated",
+      "conventional methods prevailed",
+      "other teams delayed"
+    ],
+    "SUBJ": [
+      "the engineering team",
+      "software architects",
+      "DevOps engineers",
+      "systems administrators",
+      "backend developers",
+      "infrastructure specialists",
+      "the technical committee",
+      "platform engineers"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["implemented"],
+        "wrong_forms": ["implement", "implements", "have implemented"],
+        "objects": ["microservices architecture", "distributed systems", "cloud-native solutions"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["migrated"],
+        "wrong_forms": ["migrate", "migrates", "have migrated"],
+        "objects": ["legacy databases", "monolithic applications", "on-premise infrastructure"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["automated"],
+        "wrong_forms": ["automate", "automates", "have automated"],
+        "objects": ["deployment pipelines", "testing workflows", "infrastructure provisioning"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["decoupled"],
+        "wrong_forms": ["decouple", "decouples", "have decoupled"],
+        "objects": ["tightly-integrated modules", "interdependent services", "monolithic components"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["scaled"],
+        "wrong_forms": ["scale", "scales", "have scaled"],
+        "objects": ["distributed architectures", "containerized workloads", "elastic infrastructure"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["modernized"],
+        "wrong_forms": ["modernize", "modernizes", "have modernized"],
+        "objects": ["the technology stack", "deployment practices", "development workflows"],
+        "distractor": "abrogated"
+      }
+    ],
+    "PREP_PLACE": [
+      "across the infrastructure",
+      "throughout the system",
+      "in the production environment",
+      "within the platform",
+      "across all services",
+      "in the cloud environment"
+    ],
+    "TIME": [
+      "last year",
+      "during the digital transformation",
+      "in the previous quarter",
+      "throughout the migration",
+      "in that pivotal period",
+      "during the modernization initiative"
+    ]
+  }
+}

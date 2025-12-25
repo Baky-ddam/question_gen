@@ -1,0 +1,80 @@
+{
+  "pattern_id": "PAST_SIMPLE_ECONOMICS_C1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses"],
+  "template": "Although {CONTRAST}, {SUBJ} ____ {PREP_TIME}.",
+  "example": "Although predictions suggested stability, the central bank devalued the currency during the crisis.",
+  "explanation": "Past simple is used for completed actions at a specific time in the past. In this C1-level pattern, we use complex contrast clauses ('Although...') to show that despite expectations, economic actions were taken. The specific past time markers ('during the crisis', 'in 2008') make past simple the only correct choice.",
+  "chunks": {
+    "CONTRAST": [
+      "predictions suggested stability",
+      "analysts warned otherwise",
+      "market sentiment remained positive",
+      "experts anticipated growth",
+      "forecasts indicated recovery",
+      "indicators showed resilience"
+    ],
+    "SUBJ": [
+      "the central bank",
+      "financial institutions",
+      "policymakers",
+      "the Federal Reserve",
+      "the treasury",
+      "regulators",
+      "major investors",
+      "hedge funds"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["devalued"],
+        "wrong_forms": ["devalue", "devalues", "have devalued"],
+        "objects": ["the currency", "monetary reserves", "fiscal commitments"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["restructured"],
+        "wrong_forms": ["restructure", "restructures", "have restructured"],
+        "objects": ["debt obligations", "sovereign bonds", "capital requirements"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["liquidated"],
+        "wrong_forms": ["liquidate", "liquidates", "have liquidated"],
+        "objects": ["equity positions", "derivative portfolios", "distressed assets"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["consolidated"],
+        "wrong_forms": ["consolidate", "consolidates", "have consolidated"],
+        "objects": ["balance sheets", "financial statements", "fiscal positions"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["stabilized"],
+        "wrong_forms": ["stabilize", "stabilizes", "have stabilized"],
+        "objects": ["exchange rates", "inflation levels", "monetary policy"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["diversified"],
+        "wrong_forms": ["diversify", "diversifies", "have diversified"],
+        "objects": ["investment portfolios", "asset allocations", "risk exposure"],
+        "distractor": "abrogated"
+      }
+    ],
+    "PREP_TIME": [
+      "during the recession",
+      "in 2008",
+      "throughout the crisis",
+      "last quarter",
+      "in the previous fiscal year",
+      "during the downturn",
+      "in that tumultuous period"
+    ]
+  }
+}

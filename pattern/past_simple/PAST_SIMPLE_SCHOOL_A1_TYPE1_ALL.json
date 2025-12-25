@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_SCHOOL_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I studied math yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "study": {
+        "correct_forms": [
+          "studied"
+        ],
+        "wrong_forms": [
+          "study",
+          "studies",
+          "am studying"
+        ],
+        "objects": [
+          "math",
+          "English",
+          "history",
+          "science"
+        ],
+        "distractor": "avoid"
+      },
+      "learn": {
+        "correct_forms": [
+          "learned"
+        ],
+        "wrong_forms": [
+          "learn",
+          "learns",
+          "am learning"
+        ],
+        "objects": [
+          "new words",
+          "grammar",
+          "vocabulary",
+          "the lesson"
+        ],
+        "distractor": "forget"
+      },
+      "finish": {
+        "correct_forms": [
+          "finished"
+        ],
+        "wrong_forms": [
+          "finish",
+          "finishes",
+          "am finishing"
+        ],
+        "objects": [
+          "homework",
+          "the test",
+          "the project",
+          "the exercise"
+        ],
+        "distractor": "skip"
+      },
+      "write": {
+        "correct_forms": [
+          "wrote"
+        ],
+        "wrong_forms": [
+          "write",
+          "writes",
+          "am writing"
+        ],
+        "objects": [
+          "an essay",
+          "notes",
+          "a report",
+          "the answers"
+        ],
+        "distractor": "ignore"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last Monday",
+      "two days ago"
+    ]
+  }
+}

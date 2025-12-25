@@ -1,0 +1,135 @@
+{
+  "pattern_id": "PAST_SIMPLE_JOURNALISM_B2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "relative_clauses"],
+  "template": "{SUBJ} ____ {ARTICLE_OBJ} that {RELATIVE_CLAUSE} {TIME}.",
+  "example": "The journalist investigated the story that shocked the nation last month.",
+  "explanation": "Past simple is used for completed journalism actions at specific past times. The relative clause 'that + clause' adds detail about the object. All subjects use the same past verb form.",
+  "chunks": {
+    "SUBJ": [
+      "the journalist",
+      "the reporter",
+      "the correspondent",
+      "the editor",
+      "the columnist",
+      "the investigator",
+      "the media team",
+      "they",
+      "we",
+      "the press"
+    ],
+    "VERB": {
+      "investigated": {
+        "correct_forms": [
+          "investigated"
+        ],
+        "wrong_forms": [
+          "investigate",
+          "investigates",
+          "has investigated"
+        ],
+        "article_objects": [
+          "the scandal",
+          "the story",
+          "the allegations",
+          "the incident",
+          "the case"
+        ],
+        "distractor": "concealed"
+      },
+      "reported": {
+        "correct_forms": [
+          "reported"
+        ],
+        "wrong_forms": [
+          "report",
+          "reports",
+          "has reported"
+        ],
+        "article_objects": [
+          "the events",
+          "the developments",
+          "the findings",
+          "the crisis",
+          "the breakthrough"
+        ],
+        "distractor": "suppressed"
+      },
+      "published": {
+        "correct_forms": [
+          "published"
+        ],
+        "wrong_forms": [
+          "publish",
+          "publishes",
+          "has published"
+        ],
+        "article_objects": [
+          "the article",
+          "the exposé",
+          "the investigation",
+          "the report",
+          "the analysis"
+        ],
+        "distractor": "censored"
+      },
+      "uncovered": {
+        "correct_forms": [
+          "uncovered"
+        ],
+        "wrong_forms": [
+          "uncover",
+          "uncovers",
+          "has uncovered"
+        ],
+        "article_objects": [
+          "the evidence",
+          "the truth",
+          "the corruption",
+          "the conspiracy",
+          "the details"
+        ],
+        "distractor": "obscured"
+      },
+      "documented": {
+        "correct_forms": [
+          "documented"
+        ],
+        "wrong_forms": [
+          "document",
+          "documents",
+          "has documented"
+        ],
+        "article_objects": [
+          "the events",
+          "the situation",
+          "the violations",
+          "the phenomenon",
+          "the crisis"
+        ],
+        "distractor": "fabricated"
+      }
+    },
+    "RELATIVE_CLAUSE": [
+      "shocked the nation",
+      "captivated audiences",
+      "sparked controversy",
+      "revealed the truth",
+      "changed public opinion",
+      "exposed wrongdoing"
+    ],
+    "TIME": [
+      "last month",
+      "in October",
+      "last year",
+      "during the election",
+      "in 2022",
+      "last quarter"
+    ]
+  }
+}

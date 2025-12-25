@@ -1,0 +1,103 @@
+{
+  "pattern_id": "PAST_SIMPLE_EVENTS_B1_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME} because {REASON}.",
+  "example": "They didn't attend the conference last month because they were traveling abroad.",
+  "explanation": "Past simple negative with reason clauses creates complex B1 sentences. Type 2 tests the full negative form (didn't + base verb) together.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the guests",
+      "my colleagues"
+    ],
+    "VERB": {
+      "attend_the_ceremony": {
+        "correct_forms": [
+          "didn't attend the ceremony"
+        ],
+        "wrong_forms": [
+          "doesn't attend the ceremony",
+          "don't attend the ceremony",
+          "haven't attended the ceremony"
+        ],
+        "objects": [],
+        "distractor": "wasn't attending the ceremony"
+      },
+      "celebrate_the_occasion": {
+        "correct_forms": [
+          "didn't celebrate the occasion"
+        ],
+        "wrong_forms": [
+          "doesn't celebrate the occasion",
+          "don't celebrate the occasion",
+          "haven't celebrated the occasion"
+        ],
+        "objects": [],
+        "distractor": "wasn't celebrating the occasion"
+      },
+      "participate_in_the_event": {
+        "correct_forms": [
+          "didn't participate in the event"
+        ],
+        "wrong_forms": [
+          "doesn't participate in the event",
+          "don't participate in the event",
+          "haven't participated in the event"
+        ],
+        "objects": [],
+        "distractor": "wasn't participating in the event"
+      },
+      "organize_the_meeting": {
+        "correct_forms": [
+          "didn't organize the meeting"
+        ],
+        "wrong_forms": [
+          "doesn't organize the meeting",
+          "don't organize the meeting",
+          "haven't organized the meeting"
+        ],
+        "objects": [],
+        "distractor": "wasn't organizing the meeting"
+      },
+      "invite_the_speakers": {
+        "correct_forms": [
+          "didn't invite the speakers"
+        ],
+        "wrong_forms": [
+          "doesn't invite the speakers",
+          "don't invite the speakers",
+          "haven't invited the speakers"
+        ],
+        "objects": [],
+        "distractor": "wasn't inviting the speakers"
+      }
+    },
+    "TIME": [
+      "last month",
+      "last week",
+      "yesterday",
+      "in March",
+      "two weeks ago",
+      "last year"
+    ],
+    "REASON": [
+      "they were traveling abroad",
+      "he had other commitments",
+      "the schedule conflicted",
+      "she was busy with work",
+      "it was too expensive",
+      "the venue was inconvenient"
+    ]
+  }
+}

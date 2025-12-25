@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_ENTERTAINMENT_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "entertainment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I watched a movie yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "watch": {
+        "correct_forms": [
+          "watched"
+        ],
+        "wrong_forms": [
+          "watch",
+          "watches",
+          "am watching"
+        ],
+        "objects": [
+          "a movie",
+          "a video",
+          "the show",
+          "TV"
+        ],
+        "distractor": "ignore"
+      },
+      "listen": {
+        "correct_forms": [
+          "listened"
+        ],
+        "wrong_forms": [
+          "listen",
+          "listens",
+          "am listening"
+        ],
+        "objects": [
+          "to music",
+          "to the radio",
+          "to songs",
+          "to the podcast"
+        ],
+        "distractor": "avoid"
+      },
+      "play": {
+        "correct_forms": [
+          "played"
+        ],
+        "wrong_forms": [
+          "play",
+          "plays",
+          "am playing"
+        ],
+        "objects": [
+          "games",
+          "video games",
+          "the guitar",
+          "music"
+        ],
+        "distractor": "stop"
+      },
+      "enjoy": {
+        "correct_forms": [
+          "enjoyed"
+        ],
+        "wrong_forms": [
+          "enjoy",
+          "enjoys",
+          "am enjoying"
+        ],
+        "objects": [
+          "the concert",
+          "the party",
+          "the festival",
+          "the event"
+        ],
+        "distractor": "hate"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last night",
+      "two days ago"
+    ]
+  }
+}

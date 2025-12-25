@@ -1,0 +1,128 @@
+{
+  "pattern_id": "PAST_SIMPLE_CULTURE_B1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B1",
+  "domain": "culture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {PREP_TIME} because {REASON}.",
+  "example": "She attended the exhibition in Paris last summer because she loves modern art.",
+  "explanation": "Past simple describes completed cultural experiences. B1 patterns combine prepositional time phrases and reason clauses for sophisticated sentence construction.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "my friend",
+      "the tourists"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "attended"
+        ],
+        "wrong_forms": [
+          "attend",
+          "attends",
+          "have attended"
+        ],
+        "objects": [
+          "the exhibition",
+          "the festival",
+          "the concert",
+          "the ceremony"
+        ],
+        "distractor": "boycotted"
+      },
+      "experience": {
+        "correct_forms": [
+          "experienced"
+        ],
+        "wrong_forms": [
+          "experience",
+          "experiences",
+          "have experienced"
+        ],
+        "objects": [
+          "local traditions",
+          "different customs",
+          "cultural diversity",
+          "authentic cuisine"
+        ],
+        "distractor": "rejected"
+      },
+      "discover": {
+        "correct_forms": [
+          "discovered"
+        ],
+        "wrong_forms": [
+          "discover",
+          "discovers",
+          "have discovered"
+        ],
+        "objects": [
+          "hidden treasures",
+          "ancient monuments",
+          "local artists",
+          "unique traditions"
+        ],
+        "distractor": "overlooked"
+      },
+      "visit": {
+        "correct_forms": [
+          "visited"
+        ],
+        "wrong_forms": [
+          "visit",
+          "visits",
+          "have visited"
+        ],
+        "objects": [
+          "the museum",
+          "historical sites",
+          "art galleries",
+          "the theater"
+        ],
+        "distractor": "avoided"
+      },
+      "explore": {
+        "correct_forms": [
+          "explored"
+        ],
+        "wrong_forms": [
+          "explore",
+          "explores",
+          "have explored"
+        ],
+        "objects": [
+          "cultural heritage",
+          "traditional markets",
+          "old neighborhoods",
+          "historic districts"
+        ],
+        "distractor": "dismissed"
+      }
+    },
+    "PREP_TIME": [
+      "in Paris last summer",
+      "in Rome in 2023",
+      "in Tokyo last year",
+      "in London two months ago",
+      "in Berlin last week",
+      "in Barcelona in June"
+    ],
+    "REASON": [
+      "she loves modern art",
+      "he was interested in history",
+      "they wanted to learn more",
+      "it was highly recommended",
+      "she studied archaeology",
+      "he appreciated local culture"
+    ]
+  }
+}

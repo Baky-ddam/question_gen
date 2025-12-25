@@ -1,0 +1,127 @@
+{
+  "pattern_id": "PAST_SIMPLE_POLITICS_B2_TYPE2_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "politics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "result_clauses"],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "The government passed the legislation, so reforms took effect immediately.",
+  "explanation": "Past simple describes completed political actions with consequences shown by 'so' + result clause. All subjects use the same past verb form. The result clause demonstrates the impact of the political action.",
+  "chunks": {
+    "SUBJ": [
+      "the administration",
+      "the coalition",
+      "the majority",
+      "the opposition",
+      "the leadership",
+      "the committee",
+      "the cabinet",
+      "the delegates",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "passed": {
+        "correct_forms": [
+          "passed"
+        ],
+        "wrong_forms": [
+          "pass",
+          "passes",
+          "have passed"
+        ],
+        "objects": [
+          "the legislation",
+          "the bill",
+          "the amendment",
+          "the resolution",
+          "the reforms"
+        ],
+        "distractor": "blocked"
+      },
+      "ratified": {
+        "correct_forms": [
+          "ratified"
+        ],
+        "wrong_forms": [
+          "ratify",
+          "ratifies",
+          "have ratified"
+        ],
+        "objects": [
+          "the treaty",
+          "the agreement",
+          "the accord",
+          "the convention",
+          "the pact"
+        ],
+        "distractor": "rejected"
+      },
+      "allocated": {
+        "correct_forms": [
+          "allocated"
+        ],
+        "wrong_forms": [
+          "allocate",
+          "allocates",
+          "have allocated"
+        ],
+        "objects": [
+          "additional funding",
+          "emergency resources",
+          "substantial budget",
+          "increased support",
+          "critical aid"
+        ],
+        "distractor": "withheld"
+      },
+      "endorsed": {
+        "correct_forms": [
+          "endorsed"
+        ],
+        "wrong_forms": [
+          "endorse",
+          "endorses",
+          "have endorsed"
+        ],
+        "objects": [
+          "the candidate",
+          "the initiative",
+          "the proposal",
+          "the platform",
+          "the strategy"
+        ],
+        "distractor": "denounced"
+      },
+      "mobilized": {
+        "correct_forms": [
+          "mobilized"
+        ],
+        "wrong_forms": [
+          "mobilize",
+          "mobilizes",
+          "have mobilized"
+        ],
+        "objects": [
+          "public support",
+          "the grassroots movement",
+          "voter participation",
+          "coalition support",
+          "international backing"
+        ],
+        "distractor": "suppressed"
+      }
+    },
+    "RESULT": [
+      "reforms took effect immediately",
+      "public opinion shifted",
+      "opposition strengthened",
+      "negotiations commenced",
+      "implementation began",
+      "debate intensified"
+    ]
+  }
+}

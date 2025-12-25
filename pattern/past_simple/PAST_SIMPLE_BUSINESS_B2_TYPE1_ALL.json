@@ -1,0 +1,127 @@
+{
+  "pattern_id": "PAST_SIMPLE_BUSINESS_B2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles"],
+  "template": "After {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "After the board approved the proposal, the CEO launched the new product line.",
+  "explanation": "Past simple describes completed business actions at specific times in the past. All subjects use the same past verb form regardless of person. Context markers like 'after + past event' and specific time references require past simple tense.",
+  "chunks": {
+    "PAST_EVENT": [
+      "the analysis was complete",
+      "the board approved the proposal",
+      "the market shifted",
+      "competitors withdrew",
+      "regulations changed",
+      "the merger finalized"
+    ],
+    "SUBJ": [
+      "the CEO",
+      "the manager",
+      "the consultant",
+      "the entrepreneur",
+      "the executive",
+      "the board",
+      "the firm",
+      "the company",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "negotiated": {
+        "correct_forms": [
+          "negotiated"
+        ],
+        "wrong_forms": [
+          "negotiate",
+          "negotiates",
+          "has negotiated"
+        ],
+        "objects": [
+          "the contract",
+          "the deal",
+          "the terms",
+          "the agreement",
+          "the partnership"
+        ],
+        "distractor": "disregarded"
+      },
+      "launched": {
+        "correct_forms": [
+          "launched"
+        ],
+        "wrong_forms": [
+          "launch",
+          "launches",
+          "has launched"
+        ],
+        "objects": [
+          "the product line",
+          "the campaign",
+          "the initiative",
+          "the venture",
+          "the service"
+        ],
+        "distractor": "abandoned"
+      },
+      "acquired": {
+        "correct_forms": [
+          "acquired"
+        ],
+        "wrong_forms": [
+          "acquire",
+          "acquires",
+          "has acquired"
+        ],
+        "objects": [
+          "the competitor",
+          "the startup",
+          "the assets",
+          "the technology",
+          "the brand"
+        ],
+        "distractor": "relinquished"
+      },
+      "implemented": {
+        "correct_forms": [
+          "implemented"
+        ],
+        "wrong_forms": [
+          "implement",
+          "implements",
+          "has implemented"
+        ],
+        "objects": [
+          "the strategy",
+          "the system",
+          "the reforms",
+          "the policy",
+          "the changes"
+        ],
+        "distractor": "undermined"
+      },
+      "restructured": {
+        "correct_forms": [
+          "restructured"
+        ],
+        "wrong_forms": [
+          "restructure",
+          "restructures",
+          "has restructured"
+        ],
+        "objects": [
+          "the division",
+          "the operations",
+          "the organization",
+          "the department",
+          "the portfolio"
+        ],
+        "distractor": "sabotaged"
+      }
+    }
+  }
+}

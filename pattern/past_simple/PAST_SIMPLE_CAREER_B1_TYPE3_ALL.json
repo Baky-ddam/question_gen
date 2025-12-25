@@ -1,0 +1,55 @@
+{
+  "pattern_id": "PAST_SIMPLE_CAREER_B1_TYPE3_ALL",
+  "focus": "past_simple_negative",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ apply {PREP_OBJ} {TIME}.",
+  "example": "She didn't apply for the position last month.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. Type 3 patterns test auxiliary selection (didn't vs doesn't vs don't) with the main verb in the template.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the candidate",
+      "my friend"
+    ],
+    "AUX": {
+      "didn't": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "haven't"
+        ],
+        "objects": [],
+        "distractor": "wasn't"
+      }
+    },
+    "PREP_OBJ": [
+      "for the position",
+      "for the job",
+      "for the promotion",
+      "to the company",
+      "for that role",
+      "to the organization"
+    ],
+    "TIME": [
+      "last week",
+      "last month",
+      "yesterday",
+      "in March",
+      "two weeks ago",
+      "last year"
+    ]
+  }
+}

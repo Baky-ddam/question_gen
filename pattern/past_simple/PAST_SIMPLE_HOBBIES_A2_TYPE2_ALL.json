@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_HOBBIES_A2_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "A2",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "He didn't play football yesterday.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects. This shows that a hobby activity did not happen at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my friend", "my sister"],
+    "TIME": ["yesterday", "last weekend", "last Sunday", "two weeks ago", "last month"],
+    "VERB": [
+      {
+        "correct_forms": ["didn't paint"],
+        "wrong_forms": ["don't paint", "doesn't paint", "isn't painting"],
+        "objects": ["a picture", "a portrait", "the landscape", "a beautiful scene", "flowers"],
+        "distractor": "didn't destroy"
+      },
+      {
+        "correct_forms": ["didn't play"],
+        "wrong_forms": ["don't play", "doesn't play", "isn't playing"],
+        "objects": ["the guitar", "the piano", "football", "tennis", "video games"],
+        "distractor": "didn't break"
+      },
+      {
+        "correct_forms": ["didn't practice"],
+        "wrong_forms": ["don't practice", "doesn't practice", "isn't practicing"],
+        "objects": ["yoga", "dancing", "singing", "the violin", "martial arts"],
+        "distractor": "didn't quit"
+      },
+      {
+        "correct_forms": ["didn't watch"],
+        "wrong_forms": ["don't watch", "doesn't watch", "isn't watching"],
+        "objects": ["a movie", "a documentary", "the match", "TV shows", "videos"],
+        "distractor": "didn't ignore"
+      }
+    ]
+  }
+}

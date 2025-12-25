@@ -1,0 +1,80 @@
+{
+  "pattern_id": "PAST_SIMPLE_DIPLOMACY_C1_TYPE2_ALL",
+  "focus": "past_simple_negative",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "concessive_clauses"],
+  "template": "Even though {EXPECTATION}, {SUBJ} ____ {TIME}.",
+  "example": "Even though negotiations appeared promising, the Security Council didn't ratify the resolution last month.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for completed non-actions in the past. This C1 pattern uses a concessive clause ('Even though...') to show contrast between expectations and reality. The specific past time marker requires past simple negative.",
+  "chunks": {
+    "EXPECTATION": [
+      "negotiations appeared promising",
+      "diplomatic channels remained open",
+      "preliminary agreements existed",
+      "stakeholders expressed optimism",
+      "conditions seemed favorable",
+      "initial talks progressed smoothly"
+    ],
+    "SUBJ": [
+      "the Security Council",
+      "member states",
+      "the delegation",
+      "negotiators",
+      "ambassadors",
+      "diplomatic envoys",
+      "foreign ministers",
+      "the assembly"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["didn't ratify"],
+        "wrong_forms": ["doesn't ratify", "don't ratify", "haven't ratified"],
+        "objects": ["the treaty", "the resolution", "the accord"],
+        "distractor": "didn't repudiate"
+      },
+      {
+        "correct_forms": ["didn't impose"],
+        "wrong_forms": ["doesn't impose", "don't impose", "haven't imposed"],
+        "objects": ["economic sanctions", "punitive measures", "restrictive policies"],
+        "distractor": "didn't rescind"
+      },
+      {
+        "correct_forms": ["didn't broker"],
+        "wrong_forms": ["doesn't broker", "don't broker", "haven't brokered"],
+        "objects": ["bilateral agreements", "peace settlements", "reconciliation deals"],
+        "distrator": "didn't nullify"
+      },
+      {
+        "correct_forms": ["didn't recognize"],
+        "wrong_forms": ["doesn't recognize", "don't recognize", "haven't recognized"],
+        "objects": ["territorial claims", "sovereignty declarations", "diplomatic credentials"],
+        "distractor": "didn't abrogate"
+      },
+      {
+        "correct_forms": ["didn't condemn"],
+        "wrong_forms": ["doesn't condemn", "don't condemn", "haven't condemned"],
+        "objects": ["human rights violations", "military aggression", "unilateral actions"],
+        "distractor": "didn't forsake"
+      },
+      {
+        "correct_forms": ["didn't endorse"],
+        "wrong_forms": ["doesn't endorse", "don't endorse", "haven't endorsed"],
+        "objects": ["the peace initiative", "multilateral cooperation", "conflict resolution"],
+        "distractor": "didn't obliterate"
+      }
+    ],
+    "TIME": [
+      "last month",
+      "during the summit",
+      "in that critical session",
+      "at the conference",
+      "in the previous year",
+      "throughout the negotiations",
+      "during the talks"
+    ]
+  }
+}

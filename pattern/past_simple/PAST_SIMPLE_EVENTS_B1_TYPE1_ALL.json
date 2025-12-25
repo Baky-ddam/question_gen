@@ -1,0 +1,128 @@
+{
+  "pattern_id": "PAST_SIMPLE_EVENTS_B1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}, so {RESULT}.",
+  "example": "They organized the conference last year, so attendance increased significantly.",
+  "explanation": "Past simple describes completed event-related actions. B1 patterns use result clauses with 'so' to show cause-effect relationships in past events.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the committee",
+      "the organizers"
+    ],
+    "VERB": {
+      "celebrate": {
+        "correct_forms": [
+          "celebrated"
+        ],
+        "wrong_forms": [
+          "celebrate",
+          "celebrates",
+          "have celebrated"
+        ],
+        "objects": [
+          "the anniversary",
+          "the achievement",
+          "the victory",
+          "the milestone"
+        ],
+        "distractor": "ignored"
+      },
+      "organize": {
+        "correct_forms": [
+          "organized"
+        ],
+        "wrong_forms": [
+          "organize",
+          "organizes",
+          "have organized"
+        ],
+        "objects": [
+          "the conference",
+          "the fundraiser",
+          "the competition",
+          "the ceremony"
+        ],
+        "distractor": "cancelled"
+      },
+      "attend": {
+        "correct_forms": [
+          "attended"
+        ],
+        "wrong_forms": [
+          "attend",
+          "attends",
+          "have attended"
+        ],
+        "objects": [
+          "the wedding",
+          "the reunion",
+          "the gala",
+          "the presentation"
+        ],
+        "distractor": "boycotted"
+      },
+      "host": {
+        "correct_forms": [
+          "hosted"
+        ],
+        "wrong_forms": [
+          "host",
+          "hosts",
+          "have hosted"
+        ],
+        "objects": [
+          "the event",
+          "the workshop",
+          "the seminar",
+          "the reception"
+        ],
+        "distractor": "postponed"
+      },
+      "plan": {
+        "correct_forms": [
+          "planned"
+        ],
+        "wrong_forms": [
+          "plan",
+          "plans",
+          "have planned"
+        ],
+        "objects": [
+          "the celebration",
+          "the gathering",
+          "the party",
+          "the festival"
+        ],
+        "distractor": "abandoned"
+      }
+    },
+    "TIME": [
+      "last year",
+      "last month",
+      "in December",
+      "two weeks ago",
+      "in 2023",
+      "last summer"
+    ],
+    "RESULT": [
+      "attendance increased significantly",
+      "everyone enjoyed it",
+      "it was very successful",
+      "many people participated",
+      "the community appreciated it",
+      "positive feedback was received"
+    ]
+  }
+}

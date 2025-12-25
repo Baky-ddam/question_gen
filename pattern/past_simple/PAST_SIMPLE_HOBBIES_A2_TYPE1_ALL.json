@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_HOBBIES_A2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A2",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{TIME}, {SUBJ} ____.",
+  "example": "Last weekend, she painted a picture.",
+  "explanation": "Past simple is used to describe completed hobby activities at a specific time in the past. Use the past form of the verb with time markers like 'last weekend,' 'yesterday,' or 'two weeks ago.'",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my friend", "my sister"],
+    "TIME": ["Yesterday", "Last weekend", "Last Sunday", "Two weeks ago", "Last month"],
+    "VERB": [
+      {
+        "correct_forms": ["painted"],
+        "wrong_forms": ["paint", "paints", "am painting"],
+        "objects": ["a picture", "a portrait", "the landscape", "a beautiful scene", "flowers"],
+        "distractor": "destroyed"
+      },
+      {
+        "correct_forms": ["played"],
+        "wrong_forms": ["play", "plays", "am playing"],
+        "objects": ["the guitar", "the piano", "football", "tennis", "video games"],
+        "distractor": "broke"
+      },
+      {
+        "correct_forms": ["practiced"],
+        "wrong_forms": ["practice", "practices", "am practicing"],
+        "objects": ["yoga", "dancing", "singing", "the violin", "martial arts"],
+        "distractor": "quit"
+      },
+      {
+        "correct_forms": ["watched"],
+        "wrong_forms": ["watch", "watches", "am watching"],
+        "objects": ["a movie", "a documentary", "the match", "TV shows", "videos"],
+        "distractor": "ignored"
+      }
+    ]
+  }
+}

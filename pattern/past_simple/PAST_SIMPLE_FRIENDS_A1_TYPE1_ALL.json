@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_FRIENDS_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "friends",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I met my friend yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "meet": {
+        "correct_forms": [
+          "met"
+        ],
+        "wrong_forms": [
+          "meet",
+          "meets",
+          "am meeting"
+        ],
+        "objects": [
+          "my friend",
+          "Sarah",
+          "Tom",
+          "my friends"
+        ],
+        "distractor": "avoid"
+      },
+      "call": {
+        "correct_forms": [
+          "called"
+        ],
+        "wrong_forms": [
+          "call",
+          "calls",
+          "am calling"
+        ],
+        "objects": [
+          "my friend",
+          "my sister",
+          "my mom",
+          "John"
+        ],
+        "distractor": "ignore"
+      },
+      "visit": {
+        "correct_forms": [
+          "visited"
+        ],
+        "wrong_forms": [
+          "visit",
+          "visits",
+          "am visiting"
+        ],
+        "objects": [
+          "my friend",
+          "my family",
+          "my cousin",
+          "my grandma"
+        ],
+        "distractor": "avoid"
+      },
+      "help": {
+        "correct_forms": [
+          "helped"
+        ],
+        "wrong_forms": [
+          "help",
+          "helps",
+          "am helping"
+        ],
+        "objects": [
+          "my friend",
+          "my brother",
+          "Lisa",
+          "my neighbor"
+        ],
+        "distractor": "refuse"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last Friday",
+      "two days ago"
+    ]
+  }
+}

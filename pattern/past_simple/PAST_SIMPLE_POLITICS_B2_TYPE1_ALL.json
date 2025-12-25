@@ -1,0 +1,135 @@
+{
+  "pattern_id": "PAST_SIMPLE_POLITICS_B2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "politics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.",
+  "example": "The senator announced the policy reform in Congress last month.",
+  "explanation": "Past simple describes completed political actions at specific past times. All subjects use the same past verb form. Prepositional phrases add location context to political events.",
+  "chunks": {
+    "SUBJ": [
+      "the senator",
+      "the minister",
+      "the representative",
+      "the official",
+      "the administration",
+      "the government",
+      "the parliament",
+      "the legislature",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "announced": {
+        "correct_forms": [
+          "announced"
+        ],
+        "wrong_forms": [
+          "announce",
+          "announces",
+          "has announced"
+        ],
+        "objects": [
+          "the policy reform",
+          "the initiative",
+          "the legislation",
+          "the campaign",
+          "the appointment"
+        ],
+        "distractor": "concealed"
+      },
+      "debated": {
+        "correct_forms": [
+          "debated"
+        ],
+        "wrong_forms": [
+          "debate",
+          "debates",
+          "has debated"
+        ],
+        "objects": [
+          "the bill",
+          "the proposal",
+          "the amendment",
+          "the resolution",
+          "the measure"
+        ],
+        "distractor": "ignored"
+      },
+      "implemented": {
+        "correct_forms": [
+          "implemented"
+        ],
+        "wrong_forms": [
+          "implement",
+          "implements",
+          "has implemented"
+        ],
+        "objects": [
+          "the reforms",
+          "the regulations",
+          "the sanctions",
+          "the policies",
+          "the directives"
+        ],
+        "distractor": "obstructed"
+      },
+      "negotiated": {
+        "correct_forms": [
+          "negotiated"
+        ],
+        "wrong_forms": [
+          "negotiate",
+          "negotiates",
+          "has negotiated"
+        ],
+        "objects": [
+          "the treaty",
+          "the agreement",
+          "the compromise",
+          "the terms",
+          "the deal"
+        ],
+        "distractor": "undermined"
+      },
+      "vetoed": {
+        "correct_forms": [
+          "vetoed"
+        ],
+        "wrong_forms": [
+          "veto",
+          "vetoes",
+          "has vetoed"
+        ],
+        "objects": [
+          "the legislation",
+          "the bill",
+          "the resolution",
+          "the proposal",
+          "the measure"
+        ],
+        "distractor": "endorsed"
+      }
+    },
+    "PREP_PLACE": [
+      "in Congress",
+      "in Parliament",
+      "at the summit",
+      "in the chamber",
+      "at the conference",
+      "in the assembly"
+    ],
+    "TIME": [
+      "last month",
+      "in January",
+      "during the session",
+      "last year",
+      "in 2022",
+      "last week"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PAST_SIMPLE_WORK_A2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A2",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{TIME}, {SUBJ} ____ {TIME_MARKER}.",
+  "example": "Last week, I worked at the office yesterday.",
+  "explanation": "Past simple is used to describe completed actions at a specific time in the past. Use the past form of the verb (worked, finished, completed) with time markers like 'yesterday,' 'last week,' or 'two days ago.'",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my colleague", "the manager"],
+    "TIME": ["Yesterday", "Last week", "Last month", "Two days ago", "Last year"],
+    "TIME_MARKER": ["yesterday", "last week", "last month", "two days ago", "in 2023"],
+    "VERB": [
+      {
+        "correct_forms": ["worked"],
+        "wrong_forms": ["work", "works", "am working"],
+        "objects": ["at the office", "from home", "on the project", "with the team"],
+        "distractor": "quit"
+      },
+      {
+        "correct_forms": ["finished"],
+        "wrong_forms": ["finish", "finishes", "am finishing"],
+        "objects": ["the report", "the presentation", "the task", "the assignment"],
+        "distractor": "destroy"
+      },
+      {
+        "correct_forms": ["completed"],
+        "wrong_forms": ["complete", "completes", "am completing"],
+        "objects": ["the project", "the training", "the course", "the deadline"],
+        "distractor": "abandon"
+      },
+      {
+        "correct_forms": ["started"],
+        "wrong_forms": ["start", "starts", "am starting"],
+        "objects": ["a new job", "the meeting", "the shift", "work early"],
+        "distractor": "quit"
+      }
+    ]
+  }
+}

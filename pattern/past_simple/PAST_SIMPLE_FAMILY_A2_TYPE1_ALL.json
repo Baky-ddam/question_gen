@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_FAMILY_A2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A2",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "I visited my grandmother last week.",
+  "explanation": "Past simple is used to describe completed family activities at a specific time in the past. Use the past form of the verb with time markers like 'yesterday,' 'last week,' or 'three days ago.'",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my brother", "my parents"],
+    "TIME": ["yesterday", "last week", "last Sunday", "three days ago", "last month"],
+    "VERB": [
+      {
+        "correct_forms": ["visited"],
+        "wrong_forms": ["visit", "visits", "am visiting"],
+        "objects": ["my grandmother", "my relatives", "my uncle", "my cousins", "family friends"],
+        "distractor": "avoided"
+      },
+      {
+        "correct_forms": ["helped"],
+        "wrong_forms": ["help", "helps", "am helping"],
+        "objects": ["my mother", "my father", "my sister", "my grandparents", "with the cleaning"],
+        "distractor": "ignored"
+      },
+      {
+        "correct_forms": ["called"],
+        "wrong_forms": ["call", "calls", "am calling"],
+        "objects": ["my parents", "my brother", "my aunt", "my family", "home"],
+        "distractor": "ignored"
+      },
+      {
+        "correct_forms": ["met"],
+        "wrong_forms": ["meet", "meets", "am meeting"],
+        "objects": ["my relatives", "my cousins", "family friends", "my grandparents", "at home"],
+        "distractor": "avoided"
+      }
+    ]
+  }
+}

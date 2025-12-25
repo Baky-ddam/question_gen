@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_TECHNOLOGY_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I used my phone yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "use": {
+        "correct_forms": [
+          "used"
+        ],
+        "wrong_forms": [
+          "use",
+          "uses",
+          "am using"
+        ],
+        "objects": [
+          "my phone",
+          "the computer",
+          "the tablet",
+          "the app"
+        ],
+        "distractor": "break"
+      },
+      "download": {
+        "correct_forms": [
+          "downloaded"
+        ],
+        "wrong_forms": [
+          "download",
+          "downloads",
+          "am downloading"
+        ],
+        "objects": [
+          "the app",
+          "the file",
+          "the game",
+          "the software"
+        ],
+        "distractor": "delete"
+      },
+      "check": {
+        "correct_forms": [
+          "checked"
+        ],
+        "wrong_forms": [
+          "check",
+          "checks",
+          "am checking"
+        ],
+        "objects": [
+          "my email",
+          "the website",
+          "messages",
+          "social media"
+        ],
+        "distractor": "ignore"
+      },
+      "send": {
+        "correct_forms": [
+          "sent"
+        ],
+        "wrong_forms": [
+          "send",
+          "sends",
+          "am sending"
+        ],
+        "objects": [
+          "a message",
+          "an email",
+          "a photo",
+          "the file"
+        ],
+        "distractor": "delete"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last night",
+      "two hours ago"
+    ]
+  }
+}

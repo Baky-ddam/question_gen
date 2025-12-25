@@ -1,0 +1,135 @@
+{
+  "pattern_id": "PAST_SIMPLE_LAW_B2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.",
+  "example": "The attorney argued the case in the Supreme Court last year.",
+  "explanation": "Past simple describes completed legal actions at specific past times. All subjects use the same past verb form. Preposition phrases add location context to professional legal situations.",
+  "chunks": {
+    "SUBJ": [
+      "the attorney",
+      "the lawyer",
+      "the judge",
+      "the prosecutor",
+      "the defendant",
+      "the counsel",
+      "the court",
+      "the tribunal",
+      "they",
+      "we"
+    ],
+    "VERB": {
+      "argued": {
+        "correct_forms": [
+          "argued"
+        ],
+        "wrong_forms": [
+          "argue",
+          "argues",
+          "has argued"
+        ],
+        "objects": [
+          "the case",
+          "the motion",
+          "the appeal",
+          "the position",
+          "the defense"
+        ],
+        "distractor": "dismissed"
+      },
+      "testified": {
+        "correct_forms": [
+          "testified"
+        ],
+        "wrong_forms": [
+          "testify",
+          "testifies",
+          "has testified"
+        ],
+        "objects": [
+          "under oath",
+          "as an expert",
+          "for the prosecution",
+          "in the proceedings",
+          "about the incident"
+        ],
+        "distractor": "perjured"
+      },
+      "ruled": {
+        "correct_forms": [
+          "ruled"
+        ],
+        "wrong_forms": [
+          "rule",
+          "rules",
+          "has ruled"
+        ],
+        "objects": [
+          "in favor of the plaintiff",
+          "against the defendant",
+          "on the matter",
+          "on the constitutionality",
+          "on the admissibility"
+        ],
+        "distractor": "abstained"
+      },
+      "presented": {
+        "correct_forms": [
+          "presented"
+        ],
+        "wrong_forms": [
+          "present",
+          "presents",
+          "has presented"
+        ],
+        "objects": [
+          "the evidence",
+          "the arguments",
+          "the testimony",
+          "the documentation",
+          "the findings"
+        ],
+        "distractor": "concealed"
+      },
+      "filed": {
+        "correct_forms": [
+          "filed"
+        ],
+        "wrong_forms": [
+          "file",
+          "files",
+          "has filed"
+        ],
+        "objects": [
+          "the lawsuit",
+          "the complaint",
+          "the motion",
+          "the appeal",
+          "the petition"
+        ],
+        "distractor": "withdrew"
+      }
+    },
+    "PREP_PLACE": [
+      "in the courtroom",
+      "in the Supreme Court",
+      "at the tribunal",
+      "before the judge",
+      "in federal court",
+      "at the hearing"
+    ],
+    "TIME": [
+      "last year",
+      "in January",
+      "during the trial",
+      "last month",
+      "in 2022",
+      "last week"
+    ]
+  }
+}

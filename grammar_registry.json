@@ -1,0 +1,653 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Single source of truth for all grammar rules. Agents MUST reference this when creating patterns.",
+    "last_updated": "2024-01-01"
+  },
+
+  "grammars": {
+    "present_simple": {
+      "name": "Present Simple",
+      "focus_variants": ["present_simple", "present_simple_negative", "present_simple_question"],
+
+      "subject_groups": {
+        "group_a": {
+          "subjects": ["I", "you", "we", "they"],
+          "description": "Use base verb form"
+        },
+        "group_b": {
+          "subjects": ["he", "she", "it"],
+          "description": "Use verb-s form",
+          "note": "Also applies to singular nouns (the journalist, the teacher)"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "group_a": {"pattern": "{base_verb}", "example": "drink"},
+          "group_b": {"pattern": "{verb_s}", "example": "drinks"}
+        },
+        "negative": {
+          "group_a": {"pattern": "don't + {base_verb}", "example": "don't drink"},
+          "group_b": {"pattern": "doesn't + {base_verb}", "example": "doesn't drink"}
+        },
+        "question": {
+          "group_a": {"pattern": "Do + {subject} + {base_verb}", "example": "Do you drink"},
+          "group_b": {"pattern": "Does + {subject} + {base_verb}", "example": "Does he drink"}
+        }
+      },
+
+      "context_markers": {
+        "frequency": ["every day", "every morning", "every week", "on weekdays", "on weekends", "on Mondays"],
+        "adverbs": ["usually", "often", "always", "sometimes", "rarely", "never", "frequently"],
+        "general_time": ["nowadays", "these days", "currently", "right now"],
+        "facts": ["generally", "typically", "normally"]
+      },
+
+      "wrong_form_patterns": {
+        "for_base_verb": ["verb_s (wrong conjugation)", "past_simple", "present_continuous"],
+        "for_verb_s": ["base_verb (wrong conjugation)", "past_simple", "present_continuous"],
+        "for_dont": ["doesn't (wrong aux)", "didn't (past)", "isn't (wrong tense)"],
+        "for_doesnt": ["don't (wrong aux)", "didn't (past)", "isn't (wrong tense)"]
+      },
+
+      "sentence_structures": {
+        "A1": [
+          {"name": "basic_svo", "template": "{SUBJ} ____ {OBJ}.", "example": "I drink coffee."}
+        ],
+        "A2": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {TIME}.", "example": "She drinks coffee every day."},
+          {"name": "time_svo", "template": "{TIME}, {SUBJ} ____ {OBJ}.", "example": "Every morning, he drinks coffee."}
+        ],
+        "B1": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {TIME}.", "example": "The journalist writes articles daily."},
+          {"name": "svo_reason", "template": "{SUBJ} ____ {OBJ} because {REASON}.", "example": "She studies hard because exams are coming."},
+          {"name": "time_svo", "template": "{TIME}, {SUBJ} ____ {OBJ}.", "example": "Usually, they publish news in the morning."}
+        ],
+        "B2": [
+          {"name": "svo_prep_time", "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.", "example": "Economists analyze data in research daily."},
+          {"name": "conditional_svo", "template": "When {CONDITION}, {SUBJ} ____ {OBJ}.", "example": "When deadlines approach, reporters work overtime."},
+          {"name": "svo_relative", "template": "{SUBJ} ____ {OBJ} that {RELATIVE_CLAUSE}.", "example": "Scientists study phenomena that occur naturally."}
+        ],
+        "C1": [
+          {"name": "complex_conditional", "template": "Whenever {CONDITION}, {SUBJ} ____ {OBJ} {PREP_PLACE}.", "example": "Whenever markets fluctuate, analysts monitor indicators closely."},
+          {"name": "svo_multiple_clauses", "template": "{SUBJ} ____ {OBJ} because {REASON}, which {RESULT}.", "example": "Editors verify sources because accuracy matters, which ensures credibility."},
+          {"name": "contrast_structure", "template": "While {CONTRAST}, {SUBJ} ____ {OBJ}.", "example": "While others hesitate, successful entrepreneurs take calculated risks."}
+        ]
+      }
+    },
+
+    "past_simple": {
+      "name": "Past Simple",
+      "focus_variants": ["past_simple", "past_simple_negative", "past_simple_question"],
+
+      "subject_groups": {
+        "all": {
+          "subjects": ["I", "you", "he", "she", "it", "we", "they"],
+          "description": "All subjects use same past form"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "all": {"pattern": "{past_form}", "example": "visited, worked, went"}
+        },
+        "negative": {
+          "all": {"pattern": "didn't + {base_verb}", "example": "didn't visit"}
+        },
+        "question": {
+          "all": {"pattern": "Did + {subject} + {base_verb}", "example": "Did you visit"}
+        }
+      },
+
+      "context_markers": {
+        "specific_time": ["yesterday", "last week", "last month", "last year", "last night"],
+        "ago_expressions": ["two days ago", "three weeks ago", "a year ago"],
+        "specific_dates": ["in 2020", "in January", "on Monday", "on the 5th"],
+        "past_situations": ["when I was young", "when he lived in Paris", "during the war"]
+      },
+
+      "wrong_form_patterns": {
+        "for_past_form": ["base_verb (present)", "verb_s (present 3rd)", "have/has + past participle (perfect)"],
+        "for_didnt": ["doesn't (present)", "don't (present)", "haven't (perfect)"]
+      },
+
+      "sentence_structures": {
+        "A1": [
+          {"name": "basic_svo", "template": "{SUBJ} ____ {OBJ}.", "example": "I visited Paris."}
+        ],
+        "A2": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {TIME}.", "example": "She visited the museum yesterday."},
+          {"name": "time_svo", "template": "{TIME}, {SUBJ} ____ {OBJ}.", "example": "Last week, they watched a movie."}
+        ],
+        "B1": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {TIME}.", "example": "The team completed the project last month."},
+          {"name": "when_clause", "template": "When {PAST_SITUATION}, {SUBJ} ____ {OBJ}.", "example": "When I was young, I played football every day."},
+          {"name": "svo_reason", "template": "{SUBJ} ____ {OBJ} because {REASON}.", "example": "He quit his job because he found a better opportunity."}
+        ],
+        "B2": [
+          {"name": "after_before", "template": "After {PAST_EVENT}, {SUBJ} ____ {OBJ}.", "example": "After the meeting ended, the manager reviewed the notes."},
+          {"name": "svo_result", "template": "{SUBJ} ____ {OBJ}, so {RESULT}.", "example": "The company invested heavily, so profits increased."},
+          {"name": "complex_time", "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.", "example": "Researchers discovered the artifact in the cave last summer."}
+        ],
+        "C1": [
+          {"name": "contrast_past", "template": "Although {CONTRAST}, {SUBJ} ____ {OBJ}.", "example": "Although critics doubted them, the scientists proved the theory."},
+          {"name": "sequence", "template": "First {SUBJ} ____ {OBJ}, then {SEQUENCE}.", "example": "First the team analyzed the data, then they published the findings."}
+        ]
+      }
+    },
+
+    "past_continuous": {
+      "name": "Past Continuous",
+      "focus_variants": ["past_continuous", "past_continuous_negative"],
+
+      "subject_groups": {
+        "group_a": {
+          "subjects": ["you", "we", "they"],
+          "description": "Use 'were' + verb-ing"
+        },
+        "group_b": {
+          "subjects": ["I", "he", "she", "it"],
+          "description": "Use 'was' + verb-ing",
+          "critical_note": "DIFFERENT from present simple! 'I' goes with 'was', not 'were'"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "group_a": {"pattern": "were + {verb_ing}", "example": "were reading"},
+          "group_b": {"pattern": "was + {verb_ing}", "example": "was reading"}
+        },
+        "negative": {
+          "group_a": {"pattern": "weren't + {verb_ing}", "example": "weren't reading"},
+          "group_b": {"pattern": "wasn't + {verb_ing}", "example": "wasn't reading"}
+        }
+      },
+
+      "context_markers": {
+        "specific_moment": ["at 8pm yesterday", "at this time last week", "at noon yesterday"],
+        "interruption": ["when you called", "when he arrived", "when the phone rang"],
+        "duration": ["while I was cooking", "during the meeting", "all evening", "all day yesterday"],
+        "parallel_actions": ["while they were talking", "as she was leaving"]
+      },
+
+      "wrong_form_patterns": {
+        "for_was_verb_ing": ["were + verb_ing (wrong aux)", "past_simple", "present_continuous", "have been + verb_ing"],
+        "for_were_verb_ing": ["was + verb_ing (wrong aux)", "past_simple", "present_continuous", "have been + verb_ing"]
+      },
+
+      "sentence_structures": {
+        "A2": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {TIME}.", "example": "She was reading a book at 8pm."}
+        ],
+        "B1": [
+          {"name": "when_interruption", "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.", "example": "I was watching TV when the phone rang."},
+          {"name": "while_parallel", "template": "While {SUBJ} ____ {OBJ}, {PARALLEL_ACTION}.", "example": "While I was cooking dinner, my sister was setting the table."},
+          {"name": "time_svo", "template": "{TIME}, {SUBJ} ____ {OBJ}.", "example": "At this time yesterday, they were studying for the exam."}
+        ],
+        "B2": [
+          {"name": "complex_interruption", "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} when {INTERRUPTION}.", "example": "The team was discussing the project in the conference room when the CEO arrived."},
+          {"name": "duration_reason", "template": "{SUBJ} ____ {OBJ} all {DURATION} because {REASON}.", "example": "Engineers were testing the system all morning because the deadline was approaching."}
+        ],
+        "C1": [
+          {"name": "contrast_continuous", "template": "While {SUBJ} ____ {OBJ}, {CONTRAST_ACTION}.", "example": "While investigators were gathering evidence, the suspect was already fleeing the country."}
+        ]
+      }
+    },
+
+    "present_continuous": {
+      "name": "Present Continuous",
+      "focus_variants": ["present_continuous", "present_continuous_negative"],
+
+      "subject_groups": {
+        "group_a": {
+          "subjects": ["I"],
+          "description": "Use 'am' + verb-ing"
+        },
+        "group_b": {
+          "subjects": ["you", "we", "they"],
+          "description": "Use 'are' + verb-ing"
+        },
+        "group_c": {
+          "subjects": ["he", "she", "it"],
+          "description": "Use 'is' + verb-ing"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "group_a": {"pattern": "am + {verb_ing}", "example": "am working"},
+          "group_b": {"pattern": "are + {verb_ing}", "example": "are working"},
+          "group_c": {"pattern": "is + {verb_ing}", "example": "is working"}
+        },
+        "negative": {
+          "group_a": {"pattern": "am not + {verb_ing}", "example": "am not working"},
+          "group_b": {"pattern": "aren't + {verb_ing}", "example": "aren't working"},
+          "group_c": {"pattern": "isn't + {verb_ing}", "example": "isn't working"}
+        }
+      },
+
+      "context_markers": {
+        "current_moment": ["right now", "at the moment", "currently", "now"],
+        "temporary": ["today", "this week", "this month", "these days"],
+        "attention": ["Look!", "Listen!", "Watch!"]
+      },
+
+      "wrong_form_patterns": {
+        "for_am_verb_ing": ["is + verb_ing (wrong aux)", "are + verb_ing (wrong aux)", "base_verb (present simple)", "was + verb_ing (past)"],
+        "for_are_verb_ing": ["is + verb_ing (wrong aux)", "am + verb_ing (wrong aux)", "base_verb (present simple)", "were + verb_ing (past)"],
+        "for_is_verb_ing": ["are + verb_ing (wrong aux)", "am + verb_ing (wrong aux)", "verb_s (present simple)", "was + verb_ing (past)"]
+      },
+
+      "sentence_structures": {
+        "A1": [
+          {"name": "basic_svo", "template": "{SUBJ} ____ {OBJ} {NOW}.", "example": "I am eating lunch now."}
+        ],
+        "A2": [
+          {"name": "look_attention", "template": "Look! {SUBJ} ____ {OBJ}.", "example": "Look! She is playing the piano."},
+          {"name": "svo_now", "template": "{SUBJ} ____ {OBJ} right now.", "example": "They are watching TV right now."}
+        ],
+        "B1": [
+          {"name": "svo_temporary", "template": "{SUBJ} ____ {OBJ} {TEMPORARY_TIME}.", "example": "He is working from home this week."},
+          {"name": "svo_reason", "template": "{SUBJ} ____ {OBJ} because {REASON}.", "example": "She is studying hard because exams are next week."}
+        ],
+        "B2": [
+          {"name": "svo_prep_time", "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} {TIME}.", "example": "The team is developing a new product in the lab this month."},
+          {"name": "currently_complex", "template": "Currently, {SUBJ} ____ {OBJ} to {PURPOSE}.", "example": "Currently, researchers are analyzing data to find patterns."}
+        ],
+        "C1": [
+          {"name": "change_trend", "template": "{SUBJ} ____ increasingly {OBJ} as {TREND}.", "example": "Companies are adopting increasingly sustainable practices as regulations tighten."}
+        ]
+      }
+    },
+
+    "present_perfect": {
+      "name": "Present Perfect",
+      "focus_variants": ["present_perfect", "present_perfect_negative", "present_perfect_question"],
+
+      "subject_groups": {
+        "group_a": {
+          "subjects": ["I", "you", "we", "they"],
+          "description": "Use 'have' + past participle"
+        },
+        "group_b": {
+          "subjects": ["he", "she", "it"],
+          "description": "Use 'has' + past participle"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "group_a": {"pattern": "have + {past_participle}", "example": "have visited"},
+          "group_b": {"pattern": "has + {past_participle}", "example": "has visited"}
+        },
+        "negative": {
+          "group_a": {"pattern": "haven't + {past_participle}", "example": "haven't visited"},
+          "group_b": {"pattern": "hasn't + {past_participle}", "example": "hasn't visited"}
+        },
+        "question": {
+          "group_a": {"pattern": "Have + {subject} + {past_participle}", "example": "Have you visited"},
+          "group_b": {"pattern": "Has + {subject} + {past_participle}", "example": "Has she visited"}
+        }
+      },
+
+      "context_markers": {
+        "completion": ["already", "just", "recently", "finally"],
+        "experience": ["ever", "never", "before", "many times", "several times"],
+        "unfinished_time": ["yet", "so far", "up to now", "until now"],
+        "duration": ["since 2020", "since Monday", "for three years", "for a long time"]
+      },
+
+      "wrong_form_patterns": {
+        "for_have_pp": ["has + pp (wrong aux)", "had + pp (past perfect)", "past_simple", "present_continuous"],
+        "for_has_pp": ["have + pp (wrong aux)", "had + pp (past perfect)", "past_simple", "present_continuous"]
+      },
+
+      "sentence_structures": {
+        "A2": [
+          {"name": "svo_experience", "template": "{SUBJ} ____ {OBJ} {EXPERIENCE_MARKER}.", "example": "I have visited Paris before."}
+        ],
+        "B1": [
+          {"name": "svo_completion", "template": "{SUBJ} ____ {OBJ} {COMPLETION_MARKER}.", "example": "She has already finished her work."},
+          {"name": "svo_duration", "template": "{SUBJ} ____ {OBJ} {DURATION}.", "example": "They have lived here for five years."},
+          {"name": "ever_question_context", "template": "{SUBJ} ____ ever {OBJ}?", "example": "Have you ever tried sushi?"}
+        ],
+        "B2": [
+          {"name": "svo_result", "template": "{SUBJ} ____ {OBJ}, so {RESULT}.", "example": "The company has expanded rapidly, so they need more staff."},
+          {"name": "since_complex", "template": "{SUBJ} ____ {OBJ} since {SINCE_CLAUSE}.", "example": "Researchers have made progress since the new funding arrived."}
+        ],
+        "C1": [
+          {"name": "achievement_impact", "template": "{SUBJ} ____ {OBJ}, which {IMPACT}.", "example": "Scientists have discovered a new treatment, which offers hope to millions."},
+          {"name": "never_before", "template": "Never before ____ {SUBJ} {OBJ}.", "example": "Never before have investors shown such interest in renewable energy."}
+        ]
+      }
+    },
+
+    "past_perfect": {
+      "name": "Past Perfect",
+      "focus_variants": ["past_perfect", "past_perfect_negative"],
+
+      "subject_groups": {
+        "all": {
+          "subjects": ["I", "you", "he", "she", "it", "we", "they"],
+          "description": "All subjects use 'had' + past participle"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "all": {"pattern": "had + {past_participle}", "example": "had visited"}
+        },
+        "negative": {
+          "all": {"pattern": "hadn't + {past_participle}", "example": "hadn't visited"}
+        }
+      },
+
+      "context_markers": {
+        "before_past": ["before", "by the time", "until then", "by then"],
+        "after_reference": ["after", "when", "as soon as"],
+        "already_past": ["already", "just", "never...before"]
+      },
+
+      "wrong_form_patterns": {
+        "for_had_pp": ["have/has + pp (present perfect)", "past_simple", "past_continuous"]
+      },
+
+      "sentence_structures": {
+        "B1": [
+          {"name": "before_past_event", "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.", "example": "I had finished my homework before dinner."}
+        ],
+        "B2": [
+          {"name": "by_the_time", "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.", "example": "By the time he arrived, everyone had left."},
+          {"name": "after_sequence", "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.", "example": "After she had read the report, she made her decision."}
+        ],
+        "C1": [
+          {"name": "conditional_past", "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.", "example": "If they had invested earlier, they would have profited more."},
+          {"name": "never_before_past", "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.", "example": "She had never traveled abroad until last year."}
+        ]
+      }
+    },
+
+    "future_simple": {
+      "name": "Future Simple (will)",
+      "focus_variants": ["future_simple", "future_simple_negative"],
+
+      "subject_groups": {
+        "all": {
+          "subjects": ["I", "you", "he", "she", "it", "we", "they"],
+          "description": "All subjects use 'will' + base verb"
+        }
+      },
+
+      "form_rules": {
+        "affirmative": {
+          "all": {"pattern": "will + {base_verb}", "example": "will visit"}
+        },
+        "negative": {
+          "all": {"pattern": "won't + {base_verb}", "example": "won't visit"}
+        },
+        "question": {
+          "all": {"pattern": "Will + {subject} + {base_verb}", "example": "Will you visit"}
+        }
+      },
+
+      "context_markers": {
+        "future_time": ["tomorrow", "next week", "next month", "next year", "soon"],
+        "future_expressions": ["later", "in the future", "in five years", "in 2030"],
+        "predictions": ["probably", "definitely", "certainly", "maybe"]
+      },
+
+      "wrong_form_patterns": {
+        "for_will_base": ["present_simple", "going_to", "present_continuous (future)", "would + base"]
+      },
+
+      "sentence_structures": {
+        "A1": [
+          {"name": "basic_svo", "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.", "example": "I will visit Paris tomorrow."}
+        ],
+        "A2": [
+          {"name": "svo_time", "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.", "example": "She will start the job next week."},
+          {"name": "prediction", "template": "{SUBJ} ____ probably {OBJ}.", "example": "It will probably rain tomorrow."}
+        ],
+        "B1": [
+          {"name": "if_condition", "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.", "example": "If it rains, we will stay home."},
+          {"name": "when_future", "template": "When {FUTURE_TRIGGER}, {SUBJ} ____ {OBJ}.", "example": "When he arrives, we will start the meeting."}
+        ],
+        "B2": [
+          {"name": "prediction_reason", "template": "{SUBJ} ____ {OBJ} because {REASON}.", "example": "The company will expand because demand is increasing."},
+          {"name": "by_future", "template": "By {FUTURE_TIME}, {SUBJ} ____ {OBJ}.", "example": "By next year, they will have completed the project."}
+        ],
+        "C1": [
+          {"name": "prediction_complex", "template": "Experts predict that {SUBJ} ____ {OBJ} as {TREND}.", "example": "Experts predict that technology will transform education as AI advances."}
+        ]
+      }
+    },
+
+    "modals": {
+      "name": "Modals",
+      "focus_variants": ["modal_can", "modal_could", "modal_should", "modal_must", "modal_may", "modal_might", "modal_would"],
+
+      "subject_groups": {
+        "all": {
+          "subjects": ["I", "you", "he", "she", "it", "we", "they"],
+          "description": "All subjects use same modal form (no conjugation)"
+        }
+      },
+
+      "form_rules": {
+        "ability": {
+          "all": {"pattern": "can/could + {base_verb}", "example": "can speak, could speak"}
+        },
+        "obligation": {
+          "all": {"pattern": "must/should + {base_verb}", "example": "must study, should study"}
+        },
+        "possibility": {
+          "all": {"pattern": "may/might/could + {base_verb}", "example": "may arrive, might happen"}
+        },
+        "advice": {
+          "all": {"pattern": "should + {base_verb}", "example": "should try"}
+        }
+      },
+
+      "context_markers": {
+        "ability": ["well", "fluently", "easily", "naturally", "perfectly"],
+        "possibility": ["perhaps", "maybe", "possibly"],
+        "obligation": ["by law", "according to rules", "as required"],
+        "advice": ["for your health", "to succeed", "to improve"]
+      },
+
+      "wrong_form_patterns": {
+        "for_can": ["could (past/tentative)", "must (obligation)", "should (advice)", "will (future)"],
+        "for_should": ["must (stronger)", "can (ability)", "could (tentative)", "would (conditional)"],
+        "for_must": ["should (weaker)", "can (ability)", "have to (alternative)", "will (future)"]
+      },
+
+      "sentence_structures": {
+        "A1": [
+          {"name": "basic_ability", "template": "{SUBJ} ____ {OBJ}.", "example": "I can swim."}
+        ],
+        "A2": [
+          {"name": "ability_adverb", "template": "{SUBJ} ____ {OBJ} {ADVERB}.", "example": "She can speak English well."},
+          {"name": "permission", "template": "{SUBJ} ____ {OBJ} here.", "example": "You can park here."}
+        ],
+        "B1": [
+          {"name": "advice", "template": "{SUBJ} ____ {OBJ} {PURPOSE}.", "example": "You should exercise regularly to stay healthy."},
+          {"name": "obligation", "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.", "example": "Employees must wear badges at all times."}
+        ],
+        "B2": [
+          {"name": "possibility_context", "template": "{SUBJ} ____ {OBJ} if {CONDITION}.", "example": "The project might succeed if we secure funding."},
+          {"name": "necessity_reason", "template": "{SUBJ} ____ {OBJ} because {REASON}.", "example": "Companies must adapt because technology is evolving rapidly."}
+        ],
+        "C1": [
+          {"name": "speculation", "template": "{SUBJ} ____ {OBJ}, which {IMPLICATION}.", "example": "This discovery could revolutionize medicine, which would benefit millions."},
+          {"name": "obligation_contrast", "template": "While {CONTRAST}, {SUBJ} ____ {OBJ}.", "example": "While others may hesitate, leaders must make decisions."}
+        ]
+      }
+    },
+
+    "gerund_infinitive": {
+      "name": "Gerund vs Infinitive",
+      "focus_variants": ["gerund_required", "infinitive_required", "both_allowed"],
+
+      "subject_groups": {
+        "group_a": {
+          "subjects": ["I", "you", "we", "they"],
+          "description": "Use base verb form for main verb"
+        },
+        "group_b": {
+          "subjects": ["he", "she", "it"],
+          "description": "Use verb-s form for main verb"
+        }
+      },
+
+      "verb_patterns": {
+        "gerund_only": ["enjoy", "avoid", "finish", "mind", "consider", "practice", "keep", "suggest", "recommend", "deny"],
+        "infinitive_only": ["want", "need", "decide", "hope", "plan", "expect", "agree", "refuse", "promise", "learn"],
+        "both_same_meaning": ["start", "begin", "continue", "prefer", "like", "love", "hate"],
+        "both_different_meaning": ["remember", "forget", "stop", "try", "regret"]
+      },
+
+      "form_rules": {
+        "gerund": {"pattern": "{verb_ing}", "example": "reading, studying"},
+        "infinitive": {"pattern": "to + {base_verb}", "example": "to read, to study"},
+        "bare_infinitive": {"pattern": "{base_verb}", "example": "read, study (after modals)"}
+      },
+
+      "wrong_form_patterns": {
+        "for_gerund": ["to + infinitive", "base verb", "past form"],
+        "for_infinitive": ["gerund", "base verb", "past form"]
+      },
+
+      "sentence_structures": {
+        "A2": [
+          {"name": "basic_gerund", "template": "{SUBJ} enjoy ____ {OBJ}.", "example": "I enjoy reading books."},
+          {"name": "basic_infinitive", "template": "{SUBJ} want ____ {OBJ}.", "example": "She wants to learn Spanish."}
+        ],
+        "B1": [
+          {"name": "gerund_time", "template": "{SUBJ} enjoy ____ {OBJ} {TIME}.", "example": "They enjoy playing tennis on weekends."},
+          {"name": "infinitive_purpose", "template": "{SUBJ} decided ____ {OBJ} because {REASON}.", "example": "He decided to study abroad because of career opportunities."}
+        ],
+        "B2": [
+          {"name": "complex_gerund", "template": "{SUBJ} recommended ____ {OBJ} {PREP_CONTEXT}.", "example": "Experts recommended implementing changes immediately."},
+          {"name": "complex_infinitive", "template": "{SUBJ} agreed ____ {OBJ} despite {CONTRAST}.", "example": "The team agreed to continue the project despite challenges."}
+        ],
+        "C1": [
+          {"name": "gerund_formal", "template": "{SUBJ} suggested ____ {OBJ} to {PURPOSE}.", "example": "The committee suggested revising the policy to improve efficiency."},
+          {"name": "infinitive_conditional", "template": "In order ____ {OBJ}, {SUBJ} must {REQUIREMENT}.", "example": "In order to succeed, candidates must demonstrate expertise."}
+        ]
+      }
+    },
+
+    "passive_voice": {
+      "name": "Passive Voice",
+      "focus_variants": ["passive_present", "passive_past", "passive_perfect"],
+
+      "subject_groups": {
+        "present_passive_a": {
+          "subjects": ["I", "you", "we", "they"],
+          "description": "Use 'are' + past participle"
+        },
+        "present_passive_b": {
+          "subjects": ["he", "she", "it"],
+          "description": "Use 'is' + past participle"
+        },
+        "past_passive_a": {
+          "subjects": ["you", "we", "they"],
+          "description": "Use 'were' + past participle"
+        },
+        "past_passive_b": {
+          "subjects": ["I", "he", "she", "it"],
+          "description": "Use 'was' + past participle",
+          "note": "Same grouping as past continuous ('I' goes with was)"
+        }
+      },
+
+      "form_rules": {
+        "present_passive": {
+          "group_a": {"pattern": "are + {past_participle}", "example": "are invited"},
+          "group_b": {"pattern": "is + {past_participle}", "example": "is invited"}
+        },
+        "past_passive": {
+          "group_a": {"pattern": "were + {past_participle}", "example": "were built"},
+          "group_b": {"pattern": "was + {past_participle}", "example": "was built"}
+        },
+        "present_perfect_passive": {
+          "group_a": {"pattern": "have been + {past_participle}", "example": "have been completed"},
+          "group_b": {"pattern": "has been + {past_participle}", "example": "has been completed"}
+        }
+      },
+
+      "context_markers": {
+        "present_passive": ["generally", "usually", "every year", "by default"],
+        "past_passive": ["in 1990", "last year", "yesterday", "during the war"],
+        "focus_on_result": ["by experts", "by the government", "by researchers"]
+      },
+
+      "wrong_form_patterns": {
+        "for_was_pp": ["were + pp (wrong aux)", "is + pp (present)", "has been + pp (perfect)", "active form"],
+        "for_were_pp": ["was + pp (wrong aux)", "are + pp (present)", "have been + pp (perfect)", "active form"],
+        "for_is_pp": ["are + pp (wrong aux)", "was + pp (past)", "has been + pp (perfect)", "active form"]
+      },
+
+      "sentence_structures": {
+        "A2": [
+          {"name": "basic_passive", "template": "{SUBJ} ____ {TIME}.", "example": "The book was written in 2010."}
+        ],
+        "B1": [
+          {"name": "passive_by_agent", "template": "{SUBJ} ____ by {AGENT}.", "example": "The report was prepared by the team."},
+          {"name": "passive_time", "template": "{SUBJ} ____ {PREP_PLACE} {TIME}.", "example": "The building was constructed in Paris last year."}
+        ],
+        "B2": [
+          {"name": "passive_reason", "template": "{SUBJ} ____ because {REASON}.", "example": "The project was delayed because of budget constraints."},
+          {"name": "passive_result", "template": "After {SUBJ} ____, {RESULT}.", "example": "After the data was analyzed, conclusions were drawn."}
+        ],
+        "C1": [
+          {"name": "passive_complex", "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.", "example": "The regulations were revised by policymakers to address emerging concerns."},
+          {"name": "passive_it_clause", "template": "It ____ that {CLAUSE}.", "example": "It is believed that technology will continue to advance."}
+        ]
+      }
+    }
+  },
+
+  "domains": {
+    "description": "Reference list of 100 domains for pattern creation",
+    "categories": {
+      "daily_life": ["food", "cooking", "home", "family", "shopping", "clothing", "pets", "hobbies", "leisure", "travel"],
+      "professional": ["business", "finance", "law", "healthcare", "journalism", "education", "technology", "engineering", "marketing", "human_resources"],
+      "academic": ["science", "research", "literature", "history", "philosophy", "psychology", "sociology", "economics", "mathematics", "physics"],
+      "creative": ["art", "music", "film", "photography", "design", "architecture", "writing", "theater", "dance", "crafts"],
+      "sports_fitness": ["sports", "fitness", "outdoor_activities", "team_sports", "individual_sports", "extreme_sports", "wellness", "nutrition", "training", "competition"],
+      "environment": ["environment", "climate", "conservation", "wildlife", "sustainability", "recycling", "energy", "agriculture", "gardening", "nature"],
+      "technology": ["software", "hardware", "internet", "social_media", "artificial_intelligence", "data_science", "cybersecurity", "mobile", "gaming", "automation"],
+      "society": ["politics", "culture", "religion", "community", "volunteering", "social_issues", "urban_life", "rural_life", "immigration", "demographics"],
+      "entertainment": ["entertainment", "media", "celebrities", "events", "festivals", "nightlife", "restaurants", "hotels", "tourism", "leisure_activities"],
+      "automotive_transport": ["automotive", "aviation", "maritime", "public_transport", "logistics", "driving", "vehicles", "traffic", "infrastructure", "commuting"]
+    }
+  },
+
+  "distractor_vocabulary": {
+    "description": "Level-appropriate distractor verbs for semantic distractors",
+    "by_level": {
+      "A1": {
+        "description": "Simple opposites and clearly wrong actions",
+        "examples": ["stop", "avoid", "ignore", "forget", "break", "lose", "hate", "dislike"]
+      },
+      "A2": {
+        "description": "Clear contradictions",
+        "examples": ["quit", "skip", "destroy", "waste", "reject", "refuse", "abandon", "neglect"]
+      },
+      "B1": {
+        "description": "Action opposites",
+        "examples": ["abandon", "demolish", "neglect", "overlook", "dismiss", "postpone", "cancel", "terminate"]
+      },
+      "B2": {
+        "description": "Sophisticated contradictions",
+        "examples": ["disregard", "overlook", "suppress", "undermine", "circumvent", "obstruct", "impede", "hinder"]
+      },
+      "C1": {
+        "description": "Advanced vocabulary",
+        "examples": ["forsake", "obliterate", "renounce", "repudiate", "nullify", "abrogate", "rescind", "countermand"]
+      }
+    }
+  }
+}

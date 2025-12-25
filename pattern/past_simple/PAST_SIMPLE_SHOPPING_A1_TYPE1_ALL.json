@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_SHOPPING_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I bought a shirt yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "buy": {
+        "correct_forms": [
+          "bought"
+        ],
+        "wrong_forms": [
+          "buy",
+          "buys",
+          "am buying"
+        ],
+        "objects": [
+          "a shirt",
+          "shoes",
+          "a dress",
+          "a gift"
+        ],
+        "distractor": "return"
+      },
+      "pay": {
+        "correct_forms": [
+          "paid"
+        ],
+        "wrong_forms": [
+          "pay",
+          "pays",
+          "am paying"
+        ],
+        "objects": [
+          "for the food",
+          "the bill",
+          "cash",
+          "for the items"
+        ],
+        "distractor": "refuse"
+      },
+      "find": {
+        "correct_forms": [
+          "found"
+        ],
+        "wrong_forms": [
+          "find",
+          "finds",
+          "am finding"
+        ],
+        "objects": [
+          "a good deal",
+          "the store",
+          "nice shoes",
+          "a bargain"
+        ],
+        "distractor": "lose"
+      },
+      "try": {
+        "correct_forms": [
+          "tried"
+        ],
+        "wrong_forms": [
+          "try",
+          "tries",
+          "am trying"
+        ],
+        "objects": [
+          "the shoes",
+          "the dress",
+          "the jacket",
+          "new clothes"
+        ],
+        "distractor": "avoid"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last week",
+      "last Saturday",
+      "two days ago"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "pattern_id": "PAST_SIMPLE_ACADEMIA_C1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["articles", "prepositions", "subordinate_clauses", "purpose_clauses"],
+  "template": "{GERUND}, {SUBJ} ____ to {PURPOSE}.",
+  "example": "Analyzing longitudinal data, the researchers corroborated the hypothesis to establish causal relationships.",
+  "explanation": "Past simple is used for completed academic research actions. This C1 pattern uses a gerund phrase at the beginning ('Analyzing longitudinal data') to describe the method, followed by the main past simple verb. The purpose clause ('to establish...') adds sophistication. The completed research action requires past simple.",
+  "chunks": {
+    "GERUND": [
+      "Analyzing longitudinal data",
+      "Examining archival evidence",
+      "Reviewing empirical findings",
+      "Scrutinizing methodological frameworks",
+      "Evaluating statistical significance",
+      "Synthesizing theoretical perspectives"
+    ],
+    "SUBJ": [
+      "the researchers",
+      "scholars",
+      "the academic team",
+      "investigators",
+      "the principal researcher",
+      "doctoral candidates",
+      "the research consortium",
+      "interdisciplinary experts"
+    ],
+    "VERB": [
+      {
+        "correct_forms": ["corroborated"],
+        "wrong_forms": ["corroborate", "corroborates", "have corroborated"],
+        "objects": ["the hypothesis", "the theoretical framework", "the postulation"],
+        "distractor": "repudiated"
+      },
+      {
+        "correct_forms": ["postulated"],
+        "wrong_forms": ["postulate", "postulates", "have postulated"],
+        "objects": ["a new paradigm", "an alternative theory", "a conceptual model"],
+        "distractor": "obliterated"
+      },
+      {
+        "correct_forms": ["theorized"],
+        "wrong_forms": ["theorize", "theorizes", "have theorized"],
+        "objects": ["causal mechanisms", "underlying principles", "emergent patterns"],
+        "distractor": "forsook"
+      },
+      {
+        "correct_forms": ["refuted"],
+        "wrong_forms": ["refute", "refutes", "have refuted"],
+        "objects": ["conventional wisdom", "prevailing assumptions", "established doctrine"],
+        "distractor": "nullified"
+      },
+      {
+        "correct_forms": ["substantiated"],
+        "wrong_forms": ["substantiate", "substantiates", "have substantiated"],
+        "objects": ["the original claims", "the central thesis", "the preliminary findings"],
+        "distractor": "renounced"
+      },
+      {
+        "correct_forms": ["elucidated"],
+        "wrong_forms": ["elucidate", "elucidates", "have elucidated"],
+        "objects": ["complex phenomena", "intricate relationships", "obscure mechanisms"],
+        "distractor": "abrogated"
+      }
+    ],
+    "PURPOSE": [
+      "establish causal relationships",
+      "advance scholarly understanding",
+      "challenge existing paradigms",
+      "contribute to the discourse",
+      "validate the methodology",
+      "extend theoretical boundaries"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PAST_SIMPLE_FOOD_A1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "She cooked dinner yesterday.",
+  "explanation": "Past simple uses the same past form for all subjects (I/you/he/she/it/we/they). Use it for completed actions at specific past times with markers like 'yesterday', 'last week', or 'ago'.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "cook": {
+        "correct_forms": [
+          "cooked"
+        ],
+        "wrong_forms": [
+          "cook",
+          "cooks",
+          "am cooking"
+        ],
+        "objects": [
+          "dinner",
+          "lunch",
+          "pasta",
+          "breakfast"
+        ],
+        "distractor": "burn"
+      },
+      "eat": {
+        "correct_forms": [
+          "ate"
+        ],
+        "wrong_forms": [
+          "eat",
+          "eats",
+          "am eating"
+        ],
+        "objects": [
+          "pizza",
+          "rice",
+          "fruit",
+          "vegetables"
+        ],
+        "distractor": "waste"
+      },
+      "drink": {
+        "correct_forms": [
+          "drank"
+        ],
+        "wrong_forms": [
+          "drink",
+          "drinks",
+          "am drinking"
+        ],
+        "objects": [
+          "water",
+          "coffee",
+          "tea",
+          "juice"
+        ],
+        "distractor": "spill"
+      },
+      "order": {
+        "correct_forms": [
+          "ordered"
+        ],
+        "wrong_forms": [
+          "order",
+          "orders",
+          "am ordering"
+        ],
+        "objects": [
+          "food",
+          "a salad",
+          "a burger",
+          "dessert"
+        ],
+        "distractor": "refuse"
+      }
+    },
+    "TIME": [
+      "yesterday",
+      "last night",
+      "last week",
+      "two days ago"
+    ]
+  }
+}

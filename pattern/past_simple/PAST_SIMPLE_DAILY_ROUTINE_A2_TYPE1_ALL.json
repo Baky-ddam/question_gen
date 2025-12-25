@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_SIMPLE_DAILY_ROUTINE_A2_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "A2",
+  "domain": "daily_routine",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "She woke up early yesterday.",
+  "explanation": "Past simple is used to describe completed daily routine activities at a specific time in the past. Use the past form of the verb with time markers like 'yesterday,' 'last Monday,' or 'two days ago.'",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my roommate", "my colleague"],
+    "TIME": ["yesterday", "last Monday", "last Tuesday", "two days ago", "yesterday morning"],
+    "VERB": [
+      {
+        "correct_forms": ["woke up"],
+        "wrong_forms": ["wake up", "wakes up", "am waking up"],
+        "objects": ["early", "late", "at 6am", "at 7am", "before sunrise"],
+        "distractor": "slept"
+      },
+      {
+        "correct_forms": ["ate"],
+        "wrong_forms": ["eat", "eats", "am eating"],
+        "objects": ["breakfast", "lunch", "dinner", "cereal", "toast"],
+        "distractor": "skipped"
+      },
+      {
+        "correct_forms": ["went"],
+        "wrong_forms": ["go", "goes", "am going"],
+        "objects": ["to work", "to school", "home", "shopping", "to bed early"],
+        "distractor": "avoided"
+      },
+      {
+        "correct_forms": ["took"],
+        "wrong_forms": ["take", "takes", "am taking"],
+        "objects": ["a shower", "the bus", "a taxi", "a break", "medicine"],
+        "distractor": "refused"
+      }
+    ]
+  }
+}

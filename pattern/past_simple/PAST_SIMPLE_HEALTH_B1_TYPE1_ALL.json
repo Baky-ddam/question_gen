@@ -1,0 +1,128 @@
+{
+  "pattern_id": "PAST_SIMPLE_HEALTH_B1_TYPE1_ALL",
+  "focus": "past_simple",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "Last month, she exercised regularly because her doctor recommended it.",
+  "explanation": "Past simple describes completed health actions in the past. B1 patterns use fronted time expressions and reason clauses to create natural, complex sentences.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they",
+      "the patient",
+      "my father"
+    ],
+    "VERB": {
+      "exercise": {
+        "correct_forms": [
+          "exercised"
+        ],
+        "wrong_forms": [
+          "exercise",
+          "exercises",
+          "have exercised"
+        ],
+        "objects": [
+          "regularly",
+          "every day",
+          "at the gym",
+          "in the morning"
+        ],
+        "distractor": "neglected"
+      },
+      "recover": {
+        "correct_forms": [
+          "recovered"
+        ],
+        "wrong_forms": [
+          "recover",
+          "recovers",
+          "have recovered"
+        ],
+        "objects": [
+          "quickly",
+          "completely",
+          "from the illness",
+          "from surgery"
+        ],
+        "distractor": "deteriorated"
+      },
+      "improve": {
+        "correct_forms": [
+          "improved"
+        ],
+        "wrong_forms": [
+          "improve",
+          "improves",
+          "have improved"
+        ],
+        "objects": [
+          "her condition",
+          "his health",
+          "the symptoms",
+          "significantly"
+        ],
+        "distractor": "worsened"
+      },
+      "consult": {
+        "correct_forms": [
+          "consulted"
+        ],
+        "wrong_forms": [
+          "consult",
+          "consults",
+          "have consulted"
+        ],
+        "objects": [
+          "a specialist",
+          "the doctor",
+          "a nutritionist",
+          "a therapist"
+        ],
+        "distractor": "avoided"
+      },
+      "follow": {
+        "correct_forms": [
+          "followed"
+        ],
+        "wrong_forms": [
+          "follow",
+          "follows",
+          "have followed"
+        ],
+        "objects": [
+          "the treatment",
+          "medical advice",
+          "the diet plan",
+          "the instructions"
+        ],
+        "distractor": "disregarded"
+      }
+    },
+    "TIME": [
+      "Last month",
+      "Last year",
+      "Two weeks ago",
+      "Yesterday",
+      "In January",
+      "Last summer"
+    ],
+    "REASON": [
+      "her doctor recommended it",
+      "he wanted better health",
+      "the symptoms were severe",
+      "it was necessary",
+      "she felt unwell",
+      "the results were concerning"
+    ]
+  }
+}

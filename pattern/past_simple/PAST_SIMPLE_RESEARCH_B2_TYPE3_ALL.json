@@ -1,0 +1,109 @@
+{
+  "pattern_id": "PAST_SIMPLE_RESEARCH_B2_TYPE3_ALL",
+  "focus": "past_simple_negative",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "all",
+  "sub_grammar": ["articles"],
+  "template": "{SUBJ} ____ replicate {ARTICLE_OBJ} {TIME}.",
+  "example": "The team didn't replicate the findings during the validation phase.",
+  "explanation": "Past simple negative uses 'didn't' + base verb for all subjects to describe research actions that did not occur. Type 3 focuses on auxiliary choice with the base verb shown in the template.",
+  "chunks": {
+    "SUBJ": [
+      "the team",
+      "the researchers",
+      "the scientists",
+      "the laboratory",
+      "the investigators",
+      "the scholars",
+      "the institute",
+      "they",
+      "we",
+      "the department"
+    ],
+    "AUX": {
+      "didnt_replicate": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the findings",
+          "the results",
+          "the outcomes",
+          "the effects",
+          "the phenomenon"
+        ],
+        "distractor": "successfully"
+      },
+      "didnt_control": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the variables",
+          "the conditions",
+          "the factors",
+          "the parameters",
+          "the environment"
+        ],
+        "distractor": "adequately"
+      },
+      "didnt_validate": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "the hypothesis",
+          "the model",
+          "the theory",
+          "the assumptions",
+          "the methodology"
+        ],
+        "distractor": "thoroughly"
+      },
+      "didnt_account": {
+        "correct_forms": [
+          "didn't"
+        ],
+        "wrong_forms": [
+          "doesn't",
+          "don't",
+          "hasn't"
+        ],
+        "article_objects": [
+          "for the bias",
+          "for the confounds",
+          "for the limitations",
+          "for the outliers",
+          "for the variance"
+        ],
+        "distractor": "properly"
+      }
+    },
+    "TIME": [
+      "during the validation phase",
+      "in the initial study",
+      "during the trial period",
+      "in the preliminary tests",
+      "during the experiment",
+      "in the pilot study"
+    ]
+  }
+}
