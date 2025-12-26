@@ -1,0 +1,97 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_SOFTWARE_B2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "software",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "In response to {TRIGGER}, {SUBJ} ____ {OBJ}.",
+  "example": "In response to the security vulnerability report, I am refactoring the authentication module.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing software development tasks. B2 level uses 'In response to' to show reactive technical work.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "TRIGGER": [
+      "the security vulnerability report",
+      "the performance bottleneck analysis",
+      "the user feedback complaints",
+      "the scalability requirements",
+      "the compliance audit findings"
+    ],
+    "VERB": {
+      "refactor": {
+        "correct_forms": [
+          "am refactoring"
+        ],
+        "wrong_forms": [
+          "is refactoring",
+          "refactor",
+          "was refactoring"
+        ],
+        "objects": [
+          "the authentication module",
+          "the legacy codebase",
+          "the database access layer",
+          "the API endpoint structure"
+        ],
+        "distractor": "circumvent"
+      },
+      "debug": {
+        "correct_forms": [
+          "am debugging"
+        ],
+        "wrong_forms": [
+          "is debugging",
+          "debug",
+          "was debugging"
+        ],
+        "objects": [
+          "the memory leak issue",
+          "the race condition problem",
+          "the integration test failures",
+          "the production error logs"
+        ],
+        "distractor": "disregard"
+      },
+      "deploy": {
+        "correct_forms": [
+          "am deploying"
+        ],
+        "wrong_forms": [
+          "is deploying",
+          "deploy",
+          "was deploying"
+        ],
+        "objects": [
+          "the hotfix patch",
+          "the microservices update",
+          "the infrastructure changes",
+          "the containerized application"
+        ],
+        "distractor": "obstruct"
+      },
+      "implement": {
+        "correct_forms": [
+          "am implementing"
+        ],
+        "wrong_forms": [
+          "is implementing",
+          "implement",
+          "was implementing"
+        ],
+        "objects": [
+          "the encryption protocols",
+          "the caching mechanism",
+          "the load balancing solution",
+          "the monitoring dashboard"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

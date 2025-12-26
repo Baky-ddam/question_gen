@@ -1,0 +1,86 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HOME_A1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "home",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} now.",
+  "example": "I am cleaning the kitchen now.",
+  "explanation": "Use 'am' + verb-ing with 'I' for actions in progress.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "VERB": {
+      "clean": {
+        "correct_forms": [
+          "am cleaning"
+        ],
+        "wrong_forms": [
+          "is cleaning",
+          "clean",
+          "was cleaning"
+        ],
+        "objects": [
+          "the kitchen",
+          "the bathroom",
+          "my room"
+        ],
+        "distractor": "avoid"
+      },
+      "wash": {
+        "correct_forms": [
+          "am washing"
+        ],
+        "wrong_forms": [
+          "is washing",
+          "wash",
+          "was washing"
+        ],
+        "objects": [
+          "the dishes",
+          "the floor",
+          "the windows"
+        ],
+        "distractor": "ignore"
+      },
+      "organize": {
+        "correct_forms": [
+          "am organizing"
+        ],
+        "wrong_forms": [
+          "is organizing",
+          "organize",
+          "was organizing"
+        ],
+        "objects": [
+          "my closet",
+          "the shelves",
+          "the drawers"
+        ],
+        "distractor": "break"
+      },
+      "fix": {
+        "correct_forms": [
+          "am fixing"
+        ],
+        "wrong_forms": [
+          "is fixing",
+          "fix",
+          "was fixing"
+        ],
+        "objects": [
+          "the door",
+          "the lamp",
+          "the chair"
+        ],
+        "distractor": "break"
+      }
+    }
+  }
+}

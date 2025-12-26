@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_THEATER_B1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "theater",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "This month, they are auditioning new performers because the company is expanding.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing actions. B1 level combines time and reason for complex context.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "TIME": [
+      "This month",
+      "This season",
+      "Currently",
+      "Right now"
+    ],
+    "REASON": [
+      "the company is expanding",
+      "the festival is approaching",
+      "the new season is starting",
+      "ticket sales are increasing"
+    ],
+    "VERB": {
+      "audition": {
+        "correct_forms": [
+          "are auditioning"
+        ],
+        "wrong_forms": [
+          "is auditioning",
+          "audition",
+          "were auditioning"
+        ],
+        "objects": [
+          "new performers",
+          "young actors",
+          "talented dancers",
+          "experienced musicians"
+        ],
+        "distractor": "dismiss"
+      },
+      "produce": {
+        "correct_forms": [
+          "are producing"
+        ],
+        "wrong_forms": [
+          "is producing",
+          "produce",
+          "were producing"
+        ],
+        "objects": [
+          "a Broadway revival",
+          "an original musical",
+          "a touring show",
+          "a holiday production"
+        ],
+        "distractor": "cancel"
+      },
+      "design": {
+        "correct_forms": [
+          "are designing"
+        ],
+        "wrong_forms": [
+          "is designing",
+          "design",
+          "were designing"
+        ],
+        "objects": [
+          "the stage sets",
+          "elaborate costumes",
+          "the sound system",
+          "the lighting effects"
+        ],
+        "distractor": "neglect"
+      },
+      "coordinate": {
+        "correct_forms": [
+          "are coordinating"
+        ],
+        "wrong_forms": [
+          "is coordinating",
+          "coordinate",
+          "were coordinating"
+        ],
+        "objects": [
+          "the rehearsal schedule",
+          "the technical crew",
+          "the marketing campaign",
+          "the opening night events"
+        ],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

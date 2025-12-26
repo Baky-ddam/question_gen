@@ -1,0 +1,97 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HOBBIES_A2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} {TIME}.",
+  "example": "I am painting a picture at home today.",
+  "explanation": "Use 'am' + verb-ing with 'I' for actions happening around now. A2 sentences include time and place.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "PLACE": [
+      "at home",
+      "in the garden",
+      "in my room"
+    ],
+    "TIME": [
+      "today",
+      "this afternoon",
+      "this morning",
+      "this week"
+    ],
+    "VERB": {
+      "paint": {
+        "correct_forms": [
+          "am painting"
+        ],
+        "wrong_forms": [
+          "is painting",
+          "paint",
+          "was painting"
+        ],
+        "objects": [
+          "a picture",
+          "a landscape",
+          "a portrait"
+        ],
+        "distractor": "destroy"
+      },
+      "read": {
+        "correct_forms": [
+          "am reading"
+        ],
+        "wrong_forms": [
+          "is reading",
+          "read",
+          "was reading"
+        ],
+        "objects": [
+          "a novel",
+          "a magazine",
+          "a comic book"
+        ],
+        "distractor": "skip"
+      },
+      "practice": {
+        "correct_forms": [
+          "am practicing"
+        ],
+        "wrong_forms": [
+          "is practicing",
+          "practice",
+          "was practicing"
+        ],
+        "objects": [
+          "guitar",
+          "piano",
+          "my drawing skills"
+        ],
+        "distractor": "quit"
+      },
+      "build": {
+        "correct_forms": [
+          "am building"
+        ],
+        "wrong_forms": [
+          "is building",
+          "build",
+          "was building"
+        ],
+        "objects": [
+          "a model airplane",
+          "a puzzle",
+          "a birdhouse"
+        ],
+        "distractor": "waste"
+      }
+    }
+  }
+}

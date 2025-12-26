@@ -1,0 +1,96 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HISTORY_B1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "history",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} to {PURPOSE}.",
+  "example": "I am studying ancient manuscripts to understand medieval society.",
+  "explanation": "Use 'am' + verb-ing with 'I' for current activities. B1 level uses 'to' + infinitive to express purpose.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "PURPOSE": [
+      "understand medieval society",
+      "prepare for the examination",
+      "complete the dissertation",
+      "publish an academic paper"
+    ],
+    "VERB": {
+      "study": {
+        "correct_forms": [
+          "am studying"
+        ],
+        "wrong_forms": [
+          "is studying",
+          "study",
+          "was studying"
+        ],
+        "objects": [
+          "ancient manuscripts",
+          "historical archives",
+          "primary documents",
+          "archaeological records"
+        ],
+        "distractor": "neglect"
+      },
+      "research": {
+        "correct_forms": [
+          "am researching"
+        ],
+        "wrong_forms": [
+          "is researching",
+          "research",
+          "was researching"
+        ],
+        "objects": [
+          "the Roman Empire",
+          "the Industrial Revolution",
+          "ancient civilizations",
+          "colonial history"
+        ],
+        "distractor": "dismiss"
+      },
+      "explore": {
+        "correct_forms": [
+          "am exploring"
+        ],
+        "wrong_forms": [
+          "is exploring",
+          "explore",
+          "was exploring"
+        ],
+        "objects": [
+          "historical narratives",
+          "cultural heritage sites",
+          "museum collections",
+          "archival materials"
+        ],
+        "distractor": "overlook"
+      },
+      "translate": {
+        "correct_forms": [
+          "am translating"
+        ],
+        "wrong_forms": [
+          "is translating",
+          "translate",
+          "was translating"
+        ],
+        "objects": [
+          "ancient texts",
+          "historical correspondence",
+          "medieval documents",
+          "classical literature"
+        ],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

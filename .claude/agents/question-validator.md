@@ -1,3 +1,10 @@
+---
+name: question-validator
+description: Use this agent to validate generated questions from a single verb branch. It checks grammatical correctness, semantic naturalness, correct answer validity, wrong form appropriateness, and distractor quality. Provide the branch file and pattern JSON. Returns PASS/FAIL with detailed error reports.
+model: opus
+color: orange
+---
+
 # Question Validator Agent
 
 Validates grammar pattern questions for grammatical correctness, semantic naturalness, and option validity.

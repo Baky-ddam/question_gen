@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HOME_A1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "home",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Look! {SUBJ} ____ {OBJ}.",
+  "example": "Look! He is painting the wall.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for actions happening at this moment.",
+  "chunks": {
+    "SUBJ": [
+      "He",
+      "She",
+      "My dad"
+    ],
+    "VERB": {
+      "paint": {
+        "correct_forms": [
+          "is painting"
+        ],
+        "wrong_forms": [
+          "are painting",
+          "paints",
+          "was painting"
+        ],
+        "objects": [
+          "the wall",
+          "the fence",
+          "the door"
+        ],
+        "distractor": "stop"
+      },
+      "repair": {
+        "correct_forms": [
+          "is repairing"
+        ],
+        "wrong_forms": [
+          "are repairing",
+          "repairs",
+          "was repairing"
+        ],
+        "objects": [
+          "the roof",
+          "the pipe",
+          "the window"
+        ],
+        "distractor": "break"
+      },
+      "vacuum": {
+        "correct_forms": [
+          "is vacuuming"
+        ],
+        "wrong_forms": [
+          "are vacuuming",
+          "vacuums",
+          "was vacuuming"
+        ],
+        "objects": [
+          "the carpet",
+          "the floor",
+          "the rug"
+        ],
+        "distractor": "avoid"
+      },
+      "water": {
+        "correct_forms": [
+          "is watering"
+        ],
+        "wrong_forms": [
+          "are watering",
+          "waters",
+          "was watering"
+        ],
+        "objects": [
+          "the plants",
+          "the garden",
+          "the flowers"
+        ],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

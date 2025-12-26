@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_WELLNESS_A2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "wellness",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "This week, they are attending yoga classes at the studio.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for temporary activities. Time at the start emphasizes the current period.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "TIME": [
+      "This week",
+      "These days",
+      "This month",
+      "Today"
+    ],
+    "PLACE": [
+      "at the studio",
+      "at the retreat",
+      "at the health club",
+      "online"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "are attending"
+        ],
+        "wrong_forms": [
+          "is attending",
+          "attend",
+          "were attending"
+        ],
+        "objects": [
+          "yoga classes",
+          "meditation sessions",
+          "wellness workshops"
+        ],
+        "distractor": "skip"
+      },
+      "focus": {
+        "correct_forms": [
+          "are focusing"
+        ],
+        "wrong_forms": [
+          "is focusing",
+          "focus",
+          "were focusing"
+        ],
+        "objects": [
+          "on mental health",
+          "on self-care",
+          "on relaxation"
+        ],
+        "distractor": "neglect"
+      },
+      "try": {
+        "correct_forms": [
+          "are trying"
+        ],
+        "wrong_forms": [
+          "is trying",
+          "try",
+          "were trying"
+        ],
+        "objects": [
+          "new wellness routines",
+          "healthy habits",
+          "different therapies"
+        ],
+        "distractor": "reject"
+      },
+      "develop": {
+        "correct_forms": [
+          "are developing"
+        ],
+        "wrong_forms": [
+          "is developing",
+          "develop",
+          "were developing"
+        ],
+        "objects": [
+          "better sleep habits",
+          "a healthier lifestyle",
+          "positive routines"
+        ],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

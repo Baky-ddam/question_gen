@@ -1,0 +1,96 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_WRITING_B1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "writing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} while {PARALLEL_ACTION}.",
+  "example": "I am drafting the final chapter while consulting my research notes.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing actions. B1 level uses 'while' to show two simultaneous actions.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "PARALLEL_ACTION": [
+      "consulting my research notes",
+      "listening to classical music",
+      "waiting for feedback",
+      "taking a short break"
+    ],
+    "VERB": {
+      "draft": {
+        "correct_forms": [
+          "am drafting"
+        ],
+        "wrong_forms": [
+          "is drafting",
+          "draft",
+          "was drafting"
+        ],
+        "objects": [
+          "the final chapter",
+          "an academic essay",
+          "a research proposal",
+          "the introduction"
+        ],
+        "distractor": "abandon"
+      },
+      "edit": {
+        "correct_forms": [
+          "am editing"
+        ],
+        "wrong_forms": [
+          "is editing",
+          "edit",
+          "was editing"
+        ],
+        "objects": [
+          "the manuscript",
+          "the first draft",
+          "the article revisions",
+          "the publication proofs"
+        ],
+        "distractor": "neglect"
+      },
+      "revise": {
+        "correct_forms": [
+          "am revising"
+        ],
+        "wrong_forms": [
+          "is revising",
+          "revise",
+          "was revising"
+        ],
+        "objects": [
+          "the thesis structure",
+          "my writing style",
+          "the argumentation",
+          "the conclusion section"
+        ],
+        "distractor": "overlook"
+      },
+      "compose": {
+        "correct_forms": [
+          "am composing"
+        ],
+        "wrong_forms": [
+          "is composing",
+          "compose",
+          "was composing"
+        ],
+        "objects": [
+          "a formal letter",
+          "the acknowledgments",
+          "a book review",
+          "an opinion piece"
+        ],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

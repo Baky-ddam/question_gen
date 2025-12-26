@@ -1,3 +1,10 @@
+---
+name: grammar-pattern-creator
+description: Use this agent to create a single JSON pattern file for grammar questions. Provide the grammar type, level, domain, template type, and subject group. The agent reads grammar_registry.json for rules, creates the pattern following the EYESH framework, and saves the JSON file. Use when you need to create one specific pattern file.
+model: opus
+color: green
+---
+
 # Grammar Pattern Creator Agent
 
 Creates high-quality English grammar question patterns following the EYESH framework. Thinks deeply about grammar rules, sentence structure diversity, and semantic naturalness.

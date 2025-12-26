@@ -1,0 +1,94 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HOBBIES_A2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Look! {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "Look! They are playing chess in the living room.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for actions happening now. 'Look!' draws attention to the current action.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PLACE": [
+      "in the living room",
+      "in the backyard",
+      "at the park",
+      "in the studio"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "are playing"
+        ],
+        "wrong_forms": [
+          "is playing",
+          "play",
+          "were playing"
+        ],
+        "objects": [
+          "chess",
+          "board games",
+          "video games"
+        ],
+        "distractor": "quit"
+      },
+      "collect": {
+        "correct_forms": [
+          "are collecting"
+        ],
+        "wrong_forms": [
+          "is collecting",
+          "collect",
+          "were collecting"
+        ],
+        "objects": [
+          "stamps",
+          "coins",
+          "vintage cards"
+        ],
+        "distractor": "waste"
+      },
+      "arrange": {
+        "correct_forms": [
+          "are arranging"
+        ],
+        "wrong_forms": [
+          "is arranging",
+          "arrange",
+          "were arranging"
+        ],
+        "objects": [
+          "flowers",
+          "photos",
+          "craft materials"
+        ],
+        "distractor": "destroy"
+      },
+      "create": {
+        "correct_forms": [
+          "are creating"
+        ],
+        "wrong_forms": [
+          "is creating",
+          "create",
+          "were creating"
+        ],
+        "objects": [
+          "jewelry",
+          "pottery",
+          "decorations"
+        ],
+        "distractor": "reject"
+      }
+    }
+  }
+}

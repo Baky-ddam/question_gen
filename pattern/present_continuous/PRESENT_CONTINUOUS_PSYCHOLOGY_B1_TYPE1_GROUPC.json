@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_PSYCHOLOGY_B1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "psychology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "At the moment, {SUBJ} ____ {OBJ} for {PURPOSE}.",
+  "example": "At the moment, she is analyzing brain activity patterns for the research study.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing actions. B1 level includes purpose clauses.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the psychologist",
+      "the therapist"
+    ],
+    "PURPOSE": [
+      "the research study",
+      "the clinical trial",
+      "the therapy program",
+      "the doctoral thesis"
+    ],
+    "VERB": {
+      "analyze": {
+        "correct_forms": [
+          "is analyzing"
+        ],
+        "wrong_forms": [
+          "are analyzing",
+          "analyzes",
+          "was analyzing"
+        ],
+        "objects": [
+          "brain activity patterns",
+          "behavioral responses",
+          "therapy outcomes",
+          "patient progress"
+        ],
+        "distractor": "neglect"
+      },
+      "counsel": {
+        "correct_forms": [
+          "is counseling"
+        ],
+        "wrong_forms": [
+          "are counseling",
+          "counsels",
+          "was counseling"
+        ],
+        "objects": [
+          "anxiety patients",
+          "trauma survivors",
+          "adolescent clients",
+          "couples in therapy"
+        ],
+        "distractor": "abandon"
+      },
+      "monitor": {
+        "correct_forms": [
+          "is monitoring"
+        ],
+        "wrong_forms": [
+          "are monitoring",
+          "monitors",
+          "was monitoring"
+        ],
+        "objects": [
+          "stress levels",
+          "sleep patterns",
+          "mood fluctuations",
+          "cognitive development"
+        ],
+        "distractor": "overlook"
+      },
+      "evaluate": {
+        "correct_forms": [
+          "is evaluating"
+        ],
+        "wrong_forms": [
+          "are evaluating",
+          "evaluates",
+          "was evaluating"
+        ],
+        "objects": [
+          "treatment effectiveness",
+          "therapeutic interventions",
+          "clinical outcomes",
+          "medication responses"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

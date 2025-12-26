@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_TRAINING_A2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "training",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {TIME} {PLACE}.",
+  "example": "He is learning new techniques this week at the training center.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing training activities. Includes both time and place for A2 complexity.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the trainee"
+    ],
+    "TIME": [
+      "this week",
+      "today",
+      "this month",
+      "currently"
+    ],
+    "PLACE": [
+      "at the training center",
+      "at the academy",
+      "in the classroom",
+      "online"
+    ],
+    "VERB": {
+      "learn": {
+        "correct_forms": [
+          "is learning"
+        ],
+        "wrong_forms": [
+          "are learning",
+          "learns",
+          "was learning"
+        ],
+        "objects": [
+          "new techniques",
+          "advanced skills",
+          "the fundamentals"
+        ],
+        "distractor": "forget"
+      },
+      "prepare": {
+        "correct_forms": [
+          "is preparing"
+        ],
+        "wrong_forms": [
+          "are preparing",
+          "prepares",
+          "was preparing"
+        ],
+        "objects": [
+          "for the certification",
+          "for the exam",
+          "for the competition"
+        ],
+        "distractor": "skip"
+      },
+      "master": {
+        "correct_forms": [
+          "is mastering"
+        ],
+        "wrong_forms": [
+          "are mastering",
+          "masters",
+          "was mastering"
+        ],
+        "objects": [
+          "the basics",
+          "core concepts",
+          "essential skills"
+        ],
+        "distractor": "waste"
+      },
+      "coach": {
+        "correct_forms": [
+          "is coaching"
+        ],
+        "wrong_forms": [
+          "are coaching",
+          "coaches",
+          "was coaching"
+        ],
+        "objects": [
+          "new students",
+          "the beginners",
+          "the team members"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_JOURNALISM_B2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} despite {CHALLENGE}.",
+  "example": "They are covering the war zone despite the communication blackout.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing actions. B2 level uses 'despite' to show persistence through challenges in journalism.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "CHALLENGE": [
+      "the communication blackout",
+      "the government restrictions",
+      "the tight deadline pressure",
+      "the limited access to sources",
+      "the editorial budget cuts"
+    ],
+    "VERB": {
+      "cover": {
+        "correct_forms": [
+          "are covering"
+        ],
+        "wrong_forms": [
+          "is covering",
+          "cover",
+          "were covering"
+        ],
+        "objects": [
+          "the war zone developments",
+          "the humanitarian crisis",
+          "the protest movements",
+          "the environmental disaster"
+        ],
+        "distractor": "circumvent"
+      },
+      "publish": {
+        "correct_forms": [
+          "are publishing"
+        ],
+        "wrong_forms": [
+          "is publishing",
+          "publish",
+          "were publishing"
+        ],
+        "objects": [
+          "the investigative series",
+          "the controversial exposé",
+          "the whistleblower documents",
+          "the exclusive revelations"
+        ],
+        "distractor": "suppress"
+      },
+      "document": {
+        "correct_forms": [
+          "are documenting"
+        ],
+        "wrong_forms": [
+          "is documenting",
+          "document",
+          "were documenting"
+        ],
+        "objects": [
+          "the human rights violations",
+          "the refugee testimonies",
+          "the eyewitness accounts",
+          "the unfolding tragedy"
+        ],
+        "distractor": "disregard"
+      },
+      "verify": {
+        "correct_forms": [
+          "are verifying"
+        ],
+        "wrong_forms": [
+          "is verifying",
+          "verify",
+          "were verifying"
+        ],
+        "objects": [
+          "the leaked information",
+          "the source credibility",
+          "the factual accuracy",
+          "the document authenticity"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

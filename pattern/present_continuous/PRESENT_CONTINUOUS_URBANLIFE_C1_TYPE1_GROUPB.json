@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_URBANLIFE_C1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "urban_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, a process that {SIGNIFICANCE} in the context of {BROADER_ISSUE}.",
+  "example": "We are rezoning commercial districts, a process that holds significant implications in the context of sustainable urban development.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing urban planning initiatives. C1 level features significance statements within broader societal contexts.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "SIGNIFICANCE": [
+      "holds significant implications",
+      "represents a fundamental shift in approach",
+      "marks a turning point",
+      "signals transformative change",
+      "carries profound consequences"
+    ],
+    "BROADER_ISSUE": [
+      "sustainable urban development",
+      "equitable housing distribution",
+      "climate-resilient city planning",
+      "inclusive community building",
+      "smart city infrastructure"
+    ],
+    "VERB": {
+      "rezone": {
+        "correct_forms": [
+          "are rezoning"
+        ],
+        "wrong_forms": [
+          "is rezoning",
+          "rezone",
+          "were rezoning"
+        ],
+        "objects": [
+          "commercial districts",
+          "industrial areas",
+          "residential neighborhoods",
+          "mixed-use development zones"
+        ],
+        "distractor": "stagnate"
+      },
+      "gentrify": {
+        "correct_forms": [
+          "are gentrifying"
+        ],
+        "wrong_forms": [
+          "is gentrifying",
+          "gentrify",
+          "were gentrifying"
+        ],
+        "objects": [
+          "working-class neighborhoods",
+          "historic urban quarters",
+          "transitional communities",
+          "economically depressed areas"
+        ],
+        "distractor": "impoverish"
+      },
+      "redesign": {
+        "correct_forms": [
+          "are redesigning"
+        ],
+        "wrong_forms": [
+          "is redesigning",
+          "redesign",
+          "were redesigning"
+        ],
+        "objects": [
+          "public transportation hubs",
+          "urban green spaces",
+          "pedestrian infrastructure",
+          "civic gathering places"
+        ],
+        "distractor": "neglect"
+      },
+      "integrate": {
+        "correct_forms": [
+          "are integrating"
+        ],
+        "wrong_forms": [
+          "is integrating",
+          "integrate",
+          "were integrating"
+        ],
+        "objects": [
+          "smart city technologies",
+          "sustainable building practices",
+          "multimodal transport systems",
+          "renewable energy solutions"
+        ],
+        "distractor": "segregate"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_ENGINEERING_B2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "engineering",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "While {CONTEXT}, {SUBJ} ____ {OBJ} to {PURPOSE}.",
+  "example": "While the project deadline approaches, I am optimizing the system architecture to improve performance.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing technical work. B2 level uses 'While' clauses to show concurrent contexts in engineering projects.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "CONTEXT": [
+      "the project deadline approaches",
+      "the team handles other tasks",
+      "the budget remains constrained",
+      "the requirements keep evolving",
+      "the stakeholders await results"
+    ],
+    "PURPOSE": [
+      "improve performance",
+      "reduce operational costs",
+      "meet safety standards",
+      "ensure reliability",
+      "enhance efficiency"
+    ],
+    "VERB": {
+      "optimize": {
+        "correct_forms": [
+          "am optimizing"
+        ],
+        "wrong_forms": [
+          "is optimizing",
+          "optimize",
+          "was optimizing"
+        ],
+        "objects": [
+          "the system architecture",
+          "the manufacturing process",
+          "the energy consumption model",
+          "the structural design"
+        ],
+        "distractor": "undermine"
+      },
+      "develop": {
+        "correct_forms": [
+          "am developing"
+        ],
+        "wrong_forms": [
+          "is developing",
+          "develop",
+          "was developing"
+        ],
+        "objects": [
+          "the prototype solution",
+          "the automation framework",
+          "the testing methodology",
+          "the integration platform"
+        ],
+        "distractor": "obstruct"
+      },
+      "implement": {
+        "correct_forms": [
+          "am implementing"
+        ],
+        "wrong_forms": [
+          "is implementing",
+          "implement",
+          "was implementing"
+        ],
+        "objects": [
+          "the quality control measures",
+          "the safety protocols",
+          "the monitoring systems",
+          "the backup procedures"
+        ],
+        "distractor": "impede"
+      },
+      "test": {
+        "correct_forms": [
+          "am testing"
+        ],
+        "wrong_forms": [
+          "is testing",
+          "test",
+          "was testing"
+        ],
+        "objects": [
+          "the component durability",
+          "the load capacity limits",
+          "the thermal resistance",
+          "the failure scenarios"
+        ],
+        "distractor": "disregard"
+      }
+    }
+  }
+}

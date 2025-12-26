@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_DATASCIENCE_B2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "data_science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}, which {IMPACT}.",
+  "example": "We are clustering the customer segments because the marketing team needs insights, which informs the campaign strategy.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing team analysis. B2 level combines reason and impact clauses for professional data science contexts.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "REASON": [
+      "the marketing team needs insights",
+      "the stakeholders require predictions",
+      "the business strategy demands analysis",
+      "the quarterly review approaches",
+      "the executive board expects recommendations"
+    ],
+    "IMPACT": [
+      "informs the campaign strategy",
+      "drives business intelligence",
+      "supports strategic planning",
+      "enables data-driven decisions",
+      "shapes product development"
+    ],
+    "VERB": {
+      "cluster": {
+        "correct_forms": [
+          "are clustering"
+        ],
+        "wrong_forms": [
+          "is clustering",
+          "cluster",
+          "were clustering"
+        ],
+        "objects": [
+          "the customer segments",
+          "the behavioral patterns",
+          "the demographic groups",
+          "the purchase history data"
+        ],
+        "distractor": "impede"
+      },
+      "model": {
+        "correct_forms": [
+          "are modeling"
+        ],
+        "wrong_forms": [
+          "is modeling",
+          "model",
+          "were modeling"
+        ],
+        "objects": [
+          "the churn prediction scenarios",
+          "the revenue forecasting variables",
+          "the risk assessment factors",
+          "the demand estimation parameters"
+        ],
+        "distractor": "undermine"
+      },
+      "mine": {
+        "correct_forms": [
+          "are mining"
+        ],
+        "wrong_forms": [
+          "is mining",
+          "mine",
+          "were mining"
+        ],
+        "objects": [
+          "the transaction databases",
+          "the social media mentions",
+          "the customer feedback logs",
+          "the web analytics streams"
+        ],
+        "distractor": "disregard"
+      },
+      "engineer": {
+        "correct_forms": [
+          "are engineering"
+        ],
+        "wrong_forms": [
+          "is engineering",
+          "engineer",
+          "were engineering"
+        ],
+        "objects": [
+          "the feature extraction pipeline",
+          "the data transformation workflows",
+          "the variable selection models",
+          "the input normalization processes"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

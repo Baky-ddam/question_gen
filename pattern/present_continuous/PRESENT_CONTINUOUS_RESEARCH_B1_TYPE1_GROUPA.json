@@ -1,0 +1,96 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_RESEARCH_B1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "I am analyzing the survey data because the deadline is approaching.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing actions. B1 level adds 'because' clauses to explain the reason for the action.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "REASON": [
+      "the deadline is approaching",
+      "the professor requested it",
+      "the results are needed soon",
+      "the project requires it"
+    ],
+    "VERB": {
+      "analyze": {
+        "correct_forms": [
+          "am analyzing"
+        ],
+        "wrong_forms": [
+          "is analyzing",
+          "analyze",
+          "was analyzing"
+        ],
+        "objects": [
+          "the survey data",
+          "the research findings",
+          "the experimental results",
+          "the statistical patterns"
+        ],
+        "distractor": "abandon"
+      },
+      "investigate": {
+        "correct_forms": [
+          "am investigating"
+        ],
+        "wrong_forms": [
+          "is investigating",
+          "investigate",
+          "was investigating"
+        ],
+        "objects": [
+          "the hypothesis",
+          "the phenomenon",
+          "the correlation",
+          "the variables"
+        ],
+        "distractor": "dismiss"
+      },
+      "examine": {
+        "correct_forms": [
+          "am examining"
+        ],
+        "wrong_forms": [
+          "is examining",
+          "examine",
+          "was examining"
+        ],
+        "objects": [
+          "the samples",
+          "the case studies",
+          "the literature",
+          "the methodology"
+        ],
+        "distractor": "overlook"
+      },
+      "document": {
+        "correct_forms": [
+          "am documenting"
+        ],
+        "wrong_forms": [
+          "is documenting",
+          "document",
+          "was documenting"
+        ],
+        "objects": [
+          "the observations",
+          "the procedures",
+          "the findings",
+          "the experiment stages"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

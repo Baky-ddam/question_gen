@@ -1,0 +1,105 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_THEATER_B1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "theater",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} to {PURPOSE}.",
+  "example": "She is rehearsing the opening scene at the theater to prepare for the premiere.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing actions. B1 level combines place and purpose for detailed context.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the director",
+      "the actor"
+    ],
+    "PLACE": [
+      "at the theater",
+      "on the main stage",
+      "in the rehearsal room",
+      "backstage"
+    ],
+    "PURPOSE": [
+      "prepare for the premiere",
+      "perfect the performance",
+      "impress the critics",
+      "meet the production deadline"
+    ],
+    "VERB": {
+      "rehearse": {
+        "correct_forms": [
+          "is rehearsing"
+        ],
+        "wrong_forms": [
+          "are rehearsing",
+          "rehearses",
+          "was rehearsing"
+        ],
+        "objects": [
+          "the opening scene",
+          "the monologue",
+          "the dance sequence",
+          "the final act"
+        ],
+        "distractor": "cancel"
+      },
+      "perform": {
+        "correct_forms": [
+          "is performing"
+        ],
+        "wrong_forms": [
+          "are performing",
+          "performs",
+          "was performing"
+        ],
+        "objects": [
+          "the lead role",
+          "a dramatic piece",
+          "a classical tragedy",
+          "a contemporary play"
+        ],
+        "distractor": "abandon"
+      },
+      "direct": {
+        "correct_forms": [
+          "is directing"
+        ],
+        "wrong_forms": [
+          "are directing",
+          "directs",
+          "was directing"
+        ],
+        "objects": [
+          "the ensemble cast",
+          "the musical production",
+          "the stage movements",
+          "the lighting design"
+        ],
+        "distractor": "neglect"
+      },
+      "stage": {
+        "correct_forms": [
+          "is staging"
+        ],
+        "wrong_forms": [
+          "are staging",
+          "stages",
+          "was staging"
+        ],
+        "objects": [
+          "a new adaptation",
+          "a Shakespeare revival",
+          "an experimental piece",
+          "a community production"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

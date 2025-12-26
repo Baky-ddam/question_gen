@@ -1,0 +1,94 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_TRAINING_A2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "training",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Right now, {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "Right now, we are completing training exercises in the gym.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for actions happening at this moment. 'Right now' emphasizes immediacy.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PLACE": [
+      "in the gym",
+      "at the workshop",
+      "in the training room",
+      "at the facility"
+    ],
+    "VERB": {
+      "complete": {
+        "correct_forms": [
+          "are completing"
+        ],
+        "wrong_forms": [
+          "is completing",
+          "complete",
+          "were completing"
+        ],
+        "objects": [
+          "training exercises",
+          "practice drills",
+          "skill assessments"
+        ],
+        "distractor": "abandon"
+      },
+      "review": {
+        "correct_forms": [
+          "are reviewing"
+        ],
+        "wrong_forms": [
+          "is reviewing",
+          "review",
+          "were reviewing"
+        ],
+        "objects": [
+          "the materials",
+          "the lesson plan",
+          "the techniques"
+        ],
+        "distractor": "skip"
+      },
+      "demonstrate": {
+        "correct_forms": [
+          "are demonstrating"
+        ],
+        "wrong_forms": [
+          "is demonstrating",
+          "demonstrate",
+          "were demonstrating"
+        ],
+        "objects": [
+          "proper form",
+          "the procedures",
+          "best practices"
+        ],
+        "distractor": "neglect"
+      },
+      "practice": {
+        "correct_forms": [
+          "are practicing"
+        ],
+        "wrong_forms": [
+          "is practicing",
+          "practice",
+          "were practicing"
+        ],
+        "objects": [
+          "the movements",
+          "new strategies",
+          "the drills"
+        ],
+        "distractor": "quit"
+      }
+    }
+  }
+}

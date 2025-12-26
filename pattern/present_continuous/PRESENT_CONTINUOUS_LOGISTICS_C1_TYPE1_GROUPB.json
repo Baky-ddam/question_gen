@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_LOGISTICS_C1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "logistics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "In response to {MARKET_FORCE}, {SUBJ} ____ {OBJ}, thereby {BUSINESS_OUTCOME}.",
+  "example": "In response to growing e-commerce demand, we are decentralizing warehouse operations, thereby reducing last-mile delivery times.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing logistics transformations. C1 level features market forces with resultant business outcomes.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "MARKET_FORCE": [
+      "growing e-commerce demand",
+      "rising customer expectations",
+      "increasing fuel costs",
+      "shifting trade patterns",
+      "intensifying competitive pressure"
+    ],
+    "BUSINESS_OUTCOME": [
+      "reducing last-mile delivery times",
+      "achieving significant cost savings",
+      "improving customer satisfaction metrics",
+      "enhancing competitive positioning",
+      "strengthening market responsiveness"
+    ],
+    "VERB": {
+      "decentralize": {
+        "correct_forms": [
+          "are decentralizing"
+        ],
+        "wrong_forms": [
+          "is decentralizing",
+          "decentralize",
+          "were decentralizing"
+        ],
+        "objects": [
+          "warehouse operations",
+          "distribution capabilities",
+          "fulfillment centers",
+          "inventory storage locations"
+        ],
+        "distractor": "centralize"
+      },
+      "redistribute": {
+        "correct_forms": [
+          "are redistributing"
+        ],
+        "wrong_forms": [
+          "is redistributing",
+          "redistribute",
+          "were redistributing"
+        ],
+        "objects": [
+          "inventory allocations",
+          "transportation resources",
+          "logistics capacities",
+          "supply chain assets"
+        ],
+        "distractor": "hoard"
+      },
+      "digitize": {
+        "correct_forms": [
+          "are digitizing"
+        ],
+        "wrong_forms": [
+          "is digitizing",
+          "digitize",
+          "were digitizing"
+        ],
+        "objects": [
+          "supply chain documentation",
+          "tracking and tracing systems",
+          "freight booking processes",
+          "cargo management operations"
+        ],
+        "distractor": "neglect"
+      },
+      "reconfigure": {
+        "correct_forms": [
+          "are reconfiguring"
+        ],
+        "wrong_forms": [
+          "is reconfiguring",
+          "reconfigure",
+          "were reconfiguring"
+        ],
+        "objects": [
+          "global sourcing strategies",
+          "transport mode selections",
+          "supply network architectures",
+          "logistics partnership models"
+        ],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

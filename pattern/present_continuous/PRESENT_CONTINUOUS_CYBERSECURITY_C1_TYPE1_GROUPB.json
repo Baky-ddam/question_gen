@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CYBERSECURITY_C1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "cybersecurity",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Given the {COMPLEXITY}, {SUBJ} ____ {OBJ} in order to {PURPOSE}.",
+  "example": "Given the sophistication of modern cyber threats, we are fortifying network perimeters in order to prevent unauthorized intrusions.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing cybersecurity measures. C1 level features complex threat contexts with strategic purposes.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "COMPLEXITY": [
+      "sophistication of modern cyber threats",
+      "evolving nature of ransomware attacks",
+      "increasing frequency of data breaches",
+      "proliferation of state-sponsored hacking",
+      "complexity of zero-day vulnerabilities"
+    ],
+    "PURPOSE": [
+      "prevent unauthorized intrusions",
+      "safeguard sensitive information assets",
+      "maintain operational continuity",
+      "protect critical infrastructure",
+      "ensure regulatory compliance"
+    ],
+    "VERB": {
+      "fortify": {
+        "correct_forms": [
+          "are fortifying"
+        ],
+        "wrong_forms": [
+          "is fortifying",
+          "fortify",
+          "were fortifying"
+        ],
+        "objects": [
+          "network perimeters",
+          "firewall configurations",
+          "authentication systems",
+          "endpoint security protocols"
+        ],
+        "distractor": "compromise"
+      },
+      "encrypt": {
+        "correct_forms": [
+          "are encrypting"
+        ],
+        "wrong_forms": [
+          "is encrypting",
+          "encrypt",
+          "were encrypting"
+        ],
+        "objects": [
+          "sensitive data transmissions",
+          "confidential communications",
+          "critical database records",
+          "proprietary information"
+        ],
+        "distractor": "expose"
+      },
+      "audit": {
+        "correct_forms": [
+          "are auditing"
+        ],
+        "wrong_forms": [
+          "is auditing",
+          "audit",
+          "were auditing"
+        ],
+        "objects": [
+          "security vulnerabilities",
+          "access control policies",
+          "compliance frameworks",
+          "incident response procedures"
+        ],
+        "distractor": "overlook"
+      },
+      "mitigate": {
+        "correct_forms": [
+          "are mitigating"
+        ],
+        "wrong_forms": [
+          "is mitigating",
+          "mitigate",
+          "were mitigating"
+        ],
+        "objects": [
+          "emerging cyber risks",
+          "potential attack vectors",
+          "system vulnerabilities",
+          "threat exposure levels"
+        ],
+        "distractor": "exacerbate"
+      }
+    }
+  }
+}

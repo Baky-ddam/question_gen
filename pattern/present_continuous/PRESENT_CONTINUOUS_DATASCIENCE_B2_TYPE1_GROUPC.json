@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_DATASCIENCE_B2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "data_science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} to {PURPOSE}.",
+  "example": "She is training the machine learning model in the cloud environment to predict customer behavior.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing data science work. B2 level combines place and purpose for professional analytical contexts.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the data scientist"
+    ],
+    "PLACE": [
+      "in the cloud environment",
+      "on the distributed cluster",
+      "in the analytics platform",
+      "on the GPU server",
+      "in the research lab"
+    ],
+    "PURPOSE": [
+      "predict customer behavior",
+      "identify hidden patterns",
+      "optimize business decisions",
+      "detect anomalies early",
+      "generate actionable insights"
+    ],
+    "VERB": {
+      "train": {
+        "correct_forms": [
+          "is training"
+        ],
+        "wrong_forms": [
+          "are training",
+          "trains",
+          "was training"
+        ],
+        "objects": [
+          "the machine learning model",
+          "the neural network architecture",
+          "the classification algorithm",
+          "the recommendation system"
+        ],
+        "distractor": "undermine"
+      },
+      "process": {
+        "correct_forms": [
+          "is processing"
+        ],
+        "wrong_forms": [
+          "are processing",
+          "processes",
+          "was processing"
+        ],
+        "objects": [
+          "the streaming data pipeline",
+          "the unstructured text corpus",
+          "the real-time sensor feeds",
+          "the historical transaction logs"
+        ],
+        "distractor": "disregard"
+      },
+      "visualize": {
+        "correct_forms": [
+          "is visualizing"
+        ],
+        "wrong_forms": [
+          "are visualizing",
+          "visualizes",
+          "was visualizing"
+        ],
+        "objects": [
+          "the correlation matrix results",
+          "the trend analysis outputs",
+          "the cluster distribution patterns",
+          "the dimensionality reduction plots"
+        ],
+        "distractor": "overlook"
+      },
+      "validate": {
+        "correct_forms": [
+          "is validating"
+        ],
+        "wrong_forms": [
+          "are validating",
+          "validates",
+          "was validating"
+        ],
+        "objects": [
+          "the prediction accuracy metrics",
+          "the model performance benchmarks",
+          "the cross-validation results",
+          "the statistical significance tests"
+        ],
+        "distractor": "circumvent"
+      }
+    }
+  }
+}

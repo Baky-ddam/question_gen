@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CLIMATE_C1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "climate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "While {GLOBAL_CONTEXT}, {SUBJ} ____ {OBJ} to {PURPOSE}.",
+  "example": "While the international community debates climate policy, we are sequestering carbon dioxide to offset industrial emissions.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing climate actions. C1 level features global context clauses with strategic purposes.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "GLOBAL_CONTEXT": [
+      "the international community debates climate policy",
+      "developing nations industrialize rapidly",
+      "fossil fuel consumption remains high",
+      "climate negotiations stall at the summit",
+      "global emissions continue to rise"
+    ],
+    "PURPOSE": [
+      "offset industrial emissions",
+      "meet the Paris Agreement targets",
+      "achieve carbon neutrality by 2050",
+      "preserve ecosystems for future generations",
+      "ensure long-term environmental sustainability"
+    ],
+    "VERB": {
+      "sequester": {
+        "correct_forms": [
+          "are sequestering"
+        ],
+        "wrong_forms": [
+          "is sequestering",
+          "sequester",
+          "were sequestering"
+        ],
+        "objects": [
+          "carbon dioxide",
+          "atmospheric pollutants",
+          "greenhouse gases",
+          "excess carbon"
+        ],
+        "distractor": "obliterate"
+      },
+      "transition": {
+        "correct_forms": [
+          "are transitioning"
+        ],
+        "wrong_forms": [
+          "is transitioning",
+          "transition",
+          "were transitioning"
+        ],
+        "objects": [
+          "to renewable energy sources",
+          "away from fossil fuels",
+          "to sustainable practices",
+          "to low-carbon technologies"
+        ],
+        "distractor": "repudiate"
+      },
+      "implement": {
+        "correct_forms": [
+          "are implementing"
+        ],
+        "wrong_forms": [
+          "is implementing",
+          "implement",
+          "were implementing"
+        ],
+        "objects": [
+          "carbon pricing mechanisms",
+          "emission reduction strategies",
+          "renewable energy mandates",
+          "climate adaptation measures"
+        ],
+        "distractor": "nullify"
+      },
+      "accelerate": {
+        "correct_forms": [
+          "are accelerating"
+        ],
+        "wrong_forms": [
+          "is accelerating",
+          "accelerate",
+          "were accelerating"
+        ],
+        "objects": [
+          "the green energy transition",
+          "decarbonization efforts",
+          "sustainable development initiatives",
+          "climate action programs"
+        ],
+        "distractor": "abrogate"
+      }
+    }
+  }
+}

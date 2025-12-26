@@ -8,9 +8,10 @@
 
 ```
 pattern/
-├── present_simple/     (50 files)
-├── vocabulary/         (61 files)
-└── infinite_gerund/    (2 files)
+├── present_simple/       (50 files)
+├── present_continuous/   (50 files)
+├── vocabulary/           (61 files)
+└── infinite_gerund/      (2 files)
 ```
 
 ---
@@ -85,6 +86,72 @@ PRESENT_SIMPLE_TECHNOLOGY_A1_TYPE1_GROUPB
 PRESENT_SIMPLE_TRAVEL_A1_TYPE1_GROUPA
 ```
 
+### Present Continuous (50 patterns) - COMPLETE
+
+**By Level:**
+
+| Level | Domains | Patterns |
+|-------|---------|----------|
+| A1 | cooking, home, family, shopping, pets | 10 |
+| A2 | hobbies, fitness, outdoor_activities, wellness, training | 10 |
+| B1 | research, history, psychology, writing, theater | 10 |
+| B2 | journalism, engineering, marketing, software, data_science | 10 |
+| C1 | climate, conservation, cybersecurity, urban_life, logistics | 10 |
+
+**Full Pattern List:**
+```
+PRESENT_CONTINUOUS_COOKING_A1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_COOKING_A1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_FAMILY_A1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_FAMILY_A1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_HOME_A1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_HOME_A1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_PETS_A1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_PETS_A1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_SHOPPING_A1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_SHOPPING_A1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_HOBBIES_A2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_HOBBIES_A2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_FITNESS_A2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_FITNESS_A2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_OUTDOOR_A2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_OUTDOOR_A2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_WELLNESS_A2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_WELLNESS_A2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_TRAINING_A2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_TRAINING_A2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_RESEARCH_B1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_RESEARCH_B1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_HISTORY_B1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_HISTORY_B1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_PSYCHOLOGY_B1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_PSYCHOLOGY_B1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_WRITING_B1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_WRITING_B1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_THEATER_B1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_THEATER_B1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_JOURNALISM_B2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_JOURNALISM_B2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_ENGINEERING_B2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_ENGINEERING_B2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_MARKETING_B2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_MARKETING_B2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_SOFTWARE_B2_TYPE1_GROUPA
+PRESENT_CONTINUOUS_SOFTWARE_B2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_DATASCIENCE_B2_TYPE1_GROUPC
+PRESENT_CONTINUOUS_DATASCIENCE_B2_TYPE1_GROUPB
+PRESENT_CONTINUOUS_CLIMATE_C1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_CLIMATE_C1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_CONSERVATION_C1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_CONSERVATION_C1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_CYBERSECURITY_C1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_CYBERSECURITY_C1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_URBANLIFE_C1_TYPE1_GROUPA
+PRESENT_CONTINUOUS_URBANLIFE_C1_TYPE1_GROUPB
+PRESENT_CONTINUOUS_LOGISTICS_C1_TYPE1_GROUPC
+PRESENT_CONTINUOUS_LOGISTICS_C1_TYPE1_GROUPB
+```
+
 ### Gerund/Infinitive (2 patterns)
 
 ```
@@ -102,40 +169,65 @@ B1 level verb-noun collocations across 10 domains.
 
 ### Domains Already Used (by grammar)
 
-| Domain | present_simple | past_simple | other |
-|--------|---------------|-------------|-------|
-| architecture | B2 | - | - |
-| art | B1 | - | - |
-| automotive | C1 | - | - |
-| business | A2 | - | - |
-| design | C1 | - | - |
-| economics | B2 | - | - |
-| education | A2 | - | - |
-| entertainment | A1 | - | - |
-| environment | B1 | - | - |
-| fashion | C1 | - | - |
-| finance | B1 | - | - |
-| food | A1 | - | - |
-| healthcare | A2 | - | - |
-| law | B2 | - | - |
-| leisure | A1 | - | - |
-| literature | B2 | - | - |
-| music | B1 | - | - |
-| nature | A2 | - | - |
-| photography | C1 | - | - |
-| politics | B2 | - | - |
-| realestate | C1 | - | - |
-| science | B1 | - | - |
-| socialmedia | A2 | - | - |
-| sports | A1 | - | - |
-| technology | A1 | - | - |
-| travel | A1 | - | - |
+| Domain | present_simple | past_simple | present_continuous | other |
+|--------|---------------|-------------|-------------------|-------|
+| architecture | B2 | - | - | - |
+| art | B1 | - | - | - |
+| automotive | C1 | - | - | - |
+| business | A2 | - | - | - |
+| climate | - | - | C1 | - |
+| conservation | - | - | C1 | - |
+| cooking | - | - | A1 | - |
+| cybersecurity | - | - | C1 | - |
+| data_science | - | - | B2 | - |
+| design | C1 | - | - | - |
+| economics | B2 | - | - | - |
+| education | A2 | - | - | - |
+| engineering | - | - | B2 | - |
+| entertainment | A1 | - | - | - |
+| environment | B1 | - | - | - |
+| family | - | - | A1 | - |
+| fashion | C1 | - | - | - |
+| finance | B1 | - | - | - |
+| fitness | - | - | A2 | - |
+| food | A1 | - | - | - |
+| healthcare | A2 | - | - | - |
+| history | - | - | B1 | - |
+| hobbies | - | - | A2 | - |
+| home | - | - | A1 | - |
+| journalism | - | - | B2 | - |
+| law | B2 | - | - | - |
+| leisure | A1 | - | - | - |
+| literature | B2 | - | - | - |
+| logistics | - | - | C1 | - |
+| marketing | - | - | B2 | - |
+| music | B1 | - | - | - |
+| nature | A2 | - | - | - |
+| outdoor_activities | - | - | A2 | - |
+| pets | - | - | A1 | - |
+| photography | C1 | - | - | - |
+| politics | B2 | - | - | - |
+| psychology | - | - | B1 | - |
+| realestate | C1 | - | - | - |
+| research | - | - | B1 | - |
+| science | B1 | - | - | - |
+| shopping | - | - | A1 | - |
+| socialmedia | A2 | - | - | - |
+| software | - | - | B2 | - |
+| sports | A1 | - | - | - |
+| technology | A1 | - | - | - |
+| theater | - | - | B1 | - |
+| training | - | - | A2 | - |
+| travel | A1 | - | - | - |
+| urban_life | - | - | C1 | - |
+| wellness | - | - | A2 | - |
+| writing | - | - | B1 | - |
 
 ### Available Domains (not yet used)
 
 From `grammar_registry.json` categories:
 
-**Daily Life:** cooking, home, family, shopping, clothing, pets, hobbies
+**Daily Life:** clothing, hobbies
 **Professional:** journalism, engineering, marketing, human_resources
 **Academic:** research, history, philosophy, psychology, sociology, mathematics, physics
 **Creative:** writing, theater, dance, crafts

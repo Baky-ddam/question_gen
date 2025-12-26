@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_MARKETING_B2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "marketing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Given that {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "Given that consumer preferences are shifting, we are repositioning the brand identity.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing marketing activities. B2 level uses 'Given that' to introduce conditional business contexts.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "CONDITION": [
+      "consumer preferences are shifting",
+      "market competition is intensifying",
+      "digital engagement is growing",
+      "budget allocations have changed",
+      "industry trends are evolving"
+    ],
+    "VERB": {
+      "reposition": {
+        "correct_forms": [
+          "are repositioning"
+        ],
+        "wrong_forms": [
+          "is repositioning",
+          "reposition",
+          "were repositioning"
+        ],
+        "objects": [
+          "the brand identity",
+          "the product portfolio",
+          "the market positioning",
+          "the corporate image"
+        ],
+        "distractor": "undermine"
+      },
+      "launch": {
+        "correct_forms": [
+          "are launching"
+        ],
+        "wrong_forms": [
+          "is launching",
+          "launch",
+          "were launching"
+        ],
+        "objects": [
+          "the multi-channel campaign",
+          "the influencer partnership program",
+          "the customer loyalty initiative",
+          "the digital transformation strategy"
+        ],
+        "distractor": "suppress"
+      },
+      "target": {
+        "correct_forms": [
+          "are targeting"
+        ],
+        "wrong_forms": [
+          "is targeting",
+          "target",
+          "were targeting"
+        ],
+        "objects": [
+          "the millennial demographic",
+          "the emerging market segments",
+          "the high-value customer base",
+          "the niche audience groups"
+        ],
+        "distractor": "disregard"
+      },
+      "analyze": {
+        "correct_forms": [
+          "are analyzing"
+        ],
+        "wrong_forms": [
+          "is analyzing",
+          "analyze",
+          "were analyzing"
+        ],
+        "objects": [
+          "the campaign performance metrics",
+          "the consumer behavior patterns",
+          "the competitor strategy data",
+          "the market research findings"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

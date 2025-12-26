@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CONSERVATION_C1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "conservation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a development that {IMPLICATION}.",
+  "example": "She is protecting endangered habitats in the Amazon basin, a development that offers hope for countless species.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing conservation work. C1 level features place references with broader implications.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the conservationist"
+    ],
+    "PLACE": [
+      "in the Amazon basin",
+      "across protected reserves",
+      "within marine sanctuaries",
+      "throughout national parks",
+      "in biodiversity hotspots"
+    ],
+    "IMPLICATION": [
+      "offers hope for countless species",
+      "represents a turning point in conservation policy",
+      "demonstrates the effectiveness of protected areas",
+      "signals renewed commitment to environmental stewardship",
+      "provides a model for global replication"
+    ],
+    "VERB": {
+      "protect": {
+        "correct_forms": [
+          "is protecting"
+        ],
+        "wrong_forms": [
+          "are protecting",
+          "protects",
+          "was protecting"
+        ],
+        "objects": [
+          "endangered habitats",
+          "migratory bird routes",
+          "rare plant species",
+          "vulnerable ecosystems"
+        ],
+        "distractor": "renounce"
+      },
+      "safeguard": {
+        "correct_forms": [
+          "is safeguarding"
+        ],
+        "wrong_forms": [
+          "are safeguarding",
+          "safeguards",
+          "was safeguarding"
+        ],
+        "objects": [
+          "wildlife populations",
+          "genetic biodiversity",
+          "critical breeding grounds",
+          "ancient forest stands"
+        ],
+        "distractor": "repudiate"
+      },
+      "monitor": {
+        "correct_forms": [
+          "is monitoring"
+        ],
+        "wrong_forms": [
+          "are monitoring",
+          "monitors",
+          "was monitoring"
+        ],
+        "objects": [
+          "species recovery rates",
+          "ecosystem health indicators",
+          "poaching activities",
+          "habitat fragmentation patterns"
+        ],
+        "distractor": "disregard"
+      },
+      "expand": {
+        "correct_forms": [
+          "is expanding"
+        ],
+        "wrong_forms": [
+          "are expanding",
+          "expands",
+          "was expanding"
+        ],
+        "objects": [
+          "conservation corridors",
+          "wildlife sanctuaries",
+          "protected marine zones",
+          "habitat restoration programs"
+        ],
+        "distractor": "curtail"
+      }
+    }
+  }
+}

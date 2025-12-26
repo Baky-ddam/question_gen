@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_SOFTWARE_B2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "software",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} in order to {PURPOSE}, which {IMPACT}.",
+  "example": "We are integrating the third-party services in order to enhance functionality, which improves user experience.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing team activities. B2 level combines purpose and impact clauses for complex software contexts.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "enhance functionality",
+      "improve code maintainability",
+      "reduce technical debt",
+      "increase system reliability",
+      "accelerate deployment cycles"
+    ],
+    "IMPACT": [
+      "improves user experience",
+      "reduces operational overhead",
+      "enables faster iterations",
+      "strengthens security posture",
+      "supports business growth"
+    ],
+    "VERB": {
+      "integrate": {
+        "correct_forms": [
+          "are integrating"
+        ],
+        "wrong_forms": [
+          "is integrating",
+          "integrate",
+          "were integrating"
+        ],
+        "objects": [
+          "the third-party services",
+          "the payment gateway systems",
+          "the continuous integration pipeline",
+          "the cloud infrastructure components"
+        ],
+        "distractor": "impede"
+      },
+      "scale": {
+        "correct_forms": [
+          "are scaling"
+        ],
+        "wrong_forms": [
+          "is scaling",
+          "scale",
+          "were scaling"
+        ],
+        "objects": [
+          "the backend architecture",
+          "the database cluster",
+          "the distributed systems",
+          "the microservices platform"
+        ],
+        "distractor": "hinder"
+      },
+      "migrate": {
+        "correct_forms": [
+          "are migrating"
+        ],
+        "wrong_forms": [
+          "is migrating",
+          "migrate",
+          "were migrating"
+        ],
+        "objects": [
+          "the legacy applications",
+          "the on-premise infrastructure",
+          "the data storage systems",
+          "the monolithic codebase"
+        ],
+        "distractor": "obstruct"
+      },
+      "automate": {
+        "correct_forms": [
+          "are automating"
+        ],
+        "wrong_forms": [
+          "is automating",
+          "automate",
+          "were automating"
+        ],
+        "objects": [
+          "the testing workflows",
+          "the deployment processes",
+          "the infrastructure provisioning",
+          "the quality assurance checks"
+        ],
+        "distractor": "circumvent"
+      }
+    }
+  }
+}

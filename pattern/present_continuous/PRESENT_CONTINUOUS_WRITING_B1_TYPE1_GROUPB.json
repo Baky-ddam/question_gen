@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_WRITING_B1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "writing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} because {REASON}.",
+  "example": "They are reviewing the manuscript at the publishing house because the deadline is next week.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing actions. B1 level combines place and reason for complex sentences.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PLACE": [
+      "at the publishing house",
+      "in the writing workshop",
+      "at the editorial office",
+      "in the conference room"
+    ],
+    "REASON": [
+      "the deadline is next week",
+      "the editor requested changes",
+      "the author needs feedback",
+      "the publication date is approaching"
+    ],
+    "VERB": {
+      "review": {
+        "correct_forms": [
+          "are reviewing"
+        ],
+        "wrong_forms": [
+          "is reviewing",
+          "review",
+          "were reviewing"
+        ],
+        "objects": [
+          "the manuscript",
+          "the story outline",
+          "the submitted articles",
+          "the publication drafts"
+        ],
+        "distractor": "dismiss"
+      },
+      "proofread": {
+        "correct_forms": [
+          "are proofreading"
+        ],
+        "wrong_forms": [
+          "is proofreading",
+          "proofread",
+          "were proofreading"
+        ],
+        "objects": [
+          "the final copy",
+          "the journal submissions",
+          "the chapter drafts",
+          "the edited text"
+        ],
+        "distractor": "overlook"
+      },
+      "format": {
+        "correct_forms": [
+          "are formatting"
+        ],
+        "wrong_forms": [
+          "is formatting",
+          "format",
+          "were formatting"
+        ],
+        "objects": [
+          "the document layout",
+          "the bibliography section",
+          "the reference list",
+          "the appendix materials"
+        ],
+        "distractor": "neglect"
+      },
+      "submit": {
+        "correct_forms": [
+          "are submitting"
+        ],
+        "wrong_forms": [
+          "is submitting",
+          "submit",
+          "were submitting"
+        ],
+        "objects": [
+          "the grant applications",
+          "the revised chapters",
+          "the contest entries",
+          "the peer review comments"
+        ],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

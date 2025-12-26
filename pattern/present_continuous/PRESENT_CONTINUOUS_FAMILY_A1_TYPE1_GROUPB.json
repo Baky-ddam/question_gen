@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_FAMILY_A1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} right now.",
+  "example": "We are visiting our grandparents right now.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for current actions.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "are visiting"
+        ],
+        "wrong_forms": [
+          "is visiting",
+          "visit",
+          "were visiting"
+        ],
+        "objects": [
+          "our grandparents",
+          "the family",
+          "our cousins"
+        ],
+        "distractor": "avoid"
+      },
+      "help": {
+        "correct_forms": [
+          "are helping"
+        ],
+        "wrong_forms": [
+          "is helping",
+          "help",
+          "were helping"
+        ],
+        "objects": [
+          "mom",
+          "dad",
+          "the children"
+        ],
+        "distractor": "ignore"
+      },
+      "call": {
+        "correct_forms": [
+          "are calling"
+        ],
+        "wrong_forms": [
+          "is calling",
+          "call",
+          "were calling"
+        ],
+        "objects": [
+          "grandma",
+          "uncle",
+          "our relatives"
+        ],
+        "distractor": "avoid"
+      },
+      "watch": {
+        "correct_forms": [
+          "are watching"
+        ],
+        "wrong_forms": [
+          "is watching",
+          "watch",
+          "were watching"
+        ],
+        "objects": [
+          "the baby",
+          "the kids",
+          "our nephew"
+        ],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

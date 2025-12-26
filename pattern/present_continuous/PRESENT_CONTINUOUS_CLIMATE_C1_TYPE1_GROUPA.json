@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CLIMATE_C1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "climate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "As {TREND}, {SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "As global temperatures rise, I am mitigating carbon emissions, which demands urgent policy reform.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing climate actions. C1 level features complex multi-clause structures with trends and consequences.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "TREND": [
+      "global temperatures rise",
+      "sea levels continue to increase",
+      "extreme weather events intensify",
+      "ice caps melt at unprecedented rates",
+      "atmospheric CO2 concentrations escalate"
+    ],
+    "CONSEQUENCE": [
+      "demands urgent policy reform",
+      "threatens coastal communities worldwide",
+      "necessitates immediate international cooperation",
+      "accelerates the transition to renewables",
+      "compels governments to act decisively"
+    ],
+    "VERB": {
+      "mitigate": {
+        "correct_forms": [
+          "am mitigating"
+        ],
+        "wrong_forms": [
+          "is mitigating",
+          "mitigate",
+          "was mitigating"
+        ],
+        "objects": [
+          "carbon emissions",
+          "greenhouse gas outputs",
+          "industrial pollution",
+          "environmental degradation"
+        ],
+        "distractor": "exacerbate"
+      },
+      "decarbonize": {
+        "correct_forms": [
+          "am decarbonizing"
+        ],
+        "wrong_forms": [
+          "is decarbonizing",
+          "decarbonize",
+          "was decarbonizing"
+        ],
+        "objects": [
+          "the energy sector",
+          "the transportation network",
+          "industrial operations",
+          "the national economy"
+        ],
+        "distractor": "forsake"
+      },
+      "monitor": {
+        "correct_forms": [
+          "am monitoring"
+        ],
+        "wrong_forms": [
+          "is monitoring",
+          "monitor",
+          "was monitoring"
+        ],
+        "objects": [
+          "atmospheric changes",
+          "temperature fluctuations",
+          "emission levels",
+          "biodiversity indicators"
+        ],
+        "distractor": "disregard"
+      },
+      "adapt": {
+        "correct_forms": [
+          "am adapting"
+        ],
+        "wrong_forms": [
+          "is adapting",
+          "adapt",
+          "was adapting"
+        ],
+        "objects": [
+          "infrastructure systems",
+          "agricultural practices",
+          "urban planning strategies",
+          "water management protocols"
+        ],
+        "distractor": "renounce"
+      }
+    }
+  }
+}

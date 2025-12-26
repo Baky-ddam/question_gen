@@ -1,0 +1,98 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_RESEARCH_B1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Currently, {SUBJ} ____ {OBJ} as part of {PROJECT}.",
+  "example": "Currently, they are collecting field samples as part of the environmental study.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing actions. B1 level uses 'as part of' to show the project context.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PROJECT": [
+      "the environmental study",
+      "the doctoral thesis",
+      "the collaborative project",
+      "the research grant"
+    ],
+    "VERB": {
+      "collect": {
+        "correct_forms": [
+          "are collecting"
+        ],
+        "wrong_forms": [
+          "is collecting",
+          "collect",
+          "were collecting"
+        ],
+        "objects": [
+          "field samples",
+          "participant responses",
+          "empirical data",
+          "primary sources"
+        ],
+        "distractor": "discard"
+      },
+      "review": {
+        "correct_forms": [
+          "are reviewing"
+        ],
+        "wrong_forms": [
+          "is reviewing",
+          "review",
+          "were reviewing"
+        ],
+        "objects": [
+          "the literature",
+          "peer-reviewed articles",
+          "previous studies",
+          "the bibliography"
+        ],
+        "distractor": "neglect"
+      },
+      "test": {
+        "correct_forms": [
+          "are testing"
+        ],
+        "wrong_forms": [
+          "is testing",
+          "test",
+          "were testing"
+        ],
+        "objects": [
+          "the hypothesis",
+          "the new methodology",
+          "the prototype",
+          "the theoretical model"
+        ],
+        "distractor": "abandon"
+      },
+      "compile": {
+        "correct_forms": [
+          "are compiling"
+        ],
+        "wrong_forms": [
+          "is compiling",
+          "compile",
+          "were compiling"
+        ],
+        "objects": [
+          "the research data",
+          "the survey results",
+          "the reference list",
+          "the final report"
+        ],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

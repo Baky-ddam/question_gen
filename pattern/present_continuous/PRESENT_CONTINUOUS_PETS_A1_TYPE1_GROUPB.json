@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_PETS_A1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "pets",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} right now.",
+  "example": "We are feeding the pets right now.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for things happening at this moment.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "feed": {
+        "correct_forms": [
+          "are feeding"
+        ],
+        "wrong_forms": [
+          "is feeding",
+          "feed",
+          "were feeding"
+        ],
+        "objects": [
+          "the pets",
+          "the fish",
+          "the rabbit"
+        ],
+        "distractor": "stop"
+      },
+      "walk": {
+        "correct_forms": [
+          "are walking"
+        ],
+        "wrong_forms": [
+          "is walking",
+          "walk",
+          "were walking"
+        ],
+        "objects": [
+          "the dog",
+          "the dogs",
+          "the puppy"
+        ],
+        "distractor": "avoid"
+      },
+      "brush": {
+        "correct_forms": [
+          "are brushing"
+        ],
+        "wrong_forms": [
+          "is brushing",
+          "brush",
+          "were brushing"
+        ],
+        "objects": [
+          "the cat",
+          "the dog",
+          "the pet"
+        ],
+        "distractor": "stop"
+      },
+      "train": {
+        "correct_forms": [
+          "are training"
+        ],
+        "wrong_forms": [
+          "is training",
+          "train",
+          "were training"
+        ],
+        "objects": [
+          "the puppy",
+          "the dog",
+          "the pet"
+        ],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

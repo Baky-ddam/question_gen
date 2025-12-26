@@ -1,0 +1,87 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_FAMILY_A1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Currently, {SUBJ} ____ {OBJ}.",
+  "example": "Currently, she is reading to the children.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing actions.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she"
+    ],
+    "VERB": {
+      "read": {
+        "correct_forms": [
+          "is reading"
+        ],
+        "wrong_forms": [
+          "are reading",
+          "reads",
+          "was reading"
+        ],
+        "objects": [
+          "to the children",
+          "a story",
+          "a book to us"
+        ],
+        "distractor": "stop"
+      },
+      "play": {
+        "correct_forms": [
+          "is playing"
+        ],
+        "wrong_forms": [
+          "are playing",
+          "plays",
+          "was playing"
+        ],
+        "objects": [
+          "with the baby",
+          "games with us",
+          "with the kids"
+        ],
+        "distractor": "avoid"
+      },
+      "teach": {
+        "correct_forms": [
+          "is teaching"
+        ],
+        "wrong_forms": [
+          "are teaching",
+          "teaches",
+          "was teaching"
+        ],
+        "objects": [
+          "the children",
+          "my brother",
+          "my sister"
+        ],
+        "distractor": "ignore"
+      },
+      "feed": {
+        "correct_forms": [
+          "is feeding"
+        ],
+        "wrong_forms": [
+          "are feeding",
+          "feeds",
+          "was feeding"
+        ],
+        "objects": [
+          "the baby",
+          "the children",
+          "grandpa"
+        ],
+        "distractor": "stop"
+      }
+    }
+  }
+}

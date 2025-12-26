@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_JOURNALISM_B2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Currently, {SUBJ} ____ {OBJ} {PLACE} to {PURPOSE}.",
+  "example": "Currently, I am investigating the corruption scandal at the newsroom to expose the truth.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing professional actions. B2 level adds place and purpose clauses for complex journalistic contexts.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "PLACE": [
+      "at the newsroom",
+      "in the field",
+      "at the press conference",
+      "in the editorial office",
+      "at the media headquarters"
+    ],
+    "PURPOSE": [
+      "expose the truth",
+      "meet the publication deadline",
+      "provide accurate coverage",
+      "uncover new evidence",
+      "inform the public"
+    ],
+    "VERB": {
+      "investigate": {
+        "correct_forms": [
+          "am investigating"
+        ],
+        "wrong_forms": [
+          "is investigating",
+          "investigate",
+          "was investigating"
+        ],
+        "objects": [
+          "the corruption scandal",
+          "the political controversy",
+          "the corporate fraud case",
+          "the government leak"
+        ],
+        "distractor": "disregard"
+      },
+      "report": {
+        "correct_forms": [
+          "am reporting"
+        ],
+        "wrong_forms": [
+          "is reporting",
+          "report",
+          "was reporting"
+        ],
+        "objects": [
+          "the breaking news story",
+          "the international crisis",
+          "the election developments",
+          "the economic downturn"
+        ],
+        "distractor": "suppress"
+      },
+      "interview": {
+        "correct_forms": [
+          "am interviewing"
+        ],
+        "wrong_forms": [
+          "is interviewing",
+          "interview",
+          "was interviewing"
+        ],
+        "objects": [
+          "the key witnesses",
+          "the government officials",
+          "the industry experts",
+          "the anonymous sources"
+        ],
+        "distractor": "overlook"
+      },
+      "broadcast": {
+        "correct_forms": [
+          "am broadcasting"
+        ],
+        "wrong_forms": [
+          "is broadcasting",
+          "broadcast",
+          "was broadcasting"
+        ],
+        "objects": [
+          "the live coverage",
+          "the special report",
+          "the investigative documentary",
+          "the exclusive interview"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

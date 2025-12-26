@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_MARKETING_B2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "marketing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} as {TREND} continues.",
+  "example": "She is developing the social media strategy at the agency headquarters as digital adoption continues.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing marketing work. B2 level uses 'as... continues' to show trends influencing current activities.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the marketer"
+    ],
+    "PLACE": [
+      "at the agency headquarters",
+      "in the marketing department",
+      "at the regional office",
+      "in the creative studio",
+      "at the client site"
+    ],
+    "TREND": [
+      "digital adoption",
+      "e-commerce growth",
+      "social media influence",
+      "brand awareness expansion",
+      "customer engagement"
+    ],
+    "VERB": {
+      "develop": {
+        "correct_forms": [
+          "is developing"
+        ],
+        "wrong_forms": [
+          "are developing",
+          "develops",
+          "was developing"
+        ],
+        "objects": [
+          "the social media strategy",
+          "the content marketing plan",
+          "the brand partnership framework",
+          "the promotional calendar"
+        ],
+        "distractor": "impede"
+      },
+      "optimize": {
+        "correct_forms": [
+          "is optimizing"
+        ],
+        "wrong_forms": [
+          "are optimizing",
+          "optimizes",
+          "was optimizing"
+        ],
+        "objects": [
+          "the advertising spend allocation",
+          "the conversion funnel process",
+          "the customer acquisition cost",
+          "the return on investment metrics"
+        ],
+        "distractor": "hinder"
+      },
+      "coordinate": {
+        "correct_forms": [
+          "is coordinating"
+        ],
+        "wrong_forms": [
+          "are coordinating",
+          "coordinates",
+          "was coordinating"
+        ],
+        "objects": [
+          "the cross-platform launch",
+          "the influencer collaboration",
+          "the product placement deals",
+          "the sponsorship arrangements"
+        ],
+        "distractor": "obstruct"
+      },
+      "evaluate": {
+        "correct_forms": [
+          "is evaluating"
+        ],
+        "wrong_forms": [
+          "are evaluating",
+          "evaluates",
+          "was evaluating"
+        ],
+        "objects": [
+          "the brand perception survey",
+          "the customer feedback data",
+          "the market positioning results",
+          "the campaign effectiveness report"
+        ],
+        "distractor": "disregard"
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_FITNESS_A2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "fitness",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "At the moment, {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "At the moment, she is running on the treadmill at the gym.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for actions happening now. 'At the moment' signals the present time.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the athlete"
+    ],
+    "PLACE": [
+      "at the gym",
+      "in the fitness center",
+      "at the sports club",
+      "outdoors"
+    ],
+    "VERB": {
+      "run": {
+        "correct_forms": [
+          "is running"
+        ],
+        "wrong_forms": [
+          "are running",
+          "runs",
+          "was running"
+        ],
+        "objects": [
+          "on the treadmill",
+          "on the track",
+          "laps"
+        ],
+        "distractor": "quit"
+      },
+      "use": {
+        "correct_forms": [
+          "is using"
+        ],
+        "wrong_forms": [
+          "are using",
+          "uses",
+          "was using"
+        ],
+        "objects": [
+          "the exercise bike",
+          "the rowing machine",
+          "the elliptical trainer"
+        ],
+        "distractor": "waste"
+      },
+      "complete": {
+        "correct_forms": [
+          "is completing"
+        ],
+        "wrong_forms": [
+          "are completing",
+          "completes",
+          "was completing"
+        ],
+        "objects": [
+          "a circuit",
+          "a set",
+          "a training session"
+        ],
+        "distractor": "abandon"
+      },
+      "stretch": {
+        "correct_forms": [
+          "is stretching"
+        ],
+        "wrong_forms": [
+          "are stretching",
+          "stretches",
+          "was stretching"
+        ],
+        "objects": [
+          "the muscles",
+          "the legs",
+          "before the workout"
+        ],
+        "distractor": "skip"
+      }
+    }
+  }
+}

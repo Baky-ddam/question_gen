@@ -1,0 +1,94 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_OUTDOOR_A2_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "outdoor_activities",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE} right now.",
+  "example": "We are hiking the mountain trail in the national park right now.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for actions in progress. 'Right now' emphasizes the current moment.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PLACE": [
+      "in the national park",
+      "by the lake",
+      "in the forest",
+      "at the campsite"
+    ],
+    "VERB": {
+      "hike": {
+        "correct_forms": [
+          "are hiking"
+        ],
+        "wrong_forms": [
+          "is hiking",
+          "hike",
+          "were hiking"
+        ],
+        "objects": [
+          "the mountain trail",
+          "the forest path",
+          "the scenic route"
+        ],
+        "distractor": "abandon"
+      },
+      "explore": {
+        "correct_forms": [
+          "are exploring"
+        ],
+        "wrong_forms": [
+          "is exploring",
+          "explore",
+          "were exploring"
+        ],
+        "objects": [
+          "the caves",
+          "the wilderness",
+          "new trails"
+        ],
+        "distractor": "avoid"
+      },
+      "set up": {
+        "correct_forms": [
+          "are setting up"
+        ],
+        "wrong_forms": [
+          "is setting up",
+          "set up",
+          "were setting up"
+        ],
+        "objects": [
+          "the tent",
+          "the campfire",
+          "the picnic area"
+        ],
+        "distractor": "destroy"
+      },
+      "photograph": {
+        "correct_forms": [
+          "are photographing"
+        ],
+        "wrong_forms": [
+          "is photographing",
+          "photograph",
+          "were photographing"
+        ],
+        "objects": [
+          "wildlife",
+          "the landscape",
+          "the sunset"
+        ],
+        "distractor": "skip"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_URBANLIFE_C1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "urban_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "As {TREND} accelerates, {SUBJ} ____ {OBJ} to {STRATEGIC_GOAL}.",
+  "example": "As urban population growth accelerates, I am revitalizing neglected neighborhoods to create more livable communities.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing urban development work. C1 level features accelerating trends with strategic goals.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "TREND": [
+      "urban population growth",
+      "the shift toward sustainable cities",
+      "demand for affordable housing",
+      "the movement toward mixed-use development",
+      "pressure on urban infrastructure"
+    ],
+    "STRATEGIC_GOAL": [
+      "create more livable communities",
+      "address the housing affordability crisis",
+      "enhance urban mobility and accessibility",
+      "reduce environmental footprint",
+      "foster social cohesion across demographics"
+    ],
+    "VERB": {
+      "revitalize": {
+        "correct_forms": [
+          "am revitalizing"
+        ],
+        "wrong_forms": [
+          "is revitalizing",
+          "revitalize",
+          "was revitalizing"
+        ],
+        "objects": [
+          "neglected neighborhoods",
+          "underutilized urban spaces",
+          "deteriorating commercial districts",
+          "abandoned industrial zones"
+        ],
+        "distractor": "devastate"
+      },
+      "transform": {
+        "correct_forms": [
+          "am transforming"
+        ],
+        "wrong_forms": [
+          "is transforming",
+          "transform",
+          "was transforming"
+        ],
+        "objects": [
+          "public transportation networks",
+          "derelict urban landscapes",
+          "outdated zoning regulations",
+          "aging infrastructure systems"
+        ],
+        "distractor": "forsake"
+      },
+      "densify": {
+        "correct_forms": [
+          "am densifying"
+        ],
+        "wrong_forms": [
+          "is densifying",
+          "densify",
+          "was densifying"
+        ],
+        "objects": [
+          "transit-oriented corridors",
+          "underdeveloped urban cores",
+          "low-density suburban areas",
+          "strategic growth zones"
+        ],
+        "distractor": "depopulate"
+      },
+      "pedestrianize": {
+        "correct_forms": [
+          "am pedestrianizing"
+        ],
+        "wrong_forms": [
+          "is pedestrianizing",
+          "pedestrianize",
+          "was pedestrianizing"
+        ],
+        "objects": [
+          "congested city centers",
+          "historic downtown areas",
+          "commercial shopping districts",
+          "high-traffic urban corridors"
+        ],
+        "distractor": "motorize"
+      }
+    }
+  }
+}

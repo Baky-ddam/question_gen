@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_LOGISTICS_C1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "logistics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Given that {CONDITION}, {SUBJ} ____ {OBJ} to {OPERATIONAL_GOAL}.",
+  "example": "Given that supply chain disruptions persist, she is optimizing distribution networks to ensure timely delivery.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing logistics operations. C1 level features conditional contexts with operational goals.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the logistics manager"
+    ],
+    "CONDITION": [
+      "supply chain disruptions persist",
+      "global shipping costs continue to rise",
+      "demand volatility remains high",
+      "labor shortages impact operations",
+      "regulatory requirements become more stringent"
+    ],
+    "OPERATIONAL_GOAL": [
+      "ensure timely delivery",
+      "minimize inventory holding costs",
+      "maintain operational efficiency",
+      "reduce environmental impact",
+      "enhance supply chain resilience"
+    ],
+    "VERB": {
+      "optimize": {
+        "correct_forms": [
+          "is optimizing"
+        ],
+        "wrong_forms": [
+          "are optimizing",
+          "optimizes",
+          "was optimizing"
+        ],
+        "objects": [
+          "distribution networks",
+          "warehouse operations",
+          "routing algorithms",
+          "inventory management systems"
+        ],
+        "distractor": "impair"
+      },
+      "streamline": {
+        "correct_forms": [
+          "is streamlining"
+        ],
+        "wrong_forms": [
+          "are streamlining",
+          "streamlines",
+          "was streamlining"
+        ],
+        "objects": [
+          "procurement processes",
+          "fulfillment workflows",
+          "customs clearance procedures",
+          "order processing operations"
+        ],
+        "distractor": "complicate"
+      },
+      "consolidate": {
+        "correct_forms": [
+          "is consolidating"
+        ],
+        "wrong_forms": [
+          "are consolidating",
+          "consolidates",
+          "was consolidating"
+        ],
+        "objects": [
+          "shipment loads",
+          "supplier networks",
+          "distribution centers",
+          "freight operations"
+        ],
+        "distractor": "disperse"
+      },
+      "automate": {
+        "correct_forms": [
+          "is automating"
+        ],
+        "wrong_forms": [
+          "are automating",
+          "automates",
+          "was automating"
+        ],
+        "objects": [
+          "material handling processes",
+          "inventory tracking systems",
+          "order fulfillment workflows",
+          "supply chain analytics"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

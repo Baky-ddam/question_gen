@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CYBERSECURITY_C1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "cybersecurity",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} amid {CHALLENGE}, which {IMPACT}.",
+  "example": "She is monitoring network anomalies amid the surge in sophisticated attacks, which necessitates constant vigilance.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing cybersecurity operations. C1 level features challenging contexts with impact statements.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the security analyst"
+    ],
+    "CHALLENGE": [
+      "the surge in sophisticated attacks",
+      "an unprecedented wave of phishing attempts",
+      "escalating ransomware threats",
+      "growing concerns over data privacy",
+      "the rapidly evolving threat landscape"
+    ],
+    "IMPACT": [
+      "necessitates constant vigilance",
+      "underscores the importance of proactive defense",
+      "demands enhanced security protocols",
+      "highlights critical infrastructure vulnerabilities",
+      "requires substantial resource allocation"
+    ],
+    "VERB": {
+      "monitor": {
+        "correct_forms": [
+          "is monitoring"
+        ],
+        "wrong_forms": [
+          "are monitoring",
+          "monitors",
+          "was monitoring"
+        ],
+        "objects": [
+          "network anomalies",
+          "suspicious traffic patterns",
+          "intrusion detection alerts",
+          "system access logs"
+        ],
+        "distractor": "ignore"
+      },
+      "penetrate": {
+        "correct_forms": [
+          "is penetrating"
+        ],
+        "wrong_forms": [
+          "are penetrating",
+          "penetrates",
+          "was penetrating"
+        ],
+        "objects": [
+          "security perimeters",
+          "defense mechanisms",
+          "authentication barriers",
+          "encrypted networks"
+        ],
+        "distractor": "fortify"
+      },
+      "analyze": {
+        "correct_forms": [
+          "is analyzing"
+        ],
+        "wrong_forms": [
+          "are analyzing",
+          "analyzes",
+          "was analyzing"
+        ],
+        "objects": [
+          "malware signatures",
+          "threat intelligence data",
+          "attack pattern indicators",
+          "vulnerability assessments"
+        ],
+        "distractor": "disregard"
+      },
+      "deploy": {
+        "correct_forms": [
+          "is deploying"
+        ],
+        "wrong_forms": [
+          "are deploying",
+          "deploys",
+          "was deploying"
+        ],
+        "objects": [
+          "advanced threat detection systems",
+          "multi-factor authentication protocols",
+          "AI-powered security solutions",
+          "zero-trust architecture frameworks"
+        ],
+        "distractor": "retract"
+      }
+    }
+  }
+}

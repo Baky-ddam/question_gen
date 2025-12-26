@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_PETS_A1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "pets",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Look! {SUBJ} ____ {OBJ}.",
+  "example": "Look! The dog is chasing the ball.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for actions happening right now.",
+  "chunks": {
+    "SUBJ": [
+      "The dog",
+      "The cat",
+      "The puppy"
+    ],
+    "VERB": {
+      "chase": {
+        "correct_forms": [
+          "is chasing"
+        ],
+        "wrong_forms": [
+          "are chasing",
+          "chases",
+          "was chasing"
+        ],
+        "objects": [
+          "the ball",
+          "its tail",
+          "a bird"
+        ],
+        "distractor": "stop"
+      },
+      "eat": {
+        "correct_forms": [
+          "is eating"
+        ],
+        "wrong_forms": [
+          "are eating",
+          "eats",
+          "was eating"
+        ],
+        "objects": [
+          "its food",
+          "a treat",
+          "the kibble"
+        ],
+        "distractor": "avoid"
+      },
+      "sleep": {
+        "correct_forms": [
+          "is sleeping"
+        ],
+        "wrong_forms": [
+          "are sleeping",
+          "sleeps",
+          "was sleeping"
+        ],
+        "objects": [
+          "on the sofa",
+          "in its bed",
+          "on the floor"
+        ],
+        "distractor": "avoid"
+      },
+      "play": {
+        "correct_forms": [
+          "is playing"
+        ],
+        "wrong_forms": [
+          "are playing",
+          "plays",
+          "was playing"
+        ],
+        "objects": [
+          "with a toy",
+          "in the yard",
+          "with us"
+        ],
+        "distractor": "stop"
+      }
+    }
+  }
+}

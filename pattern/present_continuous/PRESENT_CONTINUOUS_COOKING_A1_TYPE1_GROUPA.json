@@ -1,0 +1,86 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_COOKING_A1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "cooking",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} right now.",
+  "example": "I am cooking dinner right now.",
+  "explanation": "Use 'am' + verb-ing with 'I' for actions happening at this moment.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "VERB": {
+      "cook": {
+        "correct_forms": [
+          "am cooking"
+        ],
+        "wrong_forms": [
+          "is cooking",
+          "cook",
+          "was cooking"
+        ],
+        "objects": [
+          "dinner",
+          "breakfast",
+          "lunch"
+        ],
+        "distractor": "burn"
+      },
+      "prepare": {
+        "correct_forms": [
+          "am preparing"
+        ],
+        "wrong_forms": [
+          "is preparing",
+          "prepare",
+          "was preparing"
+        ],
+        "objects": [
+          "the meal",
+          "the food",
+          "the soup"
+        ],
+        "distractor": "waste"
+      },
+      "make": {
+        "correct_forms": [
+          "am making"
+        ],
+        "wrong_forms": [
+          "is making",
+          "make",
+          "was making"
+        ],
+        "objects": [
+          "a salad",
+          "a sandwich",
+          "pasta"
+        ],
+        "distractor": "break"
+      },
+      "stir": {
+        "correct_forms": [
+          "am stirring"
+        ],
+        "wrong_forms": [
+          "is stirring",
+          "stir",
+          "was stirring"
+        ],
+        "objects": [
+          "the sauce",
+          "the soup",
+          "the mixture"
+        ],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

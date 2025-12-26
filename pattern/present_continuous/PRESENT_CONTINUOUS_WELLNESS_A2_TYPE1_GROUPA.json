@@ -1,0 +1,96 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_WELLNESS_A2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "wellness",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "This morning, I am practicing meditation at the wellness center.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing activities. Time and place add A2 complexity.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "TIME": [
+      "This morning",
+      "Today",
+      "This week"
+    ],
+    "PLACE": [
+      "at the wellness center",
+      "at the spa",
+      "in the yoga studio"
+    ],
+    "VERB": {
+      "practice": {
+        "correct_forms": [
+          "am practicing"
+        ],
+        "wrong_forms": [
+          "is practicing",
+          "practice",
+          "was practicing"
+        ],
+        "objects": [
+          "meditation",
+          "breathing exercises",
+          "mindfulness"
+        ],
+        "distractor": "quit"
+      },
+      "receive": {
+        "correct_forms": [
+          "am receiving"
+        ],
+        "wrong_forms": [
+          "is receiving",
+          "receive",
+          "was receiving"
+        ],
+        "objects": [
+          "a massage",
+          "a treatment",
+          "therapy"
+        ],
+        "distractor": "refuse"
+      },
+      "improve": {
+        "correct_forms": [
+          "am improving"
+        ],
+        "wrong_forms": [
+          "is improving",
+          "improve",
+          "was improving"
+        ],
+        "objects": [
+          "my posture",
+          "my flexibility",
+          "my balance"
+        ],
+        "distractor": "neglect"
+      },
+      "learn": {
+        "correct_forms": [
+          "am learning"
+        ],
+        "wrong_forms": [
+          "is learning",
+          "learn",
+          "was learning"
+        ],
+        "objects": [
+          "relaxation techniques",
+          "new yoga poses",
+          "stress management"
+        ],
+        "distractor": "skip"
+      }
+    }
+  }
+}

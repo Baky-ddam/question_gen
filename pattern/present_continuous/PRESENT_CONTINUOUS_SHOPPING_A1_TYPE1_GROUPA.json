@@ -1,0 +1,86 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_SHOPPING_A1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "At the moment, {SUBJ} ____ {OBJ}.",
+  "example": "At the moment, I am buying groceries.",
+  "explanation": "Use 'am' + verb-ing with 'I' for things happening at this moment.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "VERB": {
+      "buy": {
+        "correct_forms": [
+          "am buying"
+        ],
+        "wrong_forms": [
+          "is buying",
+          "buy",
+          "was buying"
+        ],
+        "objects": [
+          "groceries",
+          "new shoes",
+          "a gift"
+        ],
+        "distractor": "waste"
+      },
+      "choose": {
+        "correct_forms": [
+          "am choosing"
+        ],
+        "wrong_forms": [
+          "is choosing",
+          "choose",
+          "was choosing"
+        ],
+        "objects": [
+          "a shirt",
+          "a jacket",
+          "a dress"
+        ],
+        "distractor": "avoid"
+      },
+      "try": {
+        "correct_forms": [
+          "am trying"
+        ],
+        "wrong_forms": [
+          "is trying",
+          "try",
+          "was trying"
+        ],
+        "objects": [
+          "on clothes",
+          "these shoes",
+          "this hat"
+        ],
+        "distractor": "stop"
+      },
+      "pay": {
+        "correct_forms": [
+          "am paying"
+        ],
+        "wrong_forms": [
+          "is paying",
+          "pay",
+          "was paying"
+        ],
+        "objects": [
+          "for the items",
+          "at the counter",
+          "with my card"
+        ],
+        "distractor": "avoid"
+      }
+    }
+  }
+}

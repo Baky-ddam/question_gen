@@ -1,0 +1,98 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_PSYCHOLOGY_B1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "psychology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} in order to {PURPOSE}.",
+  "example": "We are observing participant behavior in order to identify cognitive patterns.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for ongoing actions. B1 level uses 'in order to' to express formal purpose.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "identify cognitive patterns",
+      "measure emotional responses",
+      "develop treatment protocols",
+      "validate the research hypothesis"
+    ],
+    "VERB": {
+      "observe": {
+        "correct_forms": [
+          "are observing"
+        ],
+        "wrong_forms": [
+          "is observing",
+          "observe",
+          "were observing"
+        ],
+        "objects": [
+          "participant behavior",
+          "social interactions",
+          "group dynamics",
+          "nonverbal cues"
+        ],
+        "distractor": "overlook"
+      },
+      "interview": {
+        "correct_forms": [
+          "are interviewing"
+        ],
+        "wrong_forms": [
+          "is interviewing",
+          "interview",
+          "were interviewing"
+        ],
+        "objects": [
+          "study participants",
+          "trauma survivors",
+          "research subjects",
+          "clinical patients"
+        ],
+        "distractor": "dismiss"
+      },
+      "assess": {
+        "correct_forms": [
+          "are assessing"
+        ],
+        "wrong_forms": [
+          "is assessing",
+          "assess",
+          "were assessing"
+        ],
+        "objects": [
+          "mental health status",
+          "cognitive abilities",
+          "personality traits",
+          "emotional intelligence"
+        ],
+        "distractor": "neglect"
+      },
+      "administer": {
+        "correct_forms": [
+          "are administering"
+        ],
+        "wrong_forms": [
+          "is administering",
+          "administer",
+          "were administering"
+        ],
+        "objects": [
+          "standardized tests",
+          "psychological assessments",
+          "behavioral surveys",
+          "diagnostic questionnaires"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

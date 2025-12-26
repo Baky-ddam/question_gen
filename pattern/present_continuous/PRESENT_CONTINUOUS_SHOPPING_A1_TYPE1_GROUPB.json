@@ -1,0 +1,88 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_SHOPPING_A1_TYPE1_GROUPB",
+  "focus": "present_continuous",
+  "level": "A1",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ} now.",
+  "example": "They are looking at prices now.",
+  "explanation": "Use 'are' + verb-ing with 'you/we/they' for current activities.",
+  "chunks": {
+    "SUBJ": [
+      "you",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "look": {
+        "correct_forms": [
+          "are looking"
+        ],
+        "wrong_forms": [
+          "is looking",
+          "look",
+          "were looking"
+        ],
+        "objects": [
+          "at prices",
+          "at the products",
+          "for a gift"
+        ],
+        "distractor": "ignore"
+      },
+      "compare": {
+        "correct_forms": [
+          "are comparing"
+        ],
+        "wrong_forms": [
+          "is comparing",
+          "compare",
+          "were comparing"
+        ],
+        "objects": [
+          "prices",
+          "the options",
+          "different brands"
+        ],
+        "distractor": "avoid"
+      },
+      "carry": {
+        "correct_forms": [
+          "are carrying"
+        ],
+        "wrong_forms": [
+          "is carrying",
+          "carry",
+          "were carrying"
+        ],
+        "objects": [
+          "shopping bags",
+          "the boxes",
+          "the groceries"
+        ],
+        "distractor": "lose"
+      },
+      "wait": {
+        "correct_forms": [
+          "are waiting"
+        ],
+        "wrong_forms": [
+          "is waiting",
+          "wait",
+          "were waiting"
+        ],
+        "objects": [
+          "in line",
+          "at the checkout",
+          "for help"
+        ],
+        "distractor": "stop"
+      }
+    }
+  }
+}

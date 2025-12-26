@@ -1,0 +1,105 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_HISTORY_B1_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B1",
+  "domain": "history",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} for {PURPOSE}.",
+  "example": "This semester, she is documenting oral histories for the university archive.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing actions. B1 level combines time reference with purpose using 'for'.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the historian",
+      "the researcher"
+    ],
+    "TIME": [
+      "This semester",
+      "This year",
+      "Currently",
+      "At the moment"
+    ],
+    "PURPOSE": [
+      "the university archive",
+      "an upcoming exhibition",
+      "a documentary project",
+      "the heritage foundation"
+    ],
+    "VERB": {
+      "document": {
+        "correct_forms": [
+          "is documenting"
+        ],
+        "wrong_forms": [
+          "are documenting",
+          "documents",
+          "was documenting"
+        ],
+        "objects": [
+          "oral histories",
+          "family genealogies",
+          "local traditions",
+          "historical accounts"
+        ],
+        "distractor": "cancel"
+      },
+      "preserve": {
+        "correct_forms": [
+          "is preserving"
+        ],
+        "wrong_forms": [
+          "are preserving",
+          "preserves",
+          "was preserving"
+        ],
+        "objects": [
+          "ancient artifacts",
+          "historical records",
+          "cultural relics",
+          "archival photographs"
+        ],
+        "distractor": "demolish"
+      },
+      "analyze": {
+        "correct_forms": [
+          "is analyzing"
+        ],
+        "wrong_forms": [
+          "are analyzing",
+          "analyzes",
+          "was analyzing"
+        ],
+        "objects": [
+          "census data",
+          "historical trends",
+          "migration patterns",
+          "demographic records"
+        ],
+        "distractor": "overlook"
+      },
+      "catalog": {
+        "correct_forms": [
+          "is cataloging"
+        ],
+        "wrong_forms": [
+          "are cataloging",
+          "catalogs",
+          "was cataloging"
+        ],
+        "objects": [
+          "museum specimens",
+          "rare manuscripts",
+          "archaeological finds",
+          "historical documents"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

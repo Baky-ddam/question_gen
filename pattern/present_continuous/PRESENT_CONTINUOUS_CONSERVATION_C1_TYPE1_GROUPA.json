@@ -1,0 +1,104 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_CONSERVATION_C1_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "C1",
+  "domain": "conservation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "In light of {SITUATION}, {SUBJ} ____ {OBJ}, thereby {OUTCOME}.",
+  "example": "In light of the alarming decline in biodiversity, I am preserving critical habitats, thereby safeguarding endangered species.",
+  "explanation": "Use 'am' + verb-ing with 'I' for ongoing conservation efforts. C1 level features situational context with resultant outcomes.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "SITUATION": [
+      "the alarming decline in biodiversity",
+      "widespread habitat destruction",
+      "the extinction crisis facing wildlife",
+      "accelerating deforestation rates",
+      "the degradation of marine ecosystems"
+    ],
+    "OUTCOME": [
+      "safeguarding endangered species",
+      "protecting irreplaceable ecosystems",
+      "ensuring ecological resilience",
+      "maintaining genetic diversity",
+      "securing wildlife corridors"
+    ],
+    "VERB": {
+      "preserve": {
+        "correct_forms": [
+          "am preserving"
+        ],
+        "wrong_forms": [
+          "is preserving",
+          "preserve",
+          "was preserving"
+        ],
+        "objects": [
+          "critical habitats",
+          "ancient forests",
+          "wetland ecosystems",
+          "pristine wilderness areas"
+        ],
+        "distractor": "obliterate"
+      },
+      "restore": {
+        "correct_forms": [
+          "am restoring"
+        ],
+        "wrong_forms": [
+          "is restoring",
+          "restore",
+          "was restoring"
+        ],
+        "objects": [
+          "degraded landscapes",
+          "damaged coral reefs",
+          "depleted fish populations",
+          "native plant communities"
+        ],
+        "distractor": "devastate"
+      },
+      "rehabilitate": {
+        "correct_forms": [
+          "am rehabilitating"
+        ],
+        "wrong_forms": [
+          "is rehabilitating",
+          "rehabilitate",
+          "was rehabilitating"
+        ],
+        "objects": [
+          "injured wildlife",
+          "contaminated waterways",
+          "polluted habitats",
+          "orphaned animal populations"
+        ],
+        "distractor": "forsake"
+      },
+      "reintroduce": {
+        "correct_forms": [
+          "am reintroducing"
+        ],
+        "wrong_forms": [
+          "is reintroducing",
+          "reintroduce",
+          "was reintroducing"
+        ],
+        "objects": [
+          "native species",
+          "keystone predators",
+          "endangered mammals",
+          "locally extinct fauna"
+        ],
+        "distractor": "eradicate"
+      }
+    }
+  }
+}

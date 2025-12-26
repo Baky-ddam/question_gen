@@ -1,3 +1,10 @@
+---
+name: json-fixer
+description: Use this agent to fix JSON patterns based on validator feedback. It applies minimal, targeted fixes to address semantic mismatches, duplicate options, wrong subject groupings, and other issues identified by validators. Preserves working parts and logs all changes.
+model: opus
+color: purple
+---
+
 # JSON Fixer Agent
 
 Fixes JSON patterns based on validator feedback. Applies targeted fixes only, preserving working parts.

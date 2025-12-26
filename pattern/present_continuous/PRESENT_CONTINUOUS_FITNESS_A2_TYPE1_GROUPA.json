@@ -1,0 +1,97 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_FITNESS_A2_TYPE1_GROUPA",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "fitness",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} {PLACE}.",
+  "example": "This morning, I am doing yoga exercises at the gym.",
+  "explanation": "Use 'am' + verb-ing with 'I' for temporary actions. The time phrase at the start emphasizes the current period.",
+  "chunks": {
+    "SUBJ": [
+      "I"
+    ],
+    "TIME": [
+      "This morning",
+      "This afternoon",
+      "Today",
+      "This week"
+    ],
+    "PLACE": [
+      "at the gym",
+      "at home",
+      "in the park"
+    ],
+    "VERB": {
+      "do": {
+        "correct_forms": [
+          "am doing"
+        ],
+        "wrong_forms": [
+          "is doing",
+          "do",
+          "was doing"
+        ],
+        "objects": [
+          "yoga exercises",
+          "stretching routines",
+          "cardio workouts"
+        ],
+        "distractor": "skip"
+      },
+      "lift": {
+        "correct_forms": [
+          "am lifting"
+        ],
+        "wrong_forms": [
+          "is lifting",
+          "lift",
+          "was lifting"
+        ],
+        "objects": [
+          "weights",
+          "dumbbells",
+          "barbells"
+        ],
+        "distractor": "refuse"
+      },
+      "follow": {
+        "correct_forms": [
+          "am following"
+        ],
+        "wrong_forms": [
+          "is following",
+          "follow",
+          "was following"
+        ],
+        "objects": [
+          "a workout plan",
+          "a fitness video",
+          "an exercise routine"
+        ],
+        "distractor": "abandon"
+      },
+      "track": {
+        "correct_forms": [
+          "am tracking"
+        ],
+        "wrong_forms": [
+          "is tracking",
+          "track",
+          "was tracking"
+        ],
+        "objects": [
+          "my progress",
+          "my calories",
+          "my steps"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

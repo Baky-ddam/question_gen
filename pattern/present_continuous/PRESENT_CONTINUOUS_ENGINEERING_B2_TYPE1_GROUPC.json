@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_ENGINEERING_B2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "B2",
+  "domain": "engineering",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {RESULT}.",
+  "example": "She is redesigning the circuit layout, which reduces power consumption significantly.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for ongoing technical actions. B2 level uses relative clauses to explain the impact of engineering work.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the engineer"
+    ],
+    "RESULT": [
+      "reduces power consumption significantly",
+      "improves system reliability",
+      "minimizes production costs",
+      "enhances overall performance",
+      "addresses the critical bottleneck"
+    ],
+    "VERB": {
+      "redesign": {
+        "correct_forms": [
+          "is redesigning"
+        ],
+        "wrong_forms": [
+          "are redesigning",
+          "redesigns",
+          "was redesigning"
+        ],
+        "objects": [
+          "the circuit layout",
+          "the mechanical assembly",
+          "the control interface",
+          "the structural framework"
+        ],
+        "distractor": "hinder"
+      },
+      "prototype": {
+        "correct_forms": [
+          "is prototyping"
+        ],
+        "wrong_forms": [
+          "are prototyping",
+          "prototypes",
+          "was prototyping"
+        ],
+        "objects": [
+          "the next-generation sensor",
+          "the innovative cooling system",
+          "the advanced materials composite",
+          "the modular component design"
+        ],
+        "distractor": "obstruct"
+      },
+      "calibrate": {
+        "correct_forms": [
+          "is calibrating"
+        ],
+        "wrong_forms": [
+          "are calibrating",
+          "calibrates",
+          "was calibrating"
+        ],
+        "objects": [
+          "the precision instruments",
+          "the measurement systems",
+          "the detection equipment",
+          "the sensor array"
+        ],
+        "distractor": "disregard"
+      },
+      "analyze": {
+        "correct_forms": [
+          "is analyzing"
+        ],
+        "wrong_forms": [
+          "are analyzing",
+          "analyzes",
+          "was analyzing"
+        ],
+        "objects": [
+          "the stress test results",
+          "the performance metrics",
+          "the failure mode data",
+          "the simulation outputs"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

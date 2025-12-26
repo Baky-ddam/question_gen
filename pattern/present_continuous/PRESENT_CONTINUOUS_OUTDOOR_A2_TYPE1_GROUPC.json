@@ -1,0 +1,94 @@
+{
+  "pattern_id": "PRESENT_CONTINUOUS_OUTDOOR_A2_TYPE1_GROUPC",
+  "focus": "present_continuous",
+  "level": "A2",
+  "domain": "outdoor_activities",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_c",
+  "sub_grammar": [
+    "present_continuous"
+  ],
+  "template": "Watch! {SUBJ} ____ {OBJ} {TIME}.",
+  "example": "Watch! He is climbing the rock wall this afternoon.",
+  "explanation": "Use 'is' + verb-ing with 'he/she/it' for current actions. 'Watch!' draws attention to something happening.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the hiker"
+    ],
+    "TIME": [
+      "this afternoon",
+      "this morning",
+      "today",
+      "right now"
+    ],
+    "VERB": {
+      "climb": {
+        "correct_forms": [
+          "is climbing"
+        ],
+        "wrong_forms": [
+          "are climbing",
+          "climbs",
+          "was climbing"
+        ],
+        "objects": [
+          "the rock wall",
+          "the mountain",
+          "the steep hill"
+        ],
+        "distractor": "quit"
+      },
+      "paddle": {
+        "correct_forms": [
+          "is paddling"
+        ],
+        "wrong_forms": [
+          "are paddling",
+          "paddles",
+          "was paddling"
+        ],
+        "objects": [
+          "the kayak",
+          "the canoe",
+          "across the river"
+        ],
+        "distractor": "abandon"
+      },
+      "fish": {
+        "correct_forms": [
+          "is fishing"
+        ],
+        "wrong_forms": [
+          "are fishing",
+          "fishes",
+          "was fishing"
+        ],
+        "objects": [
+          "in the lake",
+          "by the river",
+          "from the boat"
+        ],
+        "distractor": "waste"
+      },
+      "observe": {
+        "correct_forms": [
+          "is observing"
+        ],
+        "wrong_forms": [
+          "are observing",
+          "observes",
+          "was observing"
+        ],
+        "objects": [
+          "the birds",
+          "the wildlife",
+          "the animals"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}
