@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_MUST_SCHOOL_B1_TYPE1_ALL",
+  "focus": "modal_must",
+  "level": "B1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.",
+  "example": "Students must attend classes regularly.",
+  "explanation": "Use 'must' + base verb to express school obligations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "REQUIREMENT": [
+      "regularly",
+      "on time",
+      "before the deadline",
+      "according to school rules"
+    ],
+    "VERB": {
+      "attend": {
+        "correct_forms": [
+          "must attend"
+        ],
+        "wrong_forms": [
+          "should attend",
+          "can attend",
+          "have to attend"
+        ],
+        "objects": [
+          "all classes",
+          "lectures",
+          "required sessions"
+        ],
+        "distractor": "abandon"
+      },
+      "complete": {
+        "correct_forms": [
+          "must complete"
+        ],
+        "wrong_forms": [
+          "should complete",
+          "can complete",
+          "have to complete"
+        ],
+        "objects": [
+          "homework",
+          "assignments",
+          "projects"
+        ],
+        "distractor": "neglect"
+      },
+      "submit": {
+        "correct_forms": [
+          "must submit"
+        ],
+        "wrong_forms": [
+          "should submit",
+          "can submit",
+          "have to submit"
+        ],
+        "objects": [
+          "essays",
+          "reports",
+          "coursework"
+        ],
+        "distractor": "postpone"
+      },
+      "follow": {
+        "correct_forms": [
+          "must follow"
+        ],
+        "wrong_forms": [
+          "should follow",
+          "can follow",
+          "have to follow"
+        ],
+        "objects": [
+          "school rules",
+          "instructions",
+          "the curriculum"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

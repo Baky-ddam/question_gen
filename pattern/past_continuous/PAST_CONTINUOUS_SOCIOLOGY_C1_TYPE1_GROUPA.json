@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_SOCIOLOGY_C1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "sociology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "context_clause", "critical_moment"],
+  "template": "Given that {CONTEXT}, {SUBJ} ____ {OBJ} when {CRITICAL_MOMENT}.",
+  "example": "Given that social stratification patterns were shifting dramatically, we were documenting the emergent class dynamics when unprecedented demographic changes began reshaping urban landscapes.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for contextually framed past actions interrupted by critical moments.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the researchers"],
+    "CONTEXT": [
+      "social stratification patterns were shifting dramatically",
+      "traditional institutional frameworks were undergoing fundamental transformation",
+      "intergenerational mobility trends were defying established theoretical predictions",
+      "the normative structures of civil society were experiencing unprecedented flux"
+    ],
+    "CRITICAL_MOMENT": [
+      "unprecedented demographic changes began reshaping urban landscapes",
+      "the longitudinal data revealed striking anomalies in the hypothesized correlations",
+      "a paradigm-shifting publication challenged the methodological foundations of the field",
+      "emergent social movements disrupted the prevailing analytical frameworks"
+    ],
+    "VERB": {
+      "document": {
+        "correct_forms": ["were documenting"],
+        "wrong_forms": ["was documenting", "documented", "are documenting"],
+        "objects": ["the emergent class dynamics within marginalized communities", "the subtle mechanisms of cultural reproduction in educational institutions", "the complex interplay between agency and structural constraints", "the transformative effects of globalization on local identities"],
+        "distractor": "forsake"
+      },
+      "investigate": {
+        "correct_forms": ["were investigating"],
+        "wrong_forms": ["was investigating", "investigated", "are investigating"],
+        "objects": ["the underlying causes of persistent socioeconomic inequality", "the intricate patterns of network formation in digital communities", "the differential impacts of policy interventions across demographic groups", "the recursive relationship between institutional norms and individual behavior"],
+        "distractor": "obliterate"
+      },
+      "theorize": {
+        "correct_forms": ["were theorizing"],
+        "wrong_forms": ["was theorizing", "theorized", "are theorizing"],
+        "objects": ["the mechanisms by which symbolic capital is accumulated and deployed", "the dialectical processes underlying rapid social change", "the structural determinants of collective action and social movements", "the intersectional dimensions of identity formation in late modernity"],
+        "distractor": "renounce"
+      },
+      "operationalize": {
+        "correct_forms": ["were operationalizing"],
+        "wrong_forms": ["was operationalizing", "operationalized", "are operationalizing"],
+        "objects": ["abstract theoretical constructs for empirical validation", "multidimensional measures of social cohesion and integration", "sophisticated indices of institutional legitimacy and trust", "innovative metrics for capturing cultural capital across diverse contexts"],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

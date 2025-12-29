@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PLACES_A2_TYPE1_GROUPA",
+  "focus": "relative_clause_where",
+  "level": "A2",
+  "domain": "places",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "This is the {PLACE} ____ {ACTION}.",
+  "example": "This is the restaurant where we had dinner.",
+  "explanation": "We use 'where' to give more information about places. 'Where' refers back to the place mentioned before it.",
+  "chunks": {
+    "PLACE": ["restaurant", "hotel", "park", "shop"],
+    "ACTION": ["we had dinner", "I stayed last summer", "children play", "I bought this shirt"],
+    "VERB": {
+      "where": {
+        "correct_forms": ["where"],
+        "wrong_forms": ["who", "which", "what"],
+        "objects": [],
+        "distractor": "leave"
+      }
+    }
+  }
+}

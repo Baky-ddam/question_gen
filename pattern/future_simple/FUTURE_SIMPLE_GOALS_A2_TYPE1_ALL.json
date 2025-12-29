@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_GOALS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "goals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will learn to drive next year.",
+  "explanation": "Future simple uses 'will + base verb' for goals and future plans. All subjects use the same form.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "learn": {
+        "correct_forms": ["will learn"],
+        "wrong_forms": ["learns", "is going to learn", "would learn"],
+        "objects": ["to drive", "a new language", "to swim"],
+        "distractor": "quit"
+      },
+      "save": {
+        "correct_forms": ["will save"],
+        "wrong_forms": ["saves", "is going to save", "would save"],
+        "objects": ["money", "enough", "for a car"],
+        "distractor": "waste"
+      },
+      "improve": {
+        "correct_forms": ["will improve"],
+        "wrong_forms": ["improves", "is going to improve", "would improve"],
+        "objects": ["my English", "my skills", "my grades"],
+        "distractor": "neglect"
+      },
+      "achieve": {
+        "correct_forms": ["will achieve"],
+        "wrong_forms": ["achieves", "is going to achieve", "would achieve"],
+        "objects": ["my goal", "success", "good results"],
+        "distractor": "abandon"
+      }
+    },
+    "FUTURE_TIME": ["next year", "next month", "soon", "in the future"]
+  }
+}

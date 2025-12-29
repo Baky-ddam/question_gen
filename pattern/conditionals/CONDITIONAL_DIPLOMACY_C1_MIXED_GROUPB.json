@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_DIPLOMACY_C1_MIXED_GROUPB",
+  "focus": "conditional_mixed_diplomatic_singular",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ACTOR} ____ {PRESENT_QUALITY}, the crisis would have {PAST_RESULT}.",
+  "example": "If the ambassador were more experienced, the crisis would have been resolved sooner.",
+  "explanation": "Mixed conditional: present quality (were) affects past outcome (would have been). Current traits impacting past events.",
+  "chunks": {
+    "ACTOR": ["ambassador", "envoy", "mediator", "negotiator"],
+    "PRESENT_QUALITY": ["more experienced", "better prepared", "more skilled", "more diplomatic"],
+    "PAST_RESULT": ["been resolved sooner", "been handled differently", "unfolded more smoothly", "been averted entirely"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "had been"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

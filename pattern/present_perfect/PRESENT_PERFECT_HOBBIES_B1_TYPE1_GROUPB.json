@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_HOBBIES_B1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {COMPLETION_MARKER} {OBJ}.",
+  "example": "She has recently learned to play the piano.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to describe recently acquired hobby skills. 'Already', 'just', 'recently' signal recent completion.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my friend",
+      "the artist"
+    ],
+    "COMPLETION_MARKER": [
+      "already",
+      "just",
+      "recently",
+      "finally"
+    ],
+    "VERB": {
+      "learn": {
+        "correct_forms": [
+          "has learned"
+        ],
+        "wrong_forms": [
+          "have learned",
+          "had learned",
+          "learned"
+        ],
+        "objects": [
+          "to play the piano",
+          "watercolor painting",
+          "digital photography",
+          "a new language"
+        ],
+        "distractor": "abandon"
+      },
+      "master": {
+        "correct_forms": [
+          "has mastered"
+        ],
+        "wrong_forms": [
+          "have mastered",
+          "had mastered",
+          "mastered"
+        ],
+        "objects": [
+          "advanced techniques",
+          "the art of calligraphy",
+          "complex recipes",
+          "woodworking skills"
+        ],
+        "distractor": "neglect"
+      },
+      "discover": {
+        "correct_forms": [
+          "has discovered"
+        ],
+        "wrong_forms": [
+          "have discovered",
+          "had discovered",
+          "discovered"
+        ],
+        "objects": [
+          "a passion for gardening",
+          "new creative outlets",
+          "interesting hobbies",
+          "artistic talents"
+        ],
+        "distractor": "overlook"
+      },
+      "complete": {
+        "correct_forms": [
+          "has completed"
+        ],
+        "wrong_forms": [
+          "have completed",
+          "had completed",
+          "completed"
+        ],
+        "objects": [
+          "a painting",
+          "a photography project",
+          "a DIY furniture piece",
+          "a music album"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

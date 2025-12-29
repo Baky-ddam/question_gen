@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SOCIETALTRANSFORMATION_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "societal_transformation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Futurists predict that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Futurists predict that work-life paradigms will transform as automation redefines employment structures.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about societal transformation.",
+  "chunks": {
+    "SUBJ": ["work-life paradigms", "social contracts", "community structures", "value systems", "cultural norms", "generational expectations"],
+    "VERB": {
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["fundamentally", "in unprecedented ways", "across all societies"],
+        "distractor": "obliterate"
+      },
+      "evolve": {
+        "correct_forms": ["will evolve"],
+        "wrong_forms": ["evolves", "is going to evolve", "would evolve"],
+        "objects": ["significantly", "to reflect new realities", "in response to pressures"],
+        "distractor": "forsake"
+      },
+      "redefine": {
+        "correct_forms": ["will redefine"],
+        "wrong_forms": ["redefines", "is going to redefine", "would redefine"],
+        "objects": ["what success means", "human relationships", "societal priorities"],
+        "distractor": "repudiate"
+      },
+      "reshape": {
+        "correct_forms": ["will reshape"],
+        "wrong_forms": ["reshapes", "is going to reshape", "would reshape"],
+        "objects": ["collective identities", "institutional expectations", "social hierarchies"],
+        "distractor": "renounce"
+      }
+    },
+    "TREND": ["automation redefines employment structures", "digital connectivity deepens", "environmental challenges intensify", "technological integration accelerates", "demographic transitions continue", "globalization patterns shift"]
+  }
+}

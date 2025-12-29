@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_HEALTH_B1_TYPE2_GROUPA",
+  "focus": "prefix_un_formation",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "Eating junk food regularly is ____ for your body.",
+  "example": "Eating junk food regularly is unhealthy for your body.",
+  "explanation": "The prefix 'un-' creates negation. 'Healthy' becomes 'unhealthy' (not healthy).",
+  "chunks": {
+    "NOUN": ["body", "health", "system", "digestion"],
+    "VERB": {
+      "unhealthy": {
+        "correct_forms": ["unhealthy"],
+        "wrong_forms": ["healthy", "inhealthy", "dishealthy"],
+        "objects": [],
+        "distractor": "beneficial"
+      },
+      "unsafe": {
+        "correct_forms": ["unsafe"],
+        "wrong_forms": ["safe", "insafe", "dissafe"],
+        "objects": [],
+        "distractor": "secure"
+      },
+      "uncomfortable": {
+        "correct_forms": ["uncomfortable"],
+        "wrong_forms": ["comfortable", "incomfortable", "discomfortable"],
+        "objects": [],
+        "distractor": "pleasant"
+      },
+      "unusual": {
+        "correct_forms": ["unusual"],
+        "wrong_forms": ["usual", "inusual", "disusual"],
+        "objects": [],
+        "distractor": "normal"
+      }
+    }
+  }
+}

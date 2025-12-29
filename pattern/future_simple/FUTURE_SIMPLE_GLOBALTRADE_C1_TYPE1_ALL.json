@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_GLOBALTRADE_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "global_trade",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Analysts project that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Analysts project that supply chains will reconfigure as geopolitical considerations reshape trade relationships.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about global trade dynamics.",
+  "chunks": {
+    "SUBJ": ["supply chains", "trade flows", "tariff structures", "economic blocs", "commodity markets", "manufacturing networks"],
+    "VERB": {
+      "reconfigure": {
+        "correct_forms": ["will reconfigure"],
+        "wrong_forms": ["reconfigures", "is going to reconfigure", "would reconfigure"],
+        "objects": ["fundamentally", "across regions", "to enhance resilience"],
+        "distractor": "obliterate"
+      },
+      "diversify": {
+        "correct_forms": ["will diversify"],
+        "wrong_forms": ["diversifies", "is going to diversify", "would diversify"],
+        "objects": ["substantially", "beyond traditional partners", "to mitigate risks"],
+        "distractor": "forsake"
+      },
+      "intensify": {
+        "correct_forms": ["will intensify"],
+        "wrong_forms": ["intensifies", "is going to intensify", "would intensify"],
+        "objects": ["in strategic sectors", "between major economies", "over critical resources"],
+        "distractor": "renounce"
+      },
+      "realign": {
+        "correct_forms": ["will realign"],
+        "wrong_forms": ["realigns", "is going to realign", "would realign"],
+        "objects": ["according to new priorities", "along political lines", "based on sustainability criteria"],
+        "distractor": "repudiate"
+      }
+    },
+    "TREND": ["geopolitical considerations reshape trade relationships", "protectionist policies gain momentum", "regional agreements proliferate", "environmental standards tighten", "technology transfer restrictions expand", "labor cost differentials shift"]
+  }
+}

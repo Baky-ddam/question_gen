@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_MUST_SAFETY_B1_TYPE1_ALL",
+  "focus": "modal_must",
+  "level": "B1",
+  "domain": "safety",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.",
+  "example": "Workers must wear helmets in construction zones.",
+  "explanation": "Use 'must' + base verb to express safety obligations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "REQUIREMENT": [
+      "in construction zones",
+      "when operating machinery",
+      "in hazardous areas",
+      "for protection"
+    ],
+    "VERB": {
+      "wear": {
+        "correct_forms": [
+          "must wear"
+        ],
+        "wrong_forms": [
+          "should wear",
+          "can wear",
+          "have to wear"
+        ],
+        "objects": [
+          "safety helmets",
+          "protective gloves",
+          "safety goggles"
+        ],
+        "distractor": "neglect"
+      },
+      "follow": {
+        "correct_forms": [
+          "must follow"
+        ],
+        "wrong_forms": [
+          "should follow",
+          "can follow",
+          "have to follow"
+        ],
+        "objects": [
+          "safety guidelines",
+          "emergency procedures",
+          "evacuation routes"
+        ],
+        "distractor": "dismiss"
+      },
+      "check": {
+        "correct_forms": [
+          "must check"
+        ],
+        "wrong_forms": [
+          "should check",
+          "can check",
+          "have to check"
+        ],
+        "objects": [
+          "equipment regularly",
+          "safety devices",
+          "warning signs"
+        ],
+        "distractor": "overlook"
+      },
+      "use": {
+        "correct_forms": [
+          "must use"
+        ],
+        "wrong_forms": [
+          "should use",
+          "can use",
+          "have to use"
+        ],
+        "objects": [
+          "proper equipment",
+          "safety gear",
+          "protective clothing"
+        ],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

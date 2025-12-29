@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_ACADEMIA_C1_TYPE1_GROUPA",
+  "focus": "suffix_ification_formation",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of academic standards has been a topic of ongoing debate in scholarly circles.",
+  "example": "The diversification of academic standards has been a topic of ongoing debate in scholarly circles.",
+  "explanation": "The suffix '-ification' transforms adjectives/nouns into abstract nouns indicating a process. 'Diverse' becomes 'diversification'.",
+  "chunks": {
+    "NOUN": ["scholarly circles", "academic institutions", "educational bodies", "research communities"],
+    "VERB": {
+      "diversification": {
+        "correct_forms": ["diversification"],
+        "wrong_forms": ["diverse", "diversify", "diversifying"],
+        "objects": [],
+        "distractor": "homogenization"
+      },
+      "clarification": {
+        "correct_forms": ["clarification"],
+        "wrong_forms": ["clarify", "clarifying", "clear"],
+        "objects": [],
+        "distractor": "obfuscation"
+      },
+      "quantification": {
+        "correct_forms": ["quantification"],
+        "wrong_forms": ["quantify", "quantifying", "quantity"],
+        "objects": [],
+        "distractor": "ambiguity"
+      },
+      "simplification": {
+        "correct_forms": ["simplification"],
+        "wrong_forms": ["simplify", "simplifying", "simple"],
+        "objects": [],
+        "distractor": "complication"
+      }
+    }
+  }
+}

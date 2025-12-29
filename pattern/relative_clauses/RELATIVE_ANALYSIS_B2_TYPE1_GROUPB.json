@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_ANALYSIS_B2_TYPE1_GROUPB",
+  "focus": "relative_clause_that_analysis",
+  "level": "B2",
+  "domain": "analysis",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {ANALYSIS} ____ the team conducted supports {CONCLUSION}.",
+  "example": "The data analysis that the team conducted supports our hypothesis.",
+  "explanation": "We use 'that' when the analysis type is essential to the meaning. It identifies which specific analysis we refer to.",
+  "chunks": {
+    "ANALYSIS": ["data analysis", "statistical review", "comparative study", "systematic examination"],
+    "CONCLUSION": ["our hypothesis", "the initial findings", "the proposed model", "management's decision"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "contradict"
+      }
+    }
+  }
+}

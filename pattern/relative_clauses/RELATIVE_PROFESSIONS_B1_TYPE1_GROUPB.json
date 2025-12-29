@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PROFESSIONS_B1_TYPE1_GROUPB",
+  "focus": "relative_clause_whom",
+  "level": "B1",
+  "domain": "professions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PROFESSIONAL} ____ I consulted gave {ADVICE}.",
+  "example": "The lawyer whom I consulted gave excellent advice.",
+  "explanation": "We use 'whom' in formal contexts when the person is the object of the verb. It's more formal than 'who'.",
+  "chunks": {
+    "PROFESSIONAL": ["lawyer", "advisor", "consultant", "specialist"],
+    "ADVICE": ["excellent advice", "useful recommendations", "clear guidance", "helpful suggestions"],
+    "VERB": {
+      "whom": {
+        "correct_forms": ["whom"],
+        "wrong_forms": ["which", "where", "whose"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

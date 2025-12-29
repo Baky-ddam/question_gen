@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_HEALTH_B1_TYPE1_GROUPB",
+  "focus": "suffix_ly_adverb_formation",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The doctor ____ recommended more rest.",
+  "example": "The doctor strongly recommended more rest.",
+  "explanation": "The suffix '-ly' transforms adjectives into adverbs. 'Strong' becomes 'strongly'.",
+  "chunks": {
+    "NOUN": ["rest", "sleep", "exercise", "relaxation"],
+    "VERB": {
+      "strongly": {
+        "correct_forms": ["strongly"],
+        "wrong_forms": ["strong", "stronger", "strength"],
+        "objects": [],
+        "distractor": "weakly"
+      },
+      "carefully": {
+        "correct_forms": ["carefully"],
+        "wrong_forms": ["careful", "carefuler", "carefulness"],
+        "objects": [],
+        "distractor": "carelessly"
+      },
+      "seriously": {
+        "correct_forms": ["seriously"],
+        "wrong_forms": ["serious", "seriouser", "seriousness"],
+        "objects": [],
+        "distractor": "casually"
+      },
+      "frequently": {
+        "correct_forms": ["frequently"],
+        "wrong_forms": ["frequent", "frequenter", "frequency"],
+        "objects": [],
+        "distractor": "rarely"
+      }
+    }
+  }
+}

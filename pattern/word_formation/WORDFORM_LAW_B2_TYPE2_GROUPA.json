@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_LAW_B2_TYPE2_GROUPA",
+  "focus": "prefix_il_ir_formation",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The contract was deemed ____ by the court.",
+  "example": "The contract was deemed illegal by the court.",
+  "explanation": "The prefix 'il-/ir-' creates negation before words starting with 'l' or 'r'. 'Legal' becomes 'illegal'.",
+  "chunks": {
+    "NOUN": ["court", "tribunal", "judge", "arbitrator"],
+    "VERB": {
+      "illegal": {
+        "correct_forms": ["illegal"],
+        "wrong_forms": ["legal", "unlegal", "dislegal"],
+        "objects": [],
+        "distractor": "valid"
+      },
+      "illegitimate": {
+        "correct_forms": ["illegitimate"],
+        "wrong_forms": ["legitimate", "unlegitimate", "dislegitimate"],
+        "objects": [],
+        "distractor": "authentic"
+      },
+      "irresponsible": {
+        "correct_forms": ["irresponsible"],
+        "wrong_forms": ["responsible", "unresponsible", "disresponsible"],
+        "objects": [],
+        "distractor": "accountable"
+      },
+      "irregular": {
+        "correct_forms": ["irregular"],
+        "wrong_forms": ["regular", "unregular", "disregular"],
+        "objects": [],
+        "distractor": "standard"
+      }
+    }
+  }
+}

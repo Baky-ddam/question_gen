@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_EVENTS_B1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "time_reference"],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "At 6pm yesterday, we were setting up the stage because the concert was starting at 8.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for past ongoing actions with time and reason clauses.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "At 6pm yesterday",
+      "Early that morning",
+      "Throughout the afternoon",
+      "All day Saturday"
+    ],
+    "REASON": [
+      "the concert was starting at 8",
+      "the guests were arriving soon",
+      "the deadline was approaching",
+      "the venue needed to be ready by noon"
+    ],
+    "VERB": {
+      "set_up": {
+        "correct_forms": ["were setting up"],
+        "wrong_forms": ["was setting up", "set up", "are setting up"],
+        "objects": ["the stage", "the sound equipment", "the lighting system", "the decorations"],
+        "distractor": "demolish"
+      },
+      "coordinate": {
+        "correct_forms": ["were coordinating"],
+        "wrong_forms": ["was coordinating", "coordinated", "are coordinating"],
+        "objects": ["the volunteers", "the catering team", "the security personnel", "the event staff"],
+        "distractor": "dismiss"
+      },
+      "arrange": {
+        "correct_forms": ["were arranging"],
+        "wrong_forms": ["was arranging", "arranged", "are arranging"],
+        "objects": ["the seating", "the floral displays", "the venue layout", "the reception area"],
+        "distractor": "neglect"
+      },
+      "finalize": {
+        "correct_forms": ["were finalizing"],
+        "wrong_forms": ["was finalizing", "finalized", "are finalizing"],
+        "objects": ["the schedule", "the guest list", "the event program", "the speaker lineup"],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

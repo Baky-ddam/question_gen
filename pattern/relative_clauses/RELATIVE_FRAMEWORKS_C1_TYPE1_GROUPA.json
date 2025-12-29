@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_FRAMEWORKS_C1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_framework",
+  "level": "C1",
+  "domain": "frameworks",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {FRAMEWORK} ____ {CHARACTERISTIC} provides {UTILITY}.",
+  "example": "The conceptual framework which integrates multiple theoretical perspectives provides a comprehensive analytical lens.",
+  "explanation": "We use 'which' for frameworks in sophisticated academic discourse. The clause elaborates on the framework's structure and utility.",
+  "chunks": {
+    "FRAMEWORK": ["conceptual framework", "analytical model", "theoretical schema", "interpretive paradigm"],
+    "CHARACTERISTIC": ["integrates multiple theoretical perspectives", "synthesizes cross-disciplinary insights", "encompasses diverse methodological approaches", "accommodates competing epistemological positions"],
+    "UTILITY": ["a comprehensive analytical lens", "robust explanatory power", "enhanced predictive capacity", "nuanced interpretive flexibility"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

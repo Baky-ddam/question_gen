@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_TRIPS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "trips",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {DESTINATION}.",
+  "example": "We will fly to Paris next month.",
+  "explanation": "Future simple uses 'will + base verb' for travel plans. Add destination and time for context.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "fly": {
+        "correct_forms": ["will fly"],
+        "wrong_forms": ["flies", "is going to fly", "would fly"],
+        "objects": ["to Paris", "to London", "abroad"],
+        "distractor": "cancel"
+      },
+      "drive": {
+        "correct_forms": ["will drive"],
+        "wrong_forms": ["drives", "is going to drive", "would drive"],
+        "objects": ["to the beach", "to the mountains", "to the countryside"],
+        "distractor": "avoid"
+      },
+      "take": {
+        "correct_forms": ["will take"],
+        "wrong_forms": ["takes", "is going to take", "would take"],
+        "objects": ["a train", "a bus", "a plane"],
+        "distractor": "skip"
+      },
+      "book": {
+        "correct_forms": ["will book"],
+        "wrong_forms": ["books", "is going to book", "would book"],
+        "objects": ["a hotel", "flights", "a rental car"],
+        "distractor": "forget"
+      }
+    },
+    "FUTURE_TIME": ["next month", "next summer", "in two weeks", "soon"],
+    "DESTINATION": ["to Paris", "to the coast", "overseas", "up north"]
+  }
+}

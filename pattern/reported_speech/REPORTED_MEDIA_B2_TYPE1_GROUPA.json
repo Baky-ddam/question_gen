@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_MEDIA_B2_TYPE1_GROUPA",
+  "focus": "reported_speech_announced",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {MEDIA_SOURCE} announced that {SUBJ} ____ {MEDIA_CONTENT}.",
+  "example": "The network announced that they would broadcast the event live.",
+  "explanation": "In media contexts, 'announced' is common. 'Will broadcast' becomes 'would broadcast' in reported speech.",
+  "chunks": {
+    "MEDIA_SOURCE": ["network", "station", "channel", "broadcaster"],
+    "SUBJ": ["they", "the producers", "the team", "the organizers"],
+    "MEDIA_CONTENT": ["broadcast the event live", "air the documentary next week", "launch the new program", "cover the ceremony"],
+    "VERB": {
+      "would broadcast": {
+        "correct_forms": ["would broadcast"],
+        "wrong_forms": ["will broadcast", "could broadcast", "are broadcasting"],
+        "objects": [],
+        "distractor": "contradict"
+      },
+      "would launch": {
+        "correct_forms": ["would launch"],
+        "wrong_forms": ["will launch", "could launch", "are launching"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

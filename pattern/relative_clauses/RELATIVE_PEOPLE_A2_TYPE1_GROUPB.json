@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PEOPLE_A2_TYPE1_GROUPB",
+  "focus": "relative_clause_that_person",
+  "level": "A2",
+  "domain": "people",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "I know the {PERSON} ____ {ACTION}.",
+  "example": "I know the man that fixed my car.",
+  "explanation": "We can use 'that' instead of 'who' when talking about people. 'That' is more informal.",
+  "chunks": {
+    "PERSON": ["man", "woman", "student", "person"],
+    "ACTION": ["fixed my car", "won the prize", "wrote this book", "made this cake"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["which", "where", "what"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

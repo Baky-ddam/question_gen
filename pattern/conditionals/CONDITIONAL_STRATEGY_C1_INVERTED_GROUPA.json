@@ -1,0 +1,25 @@
+{
+  "pattern_id": "CONDITIONAL_STRATEGY_C1_INVERTED_GROUPA",
+  "focus": "conditional_inverted_strategy",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the executives {PAST_ACTION}, the outcome would have {PAST_RESULT}.",
+  "example": "Had the executives heeded the warning signs, the outcome would have been far more favorable.",
+  "explanation": "Inverted conditional for strategic hindsight. 'Had the executives heeded' = 'If the executives had heeded'.",
+  "chunks": {
+    "PAST_ACTION": ["heeded the warning signs", "acted on the intelligence", "responded to the signals", "addressed the vulnerabilities"],
+    "PAST_RESULT": ["been far more favorable", "been dramatically different", "exceeded expectations", "protected stakeholder value"],
+    "VERB": {
+      "Had": {
+        "correct_forms": ["Had"],
+        "wrong_forms": ["If", "Have", "Having"],
+        "objects": [],
+        "distractor": "disregard"
+      }
+    }
+  }
+}

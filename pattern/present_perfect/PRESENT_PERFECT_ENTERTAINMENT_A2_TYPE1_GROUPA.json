@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ENTERTAINMENT_A2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "entertainment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {EXPERIENCE_MARKER}.",
+  "example": "We have seen this movie before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about entertainment experiences.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "EXPERIENCE_MARKER": [
+      "before",
+      "many times",
+      "several times",
+      "recently"
+    ],
+    "VERB": {
+      "see": {
+        "correct_forms": [
+          "have seen"
+        ],
+        "wrong_forms": [
+          "has seen",
+          "had seen",
+          "saw"
+        ],
+        "objects": [
+          "this movie",
+          "that show",
+          "the concert",
+          "the performance"
+        ],
+        "distractor": "skip"
+      },
+      "watch": {
+        "correct_forms": [
+          "have watched"
+        ],
+        "wrong_forms": [
+          "has watched",
+          "had watched",
+          "watched"
+        ],
+        "objects": [
+          "this series",
+          "the documentary",
+          "live TV",
+          "the musical"
+        ],
+        "distractor": "neglect"
+      },
+      "attend": {
+        "correct_forms": [
+          "have attended"
+        ],
+        "wrong_forms": [
+          "has attended",
+          "had attended",
+          "attended"
+        ],
+        "objects": [
+          "a concert",
+          "a festival",
+          "a theater show",
+          "a live event"
+        ],
+        "distractor": "abandon"
+      },
+      "enjoy": {
+        "correct_forms": [
+          "have enjoyed"
+        ],
+        "wrong_forms": [
+          "has enjoyed",
+          "had enjoyed",
+          "enjoyed"
+        ],
+        "objects": [
+          "the music",
+          "the entertainment",
+          "the show",
+          "the experience"
+        ],
+        "distractor": "waste"
+      }
+    }
+  }
+}

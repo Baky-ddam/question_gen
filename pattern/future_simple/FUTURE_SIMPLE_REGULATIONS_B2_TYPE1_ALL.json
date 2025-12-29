@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_REGULATIONS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "regulations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "By {FUTURE_TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "By next year, the government will enforce stricter environmental regulations.",
+  "explanation": "Future simple with 'By + time' for regulatory predictions. Use 'will + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["The government", "Regulators", "Authorities", "Policymakers", "The agency", "Officials"],
+    "VERB": {
+      "enforce": {
+        "correct_forms": ["will enforce"],
+        "wrong_forms": ["enforces", "is going to enforce", "would enforce"],
+        "objects": ["stricter regulations", "new rules", "compliance standards"],
+        "distractor": "circumvent"
+      },
+      "introduce": {
+        "correct_forms": ["will introduce"],
+        "wrong_forms": ["introduces", "is going to introduce", "would introduce"],
+        "objects": ["new policies", "legislation", "guidelines"],
+        "distractor": "disregard"
+      },
+      "require": {
+        "correct_forms": ["will require"],
+        "wrong_forms": ["requires", "is going to require", "would require"],
+        "objects": ["full compliance", "transparency", "regular reporting"],
+        "distractor": "overlook"
+      },
+      "implement": {
+        "correct_forms": ["will implement"],
+        "wrong_forms": ["implements", "is going to implement", "would implement"],
+        "objects": ["safety standards", "environmental measures", "new protocols"],
+        "distractor": "impede"
+      }
+    },
+    "FUTURE_TIME": ["next year", "2026", "the next quarter", "six months", "the end of the year", "January"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pattern_id": "CONDITIONAL_ECONOMICS_C1_INVERTED_GROUPA",
+  "focus": "conditional_inverted_economic",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the policymakers {PAST_ACTION}, the economic trajectory would have {PAST_RESULT}.",
+  "example": "Had the policymakers implemented fiscal stimulus, the economic trajectory would have been more positive.",
+  "explanation": "Inverted conditional for economic policy analysis. 'Had the policymakers implemented' = 'If the policymakers had implemented'.",
+  "chunks": {
+    "PAST_ACTION": ["implemented fiscal stimulus", "coordinated their response", "addressed structural issues", "reformed the system"],
+    "PAST_RESULT": ["been more positive", "been fundamentally different", "avoided contraction", "maintained stability"],
+    "VERB": {
+      "Had": {
+        "correct_forms": ["Had"],
+        "wrong_forms": ["If", "Have", "Having"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

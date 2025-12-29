@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_READING_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "reading",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "We can read books.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "read": {
+        "correct_forms": [
+          "can read"
+        ],
+        "wrong_forms": [
+          "could read",
+          "must read",
+          "should read"
+        ],
+        "distractor": "ignore",
+        "objects": [
+          "books",
+          "magazines",
+          "newspapers"
+        ]
+      },
+      "understand": {
+        "correct_forms": [
+          "can understand"
+        ],
+        "wrong_forms": [
+          "could understand",
+          "must understand",
+          "should understand"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "stories",
+          "instructions",
+          "texts"
+        ]
+      },
+      "spell": {
+        "correct_forms": [
+          "can spell"
+        ],
+        "wrong_forms": [
+          "could spell",
+          "must spell",
+          "should spell"
+        ],
+        "distractor": "hate",
+        "objects": [
+          "difficult words",
+          "names",
+          "long words"
+        ]
+      },
+      "pronounce": {
+        "correct_forms": [
+          "can pronounce"
+        ],
+        "wrong_forms": [
+          "could pronounce",
+          "must pronounce",
+          "should pronounce"
+        ],
+        "distractor": "avoid",
+        "objects": [
+          "new words",
+          "foreign words",
+          "names"
+        ]
+      }
+    }
+  }
+}

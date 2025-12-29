@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_MUST_WORKPLACE_B1_TYPE1_ALL",
+  "focus": "modal_must",
+  "level": "B1",
+  "domain": "workplace",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.",
+  "example": "Employees must wear badges at all times.",
+  "explanation": "Use 'must' + base verb to express obligation or requirement. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "REQUIREMENT": [
+      "at all times",
+      "during work hours",
+      "according to policy",
+      "as required"
+    ],
+    "VERB": {
+      "wear": {
+        "correct_forms": [
+          "must wear"
+        ],
+        "wrong_forms": [
+          "should wear",
+          "can wear",
+          "have to wear"
+        ],
+        "objects": [
+          "ID badges",
+          "safety equipment",
+          "proper uniforms"
+        ],
+        "distractor": "abandon"
+      },
+      "follow": {
+        "correct_forms": [
+          "must follow"
+        ],
+        "wrong_forms": [
+          "should follow",
+          "can follow",
+          "have to follow"
+        ],
+        "objects": [
+          "company policies",
+          "safety procedures",
+          "workplace rules"
+        ],
+        "distractor": "dismiss"
+      },
+      "report": {
+        "correct_forms": [
+          "must report"
+        ],
+        "wrong_forms": [
+          "should report",
+          "can report",
+          "have to report"
+        ],
+        "objects": [
+          "incidents immediately",
+          "safety hazards",
+          "any violations"
+        ],
+        "distractor": "overlook"
+      },
+      "complete": {
+        "correct_forms": [
+          "must complete"
+        ],
+        "wrong_forms": [
+          "should complete",
+          "can complete",
+          "have to complete"
+        ],
+        "objects": [
+          "training sessions",
+          "required paperwork",
+          "assigned tasks"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

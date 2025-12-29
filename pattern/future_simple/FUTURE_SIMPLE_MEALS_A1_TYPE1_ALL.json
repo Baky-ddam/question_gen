@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_MEALS_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "meals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will eat dinner later.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for predictions and plans about meals.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "eat": {
+        "correct_forms": ["will eat"],
+        "wrong_forms": ["eat", "is going to eat", "would eat"],
+        "objects": ["breakfast", "lunch", "dinner"],
+        "distractor": "skip"
+      },
+      "cook": {
+        "correct_forms": ["will cook"],
+        "wrong_forms": ["cooks", "is going to cook", "would cook"],
+        "objects": ["pasta", "rice", "soup"],
+        "distractor": "avoid"
+      },
+      "drink": {
+        "correct_forms": ["will drink"],
+        "wrong_forms": ["drinks", "is going to drink", "would drink"],
+        "objects": ["coffee", "tea", "juice"],
+        "distractor": "waste"
+      },
+      "order": {
+        "correct_forms": ["will order"],
+        "wrong_forms": ["orders", "is going to order", "would order"],
+        "objects": ["pizza", "a burger", "food"],
+        "distractor": "cancel"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "later", "tonight", "next week"]
+  }
+}

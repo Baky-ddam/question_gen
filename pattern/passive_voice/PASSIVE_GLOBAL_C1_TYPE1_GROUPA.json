@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_GLOBAL_C1_TYPE1_GROUPA",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "global_affairs",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "International agreements have been negotiated by world leaders to combat climate change.",
+  "explanation": "Use 'have been' + past participle with plural subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["international agreements", "diplomatic initiatives", "multilateral frameworks", "peacekeeping operations", "humanitarian programs", "trade partnerships"],
+    "AGENT": ["world leaders", "the United Nations", "diplomatic envoys", "international coalitions", "global organizations", "member states"],
+    "PURPOSE": ["combat climate change", "promote regional stability", "address humanitarian crises", "foster economic development", "strengthen international cooperation", "resolve territorial disputes"],
+    "VERB": {
+      "negotiate": {
+        "correct_forms": ["have been negotiated"],
+        "wrong_forms": ["has been negotiated", "were negotiated", "are negotiated"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "establish": {
+        "correct_forms": ["have been established"],
+        "wrong_forms": ["has been established", "were established", "are established"],
+        "objects": [],
+        "distractor": "dissolved"
+      },
+      "deploy": {
+        "correct_forms": ["have been deployed"],
+        "wrong_forms": ["has been deployed", "were deployed", "are deployed"],
+        "objects": [],
+        "distractor": "withdrawn"
+      },
+      "implement": {
+        "correct_forms": ["have been implemented"],
+        "wrong_forms": ["has been implemented", "were implemented", "are implemented"],
+        "objects": [],
+        "distractor": "suspended"
+      }
+    }
+  }
+}

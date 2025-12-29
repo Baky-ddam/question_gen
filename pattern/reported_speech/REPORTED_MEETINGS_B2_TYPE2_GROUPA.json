@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_MEETINGS_B2_TYPE2_GROUPA",
+  "focus": "reported_speech_reminded",
+  "level": "B2",
+  "domain": "meetings",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The secretary reminded {AUDIENCE} that {SUBJ} ____ {REMINDER}.",
+  "example": "The secretary reminded everyone that they had to submit reports by Monday.",
+  "explanation": "The verb 'reminded' introduces information. 'Have to' becomes 'had to' in reported speech.",
+  "chunks": {
+    "AUDIENCE": ["everyone", "the attendees", "the participants", "all members"],
+    "SUBJ": ["they", "we", "all departments", "the teams"],
+    "REMINDER": ["to submit reports by Monday", "to complete the survey", "to attend the training", "to update their records"],
+    "VERB": {
+      "had to submit": {
+        "correct_forms": ["had to submit"],
+        "wrong_forms": ["have to submit", "must submit", "should submit"],
+        "objects": [],
+        "distractor": "neglect"
+      },
+      "had to complete": {
+        "correct_forms": ["had to complete"],
+        "wrong_forms": ["have to complete", "must complete", "should complete"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

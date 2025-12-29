@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_PERFECT_BIOTECHNOLOGY_C1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "biotechnology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPACT}.",
+  "example": "The geneticists have sequenced novel therapeutic targets, which accelerates the development of personalized medicine.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' for biotechnology breakthroughs. C1 level features impact clauses showing scientific implications.",
+  "chunks": {
+    "SUBJ": [
+      "the geneticists",
+      "the bioengineers",
+      "the molecular biologists",
+      "the research teams"
+    ],
+    "IMPACT": [
+      "accelerates the development of personalized medicine",
+      "promises to revolutionize therapeutic interventions",
+      "opens unprecedented possibilities for gene therapy",
+      "transforms our approach to hereditary diseases",
+      "enables precision medicine at scale"
+    ],
+    "VERB": {
+      "sequence": {
+        "correct_forms": [
+          "have sequenced"
+        ],
+        "wrong_forms": [
+          "has sequenced",
+          "had sequenced",
+          "sequenced"
+        ],
+        "objects": [
+          "novel therapeutic targets",
+          "previously uncharacterized genomes",
+          "complex protein structures",
+          "disease-associated genetic variants"
+        ],
+        "distractor": "obliterate"
+      },
+      "engineer": {
+        "correct_forms": [
+          "have engineered"
+        ],
+        "wrong_forms": [
+          "has engineered",
+          "had engineered",
+          "engineered"
+        ],
+        "objects": [
+          "targeted gene delivery systems",
+          "synthetic biological circuits",
+          "modified cellular pathways",
+          "novel biosynthetic platforms"
+        ],
+        "distractor": "forsake"
+      },
+      "validate": {
+        "correct_forms": [
+          "have validated"
+        ],
+        "wrong_forms": [
+          "has validated",
+          "had validated",
+          "validated"
+        ],
+        "objects": [
+          "promising drug candidates",
+          "innovative diagnostic biomarkers",
+          "experimental treatment protocols",
+          "breakthrough therapeutic mechanisms"
+        ],
+        "distractor": "repudiate"
+      },
+      "optimize": {
+        "correct_forms": [
+          "have optimized"
+        ],
+        "wrong_forms": [
+          "has optimized",
+          "had optimized",
+          "optimized"
+        ],
+        "objects": [
+          "CRISPR gene-editing protocols",
+          "recombinant protein expression",
+          "cell culture methodologies",
+          "biopharmaceutical manufacturing processes"
+        ],
+        "distractor": "nullify"
+      }
+    }
+  }
+}

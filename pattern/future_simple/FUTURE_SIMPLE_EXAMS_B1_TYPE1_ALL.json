@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_EXAMS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "exams",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If I study hard, I will pass the exam.",
+  "explanation": "Future simple uses 'will + base verb' in the main clause of first conditional sentences. The condition uses present simple.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the student"],
+    "VERB": {
+      "pass": {
+        "correct_forms": ["will pass"],
+        "wrong_forms": ["passes", "is going to pass", "would pass"],
+        "objects": ["the exam", "the test", "the course"],
+        "distractor": "fail"
+      },
+      "get": {
+        "correct_forms": ["will get"],
+        "wrong_forms": ["gets", "is going to get", "would get"],
+        "objects": ["good grades", "a high score", "excellent results"],
+        "distractor": "lose"
+      },
+      "finish": {
+        "correct_forms": ["will finish"],
+        "wrong_forms": ["finishes", "is going to finish", "would finish"],
+        "objects": ["early", "on time", "successfully"],
+        "distractor": "abandon"
+      },
+      "succeed": {
+        "correct_forms": ["will succeed"],
+        "wrong_forms": ["succeeds", "is going to succeed", "would succeed"],
+        "objects": ["in the exam", "in the course", "academically"],
+        "distractor": "fail"
+      }
+    },
+    "CONDITION": ["I study hard", "she prepares well", "we practice daily", "they focus more", "he revises regularly", "you start early"]
+  }
+}

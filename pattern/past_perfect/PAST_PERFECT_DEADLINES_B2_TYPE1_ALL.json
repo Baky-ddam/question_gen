@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_DEADLINES_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "deadlines",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.",
+  "example": "After the team had met the deadline, they celebrated their achievement.",
+  "explanation": "Use 'had' + past participle after 'after' to show the first action was completed before the second action began.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the team", "the department", "everyone", "the staff"],
+    "SUBSEQUENT_ACTION": ["they celebrated their achievement", "the pressure lifted", "management praised the effort", "the next phase began", "rewards were given"],
+    "VERB": {
+      "meet": {
+        "correct_forms": ["had met"],
+        "wrong_forms": ["have met", "met", "was meeting"],
+        "objects": ["the deadline", "all targets", "every milestone", "the requirements"],
+        "distractor": "miss"
+      },
+      "submit": {
+        "correct_forms": ["had submitted"],
+        "wrong_forms": ["has submitted", "submitted", "was submitting"],
+        "objects": ["everything on time", "all documents", "the final version", "the proposal"],
+        "distractor": "withdraw"
+      },
+      "exceed": {
+        "correct_forms": ["had exceeded"],
+        "wrong_forms": ["have exceeded", "exceeded", "was exceeding"],
+        "objects": ["expectations", "the quota", "performance targets", "all goals"],
+        "distractor": "fall short of"
+      },
+      "accomplish": {
+        "correct_forms": ["had accomplished"],
+        "wrong_forms": ["has accomplished", "accomplished", "was accomplishing"],
+        "objects": ["the objectives", "what seemed impossible", "remarkable results", "their mission"],
+        "distractor": "fail"
+      }
+    }
+  }
+}

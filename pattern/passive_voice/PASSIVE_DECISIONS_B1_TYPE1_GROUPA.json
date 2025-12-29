@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_DECISIONS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The rules were approved by the board.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the rules", "the changes", "the proposals", "the recommendations", "the plans", "the guidelines"],
+    "AGENT": ["the board", "senior management", "the committee", "the directors", "all members", "the leadership team"],
+    "VERB": {
+      "approve": {
+        "correct_forms": ["were approved"],
+        "wrong_forms": ["was approved", "are approved", "have been approved"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "accept": {
+        "correct_forms": ["were accepted"],
+        "wrong_forms": ["was accepted", "are accepted", "have been accepted"],
+        "objects": [],
+        "distractor": "dismissed"
+      },
+      "discuss": {
+        "correct_forms": ["were discussed"],
+        "wrong_forms": ["was discussed", "are discussed", "have been discussed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "implement": {
+        "correct_forms": ["were implemented"],
+        "wrong_forms": ["was implemented", "are implemented", "have been implemented"],
+        "objects": [],
+        "distractor": "cancelled"
+      }
+    }
+  }
+}

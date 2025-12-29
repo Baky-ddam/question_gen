@@ -1,0 +1,45 @@
+{
+  "pattern_id": "PHRASAL_STRATEGY_C1_TYPE1_GROUPB",
+  "focus": "phrasal_verb_three_word",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "Given the {COMPLEXITY}, {SUBJ} ____ {NOUN}, a move that {STRATEGIC_OUTCOME}.",
+  "example": "Given the market volatility, the CEO follows through on the restructuring plan, a move that stabilizes operations.",
+  "explanation": "These sophisticated phrasal verbs describe strategic planning and execution. They express persistence, innovation, and thorough analysis.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the CEO", "the executive team"],
+    "COMPLEXITY": ["market volatility", "competitive pressure", "regulatory uncertainty", "technological disruption", "geopolitical tensions"],
+    "NOUN": ["the restructuring plan", "the expansion strategy", "the innovation initiative", "the transformation agenda"],
+    "STRATEGIC_OUTCOME": ["stabilizes operations", "secures market position", "drives sustainable growth", "mitigates systemic risks", "enhances competitive advantage"],
+    "VERB": {
+      "follow through on": {
+        "correct_forms": ["follows through on"],
+        "wrong_forms": ["follows through with", "follows on on", "follows up on"],
+        "objects": [],
+        "distractor": "abandons"
+      },
+      "think through": {
+        "correct_forms": ["thinks through"],
+        "wrong_forms": ["thinks on", "thinks off", "thinks over"],
+        "objects": [],
+        "distractor": "overlooks"
+      },
+      "come up with": {
+        "correct_forms": ["comes up with"],
+        "wrong_forms": ["comes up to", "comes on with", "comes off with"],
+        "objects": [],
+        "distractor": "rejects"
+      },
+      "zero in on": {
+        "correct_forms": ["zeros in on"],
+        "wrong_forms": ["zeros on on", "zeros off on", "zeros up on"],
+        "objects": [],
+        "distractor": "disregards"
+      }
+    }
+  }
+}

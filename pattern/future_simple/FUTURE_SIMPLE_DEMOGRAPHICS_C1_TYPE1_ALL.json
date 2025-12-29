@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_DEMOGRAPHICS_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "demographic_shifts",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Demographers project that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Demographers project that urbanization rates will surge as rural populations migrate to metropolitan areas.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about demographic changes.",
+  "chunks": {
+    "SUBJ": ["urbanization rates", "aging populations", "migration patterns", "workforce demographics", "population density", "birth rates"],
+    "VERB": {
+      "surge": {
+        "correct_forms": ["will surge"],
+        "wrong_forms": ["surges", "is going to surge", "would surge"],
+        "objects": ["in developing regions", "dramatically", "beyond projections"],
+        "distractor": "rescind"
+      },
+      "decline": {
+        "correct_forms": ["will decline"],
+        "wrong_forms": ["declines", "is going to decline", "would decline"],
+        "objects": ["in industrialized nations", "precipitously", "over coming decades"],
+        "distractor": "nullify"
+      },
+      "shift": {
+        "correct_forms": ["will shift"],
+        "wrong_forms": ["shifts", "is going to shift", "would shift"],
+        "objects": ["fundamentally", "toward new equilibria", "in unprecedented ways"],
+        "distractor": "obliterate"
+      },
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["social structures", "economic dependencies", "policy priorities"],
+        "distractor": "countermand"
+      }
+    },
+    "TREND": ["rural populations migrate to metropolitan areas", "fertility rates continue declining", "life expectancy increases", "economic opportunities concentrate", "climate conditions shift", "healthcare systems improve"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_ANALYSIS_B2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_analysis",
+  "level": "B2",
+  "domain": "analysis",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {ANALYSIS} ____ {METHOD} reveals {FINDING}.",
+  "example": "The report which compared different approaches reveals significant differences.",
+  "explanation": "We use 'which' for analytical work. The clause explains the methodology or scope of the analysis.",
+  "chunks": {
+    "ANALYSIS": ["report", "assessment", "evaluation", "review"],
+    "METHOD": ["compared different approaches", "examined multiple factors", "synthesized various sources", "integrated diverse perspectives"],
+    "FINDING": ["significant differences", "unexpected patterns", "clear trends", "important correlations"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "distort"
+      }
+    }
+  }
+}

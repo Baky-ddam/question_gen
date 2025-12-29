@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_TECHNOLOGY_B2_TYPE1_GROUPA",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Security updates are installed because cyber threats are increasing.",
+  "explanation": "Use 'are' + past participle with plural subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["security updates", "new features", "software patches", "system upgrades", "digital tools", "automation processes"],
+    "REASON": ["cyber threats are increasing", "efficiency needs to improve", "user demands are growing", "technology is evolving rapidly", "competition is intensifying", "data protection is essential"],
+    "VERB": {
+      "install": {
+        "correct_forms": ["are installed"],
+        "wrong_forms": ["is installed", "were installed", "have been installed"],
+        "objects": [],
+        "distractor": "removed"
+      },
+      "develop": {
+        "correct_forms": ["are developed"],
+        "wrong_forms": ["is developed", "were developed", "have been developed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "deploy": {
+        "correct_forms": ["are deployed"],
+        "wrong_forms": ["is deployed", "were deployed", "have been deployed"],
+        "objects": [],
+        "distractor": "withdrawn"
+      },
+      "integrate": {
+        "correct_forms": ["are integrated"],
+        "wrong_forms": ["is integrated", "were integrated", "have been integrated"],
+        "objects": [],
+        "distractor": "isolated"
+      }
+    }
+  }
+}

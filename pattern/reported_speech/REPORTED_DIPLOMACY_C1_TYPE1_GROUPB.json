@@ -1,0 +1,34 @@
+{
+  "pattern_id": "REPORTED_DIPLOMACY_C1_TYPE1_GROUPB",
+  "focus": "reported_speech_conceded_acknowledged",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {OFFICIAL} {REPORTING_VERB} that the {ENTITY} ____ {DIPLOMATIC_REALITY}, though {QUALIFICATION}.",
+  "example": "The minister conceded that the government had underestimated the complexity, though progress was being made.",
+  "explanation": "Verbs like 'conceded' and 'acknowledged' admit difficult truths. Complex tense relationships in formal contexts.",
+  "chunks": {
+    "OFFICIAL": ["minister", "secretary", "chancellor", "negotiator"],
+    "REPORTING_VERB": ["conceded", "acknowledged", "admitted", "recognized"],
+    "ENTITY": ["government", "administration", "delegation", "coalition"],
+    "DIPLOMATIC_REALITY": ["underestimated the complexity", "misjudged the opposition", "overlooked key factors", "miscalculated the timing"],
+    "QUALIFICATION": ["progress was being made", "efforts were continuing", "solutions were emerging", "dialogues remained open"],
+    "VERB": {
+      "had underestimated": {
+        "correct_forms": ["had underestimated"],
+        "wrong_forms": ["underestimated", "has underestimated", "was underestimating"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had misjudged": {
+        "correct_forms": ["had misjudged"],
+        "wrong_forms": ["misjudged", "has misjudged", "was misjudging"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

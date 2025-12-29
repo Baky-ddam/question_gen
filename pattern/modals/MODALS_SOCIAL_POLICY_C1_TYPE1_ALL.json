@@ -1,0 +1,109 @@
+{
+  "pattern_id": "MODALS_SOCIAL_POLICY_C1_TYPE1_ALL",
+  "focus": "modal_possibility",
+  "level": "C1",
+  "domain": "social_policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might",
+    "modal_could",
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {CONTEXT}, a possibility that {BROADER_IMPACT}.",
+  "example": "Social interventions might alleviate systemic poverty through targeted programs, a possibility that could transform vulnerable communities.",
+  "explanation": "Use modals (might/could/should) to express social policy possibilities and reform recommendations. The appositive clause highlights transformative potential.",
+  "chunks": {
+    "SUBJ": [
+      "Social welfare agencies",
+      "Community development organizations",
+      "Policy intervention specialists",
+      "Social reform advocates",
+      "Welfare system administrators",
+      "Social policy researchers"
+    ],
+    "CONTEXT": [
+      "through comprehensive intervention strategies",
+      "via evidence-based program implementation",
+      "through targeted resource redistribution",
+      "using community-centered development approaches"
+    ],
+    "BROADER_IMPACT": [
+      "would fundamentally address structural inequalities",
+      "could transform marginalized community outcomes",
+      "might establish sustainable social safety frameworks",
+      "would redefine social welfare effectiveness standards"
+    ],
+    "VERB": {
+      "alleviate": {
+        "correct_forms": [
+          "might alleviate"
+        ],
+        "wrong_forms": [
+          "could alleviates",
+          "might alleviating",
+          "should alleviated"
+        ],
+        "objects": [
+          "systemic socioeconomic disparities",
+          "entrenched generational poverty",
+          "persistent housing insecurity",
+          "chronic food access inequities"
+        ],
+        "distractor": "nullify"
+      },
+      "exacerbate": {
+        "correct_forms": [
+          "could exacerbate"
+        ],
+        "wrong_forms": [
+          "might exacerbates",
+          "could exacerbating",
+          "should exacerbated"
+        ],
+        "objects": [
+          "existing social stratification",
+          "vulnerable population marginalization",
+          "structural opportunity barriers",
+          "intergenerational disadvantage cycles"
+        ],
+        "distractor": "abrogate"
+      },
+      "reform": {
+        "correct_forms": [
+          "should reform"
+        ],
+        "wrong_forms": [
+          "could reforms",
+          "should reforming",
+          "might reformed"
+        ],
+        "objects": [
+          "outdated welfare distribution systems",
+          "ineffective social support mechanisms",
+          "inequitable resource allocation frameworks",
+          "fragmented community service delivery"
+        ],
+        "distractor": "rescind"
+      },
+      "transform": {
+        "correct_forms": [
+          "could transform"
+        ],
+        "wrong_forms": [
+          "might transforms",
+          "could transforming",
+          "should transformed"
+        ],
+        "objects": [
+          "marginalized neighborhood conditions",
+          "underserved population outcomes",
+          "disadvantaged community infrastructure",
+          "at-risk youth development trajectories"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

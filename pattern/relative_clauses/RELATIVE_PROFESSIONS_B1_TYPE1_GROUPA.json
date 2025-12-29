@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_PROFESSIONS_B1_TYPE1_GROUPA",
+  "focus": "relative_clause_who_profession",
+  "level": "B1",
+  "domain": "professions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PROFESSIONAL} ____ {ACTION} received {RECOGNITION}.",
+  "example": "The scientist who discovered the vaccine received a Nobel Prize.",
+  "explanation": "We use 'who' for people in professional contexts. The relative clause gives important information about their achievements.",
+  "chunks": {
+    "PROFESSIONAL": ["scientist", "doctor", "engineer", "author"],
+    "ACTION": ["discovered the vaccine", "saved many lives", "designed the bridge", "wrote the bestseller"],
+    "RECOGNITION": ["a Nobel Prize", "an award", "international recognition", "great praise"],
+    "VERB": {
+      "who": {
+        "correct_forms": ["who"],
+        "wrong_forms": ["which", "where", "whom"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

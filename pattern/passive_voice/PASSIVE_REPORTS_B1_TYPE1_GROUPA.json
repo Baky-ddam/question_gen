@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_REPORTS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "reports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The documents were prepared by the assistant.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the documents", "the reports", "the files", "the records", "the forms", "the applications"],
+    "AGENT": ["the assistant", "the secretary", "the team", "the manager", "the staff", "the employees"],
+    "VERB": {
+      "prepare": {
+        "correct_forms": ["were prepared"],
+        "wrong_forms": ["was prepared", "are prepared", "have been prepared"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "review": {
+        "correct_forms": ["were reviewed"],
+        "wrong_forms": ["was reviewed", "are reviewed", "have been reviewed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "submit": {
+        "correct_forms": ["were submitted"],
+        "wrong_forms": ["was submitted", "are submitted", "have been submitted"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "approve": {
+        "correct_forms": ["were approved"],
+        "wrong_forms": ["was approved", "are approved", "have been approved"],
+        "objects": [],
+        "distractor": "denied"
+      }
+    }
+  }
+}

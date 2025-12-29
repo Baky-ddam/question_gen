@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_EVENTS_B1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_event",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {EVENT} ____ {DESCRIPTION} attracted {OUTCOME}.",
+  "example": "The festival which was held last month attracted thousands of visitors.",
+  "explanation": "We use 'which' for events and occasions. The relative clause provides details about the event.",
+  "chunks": {
+    "EVENT": ["festival", "conference", "exhibition", "ceremony"],
+    "DESCRIPTION": ["was held last month", "took place downtown", "celebrated local culture", "honored the winners"],
+    "OUTCOME": ["thousands of visitors", "many experts", "international attention", "widespread praise"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whose"],
+        "objects": [],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

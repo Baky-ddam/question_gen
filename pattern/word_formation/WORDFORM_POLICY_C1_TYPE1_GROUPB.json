@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_POLICY_C1_TYPE1_GROUPB",
+  "focus": "suffix_ism_formation",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The rise of ____ has fundamentally altered the political landscape across multiple continents.",
+  "example": "The rise of nationalism has fundamentally altered the political landscape across multiple continents.",
+  "explanation": "The suffix '-ism' transforms nouns/adjectives into nouns indicating doctrines, beliefs, or movements.",
+  "chunks": {
+    "NOUN": ["continents", "regions", "nations", "democracies"],
+    "VERB": {
+      "nationalism": {
+        "correct_forms": ["nationalism"],
+        "wrong_forms": ["national", "nationalize", "nationally"],
+        "objects": [],
+        "distractor": "internationalism"
+      },
+      "protectionism": {
+        "correct_forms": ["protectionism"],
+        "wrong_forms": ["protect", "protection", "protective"],
+        "objects": [],
+        "distractor": "liberalization"
+      },
+      "federalism": {
+        "correct_forms": ["federalism"],
+        "wrong_forms": ["federal", "federate", "federally"],
+        "objects": [],
+        "distractor": "centralism"
+      },
+      "pluralism": {
+        "correct_forms": ["pluralism"],
+        "wrong_forms": ["plural", "pluralize", "plurality"],
+        "objects": [],
+        "distractor": "authoritarianism"
+      }
+    }
+  }
+}

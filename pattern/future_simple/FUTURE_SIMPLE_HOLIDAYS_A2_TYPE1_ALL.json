@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_HOLIDAYS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "holidays",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {PLACE}.",
+  "example": "We will go to the beach next holiday.",
+  "explanation": "Future simple uses 'will + base verb' for holiday plans. Add time and place for A2 complexity.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "go": {
+        "correct_forms": ["will go"],
+        "wrong_forms": ["goes", "is going to go", "would go"],
+        "objects": ["to the beach", "abroad", "on vacation"],
+        "distractor": "cancel"
+      },
+      "spend": {
+        "correct_forms": ["will spend"],
+        "wrong_forms": ["spends", "is going to spend", "would spend"],
+        "objects": ["the holidays", "a week", "time"],
+        "distractor": "waste"
+      },
+      "enjoy": {
+        "correct_forms": ["will enjoy"],
+        "wrong_forms": ["enjoys", "is going to enjoy", "would enjoy"],
+        "objects": ["the break", "the vacation", "the time off"],
+        "distractor": "hate"
+      },
+      "relax": {
+        "correct_forms": ["will relax"],
+        "wrong_forms": ["relaxes", "is going to relax", "would relax"],
+        "objects": ["completely", "every day", "a lot"],
+        "distractor": "skip"
+      }
+    },
+    "FUTURE_TIME": ["next holiday", "next summer", "in December", "next month"],
+    "PLACE": ["at the beach", "in the mountains", "at home", "with family"]
+  }
+}

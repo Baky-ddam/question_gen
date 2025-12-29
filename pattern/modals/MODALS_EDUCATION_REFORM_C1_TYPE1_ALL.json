@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_EDUCATION_REFORM_C1_TYPE1_ALL",
+  "focus": "modal_speculation",
+  "level": "C1",
+  "domain": "education_reform",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could",
+    "modal_might",
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPLICATION}.",
+  "example": "Educational reforms could enhance student engagement, which might address persistent achievement disparities.",
+  "explanation": "Use modals (could/might/should) to express possibilities and recommendations in education reform contexts. The relative clause adds consequential implications.",
+  "chunks": {
+    "SUBJ": [
+      "Educational policymakers",
+      "Curriculum developers",
+      "Academic administrators",
+      "Pedagogical researchers",
+      "School reform advocates",
+      "Educational governance bodies"
+    ],
+    "IMPLICATION": [
+      "would fundamentally reshape learning outcomes",
+      "could address longstanding educational inequities",
+      "might redefine pedagogical effectiveness standards",
+      "would transform institutional learning cultures"
+    ],
+    "VERB": {
+      "enhance": {
+        "correct_forms": [
+          "could enhance"
+        ],
+        "wrong_forms": [
+          "might enhances",
+          "could enhancing",
+          "should enhanced"
+        ],
+        "objects": [
+          "student learning outcomes",
+          "pedagogical effectiveness measures",
+          "curriculum delivery standards",
+          "educational accessibility frameworks"
+        ],
+        "distractor": "forsake"
+      },
+      "challenge": {
+        "correct_forms": [
+          "might challenge"
+        ],
+        "wrong_forms": [
+          "could challenges",
+          "might challenging",
+          "should challenged"
+        ],
+        "objects": [
+          "traditional assessment paradigms",
+          "established pedagogical conventions",
+          "institutional resistance to change",
+          "entrenched educational hierarchies"
+        ],
+        "distractor": "obliterate"
+      },
+      "modernize": {
+        "correct_forms": [
+          "should modernize"
+        ],
+        "wrong_forms": [
+          "could modernizes",
+          "should modernizing",
+          "might modernized"
+        ],
+        "objects": [
+          "outdated curriculum frameworks",
+          "obsolete assessment methodologies",
+          "antiquated instructional approaches",
+          "traditional credentialing systems"
+        ],
+        "distractor": "renounce"
+      },
+      "restructure": {
+        "correct_forms": [
+          "could restructure"
+        ],
+        "wrong_forms": [
+          "might restructures",
+          "could restructuring",
+          "should restructured"
+        ],
+        "objects": [
+          "institutional governance models",
+          "resource allocation mechanisms",
+          "teacher development pathways",
+          "student support frameworks"
+        ],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

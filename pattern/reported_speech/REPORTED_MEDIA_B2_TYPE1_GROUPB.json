@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_MEDIA_B2_TYPE1_GROUPB",
+  "focus": "reported_speech_reported",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {MEDIA_SOURCE} reported that the {SUBJECT} ____ {MEDIA_CONTENT}.",
+  "example": "The newspaper reported that the minister was considering resignation.",
+  "explanation": "In media reports, 'is considering' becomes 'was considering'. Past continuous reports present continuous.",
+  "chunks": {
+    "MEDIA_SOURCE": ["newspaper", "magazine", "journal", "website"],
+    "SUBJECT": ["minister", "CEO", "chairman", "spokesperson"],
+    "MEDIA_CONTENT": ["considering resignation", "planning major changes", "reviewing the policy", "preparing a statement"],
+    "VERB": {
+      "was considering": {
+        "correct_forms": ["was considering"],
+        "wrong_forms": ["is considering", "has been considering", "would consider"],
+        "objects": [],
+        "distractor": "dispute"
+      },
+      "was planning": {
+        "correct_forms": ["was planning"],
+        "wrong_forms": ["is planning", "has been planning", "would plan"],
+        "objects": [],
+        "distractor": "refute"
+      }
+    }
+  }
+}

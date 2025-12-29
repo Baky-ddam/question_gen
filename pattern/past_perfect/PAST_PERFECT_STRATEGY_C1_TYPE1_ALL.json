@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_STRATEGY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.",
+  "example": "If the commanders had anticipated the flanking maneuver, the battle would have ended differently.",
+  "explanation": "Use 'had' + past participle in third conditional sentences to express hypothetical situations in the past that didn't happen.",
+  "chunks": {
+    "SUBJ": ["the commanders", "military strategists", "the generals", "defense planners", "the leadership", "tactical units"],
+    "RESULT_CLAUSE": ["the battle would have ended differently", "the outcome might have been reversed", "casualties could have been minimized", "victory would have been more decisive", "the campaign might have succeeded"],
+    "VERB": {
+      "anticipate": {
+        "correct_forms": ["had anticipated"],
+        "wrong_forms": ["have anticipated", "anticipated", "were anticipating"],
+        "objects": ["the flanking maneuver", "enemy movements", "the counterattack", "supply chain disruptions"],
+        "distractor": "overlook"
+      },
+      "deploy": {
+        "correct_forms": ["had deployed"],
+        "wrong_forms": ["has deployed", "deployed", "was deploying"],
+        "objects": ["reserves strategically", "forces more effectively", "defensive positions", "resources optimally"],
+        "distractor": "withdraw"
+      },
+      "secure": {
+        "correct_forms": ["had secured"],
+        "wrong_forms": ["have secured", "secured", "were securing"],
+        "objects": ["the supply lines", "strategic positions", "intelligence advantages", "vital resources"],
+        "distractor": "abandon"
+      },
+      "coordinate": {
+        "correct_forms": ["had coordinated"],
+        "wrong_forms": ["has coordinated", "coordinated", "was coordinating"],
+        "objects": ["the offensive better", "allied operations", "logistics effectively", "simultaneous attacks"],
+        "distractor": "fragment"
+      }
+    }
+  }
+}

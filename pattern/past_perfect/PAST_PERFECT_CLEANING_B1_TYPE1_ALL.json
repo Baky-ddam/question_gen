@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_CLEANING_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "cleaning",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "We had cleaned the house before the visitors arrived.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "my parents", "the cleaners"],
+    "PAST_EVENT": ["the visitors arrived", "the party started", "everyone came", "the inspection", "the weekend"],
+    "VERB": {
+      "clean": {
+        "correct_forms": ["had cleaned"],
+        "wrong_forms": ["have cleaned", "cleaned", "was cleaning"],
+        "objects": ["the house", "the kitchen", "the entire apartment", "every room"],
+        "distractor": "mess"
+      },
+      "wash": {
+        "correct_forms": ["had washed"],
+        "wrong_forms": ["has washed", "washed", "was washing"],
+        "objects": ["the dishes", "all the clothes", "the windows", "the floors"],
+        "distractor": "dirty"
+      },
+      "organize": {
+        "correct_forms": ["had organized"],
+        "wrong_forms": ["have organized", "organized", "was organizing"],
+        "objects": ["the closet", "everything", "the garage", "all the shelves"],
+        "distractor": "scatter"
+      },
+      "tidy": {
+        "correct_forms": ["had tidied"],
+        "wrong_forms": ["has tidied", "tidied", "was tidying"],
+        "objects": ["up the living room", "the bedroom", "the whole place", "up everything"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

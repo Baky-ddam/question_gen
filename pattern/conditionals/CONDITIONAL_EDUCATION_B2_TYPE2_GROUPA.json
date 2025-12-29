@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_EDUCATION_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_education",
+  "level": "B2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {EDUCATION_CONDITION}, {SUBJ} would {EDUCATION_RESULT}.",
+  "example": "If they studied abroad, they would gain international experience.",
+  "explanation": "Second conditional for educational hypotheticals. 'Studied' (past tense) in the if-clause expresses an unreal situation.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the students", "the participants"],
+    "EDUCATION_CONDITION": ["studied abroad", "attended a prestigious university", "pursued a double major", "took online courses"],
+    "EDUCATION_RESULT": ["gain international experience", "enhance their credentials", "expand their knowledge", "improve their prospects"],
+    "VERB": {
+      "studied": {
+        "correct_forms": ["studied"],
+        "wrong_forms": ["study", "would study", "have studied"],
+        "objects": [],
+        "distractor": "abandon"
+      },
+      "attended": {
+        "correct_forms": ["attended"],
+        "wrong_forms": ["attend", "would attend", "have attended"],
+        "objects": [],
+        "distractor": "skip"
+      }
+    }
+  }
+}

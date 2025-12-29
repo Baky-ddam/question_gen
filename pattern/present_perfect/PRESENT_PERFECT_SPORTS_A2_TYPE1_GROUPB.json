@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_SPORTS_A2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ already {OBJ}.",
+  "example": "She has already finished the race.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for completed sports actions. 'Already' shows completion sooner than expected.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the athlete",
+      "the player"
+    ],
+    "VERB": {
+      "finish": {
+        "correct_forms": [
+          "has finished"
+        ],
+        "wrong_forms": [
+          "have finished",
+          "had finished",
+          "finished"
+        ],
+        "objects": [
+          "the race",
+          "the marathon",
+          "the workout",
+          "training"
+        ],
+        "distractor": "abandon"
+      },
+      "score": {
+        "correct_forms": [
+          "has scored"
+        ],
+        "wrong_forms": [
+          "have scored",
+          "had scored",
+          "scored"
+        ],
+        "objects": [
+          "a goal",
+          "many points",
+          "the winning shot",
+          "in the match"
+        ],
+        "distractor": "waste"
+      },
+      "break": {
+        "correct_forms": [
+          "has broken"
+        ],
+        "wrong_forms": [
+          "have broken",
+          "had broken",
+          "broke"
+        ],
+        "objects": [
+          "the record",
+          "a new record",
+          "the school record",
+          "the world record"
+        ],
+        "distractor": "destroy"
+      },
+      "complete": {
+        "correct_forms": [
+          "has completed"
+        ],
+        "wrong_forms": [
+          "have completed",
+          "had completed",
+          "completed"
+        ],
+        "objects": [
+          "the training",
+          "the fitness program",
+          "all exercises",
+          "the challenge"
+        ],
+        "distractor": "quit"
+      }
+    }
+  }
+}

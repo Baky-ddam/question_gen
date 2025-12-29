@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_MECHANISMS_C1_TYPE1_GROUPB",
+  "focus": "relative_clause_that_mechanism",
+  "level": "C1",
+  "domain": "mechanisms",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {MECHANISM} ____ enables {PROCESS} represents {ADVANCEMENT}.",
+  "example": "The algorithm that enables real-time data processing represents a significant technological advancement.",
+  "explanation": "We use 'that' for mechanisms in defining relative clauses. The clause identifies the specific mechanism and its capabilities.",
+  "chunks": {
+    "MECHANISM": ["algorithm", "protocol", "framework", "interface"],
+    "PROCESS": ["real-time data processing", "seamless integration", "autonomous decision-making", "distributed coordination"],
+    "ADVANCEMENT": ["a significant technological advancement", "an unprecedented operational capability", "a paradigm shift in methodology", "a transformative innovation"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "impede"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_WORK_B1_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {TIME}.",
+  "example": "I look into the complaint immediately.",
+  "explanation": "Inseparable phrasal verbs keep the verb and particle together. The object always comes after the complete phrasal verb.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "TIME": ["immediately", "this week", "before the deadline", "as soon as possible", "carefully"],
+    "VERB": {
+      "look into": {
+        "correct_forms": ["look into"],
+        "wrong_forms": ["look at", "look for", "look on"],
+        "objects": ["the complaint", "the issue", "the matter", "the problem"],
+        "distractor": "dismiss"
+      },
+      "go through": {
+        "correct_forms": ["go through"],
+        "wrong_forms": ["go into", "go on", "go over"],
+        "objects": ["the documents", "the files", "the records", "the data"],
+        "distractor": "skip"
+      },
+      "deal with": {
+        "correct_forms": ["deal with"],
+        "wrong_forms": ["deal on", "deal at", "deal for"],
+        "objects": ["customers", "clients", "complaints", "requests"],
+        "distractor": "ignore"
+      },
+      "count on": {
+        "correct_forms": ["count on"],
+        "wrong_forms": ["count in", "count for", "count at"],
+        "objects": ["the team", "colleagues", "support", "cooperation"],
+        "distractor": "doubt"
+      }
+    }
+  }
+}

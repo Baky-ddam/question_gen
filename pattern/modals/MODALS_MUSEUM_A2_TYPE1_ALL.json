@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_MUSEUM_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "museum",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can visit the gallery here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission in museum settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this area",
+      "on this floor"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "can visit"
+        ],
+        "wrong_forms": [
+          "could visit",
+          "must visit",
+          "should visit"
+        ],
+        "objects": [
+          "the gallery",
+          "the exhibit",
+          "the collection",
+          "the display"
+        ],
+        "distractor": "skip"
+      },
+      "see": {
+        "correct_forms": [
+          "can see"
+        ],
+        "wrong_forms": [
+          "could see",
+          "must see",
+          "should see"
+        ],
+        "objects": [
+          "the paintings",
+          "the sculptures",
+          "the artifacts",
+          "the masterpieces"
+        ],
+        "distractor": "neglect"
+      },
+      "photograph": {
+        "correct_forms": [
+          "can photograph"
+        ],
+        "wrong_forms": [
+          "could photograph",
+          "must photograph",
+          "should photograph"
+        ],
+        "objects": [
+          "the artwork",
+          "the exhibits",
+          "the displays",
+          "the rooms"
+        ],
+        "distractor": "destroy"
+      },
+      "explore": {
+        "correct_forms": [
+          "can explore"
+        ],
+        "wrong_forms": [
+          "could explore",
+          "must explore",
+          "should explore"
+        ],
+        "objects": [
+          "the museum",
+          "the halls",
+          "the wings",
+          "the sections"
+        ],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

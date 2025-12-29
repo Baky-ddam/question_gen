@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_FOOD_A2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "I enjoy cooking dinner every evening.",
+  "explanation": "Some verbs are followed by gerunds (verb + -ing). Common verbs: enjoy, love, like, finish, keep.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["enjoy", "love", "like", "finish"],
+    "VERB": {
+      "cook": {
+        "correct_forms": ["cooking"],
+        "wrong_forms": ["to cook", "cook", "cooked"],
+        "objects": ["dinner", "breakfast", "lunch", "meals"],
+        "distractor": "burning"
+      },
+      "eat": {
+        "correct_forms": ["eating"],
+        "wrong_forms": ["to eat", "eat", "ate"],
+        "objects": ["pizza", "pasta", "salads", "snacks"],
+        "distractor": "wasting"
+      },
+      "make": {
+        "correct_forms": ["making"],
+        "wrong_forms": ["to make", "make", "made"],
+        "objects": ["sandwiches", "cakes", "cookies", "soup"],
+        "distractor": "ruining"
+      },
+      "try": {
+        "correct_forms": ["trying"],
+        "wrong_forms": ["to try", "try", "tried"],
+        "objects": ["new recipes", "new dishes", "different foods", "local cuisine"],
+        "distractor": "avoiding"
+      }
+    },
+    "TIME": ["every day", "on weekends", "in the evening", "at home"]
+  }
+}

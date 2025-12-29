@@ -1,0 +1,45 @@
+{
+  "pattern_id": "PHRASAL_POLICY_C1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_three_word",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "While {CONTEXT}, {SUBJ} ____ {NOUN}, which {IMPLICATION}.",
+  "example": "While public opinion shifts, we phase out the subsidies, which reduces fiscal burden.",
+  "explanation": "These advanced phrasal verbs are used in policy and governance contexts. They describe implementing, withdrawing, or modifying policy measures.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "policymakers"],
+    "CONTEXT": ["public opinion shifts", "economic conditions evolve", "stakeholders demand change", "evidence accumulates", "international pressure mounts"],
+    "NOUN": ["the subsidies", "the regulations", "the framework", "the initiative"],
+    "IMPLICATION": ["reduces fiscal burden", "addresses systemic issues", "realigns priorities", "strengthens governance", "enhances compliance"],
+    "VERB": {
+      "phase out": {
+        "correct_forms": ["phase out"],
+        "wrong_forms": ["phase on", "phase off", "phase in"],
+        "objects": [],
+        "distractor": "perpetuate"
+      },
+      "crack down on": {
+        "correct_forms": ["crack down on"],
+        "wrong_forms": ["crack up on", "crack off on", "crack on on"],
+        "objects": [],
+        "distractor": "tolerate"
+      },
+      "bring about": {
+        "correct_forms": ["bring about"],
+        "wrong_forms": ["bring on", "bring off", "bring in"],
+        "objects": [],
+        "distractor": "prevent"
+      },
+      "do away with": {
+        "correct_forms": ["do away with"],
+        "wrong_forms": ["do off with", "do on with", "do up with"],
+        "objects": [],
+        "distractor": "preserve"
+      }
+    }
+  }
+}

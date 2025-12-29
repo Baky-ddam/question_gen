@@ -1,0 +1,109 @@
+{
+  "pattern_id": "MODALS_HEALTHCARE_POLICY_C1_TYPE1_ALL",
+  "focus": "modal_possibility",
+  "level": "C1",
+  "domain": "healthcare_policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might",
+    "modal_could",
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {CONTEXT}, a possibility that {BROADER_IMPACT}.",
+  "example": "Healthcare reforms might improve patient outcomes through integrated care models, a possibility that could transform public health systems.",
+  "explanation": "Use modals (might/could/should) to express healthcare policy possibilities and recommendations. The appositive clause emphasizes broader systemic implications.",
+  "chunks": {
+    "SUBJ": [
+      "Healthcare administrators",
+      "Public health officials",
+      "Medical policymakers",
+      "Health system reformers",
+      "Clinical governance bodies",
+      "Healthcare regulatory agencies"
+    ],
+    "CONTEXT": [
+      "through evidence-based policy interventions",
+      "via comprehensive system restructuring",
+      "through integrated care delivery models",
+      "using data-driven resource allocation"
+    ],
+    "BROADER_IMPACT": [
+      "would fundamentally reshape healthcare delivery",
+      "could enhance population health outcomes significantly",
+      "might establish new paradigms in medical care",
+      "would address longstanding systemic inequities"
+    ],
+    "VERB": {
+      "improve": {
+        "correct_forms": [
+          "might improve"
+        ],
+        "wrong_forms": [
+          "could improves",
+          "might improving",
+          "should improved"
+        ],
+        "objects": [
+          "patient care coordination",
+          "clinical outcome measures",
+          "healthcare accessibility indicators",
+          "treatment efficacy standards"
+        ],
+        "distractor": "nullify"
+      },
+      "reduce": {
+        "correct_forms": [
+          "could reduce"
+        ],
+        "wrong_forms": [
+          "might reduces",
+          "could reducing",
+          "should reduced"
+        ],
+        "objects": [
+          "healthcare cost disparities",
+          "preventable mortality rates",
+          "systemic treatment delays",
+          "administrative inefficiencies"
+        ],
+        "distractor": "abrogate"
+      },
+      "implement": {
+        "correct_forms": [
+          "should implement"
+        ],
+        "wrong_forms": [
+          "could implements",
+          "should implementing",
+          "might implemented"
+        ],
+        "objects": [
+          "universal coverage frameworks",
+          "integrated care pathways",
+          "preventive health initiatives",
+          "quality assurance protocols"
+        ],
+        "distractor": "rescind"
+      },
+      "transform": {
+        "correct_forms": [
+          "could transform"
+        ],
+        "wrong_forms": [
+          "might transforms",
+          "could transforming",
+          "should transformed"
+        ],
+        "objects": [
+          "primary care delivery systems",
+          "mental health service provision",
+          "chronic disease management approaches",
+          "emergency response protocols"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

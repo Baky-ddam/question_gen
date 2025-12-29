@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_TECHNOLOGY_B2_TYPE1_GROUPB",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Artificial intelligence is utilized because it increases productivity.",
+  "explanation": "Use 'is' + past participle with singular subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["artificial intelligence", "machine learning", "cloud computing", "automation", "blockchain technology", "data analytics"],
+    "REASON": ["it increases productivity", "efficiency is crucial", "costs need to be reduced", "accuracy is important", "demand is growing", "innovation drives success"],
+    "VERB": {
+      "utilize": {
+        "correct_forms": ["is utilized"],
+        "wrong_forms": ["are utilized", "was utilized", "has been utilized"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "implement": {
+        "correct_forms": ["is implemented"],
+        "wrong_forms": ["are implemented", "was implemented", "has been implemented"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "adopt": {
+        "correct_forms": ["is adopted"],
+        "wrong_forms": ["are adopted", "was adopted", "has been adopted"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "employ": {
+        "correct_forms": ["is employed"],
+        "wrong_forms": ["are employed", "was employed", "has been employed"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_BUSINESS_B2_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____, which {CONSEQUENCE}.",
+  "example": "The CEO recommends restructuring the department, which could improve efficiency.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Professional verbs with gerunds: recommend, suggest, consider, avoid, risk, involve.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the CEO", "the board", "the manager"],
+    "MAINVERB": ["recommends", "suggests", "considers", "avoids", "risks"],
+    "VERB": {
+      "restructure": {
+        "correct_forms": ["restructuring"],
+        "wrong_forms": ["to restructure", "restructure", "restructures"],
+        "objects": ["the department", "the organization", "the team", "operations"],
+        "distractor": "dismantling"
+      },
+      "merge": {
+        "correct_forms": ["merging"],
+        "wrong_forms": ["to merge", "merge", "merges"],
+        "objects": ["with competitors", "departments", "divisions", "business units"],
+        "distractor": "separating"
+      },
+      "delay": {
+        "correct_forms": ["delaying"],
+        "wrong_forms": ["to delay", "delay", "delays"],
+        "objects": ["the launch", "the project", "the expansion", "the announcement"],
+        "distractor": "accelerating"
+      },
+      "discontinue": {
+        "correct_forms": ["discontinuing"],
+        "wrong_forms": ["to discontinue", "discontinue", "discontinues"],
+        "objects": ["the product line", "unprofitable services", "legacy systems", "outdated practices"],
+        "distractor": "continuing"
+      }
+    },
+    "CONSEQUENCE": ["could improve efficiency", "may reduce costs", "might increase profits", "would streamline operations", "should enhance performance"]
+  }
+}

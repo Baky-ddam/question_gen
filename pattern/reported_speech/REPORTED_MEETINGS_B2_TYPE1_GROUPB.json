@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_MEETINGS_B2_TYPE1_GROUPB",
+  "focus": "reported_speech_warned",
+  "level": "B2",
+  "domain": "meetings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The advisor warned that the {SUBJECT} ____ {WARNING}.",
+  "example": "The advisor warned that the situation could deteriorate quickly.",
+  "explanation": "After 'warned', we report a caution. 'Can deteriorate' becomes 'could deteriorate' in reported speech.",
+  "chunks": {
+    "SUBJECT": ["situation", "market", "economy", "crisis"],
+    "WARNING": ["deteriorate quickly", "become more serious", "escalate further", "worsen significantly"],
+    "VERB": {
+      "could deteriorate": {
+        "correct_forms": ["could deteriorate"],
+        "wrong_forms": ["can deteriorate", "would deteriorate", "might deteriorate"],
+        "objects": [],
+        "distractor": "reassure"
+      },
+      "could escalate": {
+        "correct_forms": ["could escalate"],
+        "wrong_forms": ["can escalate", "would escalate", "will escalate"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

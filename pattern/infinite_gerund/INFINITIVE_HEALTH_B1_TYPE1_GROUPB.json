@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_HEALTH_B1_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "She decides to exercise regularly for better health.",
+  "explanation": "Some verbs require infinitives (to + verb). Use infinitives after: need, try, choose, decide, refuse, want.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the patient", "the doctor"],
+    "MAINVERB": ["needs", "tries", "chooses", "decides", "wants"],
+    "VERB": {
+      "exercise": {
+        "correct_forms": ["to exercise"],
+        "wrong_forms": ["exercising", "exercise", "exercises"],
+        "objects": ["regularly", "every day", "more often", "at the gym"],
+        "distractor": "to stop"
+      },
+      "eat": {
+        "correct_forms": ["to eat"],
+        "wrong_forms": ["eating", "eat", "eats"],
+        "objects": ["healthier", "more vegetables", "balanced meals", "less sugar"],
+        "distractor": "to overeat"
+      },
+      "sleep": {
+        "correct_forms": ["to sleep"],
+        "wrong_forms": ["sleeping", "sleep", "sleeps"],
+        "objects": ["more", "eight hours", "better", "earlier"],
+        "distractor": "to oversleep"
+      },
+      "quit": {
+        "correct_forms": ["to quit"],
+        "wrong_forms": ["quitting", "quit", "quits"],
+        "objects": ["smoking", "bad habits", "drinking", "junk food"],
+        "distractor": "to continue"
+      }
+    },
+    "CONTEXT": ["for better health", "every day", "from now on", "as recommended", "starting today"]
+  }
+}

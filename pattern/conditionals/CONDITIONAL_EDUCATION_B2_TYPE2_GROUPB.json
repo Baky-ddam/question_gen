@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_EDUCATION_B2_TYPE2_GROUPB",
+  "focus": "conditional_type_2_education_singular",
+  "level": "B2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {LEARNER} ____ more, {SUBJ} would {EDUCATION_RESULT}.",
+  "example": "If the student practiced more, she would master the subject.",
+  "explanation": "Second conditional for individual learning scenarios. Past tense 'practiced' expresses a hypothetical study habit.",
+  "chunks": {
+    "LEARNER": ["student", "trainee", "apprentice", "learner"],
+    "SUBJ": ["she", "he", "the student", "the trainee"],
+    "EDUCATION_RESULT": ["master the subject", "achieve higher grades", "understand the concepts", "excel in the exams"],
+    "VERB": {
+      "practiced": {
+        "correct_forms": ["practiced"],
+        "wrong_forms": ["practices", "would practice", "has practiced"],
+        "objects": [],
+        "distractor": "neglect"
+      },
+      "focused": {
+        "correct_forms": ["focused"],
+        "wrong_forms": ["focuses", "would focus", "has focused"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

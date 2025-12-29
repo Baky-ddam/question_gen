@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_PRODUCTS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "products",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The products were manufactured by the factory.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the products", "the goods", "the items", "the components", "the parts", "the materials"],
+    "AGENT": ["the factory", "the workers", "the company", "skilled technicians", "the manufacturers", "the suppliers"],
+    "VERB": {
+      "manufacture": {
+        "correct_forms": ["were manufactured"],
+        "wrong_forms": ["was manufactured", "are manufactured", "have been manufactured"],
+        "objects": [],
+        "distractor": "recalled"
+      },
+      "test": {
+        "correct_forms": ["were tested"],
+        "wrong_forms": ["was tested", "are tested", "have been tested"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "ship": {
+        "correct_forms": ["were shipped"],
+        "wrong_forms": ["was shipped", "are shipped", "have been shipped"],
+        "objects": [],
+        "distractor": "returned"
+      },
+      "package": {
+        "correct_forms": ["were packaged"],
+        "wrong_forms": ["was packaged", "are packaged", "have been packaged"],
+        "objects": [],
+        "distractor": "damaged"
+      }
+    }
+  }
+}

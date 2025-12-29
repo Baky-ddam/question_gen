@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_PHOTOGRAPHY_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "photography",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can take photos here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission. Location words indicate where photography is allowed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this area",
+      "at this spot"
+    ],
+    "VERB": {
+      "take": {
+        "correct_forms": [
+          "can take"
+        ],
+        "wrong_forms": [
+          "could take",
+          "must take",
+          "should take"
+        ],
+        "objects": [
+          "photos",
+          "pictures",
+          "selfies",
+          "snapshots"
+        ],
+        "distractor": "destroy"
+      },
+      "use": {
+        "correct_forms": [
+          "can use"
+        ],
+        "wrong_forms": [
+          "could use",
+          "must use",
+          "should use"
+        ],
+        "objects": [
+          "the camera",
+          "the tripod",
+          "the flash",
+          "the drone"
+        ],
+        "distractor": "waste"
+      },
+      "record": {
+        "correct_forms": [
+          "can record"
+        ],
+        "wrong_forms": [
+          "could record",
+          "must record",
+          "should record"
+        ],
+        "objects": [
+          "videos",
+          "the event",
+          "the performance",
+          "the scene"
+        ],
+        "distractor": "skip"
+      },
+      "capture": {
+        "correct_forms": [
+          "can capture"
+        ],
+        "wrong_forms": [
+          "could capture",
+          "must capture",
+          "should capture"
+        ],
+        "objects": [
+          "the moment",
+          "the view",
+          "the sunset",
+          "the scenery"
+        ],
+        "distractor": "reject"
+      }
+    }
+  }
+}

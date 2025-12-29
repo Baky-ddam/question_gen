@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_MEETINGS_B2_TYPE1_GROUPA",
+  "focus": "reported_speech_suggested",
+  "level": "B2",
+  "domain": "meetings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The chair suggested that {SUBJ} ____ {SUGGESTION}.",
+  "example": "The chair suggested that they should reconsider the proposal.",
+  "explanation": "After 'suggested', we often use 'should' or subjunctive. 'Should reconsider' reports the suggestion.",
+  "chunks": {
+    "SUBJ": ["they", "the members", "the committee", "everyone"],
+    "SUGGESTION": ["reconsider the proposal", "review the data", "postpone the decision", "schedule another meeting"],
+    "VERB": {
+      "should reconsider": {
+        "correct_forms": ["should reconsider"],
+        "wrong_forms": ["would reconsider", "could reconsider", "must reconsider"],
+        "objects": [],
+        "distractor": "reject"
+      },
+      "should review": {
+        "correct_forms": ["should review"],
+        "wrong_forms": ["would review", "could review", "will review"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

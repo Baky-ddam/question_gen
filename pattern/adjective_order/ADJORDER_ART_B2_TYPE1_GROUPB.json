@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ART_B2_TYPE1_GROUPB",
+  "focus": "adjective_order_age_shape_origin_art",
+  "level": "B2",
+  "domain": "art",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "The auction sold an ____ {NOUN}.",
+  "example": "The auction sold an ancient rectangular Egyptian tablet.",
+  "explanation": "Age-Shape-Origin order. 'Ancient rectangular Egyptian' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["tablet", "scroll", "mask", "relief"],
+    "VERB": {
+      "ancient rectangular Egyptian": {
+        "correct_forms": ["ancient rectangular Egyptian"],
+        "wrong_forms": ["rectangular ancient Egyptian", "Egyptian rectangular ancient", "Egyptian ancient rectangular"],
+        "objects": [],
+        "distractor": "modern"
+      },
+      "old circular Greek": {
+        "correct_forms": ["old circular Greek"],
+        "wrong_forms": ["circular old Greek", "Greek circular old", "Greek old circular"],
+        "objects": [],
+        "distractor": "recent"
+      },
+      "antique triangular Persian": {
+        "correct_forms": ["antique triangular Persian"],
+        "wrong_forms": ["triangular antique Persian", "Persian triangular antique", "Persian antique triangular"],
+        "objects": [],
+        "distractor": "contemporary"
+      }
+    }
+  }
+}

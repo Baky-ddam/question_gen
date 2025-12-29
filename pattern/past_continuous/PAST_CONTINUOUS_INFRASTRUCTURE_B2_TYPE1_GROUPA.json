@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_INFRASTRUCTURE_B2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "infrastructure",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "duration_reason", "because_clause"],
+  "template": "{SUBJ} ____ {OBJ} all {DURATION} because {REASON}.",
+  "example": "They were reinforcing the bridge foundations all week because structural assessments revealed critical vulnerabilities.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for extended infrastructure work with explanatory reasons.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "DURATION": [
+      "week",
+      "month",
+      "quarter",
+      "summer"
+    ],
+    "REASON": [
+      "structural assessments revealed critical vulnerabilities",
+      "municipal regulations mandated comprehensive upgrades",
+      "safety inspections identified urgent repair requirements",
+      "federal funding stipulated accelerated completion timelines"
+    ],
+    "VERB": {
+      "reinforce": {
+        "correct_forms": ["were reinforcing"],
+        "wrong_forms": ["was reinforcing", "reinforced", "are reinforcing"],
+        "objects": ["the bridge foundations", "the tunnel supports", "the highway overpasses", "the retaining walls"],
+        "distractor": "undermine"
+      },
+      "upgrade": {
+        "correct_forms": ["were upgrading"],
+        "wrong_forms": ["was upgrading", "upgraded", "are upgrading"],
+        "objects": ["the electrical grid", "the water treatment facilities", "the telecommunication networks", "the drainage systems"],
+        "distractor": "obstruct"
+      },
+      "expand": {
+        "correct_forms": ["were expanding"],
+        "wrong_forms": ["was expanding", "expanded", "are expanding"],
+        "objects": ["the transit corridors", "the highway capacity", "the public utilities", "the residential zones"],
+        "distractor": "impede"
+      },
+      "modernize": {
+        "correct_forms": ["were modernizing"],
+        "wrong_forms": ["was modernizing", "modernized", "are modernizing"],
+        "objects": ["the traffic management systems", "the emergency response infrastructure", "the public transit networks", "the waste processing facilities"],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

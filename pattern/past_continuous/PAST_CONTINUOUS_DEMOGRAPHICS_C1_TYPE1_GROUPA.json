@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_DEMOGRAPHICS_C1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "demographics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "contrast_continuous", "sophisticated_contrast"],
+  "template": "While {SUBJ} ____ {OBJ}, {CONTRAST_ACTION}.",
+  "example": "While we were analyzing the longitudinal fertility trajectories across socioeconomic strata, policymakers were implementing interventions based on fundamentally flawed population projections.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing demographic research with sophisticated contrast clauses.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the demographers"],
+    "CONTRAST_ACTION": [
+      "policymakers were implementing interventions based on fundamentally flawed population projections",
+      "international agencies were disseminating outdated mortality estimates",
+      "governmental bodies were allocating resources according to obsolete census data",
+      "institutional stakeholders were formulating strategies predicated on contested assumptions"
+    ],
+    "VERB": {
+      "analyze": {
+        "correct_forms": ["were analyzing"],
+        "wrong_forms": ["was analyzing", "analyzed", "are analyzing"],
+        "objects": ["the longitudinal fertility trajectories across socioeconomic strata", "the complex determinants of age-specific mortality differentials", "the multifaceted drivers of contemporary migration patterns", "the structural factors underlying pronounced regional disparities"],
+        "distractor": "forsake"
+      },
+      "disaggregate": {
+        "correct_forms": ["were disaggregating"],
+        "wrong_forms": ["was disaggregating", "disaggregated", "are disaggregating"],
+        "objects": ["the national population statistics by ethnicity and geographic region", "the aggregate mortality data to reveal hidden disparities", "the census figures according to multiple intersecting variables", "the composite indices to identify vulnerable subpopulations"],
+        "distractor": "obliterate"
+      },
+      "extrapolate": {
+        "correct_forms": ["were extrapolating"],
+        "wrong_forms": ["was extrapolating", "extrapolated", "are extrapolating"],
+        "objects": ["future population scenarios from current fertility and mortality trends", "long-term demographic outcomes from preliminary longitudinal data", "urbanization projections from observed rural-to-urban migration flows", "workforce participation rates from educational attainment patterns"],
+        "distractor": "renounce"
+      },
+      "model": {
+        "correct_forms": ["were modeling"],
+        "wrong_forms": ["was modeling", "modeled", "are modeling"],
+        "objects": ["the probabilistic outcomes of alternative demographic scenarios", "the cascading effects of aging populations on social security systems", "the interrelationships between education, fertility, and economic development", "the spatial distribution of population density under varying assumptions"],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

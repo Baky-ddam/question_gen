@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_POLICY_C1_INVERTED_GROUPB",
+  "focus": "conditional_inverted_were",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the {ENTITY} to {ACTION}, the outcome would {RESULT}.",
+  "example": "Were the government to adopt this policy, the outcome would be transformative.",
+  "explanation": "Inverted conditional with 'Were...to': A formal way to express hypothetical situations. 'Were the government to adopt' = 'If the government were to adopt'.",
+  "chunks": {
+    "ENTITY": ["government", "parliament", "council", "authority"],
+    "ACTION": ["adopt this policy", "implement these measures", "pursue this strategy", "embrace this approach"],
+    "RESULT": ["be transformative", "be unprecedented", "reshape the sector", "redefine the landscape"],
+    "VERB": {
+      "Were": {
+        "correct_forms": ["Were"],
+        "wrong_forms": ["If", "Was", "Are"],
+        "objects": [],
+        "distractor": "reject"
+      }
+    }
+  }
+}

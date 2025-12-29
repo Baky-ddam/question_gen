@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_PLANS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "plans",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will change my job next year.",
+  "explanation": "Future simple uses 'will + base verb' for future plans and intentions. All subjects use the same form.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "change": {
+        "correct_forms": ["will change"],
+        "wrong_forms": ["changes", "is going to change", "would change"],
+        "objects": ["my job", "my apartment", "my phone"],
+        "distractor": "quit"
+      },
+      "buy": {
+        "correct_forms": ["will buy"],
+        "wrong_forms": ["buys", "is going to buy", "would buy"],
+        "objects": ["a new car", "a house", "a computer"],
+        "distractor": "refuse"
+      },
+      "move": {
+        "correct_forms": ["will move"],
+        "wrong_forms": ["moves", "is going to move", "would move"],
+        "objects": ["to a new city", "abroad", "to a bigger house"],
+        "distractor": "abandon"
+      },
+      "start": {
+        "correct_forms": ["will start"],
+        "wrong_forms": ["starts", "is going to start", "would start"],
+        "objects": ["a business", "a course", "a new project"],
+        "distractor": "cancel"
+      }
+    },
+    "FUTURE_TIME": ["next year", "next month", "soon", "in the future"]
+  }
+}

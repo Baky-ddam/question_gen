@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_MECHANISMS_C1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_mechanism",
+  "level": "C1",
+  "domain": "mechanisms",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {MECHANISM} ____ {FUNCTION} constitutes {SIGNIFICANCE}.",
+  "example": "The mechanism which regulates cellular processes constitutes a fundamental biological principle.",
+  "explanation": "We use 'which' for mechanisms and systems. The clause explains how the mechanism operates and its significance.",
+  "chunks": {
+    "MECHANISM": ["mechanism", "apparatus", "infrastructure", "architecture"],
+    "FUNCTION": ["regulates cellular processes", "governs systemic interactions", "mediates complex transactions", "orchestrates institutional dynamics"],
+    "SIGNIFICANCE": ["a fundamental biological principle", "the cornerstone of organizational efficiency", "an indispensable component of governance", "a critical determinant of outcomes"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "subvert"
+      }
+    }
+  }
+}

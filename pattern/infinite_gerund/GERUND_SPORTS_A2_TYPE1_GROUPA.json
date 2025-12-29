@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_SPORTS_A2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "A2",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {PLACE}.",
+  "example": "We enjoy playing football in the park.",
+  "explanation": "Some verbs are followed by gerunds (verb + -ing). Common verbs: enjoy, love, like, keep, practice.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["enjoy", "love", "like", "keep", "practice"],
+    "VERB": {
+      "play": {
+        "correct_forms": ["playing"],
+        "wrong_forms": ["to play", "play", "played"],
+        "objects": ["football", "basketball", "tennis", "volleyball"],
+        "distractor": "quitting"
+      },
+      "swim": {
+        "correct_forms": ["swimming"],
+        "wrong_forms": ["to swim", "swim", "swam"],
+        "objects": ["laps", "every morning", "for exercise", "for fun"],
+        "distractor": "drowning"
+      },
+      "run": {
+        "correct_forms": ["running"],
+        "wrong_forms": ["to run", "run", "ran"],
+        "objects": ["marathons", "in races", "every day", "for fitness"],
+        "distractor": "stopping"
+      },
+      "exercise": {
+        "correct_forms": ["exercising"],
+        "wrong_forms": ["to exercise", "exercise", "exercised"],
+        "objects": ["regularly", "in the morning", "at the gym", "outdoors"],
+        "distractor": "skipping"
+      }
+    },
+    "PLACE": ["in the park", "at the gym", "at school", "on weekends"]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pattern_id": "GERUND_ECONOMICS_C1_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "As {TREND} intensifies, {SUBJ} {MAINVERB} ____, thereby {OUTCOME}.",
+  "example": "As global competition intensifies, the central bank considers adjusting monetary policy, thereby influencing capital flows.",
+  "explanation": "Advanced verbs requiring gerunds: recommend, suggest, consider, involve, risk, justify, advocate, defer, entail.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the central bank", "the treasury", "the economist"],
+    "MAINVERB": ["considers", "risks", "advocates", "justifies", "defers"],
+    "VERB": {
+      "adjust": {
+        "correct_forms": ["adjusting"],
+        "wrong_forms": ["to adjust", "adjust", "adjusts"],
+        "objects": ["monetary policy", "interest rates", "fiscal parameters", "exchange rate mechanisms"],
+        "distractor": "destabilizing"
+      },
+      "liberalize": {
+        "correct_forms": ["liberalizing"],
+        "wrong_forms": ["to liberalize", "liberalize", "liberalizes"],
+        "objects": ["trade barriers", "capital controls", "market regulations", "foreign investment rules"],
+        "distractor": "restricting"
+      },
+      "recalibrate": {
+        "correct_forms": ["recalibrating"],
+        "wrong_forms": ["to recalibrate", "recalibrate", "recalibrates"],
+        "objects": ["economic forecasts", "growth projections", "inflation targets", "fiscal multipliers"],
+        "distractor": "miscalculating"
+      },
+      "monetize": {
+        "correct_forms": ["monetizing"],
+        "wrong_forms": ["to monetize", "monetize", "monetizes"],
+        "objects": ["government debt", "fiscal deficits", "public liabilities", "sovereign obligations"],
+        "distractor": "defaulting"
+      }
+    },
+    "TREND": ["global competition", "inflationary pressure", "market volatility", "trade tensions", "technological disruption"],
+    "OUTCOME": ["influencing capital flows", "stabilizing market expectations", "reshaping investment patterns", "redefining competitive dynamics", "transforming economic landscapes"]
+  }
+}

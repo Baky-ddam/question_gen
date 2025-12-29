@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AUTOMATION_B2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "automation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "while_place", "complex_event"],
+  "template": "While {SUBJ} ____ {OBJ} {PLACE}, {COMPLEX_EVENT} occurred.",
+  "example": "While the systems engineer was calibrating the sensor arrays in the control room, unexpected power fluctuations occurred.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular professional titles for ongoing automation work interrupted by complex events.",
+  "chunks": {
+    "SUBJ": ["I", "the systems engineer", "the automation specialist", "the technical director"],
+    "PLACE": [
+      "in the control room",
+      "at the monitoring station",
+      "on the production line",
+      "in the maintenance bay"
+    ],
+    "COMPLEX_EVENT": [
+      "unexpected power fluctuations",
+      "a critical firmware update notification",
+      "a supply chain disruption alert",
+      "regulatory compliance issues"
+    ],
+    "VERB": {
+      "calibrate": {
+        "correct_forms": ["was calibrating"],
+        "wrong_forms": ["were calibrating", "calibrated", "is calibrating"],
+        "objects": ["the sensor arrays", "the robotic arms", "the precision instruments", "the measurement systems"],
+        "distractor": "hinder"
+      },
+      "monitor": {
+        "correct_forms": ["was monitoring"],
+        "wrong_forms": ["were monitoring", "monitored", "is monitoring"],
+        "objects": ["the system performance", "the production metrics", "the error logs", "the quality indicators"],
+        "distractor": "overlook"
+      },
+      "troubleshoot": {
+        "correct_forms": ["was troubleshooting"],
+        "wrong_forms": ["were troubleshooting", "troubleshot", "is troubleshooting"],
+        "objects": ["the communication protocols", "the control algorithms", "the network configurations", "the hardware interfaces"],
+        "distractor": "circumvent"
+      },
+      "integrate": {
+        "correct_forms": ["was integrating"],
+        "wrong_forms": ["were integrating", "integrated", "is integrating"],
+        "objects": ["the new software modules", "the upgraded components", "the third-party systems", "the legacy equipment"],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

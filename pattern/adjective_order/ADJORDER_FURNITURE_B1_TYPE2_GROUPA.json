@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FURNITURE_B1_TYPE2_GROUPA",
+  "focus": "adjective_order_color_material",
+  "level": "B1",
+  "domain": "furniture",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The room has a ____ {NOUN}.",
+  "example": "The room has a white wooden bookcase.",
+  "explanation": "Color comes before material in adjective order. 'White wooden' not 'wooden white'.",
+  "chunks": {
+    "NOUN": ["bookcase", "wardrobe", "bed frame", "dresser"],
+    "VERB": {
+      "white wooden": {
+        "correct_forms": ["white wooden"],
+        "wrong_forms": ["wooden white", "wooden and white", "white and wooden"],
+        "objects": [],
+        "distractor": "black"
+      },
+      "black metal": {
+        "correct_forms": ["black metal"],
+        "wrong_forms": ["metal black", "metal and black", "black and metal"],
+        "objects": [],
+        "distractor": "silver"
+      },
+      "brown leather": {
+        "correct_forms": ["brown leather"],
+        "wrong_forms": ["leather brown", "leather and brown", "brown and leather"],
+        "objects": [],
+        "distractor": "grey"
+      }
+    }
+  }
+}

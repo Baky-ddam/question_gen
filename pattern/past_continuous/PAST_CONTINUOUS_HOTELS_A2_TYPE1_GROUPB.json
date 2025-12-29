@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_HOTELS_A2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "hotels",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "She was relaxing by the pool all afternoon yesterday.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for actions in progress at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "TIME": [
+      "all afternoon yesterday",
+      "all day yesterday",
+      "when the storm started",
+      "at this time last Sunday"
+    ],
+    "VERB": {
+      "relax": {
+        "correct_forms": ["was relaxing"],
+        "wrong_forms": ["were relaxing", "relaxed", "is relaxing"],
+        "objects": ["by the pool", "in the spa", "on the balcony"],
+        "distractor": "skip"
+      },
+      "wait": {
+        "correct_forms": ["was waiting"],
+        "wrong_forms": ["were waiting", "waited", "is waiting"],
+        "objects": ["for room service", "for the shuttle", "at the reception"],
+        "distractor": "abandon"
+      },
+      "enjoy": {
+        "correct_forms": ["was enjoying"],
+        "wrong_forms": ["were enjoying", "enjoyed", "is enjoying"],
+        "objects": ["the breakfast buffet", "the ocean view", "the amenities"],
+        "distractor": "reject"
+      },
+      "pack": {
+        "correct_forms": ["was packing"],
+        "wrong_forms": ["were packing", "packed", "is packing"],
+        "objects": ["the suitcase", "the bags", "for departure"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

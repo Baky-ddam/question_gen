@@ -1,0 +1,45 @@
+{
+  "pattern_id": "GERUND_POLICY_C1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "While {CONTEXT}, {SUBJ} {MAINVERB} ____, which {IMPLICATION}.",
+  "example": "While facing international pressure, policymakers recommend implementing sanctions, which could reshape diplomatic relations.",
+  "explanation": "Advanced verbs requiring gerunds: recommend, suggest, consider, involve, justify, advocate, defer, entail, necessitate.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "policymakers", "legislators", "analysts"],
+    "MAINVERB": ["recommend", "consider", "advocate", "justify", "defer"],
+    "VERB": {
+      "implement": {
+        "correct_forms": ["implementing"],
+        "wrong_forms": ["to implement", "implement", "implements"],
+        "objects": ["comprehensive reforms", "regulatory frameworks", "fiscal measures", "structural adjustments"],
+        "distractor": "abolishing"
+      },
+      "revise": {
+        "correct_forms": ["revising"],
+        "wrong_forms": ["to revise", "revise", "revises"],
+        "objects": ["existing legislation", "constitutional provisions", "trade agreements", "taxation policies"],
+        "distractor": "repealing"
+      },
+      "prioritize": {
+        "correct_forms": ["prioritizing"],
+        "wrong_forms": ["to prioritize", "prioritize", "prioritizes"],
+        "objects": ["sustainable development", "social welfare", "economic stability", "environmental protection"],
+        "distractor": "neglecting"
+      },
+      "subsidize": {
+        "correct_forms": ["subsidizing"],
+        "wrong_forms": ["to subsidize", "subsidize", "subsidizes"],
+        "objects": ["renewable energy", "agricultural sectors", "public transportation", "healthcare services"],
+        "distractor": "defunding"
+      }
+    },
+    "CONTEXT": ["facing international pressure", "navigating economic uncertainty", "addressing social inequities", "responding to climate change", "managing fiscal constraints"],
+    "IMPLICATION": ["could reshape diplomatic relations", "may influence long-term outcomes", "might transform institutional frameworks", "would redefine policy paradigms", "should establish new precedents"]
+  }
+}

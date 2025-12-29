@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_INVENTIONS_A2_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "inventions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "Telephones were invented in the 19th century.",
+  "explanation": "Use 'were' + past participle with 'you/we/they' and plural nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["telephones", "computers", "cars", "planes", "televisions", "radios"],
+    "TIME": ["in the 19th century", "in the 20th century", "many years ago", "a long time ago", "in the past"],
+    "VERB": {
+      "invent": {
+        "correct_forms": ["were invented"],
+        "wrong_forms": ["was invented", "are invented", "have been invented"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "create": {
+        "correct_forms": ["were created"],
+        "wrong_forms": ["was created", "are created", "have been created"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "develop": {
+        "correct_forms": ["were developed"],
+        "wrong_forms": ["was developed", "are developed", "have been developed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "design": {
+        "correct_forms": ["were designed"],
+        "wrong_forms": ["was designed", "are designed", "have been designed"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

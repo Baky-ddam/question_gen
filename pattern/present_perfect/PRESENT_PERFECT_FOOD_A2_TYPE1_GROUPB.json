@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_FOOD_A2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ just {OBJ}.",
+  "example": "She has just finished the meal.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for recent completions. 'Just' indicates very recent actions.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the chef",
+      "my mother"
+    ],
+    "VERB": {
+      "finish": {
+        "correct_forms": [
+          "has finished"
+        ],
+        "wrong_forms": [
+          "have finished",
+          "had finished",
+          "finished"
+        ],
+        "objects": [
+          "the meal",
+          "cooking dinner",
+          "eating lunch",
+          "preparing the food"
+        ],
+        "distractor": "abandon"
+      },
+      "prepare": {
+        "correct_forms": [
+          "has prepared"
+        ],
+        "wrong_forms": [
+          "have prepared",
+          "had prepared",
+          "prepared"
+        ],
+        "objects": [
+          "a delicious soup",
+          "fresh salad",
+          "the ingredients",
+          "breakfast"
+        ],
+        "distractor": "neglect"
+      },
+      "bake": {
+        "correct_forms": [
+          "has baked"
+        ],
+        "wrong_forms": [
+          "have baked",
+          "had baked",
+          "baked"
+        ],
+        "objects": [
+          "a chocolate cake",
+          "fresh bread",
+          "cookies",
+          "a pie"
+        ],
+        "distractor": "destroy"
+      },
+      "order": {
+        "correct_forms": [
+          "has ordered"
+        ],
+        "wrong_forms": [
+          "have ordered",
+          "had ordered",
+          "ordered"
+        ],
+        "objects": [
+          "pizza",
+          "takeaway",
+          "Chinese food",
+          "a meal"
+        ],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

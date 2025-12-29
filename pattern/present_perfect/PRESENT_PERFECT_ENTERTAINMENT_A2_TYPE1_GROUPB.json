@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ENTERTAINMENT_A2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "entertainment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ recently {OBJ}.",
+  "example": "He has recently discovered a new band.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to talk about recent actions. 'Recently' signals something new or recent.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the artist",
+      "my friend"
+    ],
+    "VERB": {
+      "discover": {
+        "correct_forms": [
+          "has discovered"
+        ],
+        "wrong_forms": [
+          "have discovered",
+          "had discovered",
+          "discovered"
+        ],
+        "objects": [
+          "a new band",
+          "a great podcast",
+          "an amazing singer",
+          "a fun game"
+        ],
+        "distractor": "neglect"
+      },
+      "release": {
+        "correct_forms": [
+          "has released"
+        ],
+        "wrong_forms": [
+          "have released",
+          "had released",
+          "released"
+        ],
+        "objects": [
+          "a new album",
+          "a hit song",
+          "a music video",
+          "a new single"
+        ],
+        "distractor": "abandon"
+      },
+      "perform": {
+        "correct_forms": [
+          "has performed"
+        ],
+        "wrong_forms": [
+          "have performed",
+          "had performed",
+          "performed"
+        ],
+        "objects": [
+          "at a concert",
+          "on stage",
+          "in the theater",
+          "at the festival"
+        ],
+        "distractor": "quit"
+      },
+      "review": {
+        "correct_forms": [
+          "has reviewed"
+        ],
+        "wrong_forms": [
+          "have reviewed",
+          "had reviewed",
+          "reviewed"
+        ],
+        "objects": [
+          "the new movie",
+          "the latest book",
+          "the popular show",
+          "the album"
+        ],
+        "distractor": "skip"
+      }
+    }
+  }
+}

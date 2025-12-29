@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_VOLUNTEERING_B1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "volunteering",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "while_parallel"],
+  "template": "{SUBJ} ____ {OBJ} while {SOMEONE_ELSE} {PARALLEL}.",
+  "example": "We were assisting elderly residents while other volunteers were preparing meals.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for parallel past actions happening simultaneously.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "SOMEONE_ELSE": [
+      "other volunteers",
+      "the coordinator",
+      "the team leader",
+      "community members"
+    ],
+    "PARALLEL": [
+      "were preparing meals",
+      "was organizing supplies",
+      "was greeting newcomers",
+      "were cleaning up"
+    ],
+    "VERB": {
+      "assist": {
+        "correct_forms": ["were assisting"],
+        "wrong_forms": ["was assisting", "assisted", "are assisting"],
+        "objects": ["elderly residents", "homeless individuals", "disaster victims", "refugees"],
+        "distractor": "abandon"
+      },
+      "distribute": {
+        "correct_forms": ["were distributing"],
+        "wrong_forms": ["was distributing", "distributed", "are distributing"],
+        "objects": ["food packages", "clothing donations", "medical supplies", "educational materials"],
+        "distractor": "neglect"
+      },
+      "support": {
+        "correct_forms": ["were supporting"],
+        "wrong_forms": ["was supporting", "supported", "are supporting"],
+        "objects": ["local families", "struggling students", "hospital patients", "community projects"],
+        "distractor": "dismiss"
+      },
+      "help": {
+        "correct_forms": ["were helping"],
+        "wrong_forms": ["was helping", "helped", "are helping"],
+        "objects": ["children with homework", "seniors with groceries", "new immigrants with paperwork", "neighbors with repairs"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

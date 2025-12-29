@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_CLASSROOM_A1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "classroom",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "The students were reading books this morning.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the students", "the pupils", "the classmates"],
+    "TIME": ["this morning", "yesterday", "in the lesson", "during class"],
+    "VERB": {
+      "read": {
+        "correct_forms": ["were reading"],
+        "wrong_forms": ["was reading", "read", "are reading"],
+        "objects": ["books", "a story", "the lesson", "their notes"],
+        "distractor": "ignore"
+      },
+      "write": {
+        "correct_forms": ["were writing"],
+        "wrong_forms": ["was writing", "wrote", "are writing"],
+        "objects": ["in their notebooks", "on the board", "an essay", "the answers"],
+        "distractor": "skip"
+      },
+      "listen": {
+        "correct_forms": ["were listening"],
+        "wrong_forms": ["was listening", "listened", "are listening"],
+        "objects": ["to the teacher", "to the story", "carefully", "to music"],
+        "distractor": "avoid"
+      },
+      "draw": {
+        "correct_forms": ["were drawing"],
+        "wrong_forms": ["was drawing", "drew", "are drawing"],
+        "objects": ["pictures", "a house", "animals", "in their books"],
+        "distractor": "stop"
+      }
+    }
+  }
+}

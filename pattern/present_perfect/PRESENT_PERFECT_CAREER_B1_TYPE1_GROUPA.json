@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_CAREER_B1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {DURATION}.",
+  "example": "I have worked at this company for five years.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe ongoing experiences or achievements. 'For' indicates duration of time.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "DURATION": [
+      "for three years",
+      "for a long time",
+      "for several months",
+      "since 2020"
+    ],
+    "VERB": {
+      "work": {
+        "correct_forms": [
+          "have worked"
+        ],
+        "wrong_forms": [
+          "has worked",
+          "had worked",
+          "worked"
+        ],
+        "objects": [
+          "at this company",
+          "in the marketing department",
+          "as a team leader",
+          "on major projects"
+        ],
+        "distractor": "abandon"
+      },
+      "develop": {
+        "correct_forms": [
+          "have developed"
+        ],
+        "wrong_forms": [
+          "has developed",
+          "had developed",
+          "developed"
+        ],
+        "objects": [
+          "strong leadership skills",
+          "expertise in management",
+          "professional networks",
+          "technical abilities"
+        ],
+        "distractor": "neglect"
+      },
+      "manage": {
+        "correct_forms": [
+          "have managed"
+        ],
+        "wrong_forms": [
+          "has managed",
+          "had managed",
+          "managed"
+        ],
+        "objects": [
+          "a team of ten people",
+          "important accounts",
+          "international projects",
+          "the sales department"
+        ],
+        "distractor": "overlook"
+      },
+      "gain": {
+        "correct_forms": [
+          "have gained"
+        ],
+        "wrong_forms": [
+          "has gained",
+          "had gained",
+          "gained"
+        ],
+        "objects": [
+          "valuable experience",
+          "recognition from clients",
+          "expertise in the field",
+          "new responsibilities"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

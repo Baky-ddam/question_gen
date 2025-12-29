@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_REPORTS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "reports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The report was written by the analyst.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the report", "the document", "the proposal", "the summary", "the analysis", "the presentation"],
+    "AGENT": ["the analyst", "the director", "the supervisor", "the consultant", "the expert", "the specialist"],
+    "VERB": {
+      "write": {
+        "correct_forms": ["was written"],
+        "wrong_forms": ["were written", "is written", "has been written"],
+        "objects": [],
+        "distractor": "deleted"
+      },
+      "review": {
+        "correct_forms": ["was reviewed"],
+        "wrong_forms": ["were reviewed", "is reviewed", "has been reviewed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "complete": {
+        "correct_forms": ["was completed"],
+        "wrong_forms": ["were completed", "is completed", "has been completed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "sign": {
+        "correct_forms": ["was signed"],
+        "wrong_forms": ["were signed", "is signed", "has been signed"],
+        "objects": [],
+        "distractor": "refused"
+      }
+    }
+  }
+}

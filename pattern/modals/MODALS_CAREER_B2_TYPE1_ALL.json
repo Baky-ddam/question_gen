@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_CAREER_B2_TYPE1_ALL",
+  "focus": "modal_could",
+  "level": "B2",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could"
+  ],
+  "template": "{SUBJ} ____ {OBJ} if {CONDITION}.",
+  "example": "Your career could advance rapidly if you develop leadership skills.",
+  "explanation": "Use 'could' + base verb with all subjects to express possibility about career outcomes. The 'if' clause provides the condition for the possibility.",
+  "chunks": {
+    "SUBJ": [
+      "your career",
+      "your professional standing",
+      "your job prospects",
+      "your promotion chances",
+      "your salary trajectory",
+      "your industry reputation"
+    ],
+    "CONDITION": [
+      "you develop leadership skills",
+      "you pursue additional certifications",
+      "you expand your professional network",
+      "you take on challenging projects",
+      "you demonstrate strategic thinking",
+      "you seek mentorship opportunities"
+    ],
+    "VERB": {
+      "advance": {
+        "correct_forms": [
+          "could advance"
+        ],
+        "wrong_forms": [
+          "can advance",
+          "would advance",
+          "should advance"
+        ],
+        "objects": [
+          "to senior management",
+          "beyond current expectations",
+          "within the organization",
+          "to executive positions"
+        ],
+        "distractor": "circumvent"
+      },
+      "improve": {
+        "correct_forms": [
+          "could improve"
+        ],
+        "wrong_forms": [
+          "can improve",
+          "would improve",
+          "should improve"
+        ],
+        "objects": [
+          "significantly over time",
+          "with dedicated effort",
+          "in competitive markets",
+          "through strategic moves"
+        ],
+        "distractor": "obstruct"
+      },
+      "stagnate": {
+        "correct_forms": [
+          "could stagnate"
+        ],
+        "wrong_forms": [
+          "can stagnate",
+          "would stagnate",
+          "should stagnate"
+        ],
+        "objects": [
+          "without proper development",
+          "in a changing industry",
+          "due to market conditions",
+          "amid organizational restructuring"
+        ],
+        "distractor": "impede"
+      },
+      "transform": {
+        "correct_forms": [
+          "could transform"
+        ],
+        "wrong_forms": [
+          "can transform",
+          "would transform",
+          "should transform"
+        ],
+        "objects": [
+          "in unexpected directions",
+          "through continuous learning",
+          "with the right opportunities",
+          "across different sectors"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

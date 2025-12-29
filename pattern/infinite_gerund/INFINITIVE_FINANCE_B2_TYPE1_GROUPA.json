@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_FINANCE_B2_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B2",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ because {REASON}.",
+  "example": "Investors decide to diversify portfolios because market volatility is increasing.",
+  "explanation": "Some verbs require infinitives (to + verb). Financial verbs with infinitives: decide, plan, expect, agree, refuse, promise.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "investors", "analysts", "clients"],
+    "MAINVERB": ["decide", "plan", "expect", "agree", "refuse"],
+    "VERB": {
+      "diversify": {
+        "correct_forms": ["to diversify"],
+        "wrong_forms": ["diversifying", "diversify", "diversifies"],
+        "objects": ["portfolios", "investments", "holdings", "assets"],
+        "distractor": "to concentrate"
+      },
+      "invest": {
+        "correct_forms": ["to invest"],
+        "wrong_forms": ["investing", "invest", "invests"],
+        "objects": ["in emerging markets", "in bonds", "in real estate", "in technology stocks"],
+        "distractor": "to divest"
+      },
+      "acquire": {
+        "correct_forms": ["to acquire"],
+        "wrong_forms": ["acquiring", "acquire", "acquires"],
+        "objects": ["new assets", "companies", "properties", "shares"],
+        "distractor": "to sell"
+      },
+      "hedge": {
+        "correct_forms": ["to hedge"],
+        "wrong_forms": ["hedging", "hedge", "hedges"],
+        "objects": ["against inflation", "against risks", "currency exposure", "market positions"],
+        "distractor": "to expose"
+      }
+    },
+    "REASON": ["market volatility is increasing", "interest rates are changing", "economic uncertainty persists", "growth opportunities exist", "risk management is essential"]
+  }
+}

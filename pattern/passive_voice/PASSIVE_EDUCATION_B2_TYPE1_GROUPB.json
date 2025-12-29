@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_EDUCATION_B2_TYPE1_GROUPB",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Critical thinking is emphasized because it prepares students for complex challenges.",
+  "explanation": "Use 'is' + past participle with singular subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["critical thinking", "creativity", "lifelong learning", "collaboration", "problem-solving", "digital literacy"],
+    "REASON": ["it prepares students for complex challenges", "the workplace demands it", "innovation requires it", "success depends on it", "society benefits from it", "traditional skills are no longer enough"],
+    "VERB": {
+      "emphasize": {
+        "correct_forms": ["is emphasized"],
+        "wrong_forms": ["are emphasized", "was emphasized", "has been emphasized"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "teach": {
+        "correct_forms": ["is taught"],
+        "wrong_forms": ["are taught", "was taught", "has been taught"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "promote": {
+        "correct_forms": ["is promoted"],
+        "wrong_forms": ["are promoted", "was promoted", "has been promoted"],
+        "objects": [],
+        "distractor": "discouraged"
+      },
+      "value": {
+        "correct_forms": ["is valued"],
+        "wrong_forms": ["are valued", "was valued", "has been valued"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

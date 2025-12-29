@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_PROBLEMS_B2_TYPE1_GROUPC",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "problems",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} because {REASON}.",
+  "example": "We sort out the issue because client satisfaction matters.",
+  "explanation": "These separable phrasal verbs describe resolving problems and finding solutions. The object can go between the verb and particle.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "REASON": ["client satisfaction matters", "deadlines are approaching", "quality is important", "stakeholders are waiting", "reputation is at stake"],
+    "VERB": {
+      "sort out": {
+        "correct_forms": ["sort out"],
+        "wrong_forms": ["sort on", "sort off", "sort up"],
+        "objects": ["issue", "problem", "dispute", "confusion"],
+        "distractor": "create"
+      },
+      "straighten out": {
+        "correct_forms": ["straighten out"],
+        "wrong_forms": ["straighten on", "straighten off", "straighten up"],
+        "objects": ["misunderstanding", "mess", "situation", "conflict"],
+        "distractor": "complicate"
+      },
+      "iron out": {
+        "correct_forms": ["iron out"],
+        "wrong_forms": ["iron on", "iron off", "iron up"],
+        "objects": ["differences", "details", "difficulties", "kinks"],
+        "distractor": "worsen"
+      },
+      "work out": {
+        "correct_forms": ["work out"],
+        "wrong_forms": ["work on", "work off", "work in"],
+        "objects": ["solution", "plan", "approach", "strategy"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "pattern_id": "MODALS_SCIENTIFIC_RESEARCH_C1_TYPE1_ALL",
+  "focus": "modal_possibility",
+  "level": "C1",
+  "domain": "scientific_research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might",
+    "modal_could",
+    "modal_may"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {CONTEXT}, a possibility that {BROADER_IMPACT}.",
+  "example": "Researchers might discover groundbreaking therapeutic applications through this methodology, a possibility that could revolutionize medical treatment.",
+  "explanation": "Use modals (might/could/may) to express scientific possibility and speculation. The appositive clause adds the broader significance of the potential discovery.",
+  "chunks": {
+    "SUBJ": [
+      "The research team",
+      "Scientific investigators",
+      "Laboratory researchers",
+      "The interdisciplinary consortium",
+      "Academic researchers",
+      "The experimental group"
+    ],
+    "CONTEXT": [
+      "through rigorous empirical analysis",
+      "using advanced methodological frameworks",
+      "via systematic experimental protocols",
+      "through comprehensive longitudinal studies"
+    ],
+    "BROADER_IMPACT": [
+      "could fundamentally reshape scientific understanding",
+      "would warrant substantial scholarly attention",
+      "might transform established theoretical paradigms",
+      "could generate unprecedented research opportunities"
+    ],
+    "VERB": {
+      "discover": {
+        "correct_forms": [
+          "might discover"
+        ],
+        "wrong_forms": [
+          "could discovers",
+          "might discovering",
+          "may discovered"
+        ],
+        "objects": [
+          "novel molecular mechanisms",
+          "previously unknown phenomena",
+          "groundbreaking correlations",
+          "significant empirical patterns"
+        ],
+        "distractor": "forsake"
+      },
+      "prove": {
+        "correct_forms": [
+          "could prove"
+        ],
+        "wrong_forms": [
+          "might proves",
+          "could proving",
+          "may proved"
+        ],
+        "objects": [
+          "longstanding theoretical hypotheses",
+          "contested scientific assumptions",
+          "fundamental research propositions",
+          "critical experimental predictions"
+        ],
+        "distractor": "obliterate"
+      },
+      "revolutionize": {
+        "correct_forms": [
+          "may revolutionize"
+        ],
+        "wrong_forms": [
+          "might revolutionizes",
+          "may revolutionizing",
+          "could revolutionized"
+        ],
+        "objects": [
+          "established research methodologies",
+          "conventional scientific approaches",
+          "traditional analytical frameworks",
+          "current diagnostic protocols"
+        ],
+        "distractor": "renounce"
+      },
+      "validate": {
+        "correct_forms": [
+          "could validate"
+        ],
+        "wrong_forms": [
+          "might validates",
+          "could validating",
+          "may validated"
+        ],
+        "objects": [
+          "emerging theoretical constructs",
+          "preliminary experimental findings",
+          "contested research conclusions",
+          "innovative methodological approaches"
+        ],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

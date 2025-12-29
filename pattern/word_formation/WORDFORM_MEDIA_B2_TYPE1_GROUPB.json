@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_MEDIA_B2_TYPE1_GROUPB",
+  "focus": "suffix_ous_adjective_formation",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The documentary became ____ after winning the award.",
+  "example": "The documentary became famous after winning the award.",
+  "explanation": "The suffix '-ous' transforms nouns into adjectives. 'Fame' becomes 'famous'.",
+  "chunks": {
+    "NOUN": ["award", "prize", "recognition", "honor"],
+    "VERB": {
+      "famous": {
+        "correct_forms": ["famous"],
+        "wrong_forms": ["fame", "famed", "famously"],
+        "objects": [],
+        "distractor": "obscure"
+      },
+      "controversial": {
+        "correct_forms": ["controversial"],
+        "wrong_forms": ["controversy", "controvert", "controversially"],
+        "objects": [],
+        "distractor": "uncontested"
+      },
+      "momentous": {
+        "correct_forms": ["momentous"],
+        "wrong_forms": ["moment", "momentary", "momentarily"],
+        "objects": [],
+        "distractor": "trivial"
+      },
+      "continuous": {
+        "correct_forms": ["continuous"],
+        "wrong_forms": ["continue", "continuing", "continuously"],
+        "objects": [],
+        "distractor": "sporadic"
+      }
+    }
+  }
+}

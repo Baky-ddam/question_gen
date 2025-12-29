@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_THINGS_A2_TYPE1_GROUPA",
+  "focus": "relative_clause_which",
+  "level": "A2",
+  "domain": "things",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {THING} ____ {DESCRIPTION} is {QUALITY}.",
+  "example": "The book which I read was interesting.",
+  "explanation": "We use 'which' to give more information about things or animals. 'Which' refers back to the thing mentioned before it.",
+  "chunks": {
+    "THING": ["book", "movie", "song", "cake"],
+    "DESCRIPTION": ["I read", "we watched", "she sang", "my mom made"],
+    "QUALITY": ["interesting", "really good", "very popular", "delicious"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "objects": [],
+        "distractor": "lose"
+      }
+    }
+  }
+}

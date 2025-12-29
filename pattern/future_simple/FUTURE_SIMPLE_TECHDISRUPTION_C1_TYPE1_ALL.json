@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_TECHDISRUPTION_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "technological_disruption",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Researchers anticipate that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Researchers anticipate that artificial intelligence will displace traditional workflows as automation capabilities expand.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about technological disruption.",
+  "chunks": {
+    "SUBJ": ["artificial intelligence", "automation technologies", "quantum computing", "biotechnology advances", "digital platforms", "machine learning systems"],
+    "VERB": {
+      "displace": {
+        "correct_forms": ["will displace"],
+        "wrong_forms": ["displaces", "is going to displace", "would displace"],
+        "objects": ["traditional workflows", "manual processes", "established practices"],
+        "distractor": "obliterate"
+      },
+      "revolutionize": {
+        "correct_forms": ["will revolutionize"],
+        "wrong_forms": ["revolutionizes", "is going to revolutionize", "would revolutionize"],
+        "objects": ["multiple industries", "scientific research", "healthcare delivery"],
+        "distractor": "forsake"
+      },
+      "redefine": {
+        "correct_forms": ["will redefine"],
+        "wrong_forms": ["redefines", "is going to redefine", "would redefine"],
+        "objects": ["competitive landscapes", "human-machine interaction", "professional roles"],
+        "distractor": "repudiate"
+      },
+      "accelerate": {
+        "correct_forms": ["will accelerate"],
+        "wrong_forms": ["accelerates", "is going to accelerate", "would accelerate"],
+        "objects": ["exponentially", "across all sectors", "beyond current projections"],
+        "distractor": "abrogate"
+      }
+    },
+    "TREND": ["automation capabilities expand", "processing power increases", "algorithms become more sophisticated", "investment in R&D grows", "adoption rates surge", "integration barriers diminish"]
+  }
+}

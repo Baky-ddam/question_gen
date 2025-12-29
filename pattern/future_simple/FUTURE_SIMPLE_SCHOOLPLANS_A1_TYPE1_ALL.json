@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SCHOOLPLANS_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "school_plans",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will study English tomorrow.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans and predictions about school activities.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "study": {
+        "correct_forms": ["will study"],
+        "wrong_forms": ["study", "is going to study", "would study"],
+        "objects": ["English", "math", "science"],
+        "distractor": "avoid"
+      },
+      "do": {
+        "correct_forms": ["will do"],
+        "wrong_forms": ["does", "is going to do", "would do"],
+        "objects": ["homework", "the project", "an exam"],
+        "distractor": "skip"
+      },
+      "learn": {
+        "correct_forms": ["will learn"],
+        "wrong_forms": ["learns", "is going to learn", "would learn"],
+        "objects": ["new words", "a song", "grammar"],
+        "distractor": "forget"
+      },
+      "read": {
+        "correct_forms": ["will read"],
+        "wrong_forms": ["reads", "is going to read", "would read"],
+        "objects": ["a book", "the lesson", "a story"],
+        "distractor": "ignore"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next week", "later", "soon"]
+  }
+}

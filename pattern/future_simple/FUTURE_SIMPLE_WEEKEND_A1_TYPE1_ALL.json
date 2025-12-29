@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_WEEKEND_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "weekend",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will relax at home this weekend.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for weekend plans and activities.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "relax": {
+        "correct_forms": ["will relax"],
+        "wrong_forms": ["relaxes", "is going to relax", "would relax"],
+        "objects": ["at home", "in the park", "by the pool"],
+        "distractor": "hate"
+      },
+      "play": {
+        "correct_forms": ["will play"],
+        "wrong_forms": ["plays", "is going to play", "would play"],
+        "objects": ["games", "football", "with friends"],
+        "distractor": "avoid"
+      },
+      "visit": {
+        "correct_forms": ["will visit"],
+        "wrong_forms": ["visits", "is going to visit", "would visit"],
+        "objects": ["grandma", "friends", "the mall"],
+        "distractor": "ignore"
+      },
+      "sleep": {
+        "correct_forms": ["will sleep"],
+        "wrong_forms": ["sleeps", "is going to sleep", "would sleep"],
+        "objects": ["late", "all morning", "a lot"],
+        "distractor": "skip"
+      }
+    },
+    "FUTURE_TIME": ["this weekend", "on Saturday", "on Sunday", "next weekend"]
+  }
+}

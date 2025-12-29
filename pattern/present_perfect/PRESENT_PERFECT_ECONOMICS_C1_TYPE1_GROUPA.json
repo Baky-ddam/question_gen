@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ECONOMICS_C1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a development that {IMPLICATION}.",
+  "example": "The policymakers have implemented sweeping fiscal reforms across emerging markets, a development that signals a fundamental shift in economic governance.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' for economic policy impacts. Appositive clause explains broader market implications.",
+  "chunks": {
+    "SUBJ": [
+      "the policymakers",
+      "the central bankers",
+      "the finance ministers",
+      "the economic advisors"
+    ],
+    "PLACE": [
+      "across emerging markets",
+      "in developed economies",
+      "throughout the eurozone",
+      "within multilateral institutions"
+    ],
+    "IMPLICATION": [
+      "signals a fundamental shift in economic governance",
+      "reshapes investor confidence globally",
+      "alters the trajectory of monetary policy",
+      "redefines fiscal sustainability frameworks",
+      "influences sovereign debt dynamics"
+    ],
+    "VERB": {
+      "implement": {
+        "correct_forms": [
+          "have implemented"
+        ],
+        "wrong_forms": [
+          "has implemented",
+          "had implemented",
+          "implemented"
+        ],
+        "objects": [
+          "sweeping fiscal reforms",
+          "unprecedented monetary interventions",
+          "comprehensive regulatory frameworks",
+          "structural adjustment programs"
+        ],
+        "distractor": "rescind"
+      },
+      "analyze": {
+        "correct_forms": [
+          "have analyzed"
+        ],
+        "wrong_forms": [
+          "has analyzed",
+          "had analyzed",
+          "analyzed"
+        ],
+        "objects": [
+          "complex market dynamics",
+          "systemic risk indicators",
+          "macroeconomic stability factors",
+          "cross-border capital flows"
+        ],
+        "distractor": "disregard"
+      },
+      "forecast": {
+        "correct_forms": [
+          "have forecasted"
+        ],
+        "wrong_forms": [
+          "has forecasted",
+          "had forecasted",
+          "forecasted"
+        ],
+        "objects": [
+          "unprecedented inflationary pressures",
+          "significant growth contractions",
+          "volatile currency fluctuations",
+          "substantial trade imbalances"
+        ],
+        "distractor": "obliterate"
+      },
+      "stabilize": {
+        "correct_forms": [
+          "have stabilized"
+        ],
+        "wrong_forms": [
+          "has stabilized",
+          "had stabilized",
+          "stabilized"
+        ],
+        "objects": [
+          "turbulent financial markets",
+          "volatile exchange rates",
+          "precarious banking sectors",
+          "fragile economic conditions"
+        ],
+        "distractor": "abrogate"
+      }
+    }
+  }
+}

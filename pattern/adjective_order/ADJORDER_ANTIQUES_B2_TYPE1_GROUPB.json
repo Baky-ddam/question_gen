@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANTIQUES_B2_TYPE1_GROUPB",
+  "focus": "adjective_order_size_age_origin_antiques",
+  "level": "B2",
+  "domain": "antiques",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "The estate had a ____ {NOUN}.",
+  "example": "The estate had a large antique French mirror.",
+  "explanation": "Size-Age-Origin order. 'Large antique French' follows the correct sequence.",
+  "chunks": {
+    "NOUN": ["mirror", "chandelier", "clock", "tapestry"],
+    "VERB": {
+      "large antique French": {
+        "correct_forms": ["large antique French"],
+        "wrong_forms": ["antique large French", "French antique large", "French large antique"],
+        "objects": [],
+        "distractor": "small"
+      },
+      "enormous vintage Italian": {
+        "correct_forms": ["enormous vintage Italian"],
+        "wrong_forms": ["vintage enormous Italian", "Italian vintage enormous", "Italian enormous vintage"],
+        "objects": [],
+        "distractor": "tiny"
+      },
+      "massive old English": {
+        "correct_forms": ["massive old English"],
+        "wrong_forms": ["old massive English", "English old massive", "English massive old"],
+        "objects": [],
+        "distractor": "miniature"
+      }
+    }
+  }
+}

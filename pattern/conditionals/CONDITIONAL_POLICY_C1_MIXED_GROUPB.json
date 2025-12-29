@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_POLICY_C1_MIXED_GROUPB",
+  "focus": "conditional_mixed_present_past",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ENTITY} ____ {PRESENT_CONDITION}, it would have {PAST_RESULT}.",
+  "example": "If the administration were more transparent, it would have avoided the scandal.",
+  "explanation": "Mixed conditional: present condition (were) with past result (would have + pp). A current trait would have changed a past outcome.",
+  "chunks": {
+    "ENTITY": ["administration", "ministry", "authority", "agency"],
+    "PRESENT_CONDITION": ["more transparent", "better organized", "more responsive", "more accountable"],
+    "PAST_RESULT": ["avoided the scandal", "prevented the crisis", "maintained public trust", "handled the situation better"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "would be"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

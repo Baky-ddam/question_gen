@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_BUSINESS_B2_TYPE2_GROUPA",
+  "focus": "reported_speech_claimed_explained",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The spokesperson {REPORTING_VERB} that the executives ____ {BUSINESS_ACTION}.",
+  "example": "The spokesperson claimed that the executives had approved the merger.",
+  "explanation": "Various reporting verbs can introduce reported speech. Past tense 'approved' becomes past perfect 'had approved'.",
+  "chunks": {
+    "REPORTING_VERB": ["claimed", "explained", "mentioned", "confirmed"],
+    "BUSINESS_ACTION": ["approved the merger", "finalized the agreement", "reviewed the budget", "signed the contract"],
+    "VERB": {
+      "had approved": {
+        "correct_forms": ["had approved"],
+        "wrong_forms": ["approved", "have approved", "were approving"],
+        "objects": [],
+        "distractor": "refute"
+      },
+      "had finalized": {
+        "correct_forms": ["had finalized"],
+        "wrong_forms": ["finalized", "have finalized", "were finalizing"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

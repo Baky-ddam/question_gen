@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_HOTELS_A2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "hotels",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "At {TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "At this time last week, we were checking into the hotel.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for actions happening at a specific moment in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "this time last week",
+      "noon yesterday",
+      "8am this morning",
+      "midnight last night"
+    ],
+    "VERB": {
+      "check": {
+        "correct_forms": ["were checking"],
+        "wrong_forms": ["was checking", "checked", "are checking"],
+        "objects": ["into the hotel", "into the room", "out of the resort"],
+        "distractor": "abandon"
+      },
+      "carry": {
+        "correct_forms": ["were carrying"],
+        "wrong_forms": ["was carrying", "carried", "are carrying"],
+        "objects": ["the luggage", "the suitcases", "the bags"],
+        "distractor": "waste"
+      },
+      "explore": {
+        "correct_forms": ["were exploring"],
+        "wrong_forms": ["was exploring", "explored", "are exploring"],
+        "objects": ["the lobby", "the facilities", "the pool area"],
+        "distractor": "neglect"
+      },
+      "book": {
+        "correct_forms": ["were booking"],
+        "wrong_forms": ["was booking", "booked", "are booking"],
+        "objects": ["a spa treatment", "a room upgrade", "a dinner reservation"],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

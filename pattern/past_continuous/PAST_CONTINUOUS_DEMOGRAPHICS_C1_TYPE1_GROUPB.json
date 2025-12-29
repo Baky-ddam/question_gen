@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_DEMOGRAPHICS_C1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "demographics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "implication_clause", "broader_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a situation that {BROADER_IMPLICATION}.",
+  "example": "The demographer was reconstructing historical population dynamics at the national statistics bureau, a situation that ultimately revealed systematic undercounting of marginalized communities in previous censuses.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for past ongoing demographic work with broader implications.",
+  "chunks": {
+    "SUBJ": ["I", "the demographer", "the population analyst", "the census methodologist"],
+    "PLACE": [
+      "at the national statistics bureau",
+      "within the international population research consortium",
+      "at the governmental demographic planning unit",
+      "during the comprehensive census evaluation"
+    ],
+    "BROADER_IMPLICATION": [
+      "ultimately revealed systematic undercounting of marginalized communities in previous censuses",
+      "necessitated a fundamental revision of the national population register",
+      "exposed significant discrepancies between official estimates and empirical realities",
+      "prompted unprecedented methodological reforms in vital statistics collection"
+    ],
+    "VERB": {
+      "reconstruct": {
+        "correct_forms": ["was reconstructing"],
+        "wrong_forms": ["were reconstructing", "reconstructed", "is reconstructing"],
+        "objects": ["historical population dynamics from fragmentary archival sources", "the demographic transition pathway of developing nations", "pre-census mortality patterns using indirect estimation techniques", "the spatial distribution of ancestral populations from genealogical records"],
+        "distractor": "nullify"
+      },
+      "triangulate": {
+        "correct_forms": ["was triangulating"],
+        "wrong_forms": ["were triangulating", "triangulated", "is triangulating"],
+        "objects": ["multiple data sources to validate controversial fertility estimates", "administrative records with survey data for enhanced accuracy", "satellite imagery with ground-truthed settlement data", "independent sources to reconcile conflicting migration statistics"],
+        "distractor": "abrogate"
+      },
+      "calibrate": {
+        "correct_forms": ["was calibrating"],
+        "wrong_forms": ["were calibrating", "calibrated", "is calibrating"],
+        "objects": ["the stochastic models against observed demographic outcomes", "the projection algorithms using retrospective validation data", "the sensitivity parameters within the simulation framework", "the uncertainty bounds around contentious population estimates"],
+        "distractor": "rescind"
+      },
+      "adjudicate": {
+        "correct_forms": ["was adjudicating"],
+        "wrong_forms": ["were adjudicating", "adjudicated", "is adjudicating"],
+        "objects": ["between competing methodological approaches to fertility measurement", "the discrepancies arising from alternative enumeration strategies", "contested claims regarding the accuracy of vital registration systems", "methodological disputes concerning the interpretation of cohort data"],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

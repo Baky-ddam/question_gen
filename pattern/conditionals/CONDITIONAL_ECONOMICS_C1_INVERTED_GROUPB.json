@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_ECONOMICS_C1_INVERTED_GROUPB",
+  "focus": "conditional_inverted_economic_were",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the {ENTITY} to {ECONOMIC_ACTION}, the consequences would {RESULT}.",
+  "example": "Were the government to default on its debt, the consequences would be catastrophic.",
+  "explanation": "Inverted conditional with 'Were...to' for economic scenarios. Formal hypothetical about potential economic impact.",
+  "chunks": {
+    "ENTITY": ["government", "central bank", "treasury", "monetary authority"],
+    "ECONOMIC_ACTION": ["default on its debt", "abandon the currency peg", "nationalize the banks", "impose capital controls"],
+    "RESULT": ["be catastrophic", "reverberate globally", "trigger a recession", "destabilize the region"],
+    "VERB": {
+      "Were": {
+        "correct_forms": ["Were"],
+        "wrong_forms": ["If", "Was", "Are"],
+        "objects": [],
+        "distractor": "mitigate"
+      }
+    }
+  }
+}

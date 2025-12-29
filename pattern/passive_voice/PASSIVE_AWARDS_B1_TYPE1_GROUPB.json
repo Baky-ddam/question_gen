@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_AWARDS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "awards",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The award was presented by the CEO.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the award", "the trophy", "the certificate", "the prize", "the medal", "the scholarship"],
+    "AGENT": ["the CEO", "the director", "a celebrity", "the foundation", "the committee chair", "the organization"],
+    "VERB": {
+      "present": {
+        "correct_forms": ["was presented"],
+        "wrong_forms": ["were presented", "is presented", "has been presented"],
+        "objects": [],
+        "distractor": "withdrawn"
+      },
+      "announce": {
+        "correct_forms": ["was announced"],
+        "wrong_forms": ["were announced", "is announced", "has been announced"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "give": {
+        "correct_forms": ["was given"],
+        "wrong_forms": ["were given", "is given", "has been given"],
+        "objects": [],
+        "distractor": "denied"
+      },
+      "sponsor": {
+        "correct_forms": ["was sponsored"],
+        "wrong_forms": ["were sponsored", "is sponsored", "has been sponsored"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_HOME_A2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "home",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {TIME}.",
+  "example": "I turn off the light every night.",
+  "explanation": "Phrasal verbs combine a verb with a particle (like 'off', 'on', 'up') to create a new meaning. Choose the correct phrasal verb that fits the context.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "TIME": ["every day", "every night", "in the morning", "before leaving", "after dinner"],
+    "VERB": {
+      "turn off": {
+        "correct_forms": ["turn off"],
+        "wrong_forms": ["turn on", "turn up", "turn down"],
+        "objects": ["light", "TV", "heater", "fan"],
+        "distractor": "leave"
+      },
+      "turn on": {
+        "correct_forms": ["turn on"],
+        "wrong_forms": ["turn off", "turn up", "turn down"],
+        "objects": ["lights", "air conditioner", "radio", "lamp"],
+        "distractor": "ignore"
+      },
+      "put away": {
+        "correct_forms": ["put away"],
+        "wrong_forms": ["put on", "put off", "put up"],
+        "objects": ["dishes", "clothes", "toys", "books"],
+        "distractor": "leave"
+      },
+      "tidy up": {
+        "correct_forms": ["tidy up"],
+        "wrong_forms": ["tidy on", "tidy off", "tidy down"],
+        "objects": ["room", "kitchen", "living room", "bedroom"],
+        "distractor": "mess"
+      }
+    }
+  }
+}

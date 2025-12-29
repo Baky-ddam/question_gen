@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_ENVIRONMENT_B2_TYPE1_GROUPB",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "environment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Solar energy is encouraged because it provides clean power.",
+  "explanation": "Use 'is' + past participle with singular subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["solar energy", "wind power", "recycling", "conservation", "sustainable development", "environmental protection"],
+    "REASON": ["it provides clean power", "it reduces pollution", "resources are depleting", "the climate is changing", "ecosystems are at risk", "future generations depend on it"],
+    "VERB": {
+      "encourage": {
+        "correct_forms": ["is encouraged"],
+        "wrong_forms": ["are encouraged", "was encouraged", "has been encouraged"],
+        "objects": [],
+        "distractor": "discouraged"
+      },
+      "promote": {
+        "correct_forms": ["is promoted"],
+        "wrong_forms": ["are promoted", "was promoted", "has been promoted"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "prioritize": {
+        "correct_forms": ["is prioritized"],
+        "wrong_forms": ["are prioritized", "was prioritized", "has been prioritized"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "require": {
+        "correct_forms": ["is required"],
+        "wrong_forms": ["are required", "was required", "has been required"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

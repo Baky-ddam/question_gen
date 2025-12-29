@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_MANAGEMENT_B2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "management",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "We have implemented new leadership strategies, so team productivity has increased.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe management decisions and their organizational consequences.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they",
+      "the executives",
+      "the board members"
+    ],
+    "RESULT": [
+      "organizational efficiency has improved",
+      "employee engagement has increased",
+      "the company culture is now stronger",
+      "operational costs have decreased"
+    ],
+    "VERB": {
+      "implement": {
+        "correct_forms": [
+          "have implemented"
+        ],
+        "wrong_forms": [
+          "has implemented",
+          "had implemented",
+          "implemented"
+        ],
+        "objects": [
+          "comprehensive restructuring plans",
+          "performance-based incentives",
+          "agile management practices",
+          "strategic workforce initiatives"
+        ],
+        "distractor": "disregard"
+      },
+      "delegate": {
+        "correct_forms": [
+          "have delegated"
+        ],
+        "wrong_forms": [
+          "has delegated",
+          "had delegated",
+          "delegated"
+        ],
+        "objects": [
+          "key responsibilities effectively",
+          "decision-making authority",
+          "operational tasks strategically",
+          "project leadership roles"
+        ],
+        "distractor": "undermine"
+      },
+      "restructure": {
+        "correct_forms": [
+          "have restructured"
+        ],
+        "wrong_forms": [
+          "has restructured",
+          "had restructured",
+          "restructured"
+        ],
+        "objects": [
+          "the organizational hierarchy",
+          "the management teams",
+          "the departmental workflows",
+          "the reporting structures"
+        ],
+        "distractor": "obstruct"
+      },
+      "streamline": {
+        "correct_forms": [
+          "have streamlined"
+        ],
+        "wrong_forms": [
+          "has streamlined",
+          "had streamlined",
+          "streamlined"
+        ],
+        "objects": [
+          "the approval processes",
+          "internal communications",
+          "resource allocation procedures",
+          "cross-departmental collaboration"
+        ],
+        "distractor": "impede"
+      }
+    }
+  }
+}

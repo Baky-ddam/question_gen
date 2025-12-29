@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_SCIENCE_B2_TYPE1_GROUPA",
+  "focus": "suffix_ist_person_formation",
+  "level": "B2",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ published groundbreaking research last month.",
+  "example": "The scientist published groundbreaking research last month.",
+  "explanation": "The suffix '-ist' transforms nouns into nouns indicating a person who studies or practices something.",
+  "chunks": {
+    "NOUN": ["last month", "last year", "recently", "this quarter"],
+    "VERB": {
+      "scientist": {
+        "correct_forms": ["scientist"],
+        "wrong_forms": ["science", "scientific", "scientifically"],
+        "objects": [],
+        "distractor": "amateur"
+      },
+      "biologist": {
+        "correct_forms": ["biologist"],
+        "wrong_forms": ["biology", "biological", "biologically"],
+        "objects": [],
+        "distractor": "layperson"
+      },
+      "chemist": {
+        "correct_forms": ["chemist"],
+        "wrong_forms": ["chemistry", "chemical", "chemically"],
+        "objects": [],
+        "distractor": "novice"
+      },
+      "physicist": {
+        "correct_forms": ["physicist"],
+        "wrong_forms": ["physics", "physical", "physically"],
+        "objects": [],
+        "distractor": "outsider"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_LANGUAGESKILLS_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "language_skills",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {ADVERB}.",
+  "example": "She can speak English well.",
+  "explanation": "Use 'can' + base verb with all subjects to express ability. Add adverbs like 'well', 'fluently' to describe how well someone does something.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "ADVERB": [
+      "well",
+      "fluently",
+      "easily",
+      "perfectly"
+    ],
+    "VERB": {
+      "speak": {
+        "correct_forms": [
+          "can speak"
+        ],
+        "wrong_forms": [
+          "could speak",
+          "must speak",
+          "should speak"
+        ],
+        "objects": [
+          "English",
+          "Spanish",
+          "French",
+          "German"
+        ],
+        "distractor": "quit"
+      },
+      "understand": {
+        "correct_forms": [
+          "can understand"
+        ],
+        "wrong_forms": [
+          "could understand",
+          "must understand",
+          "should understand"
+        ],
+        "objects": [
+          "the language",
+          "native speakers",
+          "the grammar",
+          "the vocabulary"
+        ],
+        "distractor": "skip"
+      },
+      "read": {
+        "correct_forms": [
+          "can read"
+        ],
+        "wrong_forms": [
+          "could read",
+          "must read",
+          "should read"
+        ],
+        "objects": [
+          "books",
+          "newspapers",
+          "articles",
+          "stories"
+        ],
+        "distractor": "destroy"
+      },
+      "write": {
+        "correct_forms": [
+          "can write"
+        ],
+        "wrong_forms": [
+          "could write",
+          "must write",
+          "should write"
+        ],
+        "objects": [
+          "emails",
+          "letters",
+          "essays",
+          "reports"
+        ],
+        "distractor": "waste"
+      }
+    }
+  }
+}

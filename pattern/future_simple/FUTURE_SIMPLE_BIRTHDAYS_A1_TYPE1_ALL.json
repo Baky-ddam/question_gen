@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_BIRTHDAYS_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "birthdays",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will have a party next week.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans and predictions about celebrations.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "have": {
+        "correct_forms": ["will have"],
+        "wrong_forms": ["have", "is going to have", "would have"],
+        "objects": ["a party", "a cake", "a celebration"],
+        "distractor": "cancel"
+      },
+      "invite": {
+        "correct_forms": ["will invite"],
+        "wrong_forms": ["invites", "is going to invite", "would invite"],
+        "objects": ["friends", "family", "everyone"],
+        "distractor": "ignore"
+      },
+      "get": {
+        "correct_forms": ["will get"],
+        "wrong_forms": ["gets", "is going to get", "would get"],
+        "objects": ["presents", "a gift", "many cards"],
+        "distractor": "lose"
+      },
+      "celebrate": {
+        "correct_forms": ["will celebrate"],
+        "wrong_forms": ["celebrates", "is going to celebrate", "would celebrate"],
+        "objects": ["at home", "at a restaurant", "with friends"],
+        "distractor": "forget"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next week", "next month", "soon"]
+  }
+}

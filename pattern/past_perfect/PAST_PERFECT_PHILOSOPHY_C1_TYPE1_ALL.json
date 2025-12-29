@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_PHILOSOPHY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "philosophy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.",
+  "example": "Philosophers had never questioned these assumptions until the paradigm shift occurred.",
+  "explanation": "Use 'had never' + past participle to emphasize that something happened for the first time before a specific past event.",
+  "chunks": {
+    "SUBJ": ["philosophers", "thinkers", "scholars", "the intellectual community", "theorists", "academics"],
+    "PAST_EVENT": ["the paradigm shift occurred", "new evidence emerged", "the critique was published", "the movement gained momentum", "the discourse evolved"],
+    "VERB": {
+      "question": {
+        "correct_forms": ["had questioned"],
+        "wrong_forms": ["have questioned", "questioned", "were questioning"],
+        "objects": ["these assumptions", "the fundamental premises", "established doctrines", "conventional wisdom"],
+        "distractor": "accept"
+      },
+      "articulate": {
+        "correct_forms": ["had articulated"],
+        "wrong_forms": ["has articulated", "articulated", "was articulating"],
+        "objects": ["such a comprehensive framework", "the concept clearly", "these ideas systematically", "the theory in these terms"],
+        "distractor": "obscure"
+      },
+      "reconcile": {
+        "correct_forms": ["had reconciled"],
+        "wrong_forms": ["have reconciled", "reconciled", "were reconciling"],
+        "objects": ["these opposing viewpoints", "empiricism with rationalism", "the contradictions", "competing theories"],
+        "distractor": "polarize"
+      },
+      "challenge": {
+        "correct_forms": ["had challenged"],
+        "wrong_forms": ["has challenged", "challenged", "was challenging"],
+        "objects": ["the prevailing orthodoxy", "established epistemology", "foundational beliefs", "canonical interpretations"],
+        "distractor": "endorse"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_GYM_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "gym",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can exercise here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission or ability in gym settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this area",
+      "in this room"
+    ],
+    "VERB": {
+      "exercise": {
+        "correct_forms": [
+          "can exercise"
+        ],
+        "wrong_forms": [
+          "could exercise",
+          "must exercise",
+          "should exercise"
+        ],
+        "objects": [
+          "freely",
+          "daily",
+          "regularly",
+          "safely"
+        ],
+        "distractor": "quit"
+      },
+      "train": {
+        "correct_forms": [
+          "can train"
+        ],
+        "wrong_forms": [
+          "could train",
+          "must train",
+          "should train"
+        ],
+        "objects": [
+          "with weights",
+          "with a coach",
+          "alone",
+          "in groups"
+        ],
+        "distractor": "skip"
+      },
+      "use": {
+        "correct_forms": [
+          "can use"
+        ],
+        "wrong_forms": [
+          "could use",
+          "must use",
+          "should use"
+        ],
+        "objects": [
+          "the equipment",
+          "the machines",
+          "the treadmill",
+          "the weights"
+        ],
+        "distractor": "destroy"
+      },
+      "swim": {
+        "correct_forms": [
+          "can swim"
+        ],
+        "wrong_forms": [
+          "could swim",
+          "must swim",
+          "should swim"
+        ],
+        "objects": [
+          "laps",
+          "in the pool",
+          "for an hour",
+          "in the morning"
+        ],
+        "distractor": "waste"
+      }
+    }
+  }
+}

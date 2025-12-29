@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_INTERVIEWS_B2_TYPE2_GROUPA",
+  "focus": "reported_speech_promised",
+  "level": "B2",
+  "domain": "interviews",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The representatives promised that {SUBJ} ____ {PROMISE}.",
+  "example": "The representatives promised that they would address all concerns.",
+  "explanation": "The verb 'promised' introduces a commitment. 'Will address' becomes 'would address' in reported speech.",
+  "chunks": {
+    "SUBJ": ["they", "the committee", "the board", "the leadership"],
+    "PROMISE": ["address all concerns", "implement the changes", "review the feedback", "consider all options"],
+    "VERB": {
+      "would address": {
+        "correct_forms": ["would address"],
+        "wrong_forms": ["will address", "could address", "are addressing"],
+        "objects": [],
+        "distractor": "refuse"
+      },
+      "would implement": {
+        "correct_forms": ["would implement"],
+        "wrong_forms": ["will implement", "could implement", "are implementing"],
+        "objects": [],
+        "distractor": "reject"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_BUSINESS_B2_TYPE1_GROUPB",
+  "focus": "suffix_ive_adjective_formation",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The new strategy proved to be highly ____ in the market.",
+  "example": "The new strategy proved to be highly competitive in the market.",
+  "explanation": "The suffix '-ive' transforms verbs into adjectives. 'Compete' becomes 'competitive'.",
+  "chunks": {
+    "NOUN": ["market", "industry", "sector", "field"],
+    "VERB": {
+      "competitive": {
+        "correct_forms": ["competitive"],
+        "wrong_forms": ["compete", "competing", "competition"],
+        "objects": [],
+        "distractor": "uncompetitive"
+      },
+      "productive": {
+        "correct_forms": ["productive"],
+        "wrong_forms": ["produce", "producing", "production"],
+        "objects": [],
+        "distractor": "unproductive"
+      },
+      "innovative": {
+        "correct_forms": ["innovative"],
+        "wrong_forms": ["innovate", "innovating", "innovation"],
+        "objects": [],
+        "distractor": "conventional"
+      },
+      "effective": {
+        "correct_forms": ["effective"],
+        "wrong_forms": ["effect", "effecting", "effectiveness"],
+        "objects": [],
+        "distractor": "ineffective"
+      }
+    }
+  }
+}

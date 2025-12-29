@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_LIFESTYLE_B1_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "B1",
+  "domain": "lifestyle",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {ACTIVITY} {PURPOSE}.",
+  "example": "She takes up running to get fit.",
+  "explanation": "These phrasal verbs describe starting, continuing, or stopping activities and hobbies. They are commonly used when talking about lifestyle changes.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "the neighbor"],
+    "ACTIVITY": ["running", "yoga", "painting", "cooking classes"],
+    "PURPOSE": ["to get fit", "to relax", "to learn something new", "to meet people", "for fun"],
+    "VERB": {
+      "take up": {
+        "correct_forms": ["takes up"],
+        "wrong_forms": ["takes on", "takes off", "takes in"],
+        "objects": [],
+        "distractor": "quits"
+      },
+      "keep up with": {
+        "correct_forms": ["keeps up with"],
+        "wrong_forms": ["keeps on with", "keeps off with", "keeps in with"],
+        "objects": [],
+        "distractor": "abandons"
+      },
+      "cut back on": {
+        "correct_forms": ["cuts back on"],
+        "wrong_forms": ["cuts down to", "cuts off on", "cuts up on"],
+        "objects": [],
+        "distractor": "increases"
+      },
+      "stick to": {
+        "correct_forms": ["sticks to"],
+        "wrong_forms": ["sticks on", "sticks off", "sticks in"],
+        "objects": [],
+        "distractor": "abandons"
+      }
+    }
+  }
+}

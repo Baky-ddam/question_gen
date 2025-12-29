@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_FINANCE_C1_TYPE1_GROUPA",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "Regulatory safeguards have been strengthened by financial authorities to prevent systemic risks.",
+  "explanation": "Use 'have been' + past participle with plural subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["regulatory safeguards", "compliance frameworks", "risk management protocols", "transparency requirements", "capital adequacy standards", "audit procedures"],
+    "AGENT": ["financial authorities", "central banks", "regulatory commissions", "international watchdogs", "oversight committees", "monetary institutions"],
+    "PURPOSE": ["prevent systemic risks", "protect investor interests", "ensure market stability", "combat financial fraud", "maintain economic confidence", "enhance corporate governance"],
+    "VERB": {
+      "strengthen": {
+        "correct_forms": ["have been strengthened"],
+        "wrong_forms": ["has been strengthened", "were strengthened", "are strengthened"],
+        "objects": [],
+        "distractor": "weakened"
+      },
+      "implement": {
+        "correct_forms": ["have been implemented"],
+        "wrong_forms": ["has been implemented", "were implemented", "are implemented"],
+        "objects": [],
+        "distractor": "suspended"
+      },
+      "mandate": {
+        "correct_forms": ["have been mandated"],
+        "wrong_forms": ["has been mandated", "were mandated", "are mandated"],
+        "objects": [],
+        "distractor": "waived"
+      },
+      "enforce": {
+        "correct_forms": ["have been enforced"],
+        "wrong_forms": ["has been enforced", "were enforced", "are enforced"],
+        "objects": [],
+        "distractor": "circumvented"
+      }
+    }
+  }
+}

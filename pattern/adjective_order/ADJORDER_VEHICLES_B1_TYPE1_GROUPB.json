@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_VEHICLES_B1_TYPE1_GROUPB",
+  "focus": "adjective_order_size_color_vehicles",
+  "level": "B1",
+  "domain": "vehicles",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "She owns a ____ {NOUN}.",
+  "example": "She owns a big red bus.",
+  "explanation": "Size comes before color in adjective order. 'Big red' not 'red big'.",
+  "chunks": {
+    "NOUN": ["bus", "boat", "plane", "helicopter"],
+    "VERB": {
+      "big red": {
+        "correct_forms": ["big red"],
+        "wrong_forms": ["red big", "red and big", "big and red"],
+        "objects": [],
+        "distractor": "small"
+      },
+      "small blue": {
+        "correct_forms": ["small blue"],
+        "wrong_forms": ["blue small", "blue and small", "small and blue"],
+        "objects": [],
+        "distractor": "large"
+      },
+      "huge white": {
+        "correct_forms": ["huge white"],
+        "wrong_forms": ["white huge", "white and huge", "huge and white"],
+        "objects": [],
+        "distractor": "tiny"
+      }
+    }
+  }
+}

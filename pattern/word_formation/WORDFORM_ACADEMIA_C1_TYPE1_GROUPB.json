@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_ACADEMIA_C1_TYPE1_GROUPB",
+  "focus": "suffix_hood_formation",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of these researchers will determine the future trajectory of the discipline.",
+  "example": "The scholarship of these researchers will determine the future trajectory of the discipline.",
+  "explanation": "Advanced suffixes like '-hood' and '-ship' create abstract nouns indicating status, state, or collective identity.",
+  "chunks": {
+    "NOUN": ["discipline", "field", "domain", "specialty"],
+    "VERB": {
+      "scholarship": {
+        "correct_forms": ["scholarship"],
+        "wrong_forms": ["scholar", "scholarly", "scholaring"],
+        "objects": [],
+        "distractor": "dilettantism"
+      },
+      "authorship": {
+        "correct_forms": ["authorship"],
+        "wrong_forms": ["author", "authoring", "authored"],
+        "objects": [],
+        "distractor": "plagiarism"
+      },
+      "professorship": {
+        "correct_forms": ["professorship"],
+        "wrong_forms": ["professor", "professing", "professional"],
+        "objects": [],
+        "distractor": "amateurism"
+      },
+      "mentorship": {
+        "correct_forms": ["mentorship"],
+        "wrong_forms": ["mentor", "mentoring", "mentored"],
+        "objects": [],
+        "distractor": "negligence"
+      }
+    }
+  }
+}

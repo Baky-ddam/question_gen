@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_EVENTS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The conferences were organized by the committee.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the conferences", "the meetings", "the workshops", "the seminars", "the celebrations", "the ceremonies"],
+    "AGENT": ["the committee", "the organizers", "the planning team", "the coordinators", "the volunteers", "the association"],
+    "VERB": {
+      "organize": {
+        "correct_forms": ["were organized"],
+        "wrong_forms": ["was organized", "are organized", "have been organized"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "host": {
+        "correct_forms": ["were hosted"],
+        "wrong_forms": ["was hosted", "are hosted", "have been hosted"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "attend": {
+        "correct_forms": ["were attended"],
+        "wrong_forms": ["was attended", "are attended", "have been attended"],
+        "objects": [],
+        "distractor": "boycotted"
+      },
+      "sponsor": {
+        "correct_forms": ["were sponsored"],
+        "wrong_forms": ["was sponsored", "are sponsored", "have been sponsored"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

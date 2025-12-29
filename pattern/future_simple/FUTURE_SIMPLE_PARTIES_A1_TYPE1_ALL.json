@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_PARTIES_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "parties",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will go to a party next Saturday.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans about parties and social events.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "go": {
+        "correct_forms": ["will go"],
+        "wrong_forms": ["goes", "is going to go", "would go"],
+        "objects": ["to a party", "to the celebration", "to the event"],
+        "distractor": "avoid"
+      },
+      "dance": {
+        "correct_forms": ["will dance"],
+        "wrong_forms": ["dances", "is going to dance", "would dance"],
+        "objects": ["at the party", "all night", "with friends"],
+        "distractor": "hate"
+      },
+      "bring": {
+        "correct_forms": ["will bring"],
+        "wrong_forms": ["brings", "is going to bring", "would bring"],
+        "objects": ["a gift", "some food", "music"],
+        "distractor": "forget"
+      },
+      "wear": {
+        "correct_forms": ["will wear"],
+        "wrong_forms": ["wears", "is going to wear", "would wear"],
+        "objects": ["a new dress", "a suit", "something nice"],
+        "distractor": "avoid"
+      }
+    },
+    "FUTURE_TIME": ["next Saturday", "tomorrow night", "next week", "soon"]
+  }
+}

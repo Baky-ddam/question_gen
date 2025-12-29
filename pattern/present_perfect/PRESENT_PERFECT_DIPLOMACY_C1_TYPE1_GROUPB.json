@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_DIPLOMACY_C1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "Never before ____ {SUBJ} {OBJ}.",
+  "example": "Never before has the ambassador secured such comprehensive diplomatic immunity.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' in emphatic inversion structures. 'Never before' triggers subject-auxiliary inversion for dramatic effect.",
+  "chunks": {
+    "SUBJ": [
+      "the ambassador",
+      "the envoy",
+      "the foreign minister",
+      "the secretary-general"
+    ],
+    "VERB": {
+      "secure": {
+        "correct_forms": [
+          "has secured"
+        ],
+        "wrong_forms": [
+          "have secured",
+          "had secured",
+          "secured"
+        ],
+        "objects": [
+          "such comprehensive diplomatic immunity",
+          "such unprecedented access to negotiations",
+          "such binding international commitments",
+          "such favorable treaty conditions"
+        ],
+        "distractor": "nullify"
+      },
+      "facilitate": {
+        "correct_forms": [
+          "has facilitated"
+        ],
+        "wrong_forms": [
+          "have facilitated",
+          "had facilitated",
+          "facilitated"
+        ],
+        "objects": [
+          "such rapid conflict resolution",
+          "such complex multilateral talks",
+          "such delicate prisoner exchanges",
+          "such sensitive intelligence sharing"
+        ],
+        "distractor": "obstruct"
+      },
+      "orchestrate": {
+        "correct_forms": [
+          "has orchestrated"
+        ],
+        "wrong_forms": [
+          "have orchestrated",
+          "had orchestrated",
+          "orchestrated"
+        ],
+        "objects": [
+          "such a swift diplomatic intervention",
+          "such intricate alliance formations",
+          "such effective sanctions relief",
+          "such coordinated humanitarian responses"
+        ],
+        "distractor": "countermand"
+      },
+      "establish": {
+        "correct_forms": [
+          "has established"
+        ],
+        "wrong_forms": [
+          "have established",
+          "had established",
+          "established"
+        ],
+        "objects": [
+          "such lasting peace frameworks",
+          "such robust verification mechanisms",
+          "such transparent communication channels",
+          "such resilient diplomatic networks"
+        ],
+        "distractor": "renounce"
+      }
+    }
+  }
+}

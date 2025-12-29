@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_LOCATIONS_B1_TYPE1_GROUPB",
+  "focus": "relative_clause_where_institution",
+  "level": "B1",
+  "domain": "locations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "I visited the {INSTITUTION} ____ {ACHIEVEMENT}.",
+  "example": "I visited the laboratory where they developed the new technology.",
+  "explanation": "We use 'where' for institutions and facilities. The clause describes what happens or happened there.",
+  "chunks": {
+    "INSTITUTION": ["laboratory", "hospital", "factory", "studio"],
+    "ACHIEVEMENT": ["they developed the new technology", "many discoveries were made", "thousands of products are manufactured", "famous movies are produced"],
+    "VERB": {
+      "where": {
+        "correct_forms": ["where"],
+        "wrong_forms": ["which", "who", "whose"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_STRATEGY_C1_MIXED_GROUPA",
+  "focus": "conditional_mixed_strategy",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If the leadership ____ {PAST_STRATEGIC_ACTION}, the organization would {PRESENT_STATE} today.",
+  "example": "If the leadership had pivoted earlier, the organization would be dominating the market today.",
+  "explanation": "Mixed conditional for strategic analysis: past strategic decision affecting current market position.",
+  "chunks": {
+    "PAST_STRATEGIC_ACTION": ["pivoted earlier", "diversified proactively", "invested in innovation", "anticipated disruption"],
+    "PRESENT_STATE": ["be dominating the market", "be leading the industry", "be outperforming competitors", "be thriving"],
+    "VERB": {
+      "had pivoted": {
+        "correct_forms": ["had pivoted"],
+        "wrong_forms": ["pivoted", "have pivoted", "would pivot"],
+        "objects": [],
+        "distractor": "stagnate"
+      },
+      "had diversified": {
+        "correct_forms": ["had diversified"],
+        "wrong_forms": ["diversified", "have diversified", "would diversify"],
+        "objects": [],
+        "distractor": "consolidate"
+      }
+    }
+  }
+}

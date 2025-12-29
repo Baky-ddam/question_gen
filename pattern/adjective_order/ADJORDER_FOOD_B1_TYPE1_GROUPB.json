@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FOOD_B1_TYPE1_GROUPB",
+  "focus": "adjective_order_size_shape_food",
+  "level": "B1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "She made some ____ {NOUN}.",
+  "example": "She made some small round cookies.",
+  "explanation": "Size comes before shape in adjective order. 'Small round' not 'round small'.",
+  "chunks": {
+    "NOUN": ["cookies", "cakes", "biscuits", "pastries"],
+    "VERB": {
+      "small round": {
+        "correct_forms": ["small round"],
+        "wrong_forms": ["round small", "round and small", "small and round"],
+        "objects": [],
+        "distractor": "large"
+      },
+      "large flat": {
+        "correct_forms": ["large flat"],
+        "wrong_forms": ["flat large", "flat and large", "large and flat"],
+        "objects": [],
+        "distractor": "tiny"
+      },
+      "tiny square": {
+        "correct_forms": ["tiny square"],
+        "wrong_forms": ["square tiny", "square and tiny", "tiny and square"],
+        "objects": [],
+        "distractor": "huge"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_GEOPOLITICS_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "geopolitics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Analysts predict that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Analysts predict that diplomatic relations will deteriorate as tensions escalate in the region.",
+  "explanation": "Future simple uses 'will + base verb' in complex C1 predictions with trend analysis. Use academic structures with 'as' clauses.",
+  "chunks": {
+    "SUBJ": ["diplomatic relations", "regional stability", "international cooperation", "global alliances", "political dynamics", "power structures"],
+    "VERB": {
+      "deteriorate": {
+        "correct_forms": ["will deteriorate"],
+        "wrong_forms": ["deteriorates", "is going to deteriorate", "would deteriorate"],
+        "objects": ["significantly", "further", "rapidly"],
+        "distractor": "obliterate"
+      },
+      "shift": {
+        "correct_forms": ["will shift"],
+        "wrong_forms": ["shifts", "is going to shift", "would shift"],
+        "objects": ["dramatically", "fundamentally", "toward new paradigms"],
+        "distractor": "nullify"
+      },
+      "strengthen": {
+        "correct_forms": ["will strengthen"],
+        "wrong_forms": ["strengthens", "is going to strengthen", "would strengthen"],
+        "objects": ["considerably", "over time", "through cooperation"],
+        "distractor": "repudiate"
+      },
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["the global order", "international dynamics", "power balances"],
+        "distractor": "abrogate"
+      }
+    },
+    "TREND": ["tensions escalate in the region", "new alliances emerge", "economic interdependence grows", "conflicts intensify", "multilateral institutions evolve", "nationalist movements gain momentum"]
+  }
+}

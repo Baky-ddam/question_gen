@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_DRIVING_A2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "driving",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "They were driving to work when the traffic stopped.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for actions interrupted by another event in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "INTERRUPTION": [
+      "the traffic stopped",
+      "the phone rang",
+      "the accident happened",
+      "the rain started"
+    ],
+    "VERB": {
+      "drive": {
+        "correct_forms": ["were driving"],
+        "wrong_forms": ["was driving", "drove", "are driving"],
+        "objects": ["to work", "to the airport", "home"],
+        "distractor": "abandon"
+      },
+      "follow": {
+        "correct_forms": ["were following"],
+        "wrong_forms": ["was following", "followed", "are following"],
+        "objects": ["the GPS", "the directions", "the road signs"],
+        "distractor": "neglect"
+      },
+      "pass": {
+        "correct_forms": ["were passing"],
+        "wrong_forms": ["was passing", "passed", "are passing"],
+        "objects": ["a slow truck", "the exit", "through the tunnel"],
+        "distractor": "skip"
+      },
+      "look": {
+        "correct_forms": ["were looking"],
+        "wrong_forms": ["was looking", "looked", "are looking"],
+        "objects": ["for parking", "at the map", "for the street"],
+        "distractor": "quit"
+      }
+    }
+  }
+}

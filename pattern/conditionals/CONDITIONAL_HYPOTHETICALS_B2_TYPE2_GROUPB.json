@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_HYPOTHETICALS_B2_TYPE2_GROUPB",
+  "focus": "conditional_type_2_hypothetical_singular",
+  "level": "B2",
+  "domain": "hypotheticals",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {CONDITION}, {SUBJ} would {RESULT}.",
+  "example": "If she were rich, she would donate to charity.",
+  "explanation": "In formal second conditional, we use 'were' for all subjects including 'I', 'he', 'she', 'it'. 'If she were' (not 'was') expresses an unreal situation.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the manager", "the president"],
+    "CONDITION": ["rich", "in charge", "the boss", "more influential"],
+    "RESULT": ["donate to charity", "change the policy", "implement new strategies", "make significant reforms"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "would be"],
+        "objects": [],
+        "distractor": "dismiss"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["has", "would have", "have"],
+        "objects": [],
+        "distractor": "waste"
+      }
+    }
+  }
+}

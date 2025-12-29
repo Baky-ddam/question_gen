@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_ACADEMIA_C1_MIXED_GROUPA",
+  "focus": "conditional_mixed_academic",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If the researchers ____ {PAST_RESEARCH_ACTION}, their findings would {PRESENT_STATE} the field today.",
+  "example": "If the researchers had published earlier, their findings would be shaping the field today.",
+  "explanation": "Mixed conditional in academic contexts: past research action affecting current academic impact.",
+  "chunks": {
+    "PAST_RESEARCH_ACTION": ["published earlier", "secured funding", "collaborated internationally", "replicated the study"],
+    "PRESENT_STATE": ["be shaping", "be revolutionizing", "be influencing", "be transforming"],
+    "VERB": {
+      "had published": {
+        "correct_forms": ["had published"],
+        "wrong_forms": ["published", "have published", "would publish"],
+        "objects": [],
+        "distractor": "suppress"
+      },
+      "had secured": {
+        "correct_forms": ["had secured"],
+        "wrong_forms": ["secured", "have secured", "would secure"],
+        "objects": [],
+        "distractor": "forfeit"
+      }
+    }
+  }
+}

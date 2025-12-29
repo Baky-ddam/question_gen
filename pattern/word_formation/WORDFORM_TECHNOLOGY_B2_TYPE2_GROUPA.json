@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_TECHNOLOGY_B2_TYPE2_GROUPA",
+  "focus": "prefix_pre_formation",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "Users can ____ content before sharing it publicly.",
+  "example": "Users can preview content before sharing it publicly.",
+  "explanation": "The prefix 'pre-' means 'before'. 'View' becomes 'preview' (view before).",
+  "chunks": {
+    "NOUN": ["content", "material", "files", "documents"],
+    "VERB": {
+      "preview": {
+        "correct_forms": ["preview"],
+        "wrong_forms": ["view", "review", "overview"],
+        "objects": [],
+        "distractor": "delete"
+      },
+      "preload": {
+        "correct_forms": ["preload"],
+        "wrong_forms": ["load", "reload", "overload"],
+        "objects": [],
+        "distractor": "unload"
+      },
+      "predefine": {
+        "correct_forms": ["predefine"],
+        "wrong_forms": ["define", "redefine", "undefine"],
+        "objects": [],
+        "distractor": "randomize"
+      },
+      "preconfigure": {
+        "correct_forms": ["preconfigure"],
+        "wrong_forms": ["configure", "reconfigure", "misconfigure"],
+        "objects": [],
+        "distractor": "reset"
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_HOBBIES_B1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {DURATION}.",
+  "example": "I have played guitar for five years.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe hobbies that started in the past and continue. 'For' and 'since' indicate duration.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "DURATION": [
+      "for five years",
+      "for a long time",
+      "since high school",
+      "since 2019"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "have played"
+        ],
+        "wrong_forms": [
+          "has played",
+          "had played",
+          "played"
+        ],
+        "objects": [
+          "the guitar",
+          "chess",
+          "tennis",
+          "video games"
+        ],
+        "distractor": "abandon"
+      },
+      "collect": {
+        "correct_forms": [
+          "have collected"
+        ],
+        "wrong_forms": [
+          "has collected",
+          "had collected",
+          "collected"
+        ],
+        "objects": [
+          "vintage stamps",
+          "rare coins",
+          "artwork",
+          "memorabilia"
+        ],
+        "distractor": "neglect"
+      },
+      "pursue": {
+        "correct_forms": [
+          "have pursued"
+        ],
+        "wrong_forms": [
+          "has pursued",
+          "had pursued",
+          "pursued"
+        ],
+        "objects": [
+          "photography",
+          "creative writing",
+          "outdoor adventures",
+          "artistic projects"
+        ],
+        "distractor": "dismiss"
+      },
+      "enjoy": {
+        "correct_forms": [
+          "have enjoyed"
+        ],
+        "wrong_forms": [
+          "has enjoyed",
+          "had enjoyed",
+          "enjoyed"
+        ],
+        "objects": [
+          "hiking",
+          "painting",
+          "reading fiction",
+          "cooking experiments"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ARCHITECTURE_B2_TYPE1_GROUPA",
+  "focus": "adjective_order_three_adj_architecture",
+  "level": "B2",
+  "domain": "architecture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The city features a ____ {NOUN}.",
+  "example": "The city features a stunning large Victorian building.",
+  "explanation": "With three adjectives, the order is Opinion-Size-Age. 'Stunning large Victorian' follows OSASCOMP order.",
+  "chunks": {
+    "NOUN": ["building", "mansion", "tower", "cathedral"],
+    "VERB": {
+      "stunning large Victorian": {
+        "correct_forms": ["stunning large Victorian"],
+        "wrong_forms": ["large stunning Victorian", "Victorian large stunning", "Victorian stunning large"],
+        "objects": [],
+        "distractor": "mundane"
+      },
+      "magnificent tall Gothic": {
+        "correct_forms": ["magnificent tall Gothic"],
+        "wrong_forms": ["tall magnificent Gothic", "Gothic tall magnificent", "Gothic magnificent tall"],
+        "objects": [],
+        "distractor": "ordinary"
+      },
+      "impressive huge Medieval": {
+        "correct_forms": ["impressive huge Medieval"],
+        "wrong_forms": ["huge impressive Medieval", "Medieval huge impressive", "Medieval impressive huge"],
+        "objects": [],
+        "distractor": "unremarkable"
+      }
+    }
+  }
+}

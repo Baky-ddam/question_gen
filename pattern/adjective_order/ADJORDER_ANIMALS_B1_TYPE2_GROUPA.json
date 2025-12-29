@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANIMALS_B1_TYPE2_GROUPA",
+  "focus": "adjective_order_size_origin_animals",
+  "level": "B1",
+  "domain": "animals",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The sanctuary has a ____ {NOUN}.",
+  "example": "The sanctuary has a large African elephant.",
+  "explanation": "Size comes before origin in adjective order. 'Large African' not 'African large'.",
+  "chunks": {
+    "NOUN": ["elephant", "gorilla", "rhinoceros", "giraffe"],
+    "VERB": {
+      "large African": {
+        "correct_forms": ["large African"],
+        "wrong_forms": ["African large", "African and large", "large and African"],
+        "objects": [],
+        "distractor": "small"
+      },
+      "giant Asian": {
+        "correct_forms": ["giant Asian"],
+        "wrong_forms": ["Asian giant", "Asian and giant", "giant and Asian"],
+        "objects": [],
+        "distractor": "tiny"
+      },
+      "huge Australian": {
+        "correct_forms": ["huge Australian"],
+        "wrong_forms": ["Australian huge", "Australian and huge", "huge and Australian"],
+        "objects": [],
+        "distractor": "little"
+      }
+    }
+  }
+}

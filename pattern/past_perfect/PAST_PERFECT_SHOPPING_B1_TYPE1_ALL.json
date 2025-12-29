@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_SHOPPING_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "They had bought all the gifts before the store closed.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the shoppers", "my friend"],
+    "PAST_EVENT": ["the store closed", "the sale ended", "we went home", "the prices changed", "the items sold out"],
+    "VERB": {
+      "buy": {
+        "correct_forms": ["had bought"],
+        "wrong_forms": ["have bought", "bought", "was buying"],
+        "objects": ["all the gifts", "everything needed", "the groceries", "new clothes"],
+        "distractor": "return"
+      },
+      "find": {
+        "correct_forms": ["had found"],
+        "wrong_forms": ["has found", "found", "was finding"],
+        "objects": ["the perfect item", "a great deal", "what we needed", "the right size"],
+        "distractor": "lose"
+      },
+      "pay": {
+        "correct_forms": ["had paid"],
+        "wrong_forms": ["have paid", "paid", "was paying"],
+        "objects": ["for everything", "the bill", "with cash", "by card"],
+        "distractor": "refuse"
+      },
+      "order": {
+        "correct_forms": ["had ordered"],
+        "wrong_forms": ["has ordered", "ordered", "was ordering"],
+        "objects": ["the items online", "the products", "everything needed", "in advance"],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

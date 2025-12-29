@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_ECONOMICREFORM_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "economic_reform",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Economists forecast that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Economists forecast that monetary policies will tighten as inflationary pressures persist.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about economic reform.",
+  "chunks": {
+    "SUBJ": ["monetary policies", "fiscal frameworks", "regulatory approaches", "trade agreements", "market structures", "financial systems"],
+    "VERB": {
+      "tighten": {
+        "correct_forms": ["will tighten"],
+        "wrong_forms": ["tightens", "is going to tighten", "would tighten"],
+        "objects": ["considerably", "in major economies", "throughout the cycle"],
+        "distractor": "abrogate"
+      },
+      "evolve": {
+        "correct_forms": ["will evolve"],
+        "wrong_forms": ["evolves", "is going to evolve", "would evolve"],
+        "objects": ["substantially", "to address new challenges", "in response to crises"],
+        "distractor": "forsake"
+      },
+      "restructure": {
+        "correct_forms": ["will restructure"],
+        "wrong_forms": ["restructures", "is going to restructure", "would restructure"],
+        "objects": ["fundamentally", "across sectors", "to improve resilience"],
+        "distractor": "repudiate"
+      },
+      "adapt": {
+        "correct_forms": ["will adapt"],
+        "wrong_forms": ["adapts", "is going to adapt", "would adapt"],
+        "objects": ["to new realities", "progressively", "through iterative reforms"],
+        "distractor": "rescind"
+      }
+    },
+    "TREND": ["inflationary pressures persist", "global imbalances widen", "technological disruption continues", "inequality concerns mount", "debt levels rise", "growth patterns shift"]
+  }
+}

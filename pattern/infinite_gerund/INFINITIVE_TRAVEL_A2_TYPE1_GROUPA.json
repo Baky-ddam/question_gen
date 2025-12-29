@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_TRAVEL_A2_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "A2",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "We plan to visit Paris next summer.",
+  "explanation": "Some verbs are followed by infinitives (to + verb). Common verbs: want, plan, hope, decide, need.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["want", "plan", "hope", "decide", "need"],
+    "VERB": {
+      "visit": {
+        "correct_forms": ["to visit"],
+        "wrong_forms": ["visiting", "visit", "visited"],
+        "objects": ["Paris", "London", "my grandparents", "new places"],
+        "distractor": "to avoid"
+      },
+      "travel": {
+        "correct_forms": ["to travel"],
+        "wrong_forms": ["traveling", "travel", "traveled"],
+        "objects": ["abroad", "to Europe", "by plane", "around the world"],
+        "distractor": "to stay"
+      },
+      "go": {
+        "correct_forms": ["to go"],
+        "wrong_forms": ["going", "go", "went"],
+        "objects": ["on vacation", "to the beach", "camping", "hiking"],
+        "distractor": "to stay"
+      },
+      "book": {
+        "correct_forms": ["to book"],
+        "wrong_forms": ["booking", "book", "booked"],
+        "objects": ["a hotel", "flights", "a tour", "tickets"],
+        "distractor": "to cancel"
+      }
+    },
+    "TIME": ["next summer", "this year", "soon", "next month"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PARK_A1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "park",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "He was walking in the park yesterday.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "the man", "the woman", "my brother"],
+    "TIME": ["yesterday", "this morning", "in the afternoon", "on Sunday"],
+    "VERB": {
+      "walk": {
+        "correct_forms": ["was walking"],
+        "wrong_forms": ["were walking", "walked", "is walking"],
+        "objects": ["in the park", "on the path", "by the lake", "slowly"],
+        "distractor": "stop"
+      },
+      "sit": {
+        "correct_forms": ["was sitting"],
+        "wrong_forms": ["were sitting", "sat", "is sitting"],
+        "objects": ["on the bench", "on the grass", "under the tree", "alone"],
+        "distractor": "avoid"
+      },
+      "feed": {
+        "correct_forms": ["was feeding"],
+        "wrong_forms": ["were feeding", "fed", "is feeding"],
+        "objects": ["the ducks", "the birds", "a squirrel", "the pigeons"],
+        "distractor": "scare"
+      },
+      "ride": {
+        "correct_forms": ["was riding"],
+        "wrong_forms": ["were riding", "rode", "is riding"],
+        "objects": ["a bike", "a bicycle", "a scooter", "on the path"],
+        "distractor": "crash"
+      }
+    }
+  }
+}

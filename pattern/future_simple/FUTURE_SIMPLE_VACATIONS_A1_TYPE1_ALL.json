@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_VACATIONS_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "vacations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will travel to the beach next summer.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for vacation plans and travel predictions.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "travel": {
+        "correct_forms": ["will travel"],
+        "wrong_forms": ["travels", "is going to travel", "would travel"],
+        "objects": ["to the beach", "to the mountains", "abroad"],
+        "distractor": "cancel"
+      },
+      "stay": {
+        "correct_forms": ["will stay"],
+        "wrong_forms": ["stays", "is going to stay", "would stay"],
+        "objects": ["at a hotel", "at home", "with family"],
+        "distractor": "leave"
+      },
+      "swim": {
+        "correct_forms": ["will swim"],
+        "wrong_forms": ["swims", "is going to swim", "would swim"],
+        "objects": ["in the sea", "in the pool", "every day"],
+        "distractor": "avoid"
+      },
+      "take": {
+        "correct_forms": ["will take"],
+        "wrong_forms": ["takes", "is going to take", "would take"],
+        "objects": ["photos", "a trip", "a break"],
+        "distractor": "lose"
+      }
+    },
+    "FUTURE_TIME": ["next summer", "next month", "next year", "soon"]
+  }
+}

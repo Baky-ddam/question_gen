@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_MEDIA_B1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "when_interruption"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "They were filming the documentary when the power went out.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for past ongoing actions interrupted by another event.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "INTERRUPTION": [
+      "the power went out",
+      "breaking news interrupted the broadcast",
+      "the celebrity arrived unexpectedly",
+      "technical difficulties occurred"
+    ],
+    "VERB": {
+      "film": {
+        "correct_forms": ["were filming"],
+        "wrong_forms": ["was filming", "filmed", "are filming"],
+        "objects": ["the documentary", "the interview segment", "the live broadcast", "the on-location report"],
+        "distractor": "cancel"
+      },
+      "record": {
+        "correct_forms": ["were recording"],
+        "wrong_forms": ["was recording", "recorded", "are recording"],
+        "objects": ["the podcast episode", "the radio show", "the news segment", "the studio interview"],
+        "distractor": "terminate"
+      },
+      "edit": {
+        "correct_forms": ["were editing"],
+        "wrong_forms": ["was editing", "edited", "are editing"],
+        "objects": ["the news footage", "the documentary clips", "the promotional video", "the evening broadcast"],
+        "distractor": "abandon"
+      },
+      "broadcast": {
+        "correct_forms": ["were broadcasting"],
+        "wrong_forms": ["was broadcasting", "broadcast", "are broadcasting"],
+        "objects": ["the live event", "the election coverage", "the sports match", "the breaking news"],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

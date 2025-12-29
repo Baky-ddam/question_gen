@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_ERRANDS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "errands",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {PLACE}.",
+  "example": "I will pick up the package tomorrow at the post office.",
+  "explanation": "Future simple uses 'will + base verb' for everyday errands and tasks. Add time and place for context.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "pick up": {
+        "correct_forms": ["will pick up"],
+        "wrong_forms": ["picks up", "is going to pick up", "would pick up"],
+        "objects": ["the package", "the groceries", "the kids"],
+        "distractor": "forget"
+      },
+      "drop off": {
+        "correct_forms": ["will drop off"],
+        "wrong_forms": ["drops off", "is going to drop off", "would drop off"],
+        "objects": ["the clothes", "the documents", "the mail"],
+        "distractor": "skip"
+      },
+      "pay": {
+        "correct_forms": ["will pay"],
+        "wrong_forms": ["pays", "is going to pay", "would pay"],
+        "objects": ["the bills", "the rent", "the fees"],
+        "distractor": "refuse"
+      },
+      "return": {
+        "correct_forms": ["will return"],
+        "wrong_forms": ["returns", "is going to return", "would return"],
+        "objects": ["the books", "the item", "the equipment"],
+        "distractor": "abandon"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "later today", "next week", "this afternoon"],
+    "PLACE": ["at the post office", "at the bank", "at the store", "at the library"]
+  }
+}

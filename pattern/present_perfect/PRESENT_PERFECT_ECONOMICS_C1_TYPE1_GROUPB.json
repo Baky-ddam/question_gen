@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ECONOMICS_C1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPACT}.",
+  "example": "The central bank has recalibrated interest rate policy, which mitigates inflationary pressures while preserving growth momentum.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for institutional economic actions. Non-restrictive clause shows market consequences.",
+  "chunks": {
+    "SUBJ": [
+      "the central bank",
+      "the treasury department",
+      "the international monetary fund",
+      "the world bank"
+    ],
+    "IMPACT": [
+      "mitigates inflationary pressures while preserving growth momentum",
+      "restores investor confidence in sovereign debt markets",
+      "stabilizes currency valuations across trading partners",
+      "addresses structural imbalances in the financial system",
+      "strengthens the resilience of the banking sector"
+    ],
+    "VERB": {
+      "recalibrate": {
+        "correct_forms": [
+          "has recalibrated"
+        ],
+        "wrong_forms": [
+          "have recalibrated",
+          "had recalibrated",
+          "recalibrated"
+        ],
+        "objects": [
+          "interest rate policy",
+          "quantitative easing measures",
+          "foreign exchange interventions",
+          "liquidity provision mechanisms"
+        ],
+        "distractor": "countermand"
+      },
+      "restructure": {
+        "correct_forms": [
+          "has restructured"
+        ],
+        "wrong_forms": [
+          "have restructured",
+          "had restructured",
+          "restructured"
+        ],
+        "objects": [
+          "sovereign debt obligations",
+          "institutional lending frameworks",
+          "capital adequacy requirements",
+          "fiscal consolidation programs"
+        ],
+        "distractor": "repudiate"
+      },
+      "mitigate": {
+        "correct_forms": [
+          "has mitigated"
+        ],
+        "wrong_forms": [
+          "have mitigated",
+          "had mitigated",
+          "mitigated"
+        ],
+        "objects": [
+          "systemic financial risks",
+          "contagion effects across markets",
+          "speculative currency attacks",
+          "deflationary spiral pressures"
+        ],
+        "distractor": "nullify"
+      },
+      "liberalize": {
+        "correct_forms": [
+          "has liberalized"
+        ],
+        "wrong_forms": [
+          "have liberalized",
+          "had liberalized",
+          "liberalized"
+        ],
+        "objects": [
+          "capital account regulations",
+          "foreign investment restrictions",
+          "trade barrier frameworks",
+          "financial services markets"
+        ],
+        "distractor": "forsake"
+      }
+    }
+  }
+}

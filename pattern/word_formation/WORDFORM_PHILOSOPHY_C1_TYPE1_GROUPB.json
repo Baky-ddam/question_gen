@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_PHILOSOPHY_C1_TYPE1_GROUPB",
+  "focus": "prefix_anti_formation",
+  "level": "C1",
+  "domain": "philosophy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ stance of the movement challenged established epistemological frameworks.",
+  "example": "The anti-foundationalist stance of the movement challenged established epistemological frameworks.",
+  "explanation": "The prefix 'anti-' means 'against' or 'opposed to'. Creates opposition to concepts or ideologies.",
+  "chunks": {
+    "NOUN": ["frameworks", "paradigms", "theories", "assumptions"],
+    "VERB": {
+      "anti-foundationalist": {
+        "correct_forms": ["anti-foundationalist"],
+        "wrong_forms": ["foundationalist", "unfoundationalist", "non-foundationalist"],
+        "objects": [],
+        "distractor": "traditionalist"
+      },
+      "anti-realist": {
+        "correct_forms": ["anti-realist"],
+        "wrong_forms": ["realist", "unrealist", "non-realist"],
+        "objects": [],
+        "distractor": "empiricist"
+      },
+      "anti-essentialist": {
+        "correct_forms": ["anti-essentialist"],
+        "wrong_forms": ["essentialist", "unessentialist", "non-essentialist"],
+        "objects": [],
+        "distractor": "determinist"
+      },
+      "anti-humanist": {
+        "correct_forms": ["anti-humanist"],
+        "wrong_forms": ["humanist", "unhumanist", "non-humanist"],
+        "objects": [],
+        "distractor": "rationalist"
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_MUST_TRAVEL_B1_TYPE1_ALL",
+  "focus": "modal_must",
+  "level": "B1",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.",
+  "example": "Travelers must have a valid passport.",
+  "explanation": "Use 'must' + base verb to express travel obligations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "REQUIREMENT": [
+      "when crossing borders",
+      "at security checkpoints",
+      "during immigration",
+      "for international travel"
+    ],
+    "VERB": {
+      "have": {
+        "correct_forms": [
+          "must have"
+        ],
+        "wrong_forms": [
+          "should have",
+          "can have",
+          "have to have"
+        ],
+        "objects": [
+          "a valid passport",
+          "proper documentation",
+          "travel insurance"
+        ],
+        "distractor": "neglect"
+      },
+      "show": {
+        "correct_forms": [
+          "must show"
+        ],
+        "wrong_forms": [
+          "should show",
+          "can show",
+          "have to show"
+        ],
+        "objects": [
+          "identification",
+          "boarding passes",
+          "visa documents"
+        ],
+        "distractor": "overlook"
+      },
+      "carry": {
+        "correct_forms": [
+          "must carry"
+        ],
+        "wrong_forms": [
+          "should carry",
+          "can carry",
+          "have to carry"
+        ],
+        "objects": [
+          "valid tickets",
+          "ID documents",
+          "travel permits"
+        ],
+        "distractor": "abandon"
+      },
+      "declare": {
+        "correct_forms": [
+          "must declare"
+        ],
+        "wrong_forms": [
+          "should declare",
+          "can declare",
+          "have to declare"
+        ],
+        "objects": [
+          "customs items",
+          "valuable goods",
+          "restricted items"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

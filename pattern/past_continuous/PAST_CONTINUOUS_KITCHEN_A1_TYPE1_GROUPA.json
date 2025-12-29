@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_KITCHEN_A1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "kitchen",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "We were cooking dinner last night.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "my parents", "the cooks", "my friends"],
+    "TIME": ["last night", "this morning", "yesterday", "at lunchtime"],
+    "VERB": {
+      "cook": {
+        "correct_forms": ["were cooking"],
+        "wrong_forms": ["was cooking", "cooked", "are cooking"],
+        "objects": ["dinner", "breakfast", "lunch", "some food"],
+        "distractor": "burn"
+      },
+      "eat": {
+        "correct_forms": ["were eating"],
+        "wrong_forms": ["was eating", "ate", "are eating"],
+        "objects": ["breakfast", "lunch", "a snack", "some fruit"],
+        "distractor": "waste"
+      },
+      "wash": {
+        "correct_forms": ["were washing"],
+        "wrong_forms": ["was washing", "washed", "are washing"],
+        "objects": ["the dishes", "the plates", "the cups", "the vegetables"],
+        "distractor": "break"
+      },
+      "make": {
+        "correct_forms": ["were making"],
+        "wrong_forms": ["was making", "made", "are making"],
+        "objects": ["a cake", "some tea", "breakfast", "sandwiches"],
+        "distractor": "forget"
+      }
+    }
+  }
+}

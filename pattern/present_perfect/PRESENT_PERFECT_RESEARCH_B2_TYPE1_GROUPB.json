@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_RESEARCH_B2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "The lead researcher has documented the methodology, which ensures the study can be replicated.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' and professional titles to describe completed research actions with academic significance.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the lead researcher",
+      "the principal investigator",
+      "the doctoral candidate",
+      "the research director"
+    ],
+    "CONSEQUENCE": [
+      "has advanced the field significantly",
+      "has informed subsequent investigations",
+      "has established new research paradigms",
+      "has influenced academic discourse"
+    ],
+    "VERB": {
+      "discover": {
+        "correct_forms": [
+          "has discovered"
+        ],
+        "wrong_forms": [
+          "have discovered",
+          "had discovered",
+          "discovered"
+        ],
+        "objects": [
+          "significant correlations",
+          "unexpected patterns in the data",
+          "novel mechanisms",
+          "previously unknown phenomena"
+        ],
+        "distractor": "circumvent"
+      },
+      "document": {
+        "correct_forms": [
+          "has documented"
+        ],
+        "wrong_forms": [
+          "have documented",
+          "had documented",
+          "documented"
+        ],
+        "objects": [
+          "the experimental procedures meticulously",
+          "the research methodology comprehensively",
+          "the findings systematically",
+          "the data collection process"
+        ],
+        "distractor": "obstruct"
+      },
+      "demonstrate": {
+        "correct_forms": [
+          "has demonstrated"
+        ],
+        "wrong_forms": [
+          "have demonstrated",
+          "had demonstrated",
+          "demonstrated"
+        ],
+        "objects": [
+          "the causal relationship",
+          "the statistical significance",
+          "the validity of the hypothesis",
+          "the reproducibility of results"
+        ],
+        "distractor": "impede"
+      },
+      "synthesize": {
+        "correct_forms": [
+          "has synthesized"
+        ],
+        "wrong_forms": [
+          "have synthesized",
+          "had synthesized",
+          "synthesized"
+        ],
+        "objects": [
+          "existing literature comprehensively",
+          "diverse theoretical perspectives",
+          "multidisciplinary approaches",
+          "complex datasets effectively"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

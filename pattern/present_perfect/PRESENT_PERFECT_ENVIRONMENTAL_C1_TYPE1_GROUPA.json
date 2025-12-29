@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ENVIRONMENTAL_C1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "environmental_policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "Never before ____ {SUBJ} {OBJ}.",
+  "example": "Never before have the climate scientists documented such accelerated glacier retreat.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' in emphatic inversion. 'Never before' emphasizes unprecedented environmental changes.",
+  "chunks": {
+    "SUBJ": [
+      "the climate scientists",
+      "the environmental agencies",
+      "the conservation organizations",
+      "the sustainability experts"
+    ],
+    "VERB": {
+      "document": {
+        "correct_forms": [
+          "have documented"
+        ],
+        "wrong_forms": [
+          "has documented",
+          "had documented",
+          "documented"
+        ],
+        "objects": [
+          "such accelerated glacier retreat",
+          "such widespread ecosystem collapse",
+          "such rapid biodiversity loss",
+          "such extensive coral bleaching events"
+        ],
+        "distractor": "obfuscate"
+      },
+      "mobilize": {
+        "correct_forms": [
+          "have mobilized"
+        ],
+        "wrong_forms": [
+          "has mobilized",
+          "had mobilized",
+          "mobilized"
+        ],
+        "objects": [
+          "such unprecedented conservation funding",
+          "such comprehensive reforestation efforts",
+          "such coordinated emission reduction initiatives",
+          "such ambitious renewable energy transitions"
+        ],
+        "distractor": "forsake"
+      },
+      "advocate": {
+        "correct_forms": [
+          "have advocated"
+        ],
+        "wrong_forms": [
+          "has advocated",
+          "had advocated",
+          "advocated"
+        ],
+        "objects": [
+          "such stringent carbon taxation policies",
+          "such transformative climate legislation",
+          "such binding international environmental agreements",
+          "such radical decarbonization strategies"
+        ],
+        "distractor": "renounce"
+      },
+      "implement": {
+        "correct_forms": [
+          "have implemented"
+        ],
+        "wrong_forms": [
+          "has implemented",
+          "had implemented",
+          "implemented"
+        ],
+        "objects": [
+          "such comprehensive wetland restoration programs",
+          "such effective endangered species protections",
+          "such rigorous pollution control standards",
+          "such innovative circular economy frameworks"
+        ],
+        "distractor": "abrogate"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_FOOD_A2_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "The vegetables were grown in the garden.",
+  "explanation": "Use 'were' + past participle with 'you/we/they' and plural nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["the vegetables", "the fruits", "the cookies", "the cakes", "the sandwiches", "the meals"],
+    "TIME": ["in the garden", "this morning", "yesterday", "at the restaurant", "for the party"],
+    "VERB": {
+      "grow": {
+        "correct_forms": ["were grown"],
+        "wrong_forms": ["was grown", "are grown", "have been grown"],
+        "objects": [],
+        "distractor": "wasted"
+      },
+      "prepare": {
+        "correct_forms": ["were prepared"],
+        "wrong_forms": ["was prepared", "are prepared", "have been prepared"],
+        "objects": [],
+        "distractor": "burnt"
+      },
+      "cook": {
+        "correct_forms": ["were cooked"],
+        "wrong_forms": ["was cooked", "are cooked", "have been cooked"],
+        "objects": [],
+        "distractor": "ruined"
+      },
+      "serve": {
+        "correct_forms": ["were served"],
+        "wrong_forms": ["was served", "are served", "have been served"],
+        "objects": [],
+        "distractor": "refused"
+      }
+    }
+  }
+}

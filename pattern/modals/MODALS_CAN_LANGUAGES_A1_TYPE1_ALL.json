@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_LANGUAGES_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "languages",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "She can speak English.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "speak": {
+        "correct_forms": [
+          "can speak"
+        ],
+        "wrong_forms": [
+          "could speak",
+          "must speak",
+          "should speak"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "English",
+          "Spanish",
+          "French"
+        ]
+      },
+      "read": {
+        "correct_forms": [
+          "can read"
+        ],
+        "wrong_forms": [
+          "could read",
+          "must read",
+          "should read"
+        ],
+        "distractor": "ignore",
+        "objects": [
+          "German books",
+          "Italian newspapers",
+          "Chinese characters"
+        ]
+      },
+      "write": {
+        "correct_forms": [
+          "can write"
+        ],
+        "wrong_forms": [
+          "could write",
+          "must write",
+          "should write"
+        ],
+        "distractor": "avoid",
+        "objects": [
+          "in Japanese",
+          "in Arabic",
+          "in Portuguese"
+        ]
+      },
+      "understand": {
+        "correct_forms": [
+          "can understand"
+        ],
+        "wrong_forms": [
+          "could understand",
+          "must understand",
+          "should understand"
+        ],
+        "distractor": "hate",
+        "objects": [
+          "Korean",
+          "Russian",
+          "Dutch"
+        ]
+      }
+    }
+  }
+}

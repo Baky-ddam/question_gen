@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_DECISIONS_B2_TYPE1_GROUPC",
+  "focus": "phrasal_verb_three_word",
+  "level": "B2",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {SITUATION} {CONTEXT}.",
+  "example": "We come up against resistance frequently.",
+  "explanation": "These three-word phrasal verbs describe challenges and outcomes in decision-making. They express encountering obstacles or reaching conclusions.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "SITUATION": ["resistance", "opposition", "obstacles", "challenges"],
+    "CONTEXT": ["frequently", "unexpectedly", "during implementation", "from stakeholders", "in the process"],
+    "VERB": {
+      "come up against": {
+        "correct_forms": ["come up against"],
+        "wrong_forms": ["come up with", "come on against", "come off against"],
+        "objects": [],
+        "distractor": "welcome"
+      },
+      "face up to": {
+        "correct_forms": ["face up to"],
+        "wrong_forms": ["face on to", "face off to", "face up with"],
+        "objects": [],
+        "distractor": "avoid"
+      },
+      "come down to": {
+        "correct_forms": ["come down to"],
+        "wrong_forms": ["come up to", "come on to", "come off to"],
+        "objects": [],
+        "distractor": "complicate"
+      },
+      "live up to": {
+        "correct_forms": ["live up to"],
+        "wrong_forms": ["live on to", "live off to", "live up with"],
+        "objects": [],
+        "distractor": "disappoint"
+      }
+    }
+  }
+}

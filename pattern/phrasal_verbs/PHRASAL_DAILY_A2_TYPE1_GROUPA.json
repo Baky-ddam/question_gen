@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_DAILY_A2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "daily_routines",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "I wake up at 7 o'clock.",
+  "explanation": "These phrasal verbs describe daily routine actions. The particle changes the meaning of the base verb.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "TIME": ["at 7 o'clock", "early in the morning", "before breakfast", "every day", "on weekdays"],
+    "VERB": {
+      "wake up": {
+        "correct_forms": ["wake up"],
+        "wrong_forms": ["wake on", "wake off", "wake down"],
+        "objects": [],
+        "distractor": "sleep"
+      },
+      "get up": {
+        "correct_forms": ["get up"],
+        "wrong_forms": ["get on", "get off", "get down"],
+        "objects": [],
+        "distractor": "lie"
+      },
+      "hurry up": {
+        "correct_forms": ["hurry up"],
+        "wrong_forms": ["hurry on", "hurry off", "hurry down"],
+        "objects": [],
+        "distractor": "delay"
+      },
+      "calm down": {
+        "correct_forms": ["calm down"],
+        "wrong_forms": ["calm up", "calm on", "calm off"],
+        "objects": [],
+        "distractor": "panic"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_MUSIC_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "music",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The song was written by a famous composer.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the song", "the symphony", "the album", "the melody", "the soundtrack", "the composition"],
+    "AGENT": ["a famous composer", "the songwriter", "a legendary musician", "the producer", "the artist", "a renowned conductor"],
+    "VERB": {
+      "write": {
+        "correct_forms": ["was written"],
+        "wrong_forms": ["were written", "is written", "has been written"],
+        "objects": [],
+        "distractor": "forgotten"
+      },
+      "record": {
+        "correct_forms": ["was recorded"],
+        "wrong_forms": ["were recorded", "is recorded", "has been recorded"],
+        "objects": [],
+        "distractor": "erased"
+      },
+      "release": {
+        "correct_forms": ["was released"],
+        "wrong_forms": ["were released", "is released", "has been released"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "arrange": {
+        "correct_forms": ["was arranged"],
+        "wrong_forms": ["were arranged", "is arranged", "has been arranged"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

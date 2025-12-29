@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_WORK_B1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "Employees enjoy working in collaborative environments.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Use gerunds after: enjoy, finish, keep, mind, practice, suggest.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "employees", "managers", "professionals"],
+    "MAINVERB": ["finish", "keep", "mind", "practice", "enjoy"],
+    "VERB": {
+      "write": {
+        "correct_forms": ["writing"],
+        "wrong_forms": ["to write", "write", "writes"],
+        "objects": ["reports", "emails", "proposals", "documentation"],
+        "distractor": "delaying"
+      },
+      "attend": {
+        "correct_forms": ["attending"],
+        "wrong_forms": ["to attend", "attend", "attends"],
+        "objects": ["meetings", "conferences", "training sessions", "workshops"],
+        "distractor": "skipping"
+      },
+      "improve": {
+        "correct_forms": ["improving"],
+        "wrong_forms": ["to improve", "improve", "improves"],
+        "objects": ["skills", "processes", "performance", "productivity"],
+        "distractor": "neglecting"
+      },
+      "manage": {
+        "correct_forms": ["managing"],
+        "wrong_forms": ["to manage", "manage", "manages"],
+        "objects": ["time", "projects", "teams", "deadlines"],
+        "distractor": "mismanaging"
+      }
+    },
+    "CONTEXT": ["at work", "in the office", "every day", "during meetings", "regularly"]
+  }
+}

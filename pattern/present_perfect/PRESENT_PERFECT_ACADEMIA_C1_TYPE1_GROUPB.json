@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ACADEMIA_C1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPACT}.",
+  "example": "The professor has challenged prevailing assumptions, which compels the academic community to reconsider foundational premises.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for individual scholarly impact. Non-restrictive relative clause shows consequences.",
+  "chunks": {
+    "SUBJ": [
+      "the professor",
+      "the distinguished scholar",
+      "the principal investigator",
+      "the renowned theorist"
+    ],
+    "IMPACT": [
+      "compels the academic community to reconsider foundational premises",
+      "prompts widespread methodological reexamination",
+      "necessitates revision of canonical interpretations",
+      "stimulates vigorous scholarly debate",
+      "inspires a new generation of researchers"
+    ],
+    "VERB": {
+      "challenge": {
+        "correct_forms": [
+          "has challenged"
+        ],
+        "wrong_forms": [
+          "have challenged",
+          "had challenged",
+          "challenged"
+        ],
+        "objects": [
+          "prevailing assumptions",
+          "orthodox interpretations",
+          "dominant paradigms",
+          "conventional methodologies"
+        ],
+        "distractor": "abrogate"
+      },
+      "pioneer": {
+        "correct_forms": [
+          "has pioneered"
+        ],
+        "wrong_forms": [
+          "have pioneered",
+          "had pioneered",
+          "pioneered"
+        ],
+        "objects": [
+          "innovative research methodologies",
+          "groundbreaking analytical frameworks",
+          "novel interdisciplinary approaches",
+          "transformative theoretical models"
+        ],
+        "distractor": "rescind"
+      },
+      "elucidate": {
+        "correct_forms": [
+          "has elucidated"
+        ],
+        "wrong_forms": [
+          "have elucidated",
+          "had elucidated",
+          "elucidated"
+        ],
+        "objects": [
+          "complex theoretical relationships",
+          "obscure historical phenomena",
+          "intricate causal mechanisms",
+          "previously misunderstood concepts"
+        ],
+        "distractor": "obfuscate"
+      },
+      "advance": {
+        "correct_forms": [
+          "has advanced"
+        ],
+        "wrong_forms": [
+          "have advanced",
+          "had advanced",
+          "advanced"
+        ],
+        "objects": [
+          "the frontiers of knowledge",
+          "scholarly discourse significantly",
+          "our understanding of the phenomenon",
+          "critical debates in the field"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

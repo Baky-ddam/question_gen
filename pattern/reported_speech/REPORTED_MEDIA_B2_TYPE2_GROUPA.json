@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_MEDIA_B2_TYPE2_GROUPA",
+  "focus": "reported_speech_denied",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The official denied that {SUBJ} ____ {ACCUSATION}.",
+  "example": "The official denied that they had received any improper payments.",
+  "explanation": "The verb 'denied' introduces reported speech. Past tense 'received' becomes past perfect 'had received'.",
+  "chunks": {
+    "SUBJ": ["they", "the department", "the organization", "the staff"],
+    "ACCUSATION": ["received any improper payments", "violated any regulations", "misused public funds", "ignored the warnings"],
+    "VERB": {
+      "had received": {
+        "correct_forms": ["had received"],
+        "wrong_forms": ["received", "have received", "were receiving"],
+        "objects": [],
+        "distractor": "admit"
+      },
+      "had violated": {
+        "correct_forms": ["had violated"],
+        "wrong_forms": ["violated", "have violated", "were violating"],
+        "objects": [],
+        "distractor": "confirm"
+      }
+    }
+  }
+}

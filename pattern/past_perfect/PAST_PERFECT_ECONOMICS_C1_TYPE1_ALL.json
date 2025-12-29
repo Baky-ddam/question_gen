@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_ECONOMICS_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.",
+  "example": "The central bank had never implemented such aggressive measures until the financial crisis.",
+  "explanation": "Use 'had never' + past participle to emphasize that something happened for the first time before a specific past event.",
+  "chunks": {
+    "SUBJ": ["the central bank", "policymakers", "economists", "the government", "market analysts", "financial institutions"],
+    "PAST_EVENT": ["the financial crisis", "the recession hit", "inflation surged", "the market collapsed", "economic data revealed the downturn"],
+    "VERB": {
+      "implement": {
+        "correct_forms": ["had implemented"],
+        "wrong_forms": ["have implemented", "implemented", "was implementing"],
+        "objects": ["such aggressive measures", "quantitative easing", "emergency protocols", "such drastic interventions"],
+        "distractor": "repeal"
+      },
+      "witness": {
+        "correct_forms": ["had witnessed"],
+        "wrong_forms": ["has witnessed", "witnessed", "were witnessing"],
+        "objects": ["such volatility", "such rapid decline", "market conditions like these", "this level of uncertainty"],
+        "distractor": "ignore"
+      },
+      "experience": {
+        "correct_forms": ["had experienced"],
+        "wrong_forms": ["have experienced", "experienced", "was experiencing"],
+        "objects": ["deflation of this magnitude", "such sustained growth", "this degree of instability", "comparable challenges"],
+        "distractor": "overlook"
+      },
+      "predict": {
+        "correct_forms": ["had predicted"],
+        "wrong_forms": ["has predicted", "predicted", "were predicting"],
+        "objects": ["such a severe outcome", "the extent of the impact", "this level of disruption", "the magnitude of the crisis"],
+        "distractor": "underestimate"
+      }
+    }
+  }
+}

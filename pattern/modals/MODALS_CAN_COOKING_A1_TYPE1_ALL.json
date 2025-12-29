@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_COOKING_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "cooking",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "We can cook pasta.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "cook": {
+        "correct_forms": [
+          "can cook"
+        ],
+        "wrong_forms": [
+          "could cook",
+          "must cook",
+          "should cook"
+        ],
+        "distractor": "break",
+        "objects": [
+          "pasta",
+          "rice",
+          "soup"
+        ]
+      },
+      "bake": {
+        "correct_forms": [
+          "can bake"
+        ],
+        "wrong_forms": [
+          "could bake",
+          "must bake",
+          "should bake"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "bread",
+          "cookies",
+          "cakes"
+        ]
+      },
+      "make": {
+        "correct_forms": [
+          "can make"
+        ],
+        "wrong_forms": [
+          "could make",
+          "must make",
+          "should make"
+        ],
+        "distractor": "stop",
+        "objects": [
+          "pizza",
+          "salad",
+          "sandwiches"
+        ]
+      },
+      "prepare": {
+        "correct_forms": [
+          "can prepare"
+        ],
+        "wrong_forms": [
+          "could prepare",
+          "must prepare",
+          "should prepare"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ]
+      }
+    }
+  }
+}

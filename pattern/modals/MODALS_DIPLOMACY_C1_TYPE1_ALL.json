@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_DIPLOMACY_C1_TYPE1_ALL",
+  "focus": "modal_obligation",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must",
+    "modal_should",
+    "modal_could"
+  ],
+  "template": "While {CONTRAST}, {SUBJ} ____ {OBJ}.",
+  "example": "While geopolitical tensions persist, diplomats must negotiate viable compromise solutions.",
+  "explanation": "Use modals (must/should/could) in complex contrast structures to express obligation or possibility despite challenging circumstances in diplomatic contexts.",
+  "chunks": {
+    "SUBJ": [
+      "diplomatic envoys",
+      "international mediators",
+      "foreign ministers",
+      "treaty negotiators",
+      "coalition representatives",
+      "multilateral delegations"
+    ],
+    "CONTRAST": [
+      "geopolitical tensions continue to escalate",
+      "bilateral relations remain strained",
+      "historical grievances persist",
+      "ideological differences complicate discussions"
+    ],
+    "VERB": {
+      "negotiate": {
+        "correct_forms": [
+          "must negotiate"
+        ],
+        "wrong_forms": [
+          "should negotiates",
+          "must negotiating",
+          "could negotiated"
+        ],
+        "objects": [
+          "comprehensive peace accords",
+          "bilateral trade agreements",
+          "territorial settlements",
+          "diplomatic resolutions"
+        ],
+        "distractor": "nullify"
+      },
+      "engage": {
+        "correct_forms": [
+          "should engage"
+        ],
+        "wrong_forms": [
+          "must engages",
+          "should engaging",
+          "could engaged"
+        ],
+        "objects": [
+          "hostile counterparts constructively",
+          "international stakeholders diplomatically",
+          "regional powers strategically",
+          "multilateral institutions effectively"
+        ],
+        "distractor": "abrogate"
+      },
+      "resolve": {
+        "correct_forms": [
+          "could resolve"
+        ],
+        "wrong_forms": [
+          "might resolves",
+          "could resolving",
+          "should resolved"
+        ],
+        "objects": [
+          "protracted territorial disputes",
+          "longstanding diplomatic impasses",
+          "complex sovereignty questions",
+          "entrenched political conflicts"
+        ],
+        "distractor": "rescind"
+      },
+      "mediate": {
+        "correct_forms": [
+          "must mediate"
+        ],
+        "wrong_forms": [
+          "should mediates",
+          "must mediating",
+          "could mediated"
+        ],
+        "objects": [
+          "sensitive ceasefire negotiations",
+          "high-stakes territorial discussions",
+          "complex multilateral disputes",
+          "contentious border demarcations"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

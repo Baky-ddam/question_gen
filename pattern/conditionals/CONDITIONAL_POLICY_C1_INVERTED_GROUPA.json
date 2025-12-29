@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_POLICY_C1_INVERTED_GROUPA",
+  "focus": "conditional_inverted_had",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the policymakers {PAST_ACTION}, {SUBJ} would have {PAST_RESULT}.",
+  "example": "Had the policymakers anticipated the consequences, they would have revised the legislation.",
+  "explanation": "Inverted conditional: 'Had' at the beginning replaces 'If...had'. This formal structure is common in policy and academic discourse.",
+  "chunks": {
+    "SUBJ": ["they", "the committee", "the legislators", "the officials"],
+    "PAST_ACTION": ["anticipated the consequences", "consulted stakeholders", "analyzed the data", "considered alternatives"],
+    "PAST_RESULT": ["revised the legislation", "adopted a different approach", "implemented safeguards", "modified the proposal"],
+    "VERB": {
+      "Had": {
+        "correct_forms": ["Had"],
+        "wrong_forms": ["If", "Have", "Having"],
+        "objects": [],
+        "distractor": "disregard"
+      }
+    }
+  }
+}

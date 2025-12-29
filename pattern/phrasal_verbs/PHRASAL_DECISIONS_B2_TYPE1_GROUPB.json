@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_DECISIONS_B2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {ACTION} because {REASON}.",
+  "example": "The board puts off the decision because more data is needed.",
+  "explanation": "These phrasal verbs describe decision-making processes: delaying, proceeding, or reconsidering choices.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the board", "the committee"],
+    "ACTION": ["the decision", "the announcement", "the launch", "the implementation"],
+    "REASON": ["more data is needed", "circumstances have changed", "timing is critical", "stakeholders requested it", "priorities shifted"],
+    "VERB": {
+      "put off": {
+        "correct_forms": ["puts off"],
+        "wrong_forms": ["puts on", "puts up", "puts in"],
+        "objects": [],
+        "distractor": "rushes"
+      },
+      "go ahead with": {
+        "correct_forms": ["goes ahead with"],
+        "wrong_forms": ["goes on with", "goes off with", "goes up with"],
+        "objects": [],
+        "distractor": "cancels"
+      },
+      "think over": {
+        "correct_forms": ["thinks over"],
+        "wrong_forms": ["thinks on", "thinks off", "thinks up"],
+        "objects": [],
+        "distractor": "ignores"
+      },
+      "rule out": {
+        "correct_forms": ["rules out"],
+        "wrong_forms": ["rules on", "rules off", "rules in"],
+        "objects": [],
+        "distractor": "considers"
+      }
+    }
+  }
+}

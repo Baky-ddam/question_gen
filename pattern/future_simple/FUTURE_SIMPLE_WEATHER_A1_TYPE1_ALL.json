@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_WEATHER_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "weather",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "It will rain tomorrow.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for predictions about weather and future events.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "it"],
+    "VERB": {
+      "rain": {
+        "correct_forms": ["will rain"],
+        "wrong_forms": ["rains", "is going to rain", "would rain"],
+        "objects": ["heavily", "all day", "a lot"],
+        "distractor": "stop"
+      },
+      "snow": {
+        "correct_forms": ["will snow"],
+        "wrong_forms": ["snows", "is going to snow", "would snow"],
+        "objects": ["a little", "heavily", "all night"],
+        "distractor": "avoid"
+      },
+      "be": {
+        "correct_forms": ["will be"],
+        "wrong_forms": ["is", "is going to be", "would be"],
+        "objects": ["sunny", "cloudy", "cold", "warm"],
+        "distractor": "ignore"
+      },
+      "get": {
+        "correct_forms": ["will get"],
+        "wrong_forms": ["gets", "is going to get", "would get"],
+        "objects": ["warmer", "colder", "windy"],
+        "distractor": "forget"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next week", "soon", "later"]
+  }
+}

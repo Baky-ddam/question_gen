@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_TECHNOLOGY_B2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ if {CONDITION}.",
+  "example": "Engineers recommend upgrading the system if performance issues persist.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Technical verbs with gerunds: recommend, suggest, consider, avoid, risk, involve.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "engineers", "developers", "IT teams"],
+    "MAINVERB": ["recommend", "suggest", "consider", "avoid", "risk"],
+    "VERB": {
+      "upgrade": {
+        "correct_forms": ["upgrading"],
+        "wrong_forms": ["to upgrade", "upgrade", "upgrades"],
+        "objects": ["the system", "the software", "the infrastructure", "hardware components"],
+        "distractor": "downgrading"
+      },
+      "automate": {
+        "correct_forms": ["automating"],
+        "wrong_forms": ["to automate", "automate", "automates"],
+        "objects": ["routine tasks", "testing processes", "deployment pipelines", "data collection"],
+        "distractor": "complicating"
+      },
+      "migrate": {
+        "correct_forms": ["migrating"],
+        "wrong_forms": ["to migrate", "migrate", "migrates"],
+        "objects": ["to the cloud", "legacy systems", "databases", "applications"],
+        "distractor": "reverting"
+      },
+      "integrate": {
+        "correct_forms": ["integrating"],
+        "wrong_forms": ["to integrate", "integrate", "integrates"],
+        "objects": ["new technologies", "APIs", "third-party services", "security features"],
+        "distractor": "fragmenting"
+      }
+    },
+    "CONDITION": ["performance issues persist", "security concerns arise", "scalability is needed", "costs must be reduced", "efficiency must improve"]
+  }
+}

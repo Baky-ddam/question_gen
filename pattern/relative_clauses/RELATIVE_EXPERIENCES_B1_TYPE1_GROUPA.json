@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_EXPERIENCES_B1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_experience",
+  "level": "B1",
+  "domain": "experiences",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {EXPERIENCE} ____ I had {TIME} was {QUALITY}.",
+  "example": "The trip which I took last summer was unforgettable.",
+  "explanation": "We use 'which' for experiences and events when describing them in detail.",
+  "chunks": {
+    "EXPERIENCE": ["trip", "course", "interview", "concert"],
+    "TIME": ["last summer", "last year", "recently", "last month"],
+    "QUALITY": ["unforgettable", "very helpful", "quite challenging", "absolutely amazing"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whose"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

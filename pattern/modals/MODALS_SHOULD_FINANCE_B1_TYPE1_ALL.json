@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_SHOULD_FINANCE_B1_TYPE1_ALL",
+  "focus": "modal_should",
+  "level": "B1",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PURPOSE}.",
+  "example": "You should save money to prepare for emergencies.",
+  "explanation": "Use 'should' + base verb to give financial advice. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "to prepare for emergencies",
+      "to achieve financial goals",
+      "to secure the future",
+      "to build wealth"
+    ],
+    "VERB": {
+      "save": {
+        "correct_forms": [
+          "should save"
+        ],
+        "wrong_forms": [
+          "must save",
+          "can save",
+          "could save"
+        ],
+        "objects": [
+          "money regularly",
+          "a portion of income",
+          "for retirement"
+        ],
+        "distractor": "neglect"
+      },
+      "budget": {
+        "correct_forms": [
+          "should budget"
+        ],
+        "wrong_forms": [
+          "must budget",
+          "can budget",
+          "could budget"
+        ],
+        "objects": [
+          "monthly expenses",
+          "carefully",
+          "wisely"
+        ],
+        "distractor": "overlook"
+      },
+      "invest": {
+        "correct_forms": [
+          "should invest"
+        ],
+        "wrong_forms": [
+          "must invest",
+          "can invest",
+          "could invest"
+        ],
+        "objects": [
+          "in diverse assets",
+          "for the long term",
+          "prudently"
+        ],
+        "distractor": "abandon"
+      },
+      "track": {
+        "correct_forms": [
+          "should track"
+        ],
+        "wrong_forms": [
+          "must track",
+          "can track",
+          "could track"
+        ],
+        "objects": [
+          "spending habits",
+          "expenses",
+          "financial progress"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

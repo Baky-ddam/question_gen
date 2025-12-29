@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_ECONOMICS_C1_MIXED_GROUPB",
+  "focus": "conditional_mixed_economic_singular",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ENTITY} ____ {PRESENT_QUALITY}, it would have {PAST_RESULT}.",
+  "example": "If the economy were more resilient, it would have recovered more quickly from the recession.",
+  "explanation": "Mixed conditional: present economic quality affecting past recovery.",
+  "chunks": {
+    "ENTITY": ["economy", "market", "sector", "industry"],
+    "PRESENT_QUALITY": ["more resilient", "more diversified", "more dynamic", "better structured"],
+    "PAST_RESULT": ["recovered more quickly from the recession", "weathered the crisis better", "absorbed the shock", "maintained growth momentum"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "had been"],
+        "objects": [],
+        "distractor": "destabilize"
+      }
+    }
+  }
+}

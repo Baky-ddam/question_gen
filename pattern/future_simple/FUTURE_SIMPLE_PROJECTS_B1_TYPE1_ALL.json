@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_PROJECTS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "projects",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "When {TRIGGER}, {SUBJ} ____ {OBJ}.",
+  "example": "When the team is ready, we will start the project.",
+  "explanation": "Future simple uses 'will + base verb' after 'when' to describe future events. The trigger clause uses present simple.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the team"],
+    "VERB": {
+      "start": {
+        "correct_forms": ["will start"],
+        "wrong_forms": ["starts", "is going to start", "would start"],
+        "objects": ["the project", "the work", "the next phase"],
+        "distractor": "cancel"
+      },
+      "complete": {
+        "correct_forms": ["will complete"],
+        "wrong_forms": ["completes", "is going to complete", "would complete"],
+        "objects": ["the task", "the assignment", "the deliverables"],
+        "distractor": "abandon"
+      },
+      "submit": {
+        "correct_forms": ["will submit"],
+        "wrong_forms": ["submits", "is going to submit", "would submit"],
+        "objects": ["the report", "the results", "the final version"],
+        "distractor": "postpone"
+      },
+      "present": {
+        "correct_forms": ["will present"],
+        "wrong_forms": ["presents", "is going to present", "would present"],
+        "objects": ["the findings", "the proposal", "the summary"],
+        "distractor": "dismiss"
+      }
+    },
+    "TRIGGER": ["the team is ready", "we finish planning", "the deadline approaches", "all data is collected", "everyone agrees", "the manager approves"]
+  }
+}

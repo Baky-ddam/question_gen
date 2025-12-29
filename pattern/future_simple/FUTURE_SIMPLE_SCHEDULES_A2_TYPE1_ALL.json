@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SCHEDULES_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "schedules",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {PLACE}.",
+  "example": "The class will start at 9 am in Room 5.",
+  "explanation": "Future simple uses 'will + base verb' for scheduled future events. Add time and place for A2 complexity.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the class", "the meeting"],
+    "VERB": {
+      "start": {
+        "correct_forms": ["will start"],
+        "wrong_forms": ["starts", "is going to start", "would start"],
+        "objects": ["at 9 am", "at noon", "early"],
+        "distractor": "cancel"
+      },
+      "finish": {
+        "correct_forms": ["will finish"],
+        "wrong_forms": ["finishes", "is going to finish", "would finish"],
+        "objects": ["at 5 pm", "late", "on time"],
+        "distractor": "skip"
+      },
+      "begin": {
+        "correct_forms": ["will begin"],
+        "wrong_forms": ["begins", "is going to begin", "would begin"],
+        "objects": ["next Monday", "after lunch", "soon"],
+        "distractor": "abandon"
+      },
+      "end": {
+        "correct_forms": ["will end"],
+        "wrong_forms": ["ends", "is going to end", "would end"],
+        "objects": ["in June", "next week", "before dinner"],
+        "distractor": "destroy"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next Monday", "next week", "in two days"],
+    "PLACE": ["in Room 5", "at the office", "at school", "at the center"]
+  }
+}

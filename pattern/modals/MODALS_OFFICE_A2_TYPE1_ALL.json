@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_OFFICE_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "office",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can print documents here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission in office settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this room",
+      "at this station"
+    ],
+    "VERB": {
+      "print": {
+        "correct_forms": [
+          "can print"
+        ],
+        "wrong_forms": [
+          "could print",
+          "must print",
+          "should print"
+        ],
+        "objects": [
+          "documents",
+          "reports",
+          "files",
+          "copies"
+        ],
+        "distractor": "reject"
+      },
+      "copy": {
+        "correct_forms": [
+          "can copy"
+        ],
+        "wrong_forms": [
+          "could copy",
+          "must copy",
+          "should copy"
+        ],
+        "objects": [
+          "the papers",
+          "the forms",
+          "the pages",
+          "the contracts"
+        ],
+        "distractor": "refuse"
+      },
+      "scan": {
+        "correct_forms": [
+          "can scan"
+        ],
+        "wrong_forms": [
+          "could scan",
+          "must scan",
+          "should scan"
+        ],
+        "objects": [
+          "documents",
+          "receipts",
+          "photos",
+          "certificates"
+        ],
+        "distractor": "abandon"
+      },
+      "fax": {
+        "correct_forms": [
+          "can fax"
+        ],
+        "wrong_forms": [
+          "could fax",
+          "must fax",
+          "should fax"
+        ],
+        "objects": [
+          "the forms",
+          "the documents",
+          "the contracts",
+          "the letters"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

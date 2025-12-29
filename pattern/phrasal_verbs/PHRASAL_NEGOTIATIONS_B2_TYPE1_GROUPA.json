@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_NEGOTIATIONS_B2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN}, which {CONSEQUENCE}.",
+  "example": "We turn down the offer, which allows us to negotiate better terms.",
+  "explanation": "These phrasal verbs are used in negotiation and deal-making contexts. They describe accepting, rejecting, or modifying proposals.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "CONSEQUENCE": ["allows us to negotiate better terms", "strengthens our position", "signals our commitment", "opens new possibilities", "demonstrates flexibility"],
+    "VERB": {
+      "turn down": {
+        "correct_forms": ["turn down"],
+        "wrong_forms": ["turn on", "turn off", "turn up"],
+        "objects": ["offer", "proposal", "deal", "request"],
+        "distractor": "accept"
+      },
+      "bring up": {
+        "correct_forms": ["bring up"],
+        "wrong_forms": ["bring on", "bring off", "bring in"],
+        "objects": ["issue", "concern", "point", "topic"],
+        "distractor": "suppress"
+      },
+      "work out": {
+        "correct_forms": ["work out"],
+        "wrong_forms": ["work on", "work off", "work in"],
+        "objects": ["agreement", "compromise", "solution", "terms"],
+        "distractor": "abandon"
+      },
+      "draw up": {
+        "correct_forms": ["draw up"],
+        "wrong_forms": ["draw on", "draw off", "draw in"],
+        "objects": ["contract", "agreement", "proposal", "document"],
+        "distractor": "destroy"
+      }
+    }
+  }
+}

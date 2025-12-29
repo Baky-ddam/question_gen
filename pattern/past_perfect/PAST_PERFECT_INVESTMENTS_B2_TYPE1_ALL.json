@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_INVESTMENTS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "investments",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.",
+  "example": "After the investors had reviewed the portfolio, they approved the allocation.",
+  "explanation": "Use 'had' + past participle after 'after' to show the first action was completed before the second action began.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the investors", "the fund managers", "the analysts", "the board"],
+    "SUBSEQUENT_ACTION": ["they approved the allocation", "returns exceeded expectations", "the strategy changed", "dividends were paid", "confidence grew"],
+    "VERB": {
+      "review": {
+        "correct_forms": ["had reviewed"],
+        "wrong_forms": ["have reviewed", "reviewed", "was reviewing"],
+        "objects": ["the portfolio", "all options", "the risk assessment", "market conditions"],
+        "distractor": "overlook"
+      },
+      "diversify": {
+        "correct_forms": ["had diversified"],
+        "wrong_forms": ["has diversified", "diversified", "was diversifying"],
+        "objects": ["their holdings", "the portfolio", "across sectors", "investments"],
+        "distractor": "concentrate"
+      },
+      "allocate": {
+        "correct_forms": ["had allocated"],
+        "wrong_forms": ["have allocated", "allocated", "was allocating"],
+        "objects": ["significant funds", "resources strategically", "capital wisely", "the budget"],
+        "distractor": "withhold"
+      },
+      "evaluate": {
+        "correct_forms": ["had evaluated"],
+        "wrong_forms": ["has evaluated", "evaluated", "was evaluating"],
+        "objects": ["the risks carefully", "all opportunities", "potential returns", "the market"],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

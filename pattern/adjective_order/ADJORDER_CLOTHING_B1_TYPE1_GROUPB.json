@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_CLOTHING_B1_TYPE1_GROUPB",
+  "focus": "adjective_order_size_material",
+  "level": "B1",
+  "domain": "clothing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "He wore a ____ {NOUN}.",
+  "example": "He wore a large leather jacket.",
+  "explanation": "Size comes before material in adjective order. 'Large leather' not 'leather large'.",
+  "chunks": {
+    "NOUN": ["jacket", "belt", "bag", "coat"],
+    "VERB": {
+      "large leather": {
+        "correct_forms": ["large leather"],
+        "wrong_forms": ["leather large", "leather and large", "large and leather"],
+        "objects": [],
+        "distractor": "tiny"
+      },
+      "small cotton": {
+        "correct_forms": ["small cotton"],
+        "wrong_forms": ["cotton small", "cotton and small", "small and cotton"],
+        "objects": [],
+        "distractor": "huge"
+      },
+      "long silk": {
+        "correct_forms": ["long silk"],
+        "wrong_forms": ["silk long", "silk and long", "long and silk"],
+        "objects": [],
+        "distractor": "short"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ART_B2_TYPE2_GROUPA",
+  "focus": "adjective_order_opinion_color_origin_art",
+  "level": "B2",
+  "domain": "art",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The museum unveiled a ____ {NOUN}.",
+  "example": "The museum unveiled a stunning golden Chinese statue.",
+  "explanation": "Opinion-Color-Origin order. 'Stunning golden Chinese' demonstrates proper sequencing.",
+  "chunks": {
+    "NOUN": ["statue", "vessel", "ornament", "figurine"],
+    "VERB": {
+      "stunning golden Chinese": {
+        "correct_forms": ["stunning golden Chinese"],
+        "wrong_forms": ["golden stunning Chinese", "Chinese golden stunning", "Chinese stunning golden"],
+        "objects": [],
+        "distractor": "dull"
+      },
+      "magnificent bronze Roman": {
+        "correct_forms": ["magnificent bronze Roman"],
+        "wrong_forms": ["bronze magnificent Roman", "Roman bronze magnificent", "Roman magnificent bronze"],
+        "objects": [],
+        "distractor": "ordinary"
+      },
+      "impressive silver Indian": {
+        "correct_forms": ["impressive silver Indian"],
+        "wrong_forms": ["silver impressive Indian", "Indian silver impressive", "Indian impressive silver"],
+        "objects": [],
+        "distractor": "unremarkable"
+      }
+    }
+  }
+}

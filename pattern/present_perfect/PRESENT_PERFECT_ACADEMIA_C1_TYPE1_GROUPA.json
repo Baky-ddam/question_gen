@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ACADEMIA_C1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a development that {IMPLICATION}.",
+  "example": "The researchers have published groundbreaking findings in peer-reviewed journals, a development that challenges established theoretical frameworks.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' for scholarly achievements. C1 level features appositive clauses explaining broader implications.",
+  "chunks": {
+    "SUBJ": [
+      "the researchers",
+      "the scholars",
+      "the academics",
+      "the faculty members"
+    ],
+    "PLACE": [
+      "in peer-reviewed journals",
+      "at prestigious conferences",
+      "in leading academic publications",
+      "across multiple disciplines"
+    ],
+    "IMPLICATION": [
+      "challenges established theoretical frameworks",
+      "revolutionizes contemporary understanding",
+      "opens new avenues for interdisciplinary research",
+      "redefines methodological approaches",
+      "advances the boundaries of human knowledge"
+    ],
+    "VERB": {
+      "publish": {
+        "correct_forms": [
+          "have published"
+        ],
+        "wrong_forms": [
+          "has published",
+          "had published",
+          "published"
+        ],
+        "objects": [
+          "groundbreaking findings",
+          "seminal research papers",
+          "comprehensive meta-analyses",
+          "pioneering theoretical models"
+        ],
+        "distractor": "obliterate"
+      },
+      "synthesize": {
+        "correct_forms": [
+          "have synthesized"
+        ],
+        "wrong_forms": [
+          "has synthesized",
+          "had synthesized",
+          "synthesized"
+        ],
+        "objects": [
+          "disparate theoretical perspectives",
+          "cross-disciplinary methodologies",
+          "conflicting empirical evidence",
+          "divergent scholarly interpretations"
+        ],
+        "distractor": "repudiate"
+      },
+      "disseminate": {
+        "correct_forms": [
+          "have disseminated"
+        ],
+        "wrong_forms": [
+          "has disseminated",
+          "had disseminated",
+          "disseminated"
+        ],
+        "objects": [
+          "critical research findings",
+          "innovative pedagogical approaches",
+          "transformative educational paradigms",
+          "evidence-based best practices"
+        ],
+        "distractor": "forsake"
+      },
+      "corroborate": {
+        "correct_forms": [
+          "have corroborated"
+        ],
+        "wrong_forms": [
+          "has corroborated",
+          "had corroborated",
+          "corroborated"
+        ],
+        "objects": [
+          "longstanding hypotheses",
+          "contentious theoretical claims",
+          "preliminary experimental results",
+          "foundational scientific principles"
+        ],
+        "distractor": "nullify"
+      }
+    }
+  }
+}

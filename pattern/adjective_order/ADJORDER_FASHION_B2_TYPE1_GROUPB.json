@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FASHION_B2_TYPE1_GROUPB",
+  "focus": "adjective_order_size_color_origin_fashion",
+  "level": "B2",
+  "domain": "fashion",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "She bought a ____ {NOUN}.",
+  "example": "She bought a small black Italian handbag.",
+  "explanation": "Size-Color-Origin order. 'Small black Italian' follows the correct sequence.",
+  "chunks": {
+    "NOUN": ["handbag", "scarf", "belt", "wallet"],
+    "VERB": {
+      "small black Italian": {
+        "correct_forms": ["small black Italian"],
+        "wrong_forms": ["black small Italian", "Italian black small", "Italian small black"],
+        "objects": [],
+        "distractor": "large"
+      },
+      "long red French": {
+        "correct_forms": ["long red French"],
+        "wrong_forms": ["red long French", "French red long", "French long red"],
+        "objects": [],
+        "distractor": "short"
+      },
+      "wide brown Spanish": {
+        "correct_forms": ["wide brown Spanish"],
+        "wrong_forms": ["brown wide Spanish", "Spanish brown wide", "Spanish wide brown"],
+        "objects": [],
+        "distractor": "narrow"
+      }
+    }
+  }
+}

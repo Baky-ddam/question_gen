@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_RESEARCH_B2_TYPE1_ALL",
+  "focus": "modal_might",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might"
+  ],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The findings might reveal unexpected patterns because the methodology was innovative.",
+  "explanation": "Use 'might' + base verb with all subjects to express possibility about research outcomes. The 'because' clause provides the reason for the possibility.",
+  "chunks": {
+    "SUBJ": [
+      "the findings",
+      "the study results",
+      "the data analysis",
+      "the research conclusions",
+      "the experimental outcomes",
+      "the preliminary evidence"
+    ],
+    "REASON": [
+      "the methodology was innovative",
+      "new variables were introduced",
+      "the sample size was substantial",
+      "advanced analytical tools were used",
+      "interdisciplinary approaches were applied",
+      "the research design was rigorous"
+    ],
+    "VERB": {
+      "reveal": {
+        "correct_forms": [
+          "might reveal"
+        ],
+        "wrong_forms": [
+          "will reveal",
+          "can reveal",
+          "should reveal"
+        ],
+        "objects": [
+          "unexpected patterns",
+          "significant correlations",
+          "groundbreaking insights",
+          "previously unknown connections"
+        ],
+        "distractor": "disregard"
+      },
+      "confirm": {
+        "correct_forms": [
+          "might confirm"
+        ],
+        "wrong_forms": [
+          "will confirm",
+          "can confirm",
+          "should confirm"
+        ],
+        "objects": [
+          "the initial hypothesis",
+          "theoretical predictions",
+          "prior observations",
+          "established models"
+        ],
+        "distractor": "overlook"
+      },
+      "challenge": {
+        "correct_forms": [
+          "might challenge"
+        ],
+        "wrong_forms": [
+          "will challenge",
+          "can challenge",
+          "should challenge"
+        ],
+        "objects": [
+          "existing assumptions",
+          "conventional wisdom",
+          "accepted theories",
+          "established paradigms"
+        ],
+        "distractor": "suppress"
+      },
+      "contradict": {
+        "correct_forms": [
+          "might contradict"
+        ],
+        "wrong_forms": [
+          "will contradict",
+          "can contradict",
+          "should contradict"
+        ],
+        "objects": [
+          "previous research findings",
+          "long-held beliefs",
+          "mainstream interpretations",
+          "earlier published results"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

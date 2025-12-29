@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_COMMUNICATION_B1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "B1",
+  "domain": "communication",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {PERSON} {CONTEXT}.",
+  "example": "I call back the customer as soon as possible.",
+  "explanation": "These phrasal verbs are used for communication and phone conversations. They describe different types of calls and responses.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PERSON": ["the customer", "my friend", "the client", "the manager"],
+    "CONTEXT": ["as soon as possible", "after the meeting", "when I have time", "before lunch", "immediately"],
+    "VERB": {
+      "call back": {
+        "correct_forms": ["call back"],
+        "wrong_forms": ["call on", "call off", "call up"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "hang up": {
+        "correct_forms": ["hang up"],
+        "wrong_forms": ["hang on", "hang off", "hang in"],
+        "objects": [],
+        "distractor": "answer"
+      },
+      "get through to": {
+        "correct_forms": ["get through to"],
+        "wrong_forms": ["get on to", "get off to", "get up to"],
+        "objects": [],
+        "distractor": "miss"
+      },
+      "put through to": {
+        "correct_forms": ["put through to"],
+        "wrong_forms": ["put on to", "put off to", "put up to"],
+        "objects": [],
+        "distractor": "block"
+      }
+    }
+  }
+}

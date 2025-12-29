@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_REGRETS_B2_TYPE3_GROUPA",
+  "focus": "conditional_type_3_regret",
+  "level": "B2",
+  "domain": "regrets",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {PAST_ACTION}, {SUBJ} would have {PAST_RESULT}.",
+  "example": "If they had studied harder, they would have passed the exam.",
+  "explanation": "Third conditional uses 'had + past participle' in the if-clause for unreal past situations. 'If they had studied' expresses regret about what didn't happen.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the applicants", "the candidates"],
+    "PAST_ACTION": ["studied harder", "prepared better", "started earlier", "worked more diligently"],
+    "PAST_RESULT": ["passed the exam", "succeeded in the interview", "finished on time", "achieved their goals"],
+    "VERB": {
+      "had studied": {
+        "correct_forms": ["had studied"],
+        "wrong_forms": ["studied", "have studied", "would study"],
+        "objects": [],
+        "distractor": "neglect"
+      },
+      "had prepared": {
+        "correct_forms": ["had prepared"],
+        "wrong_forms": ["prepared", "have prepared", "would prepare"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

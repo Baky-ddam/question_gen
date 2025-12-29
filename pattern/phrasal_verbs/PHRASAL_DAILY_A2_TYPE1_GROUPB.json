@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_DAILY_A2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "daily_routines",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "She wakes up at 7 o'clock.",
+  "explanation": "These phrasal verbs describe daily routine actions. The particle changes the meaning of the base verb.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my brother", "my sister"],
+    "TIME": ["at 7 o'clock", "early in the morning", "before breakfast", "every day", "on weekdays"],
+    "VERB": {
+      "wake up": {
+        "correct_forms": ["wakes up"],
+        "wrong_forms": ["wakes on", "wakes off", "wakes down"],
+        "objects": [],
+        "distractor": "sleeps"
+      },
+      "get up": {
+        "correct_forms": ["gets up"],
+        "wrong_forms": ["gets on", "gets off", "gets down"],
+        "objects": [],
+        "distractor": "lies"
+      },
+      "hurry up": {
+        "correct_forms": ["hurries up"],
+        "wrong_forms": ["hurries on", "hurries off", "hurries down"],
+        "objects": [],
+        "distractor": "delays"
+      },
+      "calm down": {
+        "correct_forms": ["calms down"],
+        "wrong_forms": ["calms up", "calms on", "calms off"],
+        "objects": [],
+        "distractor": "panics"
+      }
+    }
+  }
+}

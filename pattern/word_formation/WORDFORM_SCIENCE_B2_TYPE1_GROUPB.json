@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_SCIENCE_B2_TYPE1_GROUPB",
+  "focus": "suffix_ific_adjective_formation",
+  "level": "B2",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The experiment provided ____ evidence for the theory.",
+  "example": "The experiment provided scientific evidence for the theory.",
+  "explanation": "The suffix '-ific/-ic' transforms nouns into adjectives. 'Science' becomes 'scientific'.",
+  "chunks": {
+    "NOUN": ["theory", "hypothesis", "claim", "argument"],
+    "VERB": {
+      "scientific": {
+        "correct_forms": ["scientific"],
+        "wrong_forms": ["science", "scientist", "scientifically"],
+        "objects": [],
+        "distractor": "anecdotal"
+      },
+      "specific": {
+        "correct_forms": ["specific"],
+        "wrong_forms": ["specify", "specification", "specifically"],
+        "objects": [],
+        "distractor": "vague"
+      },
+      "systematic": {
+        "correct_forms": ["systematic"],
+        "wrong_forms": ["system", "systematize", "systematically"],
+        "objects": [],
+        "distractor": "random"
+      },
+      "empirical": {
+        "correct_forms": ["empirical"],
+        "wrong_forms": ["empire", "empiricism", "empirically"],
+        "objects": [],
+        "distractor": "theoretical"
+      }
+    }
+  }
+}

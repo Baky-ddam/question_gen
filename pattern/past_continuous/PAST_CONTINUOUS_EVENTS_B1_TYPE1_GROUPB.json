@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_EVENTS_B1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "when_interruption"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "I was planning the wedding reception when the venue called with changes.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for past ongoing actions interrupted by another event.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "INTERRUPTION": [
+      "the venue called with changes",
+      "an unexpected problem arose",
+      "the sponsor withdrew",
+      "the weather forecast changed"
+    ],
+    "VERB": {
+      "plan": {
+        "correct_forms": ["was planning"],
+        "wrong_forms": ["were planning", "planned", "is planning"],
+        "objects": ["the wedding reception", "the annual gala", "the corporate conference", "the charity fundraiser"],
+        "distractor": "cancel"
+      },
+      "organize": {
+        "correct_forms": ["was organizing"],
+        "wrong_forms": ["were organizing", "organized", "is organizing"],
+        "objects": ["the entertainment schedule", "the vendor meetings", "the ticket sales", "the promotional campaign"],
+        "distractor": "abandon"
+      },
+      "manage": {
+        "correct_forms": ["was managing"],
+        "wrong_forms": ["were managing", "managed", "is managing"],
+        "objects": ["the event budget", "the registration process", "the volunteer assignments", "the logistics"],
+        "distractor": "neglect"
+      },
+      "oversee": {
+        "correct_forms": ["was overseeing"],
+        "wrong_forms": ["were overseeing", "oversaw", "is overseeing"],
+        "objects": ["the venue preparations", "the catering arrangements", "the technical setup", "the rehearsal"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

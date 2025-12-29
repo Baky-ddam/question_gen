@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_TECHNOLOGY_B2_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "Despite {CHALLENGE}, {SUBJ} ____ {NOUN}.",
+  "example": "Despite budget constraints, we come up with a solution.",
+  "explanation": "These phrasal verbs describe problem-solving and innovation in technology contexts. They express how teams address challenges.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "CHALLENGE": ["budget constraints", "tight deadlines", "limited resources", "technical difficulties", "complex requirements"],
+    "NOUN": ["a solution", "an alternative", "a workaround", "an approach"],
+    "VERB": {
+      "come up with": {
+        "correct_forms": ["come up with"],
+        "wrong_forms": ["come up to", "come on with", "come off with"],
+        "objects": [],
+        "distractor": "abandon"
+      },
+      "figure out": {
+        "correct_forms": ["figure out"],
+        "wrong_forms": ["figure on", "figure in", "figure at"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "keep up with": {
+        "correct_forms": ["keep up with"],
+        "wrong_forms": ["keep on with", "keep off with", "keep in with"],
+        "objects": [],
+        "distractor": "fall behind"
+      },
+      "get around": {
+        "correct_forms": ["get around"],
+        "wrong_forms": ["get on", "get at", "get off"],
+        "objects": [],
+        "distractor": "accept"
+      }
+    }
+  }
+}

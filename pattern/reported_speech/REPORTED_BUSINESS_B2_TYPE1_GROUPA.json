@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_BUSINESS_B2_TYPE1_GROUPA",
+  "focus": "reported_speech_modal_will_would",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The manager explained that the team ____ {TASK} {TIMEFRAME}.",
+  "example": "The manager explained that the team would complete the project by Friday.",
+  "explanation": "Modal 'will' shifts to 'would' in reported speech. 'The team will complete' becomes 'the team would complete'.",
+  "chunks": {
+    "TASK": ["complete the project", "finalize the proposal", "submit the report", "deliver the presentation"],
+    "TIMEFRAME": ["by Friday", "before the deadline", "within the week", "by end of month"],
+    "VERB": {
+      "would complete": {
+        "correct_forms": ["would complete"],
+        "wrong_forms": ["will complete", "could complete", "should complete"],
+        "objects": [],
+        "distractor": "contradict"
+      },
+      "would finalize": {
+        "correct_forms": ["would finalize"],
+        "wrong_forms": ["will finalize", "could finalize", "might finalize"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

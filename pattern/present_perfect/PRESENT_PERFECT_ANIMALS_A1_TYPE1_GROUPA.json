@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ANIMALS_A1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "animals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "I have seen a lion before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about experiences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "my friends", "the children"],
+    "VERB": {
+      "see": {
+        "correct_forms": ["have seen"],
+        "wrong_forms": ["has seen", "had seen", "saw"],
+        "objects": ["a lion", "an elephant", "a tiger", "a bear"],
+        "distractor": "avoid"
+      },
+      "feed": {
+        "correct_forms": ["have fed"],
+        "wrong_forms": ["has fed", "had fed", "fed"],
+        "objects": ["a rabbit", "a horse", "a goat", "the ducks"],
+        "distractor": "scare"
+      },
+      "touch": {
+        "correct_forms": ["have touched"],
+        "wrong_forms": ["has touched", "had touched", "touched"],
+        "objects": ["a snake", "a turtle", "a frog", "a fish"],
+        "distractor": "hurt"
+      },
+      "hold": {
+        "correct_forms": ["have held"],
+        "wrong_forms": ["has held", "had held", "held"],
+        "objects": ["a kitten", "a puppy", "a hamster", "a bird"],
+        "distractor": "drop"
+      }
+    }
+  }
+}

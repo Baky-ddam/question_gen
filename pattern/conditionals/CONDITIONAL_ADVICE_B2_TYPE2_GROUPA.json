@@ -1,0 +1,24 @@
+{
+  "pattern_id": "CONDITIONAL_ADVICE_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_advice",
+  "level": "B2",
+  "domain": "advice",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If I ____ you, I would {ADVICE}.",
+  "example": "If I were you, I would accept the offer.",
+  "explanation": "The phrase 'If I were you' uses 'were' (not 'was') in the subjunctive mood to give advice about hypothetical situations.",
+  "chunks": {
+    "ADVICE": ["accept the offer", "take the opportunity", "consider the proposal", "negotiate for better terms"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "am", "would be"],
+        "objects": [],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_VEHICLES_B1_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_age_vehicles",
+  "level": "B1",
+  "domain": "vehicles",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "He drives a ____ {NOUN}.",
+  "example": "He drives a beautiful old car.",
+  "explanation": "Opinion comes before age in adjective order. 'Beautiful old' not 'old beautiful'.",
+  "chunks": {
+    "NOUN": ["car", "motorcycle", "truck", "van"],
+    "VERB": {
+      "beautiful old": {
+        "correct_forms": ["beautiful old"],
+        "wrong_forms": ["old beautiful", "old and beautiful", "beautiful and old"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "lovely new": {
+        "correct_forms": ["lovely new"],
+        "wrong_forms": ["new lovely", "new and lovely", "lovely and new"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "amazing vintage": {
+        "correct_forms": ["amazing vintage"],
+        "wrong_forms": ["vintage amazing", "vintage and amazing", "amazing and vintage"],
+        "objects": [],
+        "distractor": "terrible"
+      }
+    }
+  }
+}

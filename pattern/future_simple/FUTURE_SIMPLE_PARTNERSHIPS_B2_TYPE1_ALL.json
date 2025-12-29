@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_PARTNERSHIPS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "partnerships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The firms will form a partnership because combining resources will increase efficiency.",
+  "explanation": "Future simple uses 'will + base verb' for partnership predictions with reasoning at the B2 level.",
+  "chunks": {
+    "SUBJ": ["The firms", "Both companies", "The organizations", "Industry leaders", "The institutions", "Major players"],
+    "VERB": {
+      "form": {
+        "correct_forms": ["will form"],
+        "wrong_forms": ["forms", "is going to form", "would form"],
+        "objects": ["a partnership", "an alliance", "a joint venture"],
+        "distractor": "undermine"
+      },
+      "collaborate": {
+        "correct_forms": ["will collaborate"],
+        "wrong_forms": ["collaborates", "is going to collaborate", "would collaborate"],
+        "objects": ["on research", "on new projects", "closely"],
+        "distractor": "obstruct"
+      },
+      "merge": {
+        "correct_forms": ["will merge"],
+        "wrong_forms": ["merges", "is going to merge", "would merge"],
+        "objects": ["operations", "resources", "departments"],
+        "distractor": "hinder"
+      },
+      "sign": {
+        "correct_forms": ["will sign"],
+        "wrong_forms": ["signs", "is going to sign", "would sign"],
+        "objects": ["an agreement", "a contract", "a deal"],
+        "distractor": "disregard"
+      }
+    },
+    "REASON": ["combining resources will increase efficiency", "the market requires collaboration", "competition is growing", "innovation requires teamwork", "costs need to be shared", "expertise must be combined"]
+  }
+}

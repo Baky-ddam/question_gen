@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_NEGOTIATIONS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "By the time the lawyers arrived, both parties had agreed on the main terms.",
+  "explanation": "Use 'had' + past participle to show an action was completed before another past event. 'By the time' emphasizes sequence.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "both parties", "the negotiators", "the representatives", "the unions"],
+    "PAST_EVENT": ["the lawyers arrived", "the deadline passed", "the final session began", "the press conference", "the board met"],
+    "VERB": {
+      "agree": {
+        "correct_forms": ["had agreed"],
+        "wrong_forms": ["have agreed", "agreed", "was agreeing"],
+        "objects": ["on the main terms", "on a compromise", "on the price", "to the conditions"],
+        "distractor": "reject"
+      },
+      "reach": {
+        "correct_forms": ["had reached"],
+        "wrong_forms": ["has reached", "reached", "was reaching"],
+        "objects": ["a settlement", "an understanding", "a consensus", "a breakthrough"],
+        "distractor": "abandon"
+      },
+      "resolve": {
+        "correct_forms": ["had resolved"],
+        "wrong_forms": ["have resolved", "resolved", "was resolving"],
+        "objects": ["the key disputes", "outstanding issues", "their differences", "all concerns"],
+        "distractor": "escalate"
+      },
+      "draft": {
+        "correct_forms": ["had drafted"],
+        "wrong_forms": ["has drafted", "drafted", "was drafting"],
+        "objects": ["the preliminary agreement", "the contract terms", "a proposal", "the memorandum"],
+        "distractor": "discard"
+      }
+    }
+  }
+}

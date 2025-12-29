@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_PRESENTATIONS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "presentations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.",
+  "example": "After the speaker had delivered the keynote, the audience asked questions.",
+  "explanation": "Use 'had' + past participle after 'after' to show the first action was completed before the second action began.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "we", "the speaker", "the presenter", "the team"],
+    "SUBSEQUENT_ACTION": ["the audience asked questions", "applause filled the room", "discussions began", "feedback was collected", "networking started"],
+    "VERB": {
+      "deliver": {
+        "correct_forms": ["had delivered"],
+        "wrong_forms": ["have delivered", "delivered", "was delivering"],
+        "objects": ["the keynote", "a compelling presentation", "the opening remarks", "the main speech"],
+        "distractor": "cancel"
+      },
+      "demonstrate": {
+        "correct_forms": ["had demonstrated"],
+        "wrong_forms": ["has demonstrated", "demonstrated", "was demonstrating"],
+        "objects": ["the new product", "the key features", "the solution", "impressive results"],
+        "distractor": "conceal"
+      },
+      "rehearse": {
+        "correct_forms": ["had rehearsed"],
+        "wrong_forms": ["have rehearsed", "rehearsed", "was rehearsing"],
+        "objects": ["multiple times", "thoroughly", "every slide", "the entire presentation"],
+        "distractor": "improvise"
+      },
+      "address": {
+        "correct_forms": ["had addressed"],
+        "wrong_forms": ["has addressed", "addressed", "was addressing"],
+        "objects": ["the main concerns", "key challenges", "all questions", "the audience effectively"],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_BUSINESS_B2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} because {REASON}.",
+  "example": "We take over the company because it aligns with our strategy.",
+  "explanation": "These phrasal verbs are used in business contexts to describe corporate actions, management decisions, and strategic moves.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "REASON": ["it aligns with our strategy", "market conditions demand it", "the board approved it", "competitors are advancing", "it offers growth potential"],
+    "VERB": {
+      "take over": {
+        "correct_forms": ["take over"],
+        "wrong_forms": ["take on", "take up", "take off"],
+        "objects": ["company", "operations", "division", "business unit"],
+        "distractor": "abandon"
+      },
+      "carry out": {
+        "correct_forms": ["carry out"],
+        "wrong_forms": ["carry on", "carry off", "carry in"],
+        "objects": ["strategy", "plan", "initiative", "restructuring"],
+        "distractor": "cancel"
+      },
+      "set up": {
+        "correct_forms": ["set up"],
+        "wrong_forms": ["set on", "set off", "set in"],
+        "objects": ["subsidiary", "partnership", "joint venture", "headquarters"],
+        "distractor": "dissolve"
+      },
+      "lay off": {
+        "correct_forms": ["lay off"],
+        "wrong_forms": ["lay on", "lay up", "lay in"],
+        "objects": ["employees", "workers", "staff", "team members"],
+        "distractor": "hire"
+      }
+    }
+  }
+}

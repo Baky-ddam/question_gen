@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_POLICY_C1_TYPE1_GROUPA",
+  "focus": "prefix_de_formation",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The government announced plans to ____ several key industries, a move that sparked considerable controversy.",
+  "example": "The government announced plans to deregulate several key industries, a move that sparked considerable controversy.",
+  "explanation": "The prefix 'de-' indicates removal or reversal. 'Regulate' becomes 'deregulate' (remove regulations).",
+  "chunks": {
+    "NOUN": ["industries", "sectors", "markets", "institutions"],
+    "VERB": {
+      "deregulate": {
+        "correct_forms": ["deregulate"],
+        "wrong_forms": ["regulate", "unregulate", "disregulate"],
+        "objects": [],
+        "distractor": "strengthen"
+      },
+      "decentralize": {
+        "correct_forms": ["decentralize"],
+        "wrong_forms": ["centralize", "uncentralize", "discentralize"],
+        "objects": [],
+        "distractor": "consolidate"
+      },
+      "decriminalize": {
+        "correct_forms": ["decriminalize"],
+        "wrong_forms": ["criminalize", "uncriminalize", "discriminalize"],
+        "objects": [],
+        "distractor": "prohibit"
+      },
+      "demilitarize": {
+        "correct_forms": ["demilitarize"],
+        "wrong_forms": ["militarize", "unmilitarize", "dismilitarize"],
+        "objects": [],
+        "distractor": "fortify"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_COMMUNICATION_B1_TYPE1_GROUPB",
+  "focus": "suffix_er_person_formation",
+  "level": "B1",
+  "domain": "communication",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ explained the main points very clearly.",
+  "example": "The speaker explained the main points very clearly.",
+  "explanation": "The suffix '-er' transforms verbs into nouns indicating a person who does something.",
+  "chunks": {
+    "NOUN": ["points", "ideas", "concepts", "topics"],
+    "VERB": {
+      "speaker": {
+        "correct_forms": ["speaker"],
+        "wrong_forms": ["speak", "speaking", "spoken"],
+        "objects": [],
+        "distractor": "listener"
+      },
+      "writer": {
+        "correct_forms": ["writer"],
+        "wrong_forms": ["write", "writing", "written"],
+        "objects": [],
+        "distractor": "reader"
+      },
+      "reporter": {
+        "correct_forms": ["reporter"],
+        "wrong_forms": ["report", "reporting", "reported"],
+        "objects": [],
+        "distractor": "viewer"
+      },
+      "presenter": {
+        "correct_forms": ["presenter"],
+        "wrong_forms": ["present", "presenting", "presented"],
+        "objects": [],
+        "distractor": "audience"
+      }
+    }
+  }
+}

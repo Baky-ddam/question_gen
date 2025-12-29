@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_MUSIC_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "music",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The songs were performed by talented musicians.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the songs", "the concerts", "the albums", "the tracks", "the performances", "the recordings"],
+    "AGENT": ["talented musicians", "the orchestra", "famous singers", "the band", "professional artists", "skilled performers"],
+    "VERB": {
+      "perform": {
+        "correct_forms": ["were performed"],
+        "wrong_forms": ["was performed", "are performed", "have been performed"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "record": {
+        "correct_forms": ["were recorded"],
+        "wrong_forms": ["was recorded", "are recorded", "have been recorded"],
+        "objects": [],
+        "distractor": "deleted"
+      },
+      "compose": {
+        "correct_forms": ["were composed"],
+        "wrong_forms": ["was composed", "are composed", "have been composed"],
+        "objects": [],
+        "distractor": "forgotten"
+      },
+      "produce": {
+        "correct_forms": ["were produced"],
+        "wrong_forms": ["was produced", "are produced", "have been produced"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

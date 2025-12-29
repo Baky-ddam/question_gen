@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_FORECASTS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "forecasts",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "Analysts predict the economy will grow because consumer spending is increasing.",
+  "explanation": "Future simple uses 'will + base verb' for economic forecasts with reasoning at the B2 level.",
+  "chunks": {
+    "SUBJ": ["The economy", "GDP", "Employment", "Inflation", "Consumer spending", "Exports"],
+    "VERB": {
+      "grow": {
+        "correct_forms": ["will grow"],
+        "wrong_forms": ["grows", "is going to grow", "would grow"],
+        "objects": ["by 3 percent", "steadily", "next year"],
+        "distractor": "suppress"
+      },
+      "increase": {
+        "correct_forms": ["will increase"],
+        "wrong_forms": ["increases", "is going to increase", "would increase"],
+        "objects": ["significantly", "moderately", "throughout the year"],
+        "distractor": "impede"
+      },
+      "decrease": {
+        "correct_forms": ["will decrease"],
+        "wrong_forms": ["decreases", "is going to decrease", "would decrease"],
+        "objects": ["gradually", "sharply", "by next quarter"],
+        "distractor": "obstruct"
+      },
+      "remain": {
+        "correct_forms": ["will remain"],
+        "wrong_forms": ["remains", "is going to remain", "would remain"],
+        "objects": ["stable", "unchanged", "at current levels"],
+        "distractor": "disregard"
+      }
+    },
+    "REASON": ["consumer spending is increasing", "policies are supportive", "conditions are favorable", "investment is rising", "demand is strong", "markets are recovering"]
+  }
+}

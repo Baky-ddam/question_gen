@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_RELATIONSHIPS_B1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {PERSON} {SITUATION}.",
+  "example": "I get along with my colleagues at work.",
+  "explanation": "These phrasal verbs describe relationships between people. They are often inseparable and require the correct preposition.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PERSON": ["my colleagues", "my neighbors", "my classmates", "my friends"],
+    "SITUATION": ["at work", "at school", "in the neighborhood", "very well", "most of the time"],
+    "VERB": {
+      "get along with": {
+        "correct_forms": ["get along with"],
+        "wrong_forms": ["get along to", "get on to", "get along for"],
+        "objects": [],
+        "distractor": "argue"
+      },
+      "look up to": {
+        "correct_forms": ["look up to"],
+        "wrong_forms": ["look up at", "look up for", "look on to"],
+        "objects": [],
+        "distractor": "disrespect"
+      },
+      "fall out with": {
+        "correct_forms": ["fall out with"],
+        "wrong_forms": ["fall out to", "fall off with", "fall on with"],
+        "objects": [],
+        "distractor": "reconcile"
+      },
+      "make up with": {
+        "correct_forms": ["make up with"],
+        "wrong_forms": ["make up to", "make up for", "make on with"],
+        "objects": [],
+        "distractor": "fight"
+      }
+    }
+  }
+}

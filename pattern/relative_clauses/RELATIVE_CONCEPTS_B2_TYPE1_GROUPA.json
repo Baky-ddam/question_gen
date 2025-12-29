@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_CONCEPTS_B2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_concept",
+  "level": "B2",
+  "domain": "concepts",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {CONCEPT} ____ {DESCRIPTION} has {IMPACT}.",
+  "example": "The theory which revolutionized physics has influenced modern technology.",
+  "explanation": "We use 'which' for abstract concepts and ideas. Non-defining relative clauses add extra information.",
+  "chunks": {
+    "CONCEPT": ["theory", "principle", "approach", "methodology"],
+    "DESCRIPTION": ["revolutionized physics", "was developed last century", "challenges traditional views", "emerged from research"],
+    "IMPACT": ["influenced modern technology", "shaped current practices", "transformed the industry", "gained widespread acceptance"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "disregard"
+      }
+    }
+  }
+}

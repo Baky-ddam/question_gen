@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_MARKETS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "markets",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The stock market will rise because investor confidence is growing.",
+  "explanation": "Future simple uses 'will + base verb' for market predictions with reasoning. Add 'because' clause for B2 complexity.",
+  "chunks": {
+    "SUBJ": ["The market", "Prices", "Investors", "The economy", "Companies", "Sales"],
+    "VERB": {
+      "rise": {
+        "correct_forms": ["will rise"],
+        "wrong_forms": ["rises", "is going to rise", "would rise"],
+        "objects": ["significantly", "steadily", "next quarter"],
+        "distractor": "impede"
+      },
+      "decline": {
+        "correct_forms": ["will decline"],
+        "wrong_forms": ["declines", "is going to decline", "would decline"],
+        "objects": ["sharply", "gradually", "temporarily"],
+        "distractor": "obstruct"
+      },
+      "recover": {
+        "correct_forms": ["will recover"],
+        "wrong_forms": ["recovers", "is going to recover", "would recover"],
+        "objects": ["slowly", "by next year", "fully"],
+        "distractor": "hinder"
+      },
+      "stabilize": {
+        "correct_forms": ["will stabilize"],
+        "wrong_forms": ["stabilizes", "is going to stabilize", "would stabilize"],
+        "objects": ["eventually", "by year-end", "gradually"],
+        "distractor": "undermine"
+      }
+    },
+    "REASON": ["investor confidence is growing", "demand is increasing", "supply is limited", "policies are changing", "the economy is recovering", "interest rates are falling"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_MEDICINE_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "medicine",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.",
+  "example": "Doctors had never treated this condition successfully until the new therapy was developed.",
+  "explanation": "Use 'had never' + past participle to emphasize that something happened for the first time before a specific past event.",
+  "chunks": {
+    "SUBJ": ["doctors", "medical researchers", "clinicians", "the healthcare community", "specialists", "physicians"],
+    "PAST_EVENT": ["the new therapy was developed", "the clinical trials concluded", "the breakthrough occurred", "the treatment became available", "the discovery was made"],
+    "VERB": {
+      "treat": {
+        "correct_forms": ["had treated"],
+        "wrong_forms": ["have treated", "treated", "were treating"],
+        "objects": ["this condition successfully", "patients with such precision", "the disease at this stage", "such complex cases"],
+        "distractor": "misdiagnose"
+      },
+      "identify": {
+        "correct_forms": ["had identified"],
+        "wrong_forms": ["has identified", "identified", "was identifying"],
+        "objects": ["the biomarkers accurately", "the genetic factors", "such early indicators", "the underlying cause"],
+        "distractor": "overlook"
+      },
+      "administer": {
+        "correct_forms": ["had administered"],
+        "wrong_forms": ["have administered", "administered", "was administering"],
+        "objects": ["targeted therapies", "such personalized treatment", "gene therapy", "immunological interventions"],
+        "distractor": "withhold"
+      },
+      "achieve": {
+        "correct_forms": ["had achieved"],
+        "wrong_forms": ["has achieved", "achieved", "was achieving"],
+        "objects": ["such survival rates", "remission at this rate", "these clinical outcomes", "comparable success"],
+        "distractor": "fail"
+      }
+    }
+  }
+}

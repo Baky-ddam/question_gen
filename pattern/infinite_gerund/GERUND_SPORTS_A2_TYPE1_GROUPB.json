@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_SPORTS_A2_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "A2",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {PLACE}.",
+  "example": "He enjoys playing football in the park.",
+  "explanation": "Some verbs are followed by gerunds (verb + -ing). Common verbs: enjoy, love, like, keep, practice.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my brother", "my sister"],
+    "MAINVERB": ["enjoys", "loves", "likes", "keeps", "practices"],
+    "VERB": {
+      "play": {
+        "correct_forms": ["playing"],
+        "wrong_forms": ["to play", "play", "played"],
+        "objects": ["football", "basketball", "tennis", "volleyball"],
+        "distractor": "quitting"
+      },
+      "cycle": {
+        "correct_forms": ["cycling"],
+        "wrong_forms": ["to cycle", "cycle", "cycled"],
+        "objects": ["to work", "in the mountains", "on trails", "for exercise"],
+        "distractor": "crashing"
+      },
+      "train": {
+        "correct_forms": ["training"],
+        "wrong_forms": ["to train", "train", "trained"],
+        "objects": ["hard", "every day", "for competitions", "with a coach"],
+        "distractor": "quitting"
+      },
+      "dance": {
+        "correct_forms": ["dancing"],
+        "wrong_forms": ["to dance", "dance", "danced"],
+        "objects": ["salsa", "ballet", "hip-hop", "at parties"],
+        "distractor": "falling"
+      }
+    },
+    "PLACE": ["in the park", "at the stadium", "at the gym", "every weekend"]
+  }
+}

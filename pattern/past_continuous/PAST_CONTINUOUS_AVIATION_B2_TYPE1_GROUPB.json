@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AVIATION_B2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "aviation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "duration_reason", "because_clause"],
+  "template": "{SUBJ} ____ {OBJ} all {DURATION} because {REASON}.",
+  "example": "The pilot was reviewing the flight plan all morning because regulations required additional safety documentation.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for prolonged past actions with explanatory reasons.",
+  "chunks": {
+    "SUBJ": ["I", "the pilot", "the flight engineer", "the air traffic controller"],
+    "DURATION": [
+      "morning",
+      "afternoon",
+      "night",
+      "shift"
+    ],
+    "REASON": [
+      "regulations required additional safety documentation",
+      "the inspection protocols had been updated recently",
+      "international standards demanded comprehensive verification",
+      "the airline mandated enhanced security procedures"
+    ],
+    "VERB": {
+      "review": {
+        "correct_forms": ["was reviewing"],
+        "wrong_forms": ["were reviewing", "reviewed", "is reviewing"],
+        "objects": ["the flight plan", "the navigation charts", "the emergency procedures", "the aircraft specifications"],
+        "distractor": "circumvent"
+      },
+      "calibrate": {
+        "correct_forms": ["was calibrating"],
+        "wrong_forms": ["were calibrating", "calibrated", "is calibrating"],
+        "objects": ["the navigation instruments", "the altitude sensors", "the communication equipment", "the autopilot systems"],
+        "distractor": "impede"
+      },
+      "verify": {
+        "correct_forms": ["was verifying"],
+        "wrong_forms": ["were verifying", "verified", "is verifying"],
+        "objects": ["the fuel levels", "the passenger manifests", "the cargo weights", "the clearance documents"],
+        "distractor": "hinder"
+      },
+      "analyze": {
+        "correct_forms": ["was analyzing"],
+        "wrong_forms": ["were analyzing", "analyzed", "is analyzing"],
+        "objects": ["the weather data", "the flight routes", "the performance metrics", "the incident reports"],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

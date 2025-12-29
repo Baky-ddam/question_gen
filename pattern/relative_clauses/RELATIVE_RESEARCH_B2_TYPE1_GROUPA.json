@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_RESEARCH_B2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_research",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {RESEARCH} ____ {PROCESS} provides {BENEFIT}.",
+  "example": "The study which examined patient outcomes provides valuable insights.",
+  "explanation": "We use 'which' for research and studies. The clause describes the research process or focus.",
+  "chunks": {
+    "RESEARCH": ["study", "investigation", "survey", "analysis"],
+    "PROCESS": ["examined patient outcomes", "collected data from thousands", "analyzed market trends", "reviewed existing literature"],
+    "BENEFIT": ["valuable insights", "compelling evidence", "new perspectives", "practical recommendations"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

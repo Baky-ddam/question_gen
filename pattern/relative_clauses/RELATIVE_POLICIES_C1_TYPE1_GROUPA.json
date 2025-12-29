@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_POLICIES_C1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_policy",
+  "level": "C1",
+  "domain": "policies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {POLICY} ____ {SCOPE} has {CONSEQUENCE}.",
+  "example": "The legislation which encompassed unprecedented regulatory measures has reshaped the entire industry.",
+  "explanation": "We use 'which' for policies and legislation. The clause elaborates on the scope and implications of the policy.",
+  "chunks": {
+    "POLICY": ["legislation", "directive", "regulatory framework", "institutional mandate"],
+    "SCOPE": ["encompassed unprecedented regulatory measures", "addressed systemic vulnerabilities", "integrated multisectoral considerations", "harmonized divergent jurisdictional requirements"],
+    "CONSEQUENCE": ["reshaped the entire industry", "precipitated fundamental reforms", "engendered transformative change", "recalibrated stakeholder expectations"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "circumvent"
+      }
+    }
+  }
+}

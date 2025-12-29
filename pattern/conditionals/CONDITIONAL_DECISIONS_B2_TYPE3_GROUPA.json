@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_DECISIONS_B2_TYPE3_GROUPA",
+  "focus": "conditional_type_3_decisions_past",
+  "level": "B2",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ differently, {SUBJ} would have {PAST_OUTCOME}.",
+  "example": "If they had decided differently, they would have avoided the conflict.",
+  "explanation": "Third conditional for reflecting on past decisions. 'Had decided' + 'would have avoided' shows regret about choices made.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the leaders", "the planners"],
+    "PAST_OUTCOME": ["avoided the conflict", "prevented the problem", "achieved success", "reached the goal"],
+    "VERB": {
+      "had decided": {
+        "correct_forms": ["had decided"],
+        "wrong_forms": ["decided", "have decided", "would decide"],
+        "objects": [],
+        "distractor": "hesitate"
+      },
+      "had acted": {
+        "correct_forms": ["had acted"],
+        "wrong_forms": ["acted", "have acted", "would act"],
+        "objects": [],
+        "distractor": "delay"
+      }
+    }
+  }
+}

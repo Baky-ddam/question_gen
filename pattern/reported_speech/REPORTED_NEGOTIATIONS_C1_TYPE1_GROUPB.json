@@ -1,0 +1,34 @@
+{
+  "pattern_id": "REPORTED_NEGOTIATIONS_C1_TYPE1_GROUPB",
+  "focus": "reported_speech_insisted_demanded",
+  "level": "C1",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {PARTY} {REPORTING_VERB} that the {OTHER_PARTY} ____ {DEMAND}, before any further progress {CONDITION}.",
+  "example": "The union insisted that the management had to address safety concerns, before any further progress could be made.",
+  "explanation": "Verbs like 'insisted' and 'demanded' convey urgency. Modal 'must/have to' becomes 'had to' in reported speech.",
+  "chunks": {
+    "PARTY": ["union", "consortium", "coalition", "delegation"],
+    "REPORTING_VERB": ["insisted", "demanded", "required", "stipulated"],
+    "OTHER_PARTY": ["management", "administration", "counterpart", "opposition"],
+    "DEMAND": ["address safety concerns", "revise the terms", "reconsider the proposal", "amend the conditions"],
+    "CONDITION": ["could be made", "would be possible", "could be achieved", "would be considered"],
+    "VERB": {
+      "had to address": {
+        "correct_forms": ["had to address"],
+        "wrong_forms": ["has to address", "must address", "should address"],
+        "objects": [],
+        "distractor": "circumvent"
+      },
+      "had to revise": {
+        "correct_forms": ["had to revise"],
+        "wrong_forms": ["has to revise", "must revise", "should revise"],
+        "objects": [],
+        "distractor": "reject"
+      }
+    }
+  }
+}

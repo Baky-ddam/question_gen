@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_REALESTATE_B2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "real_estate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "We have renovated the commercial properties, which has attracted more tenants.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' for completed actions with ongoing relevance. The relative clause shows the impact.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they",
+      "the developers",
+      "the property investors"
+    ],
+    "CONSEQUENCE": [
+      "has increased the market value significantly",
+      "has attracted institutional buyers",
+      "has improved rental yields considerably",
+      "has enhanced the neighborhood appeal"
+    ],
+    "VERB": {
+      "acquire": {
+        "correct_forms": [
+          "have acquired"
+        ],
+        "wrong_forms": [
+          "has acquired",
+          "had acquired",
+          "acquired"
+        ],
+        "objects": [
+          "prime commercial properties",
+          "residential developments",
+          "strategic land parcels",
+          "undervalued assets"
+        ],
+        "distractor": "disregard"
+      },
+      "renovate": {
+        "correct_forms": [
+          "have renovated"
+        ],
+        "wrong_forms": [
+          "has renovated",
+          "had renovated",
+          "renovated"
+        ],
+        "objects": [
+          "the historic buildings",
+          "the apartment complexes",
+          "the commercial spaces",
+          "the retail units"
+        ],
+        "distractor": "undermine"
+      },
+      "develop": {
+        "correct_forms": [
+          "have developed"
+        ],
+        "wrong_forms": [
+          "has developed",
+          "had developed",
+          "developed"
+        ],
+        "objects": [
+          "mixed-use properties",
+          "sustainable housing projects",
+          "urban residential complexes",
+          "innovative living spaces"
+        ],
+        "distractor": "obstruct"
+      },
+      "convert": {
+        "correct_forms": [
+          "have converted"
+        ],
+        "wrong_forms": [
+          "has converted",
+          "had converted",
+          "converted"
+        ],
+        "objects": [
+          "warehouses into lofts",
+          "offices into residential units",
+          "industrial sites into housing",
+          "retail spaces into co-working areas"
+        ],
+        "distractor": "impede"
+      }
+    }
+  }
+}

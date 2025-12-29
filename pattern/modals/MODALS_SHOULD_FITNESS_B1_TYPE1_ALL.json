@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_SHOULD_FITNESS_B1_TYPE1_ALL",
+  "focus": "modal_should",
+  "level": "B1",
+  "domain": "fitness",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PURPOSE}.",
+  "example": "You should exercise regularly to stay healthy.",
+  "explanation": "Use 'should' + base verb to give advice or recommendations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "to stay healthy",
+      "to build strength",
+      "to improve endurance",
+      "to maintain fitness"
+    ],
+    "VERB": {
+      "exercise": {
+        "correct_forms": [
+          "should exercise"
+        ],
+        "wrong_forms": [
+          "must exercise",
+          "can exercise",
+          "could exercise"
+        ],
+        "objects": [
+          "regularly",
+          "daily",
+          "three times a week"
+        ],
+        "distractor": "abandon"
+      },
+      "eat": {
+        "correct_forms": [
+          "should eat"
+        ],
+        "wrong_forms": [
+          "must eat",
+          "can eat",
+          "could eat"
+        ],
+        "objects": [
+          "healthy food",
+          "more vegetables",
+          "balanced meals"
+        ],
+        "distractor": "neglect"
+      },
+      "sleep": {
+        "correct_forms": [
+          "should sleep"
+        ],
+        "wrong_forms": [
+          "must sleep",
+          "can sleep",
+          "could sleep"
+        ],
+        "objects": [
+          "eight hours",
+          "enough",
+          "well"
+        ],
+        "distractor": "overlook"
+      },
+      "stretch": {
+        "correct_forms": [
+          "should stretch"
+        ],
+        "wrong_forms": [
+          "must stretch",
+          "can stretch",
+          "could stretch"
+        ],
+        "objects": [
+          "before workouts",
+          "after exercise",
+          "every morning"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

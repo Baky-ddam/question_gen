@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_CLEANING_A2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "cleaning",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {TIME}.",
+  "example": "She throws away the trash every morning.",
+  "explanation": "These phrasal verbs are used for cleaning and organizing. The particle gives the verb its specific meaning.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the cleaner", "my roommate"],
+    "TIME": ["every morning", "after eating", "on weekends", "before guests arrive", "regularly"],
+    "VERB": {
+      "throw away": {
+        "correct_forms": ["throws away"],
+        "wrong_forms": ["throws on", "throws off", "throws up"],
+        "objects": ["trash", "garbage", "old magazines", "empty bottles"],
+        "distractor": "keeps"
+      },
+      "clean up": {
+        "correct_forms": ["cleans up"],
+        "wrong_forms": ["cleans on", "cleans off", "cleans down"],
+        "objects": ["mess", "kitchen", "spill", "room"],
+        "distractor": "dirties"
+      },
+      "wipe down": {
+        "correct_forms": ["wipes down"],
+        "wrong_forms": ["wipes on", "wipes off", "wipes up"],
+        "objects": ["table", "counter", "surface", "desk"],
+        "distractor": "ignores"
+      },
+      "sort out": {
+        "correct_forms": ["sorts out"],
+        "wrong_forms": ["sorts on", "sorts off", "sorts up"],
+        "objects": ["recycling", "clothes", "papers", "items"],
+        "distractor": "mixes"
+      }
+    }
+  }
+}

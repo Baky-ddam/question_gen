@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_EDUCATION_B1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "Students hope to graduate with honors next year.",
+  "explanation": "Some verbs require infinitives (to + verb). Use infinitives after: hope, plan, learn, promise, refuse, want.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "students", "learners"],
+    "MAINVERB": ["hope", "plan", "learn", "promise", "want"],
+    "VERB": {
+      "graduate": {
+        "correct_forms": ["to graduate"],
+        "wrong_forms": ["graduating", "graduate", "graduates"],
+        "objects": ["with honors", "on time", "this year", "with a degree"],
+        "distractor": "to fail"
+      },
+      "study": {
+        "correct_forms": ["to study"],
+        "wrong_forms": ["studying", "study", "studies"],
+        "objects": ["abroad", "medicine", "engineering", "harder"],
+        "distractor": "to skip"
+      },
+      "complete": {
+        "correct_forms": ["to complete"],
+        "wrong_forms": ["completing", "complete", "completes"],
+        "objects": ["the course", "the degree", "assignments", "research"],
+        "distractor": "to abandon"
+      },
+      "attend": {
+        "correct_forms": ["to attend"],
+        "wrong_forms": ["attending", "attend", "attends"],
+        "objects": ["university", "lectures", "seminars", "workshops"],
+        "distractor": "to skip"
+      }
+    },
+    "CONTEXT": ["next year", "this semester", "before graduation", "in the future", "soon"]
+  }
+}

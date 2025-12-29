@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AGRICULTURE_C1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "agriculture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "contrast_continuous", "sophisticated_contrast"],
+  "template": "While {SUBJ} ____ {OBJ}, {CONTRAST_ACTION}.",
+  "example": "While we were implementing integrated pest management protocols across the experimental plots, conventional growers were continuing to apply broad-spectrum pesticides that compromised long-term soil biodiversity.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing agricultural activities with sophisticated contrast clauses.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the agronomists"],
+    "CONTRAST_ACTION": [
+      "conventional growers were continuing to apply broad-spectrum pesticides that compromised long-term soil biodiversity",
+      "policymakers were prioritizing short-term yield maximization over sustainable land stewardship",
+      "industrial operations were depleting groundwater reserves at unsustainable rates",
+      "commodity markets were incentivizing monoculture practices that exacerbated ecological vulnerabilities"
+    ],
+    "VERB": {
+      "implement": {
+        "correct_forms": ["were implementing"],
+        "wrong_forms": ["was implementing", "implemented", "are implementing"],
+        "objects": ["integrated pest management protocols across the experimental plots", "precision agriculture technologies to optimize resource utilization", "agroforestry systems that enhanced ecosystem services", "regenerative cultivation practices to restore depleted soils"],
+        "distractor": "forsake"
+      },
+      "evaluate": {
+        "correct_forms": ["were evaluating"],
+        "wrong_forms": ["was evaluating", "evaluated", "are evaluating"],
+        "objects": ["the agronomic performance of drought-resistant cultivars", "the economic viability of organic transition strategies", "the carbon sequestration potential of cover cropping systems", "the nutrient cycling dynamics under reduced tillage regimes"],
+        "distractor": "obliterate"
+      },
+      "calibrate": {
+        "correct_forms": ["were calibrating"],
+        "wrong_forms": ["was calibrating", "calibrated", "are calibrating"],
+        "objects": ["the irrigation scheduling algorithms to minimize water waste", "the variable-rate application systems for precision fertilization", "the remote sensing indices for early stress detection", "the predictive models for optimal harvest timing"],
+        "distractor": "renounce"
+      },
+      "pioneer": {
+        "correct_forms": ["were pioneering"],
+        "wrong_forms": ["was pioneering", "pioneered", "are pioneering"],
+        "objects": ["climate-adaptive cropping systems for vulnerable regions", "symbiotic approaches that integrated livestock and crop production", "participatory breeding programs involving smallholder farmers", "landscape-scale interventions that enhanced pollinator habitat"],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

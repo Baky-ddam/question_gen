@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_ECONOMY_B2_TYPE1_ALL",
+  "focus": "modal_could",
+  "level": "B2",
+  "domain": "economy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could"
+  ],
+  "template": "{SUBJ} ____ {OBJ} if {CONDITION}.",
+  "example": "The economy could grow substantially if trade agreements are finalized.",
+  "explanation": "Use 'could' + base verb with all subjects to express possibility about economic outcomes. The 'if' clause provides the condition for the possibility.",
+  "chunks": {
+    "SUBJ": [
+      "the economy",
+      "economic growth",
+      "consumer spending",
+      "the labor market",
+      "business investment",
+      "industrial output"
+    ],
+    "CONDITION": [
+      "trade agreements are finalized",
+      "fiscal policies remain supportive",
+      "consumer confidence rebounds",
+      "interest rates stay favorable",
+      "supply chain issues resolve",
+      "global demand increases"
+    ],
+    "VERB": {
+      "grow": {
+        "correct_forms": [
+          "could grow"
+        ],
+        "wrong_forms": [
+          "can grow",
+          "would grow",
+          "should grow"
+        ],
+        "objects": [
+          "at a sustainable pace",
+          "beyond current projections",
+          "throughout the fiscal year",
+          "in key economic sectors"
+        ],
+        "distractor": "disregard"
+      },
+      "contract": {
+        "correct_forms": [
+          "could contract"
+        ],
+        "wrong_forms": [
+          "can contract",
+          "would contract",
+          "should contract"
+        ],
+        "objects": [
+          "if conditions deteriorate",
+          "amid global uncertainty",
+          "during the adjustment period",
+          "more than economists predict"
+        ],
+        "distractor": "overlook"
+      },
+      "stabilize": {
+        "correct_forms": [
+          "could stabilize"
+        ],
+        "wrong_forms": [
+          "can stabilize",
+          "would stabilize",
+          "should stabilize"
+        ],
+        "objects": [
+          "after recent turbulence",
+          "with coordinated policy action",
+          "in the medium term",
+          "following structural reforms"
+        ],
+        "distractor": "suppress"
+      },
+      "recover": {
+        "correct_forms": [
+          "could recover"
+        ],
+        "wrong_forms": [
+          "can recover",
+          "would recover",
+          "should recover"
+        ],
+        "objects": [
+          "faster than expected",
+          "to pre-crisis levels",
+          "through targeted interventions",
+          "with improved fundamentals"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

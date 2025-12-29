@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_SHOULD_RELATIONSHIPS_B1_TYPE1_ALL",
+  "focus": "modal_should",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PURPOSE}.",
+  "example": "You should listen carefully to build trust.",
+  "explanation": "Use 'should' + base verb to give advice about relationships. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "to build trust",
+      "to strengthen bonds",
+      "to maintain harmony",
+      "to show respect"
+    ],
+    "VERB": {
+      "listen": {
+        "correct_forms": [
+          "should listen"
+        ],
+        "wrong_forms": [
+          "must listen",
+          "can listen",
+          "could listen"
+        ],
+        "objects": [
+          "carefully",
+          "with empathy",
+          "to others"
+        ],
+        "distractor": "dismiss"
+      },
+      "support": {
+        "correct_forms": [
+          "should support"
+        ],
+        "wrong_forms": [
+          "must support",
+          "can support",
+          "could support"
+        ],
+        "objects": [
+          "each other",
+          "family members",
+          "friends"
+        ],
+        "distractor": "abandon"
+      },
+      "understand": {
+        "correct_forms": [
+          "should understand"
+        ],
+        "wrong_forms": [
+          "must understand",
+          "can understand",
+          "could understand"
+        ],
+        "objects": [
+          "different perspectives",
+          "other viewpoints",
+          "feelings"
+        ],
+        "distractor": "overlook"
+      },
+      "respect": {
+        "correct_forms": [
+          "should respect"
+        ],
+        "wrong_forms": [
+          "must respect",
+          "can respect",
+          "could respect"
+        ],
+        "objects": [
+          "boundaries",
+          "differences",
+          "opinions"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

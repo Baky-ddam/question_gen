@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_ARTWORKS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "artworks",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The paintings were created by famous artists.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the paintings", "the sculptures", "the murals", "the drawings", "the photographs", "the artworks"],
+    "AGENT": ["famous artists", "local painters", "talented sculptors", "professional photographers", "skilled craftsmen", "renowned masters"],
+    "VERB": {
+      "create": {
+        "correct_forms": ["were created"],
+        "wrong_forms": ["was created", "are created", "have been created"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "paint": {
+        "correct_forms": ["were painted"],
+        "wrong_forms": ["was painted", "are painted", "have been painted"],
+        "objects": [],
+        "distractor": "damaged"
+      },
+      "display": {
+        "correct_forms": ["were displayed"],
+        "wrong_forms": ["was displayed", "are displayed", "have been displayed"],
+        "objects": [],
+        "distractor": "hidden"
+      },
+      "restore": {
+        "correct_forms": ["were restored"],
+        "wrong_forms": ["was restored", "are restored", "have been restored"],
+        "objects": [],
+        "distractor": "ruined"
+      }
+    }
+  }
+}

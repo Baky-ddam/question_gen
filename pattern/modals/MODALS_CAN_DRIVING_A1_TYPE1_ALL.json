@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_DRIVING_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "driving",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "She can drive a car.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "drive": {
+        "correct_forms": [
+          "can drive"
+        ],
+        "wrong_forms": [
+          "could drive",
+          "must drive",
+          "should drive"
+        ],
+        "distractor": "avoid",
+        "objects": [
+          "a car",
+          "a truck",
+          "a bus"
+        ]
+      },
+      "park": {
+        "correct_forms": [
+          "can park"
+        ],
+        "wrong_forms": [
+          "could park",
+          "must park",
+          "should park"
+        ],
+        "distractor": "ignore",
+        "objects": [
+          "the car",
+          "very well",
+          "in small spaces"
+        ]
+      },
+      "ride": {
+        "correct_forms": [
+          "can ride"
+        ],
+        "wrong_forms": [
+          "could ride",
+          "must ride",
+          "should ride"
+        ],
+        "distractor": "break",
+        "objects": [
+          "a motorcycle",
+          "a bicycle",
+          "a scooter"
+        ]
+      },
+      "navigate": {
+        "correct_forms": [
+          "can navigate"
+        ],
+        "wrong_forms": [
+          "could navigate",
+          "must navigate",
+          "should navigate"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "the city",
+          "the highway",
+          "traffic"
+        ]
+      }
+    }
+  }
+}

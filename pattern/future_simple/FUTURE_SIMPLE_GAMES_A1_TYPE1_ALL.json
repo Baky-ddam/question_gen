@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_GAMES_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "games",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will play video games later.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans about games and play.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "play": {
+        "correct_forms": ["will play"],
+        "wrong_forms": ["plays", "is going to play", "would play"],
+        "objects": ["video games", "chess", "cards"],
+        "distractor": "lose"
+      },
+      "win": {
+        "correct_forms": ["will win"],
+        "wrong_forms": ["wins", "is going to win", "would win"],
+        "objects": ["the game", "the match", "the competition"],
+        "distractor": "hate"
+      },
+      "download": {
+        "correct_forms": ["will download"],
+        "wrong_forms": ["downloads", "is going to download", "would download"],
+        "objects": ["a new game", "the app", "a puzzle"],
+        "distractor": "delete"
+      },
+      "finish": {
+        "correct_forms": ["will finish"],
+        "wrong_forms": ["finishes", "is going to finish", "would finish"],
+        "objects": ["the level", "the game", "the puzzle"],
+        "distractor": "quit"
+      }
+    },
+    "FUTURE_TIME": ["later", "tonight", "tomorrow", "next week"]
+  }
+}

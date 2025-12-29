@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_VEHICLES_B1_TYPE2_GROUPA",
+  "focus": "adjective_order_color_origin_vehicles",
+  "level": "B1",
+  "domain": "vehicles",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "They imported a ____ {NOUN}.",
+  "example": "They imported a black German car.",
+  "explanation": "Color comes before origin in adjective order. 'Black German' not 'German black'.",
+  "chunks": {
+    "NOUN": ["car", "motorcycle", "truck", "sports car"],
+    "VERB": {
+      "black German": {
+        "correct_forms": ["black German"],
+        "wrong_forms": ["German black", "German and black", "black and German"],
+        "objects": [],
+        "distractor": "white"
+      },
+      "red Italian": {
+        "correct_forms": ["red Italian"],
+        "wrong_forms": ["Italian red", "Italian and red", "red and Italian"],
+        "objects": [],
+        "distractor": "blue"
+      },
+      "silver Japanese": {
+        "correct_forms": ["silver Japanese"],
+        "wrong_forms": ["Japanese silver", "Japanese and silver", "silver and Japanese"],
+        "objects": [],
+        "distractor": "gold"
+      }
+    }
+  }
+}

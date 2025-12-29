@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_DAILYSKILLS_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "daily_skills",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "I can clean my room.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "clean": {
+        "correct_forms": [
+          "can clean"
+        ],
+        "wrong_forms": [
+          "could clean",
+          "must clean",
+          "should clean"
+        ],
+        "distractor": "ignore",
+        "objects": [
+          "the house",
+          "my room",
+          "the kitchen"
+        ]
+      },
+      "wash": {
+        "correct_forms": [
+          "can wash"
+        ],
+        "wrong_forms": [
+          "could wash",
+          "must wash",
+          "should wash"
+        ],
+        "distractor": "break",
+        "objects": [
+          "clothes",
+          "dishes",
+          "the car"
+        ]
+      },
+      "fix": {
+        "correct_forms": [
+          "can fix"
+        ],
+        "wrong_forms": [
+          "could fix",
+          "must fix",
+          "should fix"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "things",
+          "bikes",
+          "computers"
+        ]
+      },
+      "organize": {
+        "correct_forms": [
+          "can organize"
+        ],
+        "wrong_forms": [
+          "could organize",
+          "must organize",
+          "should organize"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "my desk",
+          "my closet",
+          "my schedule"
+        ]
+      }
+    }
+  }
+}

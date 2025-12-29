@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_PROBLEMS_B2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B2",
+  "domain": "problems",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {CONTEXT}.",
+  "example": "We deal with the crisis professionally.",
+  "explanation": "These phrasal verbs are used to describe problem-solving and handling difficulties. They are common in professional and academic contexts.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "NOUN": ["the crisis", "the issue", "the challenge", "the situation"],
+    "CONTEXT": ["professionally", "immediately", "effectively", "strategically", "with care"],
+    "VERB": {
+      "deal with": {
+        "correct_forms": ["deal with"],
+        "wrong_forms": ["deal on", "deal at", "deal for"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "run into": {
+        "correct_forms": ["run into"],
+        "wrong_forms": ["run on", "run at", "run off"],
+        "objects": [],
+        "distractor": "avoid"
+      },
+      "get through": {
+        "correct_forms": ["get through"],
+        "wrong_forms": ["get on", "get at", "get off"],
+        "objects": [],
+        "distractor": "abandon"
+      },
+      "get over": {
+        "correct_forms": ["get over"],
+        "wrong_forms": ["get on", "get at", "get off"],
+        "objects": [],
+        "distractor": "dwell on"
+      }
+    }
+  }
+}

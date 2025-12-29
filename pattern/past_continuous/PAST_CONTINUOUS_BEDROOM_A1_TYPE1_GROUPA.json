@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_BEDROOM_A1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "bedroom",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "The children were sleeping in their beds last night.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the children", "the kids", "my brothers"],
+    "TIME": ["last night", "this morning", "at 8 o'clock", "yesterday evening"],
+    "VERB": {
+      "sleep": {
+        "correct_forms": ["were sleeping"],
+        "wrong_forms": ["was sleeping", "slept", "are sleeping"],
+        "objects": ["in their beds", "peacefully", "all night", "quietly"],
+        "distractor": "wake"
+      },
+      "read": {
+        "correct_forms": ["were reading"],
+        "wrong_forms": ["was reading", "read", "are reading"],
+        "objects": ["a book", "a story", "in bed", "before sleep"],
+        "distractor": "ignore"
+      },
+      "play": {
+        "correct_forms": ["were playing"],
+        "wrong_forms": ["was playing", "played", "are playing"],
+        "objects": ["with toys", "games", "on the bed", "in the room"],
+        "distractor": "stop"
+      },
+      "get": {
+        "correct_forms": ["were getting"],
+        "wrong_forms": ["was getting", "got", "are getting"],
+        "objects": ["dressed", "ready", "up", "out of bed"],
+        "distractor": "forget"
+      }
+    }
+  }
+}

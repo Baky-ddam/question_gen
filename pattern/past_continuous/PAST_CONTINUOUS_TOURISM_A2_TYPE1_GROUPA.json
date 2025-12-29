@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_TOURISM_A2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "tourism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "At {TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "At this time last week, we were visiting the old town.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for actions happening at a specific moment in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "this time last week",
+      "noon yesterday",
+      "10am this morning",
+      "this time last month"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": ["were visiting"],
+        "wrong_forms": ["was visiting", "visited", "are visiting"],
+        "objects": ["the old town", "the famous museum", "the historic castle"],
+        "distractor": "skip"
+      },
+      "take": {
+        "correct_forms": ["were taking"],
+        "wrong_forms": ["was taking", "took", "are taking"],
+        "objects": ["photos", "a guided tour", "notes"],
+        "distractor": "waste"
+      },
+      "explore": {
+        "correct_forms": ["were exploring"],
+        "wrong_forms": ["was exploring", "explored", "are exploring"],
+        "objects": ["the city center", "the local markets", "the ancient ruins"],
+        "distractor": "neglect"
+      },
+      "walk": {
+        "correct_forms": ["were walking"],
+        "wrong_forms": ["was walking", "walked", "are walking"],
+        "objects": ["along the beach", "through the park", "around the square"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANTIQUES_B2_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_age_material_antiques",
+  "level": "B2",
+  "domain": "antiques",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The dealer offered a ____ {NOUN}.",
+  "example": "The dealer offered a valuable Victorian mahogany desk.",
+  "explanation": "Opinion-Age-Material order. 'Valuable Victorian mahogany' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["desk", "chest", "bureau", "wardrobe"],
+    "VERB": {
+      "valuable Victorian mahogany": {
+        "correct_forms": ["valuable Victorian mahogany"],
+        "wrong_forms": ["Victorian valuable mahogany", "mahogany Victorian valuable", "mahogany valuable Victorian"],
+        "objects": [],
+        "distractor": "worthless"
+      },
+      "precious Edwardian oak": {
+        "correct_forms": ["precious Edwardian oak"],
+        "wrong_forms": ["Edwardian precious oak", "oak Edwardian precious", "oak precious Edwardian"],
+        "objects": [],
+        "distractor": "common"
+      },
+      "rare Georgian walnut": {
+        "correct_forms": ["rare Georgian walnut"],
+        "wrong_forms": ["Georgian rare walnut", "walnut Georgian rare", "walnut rare Georgian"],
+        "objects": [],
+        "distractor": "ordinary"
+      }
+    }
+  }
+}

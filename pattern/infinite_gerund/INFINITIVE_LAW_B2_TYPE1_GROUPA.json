@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_LAW_B2_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ to {PURPOSE}.",
+  "example": "Lawyers agree to negotiate terms to reach a fair settlement.",
+  "explanation": "Some verbs require infinitives (to + verb). Legal verbs with infinitives: agree, refuse, decide, promise, threaten, demand.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "lawyers", "attorneys", "parties"],
+    "MAINVERB": ["agree", "refuse", "decide", "promise", "demand"],
+    "VERB": {
+      "negotiate": {
+        "correct_forms": ["to negotiate"],
+        "wrong_forms": ["negotiating", "negotiate", "negotiates"],
+        "objects": ["terms", "a settlement", "conditions", "an agreement"],
+        "distractor": "to litigate"
+      },
+      "appeal": {
+        "correct_forms": ["to appeal"],
+        "wrong_forms": ["appealing", "appeal", "appeals"],
+        "objects": ["the decision", "the ruling", "the verdict", "the judgment"],
+        "distractor": "to accept"
+      },
+      "settle": {
+        "correct_forms": ["to settle"],
+        "wrong_forms": ["settling", "settle", "settles"],
+        "objects": ["the dispute", "out of court", "the case", "the matter"],
+        "distractor": "to escalate"
+      },
+      "comply": {
+        "correct_forms": ["to comply"],
+        "wrong_forms": ["complying", "comply", "complies"],
+        "objects": ["with regulations", "with the court order", "with legal requirements", "with the terms"],
+        "distractor": "to violate"
+      }
+    },
+    "PURPOSE": ["reach a fair settlement", "protect client interests", "avoid lengthy litigation", "ensure compliance", "resolve the matter"]
+  }
+}

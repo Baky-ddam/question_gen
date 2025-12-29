@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_COMPUTERS_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "computers",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "He can use a computer.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "type": {
+        "correct_forms": [
+          "can type"
+        ],
+        "wrong_forms": [
+          "could type",
+          "must type",
+          "should type"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "very fast",
+          "without looking",
+          "emails"
+        ]
+      },
+      "use": {
+        "correct_forms": [
+          "can use"
+        ],
+        "wrong_forms": [
+          "could use",
+          "must use",
+          "should use"
+        ],
+        "distractor": "break",
+        "objects": [
+          "a computer",
+          "the internet",
+          "software"
+        ]
+      },
+      "play": {
+        "correct_forms": [
+          "can play"
+        ],
+        "wrong_forms": [
+          "could play",
+          "must play",
+          "should play"
+        ],
+        "distractor": "hate",
+        "objects": [
+          "video games",
+          "online games",
+          "computer games"
+        ]
+      },
+      "download": {
+        "correct_forms": [
+          "can download"
+        ],
+        "wrong_forms": [
+          "could download",
+          "must download",
+          "should download"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "music",
+          "apps",
+          "files"
+        ]
+      }
+    }
+  }
+}

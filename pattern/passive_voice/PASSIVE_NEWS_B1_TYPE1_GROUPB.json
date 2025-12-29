@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_NEWS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "news",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The scandal was exposed by an investigative journalist.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the scandal", "the story", "the interview", "the truth", "the evidence", "the information"],
+    "AGENT": ["an investigative journalist", "the news channel", "a reliable source", "the media", "a whistleblower", "the press"],
+    "VERB": {
+      "expose": {
+        "correct_forms": ["was exposed"],
+        "wrong_forms": ["were exposed", "is exposed", "has been exposed"],
+        "objects": [],
+        "distractor": "covered"
+      },
+      "broadcast": {
+        "correct_forms": ["was broadcast"],
+        "wrong_forms": ["were broadcast", "is broadcast", "has been broadcast"],
+        "objects": [],
+        "distractor": "censored"
+      },
+      "reveal": {
+        "correct_forms": ["was revealed"],
+        "wrong_forms": ["were revealed", "is revealed", "has been revealed"],
+        "objects": [],
+        "distractor": "hidden"
+      },
+      "share": {
+        "correct_forms": ["was shared"],
+        "wrong_forms": ["were shared", "is shared", "has been shared"],
+        "objects": [],
+        "distractor": "withheld"
+      }
+    }
+  }
+}

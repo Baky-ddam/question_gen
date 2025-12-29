@@ -1,0 +1,60 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_MARITIME_B2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "maritime",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "complex_interruption", "which_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} when {INTERRUPTION}, which {CONSEQUENCE}.",
+  "example": "The harbor master was supervising the berthing procedures at the main terminal when mechanical failures were reported, which delayed operations significantly.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular professional titles for interrupted maritime activities with consequences.",
+  "chunks": {
+    "SUBJ": ["I", "the harbor master", "the shipping captain", "the port inspector"],
+    "PREP_PLACE": [
+      "at the main terminal",
+      "in the vessel control center",
+      "at the cargo dock",
+      "on the bridge"
+    ],
+    "INTERRUPTION": [
+      "mechanical failures were reported",
+      "customs complications arose",
+      "environmental inspectors arrived unexpectedly",
+      "international sanctions took effect"
+    ],
+    "CONSEQUENCE": [
+      "delayed operations significantly",
+      "required extensive documentation review",
+      "necessitated emergency protocol activation",
+      "demanded immediate senior management involvement"
+    ],
+    "VERB": {
+      "supervise": {
+        "correct_forms": ["was supervising"],
+        "wrong_forms": ["were supervising", "supervised", "is supervising"],
+        "objects": ["the berthing procedures", "the unloading operations", "the crew assignments", "the maintenance schedules"],
+        "distractor": "overlook"
+      },
+      "authorize": {
+        "correct_forms": ["was authorizing"],
+        "wrong_forms": ["were authorizing", "authorized", "is authorizing"],
+        "objects": ["the departure clearances", "the cargo transfers", "the crew changes", "the emergency protocols"],
+        "distractor": "circumvent"
+      },
+      "monitor": {
+        "correct_forms": ["was monitoring"],
+        "wrong_forms": ["were monitoring", "monitored", "is monitoring"],
+        "objects": ["the weather conditions", "the vessel traffic", "the tide schedules", "the safety compliance"],
+        "distractor": "undermine"
+      },
+      "evaluate": {
+        "correct_forms": ["was evaluating"],
+        "wrong_forms": ["were evaluating", "evaluated", "is evaluating"],
+        "objects": ["the risk assessments", "the operational efficiency", "the security protocols", "the environmental impact"],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

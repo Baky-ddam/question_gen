@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_TECHNOLOGY_B2_TYPE1_ALL",
+  "focus": "modal_may",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_may"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "Artificial intelligence may disrupt traditional industries, which would reshape the job market.",
+  "explanation": "Use 'may' + base verb with all subjects to express possibility about technological developments. The 'which' clause describes the potential consequence.",
+  "chunks": {
+    "SUBJ": [
+      "artificial intelligence",
+      "emerging technologies",
+      "digital transformation",
+      "automation systems",
+      "blockchain solutions",
+      "quantum computing"
+    ],
+    "CONSEQUENCE": [
+      "would reshape the job market",
+      "could revolutionize business processes",
+      "may create new economic opportunities",
+      "would challenge existing regulations",
+      "could fundamentally alter consumer behavior",
+      "may redefine industry standards"
+    ],
+    "VERB": {
+      "disrupt": {
+        "correct_forms": [
+          "may disrupt"
+        ],
+        "wrong_forms": [
+          "will disrupt",
+          "must disrupt",
+          "can disrupt"
+        ],
+        "objects": [
+          "traditional industries completely",
+          "established business models",
+          "conventional workflows significantly",
+          "legacy systems permanently"
+        ],
+        "distractor": "disregard"
+      },
+      "transform": {
+        "correct_forms": [
+          "may transform"
+        ],
+        "wrong_forms": [
+          "will transform",
+          "must transform",
+          "can transform"
+        ],
+        "objects": [
+          "how we work and live",
+          "entire economic sectors",
+          "global communication patterns",
+          "healthcare delivery methods"
+        ],
+        "distractor": "overlook"
+      },
+      "evolve": {
+        "correct_forms": [
+          "may evolve"
+        ],
+        "wrong_forms": [
+          "will evolve",
+          "must evolve",
+          "can evolve"
+        ],
+        "objects": [
+          "beyond current capabilities",
+          "in unexpected directions",
+          "faster than anticipated",
+          "into more sophisticated forms"
+        ],
+        "distractor": "suppress"
+      },
+      "accelerate": {
+        "correct_forms": [
+          "may accelerate"
+        ],
+        "wrong_forms": [
+          "will accelerate",
+          "must accelerate",
+          "can accelerate"
+        ],
+        "objects": [
+          "innovation across sectors",
+          "the pace of change",
+          "digital adoption rates",
+          "competitive pressures globally"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

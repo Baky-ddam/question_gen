@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SAVINGS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "savings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If I save enough money, I will buy a car.",
+  "explanation": "Future simple uses 'will + base verb' in first conditional sentences about financial goals and savings.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "buy": {
+        "correct_forms": ["will buy"],
+        "wrong_forms": ["buys", "is going to buy", "would buy"],
+        "objects": ["a car", "a house", "a new phone"],
+        "distractor": "waste"
+      },
+      "afford": {
+        "correct_forms": ["will afford"],
+        "wrong_forms": ["affords", "is going to afford", "would afford"],
+        "objects": ["the trip", "a vacation", "the new apartment"],
+        "distractor": "ignore"
+      },
+      "invest": {
+        "correct_forms": ["will invest"],
+        "wrong_forms": ["invests", "is going to invest", "would invest"],
+        "objects": ["in stocks", "in a business", "wisely"],
+        "distractor": "neglect"
+      },
+      "retire": {
+        "correct_forms": ["will retire"],
+        "wrong_forms": ["retires", "is going to retire", "would retire"],
+        "objects": ["early", "comfortably", "next year"],
+        "distractor": "postpone"
+      }
+    },
+    "CONDITION": ["I save enough money", "we cut expenses", "she gets a raise", "they budget carefully", "you invest wisely", "he works overtime"]
+  }
+}

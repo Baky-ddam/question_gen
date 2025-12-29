@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_SCHOOL_A2_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "A2",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "I need to study for the exam tomorrow.",
+  "explanation": "Some verbs are followed by infinitives (to + verb). Common verbs: want, need, learn, try, hope.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["want", "need", "learn", "try", "hope"],
+    "VERB": {
+      "study": {
+        "correct_forms": ["to study"],
+        "wrong_forms": ["studying", "study", "studied"],
+        "objects": ["for the exam", "harder", "English", "math"],
+        "distractor": "to fail"
+      },
+      "finish": {
+        "correct_forms": ["to finish"],
+        "wrong_forms": ["finishing", "finish", "finished"],
+        "objects": ["homework", "the project", "the assignment", "reading"],
+        "distractor": "to skip"
+      },
+      "pass": {
+        "correct_forms": ["to pass"],
+        "wrong_forms": ["passing", "pass", "passed"],
+        "objects": ["the test", "the exam", "the class", "all subjects"],
+        "distractor": "to fail"
+      },
+      "improve": {
+        "correct_forms": ["to improve"],
+        "wrong_forms": ["improving", "improve", "improved"],
+        "objects": ["my grades", "my writing", "my speaking", "my skills"],
+        "distractor": "to worsen"
+      }
+    },
+    "TIME": ["tomorrow", "this week", "before the exam", "this semester"]
+  }
+}

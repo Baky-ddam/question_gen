@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_PROBLEMS_B2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B2",
+  "domain": "problems",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {CONTEXT}.",
+  "example": "The manager deals with the crisis professionally.",
+  "explanation": "These phrasal verbs are used to describe problem-solving and handling difficulties. They are common in professional and academic contexts.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the manager", "the team leader"],
+    "NOUN": ["the crisis", "the issue", "the challenge", "the situation"],
+    "CONTEXT": ["professionally", "immediately", "effectively", "strategically", "with care"],
+    "VERB": {
+      "deal with": {
+        "correct_forms": ["deals with"],
+        "wrong_forms": ["deals on", "deals at", "deals for"],
+        "objects": [],
+        "distractor": "ignores"
+      },
+      "run into": {
+        "correct_forms": ["runs into"],
+        "wrong_forms": ["runs on", "runs at", "runs off"],
+        "objects": [],
+        "distractor": "avoids"
+      },
+      "get through": {
+        "correct_forms": ["gets through"],
+        "wrong_forms": ["gets on", "gets at", "gets off"],
+        "objects": [],
+        "distractor": "abandons"
+      },
+      "get over": {
+        "correct_forms": ["gets over"],
+        "wrong_forms": ["gets on", "gets at", "gets off"],
+        "objects": [],
+        "distractor": "dwells on"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_THEORIES_C1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_theory",
+  "level": "C1",
+  "domain": "theories",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {THEORY} ____ {CONTRIBUTION}, has {IMPACT}.",
+  "example": "The paradigm which challenged conventional assumptions, has fundamentally transformed our understanding.",
+  "explanation": "We use 'which' in non-defining relative clauses at C1 level. The clause adds sophisticated information about theories and their significance.",
+  "chunks": {
+    "THEORY": ["paradigm", "hypothesis", "doctrine", "theoretical construct"],
+    "CONTRIBUTION": ["challenged conventional assumptions", "synthesized disparate disciplines", "reconciled competing perspectives", "transcended traditional boundaries"],
+    "IMPACT": ["fundamentally transformed our understanding", "reshaped scholarly discourse", "catalyzed methodological innovations", "precipitated paradigmatic shifts"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

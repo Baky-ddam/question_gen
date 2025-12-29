@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_DAILY_B1_TYPE1_GROUPA",
+  "focus": "suffix_ness_formation",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "Her ____ made everyone feel welcome.",
+  "example": "Her kindness made everyone feel welcome.",
+  "explanation": "The suffix '-ness' transforms adjectives into nouns. 'Kind' becomes 'kindness' (the state of being kind).",
+  "chunks": {
+    "NOUN": ["welcome", "comfortable", "relaxed", "appreciated"],
+    "VERB": {
+      "kindness": {
+        "correct_forms": ["kindness"],
+        "wrong_forms": ["kind", "kinder", "kindly"],
+        "objects": [],
+        "distractor": "cruelty"
+      },
+      "happiness": {
+        "correct_forms": ["happiness"],
+        "wrong_forms": ["happy", "happier", "happily"],
+        "objects": [],
+        "distractor": "sadness"
+      },
+      "awareness": {
+        "correct_forms": ["awareness"],
+        "wrong_forms": ["aware", "awarer", "awareful"],
+        "objects": [],
+        "distractor": "ignorance"
+      },
+      "carefulness": {
+        "correct_forms": ["carefulness"],
+        "wrong_forms": ["careful", "carefuler", "carefully"],
+        "objects": [],
+        "distractor": "carelessness"
+      }
+    }
+  }
+}

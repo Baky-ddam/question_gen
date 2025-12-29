@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FOOD_B1_TYPE2_GROUPA",
+  "focus": "adjective_order_age_origin_food",
+  "level": "B1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "They served ____ {NOUN}.",
+  "example": "They served fresh Greek salad.",
+  "explanation": "Age/condition comes before origin in adjective order. 'Fresh Greek' not 'Greek fresh'.",
+  "chunks": {
+    "NOUN": ["salad", "fish", "vegetables", "olives"],
+    "VERB": {
+      "fresh Greek": {
+        "correct_forms": ["fresh Greek"],
+        "wrong_forms": ["Greek fresh", "Greek and fresh", "fresh and Greek"],
+        "objects": [],
+        "distractor": "stale"
+      },
+      "new Mexican": {
+        "correct_forms": ["new Mexican"],
+        "wrong_forms": ["Mexican new", "Mexican and new", "new and Mexican"],
+        "objects": [],
+        "distractor": "old"
+      },
+      "aged Spanish": {
+        "correct_forms": ["aged Spanish"],
+        "wrong_forms": ["Spanish aged", "Spanish and aged", "aged and Spanish"],
+        "objects": [],
+        "distractor": "young"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_RELATIONSHIPS_B1_TYPE1_GROUPC",
+  "focus": "phrasal_verb_separable",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {PERSON} {CONTEXT}.",
+  "example": "I let down my parents when I failed the exam.",
+  "explanation": "Some relationship phrasal verbs are separable. The object can go between the verb and particle.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PERSON": ["my parents", "my friends", "my team", "my partner"],
+    "CONTEXT": ["when I failed the exam", "by not keeping my promise", "by arriving late", "by forgetting the appointment"],
+    "VERB": {
+      "let down": {
+        "correct_forms": ["let down"],
+        "wrong_forms": ["let on", "let off", "let up"],
+        "objects": [],
+        "distractor": "support"
+      },
+      "cheer up": {
+        "correct_forms": ["cheer up"],
+        "wrong_forms": ["cheer on", "cheer off", "cheer in"],
+        "objects": [],
+        "distractor": "upset"
+      },
+      "bring up": {
+        "correct_forms": ["bring up"],
+        "wrong_forms": ["bring on", "bring off", "bring in"],
+        "objects": [],
+        "distractor": "neglect"
+      },
+      "put up with": {
+        "correct_forms": ["put up with"],
+        "wrong_forms": ["put up to", "put on with", "put off with"],
+        "objects": [],
+        "distractor": "reject"
+      }
+    }
+  }
+}

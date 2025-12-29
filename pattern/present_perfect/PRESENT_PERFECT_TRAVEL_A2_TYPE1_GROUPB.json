@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_TRAVEL_A2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ already {OBJ}.",
+  "example": "She has already booked the flight.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to talk about completed actions. 'Already' shows the action is complete.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my friend",
+      "the tourist"
+    ],
+    "VERB": {
+      "book": {
+        "correct_forms": [
+          "has booked"
+        ],
+        "wrong_forms": [
+          "have booked",
+          "had booked",
+          "booked"
+        ],
+        "objects": [
+          "the flight",
+          "the hotel",
+          "the tour",
+          "the tickets"
+        ],
+        "distractor": "reject"
+      },
+      "pack": {
+        "correct_forms": [
+          "has packed"
+        ],
+        "wrong_forms": [
+          "have packed",
+          "had packed",
+          "packed"
+        ],
+        "objects": [
+          "the suitcase",
+          "the bags",
+          "everything",
+          "the backpack"
+        ],
+        "distractor": "waste"
+      },
+      "plan": {
+        "correct_forms": [
+          "has planned"
+        ],
+        "wrong_forms": [
+          "have planned",
+          "had planned",
+          "planned"
+        ],
+        "objects": [
+          "the trip",
+          "the itinerary",
+          "the vacation",
+          "the route"
+        ],
+        "distractor": "abandon"
+      },
+      "check": {
+        "correct_forms": [
+          "has checked"
+        ],
+        "wrong_forms": [
+          "have checked",
+          "had checked",
+          "checked"
+        ],
+        "objects": [
+          "the passport",
+          "the visa",
+          "the reservations",
+          "the schedule"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

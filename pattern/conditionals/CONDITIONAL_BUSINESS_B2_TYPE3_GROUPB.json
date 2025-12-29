@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_BUSINESS_B2_TYPE3_GROUPB",
+  "focus": "conditional_type_3_business_past_singular",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ENTITY} ____ {PAST_BUSINESS_ACTION}, it would have {PAST_BUSINESS_RESULT}.",
+  "example": "If the startup had pivoted sooner, it would have survived the downturn.",
+  "explanation": "Third conditional for analyzing past business decisions. 'Had pivoted' expresses an unreal past action.",
+  "chunks": {
+    "ENTITY": ["startup", "corporation", "firm", "enterprise"],
+    "PAST_BUSINESS_ACTION": ["pivoted sooner", "adapted more quickly", "restructured earlier", "responded to feedback"],
+    "PAST_BUSINESS_RESULT": ["survived the downturn", "maintained its market share", "retained key clients", "preserved its reputation"],
+    "VERB": {
+      "had pivoted": {
+        "correct_forms": ["had pivoted"],
+        "wrong_forms": ["pivoted", "has pivoted", "would pivot"],
+        "objects": [],
+        "distractor": "stagnate"
+      },
+      "had adapted": {
+        "correct_forms": ["had adapted"],
+        "wrong_forms": ["adapted", "has adapted", "would adapt"],
+        "objects": [],
+        "distractor": "resist"
+      }
+    }
+  }
+}

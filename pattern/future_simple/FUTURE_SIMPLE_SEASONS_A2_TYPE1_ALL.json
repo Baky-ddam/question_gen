@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SEASONS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "seasons",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ probably {OBJ} {FUTURE_TIME}.",
+  "example": "It will probably get colder next month.",
+  "explanation": "Future simple with 'probably' for seasonal predictions. Use 'will probably + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "it", "the weather"],
+    "VERB": {
+      "get": {
+        "correct_forms": ["will get"],
+        "wrong_forms": ["gets", "is going to get", "would get"],
+        "objects": ["colder", "warmer", "hotter"],
+        "distractor": "stop"
+      },
+      "change": {
+        "correct_forms": ["will change"],
+        "wrong_forms": ["changes", "is going to change", "would change"],
+        "objects": ["soon", "a lot", "quickly"],
+        "distractor": "ignore"
+      },
+      "arrive": {
+        "correct_forms": ["will arrive"],
+        "wrong_forms": ["arrives", "is going to arrive", "would arrive"],
+        "objects": ["early this year", "late", "on time"],
+        "distractor": "skip"
+      },
+      "bring": {
+        "correct_forms": ["will bring"],
+        "wrong_forms": ["brings", "is going to bring", "would bring"],
+        "objects": ["rain", "snow", "sunny days"],
+        "distractor": "destroy"
+      }
+    },
+    "FUTURE_TIME": ["next month", "in spring", "in winter", "soon"]
+  }
+}

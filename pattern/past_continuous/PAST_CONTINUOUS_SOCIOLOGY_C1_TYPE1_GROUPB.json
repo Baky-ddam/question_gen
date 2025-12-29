@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_SOCIOLOGY_C1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "sociology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "unexpected_development", "consequence_clause"],
+  "template": "As {SUBJ} ____ {OBJ}, {UNEXPECTED_DEVELOPMENT}, thereby {CONSEQUENCE}.",
+  "example": "As the sociologist was mapping the networks of power within marginalized communities, a grassroots movement emerged unexpectedly, thereby validating the theoretical predictions about collective efficacy.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for ongoing past research with unexpected developments and consequences.",
+  "chunks": {
+    "SUBJ": ["I", "the sociologist", "the social theorist", "the ethnographer"],
+    "UNEXPECTED_DEVELOPMENT": [
+      "a grassroots movement emerged unexpectedly",
+      "the institutional response contradicted prevailing sociological assumptions",
+      "an unforeseen policy intervention altered the trajectory of the study",
+      "spontaneous collective action disrupted the research parameters"
+    ],
+    "CONSEQUENCE": [
+      "validating the theoretical predictions about collective efficacy",
+      "necessitating a fundamental reconceptualization of the analytical framework",
+      "generating unprecedented insights into the dynamics of social transformation",
+      "compelling the academic community to reconsider established methodological orthodoxies"
+    ],
+    "VERB": {
+      "map": {
+        "correct_forms": ["was mapping"],
+        "wrong_forms": ["were mapping", "mapped", "is mapping"],
+        "objects": ["the networks of power within marginalized communities", "the intricate webs of social capital in suburban neighborhoods", "the hierarchical structures of informal economies", "the relational dynamics within transnational advocacy networks"],
+        "distractor": "nullify"
+      },
+      "trace": {
+        "correct_forms": ["was tracing"],
+        "wrong_forms": ["were tracing", "traced", "is tracing"],
+        "objects": ["the genealogy of contemporary ideological formations", "the historical evolution of institutional racism", "the pathways through which cultural norms are transmitted intergenerationally", "the diffusion of innovative practices across organizational fields"],
+        "distractor": "abrogate"
+      },
+      "problematize": {
+        "correct_forms": ["was problematizing"],
+        "wrong_forms": ["were problematizing", "problematized", "is problematizing"],
+        "objects": ["the taken-for-granted assumptions of mainstream social theory", "the reductionist tendencies in quantitative sociological research", "the Eurocentric biases embedded in classical sociological canon", "the methodological nationalism pervading comparative social analysis"],
+        "distractor": "rescind"
+      },
+      "reconceptualize": {
+        "correct_forms": ["was reconceptualizing"],
+        "wrong_forms": ["were reconceptualizing", "reconceptualized", "is reconceptualizing"],
+        "objects": ["the relationship between structure and agency in social reproduction", "the boundaries between public and private spheres in digital societies", "the conceptual foundations of citizenship in an era of transnational migration", "the analytical frameworks for understanding intersectional oppression"],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

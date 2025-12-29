@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FRIENDS_B1_TYPE1_GROUPA",
+  "focus": "reported_speech_friends_past",
+  "level": "B1",
+  "domain": "friends",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FRIEND} said that {SUBJ} ____ {FRIEND_CONTENT}.",
+  "example": "My friend said that they were having a party on Saturday.",
+  "explanation": "In reported speech, 'are having' becomes 'were having'. Present continuous shifts to past continuous.",
+  "chunks": {
+    "FRIEND": ["My friend", "My best friend", "My classmate", "My neighbor"],
+    "SUBJ": ["they", "we", "everyone", "the group"],
+    "FRIEND_CONTENT": ["having a party on Saturday", "going to the beach", "playing football later", "watching a movie tonight"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["are", "have been", "will be"],
+        "objects": [],
+        "distractor": "forget"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "has", "are"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pattern_id": "QUANT_FOOD_A2_TYPE1_GROUPB",
+  "focus": "quantifier_much_many_uncountable",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["quantifiers"],
+  "template": "There isn't ____ {NOUN} left.",
+  "example": "There isn't much milk left.",
+  "explanation": "'Much' is used with uncountable nouns in negative sentences and questions. 'Many' is used with countable nouns.",
+  "chunks": {
+    "NOUN": ["milk", "bread", "cheese", "butter"],
+    "VERB": {
+      "much": {
+        "correct_forms": ["much"],
+        "wrong_forms": ["many", "a lot", "little"],
+        "objects": [],
+        "distractor": "none"
+      }
+    }
+  }
+}

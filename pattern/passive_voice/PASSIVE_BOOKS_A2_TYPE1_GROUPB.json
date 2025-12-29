@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_BOOKS_A2_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "books",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "This book was written in the 19th century.",
+  "explanation": "Use 'was' + past participle with 'I/he/she/it' and singular nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["this book", "the story", "the novel", "the poem", "the legend", "the article"],
+    "TIME": ["in the 19th century", "many years ago", "a long time ago", "last year", "in the past"],
+    "VERB": {
+      "write": {
+        "correct_forms": ["was written"],
+        "wrong_forms": ["were written", "is written", "has been written"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "publish": {
+        "correct_forms": ["was published"],
+        "wrong_forms": ["were published", "is published", "has been published"],
+        "objects": [],
+        "distractor": "banned"
+      },
+      "translate": {
+        "correct_forms": ["was translated"],
+        "wrong_forms": ["were translated", "is translated", "has been translated"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "read": {
+        "correct_forms": ["was read"],
+        "wrong_forms": ["were read", "is read", "has been read"],
+        "objects": [],
+        "distractor": "forgotten"
+      }
+    }
+  }
+}

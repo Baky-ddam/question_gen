@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_BUILDINGS_A2_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "buildings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "The Eiffel Tower was built in 1889.",
+  "explanation": "Use 'was' + past participle with 'I/he/she/it' and singular nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["the Eiffel Tower", "the Great Wall", "the Colosseum", "the church", "the palace", "the stadium"],
+    "TIME": ["in 1889", "centuries ago", "in ancient times", "last century", "many years ago"],
+    "VERB": {
+      "build": {
+        "correct_forms": ["was built"],
+        "wrong_forms": ["were built", "is built", "has been built"],
+        "objects": [],
+        "distractor": "demolished"
+      },
+      "construct": {
+        "correct_forms": ["was constructed"],
+        "wrong_forms": ["were constructed", "is constructed", "has been constructed"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "complete": {
+        "correct_forms": ["was completed"],
+        "wrong_forms": ["were completed", "is completed", "has been completed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "design": {
+        "correct_forms": ["was designed"],
+        "wrong_forms": ["were designed", "is designed", "has been designed"],
+        "objects": [],
+        "distractor": "neglected"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PARK_A1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "park",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "They were walking in the park yesterday.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the people", "my friends", "the families"],
+    "TIME": ["yesterday", "this morning", "in the afternoon", "on Sunday"],
+    "VERB": {
+      "walk": {
+        "correct_forms": ["were walking"],
+        "wrong_forms": ["was walking", "walked", "are walking"],
+        "objects": ["in the park", "on the path", "by the lake", "slowly"],
+        "distractor": "stop"
+      },
+      "sit": {
+        "correct_forms": ["were sitting"],
+        "wrong_forms": ["was sitting", "sat", "are sitting"],
+        "objects": ["on the bench", "on the grass", "under the tree", "by the fountain"],
+        "distractor": "avoid"
+      },
+      "feed": {
+        "correct_forms": ["were feeding"],
+        "wrong_forms": ["was feeding", "fed", "are feeding"],
+        "objects": ["the ducks", "the birds", "the squirrels", "the pigeons"],
+        "distractor": "scare"
+      },
+      "ride": {
+        "correct_forms": ["were riding"],
+        "wrong_forms": ["was riding", "rode", "are riding"],
+        "objects": ["their bikes", "bicycles", "scooters", "on the path"],
+        "distractor": "crash"
+      }
+    }
+  }
+}

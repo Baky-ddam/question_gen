@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_CELEBRATIONS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "celebrations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ probably {OBJ} {FUTURE_TIME}.",
+  "example": "We will probably have a big dinner next week.",
+  "explanation": "Future simple with 'probably' expresses predictions with some uncertainty. Use 'will probably + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "have": {
+        "correct_forms": ["will have"],
+        "wrong_forms": ["has", "is going to have", "would have"],
+        "objects": ["a big dinner", "a party", "a celebration"],
+        "distractor": "cancel"
+      },
+      "invite": {
+        "correct_forms": ["will invite"],
+        "wrong_forms": ["invites", "is going to invite", "would invite"],
+        "objects": ["many guests", "relatives", "neighbors"],
+        "distractor": "reject"
+      },
+      "prepare": {
+        "correct_forms": ["will prepare"],
+        "wrong_forms": ["prepares", "is going to prepare", "would prepare"],
+        "objects": ["special food", "decorations", "surprises"],
+        "distractor": "waste"
+      },
+      "organize": {
+        "correct_forms": ["will organize"],
+        "wrong_forms": ["organizes", "is going to organize", "would organize"],
+        "objects": ["the event", "the party", "the gathering"],
+        "distractor": "neglect"
+      }
+    },
+    "FUTURE_TIME": ["next week", "next month", "soon", "this weekend"]
+  }
+}

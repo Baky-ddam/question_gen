@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_DESIGN_B2_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_age_origin_design",
+  "level": "B2",
+  "domain": "design",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The gallery showcases a ____ {NOUN}.",
+  "example": "The gallery showcases a remarkable antique Italian chair.",
+  "explanation": "Opinion-Age-Origin order. 'Remarkable antique Italian' demonstrates proper sequencing.",
+  "chunks": {
+    "NOUN": ["chair", "lamp", "table", "cabinet"],
+    "VERB": {
+      "remarkable antique Italian": {
+        "correct_forms": ["remarkable antique Italian"],
+        "wrong_forms": ["antique remarkable Italian", "Italian antique remarkable", "Italian remarkable antique"],
+        "objects": [],
+        "distractor": "unremarkable"
+      },
+      "stunning vintage Danish": {
+        "correct_forms": ["stunning vintage Danish"],
+        "wrong_forms": ["vintage stunning Danish", "Danish vintage stunning", "Danish stunning vintage"],
+        "objects": [],
+        "distractor": "ordinary"
+      },
+      "gorgeous classic French": {
+        "correct_forms": ["gorgeous classic French"],
+        "wrong_forms": ["classic gorgeous French", "French classic gorgeous", "French gorgeous classic"],
+        "objects": [],
+        "distractor": "hideous"
+      }
+    }
+  }
+}

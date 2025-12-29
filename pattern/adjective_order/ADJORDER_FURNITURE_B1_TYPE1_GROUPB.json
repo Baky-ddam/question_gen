@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FURNITURE_B1_TYPE1_GROUPB",
+  "focus": "adjective_order_opinion_material",
+  "level": "B1",
+  "domain": "furniture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "We need a ____ {NOUN}.",
+  "example": "We need a nice wooden chair.",
+  "explanation": "Opinion comes before material in adjective order. 'Nice wooden' not 'wooden nice'.",
+  "chunks": {
+    "NOUN": ["chair", "desk", "shelf", "cabinet"],
+    "VERB": {
+      "nice wooden": {
+        "correct_forms": ["nice wooden"],
+        "wrong_forms": ["wooden nice", "wooden and nice", "nice and wooden"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "lovely metal": {
+        "correct_forms": ["lovely metal"],
+        "wrong_forms": ["metal lovely", "metal and lovely", "lovely and metal"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "beautiful glass": {
+        "correct_forms": ["beautiful glass"],
+        "wrong_forms": ["glass beautiful", "glass and beautiful", "beautiful and glass"],
+        "objects": [],
+        "distractor": "awful"
+      }
+    }
+  }
+}

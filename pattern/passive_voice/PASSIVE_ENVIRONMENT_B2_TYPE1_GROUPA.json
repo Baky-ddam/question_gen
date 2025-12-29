@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_ENVIRONMENT_B2_TYPE1_GROUPA",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "environment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Renewable energy sources are promoted because they reduce carbon emissions.",
+  "explanation": "Use 'are' + past participle with plural subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["renewable energy sources", "recycling programs", "conservation efforts", "environmental policies", "sustainability initiatives", "green technologies"],
+    "REASON": ["they reduce carbon emissions", "they protect natural resources", "climate change is accelerating", "pollution levels are rising", "biodiversity is threatened", "resources are limited"],
+    "VERB": {
+      "promote": {
+        "correct_forms": ["are promoted"],
+        "wrong_forms": ["is promoted", "were promoted", "have been promoted"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "implement": {
+        "correct_forms": ["are implemented"],
+        "wrong_forms": ["is implemented", "were implemented", "have been implemented"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "support": {
+        "correct_forms": ["are supported"],
+        "wrong_forms": ["is supported", "were supported", "have been supported"],
+        "objects": [],
+        "distractor": "opposed"
+      },
+      "develop": {
+        "correct_forms": ["are developed"],
+        "wrong_forms": ["is developed", "were developed", "have been developed"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

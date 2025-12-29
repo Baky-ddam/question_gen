@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_SCHOOL_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "I had finished my homework before the teacher arrived.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the student", "the teacher"],
+    "PAST_EVENT": ["the class started", "the bell rang", "the exam began", "the teacher arrived", "school ended"],
+    "VERB": {
+      "finish": {
+        "correct_forms": ["had finished"],
+        "wrong_forms": ["have finished", "finished", "was finishing"],
+        "objects": ["the homework", "the assignment", "the project", "the essay"],
+        "distractor": "abandon"
+      },
+      "study": {
+        "correct_forms": ["had studied"],
+        "wrong_forms": ["has studied", "studied", "was studying"],
+        "objects": ["the chapter", "the material", "for the test", "the notes"],
+        "distractor": "neglect"
+      },
+      "complete": {
+        "correct_forms": ["had completed"],
+        "wrong_forms": ["have completed", "completed", "was completing"],
+        "objects": ["the worksheet", "the reading", "the exercises", "all tasks"],
+        "distractor": "skip"
+      },
+      "prepare": {
+        "correct_forms": ["had prepared"],
+        "wrong_forms": ["has prepared", "prepared", "was preparing"],
+        "objects": ["the presentation", "for class", "the report", "the answers"],
+        "distractor": "forget"
+      }
+    }
+  }
+}

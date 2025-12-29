@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_ETHICS_C1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "C1",
+  "domain": "ethics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "In order ____, {SUBJ} {MAINVERB} {REQUIREMENT}.",
+  "example": "In order to uphold ethical principles, organizations must establish comprehensive oversight mechanisms.",
+  "explanation": "The construction 'in order to + infinitive' expresses purpose. Advanced infinitive patterns in ethical discourse.",
+  "chunks": {
+    "SUBJ": ["organizations", "institutions", "professionals", "practitioners", "leaders"],
+    "MAINVERB": ["must establish", "should implement", "need to develop", "ought to maintain", "have to ensure"],
+    "VERB": {
+      "uphold": {
+        "correct_forms": ["to uphold"],
+        "wrong_forms": ["upholding", "uphold", "upholds"],
+        "objects": ["ethical principles", "moral standards", "professional integrity", "institutional values"],
+        "distractor": "to violate"
+      },
+      "safeguard": {
+        "correct_forms": ["to safeguard"],
+        "wrong_forms": ["safeguarding", "safeguard", "safeguards"],
+        "objects": ["human dignity", "individual rights", "vulnerable populations", "stakeholder interests"],
+        "distractor": "to exploit"
+      },
+      "ensure": {
+        "correct_forms": ["to ensure"],
+        "wrong_forms": ["ensuring", "ensure", "ensures"],
+        "objects": ["equitable treatment", "procedural fairness", "informed consent", "accountability"],
+        "distractor": "to neglect"
+      },
+      "promote": {
+        "correct_forms": ["to promote"],
+        "wrong_forms": ["promoting", "promote", "promotes"],
+        "objects": ["social justice", "inclusive practices", "responsible conduct", "ethical awareness"],
+        "distractor": "to suppress"
+      }
+    },
+    "REQUIREMENT": ["comprehensive oversight mechanisms", "robust accountability frameworks", "transparent decision-making processes", "rigorous ethical protocols", "inclusive governance structures"]
+  }
+}

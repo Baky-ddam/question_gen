@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_RESTAURANT_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "restaurant",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can order food here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission in restaurant settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "at this table",
+      "at the counter"
+    ],
+    "VERB": {
+      "order": {
+        "correct_forms": [
+          "can order"
+        ],
+        "wrong_forms": [
+          "could order",
+          "must order",
+          "should order"
+        ],
+        "objects": [
+          "food",
+          "drinks",
+          "dessert",
+          "takeaway"
+        ],
+        "distractor": "reject"
+      },
+      "reserve": {
+        "correct_forms": [
+          "can reserve"
+        ],
+        "wrong_forms": [
+          "could reserve",
+          "must reserve",
+          "should reserve"
+        ],
+        "objects": [
+          "a table",
+          "a booth",
+          "a seat",
+          "a room"
+        ],
+        "distractor": "refuse"
+      },
+      "sit": {
+        "correct_forms": [
+          "can sit"
+        ],
+        "wrong_forms": [
+          "could sit",
+          "must sit",
+          "should sit"
+        ],
+        "objects": [
+          "outside",
+          "inside",
+          "by the window",
+          "in the garden"
+        ],
+        "distractor": "abandon"
+      },
+      "eat": {
+        "correct_forms": [
+          "can eat"
+        ],
+        "wrong_forms": [
+          "could eat",
+          "must eat",
+          "should eat"
+        ],
+        "objects": [
+          "lunch",
+          "dinner",
+          "breakfast",
+          "a snack"
+        ],
+        "distractor": "waste"
+      }
+    }
+  }
+}

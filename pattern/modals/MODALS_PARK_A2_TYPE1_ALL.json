@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_PARK_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "park",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can walk the dog here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission in park settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this area",
+      "on the grass"
+    ],
+    "VERB": {
+      "walk": {
+        "correct_forms": [
+          "can walk"
+        ],
+        "wrong_forms": [
+          "could walk",
+          "must walk",
+          "should walk"
+        ],
+        "objects": [
+          "the dog",
+          "on the path",
+          "in the garden",
+          "around the lake"
+        ],
+        "distractor": "quit"
+      },
+      "play": {
+        "correct_forms": [
+          "can play"
+        ],
+        "wrong_forms": [
+          "could play",
+          "must play",
+          "should play"
+        ],
+        "objects": [
+          "soccer",
+          "frisbee",
+          "catch",
+          "games"
+        ],
+        "distractor": "skip"
+      },
+      "picnic": {
+        "correct_forms": [
+          "can picnic"
+        ],
+        "wrong_forms": [
+          "could picnic",
+          "must picnic",
+          "should picnic"
+        ],
+        "objects": [
+          "with family",
+          "with friends",
+          "on weekends",
+          "in the shade"
+        ],
+        "distractor": "waste"
+      },
+      "relax": {
+        "correct_forms": [
+          "can relax"
+        ],
+        "wrong_forms": [
+          "could relax",
+          "must relax",
+          "should relax"
+        ],
+        "objects": [
+          "on the bench",
+          "on the lawn",
+          "by the fountain",
+          "under the trees"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

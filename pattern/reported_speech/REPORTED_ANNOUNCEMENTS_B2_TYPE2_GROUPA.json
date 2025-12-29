@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_ANNOUNCEMENTS_B2_TYPE2_GROUPA",
+  "focus": "reported_speech_mentioned",
+  "level": "B2",
+  "domain": "announcements",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The presenter mentioned that {SUBJ} ____ {INFORMATION}.",
+  "example": "The presenter mentioned that they had already addressed the main issues.",
+  "explanation": "The verb 'mentioned' introduces information casually. 'Have addressed' becomes 'had addressed'.",
+  "chunks": {
+    "SUBJ": ["they", "the organizers", "the team", "the developers"],
+    "INFORMATION": ["already addressed the main issues", "resolved the technical problems", "updated the system", "completed the initial phase"],
+    "VERB": {
+      "had already addressed": {
+        "correct_forms": ["had already addressed"],
+        "wrong_forms": ["have already addressed", "already addressed", "were addressing"],
+        "objects": [],
+        "distractor": "overlook"
+      },
+      "had resolved": {
+        "correct_forms": ["had resolved"],
+        "wrong_forms": ["resolved", "have resolved", "were resolving"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

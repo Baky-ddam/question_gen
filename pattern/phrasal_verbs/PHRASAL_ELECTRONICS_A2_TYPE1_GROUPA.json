@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_ELECTRONICS_A2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "electronics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {PURPOSE}.",
+  "example": "I plug in the charger to charge my phone.",
+  "explanation": "These phrasal verbs are used with electronic devices. Choose the correct particle that matches the action.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PURPOSE": ["to save power", "to charge the battery", "to use it", "before leaving"],
+    "VERB": {
+      "plug in": {
+        "correct_forms": ["plug in"],
+        "wrong_forms": ["plug on", "plug off", "plug up"],
+        "objects": ["charger", "laptop", "phone", "cable"],
+        "distractor": "unplug"
+      },
+      "switch on": {
+        "correct_forms": ["switch on"],
+        "wrong_forms": ["switch off", "switch up", "switch down"],
+        "objects": ["computer", "monitor", "printer", "device"],
+        "distractor": "ignore"
+      },
+      "shut down": {
+        "correct_forms": ["shut down"],
+        "wrong_forms": ["shut on", "shut off", "shut up"],
+        "objects": ["computer", "laptop", "system", "machine"],
+        "distractor": "start"
+      },
+      "set up": {
+        "correct_forms": ["set up"],
+        "wrong_forms": ["set on", "set off", "set down"],
+        "objects": ["Wi-Fi", "printer", "software", "account"],
+        "distractor": "delete"
+      }
+    }
+  }
+}

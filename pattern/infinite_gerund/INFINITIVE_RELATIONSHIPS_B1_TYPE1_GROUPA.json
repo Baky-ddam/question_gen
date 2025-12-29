@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_RELATIONSHIPS_B1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "Friends promise to stay in touch over time.",
+  "explanation": "Some verbs require infinitives (to + verb). Use infinitives after: promise, offer, agree, refuse, learn, want.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "friends", "couples"],
+    "MAINVERB": ["promise", "offer", "agree", "refuse", "learn"],
+    "VERB": {
+      "support": {
+        "correct_forms": ["to support"],
+        "wrong_forms": ["supporting", "support", "supports"],
+        "objects": ["each other", "friends", "family", "partners"],
+        "distractor": "to abandon"
+      },
+      "communicate": {
+        "correct_forms": ["to communicate"],
+        "wrong_forms": ["communicating", "communicate", "communicates"],
+        "objects": ["openly", "honestly", "better", "regularly"],
+        "distractor": "to ignore"
+      },
+      "forgive": {
+        "correct_forms": ["to forgive"],
+        "wrong_forms": ["forgiving", "forgive", "forgives"],
+        "objects": ["mistakes", "errors", "each other", "past problems"],
+        "distractor": "to resent"
+      },
+      "trust": {
+        "correct_forms": ["to trust"],
+        "wrong_forms": ["trusting", "trust", "trusts"],
+        "objects": ["each other", "friends", "partners", "family"],
+        "distractor": "to doubt"
+      }
+    },
+    "CONTEXT": ["in strong relationships", "over time", "through experience", "when needed", "always"]
+  }
+}

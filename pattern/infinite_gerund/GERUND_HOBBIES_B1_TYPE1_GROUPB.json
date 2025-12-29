@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_HOBBIES_B1_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "B1",
+  "domain": "hobbies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "She loves painting landscapes in her free time.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Use gerunds after: love, enjoy, prefer, keep, practice.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "the artist"],
+    "MAINVERB": ["loves", "enjoys", "prefers", "keeps", "practices"],
+    "VERB": {
+      "paint": {
+        "correct_forms": ["painting"],
+        "wrong_forms": ["to paint", "paint", "paints"],
+        "objects": ["landscapes", "portraits", "abstract art", "watercolors"],
+        "distractor": "ruining"
+      },
+      "photograph": {
+        "correct_forms": ["photographing"],
+        "wrong_forms": ["to photograph", "photograph", "photographs"],
+        "objects": ["wildlife", "nature", "people", "architecture"],
+        "distractor": "deleting"
+      },
+      "collect": {
+        "correct_forms": ["collecting"],
+        "wrong_forms": ["to collect", "collect", "collects"],
+        "objects": ["stamps", "coins", "vintage items", "artwork"],
+        "distractor": "discarding"
+      },
+      "garden": {
+        "correct_forms": ["gardening"],
+        "wrong_forms": ["to garden", "garden", "gardens"],
+        "objects": ["on weekends", "in the backyard", "organic vegetables", "flowers"],
+        "distractor": "neglecting"
+      }
+    },
+    "CONTEXT": ["in free time", "on weekends", "as a hobby", "every evening", "whenever possible"]
+  }
+}

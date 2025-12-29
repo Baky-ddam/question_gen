@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_INTERNATIONAL_LAW_C1_TYPE1_ALL",
+  "focus": "modal_obligation",
+  "level": "C1",
+  "domain": "international_law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should",
+    "modal_must",
+    "modal_could"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPLICATION}.",
+  "example": "Signatory states should comply with treaty obligations, which would strengthen international legal frameworks.",
+  "explanation": "Use modals (should/must/could) to express legal obligations and compliance requirements. The relative clause emphasizes the systemic importance of adherence.",
+  "chunks": {
+    "SUBJ": [
+      "Signatory nations",
+      "Member states",
+      "International tribunals",
+      "Treaty organizations",
+      "Legal enforcement bodies",
+      "Sovereign governments"
+    ],
+    "IMPLICATION": [
+      "would reinforce international legal precedent",
+      "could strengthen multilateral governance mechanisms",
+      "might establish binding jurisprudential standards",
+      "would uphold fundamental sovereignty principles"
+    ],
+    "VERB": {
+      "comply": {
+        "correct_forms": [
+          "should comply"
+        ],
+        "wrong_forms": [
+          "must complies",
+          "should complying",
+          "could complied"
+        ],
+        "objects": [
+          "with binding treaty obligations",
+          "with international humanitarian standards",
+          "with established jurisdictional protocols",
+          "with multilateral agreement provisions"
+        ],
+        "distractor": "forsake"
+      },
+      "adhere": {
+        "correct_forms": [
+          "must adhere"
+        ],
+        "wrong_forms": [
+          "should adheres",
+          "must adhering",
+          "could adhered"
+        ],
+        "objects": [
+          "to fundamental sovereignty principles",
+          "to established diplomatic conventions",
+          "to recognized human rights standards",
+          "to international arbitration rulings"
+        ],
+        "distractor": "obliterate"
+      },
+      "violate": {
+        "correct_forms": [
+          "could violate"
+        ],
+        "wrong_forms": [
+          "might violates",
+          "could violating",
+          "should violated"
+        ],
+        "objects": [
+          "established territorial boundaries",
+          "fundamental non-aggression principles",
+          "recognized diplomatic immunities",
+          "binding extradition agreements"
+        ],
+        "distractor": "renounce"
+      },
+      "enforce": {
+        "correct_forms": [
+          "must enforce"
+        ],
+        "wrong_forms": [
+          "should enforces",
+          "must enforcing",
+          "could enforced"
+        ],
+        "objects": [
+          "international sanctions regimes",
+          "humanitarian intervention protocols",
+          "cross-border legal judgments",
+          "multilateral compliance mechanisms"
+        ],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

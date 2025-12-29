@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PHYSICS_C1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "physics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "context_clause", "critical_moment"],
+  "template": "Given that {CONTEXT}, {SUBJ} ____ {OBJ} when {CRITICAL_MOMENT}.",
+  "example": "Given that the theoretical predictions remained unverified for decades, we were refining the experimental apparatus when the particle detector registered anomalous signals consistent with the hypothesized phenomenon.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for contextually framed physics research interrupted by breakthrough moments.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the physicists"],
+    "CONTEXT": [
+      "the theoretical predictions remained unverified for decades",
+      "conventional instrumentation lacked the requisite sensitivity",
+      "the mathematical formalism had outpaced experimental capabilities",
+      "competing theoretical frameworks generated contradictory predictions"
+    ],
+    "CRITICAL_MOMENT": [
+      "the particle detector registered anomalous signals consistent with the hypothesized phenomenon",
+      "the interferometer data revealed unmistakable signatures of spacetime curvature",
+      "the spectroscopic analysis yielded results that defied standard model expectations",
+      "unprecedented observational evidence confirmed the theoretically predicted symmetry breaking"
+    ],
+    "VERB": {
+      "refine": {
+        "correct_forms": ["were refining"],
+        "wrong_forms": ["was refining", "refined", "are refining"],
+        "objects": ["the experimental apparatus to achieve unprecedented precision", "the calibration protocols for the superconducting magnets", "the detection algorithms to isolate genuine signals from background noise", "the cryogenic systems essential for quantum coherence maintenance"],
+        "distractor": "forsake"
+      },
+      "probe": {
+        "correct_forms": ["were probing"],
+        "wrong_forms": ["was probing", "probed", "are probing"],
+        "objects": ["the fundamental symmetries underlying particle interactions", "the quantum mechanical behavior of entangled systems", "the thermodynamic properties of exotic states of matter", "the relativistic effects at velocities approaching the speed of light"],
+        "distractor": "obliterate"
+      },
+      "interrogate": {
+        "correct_forms": ["were interrogating"],
+        "wrong_forms": ["was interrogating", "interrogated", "are interrogating"],
+        "objects": ["the boundary conditions of the theoretical framework", "the assumptions embedded in the standard cosmological model", "the mathematical consistency of the proposed unified field theory", "the empirical validity of the quantum gravity hypothesis"],
+        "distractor": "renounce"
+      },
+      "optimize": {
+        "correct_forms": ["were optimizing"],
+        "wrong_forms": ["was optimizing", "optimized", "are optimizing"],
+        "objects": ["the beam parameters for maximum collision luminosity", "the signal-to-noise ratio in the gravitational wave detectors", "the vacuum conditions within the particle accelerator", "the magnetic field configuration for plasma confinement"],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

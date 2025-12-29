@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_BIOTECHNOLOGY_C1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "biotechnology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "Never before ____ {SUBJ} {OBJ}.",
+  "example": "Never before has the pharmaceutical company achieved such rapid clinical trial progression.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' in emphatic inversion. 'Never before' creates dramatic emphasis on unprecedented achievements.",
+  "chunks": {
+    "SUBJ": [
+      "the pharmaceutical company",
+      "the biotechnology firm",
+      "the medical research institute",
+      "the clinical laboratory"
+    ],
+    "VERB": {
+      "achieve": {
+        "correct_forms": [
+          "has achieved"
+        ],
+        "wrong_forms": [
+          "have achieved",
+          "had achieved",
+          "achieved"
+        ],
+        "objects": [
+          "such rapid clinical trial progression",
+          "such promising immunotherapy outcomes",
+          "such significant regulatory milestones",
+          "such breakthrough efficacy results"
+        ],
+        "distractor": "abrogate"
+      },
+      "demonstrate": {
+        "correct_forms": [
+          "has demonstrated"
+        ],
+        "wrong_forms": [
+          "have demonstrated",
+          "had demonstrated",
+          "demonstrated"
+        ],
+        "objects": [
+          "such conclusive therapeutic efficacy",
+          "such robust safety profiles",
+          "such consistent replicability in trials",
+          "such remarkable patient outcomes"
+        ],
+        "distractor": "rescind"
+      },
+      "develop": {
+        "correct_forms": [
+          "has developed"
+        ],
+        "wrong_forms": [
+          "have developed",
+          "had developed",
+          "developed"
+        ],
+        "objects": [
+          "such targeted delivery mechanisms",
+          "such sophisticated diagnostic platforms",
+          "such effective vaccine candidates",
+          "such innovative treatment modalities"
+        ],
+        "distractor": "countermand"
+      },
+      "isolate": {
+        "correct_forms": [
+          "has isolated"
+        ],
+        "wrong_forms": [
+          "have isolated",
+          "had isolated",
+          "isolated"
+        ],
+        "objects": [
+          "such potent therapeutic compounds",
+          "such specific molecular markers",
+          "such effective antimicrobial agents",
+          "such promising stem cell populations"
+        ],
+        "distractor": "renounce"
+      }
+    }
+  }
+}

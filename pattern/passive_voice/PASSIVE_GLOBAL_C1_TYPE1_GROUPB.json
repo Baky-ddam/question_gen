@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_GLOBAL_C1_TYPE1_GROUPB",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "global_affairs",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "The treaty has been ratified by the senate to formalize bilateral relations.",
+  "explanation": "Use 'has been' + past participle with singular subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["the treaty", "the resolution", "the sanctions regime", "the alliance", "the accord", "the diplomatic protocol"],
+    "AGENT": ["the senate", "the security council", "the international court", "the foreign ministry", "the coalition", "member governments"],
+    "PURPOSE": ["formalize bilateral relations", "enforce international law", "deter aggressive actions", "establish mutual obligations", "coordinate joint responses", "protect shared interests"],
+    "VERB": {
+      "ratify": {
+        "correct_forms": ["has been ratified"],
+        "wrong_forms": ["have been ratified", "was ratified", "is ratified"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "enforce": {
+        "correct_forms": ["has been enforced"],
+        "wrong_forms": ["have been enforced", "was enforced", "is enforced"],
+        "objects": [],
+        "distractor": "violated"
+      },
+      "adopt": {
+        "correct_forms": ["has been adopted"],
+        "wrong_forms": ["have been adopted", "was adopted", "is adopted"],
+        "objects": [],
+        "distractor": "vetoed"
+      },
+      "strengthen": {
+        "correct_forms": ["has been strengthened"],
+        "wrong_forms": ["have been strengthened", "was strengthened", "is strengthened"],
+        "objects": [],
+        "distractor": "weakened"
+      }
+    }
+  }
+}

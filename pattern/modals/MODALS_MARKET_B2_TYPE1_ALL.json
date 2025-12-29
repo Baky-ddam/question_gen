@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_MARKET_B2_TYPE1_ALL",
+  "focus": "modal_may",
+  "level": "B2",
+  "domain": "market",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_may"
+  ],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The stock prices may rise because investor confidence is growing.",
+  "explanation": "Use 'may' + base verb with all subjects to express possibility or speculation. The 'because' clause provides the reason for the predicted outcome.",
+  "chunks": {
+    "SUBJ": [
+      "the stock prices",
+      "the market index",
+      "the currency value",
+      "the commodity prices",
+      "the bond yields",
+      "the trading volume"
+    ],
+    "REASON": [
+      "investor confidence is growing",
+      "economic indicators are improving",
+      "central banks adjusted interest rates",
+      "global demand is shifting",
+      "geopolitical tensions are easing",
+      "quarterly earnings exceeded expectations"
+    ],
+    "VERB": {
+      "rise": {
+        "correct_forms": [
+          "may rise"
+        ],
+        "wrong_forms": [
+          "will rise",
+          "must rise",
+          "can rise"
+        ],
+        "objects": [
+          "significantly this quarter",
+          "above historical averages",
+          "in response to the news",
+          "beyond analyst predictions"
+        ],
+        "distractor": "circumvent"
+      },
+      "fall": {
+        "correct_forms": [
+          "may fall"
+        ],
+        "wrong_forms": [
+          "will fall",
+          "must fall",
+          "can fall"
+        ],
+        "objects": [
+          "below critical thresholds",
+          "sharply in the short term",
+          "to correction territory",
+          "amid market uncertainty"
+        ],
+        "distractor": "obstruct"
+      },
+      "stabilize": {
+        "correct_forms": [
+          "may stabilize"
+        ],
+        "wrong_forms": [
+          "will stabilize",
+          "must stabilize",
+          "can stabilize"
+        ],
+        "objects": [
+          "at current levels",
+          "after recent volatility",
+          "in the coming weeks",
+          "around the equilibrium point"
+        ],
+        "distractor": "impede"
+      },
+      "fluctuate": {
+        "correct_forms": [
+          "may fluctuate"
+        ],
+        "wrong_forms": [
+          "will fluctuate",
+          "must fluctuate",
+          "can fluctuate"
+        ],
+        "objects": [
+          "within a narrow range",
+          "more than usual",
+          "due to external factors",
+          "throughout the trading session"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

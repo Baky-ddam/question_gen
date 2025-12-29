@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_FINANCE_C1_TYPE1_GROUPB",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "The monetary policy has been adjusted by the central bank to stimulate economic growth.",
+  "explanation": "Use 'has been' + past participle with singular subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["the monetary policy", "the interest rate", "the fiscal strategy", "the investment portfolio", "the banking regulation", "the economic forecast"],
+    "AGENT": ["the central bank", "the treasury department", "the financial regulator", "the economic council", "the monetary committee", "independent analysts"],
+    "PURPOSE": ["stimulate economic growth", "control inflation", "stabilize currency markets", "encourage sustainable investment", "manage sovereign debt", "respond to global pressures"],
+    "VERB": {
+      "adjust": {
+        "correct_forms": ["has been adjusted"],
+        "wrong_forms": ["have been adjusted", "was adjusted", "is adjusted"],
+        "objects": [],
+        "distractor": "frozen"
+      },
+      "revise": {
+        "correct_forms": ["has been revised"],
+        "wrong_forms": ["have been revised", "was revised", "is revised"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "calibrate": {
+        "correct_forms": ["has been calibrated"],
+        "wrong_forms": ["have been calibrated", "was calibrated", "is calibrated"],
+        "objects": [],
+        "distractor": "mismanaged"
+      },
+      "restructure": {
+        "correct_forms": ["has been restructured"],
+        "wrong_forms": ["have been restructured", "was restructured", "is restructured"],
+        "objects": [],
+        "distractor": "collapsed"
+      }
+    }
+  }
+}

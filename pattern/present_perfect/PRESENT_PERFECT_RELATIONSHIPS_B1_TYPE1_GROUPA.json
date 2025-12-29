@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_RELATIONSHIPS_B1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {DURATION}.",
+  "example": "We have known each other for many years.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe relationships that started in the past and continue. 'For' shows duration.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "DURATION": [
+      "for many years",
+      "for a long time",
+      "since childhood",
+      "since university"
+    ],
+    "VERB": {
+      "know": {
+        "correct_forms": [
+          "have known"
+        ],
+        "wrong_forms": [
+          "has known",
+          "had known",
+          "knew"
+        ],
+        "objects": [
+          "each other",
+          "my best friend",
+          "the family",
+          "these neighbors"
+        ],
+        "distractor": "overlook"
+      },
+      "maintain": {
+        "correct_forms": [
+          "have maintained"
+        ],
+        "wrong_forms": [
+          "has maintained",
+          "had maintained",
+          "maintained"
+        ],
+        "objects": [
+          "a close friendship",
+          "regular contact",
+          "strong family bonds",
+          "professional connections"
+        ],
+        "distractor": "neglect"
+      },
+      "support": {
+        "correct_forms": [
+          "have supported"
+        ],
+        "wrong_forms": [
+          "has supported",
+          "had supported",
+          "supported"
+        ],
+        "objects": [
+          "each other",
+          "my family members",
+          "our friends",
+          "the community"
+        ],
+        "distractor": "abandon"
+      },
+      "trust": {
+        "correct_forms": [
+          "have trusted"
+        ],
+        "wrong_forms": [
+          "has trusted",
+          "had trusted",
+          "trusted"
+        ],
+        "objects": [
+          "each other completely",
+          "my close friends",
+          "the team members",
+          "my partners"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

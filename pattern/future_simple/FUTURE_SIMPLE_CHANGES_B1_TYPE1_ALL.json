@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_CHANGES_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "changes",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If technology advances, life will become easier.",
+  "explanation": "Future simple uses 'will + base verb' to predict changes and their effects in first conditional sentences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "life", "things"],
+    "VERB": {
+      "become": {
+        "correct_forms": ["will become"],
+        "wrong_forms": ["becomes", "is going to become", "would become"],
+        "objects": ["easier", "different", "more efficient"],
+        "distractor": "neglect"
+      },
+      "change": {
+        "correct_forms": ["will change"],
+        "wrong_forms": ["changes", "is going to change", "would change"],
+        "objects": ["dramatically", "forever", "for the better"],
+        "distractor": "ignore"
+      },
+      "improve": {
+        "correct_forms": ["will improve"],
+        "wrong_forms": ["improves", "is going to improve", "would improve"],
+        "objects": ["significantly", "over time", "quickly"],
+        "distractor": "dismiss"
+      },
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["completely", "the industry", "society"],
+        "distractor": "overlook"
+      }
+    },
+    "CONDITION": ["technology advances", "policies change", "we adapt quickly", "new laws pass", "people cooperate", "innovation continues"]
+  }
+}

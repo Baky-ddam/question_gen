@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ARCHITECTURE_B2_TYPE2_GROUPA",
+  "focus": "adjective_order_opinion_shape_origin",
+  "level": "B2",
+  "domain": "architecture",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The museum displays a ____ {NOUN}.",
+  "example": "The museum displays a beautiful round Chinese vase.",
+  "explanation": "Opinion-Shape-Origin order. 'Beautiful round Chinese' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["vase", "sculpture", "artifact", "ornament"],
+    "VERB": {
+      "beautiful round Chinese": {
+        "correct_forms": ["beautiful round Chinese"],
+        "wrong_forms": ["round beautiful Chinese", "Chinese round beautiful", "Chinese beautiful round"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "elegant curved French": {
+        "correct_forms": ["elegant curved French"],
+        "wrong_forms": ["curved elegant French", "French curved elegant", "French elegant curved"],
+        "objects": [],
+        "distractor": "clumsy"
+      },
+      "exquisite oval Japanese": {
+        "correct_forms": ["exquisite oval Japanese"],
+        "wrong_forms": ["oval exquisite Japanese", "Japanese oval exquisite", "Japanese exquisite oval"],
+        "objects": [],
+        "distractor": "crude"
+      }
+    }
+  }
+}

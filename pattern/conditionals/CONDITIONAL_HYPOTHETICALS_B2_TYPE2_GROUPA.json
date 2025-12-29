@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_HYPOTHETICALS_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_hypothetical",
+  "level": "B2",
+  "domain": "hypotheticals",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {CONDITION}, {SUBJ} would {RESULT}.",
+  "example": "If they had more time, they would travel around the world.",
+  "explanation": "Second conditional uses past tense in the if-clause to express unreal or hypothetical situations in the present/future. 'If they had' (not 'have') + 'would travel'.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the students", "the team"],
+    "CONDITION": ["more time", "enough money", "better resources", "more experience"],
+    "RESULT": ["travel around the world", "start their own business", "pursue their dreams", "take on bigger challenges"],
+    "VERB": {
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "would have", "has"],
+        "objects": [],
+        "distractor": "squander"
+      },
+      "knew": {
+        "correct_forms": ["knew"],
+        "wrong_forms": ["know", "would know", "knows"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

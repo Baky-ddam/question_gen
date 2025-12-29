@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_HEALTHCARE_B1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "healthcare",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "while_parallel"],
+  "template": "While {SUBJ} ____ {OBJ}, {PARALLEL_ACTION}.",
+  "example": "While I was treating the wound, the nurse was preparing the bandages.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for parallel ongoing actions in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "PARALLEL_ACTION": [
+      "the nurse was preparing the bandages",
+      "the assistant was updating the records",
+      "the family was waiting outside",
+      "another doctor was consulting the specialist"
+    ],
+    "VERB": {
+      "treat": {
+        "correct_forms": ["was treating"],
+        "wrong_forms": ["were treating", "treated", "is treating"],
+        "objects": ["the wound", "the infection", "the patient's symptoms", "the chronic condition"],
+        "distractor": "neglect"
+      },
+      "administer": {
+        "correct_forms": ["was administering"],
+        "wrong_forms": ["were administering", "administered", "is administering"],
+        "objects": ["the medication", "the vaccine", "the pain relief", "the anesthesia"],
+        "distractor": "postpone"
+      },
+      "conduct": {
+        "correct_forms": ["was conducting"],
+        "wrong_forms": ["were conducting", "conducted", "is conducting"],
+        "objects": ["the physical examination", "the routine checkup", "the diagnostic test", "the health screening"],
+        "distractor": "cancel"
+      },
+      "review": {
+        "correct_forms": ["was reviewing"],
+        "wrong_forms": ["were reviewing", "reviewed", "is reviewing"],
+        "objects": ["the patient's history", "the lab results", "the medical files", "the treatment progress"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

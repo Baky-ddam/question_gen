@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_EDUCATION_B1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} since {SINCE_EVENT}.",
+  "example": "We have studied English since high school.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe learning that started in the past and continues. 'Since' indicates the starting point.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "SINCE_EVENT": [
+      "2020",
+      "last semester",
+      "the beginning of the year",
+      "September"
+    ],
+    "VERB": {
+      "study": {
+        "correct_forms": [
+          "have studied"
+        ],
+        "wrong_forms": [
+          "has studied",
+          "had studied",
+          "studied"
+        ],
+        "objects": [
+          "advanced mathematics",
+          "business administration",
+          "computer science",
+          "foreign languages"
+        ],
+        "distractor": "abandon"
+      },
+      "attend": {
+        "correct_forms": [
+          "have attended"
+        ],
+        "wrong_forms": [
+          "has attended",
+          "had attended",
+          "attended"
+        ],
+        "objects": [
+          "online courses",
+          "university lectures",
+          "evening classes",
+          "training workshops"
+        ],
+        "distractor": "cancel"
+      },
+      "research": {
+        "correct_forms": [
+          "have researched"
+        ],
+        "wrong_forms": [
+          "has researched",
+          "had researched",
+          "researched"
+        ],
+        "objects": [
+          "climate change topics",
+          "historical events",
+          "scientific methods",
+          "academic theories"
+        ],
+        "distractor": "neglect"
+      },
+      "learn": {
+        "correct_forms": [
+          "have learned"
+        ],
+        "wrong_forms": [
+          "has learned",
+          "had learned",
+          "learned"
+        ],
+        "objects": [
+          "new programming languages",
+          "important concepts",
+          "research techniques",
+          "practical skills"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

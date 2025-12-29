@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_FOOD_A2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {EXPERIENCE_MARKER}.",
+  "example": "I have tried sushi before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about food experiences. Experience markers show this is about lifetime experiences.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "EXPERIENCE_MARKER": [
+      "before",
+      "many times",
+      "several times",
+      "never"
+    ],
+    "VERB": {
+      "try": {
+        "correct_forms": [
+          "have tried"
+        ],
+        "wrong_forms": [
+          "has tried",
+          "had tried",
+          "tried"
+        ],
+        "objects": [
+          "sushi",
+          "Thai food",
+          "Indian curry",
+          "Mexican tacos"
+        ],
+        "distractor": "refuse"
+      },
+      "eat": {
+        "correct_forms": [
+          "have eaten"
+        ],
+        "wrong_forms": [
+          "has eaten",
+          "had eaten",
+          "ate"
+        ],
+        "objects": [
+          "at this restaurant",
+          "homemade pasta",
+          "fresh seafood",
+          "authentic ramen"
+        ],
+        "distractor": "reject"
+      },
+      "taste": {
+        "correct_forms": [
+          "have tasted"
+        ],
+        "wrong_forms": [
+          "has tasted",
+          "had tasted",
+          "tasted"
+        ],
+        "objects": [
+          "French cheese",
+          "Italian wine",
+          "local dishes",
+          "street food"
+        ],
+        "distractor": "waste"
+      },
+      "cook": {
+        "correct_forms": [
+          "have cooked"
+        ],
+        "wrong_forms": [
+          "has cooked",
+          "had cooked",
+          "cooked"
+        ],
+        "objects": [
+          "this recipe",
+          "Asian food",
+          "a traditional meal",
+          "vegetarian dishes"
+        ],
+        "distractor": "destroy"
+      }
+    }
+  }
+}

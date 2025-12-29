@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_DAILY_B1_TYPE1_GROUPB",
+  "focus": "suffix_less_formation",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The situation seemed ____ at first.",
+  "example": "The situation seemed hopeless at first.",
+  "explanation": "The suffix '-less' transforms nouns into adjectives meaning 'without'. 'Hope' becomes 'hopeless'.",
+  "chunks": {
+    "NOUN": ["first", "the beginning", "that moment", "the start"],
+    "VERB": {
+      "hopeless": {
+        "correct_forms": ["hopeless"],
+        "wrong_forms": ["hope", "hoping", "hopeful"],
+        "objects": [],
+        "distractor": "promising"
+      },
+      "careless": {
+        "correct_forms": ["careless"],
+        "wrong_forms": ["care", "caring", "careful"],
+        "objects": [],
+        "distractor": "cautious"
+      },
+      "harmless": {
+        "correct_forms": ["harmless"],
+        "wrong_forms": ["harm", "harming", "harmful"],
+        "objects": [],
+        "distractor": "dangerous"
+      },
+      "useless": {
+        "correct_forms": ["useless"],
+        "wrong_forms": ["use", "using", "useful"],
+        "objects": [],
+        "distractor": "valuable"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_CAREERS_B2_TYPE2_GROUPB",
+  "focus": "conditional_type_2_careers_singular",
+  "level": "B2",
+  "domain": "careers",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {CAREER_CONDITION}, {SUBJ} would {CAREER_RESULT}.",
+  "example": "If she spoke another language, she would qualify for the international position.",
+  "explanation": "Second conditional for individual career scenarios. Past tense 'spoke' expresses a hypothetical skill.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the candidate", "the applicant"],
+    "CAREER_CONDITION": ["spoke another language", "had a master's degree", "knew programming", "understood finance"],
+    "CAREER_RESULT": ["qualify for the international position", "be eligible for promotion", "land the dream job", "command a higher salary"],
+    "VERB": {
+      "spoke": {
+        "correct_forms": ["spoke"],
+        "wrong_forms": ["speaks", "would speak", "has spoken"],
+        "objects": [],
+        "distractor": "neglect"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["has", "would have", "have"],
+        "objects": [],
+        "distractor": "lack"
+      }
+    }
+  }
+}

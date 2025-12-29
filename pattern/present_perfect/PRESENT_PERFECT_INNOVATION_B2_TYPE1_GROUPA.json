@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_INNOVATION_B2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "innovation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "We have pioneered sustainable manufacturing techniques, which has reduced environmental impact.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe innovative achievements and their broader implications.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they",
+      "the engineers",
+      "the innovators"
+    ],
+    "CONSEQUENCE": [
+      "has disrupted traditional approaches",
+      "has set new industry standards",
+      "has accelerated technological progress",
+      "has opened new market opportunities"
+    ],
+    "VERB": {
+      "pioneer": {
+        "correct_forms": [
+          "have pioneered"
+        ],
+        "wrong_forms": [
+          "has pioneered",
+          "had pioneered",
+          "pioneered"
+        ],
+        "objects": [
+          "breakthrough technologies",
+          "revolutionary manufacturing methods",
+          "cutting-edge solutions",
+          "transformative digital platforms"
+        ],
+        "distractor": "disregard"
+      },
+      "patent": {
+        "correct_forms": [
+          "have patented"
+        ],
+        "wrong_forms": [
+          "has patented",
+          "had patented",
+          "patented"
+        ],
+        "objects": [
+          "numerous inventions globally",
+          "proprietary technologies",
+          "innovative design concepts",
+          "groundbreaking algorithms"
+        ],
+        "distractor": "overlook"
+      },
+      "prototype": {
+        "correct_forms": [
+          "have prototyped"
+        ],
+        "wrong_forms": [
+          "has prototyped",
+          "had prototyped",
+          "prototyped"
+        ],
+        "objects": [
+          "next-generation devices",
+          "advanced automation systems",
+          "sustainable energy solutions",
+          "smart infrastructure components"
+        ],
+        "distractor": "suppress"
+      },
+      "iterate": {
+        "correct_forms": [
+          "have iterated"
+        ],
+        "wrong_forms": [
+          "has iterated",
+          "had iterated",
+          "iterated"
+        ],
+        "objects": [
+          "the product design rapidly",
+          "the software architecture",
+          "the user experience continuously",
+          "the core functionality"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

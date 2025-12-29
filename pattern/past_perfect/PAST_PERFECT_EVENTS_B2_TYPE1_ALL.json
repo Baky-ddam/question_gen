@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_EVENTS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "By the time the guests arrived, we had set up the entire venue.",
+  "explanation": "Use 'had' + past participle to show an action was completed before another past event. 'By the time' emphasizes sequence.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the organizers", "the team", "the staff", "the planners"],
+    "PAST_EVENT": ["the guests arrived", "the ceremony began", "the doors opened", "the event started", "the keynote speaker arrived"],
+    "VERB": {
+      "set": {
+        "correct_forms": ["had set"],
+        "wrong_forms": ["have set", "set", "was setting"],
+        "objects": ["up the entire venue", "up all the equipment", "everything in place", "up the stage"],
+        "distractor": "dismantle"
+      },
+      "arrange": {
+        "correct_forms": ["had arranged"],
+        "wrong_forms": ["has arranged", "arranged", "was arranging"],
+        "objects": ["all the seating", "the catering", "the decorations", "transportation"],
+        "distractor": "cancel"
+      },
+      "coordinate": {
+        "correct_forms": ["had coordinated"],
+        "wrong_forms": ["have coordinated", "coordinated", "was coordinating"],
+        "objects": ["with all vendors", "the schedule", "every detail", "the logistics"],
+        "distractor": "neglect"
+      },
+      "finalize": {
+        "correct_forms": ["had finalized"],
+        "wrong_forms": ["has finalized", "finalized", "was finalizing"],
+        "objects": ["the guest list", "all arrangements", "the program", "the budget"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pattern_id": "INFINITIVE_SCIENCE_C1_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "C1",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "As {TREND} advances, {SUBJ} {MAINVERB} ____ to {PURPOSE}.",
+  "example": "As computational capabilities advance, the research team plans to model complex phenomena to generate predictive insights.",
+  "explanation": "Advanced verbs requiring infinitives: plan, decide, expect, agree, aim, intend, endeavor, seek, attempt.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the research team", "the laboratory", "the scientist"],
+    "MAINVERB": ["plans", "decides", "expects", "aims", "endeavors"],
+    "VERB": {
+      "model": {
+        "correct_forms": ["to model"],
+        "wrong_forms": ["modeling", "model", "models"],
+        "objects": ["complex phenomena", "dynamic systems", "emergent behaviors", "multidimensional processes"],
+        "distractor": "to oversimplify"
+      },
+      "sequence": {
+        "correct_forms": ["to sequence"],
+        "wrong_forms": ["sequencing", "sequence", "sequences"],
+        "objects": ["genetic markers", "molecular structures", "genomic data", "protein configurations"],
+        "distractor": "to contaminate"
+      },
+      "synthesize": {
+        "correct_forms": ["to synthesize"],
+        "wrong_forms": ["synthesizing", "synthesize", "synthesizes"],
+        "objects": ["novel compounds", "therapeutic agents", "biomaterials", "catalytic structures"],
+        "distractor": "to decompose"
+      },
+      "validate": {
+        "correct_forms": ["to validate"],
+        "wrong_forms": ["validating", "validate", "validates"],
+        "objects": ["theoretical predictions", "experimental hypotheses", "computational models", "empirical findings"],
+        "distractor": "to invalidate"
+      }
+    },
+    "TREND": ["computational capabilities", "technological precision", "methodological sophistication", "interdisciplinary collaboration", "analytical capabilities"],
+    "PURPOSE": ["generate predictive insights", "advance theoretical understanding", "contribute to scientific knowledge", "enable breakthrough discoveries", "inform practical applications"]
+  }
+}

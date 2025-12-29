@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_SCHOOL_B1_TYPE1_GROUPB",
+  "focus": "reported_speech_school_past_singular",
+  "level": "B1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The teacher said that {SUBJ} ____ {SCHOOL_ACTIVITY}.",
+  "example": "The teacher said that she was doing excellent work.",
+  "explanation": "In reported speech, 'is doing' becomes 'was doing'. Singular subjects take 'was'.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the student", "the new pupil"],
+    "SCHOOL_ACTIVITY": ["doing excellent work", "showing great improvement", "understanding the material", "participating actively"],
+    "VERB": {
+      "was": {
+        "correct_forms": ["was"],
+        "wrong_forms": ["is", "has been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["has been", "is", "was being"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

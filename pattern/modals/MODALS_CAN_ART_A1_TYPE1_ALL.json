@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_ART_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "art",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "I can draw pictures.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "draw": {
+        "correct_forms": [
+          "can draw"
+        ],
+        "wrong_forms": [
+          "could draw",
+          "must draw",
+          "should draw"
+        ],
+        "distractor": "hate",
+        "objects": [
+          "pictures",
+          "animals",
+          "people"
+        ]
+      },
+      "paint": {
+        "correct_forms": [
+          "can paint"
+        ],
+        "wrong_forms": [
+          "could paint",
+          "must paint",
+          "should paint"
+        ],
+        "distractor": "break",
+        "objects": [
+          "landscapes",
+          "portraits",
+          "beautiful pictures"
+        ]
+      },
+      "create": {
+        "correct_forms": [
+          "can create"
+        ],
+        "wrong_forms": [
+          "could create",
+          "must create",
+          "should create"
+        ],
+        "distractor": "ignore",
+        "objects": [
+          "art",
+          "sculptures",
+          "beautiful things"
+        ]
+      },
+      "design": {
+        "correct_forms": [
+          "can design"
+        ],
+        "wrong_forms": [
+          "could design",
+          "must design",
+          "should design"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "logos",
+          "posters",
+          "websites"
+        ]
+      }
+    }
+  }
+}

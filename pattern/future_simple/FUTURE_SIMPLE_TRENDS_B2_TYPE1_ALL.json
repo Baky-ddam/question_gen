@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_TRENDS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "trends",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "By {FUTURE_TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "By 2030, remote work will become the standard in many industries.",
+  "explanation": "Future simple with 'By + time' expresses predictions for a deadline. Use 'will + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["Remote work", "AI technology", "Online shopping", "Renewable energy", "Digital payments", "Electric cars"],
+    "VERB": {
+      "become": {
+        "correct_forms": ["will become"],
+        "wrong_forms": ["becomes", "is going to become", "would become"],
+        "objects": ["the standard", "mainstream", "universal"],
+        "distractor": "suppress"
+      },
+      "dominate": {
+        "correct_forms": ["will dominate"],
+        "wrong_forms": ["dominates", "is going to dominate", "would dominate"],
+        "objects": ["the market", "the industry", "consumer behavior"],
+        "distractor": "undermine"
+      },
+      "replace": {
+        "correct_forms": ["will replace"],
+        "wrong_forms": ["replaces", "is going to replace", "would replace"],
+        "objects": ["traditional methods", "older systems", "conventional approaches"],
+        "distractor": "obstruct"
+      },
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["how we work", "the economy", "daily life"],
+        "distractor": "hinder"
+      }
+    },
+    "FUTURE_TIME": ["2030", "next decade", "2035", "the end of the decade", "2040", "ten years"]
+  }
+}

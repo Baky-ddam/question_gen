@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_WORK_B1_TYPE1_GROUPA",
+  "focus": "suffix_person_formation",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ completed the project ahead of schedule.",
+  "example": "The manager completed the project ahead of schedule.",
+  "explanation": "The suffix '-er/-or' transforms verbs into nouns indicating a person who does something.",
+  "chunks": {
+    "NOUN": ["project", "task", "assignment", "report"],
+    "VERB": {
+      "manager": {
+        "correct_forms": ["manager"],
+        "wrong_forms": ["manage", "managing", "managed"],
+        "objects": [],
+        "distractor": "employee"
+      },
+      "employer": {
+        "correct_forms": ["employer"],
+        "wrong_forms": ["employ", "employing", "employed"],
+        "objects": [],
+        "distractor": "worker"
+      },
+      "supervisor": {
+        "correct_forms": ["supervisor"],
+        "wrong_forms": ["supervise", "supervising", "supervised"],
+        "objects": [],
+        "distractor": "subordinate"
+      },
+      "coordinator": {
+        "correct_forms": ["coordinator"],
+        "wrong_forms": ["coordinate", "coordinating", "coordinated"],
+        "objects": [],
+        "distractor": "assistant"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_SHOPPING_A2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {PLACE}.",
+  "example": "I try on the jacket in the fitting room.",
+  "explanation": "Phrasal verbs combine a verb with a particle to create a new meaning. In shopping, we use phrasal verbs like 'try on', 'pick up', and 'put back'.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PLACE": ["at the store", "in the fitting room", "at the mall", "at the market"],
+    "VERB": {
+      "try on": {
+        "correct_forms": ["try on"],
+        "wrong_forms": ["try off", "try up", "try out"],
+        "objects": ["jacket", "shoes", "dress", "pants"],
+        "distractor": "reject"
+      },
+      "pick up": {
+        "correct_forms": ["pick up"],
+        "wrong_forms": ["pick on", "pick off", "pick at"],
+        "objects": ["groceries", "package", "order", "items"],
+        "distractor": "drop"
+      },
+      "put back": {
+        "correct_forms": ["put back"],
+        "wrong_forms": ["put on", "put off", "put up"],
+        "objects": ["shirt", "book", "product", "item"],
+        "distractor": "take"
+      },
+      "look for": {
+        "correct_forms": ["look for"],
+        "wrong_forms": ["look at", "look on", "look up"],
+        "objects": ["bargains", "deals", "discounts", "sales"],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_SPORTS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The matches were won by the home team.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the matches", "the games", "the tournaments", "the races", "the championships", "the competitions"],
+    "AGENT": ["the home team", "professional athletes", "the defending champions", "experienced players", "the underdogs", "talented newcomers"],
+    "VERB": {
+      "win": {
+        "correct_forms": ["were won"],
+        "wrong_forms": ["was won", "are won", "have been won"],
+        "objects": [],
+        "distractor": "lost"
+      },
+      "play": {
+        "correct_forms": ["were played"],
+        "wrong_forms": ["was played", "are played", "have been played"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "organize": {
+        "correct_forms": ["were organized"],
+        "wrong_forms": ["was organized", "are organized", "have been organized"],
+        "objects": [],
+        "distractor": "postponed"
+      },
+      "broadcast": {
+        "correct_forms": ["were broadcast"],
+        "wrong_forms": ["was broadcast", "are broadcast", "have been broadcast"],
+        "objects": [],
+        "distractor": "censored"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_DECISIONS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "When {TRIGGER}, {SUBJ} ____ {OBJ}.",
+  "example": "When I get more information, I will make a decision.",
+  "explanation": "Future simple uses 'will + base verb' after 'when' for future decisions. The trigger uses present simple.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the committee"],
+    "VERB": {
+      "make": {
+        "correct_forms": ["will make"],
+        "wrong_forms": ["makes", "is going to make", "would make"],
+        "objects": ["a decision", "a choice", "the final call"],
+        "distractor": "postpone"
+      },
+      "decide": {
+        "correct_forms": ["will decide"],
+        "wrong_forms": ["decides", "is going to decide", "would decide"],
+        "objects": ["what to do", "on the best option", "together"],
+        "distractor": "neglect"
+      },
+      "choose": {
+        "correct_forms": ["will choose"],
+        "wrong_forms": ["chooses", "is going to choose", "would choose"],
+        "objects": ["wisely", "the right path", "carefully"],
+        "distractor": "ignore"
+      },
+      "announce": {
+        "correct_forms": ["will announce"],
+        "wrong_forms": ["announces", "is going to announce", "would announce"],
+        "objects": ["the result", "our choice", "the verdict"],
+        "distractor": "cancel"
+      }
+    },
+    "TRIGGER": ["I get more information", "we finish research", "the meeting ends", "all votes are counted", "she reviews the options", "he consults experts"]
+  }
+}

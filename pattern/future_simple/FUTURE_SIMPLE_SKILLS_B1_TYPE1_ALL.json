@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SKILLS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "skills",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If you practice daily, you will improve your skills.",
+  "explanation": "Future simple uses 'will + base verb' to predict skill development outcomes in first conditional sentences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "improve": {
+        "correct_forms": ["will improve"],
+        "wrong_forms": ["improves", "is going to improve", "would improve"],
+        "objects": ["your skills", "quickly", "significantly"],
+        "distractor": "neglect"
+      },
+      "master": {
+        "correct_forms": ["will master"],
+        "wrong_forms": ["masters", "is going to master", "would master"],
+        "objects": ["the language", "the technique", "programming"],
+        "distractor": "abandon"
+      },
+      "develop": {
+        "correct_forms": ["will develop"],
+        "wrong_forms": ["develops", "is going to develop", "would develop"],
+        "objects": ["new abilities", "expertise", "confidence"],
+        "distractor": "overlook"
+      },
+      "learn": {
+        "correct_forms": ["will learn"],
+        "wrong_forms": ["learns", "is going to learn", "would learn"],
+        "objects": ["faster", "more effectively", "new techniques"],
+        "distractor": "forget"
+      }
+    },
+    "CONDITION": ["you practice daily", "I take lessons", "she watches tutorials", "we join a class", "they study consistently", "he gets a mentor"]
+  }
+}

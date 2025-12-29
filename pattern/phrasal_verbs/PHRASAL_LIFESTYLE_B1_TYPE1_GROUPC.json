@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_LIFESTYLE_B1_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B1",
+  "domain": "lifestyle",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {CONTEXT}.",
+  "example": "I look forward to the vacation every year.",
+  "explanation": "These three-word phrasal verbs are inseparable. They express attitudes and feelings about future events or situations.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "NOUN": ["the vacation", "the weekend", "the holiday", "the party"],
+    "CONTEXT": ["every year", "all week", "for months", "with excitement", "eagerly"],
+    "VERB": {
+      "look forward to": {
+        "correct_forms": ["look forward to"],
+        "wrong_forms": ["look forward for", "look forward at", "look up to"],
+        "objects": [],
+        "distractor": "dread"
+      },
+      "get away from": {
+        "correct_forms": ["get away from"],
+        "wrong_forms": ["get away to", "get on from", "get off from"],
+        "objects": [],
+        "distractor": "stay"
+      },
+      "put up with": {
+        "correct_forms": ["put up with"],
+        "wrong_forms": ["put up to", "put on with", "put off with"],
+        "objects": [],
+        "distractor": "reject"
+      },
+      "catch up on": {
+        "correct_forms": ["catch up on"],
+        "wrong_forms": ["catch up to", "catch on to", "catch off on"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_WEATHER_B2_TYPE1_ALL",
+  "focus": "modal_might",
+  "level": "B2",
+  "domain": "weather",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "The weather might change suddenly, which could disrupt outdoor activities.",
+  "explanation": "Use 'might' + base verb with all subjects to express possibility about weather conditions. The 'which' clause describes the potential consequence.",
+  "chunks": {
+    "SUBJ": [
+      "the weather",
+      "the storm system",
+      "the temperature",
+      "the precipitation",
+      "the atmospheric pressure",
+      "the wind patterns"
+    ],
+    "CONSEQUENCE": [
+      "could disrupt outdoor activities",
+      "would affect travel plans",
+      "may cause transportation delays",
+      "could impact agricultural yields",
+      "would require emergency preparations",
+      "may influence energy consumption"
+    ],
+    "VERB": {
+      "change": {
+        "correct_forms": [
+          "might change"
+        ],
+        "wrong_forms": [
+          "will change",
+          "can change",
+          "should change"
+        ],
+        "objects": [
+          "dramatically by evening",
+          "without warning",
+          "over the next few hours",
+          "due to the approaching front"
+        ],
+        "distractor": "disregard"
+      },
+      "intensify": {
+        "correct_forms": [
+          "might intensify"
+        ],
+        "wrong_forms": [
+          "will intensify",
+          "can intensify",
+          "should intensify"
+        ],
+        "objects": [
+          "as the day progresses",
+          "beyond current forecasts",
+          "throughout the region",
+          "to dangerous levels"
+        ],
+        "distractor": "overlook"
+      },
+      "clear": {
+        "correct_forms": [
+          "might clear"
+        ],
+        "wrong_forms": [
+          "will clear",
+          "can clear",
+          "should clear"
+        ],
+        "objects": [
+          "by tomorrow morning",
+          "after the front passes",
+          "in the afternoon hours",
+          "sooner than expected"
+        ],
+        "distractor": "suppress"
+      },
+      "deteriorate": {
+        "correct_forms": [
+          "might deteriorate"
+        ],
+        "wrong_forms": [
+          "will deteriorate",
+          "can deteriorate",
+          "should deteriorate"
+        ],
+        "objects": [
+          "rapidly this weekend",
+          "across coastal areas",
+          "to severe conditions",
+          "before the holiday period"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_COMMUNICATION_B1_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B1",
+  "domain": "communication",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {TOPIC} {CONTEXT}.",
+  "example": "I bring up the issue during the meeting.",
+  "explanation": "These phrasal verbs are used for discussions and conversations. They describe how we introduce or address topics.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "TOPIC": ["the issue", "the problem", "the suggestion", "the idea"],
+    "CONTEXT": ["during the meeting", "in the discussion", "at the conference", "when appropriate", "carefully"],
+    "VERB": {
+      "bring up": {
+        "correct_forms": ["bring up"],
+        "wrong_forms": ["bring on", "bring off", "bring in"],
+        "objects": [],
+        "distractor": "avoid"
+      },
+      "point out": {
+        "correct_forms": ["point out"],
+        "wrong_forms": ["point on", "point off", "point in"],
+        "objects": [],
+        "distractor": "hide"
+      },
+      "speak up": {
+        "correct_forms": ["speak up"],
+        "wrong_forms": ["speak on", "speak off", "speak in"],
+        "objects": [],
+        "distractor": "stay quiet"
+      },
+      "go on about": {
+        "correct_forms": ["go on about"],
+        "wrong_forms": ["go off about", "go up about", "go in about"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

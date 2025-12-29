@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_LOCATIONS_B1_TYPE1_GROUPA",
+  "focus": "relative_clause_where_location",
+  "level": "B1",
+  "domain": "locations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {LOCATION} ____ {EVENT} has become {SIGNIFICANCE}.",
+  "example": "The building where the treaty was signed has become a museum.",
+  "explanation": "We use 'where' for places with historical or personal significance. The relative clause explains why the place is important.",
+  "chunks": {
+    "LOCATION": ["building", "town", "university", "stadium"],
+    "EVENT": ["the treaty was signed", "I grew up", "she studied", "the championship was held"],
+    "SIGNIFICANCE": ["a museum", "very popular", "world-famous", "a national landmark"],
+    "VERB": {
+      "where": {
+        "correct_forms": ["where"],
+        "wrong_forms": ["which", "who", "whose"],
+        "objects": [],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PROCESSES_B2_TYPE1_GROUPB",
+  "focus": "relative_clause_that_process",
+  "level": "B2",
+  "domain": "processes",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PROCESS} ____ we implemented has {RESULT}.",
+  "example": "The workflow that we implemented has improved productivity significantly.",
+  "explanation": "We use 'that' for processes in professional contexts. The clause identifies which specific process we mean.",
+  "chunks": {
+    "PROCESS": ["workflow", "approach", "strategy", "method"],
+    "RESULT": ["improved productivity significantly", "reduced costs dramatically", "enhanced quality considerably", "streamlined operations effectively"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

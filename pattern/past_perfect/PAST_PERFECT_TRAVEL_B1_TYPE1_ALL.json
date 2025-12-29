@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_TRAVEL_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "We had booked the hotel before the prices increased.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the tourists", "my family"],
+    "PAST_EVENT": ["the flight departed", "we left home", "the trip began", "the prices increased", "the vacation started"],
+    "VERB": {
+      "book": {
+        "correct_forms": ["had booked"],
+        "wrong_forms": ["have booked", "booked", "was booking"],
+        "objects": ["the hotel", "the flights", "the tickets", "the accommodation"],
+        "distractor": "cancel"
+      },
+      "pack": {
+        "correct_forms": ["had packed"],
+        "wrong_forms": ["has packed", "packed", "was packing"],
+        "objects": ["the suitcases", "everything", "the bags", "our clothes"],
+        "distractor": "forget"
+      },
+      "plan": {
+        "correct_forms": ["had planned"],
+        "wrong_forms": ["have planned", "planned", "was planning"],
+        "objects": ["the itinerary", "the route", "every detail", "the activities"],
+        "distractor": "ignore"
+      },
+      "check": {
+        "correct_forms": ["had checked"],
+        "wrong_forms": ["has checked", "checked", "was checking"],
+        "objects": ["the passports", "the documents", "the reservations", "in online"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

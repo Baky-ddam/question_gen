@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_LAW_B2_TYPE1_GROUPA",
+  "focus": "suffix_ance_ence_formation",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The court requires full ____ with the regulations.",
+  "example": "The court requires full compliance with the regulations.",
+  "explanation": "The suffix '-ance/-ence' transforms verbs into nouns. 'Comply' becomes 'compliance'.",
+  "chunks": {
+    "NOUN": ["regulations", "laws", "rules", "standards"],
+    "VERB": {
+      "compliance": {
+        "correct_forms": ["compliance"],
+        "wrong_forms": ["comply", "complying", "compliant"],
+        "objects": [],
+        "distractor": "violation"
+      },
+      "evidence": {
+        "correct_forms": ["evidence"],
+        "wrong_forms": ["evident", "evidently", "evidential"],
+        "objects": [],
+        "distractor": "speculation"
+      },
+      "independence": {
+        "correct_forms": ["independence"],
+        "wrong_forms": ["independent", "independently", "depend"],
+        "objects": [],
+        "distractor": "dependence"
+      },
+      "occurrence": {
+        "correct_forms": ["occurrence"],
+        "wrong_forms": ["occur", "occurring", "occurred"],
+        "objects": [],
+        "distractor": "absence"
+      }
+    }
+  }
+}

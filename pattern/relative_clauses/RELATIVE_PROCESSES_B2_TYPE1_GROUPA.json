@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_PROCESSES_B2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_process",
+  "level": "B2",
+  "domain": "processes",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PROCESS} ____ {FUNCTION} ensures {OUTCOME}.",
+  "example": "The procedure which monitors quality standards ensures consistent results.",
+  "explanation": "We use 'which' for processes and procedures. The clause describes what the process does.",
+  "chunks": {
+    "PROCESS": ["procedure", "mechanism", "protocol", "system"],
+    "FUNCTION": ["monitors quality standards", "controls production stages", "regulates key variables", "tracks performance metrics"],
+    "OUTCOME": ["consistent results", "optimal efficiency", "reliable outputs", "compliance with regulations"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "bypass"
+      }
+    }
+  }
+}

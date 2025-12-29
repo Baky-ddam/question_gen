@@ -1,0 +1,45 @@
+{
+  "pattern_id": "INFINITIVE_STRATEGY_C1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "Given that {CONDITION}, {SUBJ} {MAINVERB} ____, which {IMPLICATION}.",
+  "example": "Given that market dynamics are shifting, strategists decide to realign competitive positioning, which could redefine industry standards.",
+  "explanation": "Advanced verbs requiring infinitives: decide, plan, agree, refuse, promise, threaten, demand, expect, intend, aim, endeavor.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "strategists", "executives", "leaders"],
+    "MAINVERB": ["decide", "plan", "agree", "intend", "endeavor"],
+    "VERB": {
+      "realign": {
+        "correct_forms": ["to realign"],
+        "wrong_forms": ["realigning", "realign", "realigns"],
+        "objects": ["competitive positioning", "strategic priorities", "organizational objectives", "market focus"],
+        "distractor": "to misalign"
+      },
+      "consolidate": {
+        "correct_forms": ["to consolidate"],
+        "wrong_forms": ["consolidating", "consolidate", "consolidates"],
+        "objects": ["market leadership", "competitive advantages", "operational capabilities", "strategic assets"],
+        "distractor": "to fragment"
+      },
+      "pivot": {
+        "correct_forms": ["to pivot"],
+        "wrong_forms": ["pivoting", "pivot", "pivots"],
+        "objects": ["toward emerging markets", "from legacy products", "to digital platforms", "toward sustainable models"],
+        "distractor": "to stagnate"
+      },
+      "divest": {
+        "correct_forms": ["to divest"],
+        "wrong_forms": ["divesting", "divest", "divests"],
+        "objects": ["from non-core assets", "underperforming units", "legacy operations", "peripheral businesses"],
+        "distractor": "to overextend"
+      }
+    },
+    "CONDITION": ["market dynamics are shifting", "competitive pressures intensify", "technological disruption accelerates", "regulatory landscapes evolve", "stakeholder expectations change"],
+    "IMPLICATION": ["could redefine industry standards", "may establish new paradigms", "might transform competitive landscapes", "would signal strategic intent", "should position for future growth"]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pattern_id": "GERUND_ACADEMIA_C1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "Given the {COMPLEXITY}, {SUBJ} {MAINVERB} ____ to {PURPOSE}.",
+  "example": "Given the methodological constraints, researchers recommend triangulating data sources to enhance validity.",
+  "explanation": "Advanced verbs requiring gerunds: recommend, suggest, consider, involve, justify, advocate, entail, necessitate, warrant.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "researchers", "scholars", "academics"],
+    "MAINVERB": ["recommend", "suggest", "consider", "justify", "advocate"],
+    "VERB": {
+      "triangulate": {
+        "correct_forms": ["triangulating"],
+        "wrong_forms": ["to triangulate", "triangulate", "triangulates"],
+        "objects": ["data sources", "methodological approaches", "theoretical frameworks", "research perspectives"],
+        "distractor": "ignoring"
+      },
+      "synthesize": {
+        "correct_forms": ["synthesizing"],
+        "wrong_forms": ["to synthesize", "synthesize", "synthesizes"],
+        "objects": ["interdisciplinary findings", "theoretical constructs", "empirical evidence", "scholarly literature"],
+        "distractor": "fragmenting"
+      },
+      "contextualize": {
+        "correct_forms": ["contextualizing"],
+        "wrong_forms": ["to contextualize", "contextualize", "contextualizes"],
+        "objects": ["research findings", "historical developments", "cultural phenomena", "theoretical contributions"],
+        "distractor": "decontextualizing"
+      },
+      "interrogate": {
+        "correct_forms": ["interrogating"],
+        "wrong_forms": ["to interrogate", "interrogate", "interrogates"],
+        "objects": ["underlying assumptions", "epistemological foundations", "methodological limitations", "theoretical premises"],
+        "distractor": "accepting"
+      }
+    },
+    "COMPLEXITY": ["methodological constraints", "epistemological challenges", "theoretical limitations", "empirical complexities", "paradigmatic tensions"],
+    "PURPOSE": ["enhance validity", "strengthen analytical rigor", "ensure scholarly integrity", "advance disciplinary understanding", "contribute to theoretical development"]
+  }
+}

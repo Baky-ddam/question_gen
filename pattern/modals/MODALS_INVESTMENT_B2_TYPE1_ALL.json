@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_INVESTMENT_B2_TYPE1_ALL",
+  "focus": "modal_could",
+  "level": "B2",
+  "domain": "investment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "Portfolio returns could increase substantially, which would exceed investor expectations.",
+  "explanation": "Use 'could' + base verb with all subjects to express possibility about investment outcomes. The 'which' clause describes the potential consequence.",
+  "chunks": {
+    "SUBJ": [
+      "portfolio returns",
+      "asset values",
+      "dividend yields",
+      "investment performance",
+      "capital gains",
+      "fund allocations"
+    ],
+    "CONSEQUENCE": [
+      "would exceed investor expectations",
+      "could offset recent losses",
+      "may attract additional capital",
+      "would justify the risk taken",
+      "could signal market confidence",
+      "may prompt strategy adjustments"
+    ],
+    "VERB": {
+      "increase": {
+        "correct_forms": [
+          "could increase"
+        ],
+        "wrong_forms": [
+          "can increase",
+          "would increase",
+          "should increase"
+        ],
+        "objects": [
+          "substantially over time",
+          "beyond market benchmarks",
+          "in favorable conditions",
+          "through strategic rebalancing"
+        ],
+        "distractor": "circumvent"
+      },
+      "decrease": {
+        "correct_forms": [
+          "could decrease"
+        ],
+        "wrong_forms": [
+          "can decrease",
+          "would decrease",
+          "should decrease"
+        ],
+        "objects": [
+          "during market corrections",
+          "amid economic uncertainty",
+          "if risks materialize",
+          "due to sector rotation"
+        ],
+        "distractor": "obstruct"
+      },
+      "fluctuate": {
+        "correct_forms": [
+          "could fluctuate"
+        ],
+        "wrong_forms": [
+          "can fluctuate",
+          "would fluctuate",
+          "should fluctuate"
+        ],
+        "objects": [
+          "significantly in volatile markets",
+          "based on economic indicators",
+          "throughout the investment horizon",
+          "depending on global events"
+        ],
+        "distractor": "impede"
+      },
+      "outperform": {
+        "correct_forms": [
+          "could outperform"
+        ],
+        "wrong_forms": [
+          "can outperform",
+          "would outperform",
+          "should outperform"
+        ],
+        "objects": [
+          "traditional investment options",
+          "market indices consistently",
+          "peer group averages",
+          "risk-adjusted benchmarks"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

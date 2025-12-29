@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FASHION_B2_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_size_color_fashion",
+  "level": "B2",
+  "domain": "fashion",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The model wore a ____ {NOUN}.",
+  "example": "The model wore a gorgeous long black gown.",
+  "explanation": "Opinion-Size-Color order. 'Gorgeous long black' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["gown", "coat", "dress", "suit"],
+    "VERB": {
+      "gorgeous long black": {
+        "correct_forms": ["gorgeous long black"],
+        "wrong_forms": ["long gorgeous black", "black long gorgeous", "black gorgeous long"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "stunning short red": {
+        "correct_forms": ["stunning short red"],
+        "wrong_forms": ["short stunning red", "red short stunning", "red stunning short"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "elegant tall white": {
+        "correct_forms": ["elegant tall white"],
+        "wrong_forms": ["tall elegant white", "white tall elegant", "white elegant tall"],
+        "objects": [],
+        "distractor": "frumpy"
+      }
+    }
+  }
+}

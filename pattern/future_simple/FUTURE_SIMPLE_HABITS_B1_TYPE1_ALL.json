@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_HABITS_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "habits",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If you exercise regularly, you will feel healthier.",
+  "explanation": "Future simple uses 'will + base verb' to predict results of changing habits in first conditional sentences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "feel": {
+        "correct_forms": ["will feel"],
+        "wrong_forms": ["feels", "is going to feel", "would feel"],
+        "objects": ["healthier", "better", "more energetic"],
+        "distractor": "ignore"
+      },
+      "lose": {
+        "correct_forms": ["will lose"],
+        "wrong_forms": ["loses", "is going to lose", "would lose"],
+        "objects": ["weight", "bad habits", "stress"],
+        "distractor": "neglect"
+      },
+      "sleep": {
+        "correct_forms": ["will sleep"],
+        "wrong_forms": ["sleeps", "is going to sleep", "would sleep"],
+        "objects": ["better", "more deeply", "peacefully"],
+        "distractor": "skip"
+      },
+      "become": {
+        "correct_forms": ["will become"],
+        "wrong_forms": ["becomes", "is going to become", "would become"],
+        "objects": ["stronger", "more productive", "healthier"],
+        "distractor": "neglect"
+      }
+    },
+    "CONDITION": ["you exercise regularly", "I eat healthily", "she sleeps early", "we quit smoking", "they drink more water", "he meditates daily"]
+  }
+}

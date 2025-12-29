@@ -1,0 +1,25 @@
+{
+  "pattern_id": "CONDITIONAL_DIPLOMACY_C1_INVERTED_GROUPA",
+  "focus": "conditional_inverted_diplomatic",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the parties {PAST_ACTION}, the agreement would have {PAST_RESULT}.",
+  "example": "Had the parties shown more flexibility, the agreement would have been reached.",
+  "explanation": "Inverted conditional in formal diplomatic language. 'Had the parties shown' = 'If the parties had shown'.",
+  "chunks": {
+    "PAST_ACTION": ["shown more flexibility", "compromised on key issues", "engaged in good faith", "addressed core concerns"],
+    "PAST_RESULT": ["been reached", "been finalized", "been more comprehensive", "satisfied all stakeholders"],
+    "VERB": {
+      "Had": {
+        "correct_forms": ["Had"],
+        "wrong_forms": ["If", "Have", "Having"],
+        "objects": [],
+        "distractor": "obstruct"
+      }
+    }
+  }
+}

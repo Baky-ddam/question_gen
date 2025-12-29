@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_THINGS_A2_TYPE1_GROUPB",
+  "focus": "relative_clause_that_thing",
+  "level": "A2",
+  "domain": "things",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "I bought the {THING} ____ {DESCRIPTION}.",
+  "example": "I bought the phone that was on sale.",
+  "explanation": "We can use 'that' instead of 'which' when talking about things. 'That' is more common in everyday speech.",
+  "chunks": {
+    "THING": ["phone", "laptop", "car", "shoes"],
+    "DESCRIPTION": ["was on sale", "you recommended", "I saw online", "looked nice"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "what"],
+        "objects": [],
+        "distractor": "break"
+      }
+    }
+  }
+}

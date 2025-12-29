@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PLACES_A2_TYPE1_GROUPB",
+  "focus": "relative_clause_where",
+  "level": "A2",
+  "domain": "places",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "I remember the {PLACE} ____ {EVENT}.",
+  "example": "I remember the beach where we met.",
+  "explanation": "We use 'where' for places. It tells us about the location of an event or action.",
+  "chunks": {
+    "PLACE": ["beach", "school", "city", "house"],
+    "EVENT": ["we met", "I studied", "she was born", "they got married"],
+    "VERB": {
+      "where": {
+        "correct_forms": ["where"],
+        "wrong_forms": ["who", "which", "what"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

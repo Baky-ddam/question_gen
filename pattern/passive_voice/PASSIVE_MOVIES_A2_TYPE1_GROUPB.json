@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_MOVIES_A2_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "movies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "The movie was filmed in Paris last summer.",
+  "explanation": "Use 'was' + past participle with 'I/he/she/it' and singular nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["the movie", "the film", "the scene", "the episode", "the documentary", "the video"],
+    "TIME": ["in Paris", "last year", "in the 1990s", "many years ago", "in the studio"],
+    "VERB": {
+      "make": {
+        "correct_forms": ["was made"],
+        "wrong_forms": ["were made", "is made", "has been made"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "film": {
+        "correct_forms": ["was filmed"],
+        "wrong_forms": ["were filmed", "is filmed", "has been filmed"],
+        "objects": [],
+        "distractor": "deleted"
+      },
+      "produce": {
+        "correct_forms": ["was produced"],
+        "wrong_forms": ["were produced", "is produced", "has been produced"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "release": {
+        "correct_forms": ["was released"],
+        "wrong_forms": ["were released", "is released", "has been released"],
+        "objects": [],
+        "distractor": "banned"
+      }
+    }
+  }
+}

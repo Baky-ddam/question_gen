@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_POLICY_C1_TYPE1_ALL",
+  "focus": "modal_speculation",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could",
+    "modal_might",
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPLICATION}.",
+  "example": "This legislation could transform healthcare delivery, which would benefit millions of citizens.",
+  "explanation": "Use sophisticated modals (could/might/should) with all subjects to express speculation, possibility, or recommendation. The 'which' clause adds the broader implication of the action.",
+  "chunks": {
+    "SUBJ": [
+      "The proposed legislation",
+      "Government officials",
+      "Policymakers",
+      "The regulatory framework",
+      "The new administration",
+      "Legislative committees"
+    ],
+    "IMPLICATION": [
+      "would reshape public discourse for decades",
+      "could fundamentally alter institutional dynamics",
+      "might necessitate unprecedented policy adjustments",
+      "would have far-reaching societal ramifications"
+    ],
+    "VERB": {
+      "transform": {
+        "correct_forms": [
+          "could transform"
+        ],
+        "wrong_forms": [
+          "should transforms",
+          "might transforming",
+          "could transformed"
+        ],
+        "objects": [
+          "the regulatory landscape",
+          "public policy frameworks",
+          "governance structures",
+          "institutional mechanisms"
+        ],
+        "distractor": "forsake"
+      },
+      "affect": {
+        "correct_forms": [
+          "might affect"
+        ],
+        "wrong_forms": [
+          "could affects",
+          "might affecting",
+          "should affected"
+        ],
+        "objects": [
+          "stakeholder interests",
+          "constitutional provisions",
+          "democratic processes",
+          "legislative priorities"
+        ],
+        "distractor": "obliterate"
+      },
+      "consider": {
+        "correct_forms": [
+          "should consider"
+        ],
+        "wrong_forms": [
+          "could considers",
+          "might considering",
+          "should considered"
+        ],
+        "objects": [
+          "alternative approaches",
+          "stakeholder perspectives",
+          "long-term implications",
+          "constitutional constraints"
+        ],
+        "distractor": "renounce"
+      },
+      "implement": {
+        "correct_forms": [
+          "could implement"
+        ],
+        "wrong_forms": [
+          "might implements",
+          "should implementing",
+          "could implemented"
+        ],
+        "objects": [
+          "comprehensive reforms",
+          "regulatory measures",
+          "policy initiatives",
+          "institutional safeguards"
+        ],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

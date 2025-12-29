@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANIMALS_B1_TYPE1_GROUPB",
+  "focus": "adjective_order_age_color_animals",
+  "level": "B1",
+  "domain": "animals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "They adopted a ____ {NOUN}.",
+  "example": "They adopted a young black cat.",
+  "explanation": "Age comes before color in adjective order. 'Young black' not 'black young'.",
+  "chunks": {
+    "NOUN": ["cat", "dog", "rabbit", "hamster"],
+    "VERB": {
+      "young black": {
+        "correct_forms": ["young black"],
+        "wrong_forms": ["black young", "black and young", "young and black"],
+        "objects": [],
+        "distractor": "old"
+      },
+      "old white": {
+        "correct_forms": ["old white"],
+        "wrong_forms": ["white old", "white and old", "old and white"],
+        "objects": [],
+        "distractor": "young"
+      },
+      "baby brown": {
+        "correct_forms": ["baby brown"],
+        "wrong_forms": ["brown baby", "brown and baby", "baby and brown"],
+        "objects": [],
+        "distractor": "adult"
+      }
+    }
+  }
+}

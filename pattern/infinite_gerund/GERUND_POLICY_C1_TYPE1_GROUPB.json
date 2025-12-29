@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_POLICY_C1_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____, a decision that {BROADER_IMPACT}.",
+  "example": "The administration recommends expanding social programs, a decision that reflects evolving societal priorities.",
+  "explanation": "Advanced verbs requiring gerunds: recommend, suggest, consider, involve, justify, advocate, defer, entail, necessitate.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the administration", "the committee", "the ministry"],
+    "MAINVERB": ["recommends", "considers", "advocates", "justifies", "defers"],
+    "VERB": {
+      "expand": {
+        "correct_forms": ["expanding"],
+        "wrong_forms": ["to expand", "expand", "expands"],
+        "objects": ["social programs", "public infrastructure", "healthcare access", "educational opportunities"],
+        "distractor": "curtailing"
+      },
+      "restructure": {
+        "correct_forms": ["restructuring"],
+        "wrong_forms": ["to restructure", "restructure", "restructures"],
+        "objects": ["governmental agencies", "regulatory bodies", "taxation systems", "pension schemes"],
+        "distractor": "dismantling"
+      },
+      "decentralize": {
+        "correct_forms": ["decentralizing"],
+        "wrong_forms": ["to decentralize", "decentralize", "decentralizes"],
+        "objects": ["administrative functions", "decision-making authority", "fiscal responsibilities", "governmental powers"],
+        "distractor": "centralizing"
+      },
+      "ratify": {
+        "correct_forms": ["ratifying"],
+        "wrong_forms": ["to ratify", "ratify", "ratifies"],
+        "objects": ["international treaties", "bilateral agreements", "constitutional amendments", "trade pacts"],
+        "distractor": "rejecting"
+      }
+    },
+    "BROADER_IMPACT": ["reflects evolving societal priorities", "signals a paradigm shift in governance", "demonstrates commitment to reform", "underscores institutional adaptability", "represents a departure from traditional approaches"]
+  }
+}

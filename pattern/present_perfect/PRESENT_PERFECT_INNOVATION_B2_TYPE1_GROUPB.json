@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_INNOVATION_B2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "innovation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "The chief technology officer has spearheaded the digital transformation, so the company now leads the market.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' and professional titles to describe individual innovation contributions and their outcomes.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the inventor",
+      "the chief technology officer",
+      "the innovation director",
+      "the startup founder"
+    ],
+    "RESULT": [
+      "the company is now a market leader",
+      "competitors are struggling to keep up",
+      "industry adoption has accelerated",
+      "the product line has expanded significantly"
+    ],
+    "VERB": {
+      "revolutionize": {
+        "correct_forms": [
+          "has revolutionized"
+        ],
+        "wrong_forms": [
+          "have revolutionized",
+          "had revolutionized",
+          "revolutionized"
+        ],
+        "objects": [
+          "the manufacturing process",
+          "customer engagement strategies",
+          "supply chain operations",
+          "data analytics capabilities"
+        ],
+        "distractor": "circumvent"
+      },
+      "disrupt": {
+        "correct_forms": [
+          "has disrupted"
+        ],
+        "wrong_forms": [
+          "have disrupted",
+          "had disrupted",
+          "disrupted"
+        ],
+        "objects": [
+          "traditional business models",
+          "established industry practices",
+          "conventional distribution channels",
+          "legacy systems effectively"
+        ],
+        "distractor": "obstruct"
+      },
+      "optimize": {
+        "correct_forms": [
+          "has optimized"
+        ],
+        "wrong_forms": [
+          "have optimized",
+          "had optimized",
+          "optimized"
+        ],
+        "objects": [
+          "the production workflow",
+          "resource utilization metrics",
+          "the innovation pipeline",
+          "operational efficiency measures"
+        ],
+        "distractor": "impede"
+      },
+      "scale": {
+        "correct_forms": [
+          "has scaled"
+        ],
+        "wrong_forms": [
+          "have scaled",
+          "had scaled",
+          "scaled"
+        ],
+        "objects": [
+          "the prototype to mass production",
+          "the innovative solution globally",
+          "the technology platform rapidly",
+          "the research outcomes commercially"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

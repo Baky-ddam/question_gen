@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_PARKING_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "parking",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can park here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission. Location words like 'here', 'there' indicate where the action is allowed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this area",
+      "on this street"
+    ],
+    "VERB": {
+      "park": {
+        "correct_forms": [
+          "can park"
+        ],
+        "wrong_forms": [
+          "could park",
+          "must park",
+          "should park"
+        ],
+        "objects": [
+          "the car",
+          "the vehicle",
+          "the motorcycle",
+          "the truck"
+        ],
+        "distractor": "reject"
+      },
+      "leave": {
+        "correct_forms": [
+          "can leave"
+        ],
+        "wrong_forms": [
+          "could leave",
+          "must leave",
+          "should leave"
+        ],
+        "objects": [
+          "the car",
+          "the vehicle",
+          "the bike",
+          "the scooter"
+        ],
+        "distractor": "refuse"
+      },
+      "stop": {
+        "correct_forms": [
+          "can stop"
+        ],
+        "wrong_forms": [
+          "could stop",
+          "must stop",
+          "should stop"
+        ],
+        "objects": [
+          "the car",
+          "the vehicle",
+          "the bus",
+          "the taxi"
+        ],
+        "distractor": "abandon"
+      },
+      "wait": {
+        "correct_forms": [
+          "can wait"
+        ],
+        "wrong_forms": [
+          "could wait",
+          "must wait",
+          "should wait"
+        ],
+        "objects": [
+          "for passengers",
+          "for a moment",
+          "for pickup",
+          "for the driver"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

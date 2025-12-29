@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_BUSINESS_B2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ because {REASON}.",
+  "example": "We recommend implementing new strategies because market conditions are changing.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Professional verbs with gerunds: recommend, suggest, consider, avoid, risk, involve.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "analysts", "executives", "consultants"],
+    "MAINVERB": ["recommend", "suggest", "consider", "avoid", "risk"],
+    "VERB": {
+      "implement": {
+        "correct_forms": ["implementing"],
+        "wrong_forms": ["to implement", "implement", "implements"],
+        "objects": ["new strategies", "cost-cutting measures", "innovative solutions", "restructuring plans"],
+        "distractor": "abandoning"
+      },
+      "invest": {
+        "correct_forms": ["investing"],
+        "wrong_forms": ["to invest", "invest", "invests"],
+        "objects": ["in technology", "in research", "in human capital", "in infrastructure"],
+        "distractor": "divesting"
+      },
+      "outsource": {
+        "correct_forms": ["outsourcing"],
+        "wrong_forms": ["to outsource", "outsource", "outsources"],
+        "objects": ["operations", "manufacturing", "IT services", "customer support"],
+        "distractor": "internalizing"
+      },
+      "expand": {
+        "correct_forms": ["expanding"],
+        "wrong_forms": ["to expand", "expand", "expands"],
+        "objects": ["into new markets", "operations globally", "the product line", "the workforce"],
+        "distractor": "contracting"
+      }
+    },
+    "REASON": ["market conditions are changing", "competition is increasing", "costs need reduction", "growth opportunities exist", "efficiency must improve"]
+  }
+}

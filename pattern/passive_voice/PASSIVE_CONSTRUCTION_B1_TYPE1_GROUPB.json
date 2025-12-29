@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_CONSTRUCTION_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "construction",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The building was designed by a famous architect.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the building", "the project", "the blueprint", "the roof", "the extension", "the renovation"],
+    "AGENT": ["a famous architect", "the development company", "experienced engineers", "the planning committee", "local craftsmen", "the main contractor"],
+    "VERB": {
+      "design": {
+        "correct_forms": ["was designed"],
+        "wrong_forms": ["were designed", "is designed", "has been designed"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "build": {
+        "correct_forms": ["was built"],
+        "wrong_forms": ["were built", "is built", "has been built"],
+        "objects": [],
+        "distractor": "demolished"
+      },
+      "fund": {
+        "correct_forms": ["was funded"],
+        "wrong_forms": ["were funded", "is funded", "has been funded"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "supervise": {
+        "correct_forms": ["was supervised"],
+        "wrong_forms": ["were supervised", "is supervised", "has been supervised"],
+        "objects": [],
+        "distractor": "neglected"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANTIQUES_B2_TYPE2_GROUPA",
+  "focus": "adjective_order_opinion_shape_material_antiques",
+  "level": "B2",
+  "domain": "antiques",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The collector purchased a ____ {NOUN}.",
+  "example": "The collector purchased a beautiful round silver tray.",
+  "explanation": "Opinion-Shape-Material order. 'Beautiful round silver' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["tray", "box", "frame", "candelabra"],
+    "VERB": {
+      "beautiful round silver": {
+        "correct_forms": ["beautiful round silver"],
+        "wrong_forms": ["round beautiful silver", "silver round beautiful", "silver beautiful round"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "gorgeous oval brass": {
+        "correct_forms": ["gorgeous oval brass"],
+        "wrong_forms": ["oval gorgeous brass", "brass oval gorgeous", "brass gorgeous oval"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "elegant rectangular ivory": {
+        "correct_forms": ["elegant rectangular ivory"],
+        "wrong_forms": ["rectangular elegant ivory", "ivory rectangular elegant", "ivory elegant rectangular"],
+        "objects": [],
+        "distractor": "crude"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_SCIENCE_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.",
+  "example": "Scientists had never observed this phenomenon until the new telescope became operational.",
+  "explanation": "Use 'had never' + past participle to emphasize that something happened for the first time before a specific past event.",
+  "chunks": {
+    "SUBJ": ["scientists", "researchers", "the scientific community", "astronomers", "physicists", "biologists"],
+    "PAST_EVENT": ["the new telescope became operational", "the breakthrough occurred", "advanced technology emerged", "the experiment was conducted", "the discovery was made"],
+    "VERB": {
+      "observe": {
+        "correct_forms": ["had observed"],
+        "wrong_forms": ["have observed", "observed", "were observing"],
+        "objects": ["this phenomenon", "such clear evidence", "particles of this nature", "behavior like this"],
+        "distractor": "overlook"
+      },
+      "replicate": {
+        "correct_forms": ["had replicated"],
+        "wrong_forms": ["has replicated", "replicated", "was replicating"],
+        "objects": ["these results successfully", "the experiment", "such precise findings", "the conditions"],
+        "distractor": "falsify"
+      },
+      "demonstrate": {
+        "correct_forms": ["had demonstrated"],
+        "wrong_forms": ["have demonstrated", "demonstrated", "were demonstrating"],
+        "objects": ["this theory empirically", "such conclusive proof", "the mechanism", "causal relationships"],
+        "distractor": "disprove"
+      },
+      "detect": {
+        "correct_forms": ["had detected"],
+        "wrong_forms": ["has detected", "detected", "was detecting"],
+        "objects": ["signals of this nature", "such minute variations", "these biomarkers", "the anomaly"],
+        "distractor": "miss"
+      }
+    }
+  }
+}

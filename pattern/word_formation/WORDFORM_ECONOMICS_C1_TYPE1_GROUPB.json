@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_ECONOMICS_C1_TYPE1_GROUPB",
+  "focus": "prefix_multi_formation",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ corporations dominate global supply chains, wielding unprecedented economic influence.",
+  "example": "The multinational corporations dominate global supply chains, wielding unprecedented economic influence.",
+  "explanation": "The prefix 'multi-' means 'many' or 'multiple'. 'National' becomes 'multinational'.",
+  "chunks": {
+    "NOUN": ["supply chains", "markets", "trade networks", "financial systems"],
+    "VERB": {
+      "multinational": {
+        "correct_forms": ["multinational"],
+        "wrong_forms": ["national", "international", "uninational"],
+        "objects": [],
+        "distractor": "domestic"
+      },
+      "multidimensional": {
+        "correct_forms": ["multidimensional"],
+        "wrong_forms": ["dimensional", "unidimensional", "dimension"],
+        "objects": [],
+        "distractor": "simplistic"
+      },
+      "multifaceted": {
+        "correct_forms": ["multifaceted"],
+        "wrong_forms": ["faceted", "unfaceted", "facet"],
+        "objects": [],
+        "distractor": "straightforward"
+      },
+      "multilateral": {
+        "correct_forms": ["multilateral"],
+        "wrong_forms": ["lateral", "unilateral", "bilateral"],
+        "objects": [],
+        "distractor": "isolated"
+      }
+    }
+  }
+}

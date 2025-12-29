@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_DECISIONS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The decision was made by the manager.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the decision", "the choice", "the policy", "the budget", "the strategy", "the outcome"],
+    "AGENT": ["the manager", "the supervisor", "the president", "the council", "senior executives", "the team leader"],
+    "VERB": {
+      "make": {
+        "correct_forms": ["was made"],
+        "wrong_forms": ["were made", "is made", "has been made"],
+        "objects": [],
+        "distractor": "reversed"
+      },
+      "announce": {
+        "correct_forms": ["was announced"],
+        "wrong_forms": ["were announced", "is announced", "has been announced"],
+        "objects": [],
+        "distractor": "hidden"
+      },
+      "finalize": {
+        "correct_forms": ["was finalized"],
+        "wrong_forms": ["were finalized", "is finalized", "has been finalized"],
+        "objects": [],
+        "distractor": "postponed"
+      },
+      "confirm": {
+        "correct_forms": ["was confirmed"],
+        "wrong_forms": ["were confirmed", "is confirmed", "has been confirmed"],
+        "objects": [],
+        "distractor": "denied"
+      }
+    }
+  }
+}

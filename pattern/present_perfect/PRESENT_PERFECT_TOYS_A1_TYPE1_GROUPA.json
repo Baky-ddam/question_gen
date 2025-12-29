@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_TOYS_A1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "toys",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "We have played with Lego before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about experiences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "the kids", "my friends"],
+    "VERB": {
+      "play": {
+        "correct_forms": ["have played"],
+        "wrong_forms": ["has played", "had played", "played"],
+        "objects": ["with Lego", "with dolls", "with cars", "with blocks"],
+        "distractor": "break"
+      },
+      "build": {
+        "correct_forms": ["have built"],
+        "wrong_forms": ["has built", "had built", "built"],
+        "objects": ["a tower", "a house", "a castle", "a robot"],
+        "distractor": "destroy"
+      },
+      "try": {
+        "correct_forms": ["have tried"],
+        "wrong_forms": ["has tried", "had tried", "tried"],
+        "objects": ["the puzzle", "the game", "this toy", "the new set"],
+        "distractor": "break"
+      },
+      "open": {
+        "correct_forms": ["have opened"],
+        "wrong_forms": ["has opened", "had opened", "opened"],
+        "objects": ["a present", "a gift", "a surprise box", "the package"],
+        "distractor": "lose"
+      }
+    }
+  }
+}

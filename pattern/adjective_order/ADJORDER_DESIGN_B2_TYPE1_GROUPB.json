@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_DESIGN_B2_TYPE1_GROUPB",
+  "focus": "adjective_order_size_shape_material_design",
+  "level": "B2",
+  "domain": "design",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "The designer created a ____ {NOUN}.",
+  "example": "The designer created a large round wooden table.",
+  "explanation": "Size-Shape-Material order. 'Large round wooden' follows the correct sequence.",
+  "chunks": {
+    "NOUN": ["table", "mirror", "tray", "bowl"],
+    "VERB": {
+      "large round wooden": {
+        "correct_forms": ["large round wooden"],
+        "wrong_forms": ["round large wooden", "wooden round large", "wooden large round"],
+        "objects": [],
+        "distractor": "small"
+      },
+      "small square metal": {
+        "correct_forms": ["small square metal"],
+        "wrong_forms": ["square small metal", "metal square small", "metal small square"],
+        "objects": [],
+        "distractor": "large"
+      },
+      "tall rectangular glass": {
+        "correct_forms": ["tall rectangular glass"],
+        "wrong_forms": ["rectangular tall glass", "glass rectangular tall", "glass tall rectangular"],
+        "objects": [],
+        "distractor": "short"
+      }
+    }
+  }
+}

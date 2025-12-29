@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_BUSINESS_B2_TYPE2_GROUPA",
+  "focus": "prefix_over_formation",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The analysts believe the stock is currently ____ by investors.",
+  "example": "The analysts believe the stock is currently overvalued by investors.",
+  "explanation": "The prefix 'over-' means 'too much' or 'excessive'. 'Value' becomes 'overvalue' (value too highly).",
+  "chunks": {
+    "NOUN": ["investors", "traders", "analysts", "buyers"],
+    "VERB": {
+      "overvalued": {
+        "correct_forms": ["overvalued"],
+        "wrong_forms": ["valued", "undervalued", "misvalued"],
+        "objects": [],
+        "distractor": "underrated"
+      },
+      "overestimated": {
+        "correct_forms": ["overestimated"],
+        "wrong_forms": ["estimated", "underestimated", "misestimated"],
+        "objects": [],
+        "distractor": "undervalued"
+      },
+      "overpriced": {
+        "correct_forms": ["overpriced"],
+        "wrong_forms": ["priced", "underpriced", "mispriced"],
+        "objects": [],
+        "distractor": "bargain"
+      },
+      "oversold": {
+        "correct_forms": ["oversold"],
+        "wrong_forms": ["sold", "undersold", "missold"],
+        "objects": [],
+        "distractor": "available"
+      }
+    }
+  }
+}

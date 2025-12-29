@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_CAREERS_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_careers",
+  "level": "B2",
+  "domain": "careers",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {CAREER_CONDITION}, {SUBJ} would {CAREER_RESULT}.",
+  "example": "If they had better qualifications, they would get more job offers.",
+  "explanation": "Second conditional for career hypotheticals. 'Had' (past tense) in the if-clause expresses an unreal present situation.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the graduates", "the job seekers"],
+    "CAREER_CONDITION": ["better qualifications", "more experience", "stronger networks", "additional skills"],
+    "CAREER_RESULT": ["get more job offers", "earn higher salaries", "advance more quickly", "access better opportunities"],
+    "VERB": {
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "would have", "has"],
+        "objects": [],
+        "distractor": "lack"
+      },
+      "possessed": {
+        "correct_forms": ["possessed"],
+        "wrong_forms": ["possess", "would possess", "have possessed"],
+        "objects": [],
+        "distractor": "forfeit"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_TOURISM_A2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "tourism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "She was buying souvenirs when the shop closed.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for actions interrupted by another event in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "INTERRUPTION": [
+      "the shop closed",
+      "the rain started",
+      "the tour guide called",
+      "the bus arrived"
+    ],
+    "VERB": {
+      "buy": {
+        "correct_forms": ["was buying"],
+        "wrong_forms": ["were buying", "bought", "is buying"],
+        "objects": ["souvenirs", "postcards", "local crafts"],
+        "distractor": "reject"
+      },
+      "learn": {
+        "correct_forms": ["was learning"],
+        "wrong_forms": ["were learning", "learned", "is learning"],
+        "objects": ["about the history", "local customs", "the culture"],
+        "distractor": "neglect"
+      },
+      "photograph": {
+        "correct_forms": ["was photographing"],
+        "wrong_forms": ["were photographing", "photographed", "is photographing"],
+        "objects": ["the sunset", "the monuments", "the architecture"],
+        "distractor": "skip"
+      },
+      "try": {
+        "correct_forms": ["was trying"],
+        "wrong_forms": ["were trying", "tried", "is trying"],
+        "objects": ["local food", "traditional dishes", "street snacks"],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

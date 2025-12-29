@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_EDUCATION_B1_TYPE1_GROUPB",
+  "focus": "suffix_adjective_formation",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The lecture was very ____ for the exam.",
+  "example": "The lecture was very helpful for the exam.",
+  "explanation": "The suffix '-ful' transforms nouns into adjectives meaning 'full of'. 'Help' becomes 'helpful'.",
+  "chunks": {
+    "NOUN": ["exam", "test", "assignment", "project"],
+    "VERB": {
+      "helpful": {
+        "correct_forms": ["helpful"],
+        "wrong_forms": ["help", "helping", "helped"],
+        "objects": [],
+        "distractor": "useless"
+      },
+      "useful": {
+        "correct_forms": ["useful"],
+        "wrong_forms": ["use", "using", "used"],
+        "objects": [],
+        "distractor": "worthless"
+      },
+      "successful": {
+        "correct_forms": ["successful"],
+        "wrong_forms": ["success", "succeed", "succeeding"],
+        "objects": [],
+        "distractor": "unsuccessful"
+      },
+      "meaningful": {
+        "correct_forms": ["meaningful"],
+        "wrong_forms": ["mean", "meaning", "meant"],
+        "objects": [],
+        "distractor": "meaningless"
+      }
+    }
+  }
+}

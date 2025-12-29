@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_CAREER_B1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "I plan to change careers in the future.",
+  "explanation": "Some verbs require infinitives (to + verb). Use infinitives after: want, plan, hope, decide, need, promise, agree, expect.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["plan", "hope", "decide", "want", "expect"],
+    "VERB": {
+      "change": {
+        "correct_forms": ["to change"],
+        "wrong_forms": ["changing", "change", "changes"],
+        "objects": ["careers", "jobs", "industries", "positions"],
+        "distractor": "to quit"
+      },
+      "start": {
+        "correct_forms": ["to start"],
+        "wrong_forms": ["starting", "start", "starts"],
+        "objects": ["a business", "a new project", "a company", "freelancing"],
+        "distractor": "to abandon"
+      },
+      "apply": {
+        "correct_forms": ["to apply"],
+        "wrong_forms": ["applying", "apply", "applies"],
+        "objects": ["for a promotion", "for new jobs", "for positions", "to companies"],
+        "distractor": "to withdraw"
+      },
+      "develop": {
+        "correct_forms": ["to develop"],
+        "wrong_forms": ["developing", "develop", "develops"],
+        "objects": ["new skills", "expertise", "professional networks", "leadership abilities"],
+        "distractor": "to neglect"
+      }
+    },
+    "CONTEXT": ["in the future", "next year", "soon", "eventually", "at some point"]
+  }
+}

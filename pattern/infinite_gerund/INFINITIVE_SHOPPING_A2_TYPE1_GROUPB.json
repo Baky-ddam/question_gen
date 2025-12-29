@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_SHOPPING_A2_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "A2",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "She wants to buy new clothes this weekend.",
+  "explanation": "Some verbs are followed by infinitives (to + verb). Common verbs: want, need, like, plan, hope.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "my mom"],
+    "MAINVERB": ["wants", "needs", "likes", "plans", "hopes"],
+    "VERB": {
+      "buy": {
+        "correct_forms": ["to buy"],
+        "wrong_forms": ["buying", "buy", "bought"],
+        "objects": ["new clothes", "shoes", "a new bag", "groceries"],
+        "distractor": "to waste"
+      },
+      "get": {
+        "correct_forms": ["to get"],
+        "wrong_forms": ["getting", "get", "got"],
+        "objects": ["a discount", "a good deal", "something special", "a present"],
+        "distractor": "to lose"
+      },
+      "return": {
+        "correct_forms": ["to return"],
+        "wrong_forms": ["returning", "return", "returned"],
+        "objects": ["the item", "the shoes", "the dress", "the purchase"],
+        "distractor": "to keep"
+      },
+      "order": {
+        "correct_forms": ["to order"],
+        "wrong_forms": ["ordering", "order", "ordered"],
+        "objects": ["online", "from the website", "a new laptop", "some books"],
+        "distractor": "to cancel"
+      }
+    },
+    "TIME": ["this weekend", "today", "tomorrow", "next month"]
+  }
+}

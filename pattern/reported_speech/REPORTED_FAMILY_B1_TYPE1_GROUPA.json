@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FAMILY_B1_TYPE1_GROUPA",
+  "focus": "reported_speech_family_past",
+  "level": "B1",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FAMILY_MEMBER} said that {SUBJ} ____ {FAMILY_CONTENT}.",
+  "example": "My mother said that we were going to visit grandma next weekend.",
+  "explanation": "In reported speech, 'are going' becomes 'were going'. Future plans with 'going to' shift to past.",
+  "chunks": {
+    "FAMILY_MEMBER": ["My mother", "My father", "My parents", "My grandmother"],
+    "SUBJ": ["we", "they", "the kids", "the whole family"],
+    "FAMILY_CONTENT": ["going to visit grandma next weekend", "planning a family dinner", "organizing a birthday party", "moving to a new house"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["are", "have been", "will be"],
+        "objects": [],
+        "distractor": "forget"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "has", "are"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

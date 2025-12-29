@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_EVENTS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The wedding was planned by a professional organizer.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the wedding", "the party", "the event", "the festival", "the exhibition", "the ceremony"],
+    "AGENT": ["a professional organizer", "the family", "the company", "the venue manager", "the sponsors", "the hosts"],
+    "VERB": {
+      "plan": {
+        "correct_forms": ["was planned"],
+        "wrong_forms": ["were planned", "is planned", "has been planned"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "celebrate": {
+        "correct_forms": ["was celebrated"],
+        "wrong_forms": ["were celebrated", "is celebrated", "has been celebrated"],
+        "objects": [],
+        "distractor": "forgotten"
+      },
+      "announce": {
+        "correct_forms": ["was announced"],
+        "wrong_forms": ["were announced", "is announced", "has been announced"],
+        "objects": [],
+        "distractor": "hidden"
+      },
+      "coordinate": {
+        "correct_forms": ["was coordinated"],
+        "wrong_forms": ["were coordinated", "is coordinated", "has been coordinated"],
+        "objects": [],
+        "distractor": "neglected"
+      }
+    }
+  }
+}

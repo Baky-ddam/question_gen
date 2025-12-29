@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_POLICY_C1_MIXED_GROUPA",
+  "focus": "conditional_mixed_past_present",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If the government ____ {PAST_POLICY}, the economy would {PRESENT_RESULT} today.",
+  "example": "If the government had implemented stricter regulations, the economy would be more stable today.",
+  "explanation": "Mixed conditional: past condition (had + pp) with present result (would + base). The past action affects the current situation.",
+  "chunks": {
+    "PAST_POLICY": ["implemented stricter regulations", "invested in infrastructure", "reformed the tax system", "prioritized education"],
+    "PRESENT_RESULT": ["be more stable", "be in a stronger position", "be experiencing growth", "be better prepared"],
+    "VERB": {
+      "had implemented": {
+        "correct_forms": ["had implemented"],
+        "wrong_forms": ["implemented", "has implemented", "would implement"],
+        "objects": [],
+        "distractor": "repeal"
+      },
+      "had invested": {
+        "correct_forms": ["had invested"],
+        "wrong_forms": ["invested", "has invested", "would invest"],
+        "objects": [],
+        "distractor": "squander"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_KITCHEN_A1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "kitchen",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "Mom was cooking dinner last night.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "mom", "dad", "my sister"],
+    "TIME": ["last night", "this morning", "yesterday", "at lunchtime"],
+    "VERB": {
+      "cook": {
+        "correct_forms": ["was cooking"],
+        "wrong_forms": ["were cooking", "cooked", "is cooking"],
+        "objects": ["dinner", "breakfast", "lunch", "some food"],
+        "distractor": "burn"
+      },
+      "eat": {
+        "correct_forms": ["was eating"],
+        "wrong_forms": ["were eating", "ate", "is eating"],
+        "objects": ["breakfast", "lunch", "an apple", "some cake"],
+        "distractor": "waste"
+      },
+      "wash": {
+        "correct_forms": ["was washing"],
+        "wrong_forms": ["were washing", "washed", "is washing"],
+        "objects": ["the dishes", "the plates", "the cups", "a pan"],
+        "distractor": "break"
+      },
+      "make": {
+        "correct_forms": ["was making"],
+        "wrong_forms": ["were making", "made", "is making"],
+        "objects": ["a cake", "some tea", "breakfast", "coffee"],
+        "distractor": "forget"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_AWARDS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "awards",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The winners were selected by the jury.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the winners", "the nominees", "the candidates", "the finalists", "the recipients", "the honorees"],
+    "AGENT": ["the jury", "the committee", "industry experts", "the judges", "public votes", "the selection panel"],
+    "VERB": {
+      "select": {
+        "correct_forms": ["were selected"],
+        "wrong_forms": ["was selected", "are selected", "have been selected"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "nominate": {
+        "correct_forms": ["were nominated"],
+        "wrong_forms": ["was nominated", "are nominated", "have been nominated"],
+        "objects": [],
+        "distractor": "disqualified"
+      },
+      "honor": {
+        "correct_forms": ["were honored"],
+        "wrong_forms": ["was honored", "are honored", "have been honored"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "recognize": {
+        "correct_forms": ["were recognized"],
+        "wrong_forms": ["was recognized", "are recognized", "have been recognized"],
+        "objects": [],
+        "distractor": "overlooked"
+      }
+    }
+  }
+}

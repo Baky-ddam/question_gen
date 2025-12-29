@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_SHOULD_WORK_B1_TYPE1_ALL",
+  "focus": "modal_should",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PURPOSE}.",
+  "example": "You should communicate clearly to avoid misunderstandings.",
+  "explanation": "Use 'should' + base verb to give professional advice or recommendations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "to avoid misunderstandings",
+      "to meet deadlines",
+      "to improve productivity",
+      "to achieve success"
+    ],
+    "VERB": {
+      "communicate": {
+        "correct_forms": [
+          "should communicate"
+        ],
+        "wrong_forms": [
+          "must communicate",
+          "can communicate",
+          "could communicate"
+        ],
+        "objects": [
+          "clearly",
+          "with colleagues",
+          "effectively"
+        ],
+        "distractor": "dismiss"
+      },
+      "prioritize": {
+        "correct_forms": [
+          "should prioritize"
+        ],
+        "wrong_forms": [
+          "must prioritize",
+          "can prioritize",
+          "could prioritize"
+        ],
+        "objects": [
+          "important tasks",
+          "urgent matters",
+          "key projects"
+        ],
+        "distractor": "neglect"
+      },
+      "delegate": {
+        "correct_forms": [
+          "should delegate"
+        ],
+        "wrong_forms": [
+          "must delegate",
+          "can delegate",
+          "could delegate"
+        ],
+        "objects": [
+          "tasks appropriately",
+          "responsibilities",
+          "work efficiently"
+        ],
+        "distractor": "abandon"
+      },
+      "plan": {
+        "correct_forms": [
+          "should plan"
+        ],
+        "wrong_forms": [
+          "must plan",
+          "can plan",
+          "could plan"
+        ],
+        "objects": [
+          "ahead",
+          "carefully",
+          "strategically"
+        ],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

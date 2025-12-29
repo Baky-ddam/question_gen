@@ -1,0 +1,45 @@
+{
+  "pattern_id": "PHRASAL_ACADEMIA_C1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_inseparable",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {TOPIC} {CONTEXT}, thereby {ACADEMIC_CONTRIBUTION}.",
+  "example": "We delve into the theoretical framework extensively, thereby advancing scholarly discourse.",
+  "explanation": "These phrasal verbs are used in academic and research contexts. They describe investigation, analysis, and scholarly contribution.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the researchers"],
+    "TOPIC": ["the theoretical framework", "the empirical evidence", "the methodology", "the underlying assumptions"],
+    "CONTEXT": ["extensively", "systematically", "critically", "comprehensively", "rigorously"],
+    "ACADEMIC_CONTRIBUTION": ["advancing scholarly discourse", "challenging existing paradigms", "generating novel insights", "establishing new frameworks", "contributing to the literature"],
+    "VERB": {
+      "delve into": {
+        "correct_forms": ["delve into"],
+        "wrong_forms": ["delve on", "delve at", "delve for"],
+        "objects": [],
+        "distractor": "overlook"
+      },
+      "touch on": {
+        "correct_forms": ["touch on"],
+        "wrong_forms": ["touch at", "touch in", "touch for"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "draw on": {
+        "correct_forms": ["draw on"],
+        "wrong_forms": ["draw at", "draw in", "draw for"],
+        "objects": [],
+        "distractor": "dismiss"
+      },
+      "build on": {
+        "correct_forms": ["build on"],
+        "wrong_forms": ["build at", "build in", "build for"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

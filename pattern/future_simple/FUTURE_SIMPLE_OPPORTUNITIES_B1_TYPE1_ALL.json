@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_OPPORTUNITIES_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "opportunities",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If you apply early, you will get the opportunity.",
+  "explanation": "Future simple uses 'will + base verb' to predict outcomes of seizing opportunities in first conditional sentences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "get": {
+        "correct_forms": ["will get"],
+        "wrong_forms": ["gets", "is going to get", "would get"],
+        "objects": ["the opportunity", "the job", "a promotion"],
+        "distractor": "lose"
+      },
+      "seize": {
+        "correct_forms": ["will seize"],
+        "wrong_forms": ["seizes", "is going to seize", "would seize"],
+        "objects": ["the chance", "the moment", "the opportunity"],
+        "distractor": "overlook"
+      },
+      "open": {
+        "correct_forms": ["will open"],
+        "wrong_forms": ["opens", "is going to open", "would open"],
+        "objects": ["new doors", "possibilities", "pathways"],
+        "distractor": "cancel"
+      },
+      "create": {
+        "correct_forms": ["will create"],
+        "wrong_forms": ["creates", "is going to create", "would create"],
+        "objects": ["new chances", "options", "advantages"],
+        "distractor": "neglect"
+      }
+    },
+    "CONDITION": ["you apply early", "I network actively", "she takes risks", "we prepare well", "they stay motivated", "he remains focused"]
+  }
+}

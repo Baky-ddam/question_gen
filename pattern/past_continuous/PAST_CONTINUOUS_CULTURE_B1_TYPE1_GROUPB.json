@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_CULTURE_B1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "culture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "when_interruption"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "I was learning traditional pottery when the master artisan offered personal guidance.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for past ongoing actions interrupted by another event.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "INTERRUPTION": [
+      "the master artisan offered personal guidance",
+      "the tour guide shared a fascinating story",
+      "a local elder began explaining the traditions",
+      "the museum curator approached with more information"
+    ],
+    "VERB": {
+      "learn": {
+        "correct_forms": ["was learning"],
+        "wrong_forms": ["were learning", "learned", "is learning"],
+        "objects": ["traditional pottery", "folk dancing techniques", "calligraphy styles", "ancient cooking methods"],
+        "distractor": "abandon"
+      },
+      "practice": {
+        "correct_forms": ["was practicing"],
+        "wrong_forms": ["were practicing", "practiced", "is practicing"],
+        "objects": ["traditional music instruments", "ceremonial rituals", "martial arts movements", "meditation techniques"],
+        "distractor": "neglect"
+      },
+      "observe": {
+        "correct_forms": ["was observing"],
+        "wrong_forms": ["were observing", "observed", "is observing"],
+        "objects": ["religious ceremonies", "traditional craftsmanship", "cultural celebrations", "ancestral rituals"],
+        "distractor": "dismiss"
+      },
+      "document": {
+        "correct_forms": ["was documenting"],
+        "wrong_forms": ["were documenting", "documented", "is documenting"],
+        "objects": ["oral traditions", "endangered customs", "traditional recipes", "historical practices"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

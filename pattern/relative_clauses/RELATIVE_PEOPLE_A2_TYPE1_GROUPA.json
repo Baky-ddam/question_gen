@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_PEOPLE_A2_TYPE1_GROUPA",
+  "focus": "relative_clause_who",
+  "level": "A2",
+  "domain": "people",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PERSON} ____ {ACTION} is {DESCRIPTION}.",
+  "example": "The teacher who helped me is very kind.",
+  "explanation": "We use 'who' to give more information about people. 'Who' refers back to the person mentioned before it.",
+  "chunks": {
+    "PERSON": ["teacher", "doctor", "friend", "neighbor"],
+    "ACTION": ["helped me", "lives next door", "works here", "called yesterday"],
+    "DESCRIPTION": ["very kind", "my uncle", "from Spain", "really nice"],
+    "VERB": {
+      "who": {
+        "correct_forms": ["who"],
+        "wrong_forms": ["which", "where", "what"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

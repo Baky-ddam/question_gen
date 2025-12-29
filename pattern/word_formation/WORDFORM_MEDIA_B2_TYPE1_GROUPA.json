@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_MEDIA_B2_TYPE1_GROUPA",
+  "focus": "suffix_ship_formation",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of the newspaper has declined in recent years.",
+  "example": "The readership of the newspaper has declined in recent years.",
+  "explanation": "The suffix '-ship' transforms nouns into abstract nouns indicating status or condition.",
+  "chunks": {
+    "NOUN": ["newspaper", "magazine", "publication", "journal"],
+    "VERB": {
+      "readership": {
+        "correct_forms": ["readership"],
+        "wrong_forms": ["reader", "reading", "readable"],
+        "objects": [],
+        "distractor": "obscurity"
+      },
+      "viewership": {
+        "correct_forms": ["viewership"],
+        "wrong_forms": ["viewer", "viewing", "viewable"],
+        "objects": [],
+        "distractor": "anonymity"
+      },
+      "ownership": {
+        "correct_forms": ["ownership"],
+        "wrong_forms": ["owner", "owning", "owned"],
+        "objects": [],
+        "distractor": "abandonment"
+      },
+      "membership": {
+        "correct_forms": ["membership"],
+        "wrong_forms": ["member", "membering", "membered"],
+        "objects": [],
+        "distractor": "exclusion"
+      }
+    }
+  }
+}

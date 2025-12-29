@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_STRATEGIES_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "strategies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The company will implement new strategies because competition is intensifying.",
+  "explanation": "Future simple uses 'will + base verb' for strategic predictions with reasoning at the B2 level.",
+  "chunks": {
+    "SUBJ": ["The company", "Management", "The team", "Leaders", "The organization", "Executives"],
+    "VERB": {
+      "implement": {
+        "correct_forms": ["will implement"],
+        "wrong_forms": ["implements", "is going to implement", "would implement"],
+        "objects": ["new strategies", "the plan", "changes"],
+        "distractor": "obstruct"
+      },
+      "adopt": {
+        "correct_forms": ["will adopt"],
+        "wrong_forms": ["adopts", "is going to adopt", "would adopt"],
+        "objects": ["a new approach", "innovative methods", "best practices"],
+        "distractor": "disregard"
+      },
+      "restructure": {
+        "correct_forms": ["will restructure"],
+        "wrong_forms": ["restructures", "is going to restructure", "would restructure"],
+        "objects": ["operations", "the department", "the workflow"],
+        "distractor": "impede"
+      },
+      "launch": {
+        "correct_forms": ["will launch"],
+        "wrong_forms": ["launches", "is going to launch", "would launch"],
+        "objects": ["a new initiative", "the campaign", "the program"],
+        "distractor": "cancel"
+      }
+    },
+    "REASON": ["competition is intensifying", "the market is changing", "costs need to be reduced", "efficiency must improve", "customer demands are evolving", "technology is advancing"]
+  }
+}

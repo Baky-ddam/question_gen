@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_CLOTHING_B1_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_color",
+  "level": "B1",
+  "domain": "clothing",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "She bought a ____ {NOUN}.",
+  "example": "She bought a beautiful red dress.",
+  "explanation": "When using multiple adjectives, opinion comes before color. OSASCOMP order: Opinion-Size-Age-Shape-Color-Origin-Material-Purpose.",
+  "chunks": {
+    "NOUN": ["dress", "jacket", "scarf", "sweater"],
+    "VERB": {
+      "beautiful red": {
+        "correct_forms": ["beautiful red"],
+        "wrong_forms": ["red beautiful", "red and beautiful", "beautiful and red"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "lovely blue": {
+        "correct_forms": ["lovely blue"],
+        "wrong_forms": ["blue lovely", "blue and lovely", "lovely and blue"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "nice green": {
+        "correct_forms": ["nice green"],
+        "wrong_forms": ["green nice", "green and nice", "nice and green"],
+        "objects": [],
+        "distractor": "awful"
+      }
+    }
+  }
+}

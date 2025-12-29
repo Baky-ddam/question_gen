@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_RESEARCH_B2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ to {PURPOSE}.",
+  "example": "Researchers recommend using larger sample sizes to ensure statistical validity.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Academic verbs with gerunds: recommend, suggest, consider, involve, require, justify.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "researchers", "scientists", "academics"],
+    "MAINVERB": ["recommend", "suggest", "consider", "involve", "justify"],
+    "VERB": {
+      "use": {
+        "correct_forms": ["using"],
+        "wrong_forms": ["to use", "use", "uses"],
+        "objects": ["larger sample sizes", "advanced methodologies", "control groups", "multiple data sources"],
+        "distractor": "ignoring"
+      },
+      "analyze": {
+        "correct_forms": ["analyzing"],
+        "wrong_forms": ["to analyze", "analyze", "analyzes"],
+        "objects": ["the data thoroughly", "multiple variables", "statistical patterns", "research outcomes"],
+        "distractor": "overlooking"
+      },
+      "replicate": {
+        "correct_forms": ["replicating"],
+        "wrong_forms": ["to replicate", "replicate", "replicates"],
+        "objects": ["the study", "the experiment", "previous findings", "the methodology"],
+        "distractor": "falsifying"
+      },
+      "document": {
+        "correct_forms": ["documenting"],
+        "wrong_forms": ["to document", "document", "documents"],
+        "objects": ["all procedures", "research methods", "findings", "limitations"],
+        "distractor": "concealing"
+      }
+    },
+    "PURPOSE": ["ensure statistical validity", "maintain research integrity", "strengthen conclusions", "improve reliability", "support findings"]
+  }
+}

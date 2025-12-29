@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_MUSIC_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "music",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "He can play the guitar.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "can play"
+        ],
+        "wrong_forms": [
+          "could play",
+          "must play",
+          "should play"
+        ],
+        "distractor": "break",
+        "objects": [
+          "the guitar",
+          "the piano",
+          "the violin"
+        ]
+      },
+      "sing": {
+        "correct_forms": [
+          "can sing"
+        ],
+        "wrong_forms": [
+          "could sing",
+          "must sing",
+          "should sing"
+        ],
+        "distractor": "stop",
+        "objects": [
+          "pop songs",
+          "opera",
+          "very well"
+        ]
+      },
+      "dance": {
+        "correct_forms": [
+          "can dance"
+        ],
+        "wrong_forms": [
+          "could dance",
+          "must dance",
+          "should dance"
+        ],
+        "distractor": "hate",
+        "objects": [
+          "salsa",
+          "hip-hop",
+          "ballet"
+        ]
+      },
+      "compose": {
+        "correct_forms": [
+          "can compose"
+        ],
+        "wrong_forms": [
+          "could compose",
+          "must compose",
+          "should compose"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "music",
+          "songs",
+          "melodies"
+        ]
+      }
+    }
+  }
+}

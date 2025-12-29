@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_HEALTH_B1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {COMPLETION_MARKER} {OBJ}.",
+  "example": "She has recently improved her fitness level.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to describe recent health achievements or changes. 'Already', 'just', 'recently' emphasize recent completion.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my trainer",
+      "the athlete"
+    ],
+    "COMPLETION_MARKER": [
+      "already",
+      "just",
+      "recently",
+      "finally"
+    ],
+    "VERB": {
+      "improve": {
+        "correct_forms": [
+          "has improved"
+        ],
+        "wrong_forms": [
+          "have improved",
+          "had improved",
+          "improved"
+        ],
+        "objects": [
+          "overall fitness",
+          "eating habits",
+          "sleep quality",
+          "mental wellbeing"
+        ],
+        "distractor": "neglect"
+      },
+      "achieve": {
+        "correct_forms": [
+          "has achieved"
+        ],
+        "wrong_forms": [
+          "have achieved",
+          "had achieved",
+          "achieved"
+        ],
+        "objects": [
+          "the weight goal",
+          "better stamina",
+          "a healthier lifestyle",
+          "remarkable progress"
+        ],
+        "distractor": "abandon"
+      },
+      "complete": {
+        "correct_forms": [
+          "has completed"
+        ],
+        "wrong_forms": [
+          "have completed",
+          "had completed",
+          "completed"
+        ],
+        "objects": [
+          "the marathon training",
+          "a fitness challenge",
+          "the recovery program",
+          "a wellness course"
+        ],
+        "distractor": "cancel"
+      },
+      "overcome": {
+        "correct_forms": [
+          "has overcome"
+        ],
+        "wrong_forms": [
+          "have overcome",
+          "had overcome",
+          "overcame"
+        ],
+        "objects": [
+          "health challenges",
+          "old injuries",
+          "poor habits",
+          "fitness obstacles"
+        ],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

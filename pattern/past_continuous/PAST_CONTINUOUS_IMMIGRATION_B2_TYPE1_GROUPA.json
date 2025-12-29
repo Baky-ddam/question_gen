@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_IMMIGRATION_B2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "immigration",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "duration_reason", "because_clause"],
+  "template": "{SUBJ} ____ {OBJ} all {DURATION} because {REASON}.",
+  "example": "They were processing the visa applications all day because new international regulations required enhanced verification procedures.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for extended immigration activities with explanatory reasons.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "DURATION": [
+      "day",
+      "week",
+      "morning",
+      "shift"
+    ],
+    "REASON": [
+      "new international regulations required enhanced verification procedures",
+      "diplomatic agreements mandated expedited processing protocols",
+      "security concerns necessitated thorough background assessments",
+      "administrative backlogs demanded overtime authorization"
+    ],
+    "VERB": {
+      "process": {
+        "correct_forms": ["were processing"],
+        "wrong_forms": ["was processing", "processed", "are processing"],
+        "objects": ["the visa applications", "the asylum requests", "the residency petitions", "the citizenship documents"],
+        "distractor": "disregard"
+      },
+      "review": {
+        "correct_forms": ["were reviewing"],
+        "wrong_forms": ["was reviewing", "reviewed", "are reviewing"],
+        "objects": ["the travel documentation", "the background checks", "the sponsorship records", "the financial statements"],
+        "distractor": "overlook"
+      },
+      "verify": {
+        "correct_forms": ["were verifying"],
+        "wrong_forms": ["was verifying", "verified", "are verifying"],
+        "objects": ["the identity credentials", "the employment histories", "the criminal records", "the medical certifications"],
+        "distractor": "circumvent"
+      },
+      "evaluate": {
+        "correct_forms": ["were evaluating"],
+        "wrong_forms": ["was evaluating", "evaluated", "are evaluating"],
+        "objects": ["the eligibility criteria", "the integration requirements", "the language proficiency", "the accommodation arrangements"],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

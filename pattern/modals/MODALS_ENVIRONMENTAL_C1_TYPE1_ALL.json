@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_ENVIRONMENTAL_C1_TYPE1_ALL",
+  "focus": "modal_obligation",
+  "level": "C1",
+  "domain": "environmental",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must",
+    "modal_should",
+    "modal_could"
+  ],
+  "template": "While {CONTRAST}, {SUBJ} ____ {OBJ}.",
+  "example": "While economic pressures mount, governments must address escalating environmental degradation.",
+  "explanation": "Use modals (must/should/could) in contrast structures to express environmental obligation or mitigation possibilities despite competing priorities.",
+  "chunks": {
+    "SUBJ": [
+      "Environmental agencies",
+      "Climate scientists",
+      "Conservation authorities",
+      "Sustainability experts",
+      "Ecological researchers",
+      "Environmental policymakers"
+    ],
+    "CONTRAST": [
+      "industrial development accelerates globally",
+      "economic growth remains the priority",
+      "fossil fuel dependency persists",
+      "consumption patterns continue unchecked"
+    ],
+    "VERB": {
+      "address": {
+        "correct_forms": [
+          "must address"
+        ],
+        "wrong_forms": [
+          "should addresses",
+          "must addressing",
+          "could addressed"
+        ],
+        "objects": [
+          "accelerating biodiversity loss",
+          "escalating climate emergencies",
+          "unprecedented ecosystem degradation",
+          "critical habitat destruction"
+        ],
+        "distractor": "forsake"
+      },
+      "prioritize": {
+        "correct_forms": [
+          "should prioritize"
+        ],
+        "wrong_forms": [
+          "must prioritizes",
+          "should prioritizing",
+          "could prioritized"
+        ],
+        "objects": [
+          "sustainable development pathways",
+          "renewable energy transitions",
+          "carbon neutrality objectives",
+          "ecological restoration initiatives"
+        ],
+        "distractor": "obliterate"
+      },
+      "mitigate": {
+        "correct_forms": [
+          "could mitigate"
+        ],
+        "wrong_forms": [
+          "might mitigates",
+          "could mitigating",
+          "should mitigated"
+        ],
+        "objects": [
+          "anthropogenic climate impacts",
+          "irreversible environmental damage",
+          "catastrophic ecosystem collapse",
+          "accelerating species extinction"
+        ],
+        "distractor": "renounce"
+      },
+      "implement": {
+        "correct_forms": [
+          "must implement"
+        ],
+        "wrong_forms": [
+          "should implements",
+          "must implementing",
+          "could implemented"
+        ],
+        "objects": [
+          "comprehensive conservation strategies",
+          "transformative sustainability policies",
+          "rigorous environmental protections",
+          "evidence-based climate interventions"
+        ],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

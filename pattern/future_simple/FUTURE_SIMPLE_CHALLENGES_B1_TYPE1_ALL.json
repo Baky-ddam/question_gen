@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_CHALLENGES_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "challenges",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "If {CONDITION}, {SUBJ} ____ {OBJ}.",
+  "example": "If we work together, we will overcome the challenge.",
+  "explanation": "Future simple uses 'will + base verb' to predict outcomes of facing challenges in first conditional sentences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the team"],
+    "VERB": {
+      "overcome": {
+        "correct_forms": ["will overcome"],
+        "wrong_forms": ["overcomes", "is going to overcome", "would overcome"],
+        "objects": ["the challenge", "difficulties", "obstacles"],
+        "distractor": "abandon"
+      },
+      "solve": {
+        "correct_forms": ["will solve"],
+        "wrong_forms": ["solves", "is going to solve", "would solve"],
+        "objects": ["the problem", "the issue", "the crisis"],
+        "distractor": "neglect"
+      },
+      "face": {
+        "correct_forms": ["will face"],
+        "wrong_forms": ["faces", "is going to face", "would face"],
+        "objects": ["the situation", "adversity", "the challenge"],
+        "distractor": "avoid"
+      },
+      "handle": {
+        "correct_forms": ["will handle"],
+        "wrong_forms": ["handles", "is going to handle", "would handle"],
+        "objects": ["the pressure", "the difficulty", "the situation"],
+        "distractor": "ignore"
+      }
+    },
+    "CONDITION": ["we work together", "I stay determined", "she asks for help", "they plan carefully", "you remain calm", "he perseveres"]
+  }
+}

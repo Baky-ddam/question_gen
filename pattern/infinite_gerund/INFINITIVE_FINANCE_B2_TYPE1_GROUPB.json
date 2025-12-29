@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_FINANCE_B2_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "B2",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____, which {CONSEQUENCE}.",
+  "example": "The fund manager decides to reallocate assets, which should optimize returns.",
+  "explanation": "Some verbs require infinitives (to + verb). Financial verbs with infinitives: decide, plan, expect, agree, refuse, promise.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the fund manager", "the CFO", "the advisor"],
+    "MAINVERB": ["decides", "plans", "expects", "agrees", "refuses"],
+    "VERB": {
+      "reallocate": {
+        "correct_forms": ["to reallocate"],
+        "wrong_forms": ["reallocating", "reallocate", "reallocates"],
+        "objects": ["assets", "resources", "capital", "funds"],
+        "distractor": "to misallocate"
+      },
+      "restructure": {
+        "correct_forms": ["to restructure"],
+        "wrong_forms": ["restructuring", "restructure", "restructures"],
+        "objects": ["debt", "the portfolio", "investments", "the fund"],
+        "distractor": "to default"
+      },
+      "liquidate": {
+        "correct_forms": ["to liquidate"],
+        "wrong_forms": ["liquidating", "liquidate", "liquidates"],
+        "objects": ["positions", "assets", "holdings", "investments"],
+        "distractor": "to hold"
+      },
+      "capitalize": {
+        "correct_forms": ["to capitalize"],
+        "wrong_forms": ["capitalizing", "capitalize", "capitalizes"],
+        "objects": ["on opportunities", "on market trends", "on growth potential", "on favorable conditions"],
+        "distractor": "to miss"
+      }
+    },
+    "CONSEQUENCE": ["should optimize returns", "may reduce exposure", "could minimize losses", "would improve liquidity", "might enhance performance"]
+  }
+}

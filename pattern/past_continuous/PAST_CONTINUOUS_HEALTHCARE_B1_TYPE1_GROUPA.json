@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_HEALTHCARE_B1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "healthcare",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "when_interruption"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "We were examining the patient when the emergency alarm went off.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing past actions interrupted by another event.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "INTERRUPTION": [
+      "the emergency alarm went off",
+      "the doctor arrived",
+      "the test results came in",
+      "the patient woke up"
+    ],
+    "VERB": {
+      "examine": {
+        "correct_forms": ["were examining"],
+        "wrong_forms": ["was examining", "examined", "are examining"],
+        "objects": ["the patient", "the medical records", "the X-ray results", "the blood samples"],
+        "distractor": "neglect"
+      },
+      "monitor": {
+        "correct_forms": ["were monitoring"],
+        "wrong_forms": ["was monitoring", "monitored", "are monitoring"],
+        "objects": ["the patient's vital signs", "the heart rate", "the blood pressure", "the oxygen levels"],
+        "distractor": "overlook"
+      },
+      "prepare": {
+        "correct_forms": ["were preparing"],
+        "wrong_forms": ["was preparing", "prepared", "are preparing"],
+        "objects": ["the medication", "the surgical equipment", "the treatment plan", "the hospital room"],
+        "distractor": "abandon"
+      },
+      "discuss": {
+        "correct_forms": ["were discussing"],
+        "wrong_forms": ["was discussing", "discussed", "are discussing"],
+        "objects": ["the diagnosis", "the treatment options", "the patient's condition", "the recovery plan"],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_HEALTHCARE_B2_TYPE1_GROUPB",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "healthcare",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Telemedicine is promoted because it improves access to healthcare.",
+  "explanation": "Use 'is' + past participle with singular subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["telemedicine", "preventive care", "mental health support", "personalized medicine", "health education", "early screening"],
+    "REASON": ["it improves access to healthcare", "early intervention saves lives", "costs can be reduced", "patient satisfaction increases", "outcomes improve significantly", "technology makes it possible"],
+    "VERB": {
+      "promote": {
+        "correct_forms": ["is promoted"],
+        "wrong_forms": ["are promoted", "was promoted", "has been promoted"],
+        "objects": [],
+        "distractor": "discouraged"
+      },
+      "encourage": {
+        "correct_forms": ["is encouraged"],
+        "wrong_forms": ["are encouraged", "was encouraged", "has been encouraged"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "prioritize": {
+        "correct_forms": ["is prioritized"],
+        "wrong_forms": ["are prioritized", "was prioritized", "has been prioritized"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "fund": {
+        "correct_forms": ["is funded"],
+        "wrong_forms": ["are funded", "was funded", "has been funded"],
+        "objects": [],
+        "distractor": "cut"
+      }
+    }
+  }
+}

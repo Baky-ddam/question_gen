@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_HEALTH_B1_TYPE1_GROUPA",
+  "focus": "suffix_ity_formation",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "Regular exercise improves your ____ significantly.",
+  "example": "Regular exercise improves your ability significantly.",
+  "explanation": "The suffix '-ity' transforms adjectives into nouns. 'Able' becomes 'ability' (the state of being able).",
+  "chunks": {
+    "NOUN": ["significantly", "greatly", "considerably", "remarkably"],
+    "VERB": {
+      "ability": {
+        "correct_forms": ["ability"],
+        "wrong_forms": ["able", "abled", "ably"],
+        "objects": [],
+        "distractor": "inability"
+      },
+      "flexibility": {
+        "correct_forms": ["flexibility"],
+        "wrong_forms": ["flexible", "flexibled", "flexibly"],
+        "objects": [],
+        "distractor": "stiffness"
+      },
+      "activity": {
+        "correct_forms": ["activity"],
+        "wrong_forms": ["active", "actived", "actively"],
+        "objects": [],
+        "distractor": "inactivity"
+      },
+      "mobility": {
+        "correct_forms": ["mobility"],
+        "wrong_forms": ["mobile", "mobiled", "mobily"],
+        "objects": [],
+        "distractor": "immobility"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pattern_id": "PHRASAL_INNOVATION_C1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "C1",
+  "domain": "innovation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "As {TREND} accelerates, {SUBJ} ____ {NOUN}, thereby {INNOVATION_OUTCOME}.",
+  "example": "As digital transformation accelerates, we roll out the new platform, thereby disrupting traditional markets.",
+  "explanation": "These phrasal verbs describe innovation and technological advancement. They express launching, scaling, and pioneering new initiatives.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the innovators"],
+    "TREND": ["digital transformation", "technological convergence", "market disruption", "industry evolution", "consumer demand"],
+    "NOUN": ["the new platform", "the breakthrough technology", "the disruptive solution", "the cutting-edge system"],
+    "INNOVATION_OUTCOME": ["disrupting traditional markets", "redefining industry standards", "catalyzing systemic change", "unlocking unprecedented value", "pioneering new paradigms"],
+    "VERB": {
+      "roll out": {
+        "correct_forms": ["roll out"],
+        "wrong_forms": ["roll on", "roll off", "roll in"],
+        "objects": [],
+        "distractor": "withdraw"
+      },
+      "scale up": {
+        "correct_forms": ["scale up"],
+        "wrong_forms": ["scale on", "scale off", "scale down"],
+        "objects": [],
+        "distractor": "diminish"
+      },
+      "break through": {
+        "correct_forms": ["break through"],
+        "wrong_forms": ["break on", "break off", "break in"],
+        "objects": [],
+        "distractor": "stagnate"
+      },
+      "spin off": {
+        "correct_forms": ["spin off"],
+        "wrong_forms": ["spin on", "spin up", "spin in"],
+        "objects": [],
+        "distractor": "absorb"
+      }
+    }
+  }
+}

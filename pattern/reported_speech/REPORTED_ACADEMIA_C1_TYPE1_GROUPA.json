@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_ACADEMIA_C1_TYPE1_GROUPA",
+  "focus": "reported_speech_hypothesized_posited",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The researchers {REPORTING_VERB} that {SUBJ} ____ {ACADEMIC_FINDING}.",
+  "example": "The researchers hypothesized that the results had confirmed their initial predictions.",
+  "explanation": "Academic reporting uses verbs like 'hypothesized' and 'posited'. Past findings shift to past perfect.",
+  "chunks": {
+    "REPORTING_VERB": ["hypothesized", "posited", "theorized", "postulated"],
+    "SUBJ": ["the results", "the data", "the findings", "the evidence"],
+    "ACADEMIC_FINDING": ["confirmed their initial predictions", "validated the theoretical framework", "supported the primary hypothesis", "corroborated previous studies"],
+    "VERB": {
+      "had confirmed": {
+        "correct_forms": ["had confirmed"],
+        "wrong_forms": ["confirmed", "have confirmed", "were confirming"],
+        "objects": [],
+        "distractor": "refute"
+      },
+      "had validated": {
+        "correct_forms": ["had validated"],
+        "wrong_forms": ["validated", "have validated", "were validating"],
+        "objects": [],
+        "distractor": "invalidate"
+      }
+    }
+  }
+}

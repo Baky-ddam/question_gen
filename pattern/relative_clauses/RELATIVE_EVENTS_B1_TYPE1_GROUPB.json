@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_EVENTS_B1_TYPE1_GROUPB",
+  "focus": "relative_clause_that_event",
+  "level": "B1",
+  "domain": "events",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {EVENT} ____ we organized was {RESULT}.",
+  "example": "The meeting that we organized was very productive.",
+  "explanation": "We use 'that' for events in everyday contexts. It's common when describing events we participated in.",
+  "chunks": {
+    "EVENT": ["meeting", "party", "workshop", "presentation"],
+    "RESULT": ["very productive", "a great success", "well-received", "highly informative"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "whose"],
+        "objects": [],
+        "distractor": "postpone"
+      }
+    }
+  }
+}

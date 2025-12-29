@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_STRATEGY_C1_INVERTED_GROUPB",
+  "focus": "conditional_inverted_strategy_were",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the {ENTITY} to {STRATEGIC_ACTION}, the competitive landscape would {RESULT}.",
+  "example": "Were the corporation to acquire its rival, the competitive landscape would be fundamentally altered.",
+  "explanation": "Inverted conditional with 'Were...to' for strategic scenarios. Formal hypothetical about potential market impact.",
+  "chunks": {
+    "ENTITY": ["corporation", "conglomerate", "enterprise", "firm"],
+    "STRATEGIC_ACTION": ["acquire its rival", "enter the market", "launch the initiative", "implement the transformation"],
+    "RESULT": ["be fundamentally altered", "shift dramatically", "be reshaped entirely", "undergo significant transformation"],
+    "VERB": {
+      "Were": {
+        "correct_forms": ["Were"],
+        "wrong_forms": ["If", "Was", "Are"],
+        "objects": [],
+        "distractor": "obstruct"
+      }
+    }
+  }
+}

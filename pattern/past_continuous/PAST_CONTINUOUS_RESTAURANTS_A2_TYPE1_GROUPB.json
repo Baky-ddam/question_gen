@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_RESTAURANTS_A2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "restaurants",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "I was reading the menu when the waiter came.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for actions interrupted by another event in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "INTERRUPTION": [
+      "the waiter came",
+      "the phone rang",
+      "the food arrived",
+      "my friend called"
+    ],
+    "VERB": {
+      "read": {
+        "correct_forms": ["was reading"],
+        "wrong_forms": ["were reading", "read", "is reading"],
+        "objects": ["the menu", "the wine list", "the specials board"],
+        "distractor": "skip"
+      },
+      "finish": {
+        "correct_forms": ["was finishing"],
+        "wrong_forms": ["were finishing", "finished", "is finishing"],
+        "objects": ["the appetizer", "the soup", "the salad"],
+        "distractor": "quit"
+      },
+      "choose": {
+        "correct_forms": ["was choosing"],
+        "wrong_forms": ["were choosing", "chose", "is choosing"],
+        "objects": ["a dish", "a wine", "a dessert"],
+        "distractor": "refuse"
+      },
+      "pay": {
+        "correct_forms": ["was paying"],
+        "wrong_forms": ["were paying", "paid", "is paying"],
+        "objects": ["the bill", "for the meal", "the check"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_DECISIONS_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_decisions",
+  "level": "B2",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {DECISION}, {SUBJ} would {OUTCOME}.",
+  "example": "If we chose the alternative plan, we would save significant resources.",
+  "explanation": "Second conditional for decision-making scenarios. 'Chose' (past tense) in the if-clause presents a hypothetical choice.",
+  "chunks": {
+    "SUBJ": ["we", "they", "the committee", "the board"],
+    "DECISION": ["chose the alternative plan", "selected a different approach", "considered other options", "postponed the decision"],
+    "OUTCOME": ["save significant resources", "minimize the risks", "maximize the benefits", "achieve better outcomes"],
+    "VERB": {
+      "chose": {
+        "correct_forms": ["chose"],
+        "wrong_forms": ["choose", "would choose", "have chosen"],
+        "objects": [],
+        "distractor": "reject"
+      },
+      "selected": {
+        "correct_forms": ["selected"],
+        "wrong_forms": ["select", "would select", "have selected"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_POLICY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.",
+  "example": "If the administration had enacted the reforms earlier, the social unrest would not have occurred.",
+  "explanation": "Use 'had' + past participle in third conditional sentences to express hypothetical situations in the past that didn't happen.",
+  "chunks": {
+    "SUBJ": ["the administration", "legislators", "the government", "policymakers", "the authorities", "the parliament"],
+    "RESULT_CLAUSE": ["the social unrest would not have occurred", "outcomes would have improved significantly", "the situation might have been different", "public trust would have remained intact", "implementation would have been smoother"],
+    "VERB": {
+      "enact": {
+        "correct_forms": ["had enacted"],
+        "wrong_forms": ["have enacted", "enacted", "were enacting"],
+        "objects": ["the reforms earlier", "comprehensive legislation", "protective measures", "the proposed changes"],
+        "distractor": "repeal"
+      },
+      "address": {
+        "correct_forms": ["had addressed"],
+        "wrong_forms": ["has addressed", "addressed", "was addressing"],
+        "objects": ["the underlying issues", "public concerns proactively", "systemic problems", "the root causes"],
+        "distractor": "dismiss"
+      },
+      "consult": {
+        "correct_forms": ["had consulted"],
+        "wrong_forms": ["have consulted", "consulted", "were consulting"],
+        "objects": ["stakeholders adequately", "affected communities", "expert advisors", "all relevant parties"],
+        "distractor": "exclude"
+      },
+      "anticipate": {
+        "correct_forms": ["had anticipated"],
+        "wrong_forms": ["has anticipated", "anticipated", "was anticipating"],
+        "objects": ["the consequences", "public reaction", "implementation challenges", "unintended effects"],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

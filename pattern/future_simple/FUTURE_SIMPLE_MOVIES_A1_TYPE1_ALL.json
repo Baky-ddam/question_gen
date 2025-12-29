@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_MOVIES_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "movies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will watch a movie tonight.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans about entertainment.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "watch": {
+        "correct_forms": ["will watch"],
+        "wrong_forms": ["watches", "is going to watch", "would watch"],
+        "objects": ["a movie", "a film", "a cartoon"],
+        "distractor": "skip"
+      },
+      "see": {
+        "correct_forms": ["will see"],
+        "wrong_forms": ["sees", "is going to see", "would see"],
+        "objects": ["a new movie", "the film", "a comedy"],
+        "distractor": "avoid"
+      },
+      "go": {
+        "correct_forms": ["will go"],
+        "wrong_forms": ["goes", "is going to go", "would go"],
+        "objects": ["to the cinema", "to the movies", "to the theater"],
+        "distractor": "hate"
+      },
+      "buy": {
+        "correct_forms": ["will buy"],
+        "wrong_forms": ["buys", "is going to buy", "would buy"],
+        "objects": ["popcorn", "tickets", "snacks"],
+        "distractor": "waste"
+      }
+    },
+    "FUTURE_TIME": ["tonight", "tomorrow", "next week", "later"]
+  }
+}

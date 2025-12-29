@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_STRATEGY_C1_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____, a strategic move that {BROADER_IMPACT}.",
+  "example": "The corporation plans to acquire emerging competitors, a strategic move that demonstrates commitment to market dominance.",
+  "explanation": "Advanced verbs requiring infinitives: decide, plan, agree, refuse, promise, threaten, demand, expect, intend, aim, endeavor.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the corporation", "the conglomerate", "the CEO"],
+    "MAINVERB": ["plans", "decides", "agrees", "intends", "endeavors"],
+    "VERB": {
+      "acquire": {
+        "correct_forms": ["to acquire"],
+        "wrong_forms": ["acquiring", "acquire", "acquires"],
+        "objects": ["emerging competitors", "strategic assets", "intellectual property", "market share"],
+        "distractor": "to relinquish"
+      },
+      "verticalize": {
+        "correct_forms": ["to verticalize"],
+        "wrong_forms": ["verticalizing", "verticalize", "verticalizes"],
+        "objects": ["supply chains", "distribution networks", "production processes", "value chains"],
+        "distractor": "to outsource"
+      },
+      "internationalize": {
+        "correct_forms": ["to internationalize"],
+        "wrong_forms": ["internationalizing", "internationalize", "internationalizes"],
+        "objects": ["operations", "market presence", "brand identity", "business models"],
+        "distractor": "to localize"
+      },
+      "monetize": {
+        "correct_forms": ["to monetize"],
+        "wrong_forms": ["monetizing", "monetize", "monetizes"],
+        "objects": ["data assets", "platform capabilities", "intellectual property", "user engagement"],
+        "distractor": "to devalue"
+      }
+    },
+    "BROADER_IMPACT": ["demonstrates commitment to market dominance", "signals aggressive expansion intentions", "reflects long-term strategic vision", "underscores competitive ambition", "represents a paradigm shift in approach"]
+  }
+}

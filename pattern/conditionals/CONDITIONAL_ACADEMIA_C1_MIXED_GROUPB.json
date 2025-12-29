@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_ACADEMIA_C1_MIXED_GROUPB",
+  "focus": "conditional_mixed_academic_singular",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ACADEMIC} ____ {PRESENT_QUALITY}, the research would have {PAST_RESULT}.",
+  "example": "If the methodology were more rigorous, the research would have been more widely accepted.",
+  "explanation": "Mixed conditional: present quality of research affecting past reception.",
+  "chunks": {
+    "ACADEMIC": ["methodology", "framework", "approach", "design"],
+    "PRESENT_QUALITY": ["more rigorous", "better developed", "more comprehensive", "more innovative"],
+    "PAST_RESULT": ["been more widely accepted", "received greater recognition", "influenced the discipline", "attracted more funding"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "had been"],
+        "objects": [],
+        "distractor": "invalidate"
+      }
+    }
+  }
+}

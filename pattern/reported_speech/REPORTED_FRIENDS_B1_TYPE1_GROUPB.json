@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FRIENDS_B1_TYPE1_GROUPB",
+  "focus": "reported_speech_friends_past_singular",
+  "level": "B1",
+  "domain": "friends",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FRIEND} said that {SUBJ} ____ {FRIEND_CONTENT}.",
+  "example": "My classmate said that she was looking for a new apartment.",
+  "explanation": "In reported speech, 'is looking' becomes 'was looking'. Singular subjects take 'was'.",
+  "chunks": {
+    "FRIEND": ["My classmate", "My roommate", "My colleague", "A friend"],
+    "SUBJ": ["she", "he", "the new student", "my neighbor"],
+    "FRIEND_CONTENT": ["looking for a new apartment", "trying to find a job", "learning to cook", "saving money for a trip"],
+    "VERB": {
+      "was": {
+        "correct_forms": ["was"],
+        "wrong_forms": ["is", "has been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["has been", "is", "was being"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

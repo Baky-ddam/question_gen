@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_BUSINESS_B2_TYPE1_GROUPB",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Customer feedback is analyzed because it drives product improvement.",
+  "explanation": "Use 'is' + past participle with singular subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["customer feedback", "market research", "performance data", "employee satisfaction", "brand reputation", "competitive analysis"],
+    "REASON": ["it drives product improvement", "decision-making requires data", "success depends on understanding", "insights lead to growth", "stakeholders demand transparency", "continuous improvement is key"],
+    "VERB": {
+      "analyze": {
+        "correct_forms": ["is analyzed"],
+        "wrong_forms": ["are analyzed", "was analyzed", "has been analyzed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "monitor": {
+        "correct_forms": ["is monitored"],
+        "wrong_forms": ["are monitored", "was monitored", "has been monitored"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "evaluate": {
+        "correct_forms": ["is evaluated"],
+        "wrong_forms": ["are evaluated", "was evaluated", "has been evaluated"],
+        "objects": [],
+        "distractor": "dismissed"
+      },
+      "prioritize": {
+        "correct_forms": ["is prioritized"],
+        "wrong_forms": ["are prioritized", "was prioritized", "has been prioritized"],
+        "objects": [],
+        "distractor": "overlooked"
+      }
+    }
+  }
+}

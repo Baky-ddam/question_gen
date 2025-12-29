@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_BUSINESS_B2_TYPE1_GROUPA",
+  "focus": "suffix_ization_formation",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of the company led to significant cost savings.",
+  "example": "The modernization of the company led to significant cost savings.",
+  "explanation": "The suffix '-ization' transforms verbs/adjectives into nouns indicating a process. 'Modernize' becomes 'modernization'.",
+  "chunks": {
+    "NOUN": ["company", "organization", "corporation", "enterprise"],
+    "VERB": {
+      "modernization": {
+        "correct_forms": ["modernization"],
+        "wrong_forms": ["modernize", "modernizing", "modern"],
+        "objects": [],
+        "distractor": "stagnation"
+      },
+      "globalization": {
+        "correct_forms": ["globalization"],
+        "wrong_forms": ["globalize", "globalizing", "global"],
+        "objects": [],
+        "distractor": "isolation"
+      },
+      "privatization": {
+        "correct_forms": ["privatization"],
+        "wrong_forms": ["privatize", "privatizing", "private"],
+        "objects": [],
+        "distractor": "nationalization"
+      },
+      "optimization": {
+        "correct_forms": ["optimization"],
+        "wrong_forms": ["optimize", "optimizing", "optimal"],
+        "objects": [],
+        "distractor": "deterioration"
+      }
+    }
+  }
+}

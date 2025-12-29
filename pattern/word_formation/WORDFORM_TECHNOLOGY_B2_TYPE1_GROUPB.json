@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_TECHNOLOGY_B2_TYPE1_GROUPB",
+  "focus": "suffix_ical_adjective_formation",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The team made several ____ improvements to the software.",
+  "example": "The team made several technical improvements to the software.",
+  "explanation": "The suffix '-ical' transforms nouns into adjectives. 'Technology' becomes 'technological'.",
+  "chunks": {
+    "NOUN": ["software", "system", "platform", "application"],
+    "VERB": {
+      "technical": {
+        "correct_forms": ["technical"],
+        "wrong_forms": ["technique", "technically", "technicality"],
+        "objects": [],
+        "distractor": "superficial"
+      },
+      "technological": {
+        "correct_forms": ["technological"],
+        "wrong_forms": ["technology", "technologically", "technologic"],
+        "objects": [],
+        "distractor": "conventional"
+      },
+      "practical": {
+        "correct_forms": ["practical"],
+        "wrong_forms": ["practice", "practically", "practicality"],
+        "objects": [],
+        "distractor": "theoretical"
+      },
+      "analytical": {
+        "correct_forms": ["analytical"],
+        "wrong_forms": ["analysis", "analytically", "analyze"],
+        "objects": [],
+        "distractor": "intuitive"
+      }
+    }
+  }
+}

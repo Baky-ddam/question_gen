@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_MANAGEMENT_B2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "management",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} since {SINCE_CLAUSE}.",
+  "example": "The CEO has transformed the corporate culture since taking the leadership role.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' and professional titles to describe ongoing management achievements from a specific starting point.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the CEO",
+      "the director",
+      "the team leader",
+      "the department head"
+    ],
+    "SINCE_CLAUSE": [
+      "the new strategy was adopted",
+      "taking the leadership position",
+      "the organizational restructuring began",
+      "the merger was completed"
+    ],
+    "VERB": {
+      "oversee": {
+        "correct_forms": [
+          "has overseen"
+        ],
+        "wrong_forms": [
+          "have overseen",
+          "had overseen",
+          "oversaw"
+        ],
+        "objects": [
+          "the digital transformation initiative",
+          "multiple successful projects",
+          "the company expansion",
+          "significant operational changes"
+        ],
+        "distractor": "overlook"
+      },
+      "mentor": {
+        "correct_forms": [
+          "has mentored"
+        ],
+        "wrong_forms": [
+          "have mentored",
+          "had mentored",
+          "mentored"
+        ],
+        "objects": [
+          "emerging leaders consistently",
+          "high-potential employees",
+          "junior management staff",
+          "aspiring executives"
+        ],
+        "distractor": "suppress"
+      },
+      "establish": {
+        "correct_forms": [
+          "has established"
+        ],
+        "wrong_forms": [
+          "have established",
+          "had established",
+          "established"
+        ],
+        "objects": [
+          "clear performance benchmarks",
+          "effective feedback mechanisms",
+          "accountability frameworks",
+          "collaborative team dynamics"
+        ],
+        "distractor": "circumvent"
+      },
+      "coordinate": {
+        "correct_forms": [
+          "has coordinated"
+        ],
+        "wrong_forms": [
+          "have coordinated",
+          "had coordinated",
+          "coordinated"
+        ],
+        "objects": [
+          "cross-functional initiatives",
+          "stakeholder communications",
+          "strategic planning sessions",
+          "inter-departmental projects"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

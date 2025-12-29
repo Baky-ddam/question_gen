@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_NEWS_B1_TYPE1_GROUPA",
+  "focus": "reported_speech_news_past",
+  "level": "B1",
+  "domain": "news",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {SOURCE} said that {SUBJ} ____ {NEWS_CONTENT}.",
+  "example": "The reporter said that the police were investigating the incident.",
+  "explanation": "News reports use reported speech to convey what sources said. Present continuous 'are investigating' becomes past continuous 'were investigating'.",
+  "chunks": {
+    "SOURCE": ["reporter", "journalist", "spokesperson", "witness"],
+    "SUBJ": ["the police", "the authorities", "the investigators", "the officials"],
+    "NEWS_CONTENT": ["investigating the incident", "searching for the suspect", "reviewing the evidence", "interviewing witnesses"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["are", "have been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "has", "are"],
+        "objects": [],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

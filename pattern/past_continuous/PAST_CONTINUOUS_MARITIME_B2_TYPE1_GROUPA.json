@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_MARITIME_B2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "maritime",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "while_place", "complex_event"],
+  "template": "While {SUBJ} ____ {OBJ} {PLACE}, {COMPLEX_EVENT} occurred.",
+  "example": "While we were navigating the container vessels through the strait, a severe storm warning occurred.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing maritime operations interrupted by complex events.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "PLACE": [
+      "through the strait",
+      "along the shipping lane",
+      "near the harbor entrance",
+      "across the international waters"
+    ],
+    "COMPLEX_EVENT": [
+      "a severe storm warning",
+      "an unexpected change in maritime regulations",
+      "a distress signal from a nearby vessel",
+      "a port authority security alert"
+    ],
+    "VERB": {
+      "navigate": {
+        "correct_forms": ["were navigating"],
+        "wrong_forms": ["was navigating", "navigated", "are navigating"],
+        "objects": ["the container vessels", "the cargo ships", "the tanker fleet", "the commercial freighters"],
+        "distractor": "obstruct"
+      },
+      "escort": {
+        "correct_forms": ["were escorting"],
+        "wrong_forms": ["was escorting", "escorted", "are escorting"],
+        "objects": ["the supply convoy", "the passenger ferries", "the diplomatic vessels", "the research ships"],
+        "distractor": "hinder"
+      },
+      "inspect": {
+        "correct_forms": ["were inspecting"],
+        "wrong_forms": ["was inspecting", "inspected", "are inspecting"],
+        "objects": ["the cargo manifests", "the shipping containers", "the vessel documentation", "the safety equipment"],
+        "distractor": "disregard"
+      },
+      "coordinate": {
+        "correct_forms": ["were coordinating"],
+        "wrong_forms": ["was coordinating", "coordinated", "are coordinating"],
+        "objects": ["the docking procedures", "the loading operations", "the crew rotations", "the fuel transfers"],
+        "distractor": "impede"
+      }
+    }
+  }
+}

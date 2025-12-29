@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_ACADEMIA_C1_INVERTED_GROUPB",
+  "focus": "conditional_inverted_academic_were",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the {ENTITY} to {ACADEMIC_ACTION}, the contribution would {RESULT}.",
+  "example": "Were the theory to be validated empirically, the contribution would be groundbreaking.",
+  "explanation": "Inverted conditional with 'Were...to' in academic discourse. Formal hypothetical about potential academic impact.",
+  "chunks": {
+    "ENTITY": ["theory", "hypothesis", "model", "framework"],
+    "ACADEMIC_ACTION": ["be validated empirically", "withstand scrutiny", "gain acceptance", "be replicated successfully"],
+    "RESULT": ["be groundbreaking", "revolutionize the discipline", "redefine the paradigm", "advance the field significantly"],
+    "VERB": {
+      "Were": {
+        "correct_forms": ["Were"],
+        "wrong_forms": ["If", "Was", "Are"],
+        "objects": [],
+        "distractor": "refute"
+      }
+    }
+  }
+}

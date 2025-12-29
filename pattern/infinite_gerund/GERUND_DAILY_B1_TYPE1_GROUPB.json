@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_DAILY_B1_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "She enjoys reading books in her free time.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Common gerund verbs: enjoy, avoid, mind, finish, keep, suggest, consider, practice.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "my colleague"],
+    "MAINVERB": ["enjoys", "avoids", "finishes", "keeps"],
+    "VERB": {
+      "work": {
+        "correct_forms": ["working"],
+        "wrong_forms": ["to work", "work", "works"],
+        "objects": ["late", "from home", "on projects", "overtime"],
+        "distractor": "quitting"
+      },
+      "clean": {
+        "correct_forms": ["cleaning"],
+        "wrong_forms": ["to clean", "clean", "cleans"],
+        "objects": ["the house", "the kitchen", "the room", "every week"],
+        "distractor": "messing"
+      },
+      "spend": {
+        "correct_forms": ["spending"],
+        "wrong_forms": ["to spend", "spend", "spends"],
+        "objects": ["time with family", "money wisely", "weekends relaxing", "evenings reading"],
+        "distractor": "wasting"
+      },
+      "help": {
+        "correct_forms": ["helping"],
+        "wrong_forms": ["to help", "help", "helps"],
+        "objects": ["others", "neighbors", "colleagues", "friends"],
+        "distractor": "ignoring"
+      }
+    },
+    "CONTEXT": ["every day", "on weekends", "during the week", "after work", "regularly"]
+  }
+}

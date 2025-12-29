@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_CLASSROOM_A1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "classroom",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "The teacher was writing on the board this morning.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "the teacher", "the student", "my friend"],
+    "TIME": ["this morning", "yesterday", "in the lesson", "during class"],
+    "VERB": {
+      "read": {
+        "correct_forms": ["was reading"],
+        "wrong_forms": ["were reading", "read", "is reading"],
+        "objects": ["a book", "a story", "the lesson", "out loud"],
+        "distractor": "ignore"
+      },
+      "write": {
+        "correct_forms": ["was writing"],
+        "wrong_forms": ["were writing", "wrote", "is writing"],
+        "objects": ["on the board", "in the notebook", "an answer", "a word"],
+        "distractor": "skip"
+      },
+      "listen": {
+        "correct_forms": ["was listening"],
+        "wrong_forms": ["were listening", "listened", "is listening"],
+        "objects": ["to the teacher", "to the lesson", "carefully", "to the story"],
+        "distractor": "avoid"
+      },
+      "draw": {
+        "correct_forms": ["was drawing"],
+        "wrong_forms": ["were drawing", "drew", "is drawing"],
+        "objects": ["a picture", "a cat", "on the paper", "something nice"],
+        "distractor": "stop"
+      }
+    }
+  }
+}

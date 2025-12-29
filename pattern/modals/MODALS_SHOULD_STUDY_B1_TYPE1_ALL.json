@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_SHOULD_STUDY_B1_TYPE1_ALL",
+  "focus": "modal_should",
+  "level": "B1",
+  "domain": "study",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PURPOSE}.",
+  "example": "You should review the material to prepare for the exam.",
+  "explanation": "Use 'should' + base verb to give advice or recommendations about studying. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "PURPOSE": [
+      "to prepare for the exam",
+      "to improve grades",
+      "to understand better",
+      "to succeed academically"
+    ],
+    "VERB": {
+      "review": {
+        "correct_forms": [
+          "should review"
+        ],
+        "wrong_forms": [
+          "must review",
+          "can review",
+          "could review"
+        ],
+        "objects": [
+          "the material",
+          "the notes",
+          "past lessons"
+        ],
+        "distractor": "demolish"
+      },
+      "practice": {
+        "correct_forms": [
+          "should practice"
+        ],
+        "wrong_forms": [
+          "must practice",
+          "can practice",
+          "could practice"
+        ],
+        "objects": [
+          "regularly",
+          "every day",
+          "with exercises"
+        ],
+        "distractor": "neglect"
+      },
+      "prepare": {
+        "correct_forms": [
+          "should prepare"
+        ],
+        "wrong_forms": [
+          "must prepare",
+          "can prepare",
+          "could prepare"
+        ],
+        "objects": [
+          "in advance",
+          "thoroughly",
+          "early"
+        ],
+        "distractor": "postpone"
+      },
+      "focus": {
+        "correct_forms": [
+          "should focus"
+        ],
+        "wrong_forms": [
+          "must focus",
+          "can focus",
+          "could focus"
+        ],
+        "objects": [
+          "on difficult topics",
+          "on key concepts",
+          "on weak areas"
+        ],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

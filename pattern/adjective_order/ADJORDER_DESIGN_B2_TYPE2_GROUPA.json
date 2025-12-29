@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_DESIGN_B2_TYPE2_GROUPA",
+  "focus": "adjective_order_opinion_color_material_design",
+  "level": "B2",
+  "domain": "design",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The exhibition featured a ____ {NOUN}.",
+  "example": "The exhibition featured a lovely blue ceramic pot.",
+  "explanation": "Opinion-Color-Material order. 'Lovely blue ceramic' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["pot", "vase", "tile", "figurine"],
+    "VERB": {
+      "lovely blue ceramic": {
+        "correct_forms": ["lovely blue ceramic"],
+        "wrong_forms": ["blue lovely ceramic", "ceramic blue lovely", "ceramic lovely blue"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "beautiful green marble": {
+        "correct_forms": ["beautiful green marble"],
+        "wrong_forms": ["green beautiful marble", "marble green beautiful", "marble beautiful green"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "elegant black leather": {
+        "correct_forms": ["elegant black leather"],
+        "wrong_forms": ["black elegant leather", "leather black elegant", "leather elegant black"],
+        "objects": [],
+        "distractor": "crude"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_NEWS_B1_TYPE2_GROUPA",
+  "focus": "reported_speech_told_past_perfect",
+  "level": "B1",
+  "domain": "news",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {SOURCE} told viewers that {SUBJ} ____ {ACTION}.",
+  "example": "The anchor told viewers that the storm had caused major damage.",
+  "explanation": "With 'told', we report what was said. Past tense 'caused' shifts to past perfect 'had caused'.",
+  "chunks": {
+    "SOURCE": ["anchor", "reporter", "correspondent", "presenter"],
+    "SUBJ": ["the storm", "the earthquake", "the floods", "the fires"],
+    "ACTION": ["caused major damage", "destroyed many homes", "affected thousands of people", "disrupted transportation"],
+    "VERB": {
+      "had caused": {
+        "correct_forms": ["had caused"],
+        "wrong_forms": ["caused", "has caused", "was causing"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had destroyed": {
+        "correct_forms": ["had destroyed"],
+        "wrong_forms": ["destroyed", "has destroyed", "was destroying"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

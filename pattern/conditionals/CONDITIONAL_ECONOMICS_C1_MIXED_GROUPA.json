@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_ECONOMICS_C1_MIXED_GROUPA",
+  "focus": "conditional_mixed_economic",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If the central bank ____ {PAST_ECONOMIC_ACTION}, inflation would {PRESENT_STATE} now.",
+  "example": "If the central bank had raised rates earlier, inflation would be under control now.",
+  "explanation": "Mixed conditional for economic analysis: past monetary policy affecting current economic conditions.",
+  "chunks": {
+    "PAST_ECONOMIC_ACTION": ["raised rates earlier", "tightened monetary policy", "reduced stimulus measures", "intervened decisively"],
+    "PRESENT_STATE": ["be under control", "be stabilizing", "be declining", "be within target range"],
+    "VERB": {
+      "had raised": {
+        "correct_forms": ["had raised"],
+        "wrong_forms": ["raised", "have raised", "would raise"],
+        "objects": [],
+        "distractor": "lower"
+      },
+      "had tightened": {
+        "correct_forms": ["had tightened"],
+        "wrong_forms": ["tightened", "have tightened", "would tighten"],
+        "objects": [],
+        "distractor": "loosen"
+      }
+    }
+  }
+}

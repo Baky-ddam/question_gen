@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ACTIVITIES_A1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "activities",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "I have ridden a bike before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about activities you've done.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "my friends", "the children"],
+    "VERB": {
+      "ride": {
+        "correct_forms": ["have ridden"],
+        "wrong_forms": ["has ridden", "had ridden", "rode"],
+        "objects": ["a bike", "a horse", "a scooter", "a pony"],
+        "distractor": "crash"
+      },
+      "fly": {
+        "correct_forms": ["have flown"],
+        "wrong_forms": ["has flown", "had flown", "flew"],
+        "objects": ["a kite", "in a plane", "on an airplane", "to another country"],
+        "distractor": "fall"
+      },
+      "sing": {
+        "correct_forms": ["have sung"],
+        "wrong_forms": ["has sung", "had sung", "sang"],
+        "objects": ["a song", "in a choir", "at school", "on stage"],
+        "distractor": "forget"
+      },
+      "win": {
+        "correct_forms": ["have won"],
+        "wrong_forms": ["has won", "had won", "won"],
+        "objects": ["a game", "a prize", "a race", "a medal"],
+        "distractor": "lose"
+      }
+    }
+  }
+}

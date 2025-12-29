@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_HEALTH_B1_TYPE1_GROUPB",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {CONTEXT}.",
+  "example": "She gets over the flu after resting for a week.",
+  "explanation": "These phrasal verbs are used to describe health conditions and recovery. The particle is essential to the meaning.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the patient", "my friend"],
+    "CONTEXT": ["after resting for a week", "with proper treatment", "eventually", "with time", "by staying positive"],
+    "VERB": {
+      "get over": {
+        "correct_forms": ["gets over"],
+        "wrong_forms": ["gets on", "gets off", "gets through"],
+        "objects": ["the flu", "the cold", "the illness", "the infection"],
+        "distractor": "catches"
+      },
+      "come down with": {
+        "correct_forms": ["comes down with"],
+        "wrong_forms": ["comes up with", "comes on with", "comes off with"],
+        "objects": ["a fever", "a cold", "the flu", "an illness"],
+        "distractor": "recovers"
+      },
+      "work out": {
+        "correct_forms": ["works out"],
+        "wrong_forms": ["works on", "works off", "works up"],
+        "objects": ["at the gym", "every morning", "three times a week", "regularly"],
+        "distractor": "rests"
+      },
+      "cut down on": {
+        "correct_forms": ["cuts down on"],
+        "wrong_forms": ["cuts up on", "cuts off on", "cuts out on"],
+        "objects": ["sugar", "junk food", "caffeine", "alcohol"],
+        "distractor": "increases"
+      }
+    }
+  }
+}

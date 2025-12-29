@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_THEORIES_C1_TYPE1_GROUPB",
+  "focus": "relative_clause_whose_theory",
+  "level": "C1",
+  "domain": "theories",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {THEORIST} ____ {WORK} remains {STATUS}.",
+  "example": "The philosopher whose seminal work redefined epistemology remains widely studied today.",
+  "explanation": "We use 'whose' for theorists and their intellectual contributions. The clause shows the relationship between the person and their work.",
+  "chunks": {
+    "THEORIST": ["philosopher", "economist", "sociologist", "psychologist"],
+    "WORK": ["seminal work redefined epistemology", "groundbreaking research transformed the field", "influential theories challenged orthodoxy", "pioneering contributions established new paradigms"],
+    "STATUS": ["widely studied today", "foundational to contemporary thought", "instrumental in shaping discourse", "indispensable to scholarly inquiry"],
+    "VERB": {
+      "whose": {
+        "correct_forms": ["whose"],
+        "wrong_forms": ["which", "whom", "who"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

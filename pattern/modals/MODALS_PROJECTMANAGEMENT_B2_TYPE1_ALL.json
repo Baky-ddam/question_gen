@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_PROJECTMANAGEMENT_B2_TYPE1_ALL",
+  "focus": "modal_might",
+  "level": "B2",
+  "domain": "project_management",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might"
+  ],
+  "template": "{SUBJ} ____ {OBJ} if {CONDITION}.",
+  "example": "The project might succeed if we secure funding.",
+  "explanation": "Use 'might' + base verb with all subjects to express possibility or speculation. The 'if' clause provides the condition under which the possibility exists.",
+  "chunks": {
+    "SUBJ": [
+      "the project",
+      "the initiative",
+      "the team",
+      "the deadline",
+      "the deliverable",
+      "the milestone"
+    ],
+    "CONDITION": [
+      "we secure additional funding",
+      "the stakeholders approve the changes",
+      "the resources are allocated properly",
+      "the timeline is extended",
+      "we address the bottlenecks",
+      "the dependencies are resolved"
+    ],
+    "VERB": {
+      "succeed": {
+        "correct_forms": [
+          "might succeed"
+        ],
+        "wrong_forms": [
+          "will succeed",
+          "can succeed",
+          "should succeed"
+        ],
+        "objects": [
+          "beyond expectations",
+          "with proper support",
+          "under these circumstances",
+          "in the current environment"
+        ],
+        "distractor": "disregard"
+      },
+      "fail": {
+        "correct_forms": [
+          "might fail"
+        ],
+        "wrong_forms": [
+          "will fail",
+          "can fail",
+          "should fail"
+        ],
+        "objects": [
+          "to meet requirements",
+          "to deliver on time",
+          "to satisfy stakeholders",
+          "to achieve objectives"
+        ],
+        "distractor": "overlook"
+      },
+      "delay": {
+        "correct_forms": [
+          "might delay"
+        ],
+        "wrong_forms": [
+          "will delay",
+          "can delay",
+          "should delay"
+        ],
+        "objects": [
+          "the launch significantly",
+          "the implementation phase",
+          "the rollout timeline",
+          "the completion date"
+        ],
+        "distractor": "suppress"
+      },
+      "exceed": {
+        "correct_forms": [
+          "might exceed"
+        ],
+        "wrong_forms": [
+          "will exceed",
+          "can exceed",
+          "should exceed"
+        ],
+        "objects": [
+          "the allocated budget",
+          "the original scope",
+          "the planned timeline",
+          "the resource estimates"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

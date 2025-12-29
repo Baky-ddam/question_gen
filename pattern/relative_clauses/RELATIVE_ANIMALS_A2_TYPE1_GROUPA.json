@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_ANIMALS_A2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_animal",
+  "level": "A2",
+  "domain": "animals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {ANIMAL} ____ {ACTION} is {DESCRIPTION}.",
+  "example": "The dog which lives next door is very friendly.",
+  "explanation": "We use 'which' for animals when giving more information about them.",
+  "chunks": {
+    "ANIMAL": ["dog", "cat", "bird", "horse"],
+    "ACTION": ["lives next door", "I saw yesterday", "belongs to my friend", "won the race"],
+    "DESCRIPTION": ["very friendly", "really cute", "quite old", "very fast"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "objects": [],
+        "distractor": "chase"
+      }
+    }
+  }
+}

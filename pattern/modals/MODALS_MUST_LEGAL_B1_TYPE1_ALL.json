@@ -1,0 +1,97 @@
+{
+  "pattern_id": "MODALS_MUST_LEGAL_B1_TYPE1_ALL",
+  "focus": "modal_must",
+  "level": "B1",
+  "domain": "legal",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {REQUIREMENT}.",
+  "example": "Citizens must pay taxes by the deadline.",
+  "explanation": "Use 'must' + base verb to express legal obligations. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "REQUIREMENT": [
+      "by the deadline",
+      "according to law",
+      "within the time limit",
+      "as required by regulations"
+    ],
+    "VERB": {
+      "pay": {
+        "correct_forms": [
+          "must pay"
+        ],
+        "wrong_forms": [
+          "should pay",
+          "can pay",
+          "have to pay"
+        ],
+        "objects": [
+          "taxes",
+          "fines",
+          "fees"
+        ],
+        "distractor": "cancel"
+      },
+      "register": {
+        "correct_forms": [
+          "must register"
+        ],
+        "wrong_forms": [
+          "should register",
+          "can register",
+          "have to register"
+        ],
+        "objects": [
+          "vehicles",
+          "businesses",
+          "property"
+        ],
+        "distractor": "neglect"
+      },
+      "report": {
+        "correct_forms": [
+          "must report"
+        ],
+        "wrong_forms": [
+          "should report",
+          "can report",
+          "have to report"
+        ],
+        "objects": [
+          "income",
+          "crimes",
+          "accidents"
+        ],
+        "distractor": "overlook"
+      },
+      "comply": {
+        "correct_forms": [
+          "must comply"
+        ],
+        "wrong_forms": [
+          "should comply",
+          "can comply",
+          "have to comply"
+        ],
+        "objects": [
+          "with regulations",
+          "with court orders",
+          "with legal requirements"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

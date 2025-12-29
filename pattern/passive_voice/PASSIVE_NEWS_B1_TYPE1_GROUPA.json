@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_NEWS_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "news",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The stories were reported by local journalists.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the stories", "the articles", "the interviews", "the investigations", "the updates", "the announcements"],
+    "AGENT": ["local journalists", "international correspondents", "news agencies", "investigative reporters", "media outlets", "experienced editors"],
+    "VERB": {
+      "report": {
+        "correct_forms": ["were reported"],
+        "wrong_forms": ["was reported", "are reported", "have been reported"],
+        "objects": [],
+        "distractor": "censored"
+      },
+      "publish": {
+        "correct_forms": ["were published"],
+        "wrong_forms": ["was published", "are published", "have been published"],
+        "objects": [],
+        "distractor": "suppressed"
+      },
+      "conduct": {
+        "correct_forms": ["were conducted"],
+        "wrong_forms": ["was conducted", "are conducted", "have been conducted"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "verify": {
+        "correct_forms": ["were verified"],
+        "wrong_forms": ["was verified", "are verified", "have been verified"],
+        "objects": [],
+        "distractor": "disputed"
+      }
+    }
+  }
+}

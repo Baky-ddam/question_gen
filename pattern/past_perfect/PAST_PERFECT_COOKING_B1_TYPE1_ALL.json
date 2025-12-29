@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_COOKING_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "cooking",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "She had prepared the ingredients before the guests arrived.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the chef", "my mom"],
+    "PAST_EVENT": ["the guests arrived", "dinner time", "we sat down", "everyone came", "the party started"],
+    "VERB": {
+      "prepare": {
+        "correct_forms": ["had prepared"],
+        "wrong_forms": ["have prepared", "prepared", "was preparing"],
+        "objects": ["the ingredients", "the vegetables", "the meal", "the sauce"],
+        "distractor": "burn"
+      },
+      "cook": {
+        "correct_forms": ["had cooked"],
+        "wrong_forms": ["has cooked", "cooked", "was cooking"],
+        "objects": ["the main dish", "the soup", "the pasta", "dinner"],
+        "distractor": "waste"
+      },
+      "set": {
+        "correct_forms": ["had set"],
+        "wrong_forms": ["have set", "set", "was setting"],
+        "objects": ["the table", "the plates", "everything up", "the dining area"],
+        "distractor": "forget"
+      },
+      "bake": {
+        "correct_forms": ["had baked"],
+        "wrong_forms": ["has baked", "baked", "was baking"],
+        "objects": ["a cake", "the bread", "cookies", "a pie"],
+        "distractor": "ruin"
+      }
+    }
+  }
+}

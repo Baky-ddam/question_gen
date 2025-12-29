@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_FOOD_A2_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "The cake was baked this morning.",
+  "explanation": "Use 'was' + past participle with 'I/he/she/it' and singular nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["the cake", "the bread", "the pizza", "the soup", "the salad", "the meal"],
+    "TIME": ["this morning", "yesterday", "at the restaurant", "for dinner", "last night"],
+    "VERB": {
+      "bake": {
+        "correct_forms": ["was baked"],
+        "wrong_forms": ["were baked", "is baked", "has been baked"],
+        "objects": [],
+        "distractor": "burnt"
+      },
+      "prepare": {
+        "correct_forms": ["was prepared"],
+        "wrong_forms": ["were prepared", "is prepared", "has been prepared"],
+        "objects": [],
+        "distractor": "wasted"
+      },
+      "cook": {
+        "correct_forms": ["was cooked"],
+        "wrong_forms": ["were cooked", "is cooked", "has been cooked"],
+        "objects": [],
+        "distractor": "ruined"
+      },
+      "serve": {
+        "correct_forms": ["was served"],
+        "wrong_forms": ["were served", "is served", "has been served"],
+        "objects": [],
+        "distractor": "refused"
+      }
+    }
+  }
+}

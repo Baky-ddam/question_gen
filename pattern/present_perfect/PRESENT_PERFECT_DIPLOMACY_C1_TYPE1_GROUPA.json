@@ -1,0 +1,100 @@
+{
+  "pattern_id": "PRESENT_PERFECT_DIPLOMACY_C1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPACT}.",
+  "example": "The negotiators have brokered a landmark treaty, which reshapes regional power dynamics.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' for diplomatic achievements with ongoing impact. C1 level features sophisticated impact clauses.",
+  "chunks": {
+    "SUBJ": [
+      "the negotiators",
+      "the diplomats",
+      "the ambassadors",
+      "the delegates"
+    ],
+    "IMPACT": [
+      "reshapes regional power dynamics",
+      "establishes a precedent for future agreements",
+      "strengthens bilateral relations significantly",
+      "transforms the geopolitical landscape",
+      "mitigates longstanding territorial disputes"
+    ],
+    "VERB": {
+      "broker": {
+        "correct_forms": [
+          "have brokered"
+        ],
+        "wrong_forms": [
+          "has brokered",
+          "had brokered",
+          "brokered"
+        ],
+        "objects": [
+          "a landmark treaty",
+          "a comprehensive peace accord",
+          "a multilateral agreement",
+          "a historic ceasefire"
+        ],
+        "distractor": "abrogate"
+      },
+      "negotiate": {
+        "correct_forms": [
+          "have negotiated"
+        ],
+        "wrong_forms": [
+          "has negotiated",
+          "had negotiated",
+          "negotiated"
+        ],
+        "objects": [
+          "favorable trade terms",
+          "mutual security guarantees",
+          "territorial concessions",
+          "diplomatic immunity provisions"
+        ],
+        "distractor": "repudiate"
+      },
+      "ratify": {
+        "correct_forms": [
+          "have ratified"
+        ],
+        "wrong_forms": [
+          "has ratified",
+          "had ratified",
+          "ratified"
+        ],
+        "objects": [
+          "the international convention",
+          "the arms reduction treaty",
+          "the climate accord",
+          "the human rights protocol"
+        ],
+        "distractor": "rescind"
+      },
+      "mediate": {
+        "correct_forms": [
+          "have mediated"
+        ],
+        "wrong_forms": [
+          "has mediated",
+          "had mediated",
+          "mediated"
+        ],
+        "objects": [
+          "the border dispute",
+          "the ethnic conflict",
+          "the trade disagreement",
+          "the sovereignty crisis"
+        ],
+        "distractor": "forsake"
+      }
+    }
+  }
+}

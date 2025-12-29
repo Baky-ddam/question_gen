@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_CAREER_B1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {COMPLETION_MARKER} {OBJ}.",
+  "example": "She has recently received a promotion.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to describe recent achievements. Markers like 'already', 'just', 'recently' signal completion.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my colleague",
+      "the manager"
+    ],
+    "COMPLETION_MARKER": [
+      "already",
+      "just",
+      "recently",
+      "finally"
+    ],
+    "VERB": {
+      "receive": {
+        "correct_forms": [
+          "has received"
+        ],
+        "wrong_forms": [
+          "have received",
+          "had received",
+          "received"
+        ],
+        "objects": [
+          "a promotion",
+          "a salary increase",
+          "an award",
+          "positive feedback"
+        ],
+        "distractor": "postpone"
+      },
+      "complete": {
+        "correct_forms": [
+          "has completed"
+        ],
+        "wrong_forms": [
+          "have completed",
+          "had completed",
+          "completed"
+        ],
+        "objects": [
+          "the training program",
+          "a major project",
+          "the certification course",
+          "the annual report"
+        ],
+        "distractor": "abandon"
+      },
+      "achieve": {
+        "correct_forms": [
+          "has achieved"
+        ],
+        "wrong_forms": [
+          "have achieved",
+          "had achieved",
+          "achieved"
+        ],
+        "objects": [
+          "the sales target",
+          "professional recognition",
+          "a career milestone",
+          "outstanding results"
+        ],
+        "distractor": "neglect"
+      },
+      "secure": {
+        "correct_forms": [
+          "has secured"
+        ],
+        "wrong_forms": [
+          "have secured",
+          "had secured",
+          "secured"
+        ],
+        "objects": [
+          "a new position",
+          "a contract with the client",
+          "funding for the project",
+          "a leadership role"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

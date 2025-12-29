@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_RELATIONSHIPS_B1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "relationships",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {COMPLETION_MARKER} {OBJ}.",
+  "example": "She has recently reconnected with old friends.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to describe recent social actions or relationship changes. 'Recently', 'just' signal recent events.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "my friend",
+      "the couple"
+    ],
+    "COMPLETION_MARKER": [
+      "already",
+      "just",
+      "recently",
+      "finally"
+    ],
+    "VERB": {
+      "reconnect": {
+        "correct_forms": [
+          "has reconnected"
+        ],
+        "wrong_forms": [
+          "have reconnected",
+          "had reconnected",
+          "reconnected"
+        ],
+        "objects": [
+          "with old friends",
+          "with family members",
+          "with former colleagues",
+          "with childhood classmates"
+        ],
+        "distractor": "abandon"
+      },
+      "meet": {
+        "correct_forms": [
+          "has met"
+        ],
+        "wrong_forms": [
+          "have met",
+          "had met",
+          "met"
+        ],
+        "objects": [
+          "new colleagues",
+          "interesting people",
+          "supportive mentors",
+          "lifelong friends"
+        ],
+        "distractor": "overlook"
+      },
+      "strengthen": {
+        "correct_forms": [
+          "has strengthened"
+        ],
+        "wrong_forms": [
+          "have strengthened",
+          "had strengthened",
+          "strengthened"
+        ],
+        "objects": [
+          "family relationships",
+          "professional networks",
+          "community ties",
+          "personal connections"
+        ],
+        "distractor": "demolish"
+      },
+      "build": {
+        "correct_forms": [
+          "has built"
+        ],
+        "wrong_forms": [
+          "have built",
+          "had built",
+          "built"
+        ],
+        "objects": [
+          "a strong network",
+          "meaningful friendships",
+          "trust with clients",
+          "lasting partnerships"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

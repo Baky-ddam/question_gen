@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_DAILY_B1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "I enjoy reading books in my free time.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Common gerund verbs: enjoy, avoid, mind, finish, keep, suggest, consider, practice.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["enjoy", "avoid", "mind", "finish"],
+    "VERB": {
+      "read": {
+        "correct_forms": ["reading"],
+        "wrong_forms": ["to read", "read", "reads"],
+        "objects": ["books", "newspapers", "magazines", "articles"],
+        "distractor": "ignoring"
+      },
+      "watch": {
+        "correct_forms": ["watching"],
+        "wrong_forms": ["to watch", "watch", "watches"],
+        "objects": ["TV", "movies", "documentaries", "series"],
+        "distractor": "missing"
+      },
+      "cook": {
+        "correct_forms": ["cooking"],
+        "wrong_forms": ["to cook", "cook", "cooks"],
+        "objects": ["dinner", "meals", "healthy food", "new recipes"],
+        "distractor": "burning"
+      },
+      "exercise": {
+        "correct_forms": ["exercising"],
+        "wrong_forms": ["to exercise", "exercise", "exercises"],
+        "objects": ["regularly", "in the morning", "at home", "outdoors"],
+        "distractor": "skipping"
+      }
+    },
+    "CONTEXT": ["in my free time", "on weekends", "every day", "after work", "usually"]
+  }
+}

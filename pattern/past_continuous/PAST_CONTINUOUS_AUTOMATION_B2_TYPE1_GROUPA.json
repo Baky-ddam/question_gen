@@ -1,0 +1,60 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AUTOMATION_B2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "automation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "complex_interruption", "which_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} when {INTERRUPTION}, which {CONSEQUENCE}.",
+  "example": "We were testing the robotic assembly systems in the production facility when critical software bugs emerged, which halted the entire manufacturing line.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing automation activities interrupted by events with significant consequences.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "PREP_PLACE": [
+      "in the production facility",
+      "at the control center",
+      "on the factory floor",
+      "in the testing laboratory"
+    ],
+    "INTERRUPTION": [
+      "critical software bugs emerged",
+      "sensor malfunctions were detected",
+      "network connectivity issues appeared",
+      "safety protocol violations occurred"
+    ],
+    "CONSEQUENCE": [
+      "halted the entire manufacturing line",
+      "required immediate system recalibration",
+      "prompted a comprehensive security audit",
+      "necessitated a complete process review"
+    ],
+    "VERB": {
+      "test": {
+        "correct_forms": ["were testing"],
+        "wrong_forms": ["was testing", "tested", "are testing"],
+        "objects": ["the robotic assembly systems", "the automated quality controls", "the conveyor mechanisms", "the packaging machinery"],
+        "distractor": "disregard"
+      },
+      "implement": {
+        "correct_forms": ["were implementing"],
+        "wrong_forms": ["was implementing", "implemented", "are implementing"],
+        "objects": ["the new production algorithms", "the efficiency protocols", "the machine learning modules", "the predictive maintenance systems"],
+        "distractor": "obstruct"
+      },
+      "configure": {
+        "correct_forms": ["were configuring"],
+        "wrong_forms": ["was configuring", "configured", "are configuring"],
+        "objects": ["the industrial controllers", "the sensor networks", "the data acquisition systems", "the automation interfaces"],
+        "distractor": "undermine"
+      },
+      "optimize": {
+        "correct_forms": ["were optimizing"],
+        "wrong_forms": ["was optimizing", "optimized", "are optimizing"],
+        "objects": ["the production workflows", "the energy consumption patterns", "the resource allocation", "the throughput capacity"],
+        "distractor": "impede"
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_HEALTH_B1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {DURATION}.",
+  "example": "I have exercised regularly for three years.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe health habits that started in the past and continue. 'For' and 'since' show duration.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "DURATION": [
+      "for three years",
+      "for several months",
+      "since January",
+      "since last summer"
+    ],
+    "VERB": {
+      "exercise": {
+        "correct_forms": [
+          "have exercised"
+        ],
+        "wrong_forms": [
+          "has exercised",
+          "had exercised",
+          "exercised"
+        ],
+        "objects": [
+          "regularly",
+          "at the gym",
+          "every morning",
+          "five days a week"
+        ],
+        "distractor": "abandon"
+      },
+      "follow": {
+        "correct_forms": [
+          "have followed"
+        ],
+        "wrong_forms": [
+          "has followed",
+          "had followed",
+          "followed"
+        ],
+        "objects": [
+          "a healthy diet",
+          "a fitness routine",
+          "medical advice",
+          "a balanced meal plan"
+        ],
+        "distractor": "neglect"
+      },
+      "practice": {
+        "correct_forms": [
+          "have practiced"
+        ],
+        "wrong_forms": [
+          "has practiced",
+          "had practiced",
+          "practiced"
+        ],
+        "objects": [
+          "yoga",
+          "meditation",
+          "mindfulness techniques",
+          "stress management"
+        ],
+        "distractor": "overlook"
+      },
+      "reduce": {
+        "correct_forms": [
+          "have reduced"
+        ],
+        "wrong_forms": [
+          "has reduced",
+          "had reduced",
+          "reduced"
+        ],
+        "objects": [
+          "sugar intake",
+          "stress levels",
+          "unhealthy habits",
+          "screen time"
+        ],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

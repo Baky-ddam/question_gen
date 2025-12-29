@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_WORK_B1_TYPE1_GROUPB",
+  "focus": "suffix_tion_formation",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of the new policy was announced today.",
+  "example": "The introduction of the new policy was announced today.",
+  "explanation": "The suffix '-tion' transforms verbs into nouns. 'Introduce' becomes 'introduction'.",
+  "chunks": {
+    "NOUN": ["policy", "system", "procedure", "regulation"],
+    "VERB": {
+      "introduction": {
+        "correct_forms": ["introduction"],
+        "wrong_forms": ["introduce", "introducing", "introduced"],
+        "objects": [],
+        "distractor": "removal"
+      },
+      "organization": {
+        "correct_forms": ["organization"],
+        "wrong_forms": ["organize", "organizing", "organized"],
+        "objects": [],
+        "distractor": "disorganization"
+      },
+      "application": {
+        "correct_forms": ["application"],
+        "wrong_forms": ["apply", "applying", "applied"],
+        "objects": [],
+        "distractor": "rejection"
+      },
+      "communication": {
+        "correct_forms": ["communication"],
+        "wrong_forms": ["communicate", "communicating", "communicated"],
+        "objects": [],
+        "distractor": "silence"
+      }
+    }
+  }
+}

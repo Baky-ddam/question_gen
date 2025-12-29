@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_LIBRARY_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "library",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can borrow books here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission in library settings.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "in this section",
+      "at this desk"
+    ],
+    "VERB": {
+      "borrow": {
+        "correct_forms": [
+          "can borrow"
+        ],
+        "wrong_forms": [
+          "could borrow",
+          "must borrow",
+          "should borrow"
+        ],
+        "objects": [
+          "books",
+          "magazines",
+          "DVDs",
+          "audiobooks"
+        ],
+        "distractor": "quit"
+      },
+      "read": {
+        "correct_forms": [
+          "can read"
+        ],
+        "wrong_forms": [
+          "could read",
+          "must read",
+          "should read"
+        ],
+        "objects": [
+          "the newspapers",
+          "the journals",
+          "the magazines",
+          "the archives"
+        ],
+        "distractor": "skip"
+      },
+      "study": {
+        "correct_forms": [
+          "can study"
+        ],
+        "wrong_forms": [
+          "could study",
+          "must study",
+          "should study"
+        ],
+        "objects": [
+          "quietly",
+          "in groups",
+          "alone",
+          "for exams"
+        ],
+        "distractor": "waste"
+      },
+      "use": {
+        "correct_forms": [
+          "can use"
+        ],
+        "wrong_forms": [
+          "could use",
+          "must use",
+          "should use"
+        ],
+        "objects": [
+          "the computers",
+          "the printers",
+          "the WiFi",
+          "the scanners"
+        ],
+        "distractor": "destroy"
+      }
+    }
+  }
+}

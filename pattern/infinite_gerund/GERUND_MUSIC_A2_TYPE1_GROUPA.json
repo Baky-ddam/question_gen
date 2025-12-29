@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_MUSIC_A2_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "A2",
+  "domain": "music",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "I enjoy listening to music every day.",
+  "explanation": "Some verbs are followed by gerunds (verb + -ing). Common verbs: enjoy, love, like, keep, practice.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "MAINVERB": ["enjoy", "love", "like", "keep", "practice"],
+    "VERB": {
+      "listen": {
+        "correct_forms": ["listening"],
+        "wrong_forms": ["to listen", "listen", "listened"],
+        "objects": ["to music", "to songs", "to the radio", "to podcasts"],
+        "distractor": "ignoring"
+      },
+      "play": {
+        "correct_forms": ["playing"],
+        "wrong_forms": ["to play", "play", "played"],
+        "objects": ["the guitar", "the piano", "the drums", "instruments"],
+        "distractor": "breaking"
+      },
+      "sing": {
+        "correct_forms": ["singing"],
+        "wrong_forms": ["to sing", "sing", "sang"],
+        "objects": ["songs", "in the shower", "along to music", "karaoke"],
+        "distractor": "forgetting"
+      },
+      "dance": {
+        "correct_forms": ["dancing"],
+        "wrong_forms": ["to dance", "dance", "danced"],
+        "objects": ["to pop music", "at parties", "with friends", "in clubs"],
+        "distractor": "sitting"
+      }
+    },
+    "TIME": ["every day", "in the evening", "on weekends", "at home"]
+  }
+}

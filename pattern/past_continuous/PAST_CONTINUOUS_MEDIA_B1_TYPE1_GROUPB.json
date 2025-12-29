@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_MEDIA_B1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "while_parallel"],
+  "template": "While {SUBJ} ____ {OBJ}, {PARALLEL_ACTION}.",
+  "example": "While I was reporting from the scene, the camera crew was setting up the equipment.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for parallel past actions happening simultaneously.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "PARALLEL_ACTION": [
+      "the camera crew was setting up the equipment",
+      "the producer was coordinating with headquarters",
+      "the editor was preparing the graphics",
+      "the sound engineer was checking the audio levels"
+    ],
+    "VERB": {
+      "report": {
+        "correct_forms": ["was reporting"],
+        "wrong_forms": ["were reporting", "reported", "is reporting"],
+        "objects": ["from the scene", "on the breaking story", "live from the event", "on the developing situation"],
+        "distractor": "overlook"
+      },
+      "interview": {
+        "correct_forms": ["was interviewing"],
+        "wrong_forms": ["were interviewing", "interviewed", "is interviewing"],
+        "objects": ["the witness", "the local official", "the expert analyst", "the event organizer"],
+        "distractor": "dismiss"
+      },
+      "cover": {
+        "correct_forms": ["was covering"],
+        "wrong_forms": ["were covering", "covered", "is covering"],
+        "objects": ["the press conference", "the political rally", "the sports event", "the award ceremony"],
+        "distractor": "neglect"
+      },
+      "present": {
+        "correct_forms": ["was presenting"],
+        "wrong_forms": ["were presenting", "presented", "is presenting"],
+        "objects": ["the evening news", "the weather forecast", "the special report", "the morning show"],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_FINANCE_B2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} since {SINCE_CLAUSE}.",
+  "example": "The fund manager has optimized the portfolio since the market correction occurred.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' and professional titles to describe actions from a past point to now. 'Since' indicates when the action started.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the analyst",
+      "the fund manager",
+      "the financial advisor",
+      "the portfolio manager"
+    ],
+    "SINCE_CLAUSE": [
+      "the new regulations came into effect",
+      "the market correction occurred",
+      "the fiscal year began",
+      "the investment strategy was revised"
+    ],
+    "VERB": {
+      "optimize": {
+        "correct_forms": [
+          "has optimized"
+        ],
+        "wrong_forms": [
+          "have optimized",
+          "had optimized",
+          "optimized"
+        ],
+        "objects": [
+          "the asset allocation",
+          "the portfolio performance",
+          "the investment returns",
+          "the risk-adjusted metrics"
+        ],
+        "distractor": "impede"
+      },
+      "monitor": {
+        "correct_forms": [
+          "has monitored"
+        ],
+        "wrong_forms": [
+          "have monitored",
+          "had monitored",
+          "monitored"
+        ],
+        "objects": [
+          "market volatility closely",
+          "the equity positions",
+          "interest rate movements",
+          "currency fluctuations"
+        ],
+        "distractor": "overlook"
+      },
+      "assess": {
+        "correct_forms": [
+          "has assessed"
+        ],
+        "wrong_forms": [
+          "have assessed",
+          "had assessed",
+          "assessed"
+        ],
+        "objects": [
+          "the credit risk exposure",
+          "the liquidity requirements",
+          "the market conditions",
+          "the investment opportunities"
+        ],
+        "distractor": "suppress"
+      },
+      "rebalance": {
+        "correct_forms": [
+          "has rebalanced"
+        ],
+        "wrong_forms": [
+          "have rebalanced",
+          "had rebalanced",
+          "rebalanced"
+        ],
+        "objects": [
+          "the portfolio quarterly",
+          "the asset mix systematically",
+          "the fund allocations",
+          "the investment holdings"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

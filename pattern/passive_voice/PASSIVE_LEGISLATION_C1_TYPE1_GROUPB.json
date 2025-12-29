@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_LEGISLATION_C1_TYPE1_GROUPB",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "legislation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "The constitution has been amended by the assembly to reflect contemporary values.",
+  "explanation": "Use 'has been' + past participle with singular subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["the constitution", "the legislation", "the regulatory framework", "the treaty", "the policy", "the charter"],
+    "AGENT": ["the assembly", "the supreme court", "the governing council", "constitutional experts", "legal authorities", "the commission"],
+    "PURPOSE": ["reflect contemporary values", "address modern challenges", "strengthen civil liberties", "enhance governmental accountability", "modernize judicial processes", "align with international standards"],
+    "VERB": {
+      "amend": {
+        "correct_forms": ["has been amended"],
+        "wrong_forms": ["have been amended", "was amended", "is amended"],
+        "objects": [],
+        "distractor": "violated"
+      },
+      "revise": {
+        "correct_forms": ["has been revised"],
+        "wrong_forms": ["have been revised", "was revised", "is revised"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "ratify": {
+        "correct_forms": ["has been ratified"],
+        "wrong_forms": ["have been ratified", "was ratified", "is ratified"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "interpret": {
+        "correct_forms": ["has been interpreted"],
+        "wrong_forms": ["have been interpreted", "was interpreted", "is interpreted"],
+        "objects": [],
+        "distractor": "misapplied"
+      }
+    }
+  }
+}

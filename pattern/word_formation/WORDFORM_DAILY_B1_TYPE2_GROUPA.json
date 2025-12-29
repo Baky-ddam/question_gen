@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_DAILY_B1_TYPE2_GROUPA",
+  "focus": "prefix_dis_formation",
+  "level": "B1",
+  "domain": "daily_life",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "I ____ with your opinion on this matter.",
+  "example": "I disagree with your opinion on this matter.",
+  "explanation": "The prefix 'dis-' creates negation or reversal. 'Agree' becomes 'disagree' (not agree).",
+  "chunks": {
+    "NOUN": ["opinion", "view", "decision", "suggestion"],
+    "VERB": {
+      "disagree": {
+        "correct_forms": ["disagree"],
+        "wrong_forms": ["agree", "unagreed", "inagreed"],
+        "objects": [],
+        "distractor": "concur"
+      },
+      "disapprove": {
+        "correct_forms": ["disapprove"],
+        "wrong_forms": ["approve", "unapprove", "inapprove"],
+        "objects": [],
+        "distractor": "support"
+      },
+      "dislike": {
+        "correct_forms": ["dislike"],
+        "wrong_forms": ["like", "unlike", "inlike"],
+        "objects": [],
+        "distractor": "enjoy"
+      },
+      "disconnect": {
+        "correct_forms": ["disconnect"],
+        "wrong_forms": ["connect", "unconnect", "inconnect"],
+        "objects": [],
+        "distractor": "attach"
+      }
+    }
+  }
+}

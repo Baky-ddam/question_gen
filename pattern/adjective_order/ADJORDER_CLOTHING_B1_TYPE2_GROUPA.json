@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_CLOTHING_B1_TYPE2_GROUPA",
+  "focus": "adjective_order_age_color",
+  "level": "B1",
+  "domain": "clothing",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "I found an ____ {NOUN} in the closet.",
+  "example": "I found an old brown coat in the closet.",
+  "explanation": "Age comes before color in adjective order. 'Old brown' not 'brown old'.",
+  "chunks": {
+    "NOUN": ["coat", "hat", "shirt", "pair of shoes"],
+    "VERB": {
+      "old brown": {
+        "correct_forms": ["old brown"],
+        "wrong_forms": ["brown old", "brown and old", "old and brown"],
+        "objects": [],
+        "distractor": "new"
+      },
+      "new black": {
+        "correct_forms": ["new black"],
+        "wrong_forms": ["black new", "black and new", "new and black"],
+        "objects": [],
+        "distractor": "worn"
+      },
+      "ancient grey": {
+        "correct_forms": ["ancient grey"],
+        "wrong_forms": ["grey ancient", "grey and ancient", "ancient and grey"],
+        "objects": [],
+        "distractor": "modern"
+      }
+    }
+  }
+}

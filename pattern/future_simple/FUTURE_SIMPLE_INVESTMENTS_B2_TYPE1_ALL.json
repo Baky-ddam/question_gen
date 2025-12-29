@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_INVESTMENTS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "investments",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "Investors will diversify their portfolios because market volatility is increasing.",
+  "explanation": "Future simple uses 'will + base verb' for investment predictions with reasoning at the B2 level.",
+  "chunks": {
+    "SUBJ": ["Investors", "The fund", "Analysts", "Shareholders", "The firm", "Portfolio managers"],
+    "VERB": {
+      "diversify": {
+        "correct_forms": ["will diversify"],
+        "wrong_forms": ["diversifies", "is going to diversify", "would diversify"],
+        "objects": ["their portfolios", "investments", "holdings"],
+        "distractor": "undermine"
+      },
+      "invest": {
+        "correct_forms": ["will invest"],
+        "wrong_forms": ["invests", "is going to invest", "would invest"],
+        "objects": ["in technology", "in real estate", "in emerging markets"],
+        "distractor": "disregard"
+      },
+      "allocate": {
+        "correct_forms": ["will allocate"],
+        "wrong_forms": ["allocates", "is going to allocate", "would allocate"],
+        "objects": ["more resources", "funds strategically", "capital wisely"],
+        "distractor": "hinder"
+      },
+      "exit": {
+        "correct_forms": ["will exit"],
+        "wrong_forms": ["exits", "is going to exit", "would exit"],
+        "objects": ["unprofitable positions", "the market", "risky assets"],
+        "distractor": "obstruct"
+      }
+    },
+    "REASON": ["market volatility is increasing", "returns are expected to grow", "risks are rising", "opportunities are emerging", "the economy is strengthening", "regulations are changing"]
+  }
+}

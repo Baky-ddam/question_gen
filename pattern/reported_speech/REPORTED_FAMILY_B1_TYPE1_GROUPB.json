@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FAMILY_B1_TYPE1_GROUPB",
+  "focus": "reported_speech_family_past_singular",
+  "level": "B1",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FAMILY_MEMBER} said that {SUBJ} ____ {FAMILY_CONTENT}.",
+  "example": "My sister said that she was starting a new job next month.",
+  "explanation": "In reported speech, 'is starting' becomes 'was starting'. Singular subjects use 'was'.",
+  "chunks": {
+    "FAMILY_MEMBER": ["My sister", "My brother", "My uncle", "My aunt"],
+    "SUBJ": ["she", "he", "my cousin", "the baby"],
+    "FAMILY_CONTENT": ["starting a new job next month", "moving to another city", "getting married soon", "learning to drive"],
+    "VERB": {
+      "was": {
+        "correct_forms": ["was"],
+        "wrong_forms": ["is", "has been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["has been", "is", "was being"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

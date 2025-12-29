@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_CLIMATEPOLICY_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "climate_policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Experts predict that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Experts predict that carbon emissions will decline as renewable energy adoption accelerates globally.",
+  "explanation": "Future simple uses 'will + base verb' in complex C1 predictions about climate policy with trend analysis.",
+  "chunks": {
+    "SUBJ": ["carbon emissions", "environmental regulations", "clean energy investments", "climate adaptation efforts", "sustainability initiatives", "decarbonization programs"],
+    "VERB": {
+      "decline": {
+        "correct_forms": ["will decline"],
+        "wrong_forms": ["declines", "is going to decline", "would decline"],
+        "objects": ["substantially", "over the next decade", "across sectors"],
+        "distractor": "forsake"
+      },
+      "intensify": {
+        "correct_forms": ["will intensify"],
+        "wrong_forms": ["intensifies", "is going to intensify", "would intensify"],
+        "objects": ["globally", "in response to crises", "at unprecedented levels"],
+        "distractor": "obliterate"
+      },
+      "accelerate": {
+        "correct_forms": ["will accelerate"],
+        "wrong_forms": ["accelerates", "is going to accelerate", "would accelerate"],
+        "objects": ["rapidly", "in major economies", "through policy mandates"],
+        "distractor": "renounce"
+      },
+      "reshape": {
+        "correct_forms": ["will reshape"],
+        "wrong_forms": ["reshapes", "is going to reshape", "would reshape"],
+        "objects": ["energy markets", "industrial practices", "urban planning"],
+        "distractor": "nullify"
+      }
+    },
+    "TREND": ["renewable energy adoption accelerates globally", "international agreements take effect", "carbon pricing mechanisms expand", "public pressure mounts", "technology costs decrease", "extreme weather events increase"]
+  }
+}

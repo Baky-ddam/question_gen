@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ACTIVITIES_A1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "activities",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "She has ridden a horse before.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to talk about activities done.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "my brother", "my sister", "the child"],
+    "VERB": {
+      "ride": {
+        "correct_forms": ["has ridden"],
+        "wrong_forms": ["have ridden", "had ridden", "rode"],
+        "objects": ["a bike", "a horse", "a scooter", "a pony"],
+        "distractor": "crash"
+      },
+      "fly": {
+        "correct_forms": ["has flown"],
+        "wrong_forms": ["have flown", "had flown", "flew"],
+        "objects": ["a kite", "in a plane", "on an airplane", "to another country"],
+        "distractor": "fall"
+      },
+      "sing": {
+        "correct_forms": ["has sung"],
+        "wrong_forms": ["have sung", "had sung", "sang"],
+        "objects": ["a song", "in a choir", "at school", "on stage"],
+        "distractor": "forget"
+      },
+      "win": {
+        "correct_forms": ["has won"],
+        "wrong_forms": ["have won", "had won", "won"],
+        "objects": ["a game", "a prize", "a race", "a medal"],
+        "distractor": "lose"
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_TECHNOLOGY_ETHICS_C1_TYPE1_ALL",
+  "focus": "modal_obligation",
+  "level": "C1",
+  "domain": "technology_ethics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_must",
+    "modal_should",
+    "modal_could"
+  ],
+  "template": "While {CONTRAST}, {SUBJ} ____ {OBJ}.",
+  "example": "While technological advancement accelerates, regulators must regulate algorithmic decision-making systems.",
+  "explanation": "Use modals (must/should/could) in contrast structures to express ethical obligations and considerations in technology governance contexts.",
+  "chunks": {
+    "SUBJ": [
+      "Technology regulators",
+      "Ethics committees",
+      "Digital governance bodies",
+      "AI oversight authorities",
+      "Data protection agencies",
+      "Technology policymakers"
+    ],
+    "CONTRAST": [
+      "technological innovation outpaces regulation",
+      "commercial pressures drive rapid deployment",
+      "privacy concerns continue to escalate",
+      "algorithmic systems become increasingly autonomous"
+    ],
+    "VERB": {
+      "regulate": {
+        "correct_forms": [
+          "must regulate"
+        ],
+        "wrong_forms": [
+          "should regulates",
+          "must regulating",
+          "could regulated"
+        ],
+        "objects": [
+          "autonomous decision-making systems",
+          "algorithmic bias mechanisms",
+          "invasive surveillance technologies",
+          "data extraction practices"
+        ],
+        "distractor": "nullify"
+      },
+      "consider": {
+        "correct_forms": [
+          "should consider"
+        ],
+        "wrong_forms": [
+          "must considers",
+          "should considering",
+          "could considered"
+        ],
+        "objects": [
+          "broader societal implications",
+          "fundamental human rights impacts",
+          "long-term ethical consequences",
+          "democratic accountability frameworks"
+        ],
+        "distractor": "abrogate"
+      },
+      "impact": {
+        "correct_forms": [
+          "could impact"
+        ],
+        "wrong_forms": [
+          "might impacts",
+          "could impacting",
+          "should impacted"
+        ],
+        "objects": [
+          "individual privacy protections",
+          "democratic discourse fundamentally",
+          "social cohesion significantly",
+          "human autonomy substantially"
+        ],
+        "distractor": "rescind"
+      },
+      "safeguard": {
+        "correct_forms": [
+          "must safeguard"
+        ],
+        "wrong_forms": [
+          "should safeguards",
+          "must safeguarding",
+          "could safeguarded"
+        ],
+        "objects": [
+          "fundamental digital rights",
+          "algorithmic transparency standards",
+          "data sovereignty principles",
+          "technological accountability mechanisms"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

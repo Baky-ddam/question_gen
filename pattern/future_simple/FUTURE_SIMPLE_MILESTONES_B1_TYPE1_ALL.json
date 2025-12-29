@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_MILESTONES_B1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B1",
+  "domain": "milestones",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "When {TRIGGER}, {SUBJ} ____ {OBJ}.",
+  "example": "When I turn 30, I will celebrate with family.",
+  "explanation": "Future simple uses 'will + base verb' after 'when' to describe actions at life milestones.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "celebrate": {
+        "correct_forms": ["will celebrate"],
+        "wrong_forms": ["celebrates", "is going to celebrate", "would celebrate"],
+        "objects": ["with family", "the achievement", "in style"],
+        "distractor": "ignore"
+      },
+      "reach": {
+        "correct_forms": ["will reach"],
+        "wrong_forms": ["reaches", "is going to reach", "would reach"],
+        "objects": ["a new goal", "the target", "a milestone"],
+        "distractor": "abandon"
+      },
+      "achieve": {
+        "correct_forms": ["will achieve"],
+        "wrong_forms": ["achieves", "is going to achieve", "would achieve"],
+        "objects": ["success", "the dream", "recognition"],
+        "distractor": "neglect"
+      },
+      "remember": {
+        "correct_forms": ["will remember"],
+        "wrong_forms": ["remembers", "is going to remember", "would remember"],
+        "objects": ["this moment", "the day", "the achievement"],
+        "distractor": "forget"
+      }
+    },
+    "TRIGGER": ["I turn 30", "she graduates", "we get married", "they retire", "he gets promoted", "you finish school"]
+  }
+}

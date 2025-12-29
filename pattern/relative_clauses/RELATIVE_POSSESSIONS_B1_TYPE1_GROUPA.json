@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_POSSESSIONS_B1_TYPE1_GROUPA",
+  "focus": "relative_clause_whose",
+  "level": "B1",
+  "domain": "possessions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PERSON} ____ {POSSESSION} {SITUATION}.",
+  "example": "The student whose laptop was stolen reported it to the police.",
+  "explanation": "We use 'whose' to show possession or belonging. It replaces 'his/her/their' in the relative clause.",
+  "chunks": {
+    "PERSON": ["student", "neighbor", "colleague", "friend"],
+    "POSSESSION": ["laptop was stolen", "car broke down", "house was flooded", "phone was lost"],
+    "SITUATION": ["reported it to the police", "asked for help", "called the insurance", "filed a complaint"],
+    "VERB": {
+      "whose": {
+        "correct_forms": ["whose"],
+        "wrong_forms": ["who", "which", "whom"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

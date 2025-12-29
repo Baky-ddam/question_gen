@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_CULTURE_B1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "culture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "time_reference"],
+  "template": "{TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "At this time last year, we were exploring ancient temples in Kyoto.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for past ongoing actions at a specific time.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "At this time last year",
+      "During the festival last month",
+      "Throughout the cultural exchange program",
+      "All week during the celebration"
+    ],
+    "VERB": {
+      "explore": {
+        "correct_forms": ["were exploring"],
+        "wrong_forms": ["was exploring", "explored", "are exploring"],
+        "objects": ["ancient temples", "historical museums", "traditional villages", "cultural heritage sites"],
+        "distractor": "abandon"
+      },
+      "study": {
+        "correct_forms": ["were studying"],
+        "wrong_forms": ["was studying", "studied", "are studying"],
+        "objects": ["traditional art forms", "local customs and rituals", "indigenous languages", "classical music traditions"],
+        "distractor": "neglect"
+      },
+      "experience": {
+        "correct_forms": ["were experiencing"],
+        "wrong_forms": ["was experiencing", "experienced", "are experiencing"],
+        "objects": ["traditional ceremonies", "local festivals", "authentic cuisine", "cultural performances"],
+        "distractor": "overlook"
+      },
+      "attend": {
+        "correct_forms": ["were attending"],
+        "wrong_forms": ["was attending", "attended", "are attending"],
+        "objects": ["cultural workshops", "traditional dance classes", "art exhibitions", "heritage preservation events"],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

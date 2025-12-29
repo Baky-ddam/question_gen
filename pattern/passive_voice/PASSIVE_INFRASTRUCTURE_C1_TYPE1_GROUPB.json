@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_INFRASTRUCTURE_C1_TYPE1_GROUPB",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "infrastructure",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "The transportation hub has been redesigned by architects to maximize efficiency and accessibility.",
+  "explanation": "Use 'has been' + past participle with singular subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["the transportation hub", "the power grid", "the water treatment facility", "the telecommunications network", "the highway system", "the railway line"],
+    "AGENT": ["architects", "specialized contractors", "the infrastructure ministry", "engineering consultants", "the development corporation", "technical experts"],
+    "PURPOSE": ["maximize efficiency and accessibility", "meet growing demand", "ensure long-term sustainability", "integrate advanced technologies", "comply with environmental standards", "serve expanding communities"],
+    "VERB": {
+      "redesign": {
+        "correct_forms": ["has been redesigned"],
+        "wrong_forms": ["have been redesigned", "was redesigned", "is redesigned"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "expand": {
+        "correct_forms": ["has been expanded"],
+        "wrong_forms": ["have been expanded", "was expanded", "is expanded"],
+        "objects": [],
+        "distractor": "reduced"
+      },
+      "modernize": {
+        "correct_forms": ["has been modernized"],
+        "wrong_forms": ["have been modernized", "was modernized", "is modernized"],
+        "objects": [],
+        "distractor": "neglected"
+      },
+      "connect": {
+        "correct_forms": ["has been connected"],
+        "wrong_forms": ["have been connected", "was connected", "is connected"],
+        "objects": [],
+        "distractor": "isolated"
+      }
+    }
+  }
+}

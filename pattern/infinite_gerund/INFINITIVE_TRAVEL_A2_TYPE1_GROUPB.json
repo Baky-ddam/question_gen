@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_TRAVEL_A2_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "A2",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {TIME}.",
+  "example": "She plans to visit Paris next summer.",
+  "explanation": "Some verbs are followed by infinitives (to + verb). Common verbs: want, plan, hope, decide, need.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "the tourist"],
+    "MAINVERB": ["wants", "plans", "hopes", "decides", "needs"],
+    "VERB": {
+      "visit": {
+        "correct_forms": ["to visit"],
+        "wrong_forms": ["visiting", "visit", "visited"],
+        "objects": ["museums", "famous places", "historical sites", "the city center"],
+        "distractor": "to skip"
+      },
+      "explore": {
+        "correct_forms": ["to explore"],
+        "wrong_forms": ["exploring", "explore", "explored"],
+        "objects": ["the city", "new countries", "local markets", "the countryside"],
+        "distractor": "to ignore"
+      },
+      "stay": {
+        "correct_forms": ["to stay"],
+        "wrong_forms": ["staying", "stay", "stayed"],
+        "objects": ["at a hotel", "with friends", "for a week", "longer"],
+        "distractor": "to leave"
+      },
+      "fly": {
+        "correct_forms": ["to fly"],
+        "wrong_forms": ["flying", "fly", "flew"],
+        "objects": ["to Spain", "first class", "direct", "overnight"],
+        "distractor": "to crash"
+      }
+    },
+    "TIME": ["next summer", "this year", "in December", "next vacation"]
+  }
+}

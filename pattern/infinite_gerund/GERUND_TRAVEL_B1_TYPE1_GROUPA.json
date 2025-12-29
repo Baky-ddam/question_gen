@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_TRAVEL_B1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "B1",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "We enjoy exploring new cities when traveling abroad.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Use gerunds after: enjoy, consider, avoid, suggest, recommend, mind.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "tourists", "travelers"],
+    "MAINVERB": ["enjoy", "consider", "avoid", "suggest", "recommend"],
+    "VERB": {
+      "explore": {
+        "correct_forms": ["exploring"],
+        "wrong_forms": ["to explore", "explore", "explores"],
+        "objects": ["new cities", "local markets", "hidden gems", "the countryside"],
+        "distractor": "ignoring"
+      },
+      "visit": {
+        "correct_forms": ["visiting"],
+        "wrong_forms": ["to visit", "visit", "visits"],
+        "objects": ["museums", "historical sites", "famous landmarks", "local restaurants"],
+        "distractor": "skipping"
+      },
+      "book": {
+        "correct_forms": ["booking"],
+        "wrong_forms": ["to book", "book", "books"],
+        "objects": ["flights early", "hotels in advance", "tours online", "seats beforehand"],
+        "distractor": "canceling"
+      },
+      "travel": {
+        "correct_forms": ["traveling"],
+        "wrong_forms": ["to travel", "travel", "travels"],
+        "objects": ["by train", "during off-season", "with friends", "light"],
+        "distractor": "staying"
+      }
+    },
+    "CONTEXT": ["when abroad", "on vacations", "during holidays", "while traveling", "in new places"]
+  }
+}

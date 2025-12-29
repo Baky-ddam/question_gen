@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_FINANCE_B2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "finance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "We have diversified our portfolio, so the risk is now minimized.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe completed actions with present results. The 'so' clause shows the consequence.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they",
+      "the investors",
+      "the shareholders"
+    ],
+    "RESULT": [
+      "the returns are now stable",
+      "the portfolio is well-balanced",
+      "the risk exposure is reduced",
+      "the financial outlook has improved"
+    ],
+    "VERB": {
+      "invest": {
+        "correct_forms": [
+          "have invested"
+        ],
+        "wrong_forms": [
+          "has invested",
+          "had invested",
+          "invested"
+        ],
+        "objects": [
+          "heavily in emerging markets",
+          "in diversified assets",
+          "in sustainable funds",
+          "in technology stocks"
+        ],
+        "distractor": "disregard"
+      },
+      "allocate": {
+        "correct_forms": [
+          "have allocated"
+        ],
+        "wrong_forms": [
+          "has allocated",
+          "had allocated",
+          "allocated"
+        ],
+        "objects": [
+          "substantial capital to bonds",
+          "resources to growth sectors",
+          "funds to fixed-income securities",
+          "assets across multiple markets"
+        ],
+        "distractor": "undermine"
+      },
+      "diversify": {
+        "correct_forms": [
+          "have diversified"
+        ],
+        "wrong_forms": [
+          "has diversified",
+          "had diversified",
+          "diversified"
+        ],
+        "objects": [
+          "the investment portfolio",
+          "across asset classes",
+          "into international markets",
+          "holdings strategically"
+        ],
+        "distractor": "circumvent"
+      },
+      "restructure": {
+        "correct_forms": [
+          "have restructured"
+        ],
+        "wrong_forms": [
+          "has restructured",
+          "had restructured",
+          "restructured"
+        ],
+        "objects": [
+          "the debt obligations",
+          "the financial arrangements",
+          "the investment strategy",
+          "the capital allocation"
+        ],
+        "distractor": "obstruct"
+      }
+    }
+  }
+}

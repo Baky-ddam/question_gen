@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_HEALTH_B1_TYPE1_GROUPC",
+  "focus": "phrasal_verb_separable",
+  "level": "B1",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} should ____ {NOUN} {PURPOSE}.",
+  "example": "I should give up smoking to improve my health.",
+  "explanation": "These health-related phrasal verbs involve stopping or reducing habits. They are commonly used with should for advice.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "PURPOSE": ["to improve my health", "to feel better", "to live longer", "for a healthier lifestyle"],
+    "VERB": {
+      "give up": {
+        "correct_forms": ["give up"],
+        "wrong_forms": ["give on", "give off", "give in"],
+        "objects": ["smoking", "bad habits", "junk food", "sugary drinks"],
+        "distractor": "start"
+      },
+      "take up": {
+        "correct_forms": ["take up"],
+        "wrong_forms": ["take on", "take off", "take in"],
+        "objects": ["exercise", "yoga", "running", "swimming"],
+        "distractor": "quit"
+      },
+      "keep up": {
+        "correct_forms": ["keep up"],
+        "wrong_forms": ["keep on", "keep off", "keep in"],
+        "objects": ["the exercise routine", "healthy habits", "the diet", "regular checkups"],
+        "distractor": "abandon"
+      },
+      "build up": {
+        "correct_forms": ["build up"],
+        "wrong_forms": ["build on", "build off", "build in"],
+        "objects": ["strength", "immunity", "stamina", "muscle"],
+        "distractor": "lose"
+      }
+    }
+  }
+}

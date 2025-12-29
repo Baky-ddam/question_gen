@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_PHILOSOPHY_C1_TYPE1_GROUPA",
+  "focus": "suffix_ity_abstract_formation",
+  "level": "C1",
+  "domain": "philosophy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The philosopher questioned the very ____ of human consciousness in the contemporary discourse.",
+  "example": "The philosopher questioned the very authenticity of human consciousness in the contemporary discourse.",
+  "explanation": "The suffix '-ity' transforms adjectives into abstract nouns. 'Authentic' becomes 'authenticity'.",
+  "chunks": {
+    "NOUN": ["discourse", "debate", "dialogue", "inquiry"],
+    "VERB": {
+      "authenticity": {
+        "correct_forms": ["authenticity"],
+        "wrong_forms": ["authentic", "authenticate", "authentically"],
+        "objects": [],
+        "distractor": "artificiality"
+      },
+      "objectivity": {
+        "correct_forms": ["objectivity"],
+        "wrong_forms": ["objective", "objectify", "objectively"],
+        "objects": [],
+        "distractor": "subjectivity"
+      },
+      "rationality": {
+        "correct_forms": ["rationality"],
+        "wrong_forms": ["rational", "rationalize", "rationally"],
+        "objects": [],
+        "distractor": "irrationality"
+      },
+      "universality": {
+        "correct_forms": ["universality"],
+        "wrong_forms": ["universal", "universalize", "universally"],
+        "objects": [],
+        "distractor": "particularity"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "pattern_id": "PRESENT_PERFECT_TECHNOLOGY_A2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ just {OBJ}.",
+  "example": "He has just updated the software.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for very recent actions. 'Just' means the action happened very recently.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the developer",
+      "the company"
+    ],
+    "VERB": {
+      "update": {
+        "correct_forms": [
+          "has updated"
+        ],
+        "wrong_forms": [
+          "have updated",
+          "had updated",
+          "updated"
+        ],
+        "objects": [
+          "the software",
+          "the app",
+          "the system",
+          "the phone"
+        ],
+        "distractor": "destroy"
+      },
+      "launch": {
+        "correct_forms": [
+          "has launched"
+        ],
+        "wrong_forms": [
+          "have launched",
+          "had launched",
+          "launched"
+        ],
+        "objects": [
+          "a new product",
+          "a new feature",
+          "the website",
+          "a new app"
+        ],
+        "distractor": "abandon"
+      },
+      "fix": {
+        "correct_forms": [
+          "has fixed"
+        ],
+        "wrong_forms": [
+          "have fixed",
+          "had fixed",
+          "fixed"
+        ],
+        "objects": [
+          "the bug",
+          "the problem",
+          "the error",
+          "the issue"
+        ],
+        "distractor": "neglect"
+      },
+      "install": {
+        "correct_forms": [
+          "has installed"
+        ],
+        "wrong_forms": [
+          "have installed",
+          "had installed",
+          "installed"
+        ],
+        "objects": [
+          "the program",
+          "the update",
+          "new software",
+          "the latest version"
+        ],
+        "distractor": "skip"
+      }
+    }
+  }
+}

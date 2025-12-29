@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_LAW_B2_TYPE1_GROUPB",
+  "focus": "suffix_al_adjective_formation",
+  "level": "B2",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The judge made a ____ decision based on the evidence.",
+  "example": "The judge made a constitutional decision based on the evidence.",
+  "explanation": "The suffix '-al' transforms nouns into adjectives. 'Constitution' becomes 'constitutional'.",
+  "chunks": {
+    "NOUN": ["evidence", "facts", "testimony", "documents"],
+    "VERB": {
+      "constitutional": {
+        "correct_forms": ["constitutional"],
+        "wrong_forms": ["constitution", "constitute", "constitutionally"],
+        "objects": [],
+        "distractor": "unconstitutional"
+      },
+      "legal": {
+        "correct_forms": ["legal"],
+        "wrong_forms": ["legality", "legally", "legalize"],
+        "objects": [],
+        "distractor": "illegal"
+      },
+      "criminal": {
+        "correct_forms": ["criminal"],
+        "wrong_forms": ["crime", "criminally", "criminalize"],
+        "objects": [],
+        "distractor": "lawful"
+      },
+      "judicial": {
+        "correct_forms": ["judicial"],
+        "wrong_forms": ["judge", "judicially", "judiciary"],
+        "objects": [],
+        "distractor": "arbitrary"
+      }
+    }
+  }
+}

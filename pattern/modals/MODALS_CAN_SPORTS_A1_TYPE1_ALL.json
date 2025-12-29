@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_SPORTS_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "They can run very fast.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "run": {
+        "correct_forms": [
+          "can run"
+        ],
+        "wrong_forms": [
+          "could run",
+          "must run",
+          "should run"
+        ],
+        "distractor": "stop",
+        "objects": [
+          "very fast",
+          "a marathon",
+          "for hours"
+        ]
+      },
+      "jump": {
+        "correct_forms": [
+          "can jump"
+        ],
+        "wrong_forms": [
+          "could jump",
+          "must jump",
+          "should jump"
+        ],
+        "distractor": "avoid",
+        "objects": [
+          "very high",
+          "over obstacles",
+          "far"
+        ]
+      },
+      "catch": {
+        "correct_forms": [
+          "can catch"
+        ],
+        "wrong_forms": [
+          "could catch",
+          "must catch",
+          "should catch"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "the ball",
+          "anything",
+          "very well"
+        ]
+      },
+      "throw": {
+        "correct_forms": [
+          "can throw"
+        ],
+        "wrong_forms": [
+          "could throw",
+          "must throw",
+          "should throw"
+        ],
+        "distractor": "break",
+        "objects": [
+          "the ball",
+          "very far",
+          "accurately"
+        ]
+      }
+    }
+  }
+}

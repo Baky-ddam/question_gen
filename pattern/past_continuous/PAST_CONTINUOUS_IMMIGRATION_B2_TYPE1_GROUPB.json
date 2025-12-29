@@ -1,0 +1,60 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_IMMIGRATION_B2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "immigration",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "complex_interruption", "which_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} when {INTERRUPTION}, which {CONSEQUENCE}.",
+  "example": "The immigration officer was interviewing the applicant at the consulate when policy changes were announced, which affected pending case decisions.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular professional titles for interrupted immigration activities with consequences.",
+  "chunks": {
+    "SUBJ": ["I", "the immigration officer", "the border agent", "the consular official"],
+    "PREP_PLACE": [
+      "at the consulate",
+      "at the border checkpoint",
+      "in the processing center",
+      "at the immigration office"
+    ],
+    "INTERRUPTION": [
+      "policy changes were announced",
+      "system updates took effect",
+      "emergency protocols were activated",
+      "diplomatic notifications arrived"
+    ],
+    "CONSEQUENCE": [
+      "affected pending case decisions",
+      "required immediate procedural adjustments",
+      "prompted comprehensive file reviews",
+      "necessitated senior authorization"
+    ],
+    "VERB": {
+      "interview": {
+        "correct_forms": ["was interviewing"],
+        "wrong_forms": ["were interviewing", "interviewed", "is interviewing"],
+        "objects": ["the applicant", "the refugee claimant", "the family sponsor", "the work permit holder"],
+        "distractor": "obstruct"
+      },
+      "assess": {
+        "correct_forms": ["was assessing"],
+        "wrong_forms": ["were assessing", "assessed", "is assessing"],
+        "objects": ["the documentation authenticity", "the risk factors", "the integration potential", "the financial stability"],
+        "distractor": "impede"
+      },
+      "examine": {
+        "correct_forms": ["was examining"],
+        "wrong_forms": ["were examining", "examined", "is examining"],
+        "objects": ["the passport validity", "the supporting evidence", "the travel history", "the biometric data"],
+        "distractor": "hinder"
+      },
+      "document": {
+        "correct_forms": ["was documenting"],
+        "wrong_forms": ["were documenting", "documented", "is documenting"],
+        "objects": ["the interview responses", "the inspection findings", "the compliance observations", "the decision rationale"],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

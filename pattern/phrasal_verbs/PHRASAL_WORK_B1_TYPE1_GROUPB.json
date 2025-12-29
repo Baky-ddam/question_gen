@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_WORK_B1_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {PURPOSE}.",
+  "example": "She fills out the form to apply for the job.",
+  "explanation": "These phrasal verbs are commonly used in work and office contexts. The particle changes the meaning of the base verb.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the manager", "the employee"],
+    "PURPOSE": ["to apply for the job", "to meet the deadline", "before the meeting", "to complete the project", "as required"],
+    "VERB": {
+      "fill out": {
+        "correct_forms": ["fills out"],
+        "wrong_forms": ["fills in", "fills on", "fills up"],
+        "objects": ["form", "application", "survey", "questionnaire"],
+        "distractor": "ignores"
+      },
+      "hand in": {
+        "correct_forms": ["hands in"],
+        "wrong_forms": ["hands on", "hands off", "hands up"],
+        "objects": ["report", "assignment", "documents", "proposal"],
+        "distractor": "withholds"
+      },
+      "carry out": {
+        "correct_forms": ["carries out"],
+        "wrong_forms": ["carries on", "carries off", "carries in"],
+        "objects": ["research", "task", "investigation", "analysis"],
+        "distractor": "abandons"
+      },
+      "figure out": {
+        "correct_forms": ["figures out"],
+        "wrong_forms": ["figures on", "figures in", "figures up"],
+        "objects": ["solution", "problem", "issue", "answer"],
+        "distractor": "ignores"
+      }
+    }
+  }
+}

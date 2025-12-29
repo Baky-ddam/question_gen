@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_SCHOOL_B1_TYPE1_GROUPA",
+  "focus": "reported_speech_school_past",
+  "level": "B1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The teacher said that {SUBJ} ____ {SCHOOL_ACTIVITY}.",
+  "example": "The teacher said that the students were making good progress.",
+  "explanation": "In reported speech, 'are making' becomes 'were making'. We use past continuous to report present continuous.",
+  "chunks": {
+    "SUBJ": ["the students", "we", "they", "the class"],
+    "SCHOOL_ACTIVITY": ["making good progress", "working hard on the project", "preparing for the exam", "improving their skills"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["are", "have been", "will be"],
+        "objects": [],
+        "distractor": "forget"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["have been", "are", "were being"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

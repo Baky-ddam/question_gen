@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_BUSINESS_B2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} because {REASON}.",
+  "example": "The company takes over the subsidiary because it aligns with the strategy.",
+  "explanation": "These phrasal verbs are used in business contexts to describe corporate actions, management decisions, and strategic moves.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the company", "the CEO"],
+    "REASON": ["it aligns with the strategy", "market conditions demand it", "the board approved it", "competitors are advancing", "it offers growth potential"],
+    "VERB": {
+      "take over": {
+        "correct_forms": ["takes over"],
+        "wrong_forms": ["takes on", "takes up", "takes off"],
+        "objects": ["company", "operations", "division", "business unit"],
+        "distractor": "abandons"
+      },
+      "carry out": {
+        "correct_forms": ["carries out"],
+        "wrong_forms": ["carries on", "carries off", "carries in"],
+        "objects": ["strategy", "plan", "initiative", "restructuring"],
+        "distractor": "cancels"
+      },
+      "set up": {
+        "correct_forms": ["sets up"],
+        "wrong_forms": ["sets on", "sets off", "sets in"],
+        "objects": ["subsidiary", "partnership", "joint venture", "headquarters"],
+        "distractor": "dissolves"
+      },
+      "lay off": {
+        "correct_forms": ["lays off"],
+        "wrong_forms": ["lays on", "lays up", "lays in"],
+        "objects": ["employees", "workers", "staff", "team members"],
+        "distractor": "hires"
+      }
+    }
+  }
+}

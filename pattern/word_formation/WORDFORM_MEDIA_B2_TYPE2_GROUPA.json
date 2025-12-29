@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_MEDIA_B2_TYPE2_GROUPA",
+  "focus": "prefix_under_formation",
+  "level": "B2",
+  "domain": "media",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "Critics believe the story was ____ by mainstream media.",
+  "example": "Critics believe the story was underreported by mainstream media.",
+  "explanation": "The prefix 'under-' means 'insufficiently' or 'below'. 'Report' becomes 'underreport'.",
+  "chunks": {
+    "NOUN": ["media", "press", "outlets", "networks"],
+    "VERB": {
+      "underreported": {
+        "correct_forms": ["underreported"],
+        "wrong_forms": ["reported", "overreported", "misreported"],
+        "objects": [],
+        "distractor": "exaggerated"
+      },
+      "underestimated": {
+        "correct_forms": ["underestimated"],
+        "wrong_forms": ["estimated", "overestimated", "misestimated"],
+        "objects": [],
+        "distractor": "magnified"
+      },
+      "undervalued": {
+        "correct_forms": ["undervalued"],
+        "wrong_forms": ["valued", "overvalued", "misvalued"],
+        "objects": [],
+        "distractor": "celebrated"
+      },
+      "underfunded": {
+        "correct_forms": ["underfunded"],
+        "wrong_forms": ["funded", "overfunded", "misfunded"],
+        "objects": [],
+        "distractor": "supported"
+      }
+    }
+  }
+}

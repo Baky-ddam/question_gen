@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_ENERGYTRANSITION_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "energy_transition",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Industry experts forecast that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Industry experts forecast that renewable energy capacity will expand as storage technologies become cost-competitive.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about energy transition.",
+  "chunks": {
+    "SUBJ": ["renewable energy capacity", "fossil fuel reliance", "grid infrastructure", "energy storage systems", "hydrogen production", "nuclear power generation"],
+    "VERB": {
+      "expand": {
+        "correct_forms": ["will expand"],
+        "wrong_forms": ["expands", "is going to expand", "would expand"],
+        "objects": ["exponentially", "across all markets", "beyond current projections"],
+        "distractor": "forsake"
+      },
+      "diminish": {
+        "correct_forms": ["will diminish"],
+        "wrong_forms": ["diminishes", "is going to diminish", "would diminish"],
+        "objects": ["progressively", "in developed economies", "as alternatives mature"],
+        "distractor": "obliterate"
+      },
+      "modernize": {
+        "correct_forms": ["will modernize"],
+        "wrong_forms": ["modernizes", "is going to modernize", "would modernize"],
+        "objects": ["comprehensively", "to accommodate distributed generation", "through smart technologies"],
+        "distractor": "renounce"
+      },
+      "scale": {
+        "correct_forms": ["will scale"],
+        "wrong_forms": ["scales", "is going to scale", "would scale"],
+        "objects": ["rapidly", "to meet demand", "commercially"],
+        "distractor": "abrogate"
+      }
+    },
+    "TREND": ["storage technologies become cost-competitive", "policy frameworks strengthen", "investment flows accelerate", "technological breakthroughs occur", "carbon pricing expands", "public pressure intensifies"]
+  }
+}

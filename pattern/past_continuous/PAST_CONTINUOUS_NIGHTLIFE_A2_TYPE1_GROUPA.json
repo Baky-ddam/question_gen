@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_NIGHTLIFE_A2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "nightlife",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "We were dancing at the club all night yesterday.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for actions in progress at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "all night yesterday",
+      "at midnight last Saturday",
+      "when the DJ arrived",
+      "all evening"
+    ],
+    "VERB": {
+      "dance": {
+        "correct_forms": ["were dancing"],
+        "wrong_forms": ["was dancing", "danced", "are dancing"],
+        "objects": ["at the club", "on the dance floor", "to the music"],
+        "distractor": "quit"
+      },
+      "celebrate": {
+        "correct_forms": ["were celebrating"],
+        "wrong_forms": ["was celebrating", "celebrated", "are celebrating"],
+        "objects": ["a birthday", "the new year", "a promotion"],
+        "distractor": "abandon"
+      },
+      "meet": {
+        "correct_forms": ["were meeting"],
+        "wrong_forms": ["was meeting", "met", "are meeting"],
+        "objects": ["new people", "old friends", "interesting guests"],
+        "distractor": "reject"
+      },
+      "enjoy": {
+        "correct_forms": ["were enjoying"],
+        "wrong_forms": ["was enjoying", "enjoyed", "are enjoying"],
+        "objects": ["the party", "the atmosphere", "the live performance"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

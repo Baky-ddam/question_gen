@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_COMMUNICATION_B1_TYPE2_GROUPA",
+  "focus": "prefix_mis_formation",
+  "level": "B1",
+  "domain": "communication",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "There was a ____ between the two parties.",
+  "example": "There was a misunderstanding between the two parties.",
+  "explanation": "The prefix 'mis-' means 'wrongly' or 'badly'. 'Understanding' becomes 'misunderstanding' (wrong understanding).",
+  "chunks": {
+    "NOUN": ["parties", "groups", "teams", "departments"],
+    "VERB": {
+      "misunderstanding": {
+        "correct_forms": ["misunderstanding"],
+        "wrong_forms": ["understanding", "ununderstanding", "disunderstanding"],
+        "objects": [],
+        "distractor": "agreement"
+      },
+      "miscommunication": {
+        "correct_forms": ["miscommunication"],
+        "wrong_forms": ["communication", "uncommunication", "discommunication"],
+        "objects": [],
+        "distractor": "dialogue"
+      },
+      "misinformation": {
+        "correct_forms": ["misinformation"],
+        "wrong_forms": ["information", "uninformation", "disinformation"],
+        "objects": [],
+        "distractor": "facts"
+      },
+      "misbehavior": {
+        "correct_forms": ["misbehavior"],
+        "wrong_forms": ["behavior", "unbehavior", "disbehavior"],
+        "objects": [],
+        "distractor": "conduct"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_SCHOOL_B1_TYPE2_GROUPA",
+  "focus": "reported_speech_asked_if",
+  "level": "B1",
+  "domain": "school",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The teacher asked if {SUBJ} ____ {QUESTION_CONTENT}.",
+  "example": "The teacher asked if we had finished our homework.",
+  "explanation": "When reporting yes/no questions, we use 'if' or 'whether'. 'Have you finished?' becomes 'if we had finished'.",
+  "chunks": {
+    "SUBJ": ["we", "they", "the students", "the class"],
+    "QUESTION_CONTENT": ["finished our homework", "understood the lesson", "completed the assignment", "prepared for the test"],
+    "VERB": {
+      "had finished": {
+        "correct_forms": ["had finished"],
+        "wrong_forms": ["have finished", "finished", "were finishing"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had understood": {
+        "correct_forms": ["had understood"],
+        "wrong_forms": ["understood", "have understood", "were understanding"],
+        "objects": [],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

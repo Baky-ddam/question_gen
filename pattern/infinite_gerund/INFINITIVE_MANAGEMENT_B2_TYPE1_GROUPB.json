@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_MANAGEMENT_B2_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "B2",
+  "domain": "management",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ despite {CHALLENGE}.",
+  "example": "The director decides to proceed with the project despite budget constraints.",
+  "explanation": "Some verbs require infinitives (to + verb). Management verbs with infinitives: decide, plan, expect, agree, refuse, promise.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the director", "the executive", "the leader"],
+    "MAINVERB": ["decides", "plans", "expects", "agrees", "refuses"],
+    "VERB": {
+      "proceed": {
+        "correct_forms": ["to proceed"],
+        "wrong_forms": ["proceeding", "proceed", "proceeds"],
+        "objects": ["with the project", "with the plan", "with implementation", "with the initiative"],
+        "distractor": "to halt"
+      },
+      "delegate": {
+        "correct_forms": ["to delegate"],
+        "wrong_forms": ["delegating", "delegate", "delegates"],
+        "objects": ["responsibilities", "tasks", "authority", "decision-making"],
+        "distractor": "to micromanage"
+      },
+      "prioritize": {
+        "correct_forms": ["to prioritize"],
+        "wrong_forms": ["prioritizing", "prioritize", "prioritizes"],
+        "objects": ["key objectives", "critical tasks", "stakeholder needs", "strategic goals"],
+        "distractor": "to neglect"
+      },
+      "streamline": {
+        "correct_forms": ["to streamline"],
+        "wrong_forms": ["streamlining", "streamline", "streamlines"],
+        "objects": ["operations", "processes", "workflows", "procedures"],
+        "distractor": "to complicate"
+      }
+    },
+    "CHALLENGE": ["budget constraints", "resource limitations", "time pressures", "staff shortages", "competing priorities"]
+  }
+}

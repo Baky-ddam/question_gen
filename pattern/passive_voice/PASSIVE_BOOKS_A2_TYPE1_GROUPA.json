@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_BOOKS_A2_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "books",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "These stories were written many years ago.",
+  "explanation": "Use 'were' + past participle with 'you/we/they' and plural nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["these stories", "the poems", "the novels", "the fairy tales", "the legends", "the books"],
+    "TIME": ["many years ago", "in the past", "centuries ago", "a long time ago", "in ancient times"],
+    "VERB": {
+      "write": {
+        "correct_forms": ["were written"],
+        "wrong_forms": ["was written", "are written", "have been written"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "publish": {
+        "correct_forms": ["were published"],
+        "wrong_forms": ["was published", "are published", "have been published"],
+        "objects": [],
+        "distractor": "banned"
+      },
+      "translate": {
+        "correct_forms": ["were translated"],
+        "wrong_forms": ["was translated", "are translated", "have been translated"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "read": {
+        "correct_forms": ["were read"],
+        "wrong_forms": ["was read", "are read", "have been read"],
+        "objects": [],
+        "distractor": "forgotten"
+      }
+    }
+  }
+}

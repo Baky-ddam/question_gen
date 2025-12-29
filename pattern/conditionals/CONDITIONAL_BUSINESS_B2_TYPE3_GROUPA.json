@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_BUSINESS_B2_TYPE3_GROUPA",
+  "focus": "conditional_type_3_business_past",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {PAST_BUSINESS_ACTION}, {SUBJ} would have {PAST_BUSINESS_RESULT}.",
+  "example": "If they had secured funding earlier, they would have launched the product on time.",
+  "explanation": "Third conditional for past business regrets. 'If they had secured' + 'would have launched' expresses what could have happened.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the founders", "the executives"],
+    "PAST_BUSINESS_ACTION": ["secured funding earlier", "anticipated the market shift", "invested in research", "trained the workforce"],
+    "PAST_BUSINESS_RESULT": ["launched the product on time", "captured the opportunity", "stayed ahead of competitors", "avoided the crisis"],
+    "VERB": {
+      "had secured": {
+        "correct_forms": ["had secured"],
+        "wrong_forms": ["secured", "have secured", "would secure"],
+        "objects": [],
+        "distractor": "forfeit"
+      },
+      "had anticipated": {
+        "correct_forms": ["had anticipated"],
+        "wrong_forms": ["anticipated", "have anticipated", "would anticipate"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

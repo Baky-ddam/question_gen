@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_BUSINESS_B2_TYPE2_GROUPA",
+  "focus": "conditional_type_2_business",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {BUSINESS_CONDITION}, {SUBJ} would {BUSINESS_RESULT}.",
+  "example": "If they invested in technology, they would increase efficiency.",
+  "explanation": "Second conditional for business hypotheticals. 'If they invested' (past tense) + 'would increase' expresses potential business outcomes.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the investors", "the stakeholders"],
+    "BUSINESS_CONDITION": ["invested in technology", "expanded into new markets", "hired more staff", "reduced operating costs"],
+    "BUSINESS_RESULT": ["increase efficiency", "grow the customer base", "boost productivity", "improve profit margins"],
+    "VERB": {
+      "invested": {
+        "correct_forms": ["invested"],
+        "wrong_forms": ["invest", "would invest", "have invested"],
+        "objects": [],
+        "distractor": "squander"
+      },
+      "expanded": {
+        "correct_forms": ["expanded"],
+        "wrong_forms": ["expand", "would expand", "have expanded"],
+        "objects": [],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

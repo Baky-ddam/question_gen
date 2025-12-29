@@ -1,0 +1,45 @@
+{
+  "pattern_id": "GERUND_DIPLOMACY_C1_TYPE1_GROUPA",
+  "focus": "gerund_required",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "In light of {SITUATION}, {SUBJ} {MAINVERB} ____, which {CONSEQUENCE}.",
+  "example": "In light of escalating tensions, diplomats recommend pursuing multilateral negotiations, which could prevent further deterioration.",
+  "explanation": "Advanced verbs requiring gerunds: recommend, suggest, consider, involve, risk, advocate, defer, entail, necessitate.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "diplomats", "negotiators", "envoys"],
+    "MAINVERB": ["recommend", "consider", "risk", "advocate", "defer"],
+    "VERB": {
+      "pursue": {
+        "correct_forms": ["pursuing"],
+        "wrong_forms": ["to pursue", "pursue", "pursues"],
+        "objects": ["multilateral negotiations", "diplomatic channels", "peace initiatives", "strategic dialogues"],
+        "distractor": "abandoning"
+      },
+      "broker": {
+        "correct_forms": ["brokering"],
+        "wrong_forms": ["to broker", "broker", "brokers"],
+        "objects": ["ceasefire agreements", "peace accords", "trade deals", "diplomatic settlements"],
+        "distractor": "sabotaging"
+      },
+      "mediate": {
+        "correct_forms": ["mediating"],
+        "wrong_forms": ["to mediate", "mediate", "mediates"],
+        "objects": ["territorial disputes", "bilateral conflicts", "regional tensions", "international crises"],
+        "distractor": "escalating"
+      },
+      "sanction": {
+        "correct_forms": ["sanctioning"],
+        "wrong_forms": ["to sanction", "sanction", "sanctions"],
+        "objects": ["non-compliant states", "hostile regimes", "treaty violators", "aggressor nations"],
+        "distractor": "rewarding"
+      }
+    },
+    "SITUATION": ["escalating tensions", "geopolitical realignment", "emerging conflicts", "diplomatic impasses", "humanitarian crises"],
+    "CONSEQUENCE": ["could prevent further deterioration", "may reshape regional dynamics", "might establish new frameworks", "would signal commitment to stability", "should foster international cooperation"]
+  }
+}

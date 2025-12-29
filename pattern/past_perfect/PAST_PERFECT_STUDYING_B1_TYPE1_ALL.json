@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_STUDYING_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "studying",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "They had memorized all the formulas before the math test.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the students", "my classmates"],
+    "PAST_EVENT": ["the exam started", "the test day", "the quiz began", "the deadline", "graduation"],
+    "VERB": {
+      "memorize": {
+        "correct_forms": ["had memorized"],
+        "wrong_forms": ["have memorized", "memorized", "was memorizing"],
+        "objects": ["all the formulas", "the vocabulary", "the key concepts", "everything important"],
+        "distractor": "forget"
+      },
+      "revise": {
+        "correct_forms": ["had revised"],
+        "wrong_forms": ["has revised", "revised", "was revising"],
+        "objects": ["all the chapters", "the notes", "the material", "for hours"],
+        "distractor": "skip"
+      },
+      "practice": {
+        "correct_forms": ["had practiced"],
+        "wrong_forms": ["have practiced", "practiced", "was practicing"],
+        "objects": ["the exercises", "many problems", "writing essays", "enough"],
+        "distractor": "neglect"
+      },
+      "master": {
+        "correct_forms": ["had mastered"],
+        "wrong_forms": ["has mastered", "mastered", "was mastering"],
+        "objects": ["the subject", "the topic", "the difficult parts", "the basics"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

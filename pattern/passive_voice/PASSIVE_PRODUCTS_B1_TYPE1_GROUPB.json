@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_PRODUCTS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "products",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The product was designed by the engineering team.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the product", "the device", "the machine", "the equipment", "the prototype", "the model"],
+    "AGENT": ["the engineering team", "the designer", "the inventor", "the developer", "the manufacturer", "the technician"],
+    "VERB": {
+      "design": {
+        "correct_forms": ["was designed"],
+        "wrong_forms": ["were designed", "is designed", "has been designed"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "test": {
+        "correct_forms": ["was tested"],
+        "wrong_forms": ["were tested", "is tested", "has been tested"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "inspect": {
+        "correct_forms": ["was inspected"],
+        "wrong_forms": ["were inspected", "is inspected", "has been inspected"],
+        "objects": [],
+        "distractor": "overlooked"
+      },
+      "assemble": {
+        "correct_forms": ["was assembled"],
+        "wrong_forms": ["were assembled", "is assembled", "has been assembled"],
+        "objects": [],
+        "distractor": "dismantled"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_EDUCATION_B1_TYPE2_GROUPA",
+  "focus": "prefix_negation",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "It was ____ for the students to finish on time.",
+  "example": "It was impossible for the students to finish on time.",
+  "explanation": "The prefix 'im-' creates negation. 'Possible' becomes 'impossible' (not possible).",
+  "chunks": {
+    "NOUN": ["students", "learners", "participants", "candidates"],
+    "VERB": {
+      "impossible": {
+        "correct_forms": ["impossible"],
+        "wrong_forms": ["possible", "unpossible", "dispossible"],
+        "objects": [],
+        "distractor": "easy"
+      },
+      "unnecessary": {
+        "correct_forms": ["unnecessary"],
+        "wrong_forms": ["necessary", "innecessary", "disnecessary"],
+        "objects": [],
+        "distractor": "essential"
+      },
+      "incomplete": {
+        "correct_forms": ["incomplete"],
+        "wrong_forms": ["complete", "uncomplete", "discomplete"],
+        "objects": [],
+        "distractor": "finished"
+      },
+      "unfair": {
+        "correct_forms": ["unfair"],
+        "wrong_forms": ["fair", "infair", "disfair"],
+        "objects": [],
+        "distractor": "just"
+      }
+    }
+  }
+}

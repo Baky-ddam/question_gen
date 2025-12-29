@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_GOVERNANCE_C1_TYPE1_GROUPB",
+  "focus": "suffix_ation_process_formation",
+  "level": "C1",
+  "domain": "governance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of power to regional bodies represents a fundamental shift in administrative paradigms.",
+  "example": "The delegation of power to regional bodies represents a fundamental shift in administrative paradigms.",
+  "explanation": "The suffix '-ation' transforms verbs into nouns indicating processes or results. 'Delegate' becomes 'delegation'.",
+  "chunks": {
+    "NOUN": ["paradigms", "structures", "frameworks", "systems"],
+    "VERB": {
+      "delegation": {
+        "correct_forms": ["delegation"],
+        "wrong_forms": ["delegate", "delegating", "delegated"],
+        "objects": [],
+        "distractor": "centralization"
+      },
+      "devolution": {
+        "correct_forms": ["devolution"],
+        "wrong_forms": ["devolve", "devolving", "devolved"],
+        "objects": [],
+        "distractor": "consolidation"
+      },
+      "ratification": {
+        "correct_forms": ["ratification"],
+        "wrong_forms": ["ratify", "ratifying", "ratified"],
+        "objects": [],
+        "distractor": "rejection"
+      },
+      "implementation": {
+        "correct_forms": ["implementation"],
+        "wrong_forms": ["implement", "implementing", "implemented"],
+        "objects": [],
+        "distractor": "obstruction"
+      }
+    }
+  }
+}

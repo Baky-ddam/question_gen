@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_BUSINESS_B2_TYPE1_GROUPA",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "New strategies are developed because market conditions are changing.",
+  "explanation": "Use 'are' + past participle with plural subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["new strategies", "business processes", "marketing campaigns", "operational procedures", "quality standards", "customer policies"],
+    "REASON": ["market conditions are changing", "competition is increasing", "customer expectations are rising", "efficiency needs to improve", "costs must be reduced", "innovation is essential"],
+    "VERB": {
+      "develop": {
+        "correct_forms": ["are developed"],
+        "wrong_forms": ["is developed", "were developed", "have been developed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "review": {
+        "correct_forms": ["are reviewed"],
+        "wrong_forms": ["is reviewed", "were reviewed", "have been reviewed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "implement": {
+        "correct_forms": ["are implemented"],
+        "wrong_forms": ["is implemented", "were implemented", "have been implemented"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "update": {
+        "correct_forms": ["are updated"],
+        "wrong_forms": ["is updated", "were updated", "have been updated"],
+        "objects": [],
+        "distractor": "neglected"
+      }
+    }
+  }
+}

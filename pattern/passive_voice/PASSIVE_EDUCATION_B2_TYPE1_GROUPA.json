@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_EDUCATION_B2_TYPE1_GROUPA",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "Digital learning tools are adopted because they enhance student engagement.",
+  "explanation": "Use 'are' + past participle with plural subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["digital learning tools", "online courses", "educational reforms", "new curricula", "teaching methods", "assessment strategies"],
+    "REASON": ["they enhance student engagement", "learning outcomes need to improve", "the job market is changing", "skills requirements are evolving", "accessibility is important", "traditional methods are insufficient"],
+    "VERB": {
+      "adopt": {
+        "correct_forms": ["are adopted"],
+        "wrong_forms": ["is adopted", "were adopted", "have been adopted"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "implement": {
+        "correct_forms": ["are implemented"],
+        "wrong_forms": ["is implemented", "were implemented", "have been implemented"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "evaluate": {
+        "correct_forms": ["are evaluated"],
+        "wrong_forms": ["is evaluated", "were evaluated", "have been evaluated"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "develop": {
+        "correct_forms": ["are developed"],
+        "wrong_forms": ["is developed", "were developed", "have been developed"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

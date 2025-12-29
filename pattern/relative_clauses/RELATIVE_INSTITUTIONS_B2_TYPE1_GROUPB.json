@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_INSTITUTIONS_B2_TYPE1_GROUPB",
+  "focus": "relative_clause_whose_institution",
+  "level": "B2",
+  "domain": "institutions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {INSTITUTION} ____ {CHARACTERISTIC} is {STATUS}.",
+  "example": "The university whose research department won the grant is highly regarded.",
+  "explanation": "We use 'whose' for organizations when referring to something that belongs to or is part of them.",
+  "chunks": {
+    "INSTITUTION": ["university", "company", "hospital", "institute"],
+    "CHARACTERISTIC": ["research department won the grant", "products dominate the market", "specialists developed the treatment", "scientists made the discovery"],
+    "STATUS": ["highly regarded", "internationally recognized", "considered a leader", "known for excellence"],
+    "VERB": {
+      "whose": {
+        "correct_forms": ["whose"],
+        "wrong_forms": ["which", "who", "whom"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

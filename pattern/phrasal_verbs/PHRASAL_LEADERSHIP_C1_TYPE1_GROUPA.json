@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_LEADERSHIP_C1_TYPE1_GROUPA",
+  "focus": "phrasal_verb_three_word",
+  "level": "C1",
+  "domain": "leadership",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN}, a decision that {LEADERSHIP_IMPACT}.",
+  "example": "We stand up for ethical principles, a decision that reinforces organizational integrity.",
+  "explanation": "These phrasal verbs describe leadership actions and decisions. They express standing firm, stepping back, or taking responsibility.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the leaders"],
+    "NOUN": ["ethical principles", "the team's interests", "organizational values", "stakeholder concerns"],
+    "LEADERSHIP_IMPACT": ["reinforces organizational integrity", "builds trust among stakeholders", "demonstrates principled governance", "sets a precedent for future decisions", "establishes moral authority"],
+    "VERB": {
+      "stand up for": {
+        "correct_forms": ["stand up for"],
+        "wrong_forms": ["stand up to", "stand on for", "stand off for"],
+        "objects": [],
+        "distractor": "forsake"
+      },
+      "step down from": {
+        "correct_forms": ["step down from"],
+        "wrong_forms": ["step down to", "step off from", "step on from"],
+        "objects": [],
+        "distractor": "cling to"
+      },
+      "live up to": {
+        "correct_forms": ["live up to"],
+        "wrong_forms": ["live up for", "live on to", "live off to"],
+        "objects": [],
+        "distractor": "betray"
+      },
+      "look up to": {
+        "correct_forms": ["look up to"],
+        "wrong_forms": ["look up for", "look on to", "look off to"],
+        "objects": [],
+        "distractor": "despise"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_WORK_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "He had sent the report before the meeting started.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the employee", "the manager"],
+    "PAST_EVENT": ["the meeting started", "the deadline passed", "the boss arrived", "lunch break", "the day ended"],
+    "VERB": {
+      "send": {
+        "correct_forms": ["had sent"],
+        "wrong_forms": ["have sent", "sent", "was sending"],
+        "objects": ["the report", "the email", "the documents", "the proposal"],
+        "distractor": "delete"
+      },
+      "finish": {
+        "correct_forms": ["had finished"],
+        "wrong_forms": ["has finished", "finished", "was finishing"],
+        "objects": ["the task", "all the work", "the assignment", "the project"],
+        "distractor": "abandon"
+      },
+      "submit": {
+        "correct_forms": ["had submitted"],
+        "wrong_forms": ["have submitted", "submitted", "was submitting"],
+        "objects": ["the application", "the forms", "the request", "the paperwork"],
+        "distractor": "withdraw"
+      },
+      "review": {
+        "correct_forms": ["had reviewed"],
+        "wrong_forms": ["has reviewed", "reviewed", "was reviewing"],
+        "objects": ["the contract", "the data", "the feedback", "the files"],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

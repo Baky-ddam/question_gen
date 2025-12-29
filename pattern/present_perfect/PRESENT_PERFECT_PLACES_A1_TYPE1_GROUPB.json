@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_PLACES_A1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "places",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "He has visited the zoo before.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to talk about places visited.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my friend", "my brother", "my sister", "the child"],
+    "VERB": {
+      "visit": {
+        "correct_forms": ["has visited"],
+        "wrong_forms": ["have visited", "had visited", "visited"],
+        "objects": ["the zoo", "the museum", "the park", "the beach"],
+        "distractor": "avoid"
+      },
+      "go": {
+        "correct_forms": ["has gone"],
+        "wrong_forms": ["have gone", "had gone", "went"],
+        "objects": ["to the cinema", "to the library", "to the pool", "to the shops"],
+        "distractor": "skip"
+      },
+      "see": {
+        "correct_forms": ["has seen"],
+        "wrong_forms": ["have seen", "had seen", "saw"],
+        "objects": ["the mountains", "the castle", "the sea", "the city"],
+        "distractor": "miss"
+      },
+      "swim": {
+        "correct_forms": ["has swum"],
+        "wrong_forms": ["have swum", "had swum", "swam"],
+        "objects": ["in the sea", "in the lake", "at the beach", "in the river"],
+        "distractor": "drown"
+      }
+    }
+  }
+}

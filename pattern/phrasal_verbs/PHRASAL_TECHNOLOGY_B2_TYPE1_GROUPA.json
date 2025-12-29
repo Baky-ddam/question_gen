@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_TECHNOLOGY_B2_TYPE1_GROUPA",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} because {REASON}.",
+  "example": "We back up the data because security is critical.",
+  "explanation": "These phrasal verbs are used in technology and IT contexts. They describe common actions related to systems, data, and software.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "REASON": ["security is critical", "the system requires it", "regulations mandate it", "best practices recommend it", "data integrity depends on it"],
+    "VERB": {
+      "back up": {
+        "correct_forms": ["back up"],
+        "wrong_forms": ["back on", "back off", "back in"],
+        "objects": ["data", "files", "database", "system"],
+        "distractor": "delete"
+      },
+      "shut down": {
+        "correct_forms": ["shut down"],
+        "wrong_forms": ["shut on", "shut off", "shut up"],
+        "objects": ["server", "system", "network", "platform"],
+        "distractor": "activate"
+      },
+      "roll out": {
+        "correct_forms": ["roll out"],
+        "wrong_forms": ["roll on", "roll off", "roll in"],
+        "objects": ["update", "software", "feature", "application"],
+        "distractor": "withdraw"
+      },
+      "phase out": {
+        "correct_forms": ["phase out"],
+        "wrong_forms": ["phase on", "phase off", "phase in"],
+        "objects": ["legacy system", "old software", "outdated technology", "deprecated feature"],
+        "distractor": "maintain"
+      }
+    }
+  }
+}

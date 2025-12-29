@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_CONVERSATIONS_B1_TYPE1_GROUPA",
+  "focus": "reported_speech_present_to_past",
+  "level": "B1",
+  "domain": "conversations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{REPORTER} said that {SUBJ} ____ {COMPLEMENT}.",
+  "example": "She said that they were very happy about the news.",
+  "explanation": "In reported speech, present tense verbs shift to past tense. 'They are happy' becomes 'they were happy' when reported.",
+  "chunks": {
+    "REPORTER": ["She", "He", "My friend", "The neighbor"],
+    "SUBJ": ["they", "we", "the children", "the guests"],
+    "COMPLEMENT": ["very happy about the news", "ready for the party", "excited about the trip", "tired after work"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["are", "have been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["have", "has", "will have"],
+        "objects": [],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

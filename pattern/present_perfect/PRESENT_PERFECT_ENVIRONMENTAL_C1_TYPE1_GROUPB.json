@@ -1,0 +1,106 @@
+{
+  "pattern_id": "PRESENT_PERFECT_ENVIRONMENTAL_C1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "C1",
+  "domain": "environmental_policy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a development that {IMPLICATION}.",
+  "example": "The environmental agency has enacted landmark emissions regulations in industrial zones, a development that accelerates the transition to carbon neutrality.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' for policy achievements. Appositive clause explains environmental implications.",
+  "chunks": {
+    "SUBJ": [
+      "the environmental agency",
+      "the climate commission",
+      "the sustainability council",
+      "the conservation authority"
+    ],
+    "PLACE": [
+      "in industrial zones",
+      "across protected territories",
+      "within vulnerable ecosystems",
+      "throughout coastal regions"
+    ],
+    "IMPLICATION": [
+      "accelerates the transition to carbon neutrality",
+      "safeguards critical habitat corridors",
+      "establishes a precedent for environmental governance",
+      "reinforces international climate commitments",
+      "mitigates long-term ecological degradation"
+    ],
+    "VERB": {
+      "enact": {
+        "correct_forms": [
+          "has enacted"
+        ],
+        "wrong_forms": [
+          "have enacted",
+          "had enacted",
+          "enacted"
+        ],
+        "objects": [
+          "landmark emissions regulations",
+          "comprehensive biodiversity protections",
+          "stringent pollution control measures",
+          "transformative renewable energy mandates"
+        ],
+        "distractor": "rescind"
+      },
+      "designate": {
+        "correct_forms": [
+          "has designated"
+        ],
+        "wrong_forms": [
+          "have designated",
+          "had designated",
+          "designated"
+        ],
+        "objects": [
+          "critical wildlife sanctuaries",
+          "marine protected areas",
+          "ecological preservation zones",
+          "sustainable development corridors"
+        ],
+        "distractor": "nullify"
+      },
+      "prioritize": {
+        "correct_forms": [
+          "has prioritized"
+        ],
+        "wrong_forms": [
+          "have prioritized",
+          "had prioritized",
+          "prioritized"
+        ],
+        "objects": [
+          "ecosystem restoration initiatives",
+          "climate adaptation strategies",
+          "sustainable resource management",
+          "green infrastructure investments"
+        ],
+        "distractor": "repudiate"
+      },
+      "integrate": {
+        "correct_forms": [
+          "has integrated"
+        ],
+        "wrong_forms": [
+          "have integrated",
+          "had integrated",
+          "integrated"
+        ],
+        "objects": [
+          "climate resilience frameworks",
+          "environmental impact assessments",
+          "ecological sustainability metrics",
+          "carbon footprint monitoring systems"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

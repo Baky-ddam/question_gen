@@ -1,0 +1,33 @@
+{
+  "pattern_id": "REPORTED_LEGAL_C1_TYPE1_GROUPB",
+  "focus": "reported_speech_stipulated_contended",
+  "level": "C1",
+  "domain": "legal",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {LEGAL_ACTOR} {REPORTING_VERB} that the {PARTY} ____ {LEGAL_CLAIM}.",
+  "example": "The defense stipulated that the client had acted in good faith throughout the proceedings.",
+  "explanation": "Legal terms like 'stipulated' indicate formal agreement. Past perfect establishes the timeline of events.",
+  "chunks": {
+    "LEGAL_ACTOR": ["defense", "plaintiff", "judge", "arbitrator"],
+    "REPORTING_VERB": ["stipulated", "contended", "maintained", "asserted"],
+    "PARTY": ["client", "defendant", "plaintiff", "accused"],
+    "LEGAL_CLAIM": ["acted in good faith throughout the proceedings", "complied with all regulatory requirements", "fulfilled the contractual obligations", "exercised due diligence"],
+    "VERB": {
+      "had acted": {
+        "correct_forms": ["had acted"],
+        "wrong_forms": ["acted", "has acted", "was acting"],
+        "objects": [],
+        "distractor": "incriminate"
+      },
+      "had complied": {
+        "correct_forms": ["had complied"],
+        "wrong_forms": ["complied", "has complied", "was complying"],
+        "objects": [],
+        "distractor": "impeach"
+      }
+    }
+  }
+}

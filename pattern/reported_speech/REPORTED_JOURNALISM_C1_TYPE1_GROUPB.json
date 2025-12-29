@@ -1,0 +1,34 @@
+{
+  "pattern_id": "REPORTED_JOURNALISM_C1_TYPE1_GROUPB",
+  "focus": "reported_speech_reiterated_underscored",
+  "level": "C1",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {SOURCE} {REPORTING_VERB} that the {SUBJECT} ____ {EMPHASIS}, despite {OPPOSITION}.",
+  "example": "The spokesperson reiterated that the policy had undergone rigorous review, despite widespread criticism.",
+  "explanation": "Verbs like 'reiterated' show repeated emphasis. Complex sentence structure for nuanced reporting.",
+  "chunks": {
+    "SOURCE": ["spokesperson", "official", "representative", "authority"],
+    "REPORTING_VERB": ["reiterated", "underscored", "reaffirmed", "restated"],
+    "SUBJECT": ["policy", "decision", "measure", "initiative"],
+    "EMPHASIS": ["undergone rigorous review", "been thoroughly vetted", "received extensive scrutiny", "met all established criteria"],
+    "OPPOSITION": ["widespread criticism", "public skepticism", "ongoing controversy", "persistent doubts"],
+    "VERB": {
+      "had undergone": {
+        "correct_forms": ["had undergone"],
+        "wrong_forms": ["underwent", "has undergone", "was undergoing"],
+        "objects": [],
+        "distractor": "circumvent"
+      },
+      "had received": {
+        "correct_forms": ["had received"],
+        "wrong_forms": ["received", "has received", "was receiving"],
+        "objects": [],
+        "distractor": "evade"
+      }
+    }
+  }
+}

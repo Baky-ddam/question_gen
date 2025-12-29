@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_NEGOTIATIONS_B2_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B2",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN} {CONTEXT}.",
+  "example": "We go along with the terms reluctantly.",
+  "explanation": "These inseparable phrasal verbs describe attitudes and responses during negotiations. They express agreement, disagreement, or compromise.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "NOUN": ["the terms", "the conditions", "the proposal", "the demands"],
+    "CONTEXT": ["reluctantly", "after careful consideration", "in principle", "under pressure", "with reservations"],
+    "VERB": {
+      "go along with": {
+        "correct_forms": ["go along with"],
+        "wrong_forms": ["go on with", "go off with", "go up with"],
+        "objects": [],
+        "distractor": "oppose"
+      },
+      "back out of": {
+        "correct_forms": ["back out of"],
+        "wrong_forms": ["back on of", "back off of", "back up of"],
+        "objects": [],
+        "distractor": "commit"
+      },
+      "hold out for": {
+        "correct_forms": ["hold out for"],
+        "wrong_forms": ["hold on for", "hold off for", "hold up for"],
+        "objects": [],
+        "distractor": "surrender"
+      },
+      "give in to": {
+        "correct_forms": ["give in to"],
+        "wrong_forms": ["give on to", "give off to", "give up to"],
+        "objects": [],
+        "distractor": "resist"
+      }
+    }
+  }
+}

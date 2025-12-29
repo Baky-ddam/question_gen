@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_TRAVEL_A2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "travel",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {EXPERIENCE_MARKER}.",
+  "example": "I have visited Paris before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about life experiences. Markers like 'before', 'never', 'ever' signal experience.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "EXPERIENCE_MARKER": [
+      "before",
+      "many times",
+      "several times",
+      "twice"
+    ],
+    "VERB": {
+      "visit": {
+        "correct_forms": [
+          "have visited"
+        ],
+        "wrong_forms": [
+          "has visited",
+          "had visited",
+          "visited"
+        ],
+        "objects": [
+          "Paris",
+          "London",
+          "Tokyo",
+          "New York"
+        ],
+        "distractor": "abandon"
+      },
+      "travel": {
+        "correct_forms": [
+          "have traveled"
+        ],
+        "wrong_forms": [
+          "has traveled",
+          "had traveled",
+          "traveled"
+        ],
+        "objects": [
+          "to Europe",
+          "to Asia",
+          "abroad",
+          "by plane"
+        ],
+        "distractor": "skip"
+      },
+      "explore": {
+        "correct_forms": [
+          "have explored"
+        ],
+        "wrong_forms": [
+          "has explored",
+          "had explored",
+          "explored"
+        ],
+        "objects": [
+          "the old town",
+          "the mountains",
+          "the beaches",
+          "the museums"
+        ],
+        "distractor": "neglect"
+      },
+      "stay": {
+        "correct_forms": [
+          "have stayed"
+        ],
+        "wrong_forms": [
+          "has stayed",
+          "had stayed",
+          "stayed"
+        ],
+        "objects": [
+          "at this hotel",
+          "in a hostel",
+          "at a resort",
+          "with friends"
+        ],
+        "distractor": "quit"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "pattern_id": "MODALS_SHOPPING_A2_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A2",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_can"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {LOCATION}.",
+  "example": "You can pay here.",
+  "explanation": "Use 'can' + base verb with all subjects to express permission or ability in shopping contexts.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "LOCATION": [
+      "here",
+      "there",
+      "at this counter",
+      "at the register"
+    ],
+    "VERB": {
+      "pay": {
+        "correct_forms": [
+          "can pay"
+        ],
+        "wrong_forms": [
+          "could pay",
+          "must pay",
+          "should pay"
+        ],
+        "objects": [
+          "by card",
+          "in cash",
+          "by phone",
+          "with a check"
+        ],
+        "distractor": "refuse"
+      },
+      "buy": {
+        "correct_forms": [
+          "can buy"
+        ],
+        "wrong_forms": [
+          "could buy",
+          "must buy",
+          "should buy"
+        ],
+        "objects": [
+          "the items",
+          "the products",
+          "the goods",
+          "the clothes"
+        ],
+        "distractor": "reject"
+      },
+      "return": {
+        "correct_forms": [
+          "can return"
+        ],
+        "wrong_forms": [
+          "could return",
+          "must return",
+          "should return"
+        ],
+        "objects": [
+          "the item",
+          "the product",
+          "the purchase",
+          "the merchandise"
+        ],
+        "distractor": "abandon"
+      },
+      "exchange": {
+        "correct_forms": [
+          "can exchange"
+        ],
+        "wrong_forms": [
+          "could exchange",
+          "must exchange",
+          "should exchange"
+        ],
+        "objects": [
+          "the item",
+          "the size",
+          "the color",
+          "the product"
+        ],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

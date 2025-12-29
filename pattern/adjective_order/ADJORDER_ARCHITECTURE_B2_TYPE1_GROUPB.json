@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ARCHITECTURE_B2_TYPE1_GROUPB",
+  "focus": "adjective_order_age_color_material",
+  "level": "B2",
+  "domain": "architecture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["adjective_order"],
+  "template": "They restored the ____ {NOUN}.",
+  "example": "They restored the ancient grey stone wall.",
+  "explanation": "Age-Color-Material order. 'Ancient grey stone' follows the correct sequence.",
+  "chunks": {
+    "NOUN": ["wall", "bridge", "castle", "fortress"],
+    "VERB": {
+      "ancient grey stone": {
+        "correct_forms": ["ancient grey stone"],
+        "wrong_forms": ["grey ancient stone", "stone grey ancient", "stone ancient grey"],
+        "objects": [],
+        "distractor": "modern"
+      },
+      "old red brick": {
+        "correct_forms": ["old red brick"],
+        "wrong_forms": ["red old brick", "brick red old", "brick old red"],
+        "objects": [],
+        "distractor": "new"
+      },
+      "historic brown wooden": {
+        "correct_forms": ["historic brown wooden"],
+        "wrong_forms": ["brown historic wooden", "wooden brown historic", "wooden historic brown"],
+        "objects": [],
+        "distractor": "contemporary"
+      }
+    }
+  }
+}

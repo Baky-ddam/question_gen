@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FURNITURE_B1_TYPE1_GROUPA",
+  "focus": "adjective_order_size_shape",
+  "level": "B1",
+  "domain": "furniture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "They bought a ____ {NOUN}.",
+  "example": "They bought a big round table.",
+  "explanation": "Size comes before shape in adjective order. 'Big round' not 'round big'.",
+  "chunks": {
+    "NOUN": ["table", "mirror", "rug", "clock"],
+    "VERB": {
+      "big round": {
+        "correct_forms": ["big round"],
+        "wrong_forms": ["round big", "round and big", "big and round"],
+        "objects": [],
+        "distractor": "tiny"
+      },
+      "small square": {
+        "correct_forms": ["small square"],
+        "wrong_forms": ["square small", "square and small", "small and square"],
+        "objects": [],
+        "distractor": "large"
+      },
+      "large rectangular": {
+        "correct_forms": ["large rectangular"],
+        "wrong_forms": ["rectangular large", "rectangular and large", "large and rectangular"],
+        "objects": [],
+        "distractor": "tiny"
+      }
+    }
+  }
+}

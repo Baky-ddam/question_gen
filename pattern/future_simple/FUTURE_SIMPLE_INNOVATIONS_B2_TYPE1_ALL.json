@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_INNOVATIONS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "innovations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "Technology companies will innovate rapidly because consumer demands are evolving.",
+  "explanation": "Future simple uses 'will + base verb' for innovation predictions with reasoning at the B2 level.",
+  "chunks": {
+    "SUBJ": ["Technology companies", "Researchers", "Startups", "Scientists", "Engineers", "Developers"],
+    "VERB": {
+      "innovate": {
+        "correct_forms": ["will innovate"],
+        "wrong_forms": ["innovates", "is going to innovate", "would innovate"],
+        "objects": ["rapidly", "continuously", "in new areas"],
+        "distractor": "suppress"
+      },
+      "develop": {
+        "correct_forms": ["will develop"],
+        "wrong_forms": ["develops", "is going to develop", "would develop"],
+        "objects": ["new solutions", "cutting-edge technology", "breakthrough products"],
+        "distractor": "obstruct"
+      },
+      "pioneer": {
+        "correct_forms": ["will pioneer"],
+        "wrong_forms": ["pioneers", "is going to pioneer", "would pioneer"],
+        "objects": ["new methods", "revolutionary approaches", "advanced techniques"],
+        "distractor": "hinder"
+      },
+      "revolutionize": {
+        "correct_forms": ["will revolutionize"],
+        "wrong_forms": ["revolutionizes", "is going to revolutionize", "would revolutionize"],
+        "objects": ["the industry", "healthcare", "communication"],
+        "distractor": "impede"
+      }
+    },
+    "REASON": ["consumer demands are evolving", "funding is increasing", "competition is fierce", "technology is advancing", "problems need solutions", "markets are growing"]
+  }
+}

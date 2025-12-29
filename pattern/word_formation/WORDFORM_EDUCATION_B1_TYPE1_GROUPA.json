@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_EDUCATION_B1_TYPE1_GROUPA",
+  "focus": "suffix_noun_formation",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ of the students impressed the teacher.",
+  "example": "The improvement of the students impressed the teacher.",
+  "explanation": "The suffix '-ment' transforms verbs into nouns. 'Improve' (verb) becomes 'improvement' (noun).",
+  "chunks": {
+    "NOUN": ["students", "learners", "participants", "candidates"],
+    "VERB": {
+      "improvement": {
+        "correct_forms": ["improvement"],
+        "wrong_forms": ["improve", "improving", "improved"],
+        "objects": [],
+        "distractor": "deterioration"
+      },
+      "development": {
+        "correct_forms": ["development"],
+        "wrong_forms": ["develop", "developing", "developed"],
+        "objects": [],
+        "distractor": "decline"
+      },
+      "achievement": {
+        "correct_forms": ["achievement"],
+        "wrong_forms": ["achieve", "achieving", "achieved"],
+        "objects": [],
+        "distractor": "failure"
+      },
+      "encouragement": {
+        "correct_forms": ["encouragement"],
+        "wrong_forms": ["encourage", "encouraging", "encouraged"],
+        "objects": [],
+        "distractor": "discouragement"
+      }
+    }
+  }
+}

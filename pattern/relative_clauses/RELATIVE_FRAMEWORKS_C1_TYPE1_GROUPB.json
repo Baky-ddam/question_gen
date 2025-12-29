@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_FRAMEWORKS_C1_TYPE1_GROUPB",
+  "focus": "relative_clause_whose_framework",
+  "level": "C1",
+  "domain": "frameworks",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {DISCIPLINE} ____ {FRAMEWORK_ASPECT} has {INFLUENCE}.",
+  "example": "The discipline whose methodological framework has been widely adopted has influenced countless research programs.",
+  "explanation": "We use 'whose' for disciplines and their frameworks. The clause shows the relationship between the field and its contributions.",
+  "chunks": {
+    "DISCIPLINE": ["discipline", "field", "specialty", "domain"],
+    "FRAMEWORK_ASPECT": ["methodological framework has been widely adopted", "theoretical foundations have shaped discourse", "analytical tools have proven indispensable", "conceptual innovations have redefined boundaries"],
+    "INFLUENCE": ["influenced countless research programs", "permeated adjacent disciplines", "catalyzed cross-sectoral collaboration", "engendered transformative methodological shifts"],
+    "VERB": {
+      "whose": {
+        "correct_forms": ["whose"],
+        "wrong_forms": ["which", "whom", "who"],
+        "objects": [],
+        "distractor": "nullify"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_INNOVATION_B2_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "B2",
+  "domain": "innovation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ if {CONDITION}.",
+  "example": "Companies plan to adopt new technologies if competitive advantages can be gained.",
+  "explanation": "Some verbs require infinitives (to + verb). Innovation verbs with infinitives: plan, decide, expect, agree, promise, aim.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "companies", "startups", "innovators"],
+    "MAINVERB": ["plan", "decide", "expect", "agree", "aim"],
+    "VERB": {
+      "adopt": {
+        "correct_forms": ["to adopt"],
+        "wrong_forms": ["adopting", "adopt", "adopts"],
+        "objects": ["new technologies", "innovative practices", "agile methodologies", "cutting-edge solutions"],
+        "distractor": "to reject"
+      },
+      "develop": {
+        "correct_forms": ["to develop"],
+        "wrong_forms": ["developing", "develop", "develops"],
+        "objects": ["new products", "innovative solutions", "breakthrough technologies", "novel approaches"],
+        "distractor": "to abandon"
+      },
+      "disrupt": {
+        "correct_forms": ["to disrupt"],
+        "wrong_forms": ["disrupting", "disrupt", "disrupts"],
+        "objects": ["traditional markets", "existing industries", "conventional practices", "established norms"],
+        "distractor": "to maintain"
+      },
+      "patent": {
+        "correct_forms": ["to patent"],
+        "wrong_forms": ["patenting", "patent", "patents"],
+        "objects": ["inventions", "new technologies", "innovative designs", "proprietary methods"],
+        "distractor": "to copy"
+      }
+    },
+    "CONDITION": ["competitive advantages can be gained", "market demand exists", "funding is secured", "regulations permit", "resources are available"]
+  }
+}

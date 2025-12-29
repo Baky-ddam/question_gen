@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PLAYGROUND_A1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A1",
+  "domain": "playground",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "She was playing on the swings yesterday.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' to describe what was happening in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "the boy", "the girl", "my friend"],
+    "TIME": ["yesterday", "this morning", "in the afternoon", "after school"],
+    "VERB": {
+      "play": {
+        "correct_forms": ["was playing"],
+        "wrong_forms": ["were playing", "played", "is playing"],
+        "objects": ["on the swings", "in the sandbox", "with a ball", "on the slide"],
+        "distractor": "stop"
+      },
+      "run": {
+        "correct_forms": ["was running"],
+        "wrong_forms": ["were running", "ran", "is running"],
+        "objects": ["around the park", "on the grass", "to the swings", "very fast"],
+        "distractor": "avoid"
+      },
+      "jump": {
+        "correct_forms": ["was jumping"],
+        "wrong_forms": ["were jumping", "jumped", "is jumping"],
+        "objects": ["on the trampoline", "over the rope", "up and down", "very high"],
+        "distractor": "forget"
+      },
+      "climb": {
+        "correct_forms": ["was climbing"],
+        "wrong_forms": ["were climbing", "climbed", "is climbing"],
+        "objects": ["the jungle gym", "the ladder", "the tree", "the rope"],
+        "distractor": "break"
+      }
+    }
+  }
+}

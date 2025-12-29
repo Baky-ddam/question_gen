@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_MOVIES_A2_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "movies",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "These films were made in Hollywood.",
+  "explanation": "Use 'were' + past participle with 'you/we/they' and plural nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["these films", "the movies", "the scenes", "the episodes", "the documentaries", "the cartoons"],
+    "TIME": ["in Hollywood", "last year", "in the 1990s", "many years ago", "in the studio"],
+    "VERB": {
+      "make": {
+        "correct_forms": ["were made"],
+        "wrong_forms": ["was made", "are made", "have been made"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "film": {
+        "correct_forms": ["were filmed"],
+        "wrong_forms": ["was filmed", "are filmed", "have been filmed"],
+        "objects": [],
+        "distractor": "deleted"
+      },
+      "produce": {
+        "correct_forms": ["were produced"],
+        "wrong_forms": ["was produced", "are produced", "have been produced"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "release": {
+        "correct_forms": ["were released"],
+        "wrong_forms": ["was released", "are released", "have been released"],
+        "objects": [],
+        "distractor": "banned"
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_GLOBAL_ECONOMICS_C1_TYPE1_ALL",
+  "focus": "modal_speculation",
+  "level": "C1",
+  "domain": "global_economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_could",
+    "modal_might",
+    "modal_should"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {IMPLICATION}.",
+  "example": "Central banks could destabilize currency markets, which might trigger widespread economic uncertainty.",
+  "explanation": "Use sophisticated modals (could/might/should) to express economic speculation or policy recommendations. The relative clause expands on the potential consequences.",
+  "chunks": {
+    "SUBJ": [
+      "Central banking authorities",
+      "International financial institutions",
+      "Monetary policy committees",
+      "Global economic regulators",
+      "Fiscal policymakers",
+      "Multilateral lending organizations"
+    ],
+    "IMPLICATION": [
+      "would precipitate systemic market corrections",
+      "could undermine investor confidence globally",
+      "might necessitate emergency stabilization measures",
+      "would reshape international trade dynamics"
+    ],
+    "VERB": {
+      "destabilize": {
+        "correct_forms": [
+          "could destabilize"
+        ],
+        "wrong_forms": [
+          "might destabilizes",
+          "could destabilizing",
+          "should destabilized"
+        ],
+        "objects": [
+          "emerging market economies",
+          "global currency valuations",
+          "international trade flows",
+          "sovereign debt markets"
+        ],
+        "distractor": "nullify"
+      },
+      "trigger": {
+        "correct_forms": [
+          "might trigger"
+        ],
+        "wrong_forms": [
+          "could triggers",
+          "might triggering",
+          "should triggered"
+        ],
+        "objects": [
+          "cascading market corrections",
+          "widespread capital flight",
+          "systemic liquidity crises",
+          "contagious economic downturns"
+        ],
+        "distractor": "abrogate"
+      },
+      "regulate": {
+        "correct_forms": [
+          "should regulate"
+        ],
+        "wrong_forms": [
+          "could regulates",
+          "should regulating",
+          "might regulated"
+        ],
+        "objects": [
+          "speculative financial instruments",
+          "cross-border capital movements",
+          "systemic risk exposures",
+          "derivatives market activities"
+        ],
+        "distractor": "rescind"
+      },
+      "stabilize": {
+        "correct_forms": [
+          "could stabilize"
+        ],
+        "wrong_forms": [
+          "might stabilizes",
+          "could stabilizing",
+          "should stabilized"
+        ],
+        "objects": [
+          "volatile exchange rates",
+          "fluctuating commodity prices",
+          "turbulent equity markets",
+          "distressed sovereign bonds"
+        ],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_STRATEGY_C1_MIXED_GROUPB",
+  "focus": "conditional_mixed_strategy_singular",
+  "level": "C1",
+  "domain": "strategy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the {ENTITY} ____ {PRESENT_QUALITY}, it would have {PAST_RESULT}.",
+  "example": "If the strategy were more adaptable, it would have withstood the market volatility.",
+  "explanation": "Mixed conditional: present strategic quality affecting past resilience.",
+  "chunks": {
+    "ENTITY": ["strategy", "approach", "plan", "model"],
+    "PRESENT_QUALITY": ["more adaptable", "more robust", "more flexible", "more comprehensive"],
+    "PAST_RESULT": ["withstood the market volatility", "survived the disruption", "maintained competitive edge", "preserved market share"],
+    "VERB": {
+      "were": {
+        "correct_forms": ["were"],
+        "wrong_forms": ["was", "is", "had been"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

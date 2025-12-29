@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_RESEARCH_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.",
+  "example": "After the scientists had analyzed the data, they published their findings.",
+  "explanation": "Use 'had' + past participle after 'after' to show the first action was completed before the second action began.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the scientists", "the researchers", "the analysts", "the team"],
+    "SUBSEQUENT_ACTION": ["they published their findings", "the results were announced", "peer review began", "funding was approved", "the study concluded"],
+    "VERB": {
+      "analyze": {
+        "correct_forms": ["had analyzed"],
+        "wrong_forms": ["have analyzed", "analyzed", "was analyzing"],
+        "objects": ["the data", "all samples", "the results", "the evidence"],
+        "distractor": "misinterpret"
+      },
+      "conduct": {
+        "correct_forms": ["had conducted"],
+        "wrong_forms": ["has conducted", "conducted", "was conducting"],
+        "objects": ["extensive experiments", "the study", "thorough testing", "preliminary trials"],
+        "distractor": "abandon"
+      },
+      "document": {
+        "correct_forms": ["had documented"],
+        "wrong_forms": ["have documented", "documented", "was documenting"],
+        "objects": ["all procedures", "the methodology", "every finding", "the process"],
+        "distractor": "overlook"
+      },
+      "verify": {
+        "correct_forms": ["had verified"],
+        "wrong_forms": ["has verified", "verified", "was verifying"],
+        "objects": ["the hypothesis", "the conclusions", "all assumptions", "the accuracy"],
+        "distractor": "falsify"
+      }
+    }
+  }
+}

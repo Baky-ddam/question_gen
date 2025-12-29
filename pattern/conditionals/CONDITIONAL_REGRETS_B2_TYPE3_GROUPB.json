@@ -1,0 +1,32 @@
+{
+  "pattern_id": "CONDITIONAL_REGRETS_B2_TYPE3_GROUPB",
+  "focus": "conditional_type_3_regret_singular",
+  "level": "B2",
+  "domain": "regrets",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ {PAST_ACTION}, {SUBJ} would have {PAST_RESULT}.",
+  "example": "If he had listened to the advice, he would have avoided the problem.",
+  "explanation": "Third conditional expresses regret about past decisions. 'If he had listened' shows what could have happened differently.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the director", "the CEO"],
+    "PAST_ACTION": ["listened to the advice", "followed the guidelines", "heeded the warning", "considered the risks"],
+    "PAST_RESULT": ["avoided the problem", "prevented the crisis", "saved the company", "made a better decision"],
+    "VERB": {
+      "had listened": {
+        "correct_forms": ["had listened"],
+        "wrong_forms": ["listened", "has listened", "would listen"],
+        "objects": [],
+        "distractor": "dismiss"
+      },
+      "had followed": {
+        "correct_forms": ["had followed"],
+        "wrong_forms": ["followed", "has followed", "would follow"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

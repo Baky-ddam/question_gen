@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PHYSICS_C1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "physics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "unexpected_development", "consequence_clause"],
+  "template": "As {SUBJ} ____ {OBJ}, {UNEXPECTED_DEVELOPMENT}, thereby {CONSEQUENCE}.",
+  "example": "As the physicist was deriving the quantum field equations for the proposed interaction, an elegant mathematical symmetry emerged unexpectedly, thereby unifying previously disparate theoretical predictions.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for ongoing physics work with unexpected developments and consequences.",
+  "chunks": {
+    "SUBJ": ["I", "the physicist", "the theoretical physicist", "the experimental physicist"],
+    "UNEXPECTED_DEVELOPMENT": [
+      "an elegant mathematical symmetry emerged unexpectedly",
+      "the computational simulations revealed counterintuitive behavior",
+      "a serendipitous experimental error yielded unprecedented data",
+      "the analytical solution exhibited remarkable structural properties"
+    ],
+    "CONSEQUENCE": [
+      "unifying previously disparate theoretical predictions",
+      "necessitating a fundamental revision of the established paradigm",
+      "opening entirely new avenues for experimental investigation",
+      "resolving longstanding inconsistencies within the theoretical framework"
+    ],
+    "VERB": {
+      "derive": {
+        "correct_forms": ["was deriving"],
+        "wrong_forms": ["were deriving", "derived", "is deriving"],
+        "objects": ["the quantum field equations for the proposed interaction", "the relativistic corrections to the semiclassical approximation", "the mathematical formalism underlying the symmetry breaking mechanism", "the analytical solutions to the coupled differential equations"],
+        "distractor": "nullify"
+      },
+      "simulate": {
+        "correct_forms": ["was simulating"],
+        "wrong_forms": ["were simulating", "simulated", "is simulating"],
+        "objects": ["the dynamical evolution of the quantum many-body system", "the collision events at relativistic energies", "the thermalization processes in strongly coupled plasmas", "the gravitational collapse under extreme density conditions"],
+        "distractor": "abrogate"
+      },
+      "characterize": {
+        "correct_forms": ["was characterizing"],
+        "wrong_forms": ["were characterizing", "characterized", "is characterizing"],
+        "objects": ["the spectral properties of the exotic material phase", "the decoherence mechanisms affecting quantum superposition", "the topological invariants of the novel quantum state", "the transport phenomena in mesoscopic semiconductor structures"],
+        "distractor": "rescind"
+      },
+      "formalize": {
+        "correct_forms": ["was formalizing"],
+        "wrong_forms": ["were formalizing", "formalized", "is formalizing"],
+        "objects": ["the correspondence between classical and quantum descriptions", "the renormalization group flow equations", "the axiomatic foundations of the proposed theoretical extension", "the gauge invariance conditions for the modified Lagrangian"],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

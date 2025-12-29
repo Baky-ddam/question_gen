@@ -1,0 +1,91 @@
+{
+  "pattern_id": "MODALS_CAN_SWIMMING_A1_TYPE1_ALL",
+  "focus": "modal_can",
+  "level": "A1",
+  "domain": "swimming",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modals"
+  ],
+  "template": "{SUBJ} ____ {OBJ}.",
+  "example": "I can swim.",
+  "explanation": "Use 'can' + base verb to express ability. All subjects use the same form - no conjugation needed.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "VERB": {
+      "swim": {
+        "correct_forms": [
+          "can swim"
+        ],
+        "wrong_forms": [
+          "could swim",
+          "must swim",
+          "should swim"
+        ],
+        "distractor": "avoid",
+        "objects": [
+          "in the pool",
+          "in the sea",
+          "very fast"
+        ]
+      },
+      "dive": {
+        "correct_forms": [
+          "can dive"
+        ],
+        "wrong_forms": [
+          "could dive",
+          "must dive",
+          "should dive"
+        ],
+        "distractor": "stop",
+        "objects": [
+          "into the water",
+          "from the board",
+          "very deep"
+        ]
+      },
+      "float": {
+        "correct_forms": [
+          "can float"
+        ],
+        "wrong_forms": [
+          "could float",
+          "must float",
+          "should float"
+        ],
+        "distractor": "forget",
+        "objects": [
+          "on the water",
+          "for a long time",
+          "easily"
+        ]
+      },
+      "hold": {
+        "correct_forms": [
+          "can hold"
+        ],
+        "wrong_forms": [
+          "could hold",
+          "must hold",
+          "should hold"
+        ],
+        "distractor": "lose",
+        "objects": [
+          "my breath",
+          "my breath underwater",
+          "my breath for one minute"
+        ]
+      }
+    }
+  }
+}

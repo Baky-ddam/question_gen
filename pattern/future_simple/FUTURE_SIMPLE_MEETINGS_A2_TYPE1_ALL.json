@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_MEETINGS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "meetings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {PLACE}.",
+  "example": "We will have a meeting tomorrow at 2 pm.",
+  "explanation": "Future simple uses 'will + base verb' for scheduled meetings. Add time and place for A2 complexity.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the team"],
+    "VERB": {
+      "have": {
+        "correct_forms": ["will have"],
+        "wrong_forms": ["has", "is going to have", "would have"],
+        "objects": ["a meeting", "a discussion", "a call"],
+        "distractor": "cancel"
+      },
+      "attend": {
+        "correct_forms": ["will attend"],
+        "wrong_forms": ["attends", "is going to attend", "would attend"],
+        "objects": ["the meeting", "the conference", "the presentation"],
+        "distractor": "skip"
+      },
+      "present": {
+        "correct_forms": ["will present"],
+        "wrong_forms": ["presents", "is going to present", "would present"],
+        "objects": ["the report", "the project", "the results"],
+        "distractor": "abandon"
+      },
+      "discuss": {
+        "correct_forms": ["will discuss"],
+        "wrong_forms": ["discusses", "is going to discuss", "would discuss"],
+        "objects": ["the plan", "the budget", "the schedule"],
+        "distractor": "ignore"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next Monday", "next week", "on Friday"],
+    "PLACE": ["at 2 pm", "in the conference room", "online", "at the office"]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_INFRASTRUCTURE_B2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "infrastructure",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "while_place", "complex_event"],
+  "template": "While {SUBJ} ____ {OBJ} {PLACE}, {COMPLEX_EVENT} occurred.",
+  "example": "While the chief engineer was evaluating the structural integrity at the construction site, unexpected geological complications occurred.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular professional titles for ongoing infrastructure activities interrupted by complex events.",
+  "chunks": {
+    "SUBJ": ["I", "the chief engineer", "the project manager", "the city planner"],
+    "PLACE": [
+      "at the construction site",
+      "in the planning office",
+      "at the municipal headquarters",
+      "on the development project"
+    ],
+    "COMPLEX_EVENT": [
+      "unexpected geological complications",
+      "a major budget revision announcement",
+      "environmental impact concerns",
+      "contractor scheduling conflicts"
+    ],
+    "VERB": {
+      "evaluate": {
+        "correct_forms": ["was evaluating"],
+        "wrong_forms": ["were evaluating", "evaluated", "is evaluating"],
+        "objects": ["the structural integrity", "the project feasibility", "the resource allocation", "the timeline projections"],
+        "distractor": "disregard"
+      },
+      "supervise": {
+        "correct_forms": ["was supervising"],
+        "wrong_forms": ["were supervising", "supervised", "is supervising"],
+        "objects": ["the demolition procedures", "the foundation work", "the construction crews", "the safety protocols"],
+        "distractor": "overlook"
+      },
+      "coordinate": {
+        "correct_forms": ["was coordinating"],
+        "wrong_forms": ["were coordinating", "coordinated", "is coordinating"],
+        "objects": ["the contractor schedules", "the equipment deliveries", "the permit applications", "the utility relocations"],
+        "distractor": "circumvent"
+      },
+      "inspect": {
+        "correct_forms": ["was inspecting"],
+        "wrong_forms": ["were inspecting", "inspected", "is inspecting"],
+        "objects": ["the completed sections", "the material quality", "the safety compliance", "the building codes adherence"],
+        "distractor": "suppress"
+      }
+    }
+  }
+}

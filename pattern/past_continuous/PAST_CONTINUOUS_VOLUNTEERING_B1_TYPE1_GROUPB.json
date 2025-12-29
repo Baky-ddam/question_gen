@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_VOLUNTEERING_B1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "B1",
+  "domain": "volunteering",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "time_reason"],
+  "template": "{TIME}, {SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "All morning yesterday, I was helping at the food bank because they were short-staffed.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for past ongoing actions with time and reason clauses.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "TIME": [
+      "All morning yesterday",
+      "Throughout the weekend",
+      "Every Saturday last month",
+      "During the holiday period"
+    ],
+    "REASON": [
+      "they were short-staffed",
+      "the community needed extra support",
+      "the charity was overwhelmed with requests",
+      "the organization was launching a new initiative"
+    ],
+    "VERB": {
+      "help": {
+        "correct_forms": ["was helping"],
+        "wrong_forms": ["were helping", "helped", "is helping"],
+        "objects": ["at the food bank", "at the animal shelter", "at the community center", "at the homeless shelter"],
+        "distractor": "neglect"
+      },
+      "mentor": {
+        "correct_forms": ["was mentoring"],
+        "wrong_forms": ["were mentoring", "mentored", "is mentoring"],
+        "objects": ["at-risk youth", "first-generation students", "young entrepreneurs", "new volunteers"],
+        "distractor": "abandon"
+      },
+      "teach": {
+        "correct_forms": ["was teaching"],
+        "wrong_forms": ["were teaching", "taught", "is teaching"],
+        "objects": ["English to immigrants", "computer skills to seniors", "literacy to children", "job skills to unemployed adults"],
+        "distractor": "postpone"
+      },
+      "care": {
+        "correct_forms": ["was caring"],
+        "wrong_forms": ["were caring", "cared", "is caring"],
+        "objects": ["for abandoned animals", "for sick children", "for elderly patients", "for disabled individuals"],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

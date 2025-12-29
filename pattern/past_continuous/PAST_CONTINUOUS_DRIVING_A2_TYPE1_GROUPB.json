@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_DRIVING_A2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "driving",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "I was waiting at the red light at 8am yesterday.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for actions in progress at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "TIME": [
+      "at 8am yesterday",
+      "all morning",
+      "when you called",
+      "at this time last Monday"
+    ],
+    "VERB": {
+      "wait": {
+        "correct_forms": ["was waiting"],
+        "wrong_forms": ["were waiting", "waited", "is waiting"],
+        "objects": ["at the red light", "in traffic", "for the green light"],
+        "distractor": "abandon"
+      },
+      "listen": {
+        "correct_forms": ["was listening"],
+        "wrong_forms": ["were listening", "listened", "is listening"],
+        "objects": ["to the radio", "to music", "to the news"],
+        "distractor": "reject"
+      },
+      "check": {
+        "correct_forms": ["was checking"],
+        "wrong_forms": ["were checking", "checked", "is checking"],
+        "objects": ["the mirrors", "the GPS", "the fuel level"],
+        "distractor": "neglect"
+      },
+      "fill": {
+        "correct_forms": ["was filling"],
+        "wrong_forms": ["were filling", "filled", "is filling"],
+        "objects": ["the gas tank", "up the car", "the tank with petrol"],
+        "distractor": "waste"
+      }
+    }
+  }
+}

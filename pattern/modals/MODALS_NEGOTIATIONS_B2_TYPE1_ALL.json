@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_NEGOTIATIONS_B2_TYPE1_ALL",
+  "focus": "modal_may",
+  "level": "B2",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_may"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, which {CONSEQUENCE}.",
+  "example": "The negotiations may succeed eventually, which would benefit all parties involved.",
+  "explanation": "Use 'may' + base verb with all subjects to express possibility about negotiation outcomes. The 'which' clause describes the potential consequence.",
+  "chunks": {
+    "SUBJ": [
+      "the negotiations",
+      "the talks",
+      "the discussions",
+      "the diplomatic efforts",
+      "the bargaining process",
+      "the mediation attempts"
+    ],
+    "CONSEQUENCE": [
+      "would benefit all parties involved",
+      "could resolve longstanding disputes",
+      "may establish important precedents",
+      "would strengthen bilateral relations",
+      "could prevent further escalation",
+      "may create new opportunities"
+    ],
+    "VERB": {
+      "succeed": {
+        "correct_forms": [
+          "may succeed"
+        ],
+        "wrong_forms": [
+          "will succeed",
+          "must succeed",
+          "can succeed"
+        ],
+        "objects": [
+          "after prolonged deliberations",
+          "with continued diplomatic pressure",
+          "through compromise from both sides",
+          "if key concessions are made"
+        ],
+        "distractor": "circumvent"
+      },
+      "fail": {
+        "correct_forms": [
+          "may fail"
+        ],
+        "wrong_forms": [
+          "will fail",
+          "must fail",
+          "can fail"
+        ],
+        "objects": [
+          "to reach a breakthrough",
+          "due to fundamental disagreements",
+          "without external intervention",
+          "if positions remain rigid"
+        ],
+        "distractor": "obstruct"
+      },
+      "extend": {
+        "correct_forms": [
+          "may extend"
+        ],
+        "wrong_forms": [
+          "will extend",
+          "must extend",
+          "can extend"
+        ],
+        "objects": [
+          "beyond the original deadline",
+          "into additional rounds",
+          "as complex issues emerge",
+          "to address unforeseen challenges"
+        ],
+        "distractor": "impede"
+      },
+      "stall": {
+        "correct_forms": [
+          "may stall"
+        ],
+        "wrong_forms": [
+          "will stall",
+          "must stall",
+          "can stall"
+        ],
+        "objects": [
+          "over contentious points",
+          "amid political pressures",
+          "due to procedural disputes",
+          "if trust breaks down"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

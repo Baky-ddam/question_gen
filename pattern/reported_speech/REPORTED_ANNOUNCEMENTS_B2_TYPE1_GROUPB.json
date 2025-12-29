@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_ANNOUNCEMENTS_B2_TYPE1_GROUPB",
+  "focus": "reported_speech_confirmed",
+  "level": "B2",
+  "domain": "announcements",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {AUTHORITY} confirmed that the {SUBJECT} ____ {CONFIRMATION}.",
+  "example": "The director confirmed that the event would take place as scheduled.",
+  "explanation": "The verb 'confirmed' verifies information. 'Will take place' becomes 'would take place'.",
+  "chunks": {
+    "AUTHORITY": ["director", "coordinator", "organizer", "manager"],
+    "SUBJECT": ["event", "ceremony", "conference", "meeting"],
+    "CONFIRMATION": ["take place as scheduled", "proceed as planned", "happen next month", "begin on time"],
+    "VERB": {
+      "would take place": {
+        "correct_forms": ["would take place"],
+        "wrong_forms": ["will take place", "could take place", "is taking place"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "would proceed": {
+        "correct_forms": ["would proceed"],
+        "wrong_forms": ["will proceed", "could proceed", "is proceeding"],
+        "objects": [],
+        "distractor": "cancel"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_BUSINESS_B2_TYPE2_GROUPB",
+  "focus": "conditional_type_2_business_singular",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If the company ____ {BUSINESS_CONDITION}, it would {BUSINESS_RESULT}.",
+  "example": "If the company adopted new strategies, it would gain competitive advantage.",
+  "explanation": "Second conditional for business scenarios. The past tense 'adopted' in the if-clause signals a hypothetical situation.",
+  "chunks": {
+    "BUSINESS_CONDITION": ["adopted new strategies", "restructured its operations", "modernized its infrastructure", "diversified its portfolio"],
+    "BUSINESS_RESULT": ["gain competitive advantage", "attract more investors", "improve market position", "increase shareholder value"],
+    "VERB": {
+      "adopted": {
+        "correct_forms": ["adopted"],
+        "wrong_forms": ["adopts", "would adopt", "has adopted"],
+        "objects": [],
+        "distractor": "reject"
+      },
+      "restructured": {
+        "correct_forms": ["restructured"],
+        "wrong_forms": ["restructures", "would restructure", "has restructured"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

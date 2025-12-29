@@ -1,0 +1,33 @@
+{
+  "pattern_id": "REPORTED_ACADEMIA_C1_TYPE1_GROUPB",
+  "focus": "reported_speech_emphasized_underscored",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {ACADEMIC} {REPORTING_VERB} that the {SUBJECT} ____ {ACADEMIC_CLAIM}.",
+  "example": "The professor emphasized that the methodology had proven essential to the study's validity.",
+  "explanation": "Academic discourse uses 'emphasized' and 'underscored' for key points. Past perfect shows sequence.",
+  "chunks": {
+    "ACADEMIC": ["professor", "scholar", "researcher", "analyst"],
+    "REPORTING_VERB": ["emphasized", "underscored", "stressed", "highlighted"],
+    "SUBJECT": ["methodology", "approach", "framework", "analysis"],
+    "ACADEMIC_CLAIM": ["proven essential to the study's validity", "yielded unexpected insights", "revealed significant patterns", "demonstrated remarkable consistency"],
+    "VERB": {
+      "had proven": {
+        "correct_forms": ["had proven"],
+        "wrong_forms": ["proved", "has proven", "was proving"],
+        "objects": [],
+        "distractor": "undermine"
+      },
+      "had yielded": {
+        "correct_forms": ["had yielded"],
+        "wrong_forms": ["yielded", "has yielded", "was yielding"],
+        "objects": [],
+        "distractor": "obscure"
+      }
+    }
+  }
+}

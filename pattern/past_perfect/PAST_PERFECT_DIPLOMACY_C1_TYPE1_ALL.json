@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_DIPLOMACY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.",
+  "example": "If the ambassadors had negotiated earlier, the conflict might have been avoided.",
+  "explanation": "Use 'had' + past participle in third conditional sentences to express hypothetical situations in the past that didn't happen.",
+  "chunks": {
+    "SUBJ": ["the ambassadors", "the negotiators", "the delegation", "world leaders", "the diplomats", "both nations"],
+    "RESULT_CLAUSE": ["the conflict might have been avoided", "tensions would have eased sooner", "the treaty could have been signed earlier", "diplomatic relations would have improved", "the crisis might not have escalated"],
+    "VERB": {
+      "negotiate": {
+        "correct_forms": ["had negotiated"],
+        "wrong_forms": ["have negotiated", "negotiated", "were negotiating"],
+        "objects": ["earlier", "in good faith", "more effectively", "with greater transparency"],
+        "distractor": "abandon"
+      },
+      "establish": {
+        "correct_forms": ["had established"],
+        "wrong_forms": ["has established", "established", "was establishing"],
+        "objects": ["better channels of communication", "mutual trust", "diplomatic ties sooner", "a framework for dialogue"],
+        "distractor": "sever"
+      },
+      "intervene": {
+        "correct_forms": ["had intervened"],
+        "wrong_forms": ["have intervened", "intervened", "were intervening"],
+        "objects": ["diplomatically", "at the right moment", "with international support", "before hostilities began"],
+        "distractor": "withdraw"
+      },
+      "recognize": {
+        "correct_forms": ["had recognized"],
+        "wrong_forms": ["has recognized", "recognized", "was recognizing"],
+        "objects": ["the legitimate concerns", "sovereignty earlier", "the warning signs", "mutual interests"],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

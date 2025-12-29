@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_CONCEPTS_B2_TYPE1_GROUPB",
+  "focus": "relative_clause_that_concept",
+  "level": "B2",
+  "domain": "concepts",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {CONCEPT} ____ underpins {FIELD} requires {UNDERSTANDING}.",
+  "example": "The framework that underpins economic policy requires careful analysis.",
+  "explanation": "We use 'that' for defining relative clauses. The clause is essential to identify which concept we mean.",
+  "chunks": {
+    "CONCEPT": ["framework", "model", "system", "paradigm"],
+    "FIELD": ["economic policy", "scientific research", "educational reform", "technological development"],
+    "UNDERSTANDING": ["careful analysis", "thorough examination", "continuous evaluation", "critical assessment"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

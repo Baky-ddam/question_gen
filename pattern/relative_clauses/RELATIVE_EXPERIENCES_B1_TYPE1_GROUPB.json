@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_EXPERIENCES_B1_TYPE1_GROUPB",
+  "focus": "relative_clause_that_experience",
+  "level": "B1",
+  "domain": "experiences",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {EXPERIENCE} ____ changed my life happened {TIME}.",
+  "example": "The opportunity that changed my life happened unexpectedly.",
+  "explanation": "We can use 'that' for experiences. It's common in everyday speech when describing important events.",
+  "chunks": {
+    "EXPERIENCE": ["opportunity", "meeting", "decision", "moment"],
+    "TIME": ["unexpectedly", "last year", "when I was young", "during my studies"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "where", "whose"],
+        "objects": [],
+        "distractor": "miss"
+      }
+    }
+  }
+}

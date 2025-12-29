@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_ECONOMICS_C1_TYPE1_GROUPA",
+  "focus": "suffix_ary_formation",
+  "level": "C1",
+  "domain": "economics",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The central bank implemented ____ policies to combat inflationary pressures.",
+  "example": "The central bank implemented monetary policies to combat inflationary pressures.",
+  "explanation": "The suffix '-ary' transforms nouns into adjectives indicating relation or pertaining to. 'Money' becomes 'monetary'.",
+  "chunks": {
+    "NOUN": ["pressures", "trends", "developments", "challenges"],
+    "VERB": {
+      "monetary": {
+        "correct_forms": ["monetary"],
+        "wrong_forms": ["money", "monetize", "monetarily"],
+        "objects": [],
+        "distractor": "fiscal"
+      },
+      "inflationary": {
+        "correct_forms": ["inflationary"],
+        "wrong_forms": ["inflation", "inflate", "inflatedly"],
+        "objects": [],
+        "distractor": "deflationary"
+      },
+      "budgetary": {
+        "correct_forms": ["budgetary"],
+        "wrong_forms": ["budget", "budgeting", "budgeted"],
+        "objects": [],
+        "distractor": "unplanned"
+      },
+      "discretionary": {
+        "correct_forms": ["discretionary"],
+        "wrong_forms": ["discretion", "discrete", "discretely"],
+        "objects": [],
+        "distractor": "mandatory"
+      }
+    }
+  }
+}

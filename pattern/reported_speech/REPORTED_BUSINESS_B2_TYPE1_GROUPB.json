@@ -1,0 +1,30 @@
+{
+  "pattern_id": "REPORTED_BUSINESS_B2_TYPE1_GROUPB",
+  "focus": "reported_speech_modal_can_could",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The director stated that the company ____ {CAPABILITY}.",
+  "example": "The director stated that the company could expand into new markets.",
+  "explanation": "Modal 'can' shifts to 'could' in reported speech. 'The company can expand' becomes 'the company could expand'.",
+  "chunks": {
+    "CAPABILITY": ["expand into new markets", "increase production capacity", "reduce operating costs", "improve customer satisfaction"],
+    "VERB": {
+      "could expand": {
+        "correct_forms": ["could expand"],
+        "wrong_forms": ["can expand", "would expand", "might expand"],
+        "objects": [],
+        "distractor": "contradict"
+      },
+      "could increase": {
+        "correct_forms": ["could increase"],
+        "wrong_forms": ["can increase", "would increase", "should increase"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

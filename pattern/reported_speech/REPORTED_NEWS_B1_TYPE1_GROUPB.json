@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_NEWS_B1_TYPE1_GROUPB",
+  "focus": "reported_speech_news_past_singular",
+  "level": "B1",
+  "domain": "news",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {SOURCE} said that the {SUBJECT} ____ {NEWS_CONTENT}.",
+  "example": "The journalist said that the mayor was planning to resign.",
+  "explanation": "In reported speech, 'is planning' becomes 'was planning'. The singular subject takes 'was' in past tense.",
+  "chunks": {
+    "SOURCE": ["journalist", "reporter", "anchor", "correspondent"],
+    "SUBJECT": ["mayor", "president", "minister", "director"],
+    "NEWS_CONTENT": ["planning to resign", "considering new measures", "preparing an announcement", "reviewing the policy"],
+    "VERB": {
+      "was": {
+        "correct_forms": ["was"],
+        "wrong_forms": ["is", "has been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["has been", "is", "was being"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

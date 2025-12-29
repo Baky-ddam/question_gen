@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_INVENTIONS_A2_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "A2",
+  "domain": "inventions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ {TIME}.",
+  "example": "The telephone was invented in 1876.",
+  "explanation": "Use 'was' + past participle with 'I/he/she/it' and singular nouns for past passive.",
+  "chunks": {
+    "SUBJ": ["the telephone", "the computer", "the car", "the plane", "the television", "the radio"],
+    "TIME": ["in 1876", "in the 20th century", "many years ago", "a long time ago", "in the past"],
+    "VERB": {
+      "invent": {
+        "correct_forms": ["was invented"],
+        "wrong_forms": ["were invented", "is invented", "has been invented"],
+        "objects": [],
+        "distractor": "destroyed"
+      },
+      "create": {
+        "correct_forms": ["was created"],
+        "wrong_forms": ["were created", "is created", "has been created"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "develop": {
+        "correct_forms": ["was developed"],
+        "wrong_forms": ["were developed", "is developed", "has been developed"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "design": {
+        "correct_forms": ["was designed"],
+        "wrong_forms": ["were designed", "is designed", "has been designed"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}

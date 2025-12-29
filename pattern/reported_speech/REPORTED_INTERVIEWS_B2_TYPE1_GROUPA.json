@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_INTERVIEWS_B2_TYPE1_GROUPA",
+  "focus": "reported_speech_admitted",
+  "level": "B2",
+  "domain": "interviews",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The candidate admitted that {SUBJ} ____ {ADMISSION}.",
+  "example": "The candidate admitted that they had made mistakes in the past.",
+  "explanation": "The verb 'admitted' introduces a confession or acknowledgment. 'Made' becomes 'had made' in reported speech.",
+  "chunks": {
+    "SUBJ": ["they", "the team", "the management", "the organizers"],
+    "ADMISSION": ["made mistakes in the past", "underestimated the challenges", "overlooked important details", "misjudged the situation"],
+    "VERB": {
+      "had made": {
+        "correct_forms": ["had made"],
+        "wrong_forms": ["made", "have made", "were making"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had underestimated": {
+        "correct_forms": ["had underestimated"],
+        "wrong_forms": ["underestimated", "have underestimated", "were underestimating"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

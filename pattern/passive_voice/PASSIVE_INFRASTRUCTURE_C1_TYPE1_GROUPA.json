@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_INFRASTRUCTURE_C1_TYPE1_GROUPA",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "infrastructure",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "Sustainable transportation networks have been developed by urban planners to reduce carbon footprints.",
+  "explanation": "Use 'have been' + past participle with plural subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["sustainable transportation networks", "smart grid systems", "renewable energy installations", "digital infrastructure projects", "urban development initiatives", "public transit systems"],
+    "AGENT": ["urban planners", "engineering firms", "government agencies", "private consortiums", "development authorities", "international investors"],
+    "PURPOSE": ["reduce carbon footprints", "enhance connectivity", "modernize aging systems", "accommodate population growth", "improve quality of life", "stimulate economic development"],
+    "VERB": {
+      "develop": {
+        "correct_forms": ["have been developed"],
+        "wrong_forms": ["has been developed", "were developed", "are developed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "construct": {
+        "correct_forms": ["have been constructed"],
+        "wrong_forms": ["has been constructed", "were constructed", "are constructed"],
+        "objects": [],
+        "distractor": "demolished"
+      },
+      "commission": {
+        "correct_forms": ["have been commissioned"],
+        "wrong_forms": ["has been commissioned", "were commissioned", "are commissioned"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "upgrade": {
+        "correct_forms": ["have been upgraded"],
+        "wrong_forms": ["has been upgraded", "were upgraded", "are upgraded"],
+        "objects": [],
+        "distractor": "neglected"
+      }
+    }
+  }
+}

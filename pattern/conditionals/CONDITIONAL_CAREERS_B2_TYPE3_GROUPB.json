@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_CAREERS_B2_TYPE3_GROUPB",
+  "focus": "conditional_type_3_careers_past_singular",
+  "level": "B2",
+  "domain": "careers",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ the opportunity, {SUBJ} would have {PAST_CAREER_RESULT}.",
+  "example": "If she had seized the opportunity, she would have become a partner by now.",
+  "explanation": "Third conditional for reflecting on missed career opportunities. 'Had seized' + 'would have become' shows regret.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the executive", "the manager"],
+    "PAST_CAREER_RESULT": ["become a partner by now", "led the department", "achieved financial independence", "built a successful business"],
+    "VERB": {
+      "had seized": {
+        "correct_forms": ["had seized"],
+        "wrong_forms": ["seized", "has seized", "would seize"],
+        "objects": [],
+        "distractor": "miss"
+      },
+      "had taken": {
+        "correct_forms": ["had taken"],
+        "wrong_forms": ["took", "has taken", "would take"],
+        "objects": [],
+        "distractor": "decline"
+      }
+    }
+  }
+}

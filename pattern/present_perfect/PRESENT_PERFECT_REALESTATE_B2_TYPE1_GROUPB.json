@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_REALESTATE_B2_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "real_estate",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ}, so {RESULT}.",
+  "example": "The architect has redesigned the floor plans, so the units now maximize natural light.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' and professional titles to show completed actions leading to current results.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the architect",
+      "the developer",
+      "the real estate agent",
+      "the property manager"
+    ],
+    "RESULT": [
+      "the occupancy rate has improved",
+      "buyer interest has surged",
+      "the valuation is now higher",
+      "the property stands out competitively"
+    ],
+    "VERB": {
+      "assess": {
+        "correct_forms": [
+          "has assessed"
+        ],
+        "wrong_forms": [
+          "have assessed",
+          "had assessed",
+          "assessed"
+        ],
+        "objects": [
+          "the market conditions thoroughly",
+          "the property potential carefully",
+          "the investment viability",
+          "the neighborhood demographics"
+        ],
+        "distractor": "overlook"
+      },
+      "negotiate": {
+        "correct_forms": [
+          "has negotiated"
+        ],
+        "wrong_forms": [
+          "have negotiated",
+          "had negotiated",
+          "negotiated"
+        ],
+        "objects": [
+          "favorable lease terms",
+          "competitive purchase agreements",
+          "reduced commission rates",
+          "extended payment schedules"
+        ],
+        "distractor": "suppress"
+      },
+      "secure": {
+        "correct_forms": [
+          "has secured"
+        ],
+        "wrong_forms": [
+          "have secured",
+          "had secured",
+          "secured"
+        ],
+        "objects": [
+          "planning permission",
+          "construction financing",
+          "long-term tenants",
+          "development rights"
+        ],
+        "distractor": "circumvent"
+      },
+      "transform": {
+        "correct_forms": [
+          "has transformed"
+        ],
+        "wrong_forms": [
+          "have transformed",
+          "had transformed",
+          "transformed"
+        ],
+        "objects": [
+          "the neglected buildings",
+          "the outdated facilities",
+          "the underutilized spaces",
+          "the vacant properties"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

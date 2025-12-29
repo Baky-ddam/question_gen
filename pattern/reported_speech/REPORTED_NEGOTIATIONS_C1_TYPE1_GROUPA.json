@@ -1,0 +1,33 @@
+{
+  "pattern_id": "REPORTED_NEGOTIATIONS_C1_TYPE1_GROUPA",
+  "focus": "reported_speech_proposed_countered",
+  "level": "C1",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {NEGOTIATOR} {REPORTING_VERB} that the parties ____ {NEGOTIATION_ACTION}, which {OUTCOME}.",
+  "example": "The mediator proposed that the parties had already demonstrated willingness to compromise, which suggested a breakthrough was imminent.",
+  "explanation": "Negotiation contexts use verbs like 'proposed' and 'countered'. Past perfect shows prior developments.",
+  "chunks": {
+    "NEGOTIATOR": ["mediator", "arbitrator", "facilitator", "broker"],
+    "REPORTING_VERB": ["proposed", "countered", "suggested", "argued"],
+    "NEGOTIATION_ACTION": ["already demonstrated willingness to compromise", "made significant concessions", "shown flexibility on key issues", "adjusted their initial positions"],
+    "OUTCOME": ["suggested a breakthrough was imminent", "indicated progress was achievable", "signaled potential for resolution", "implied agreement was within reach"],
+    "VERB": {
+      "had already demonstrated": {
+        "correct_forms": ["had already demonstrated"],
+        "wrong_forms": ["already demonstrated", "have already demonstrated", "were demonstrating"],
+        "objects": [],
+        "distractor": "obstruct"
+      },
+      "had made": {
+        "correct_forms": ["had made"],
+        "wrong_forms": ["made", "have made", "were making"],
+        "objects": [],
+        "distractor": "retract"
+      }
+    }
+  }
+}

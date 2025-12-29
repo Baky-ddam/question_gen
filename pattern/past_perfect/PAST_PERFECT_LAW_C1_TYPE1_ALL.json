@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_LAW_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "law",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.",
+  "example": "If the court had ruled differently, constitutional interpretation would have changed dramatically.",
+  "explanation": "Use 'had' + past participle in third conditional sentences to express hypothetical situations in the past that didn't happen.",
+  "chunks": {
+    "SUBJ": ["the court", "the judges", "the tribunal", "legal experts", "the prosecution", "the defense"],
+    "RESULT_CLAUSE": ["constitutional interpretation would have changed dramatically", "the precedent would have been different", "subsequent cases would have had different outcomes", "legal history might have taken another course", "rights would have been protected differently"],
+    "VERB": {
+      "rule": {
+        "correct_forms": ["had ruled"],
+        "wrong_forms": ["have ruled", "ruled", "were ruling"],
+        "objects": ["differently", "in favor of the plaintiff", "on constitutional grounds", "more narrowly"],
+        "distractor": "abstain"
+      },
+      "interpret": {
+        "correct_forms": ["had interpreted"],
+        "wrong_forms": ["has interpreted", "interpreted", "was interpreting"],
+        "objects": ["the statute more broadly", "the constitution literally", "legislative intent differently", "the law as intended"],
+        "distractor": "misread"
+      },
+      "consider": {
+        "correct_forms": ["had considered"],
+        "wrong_forms": ["have considered", "considered", "were considering"],
+        "objects": ["all the evidence", "precedent more carefully", "mitigating circumstances", "alternative arguments"],
+        "distractor": "dismiss"
+      },
+      "uphold": {
+        "correct_forms": ["had upheld"],
+        "wrong_forms": ["has upheld", "upheld", "was upholding"],
+        "objects": ["the lower court's decision", "constitutional protections", "fundamental rights", "the original verdict"],
+        "distractor": "overturn"
+      }
+    }
+  }
+}

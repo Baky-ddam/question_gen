@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_APPOINTMENTS_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "appointments",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "I had confirmed the appointment before leaving the office.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the patient", "the client"],
+    "PAST_EVENT": ["leaving the office", "the scheduled time", "the meeting day", "the doctor called", "the date arrived"],
+    "VERB": {
+      "confirm": {
+        "correct_forms": ["had confirmed"],
+        "wrong_forms": ["have confirmed", "confirmed", "was confirming"],
+        "objects": ["the appointment", "the booking", "the reservation", "the time"],
+        "distractor": "cancel"
+      },
+      "schedule": {
+        "correct_forms": ["had scheduled"],
+        "wrong_forms": ["has scheduled", "scheduled", "was scheduling"],
+        "objects": ["a meeting", "the visit", "an interview", "the consultation"],
+        "distractor": "postpone"
+      },
+      "reschedule": {
+        "correct_forms": ["had rescheduled"],
+        "wrong_forms": ["have rescheduled", "rescheduled", "was rescheduling"],
+        "objects": ["the appointment", "the session", "the call", "everything"],
+        "distractor": "forget"
+      },
+      "arrange": {
+        "correct_forms": ["had arranged"],
+        "wrong_forms": ["has arranged", "arranged", "was arranging"],
+        "objects": ["a time", "the details", "everything needed", "a convenient slot"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

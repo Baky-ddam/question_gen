@@ -1,0 +1,34 @@
+{
+  "pattern_id": "REPORTED_JOURNALISM_C1_TYPE1_GROUPA",
+  "focus": "reported_speech_insinuated_implied",
+  "level": "C1",
+  "domain": "journalism",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {JOURNALIST} {REPORTING_VERB} that {SUBJ} ____ {REVELATION}, raising questions about {CONCERN}.",
+  "example": "The investigative reporter insinuated that the officials had concealed crucial information, raising questions about transparency.",
+  "explanation": "Journalistic verbs like 'insinuated' suggest indirect accusations. Complex structures reflect investigative reporting.",
+  "chunks": {
+    "JOURNALIST": ["investigative reporter", "correspondent", "editor", "columnist"],
+    "REPORTING_VERB": ["insinuated", "implied", "suggested", "hinted"],
+    "SUBJ": ["the officials", "the executives", "the authorities", "the administrators"],
+    "REVELATION": ["concealed crucial information", "misrepresented the facts", "withheld important documents", "manipulated the data"],
+    "CONCERN": ["transparency", "accountability", "public trust", "institutional integrity"],
+    "VERB": {
+      "had concealed": {
+        "correct_forms": ["had concealed"],
+        "wrong_forms": ["concealed", "have concealed", "were concealing"],
+        "objects": [],
+        "distractor": "disclose"
+      },
+      "had misrepresented": {
+        "correct_forms": ["had misrepresented"],
+        "wrong_forms": ["misrepresented", "have misrepresented", "were misrepresenting"],
+        "objects": [],
+        "distractor": "clarify"
+      }
+    }
+  }
+}

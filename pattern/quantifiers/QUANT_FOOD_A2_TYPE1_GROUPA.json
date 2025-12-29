@@ -1,0 +1,24 @@
+{
+  "pattern_id": "QUANT_FOOD_A2_TYPE1_GROUPA",
+  "focus": "quantifier_much_many_countable",
+  "level": "A2",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["quantifiers"],
+  "template": "There aren't ____ {NOUN} in the fridge.",
+  "example": "There aren't many eggs in the fridge.",
+  "explanation": "'Many' is used with countable nouns in negative sentences and questions. 'Much' is used with uncountable nouns.",
+  "chunks": {
+    "NOUN": ["eggs", "apples", "vegetables", "oranges"],
+    "VERB": {
+      "many": {
+        "correct_forms": ["many"],
+        "wrong_forms": ["much", "a lot", "few"],
+        "objects": [],
+        "distractor": "none"
+      }
+    }
+  }
+}

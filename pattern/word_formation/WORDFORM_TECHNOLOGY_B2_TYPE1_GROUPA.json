@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_TECHNOLOGY_B2_TYPE1_GROUPA",
+  "focus": "suffix_ibility_formation",
+  "level": "B2",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The new system offers greater ____ for users.",
+  "example": "The new system offers greater accessibility for users.",
+  "explanation": "The suffix '-ibility' transforms adjectives into nouns. 'Accessible' becomes 'accessibility'.",
+  "chunks": {
+    "NOUN": ["users", "customers", "clients", "developers"],
+    "VERB": {
+      "accessibility": {
+        "correct_forms": ["accessibility"],
+        "wrong_forms": ["accessible", "access", "accessing"],
+        "objects": [],
+        "distractor": "inaccessibility"
+      },
+      "compatibility": {
+        "correct_forms": ["compatibility"],
+        "wrong_forms": ["compatible", "compatibe", "compatibly"],
+        "objects": [],
+        "distractor": "incompatibility"
+      },
+      "reliability": {
+        "correct_forms": ["reliability"],
+        "wrong_forms": ["reliable", "rely", "relying"],
+        "objects": [],
+        "distractor": "unreliability"
+      },
+      "flexibility": {
+        "correct_forms": ["flexibility"],
+        "wrong_forms": ["flexible", "flex", "flexing"],
+        "objects": [],
+        "distractor": "rigidity"
+      }
+    }
+  }
+}

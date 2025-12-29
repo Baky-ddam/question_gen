@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_PROJECTS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "projects",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "After {SUBJ} ____ {OBJ}, {SUBSEQUENT_ACTION}.",
+  "example": "After the team had completed the prototype, they presented it to stakeholders.",
+  "explanation": "Use 'had' + past participle after 'after' to show the first action was completed before the second action began.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the team", "the engineers", "the developers", "the project manager"],
+    "SUBSEQUENT_ACTION": ["they presented it to stakeholders", "management approved the budget", "production began immediately", "the client gave feedback", "the next phase started"],
+    "VERB": {
+      "complete": {
+        "correct_forms": ["had completed"],
+        "wrong_forms": ["have completed", "completed", "was completing"],
+        "objects": ["the prototype", "the initial phase", "all requirements", "the testing"],
+        "distractor": "abandon"
+      },
+      "deliver": {
+        "correct_forms": ["had delivered"],
+        "wrong_forms": ["has delivered", "delivered", "was delivering"],
+        "objects": ["the first milestone", "the documentation", "the final report", "all components"],
+        "distractor": "withhold"
+      },
+      "resolve": {
+        "correct_forms": ["had resolved"],
+        "wrong_forms": ["have resolved", "resolved", "was resolving"],
+        "objects": ["all technical issues", "the critical bugs", "the main challenges", "pending problems"],
+        "distractor": "ignore"
+      },
+      "implement": {
+        "correct_forms": ["had implemented"],
+        "wrong_forms": ["has implemented", "implemented", "was implementing"],
+        "objects": ["the core features", "the new system", "all changes", "the solution"],
+        "distractor": "discard"
+      }
+    }
+  }
+}

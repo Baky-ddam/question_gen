@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_EDUCATION_B1_TYPE1_GROUPB",
+  "focus": "present_perfect",
+  "level": "B1",
+  "domain": "education",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {COMPLETION_MARKER} {OBJ}.",
+  "example": "She has already passed all the exams.",
+  "explanation": "Use 'has' + past participle with 'he/she/it' to describe completed educational achievements. 'Already', 'just', 'recently' emphasize completion.",
+  "chunks": {
+    "SUBJ": [
+      "he",
+      "she",
+      "the student",
+      "my classmate"
+    ],
+    "COMPLETION_MARKER": [
+      "already",
+      "just",
+      "recently",
+      "finally"
+    ],
+    "VERB": {
+      "pass": {
+        "correct_forms": [
+          "has passed"
+        ],
+        "wrong_forms": [
+          "have passed",
+          "had passed",
+          "passed"
+        ],
+        "objects": [
+          "all the exams",
+          "the final test",
+          "the certification exam",
+          "the language proficiency test"
+        ],
+        "distractor": "postpone"
+      },
+      "earn": {
+        "correct_forms": [
+          "has earned"
+        ],
+        "wrong_forms": [
+          "have earned",
+          "had earned",
+          "earned"
+        ],
+        "objects": [
+          "a master's degree",
+          "a professional certificate",
+          "academic honors",
+          "a scholarship"
+        ],
+        "distractor": "abandon"
+      },
+      "submit": {
+        "correct_forms": [
+          "has submitted"
+        ],
+        "wrong_forms": [
+          "have submitted",
+          "had submitted",
+          "submitted"
+        ],
+        "objects": [
+          "the thesis",
+          "the research paper",
+          "the application",
+          "all assignments"
+        ],
+        "distractor": "cancel"
+      },
+      "finish": {
+        "correct_forms": [
+          "has finished"
+        ],
+        "wrong_forms": [
+          "have finished",
+          "had finished",
+          "finished"
+        ],
+        "objects": [
+          "the course requirements",
+          "the dissertation",
+          "the internship program",
+          "the training module"
+        ],
+        "distractor": "terminate"
+      }
+    }
+  }
+}

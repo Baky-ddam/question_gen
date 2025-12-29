@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_ARTWORKS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "artworks",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The painting was donated by a wealthy collector.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the painting", "the sculpture", "the portrait", "the masterpiece", "the artwork", "the collection"],
+    "AGENT": ["a wealthy collector", "the museum", "a famous artist", "the gallery owner", "an anonymous donor", "the government"],
+    "VERB": {
+      "donate": {
+        "correct_forms": ["was donated"],
+        "wrong_forms": ["were donated", "is donated", "has been donated"],
+        "objects": [],
+        "distractor": "stolen"
+      },
+      "purchase": {
+        "correct_forms": ["was purchased"],
+        "wrong_forms": ["were purchased", "is purchased", "has been purchased"],
+        "objects": [],
+        "distractor": "rejected"
+      },
+      "exhibit": {
+        "correct_forms": ["was exhibited"],
+        "wrong_forms": ["were exhibited", "is exhibited", "has been exhibited"],
+        "objects": [],
+        "distractor": "hidden"
+      },
+      "value": {
+        "correct_forms": ["was valued"],
+        "wrong_forms": ["were valued", "is valued", "has been valued"],
+        "objects": [],
+        "distractor": "dismissed"
+      }
+    }
+  }
+}

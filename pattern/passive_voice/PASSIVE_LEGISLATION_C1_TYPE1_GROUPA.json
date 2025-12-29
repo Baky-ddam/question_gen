@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_LEGISLATION_C1_TYPE1_GROUPA",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "legislation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "New regulations have been enacted by policymakers to address emerging environmental concerns.",
+  "explanation": "Use 'have been' + past participle with plural subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["new regulations", "comprehensive reforms", "legislative measures", "policy frameworks", "legal provisions", "institutional safeguards"],
+    "AGENT": ["policymakers", "legislators", "the parliament", "regulatory bodies", "government officials", "international organizations"],
+    "PURPOSE": ["address emerging environmental concerns", "protect consumer rights", "ensure fair competition", "strengthen democratic processes", "promote economic stability", "safeguard public health"],
+    "VERB": {
+      "enact": {
+        "correct_forms": ["have been enacted"],
+        "wrong_forms": ["has been enacted", "were enacted", "are enacted"],
+        "objects": [],
+        "distractor": "repealed"
+      },
+      "implement": {
+        "correct_forms": ["have been implemented"],
+        "wrong_forms": ["has been implemented", "were implemented", "are implemented"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "establish": {
+        "correct_forms": ["have been established"],
+        "wrong_forms": ["has been established", "were established", "are established"],
+        "objects": [],
+        "distractor": "dismantled"
+      },
+      "introduce": {
+        "correct_forms": ["have been introduced"],
+        "wrong_forms": ["has been introduced", "were introduced", "are introduced"],
+        "objects": [],
+        "distractor": "withdrawn"
+      }
+    }
+  }
+}

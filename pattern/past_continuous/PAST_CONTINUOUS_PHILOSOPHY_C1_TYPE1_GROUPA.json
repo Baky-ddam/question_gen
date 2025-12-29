@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PHILOSOPHY_C1_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "philosophy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "contrast_continuous", "sophisticated_contrast"],
+  "template": "While {SUBJ} ____ {OBJ}, {CONTRAST_ACTION}.",
+  "example": "While we were examining the epistemological foundations of knowledge, critics were dismissing the entire metaphysical framework as unfalsifiable.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing past actions with sophisticated contrast clauses.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they", "the scholars"],
+    "CONTRAST_ACTION": [
+      "critics were dismissing the entire metaphysical framework as unfalsifiable",
+      "proponents of empiricism were advancing fundamentally incompatible premises",
+      "traditionalists were clinging to increasingly untenable positions",
+      "contemporary theorists were formulating radically divergent interpretations"
+    ],
+    "VERB": {
+      "examine": {
+        "correct_forms": ["were examining"],
+        "wrong_forms": ["was examining", "examined", "are examining"],
+        "objects": ["the epistemological foundations of knowledge", "the ontological implications of consciousness", "the axiological dimensions of ethical reasoning", "the phenomenological aspects of lived experience"],
+        "distractor": "forsake"
+      },
+      "interrogate": {
+        "correct_forms": ["were interrogating"],
+        "wrong_forms": ["was interrogating", "interrogated", "are interrogating"],
+        "objects": ["the fundamental assumptions underlying rationalist thought", "the presuppositions embedded in analytical philosophy", "the conceptual boundaries of moral relativism", "the theoretical underpinnings of existential philosophy"],
+        "distractor": "obliterate"
+      },
+      "synthesize": {
+        "correct_forms": ["were synthesizing"],
+        "wrong_forms": ["was synthesizing", "synthesized", "are synthesizing"],
+        "objects": ["disparate philosophical traditions into a coherent framework", "Eastern and Western metaphysical perspectives", "empirical findings with theoretical abstractions", "competing interpretations of dialectical materialism"],
+        "distractor": "renounce"
+      },
+      "deconstruct": {
+        "correct_forms": ["were deconstructing"],
+        "wrong_forms": ["was deconstructing", "deconstructed", "are deconstructing"],
+        "objects": ["the binary oppositions inherent in classical logic", "the linguistic structures underlying philosophical discourse", "the hierarchical assumptions of Western metaphysics", "the foundationalist claims of modern epistemology"],
+        "distractor": "repudiate"
+      }
+    }
+  }
+}

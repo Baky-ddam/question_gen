@@ -1,0 +1,26 @@
+{
+  "pattern_id": "CONDITIONAL_DIPLOMACY_C1_INVERTED_GROUPB",
+  "focus": "conditional_inverted_diplomatic_were",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the {ENTITY} to {DIPLOMATIC_ACTION}, a breakthrough would {RESULT}.",
+  "example": "Were the coalition to unite behind this proposal, a breakthrough would be imminent.",
+  "explanation": "Inverted conditional with 'Were...to' in diplomatic contexts. Formal register for hypothetical diplomatic scenarios.",
+  "chunks": {
+    "ENTITY": ["coalition", "alliance", "bloc", "union"],
+    "DIPLOMATIC_ACTION": ["unite behind this proposal", "adopt a unified stance", "present a common front", "demonstrate solidarity"],
+    "RESULT": ["be imminent", "be within reach", "transform the negotiations", "reshape the dynamics"],
+    "VERB": {
+      "Were": {
+        "correct_forms": ["Were"],
+        "wrong_forms": ["If", "Was", "Are"],
+        "objects": [],
+        "distractor": "fracture"
+      }
+    }
+  }
+}

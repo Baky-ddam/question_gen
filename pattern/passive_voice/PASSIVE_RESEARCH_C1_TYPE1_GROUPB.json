@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_RESEARCH_C1_TYPE1_GROUPB",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "The hypothesis has been tested by the laboratory to determine its validity under varying conditions.",
+  "explanation": "Use 'has been' + past participle with singular subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["the hypothesis", "the theory", "the methodology", "the experimental design", "the analytical framework", "the research protocol"],
+    "AGENT": ["the laboratory", "independent reviewers", "the scientific community", "peer evaluators", "the research committee", "external auditors"],
+    "PURPOSE": ["determine its validity under varying conditions", "ensure reproducibility of results", "establish scientific consensus", "evaluate potential applications", "refine theoretical understanding", "assess real-world implications"],
+    "VERB": {
+      "test": {
+        "correct_forms": ["has been tested"],
+        "wrong_forms": ["have been tested", "was tested", "is tested"],
+        "objects": [],
+        "distractor": "discredited"
+      },
+      "verify": {
+        "correct_forms": ["has been verified"],
+        "wrong_forms": ["have been verified", "was verified", "is verified"],
+        "objects": [],
+        "distractor": "falsified"
+      },
+      "evaluate": {
+        "correct_forms": ["has been evaluated"],
+        "wrong_forms": ["have been evaluated", "was evaluated", "is evaluated"],
+        "objects": [],
+        "distractor": "overlooked"
+      },
+      "refine": {
+        "correct_forms": ["has been refined"],
+        "wrong_forms": ["have been refined", "was refined", "is refined"],
+        "objects": [],
+        "distractor": "abandoned"
+      }
+    }
+  }
+}

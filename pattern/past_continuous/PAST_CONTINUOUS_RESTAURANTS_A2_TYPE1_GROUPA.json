@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_RESTAURANTS_A2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "restaurants",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} {TIME}.",
+  "example": "We were ordering dessert at 8pm yesterday.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for actions in progress at a specific time in the past.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "TIME": [
+      "at 8pm yesterday",
+      "at this time last week",
+      "when the waiter arrived",
+      "all evening"
+    ],
+    "VERB": {
+      "order": {
+        "correct_forms": ["were ordering"],
+        "wrong_forms": ["was ordering", "ordered", "are ordering"],
+        "objects": ["dessert", "appetizers", "drinks"],
+        "distractor": "reject"
+      },
+      "eat": {
+        "correct_forms": ["were eating"],
+        "wrong_forms": ["was eating", "ate", "are eating"],
+        "objects": ["dinner", "a delicious meal", "fresh seafood"],
+        "distractor": "waste"
+      },
+      "wait": {
+        "correct_forms": ["were waiting"],
+        "wrong_forms": ["was waiting", "waited", "are waiting"],
+        "objects": ["for a table", "for the bill", "for the main course"],
+        "distractor": "abandon"
+      },
+      "enjoy": {
+        "correct_forms": ["were enjoying"],
+        "wrong_forms": ["was enjoying", "enjoyed", "are enjoying"],
+        "objects": ["the atmosphere", "the live music", "the view"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

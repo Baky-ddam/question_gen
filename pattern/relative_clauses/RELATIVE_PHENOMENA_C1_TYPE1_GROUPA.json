@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_PHENOMENA_C1_TYPE1_GROUPA",
+  "focus": "relative_clause_which_phenomenon",
+  "level": "C1",
+  "domain": "phenomena",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PHENOMENON} ____ {CHARACTERISTIC} has {IMPLICATION}.",
+  "example": "The phenomenon which defies conventional explanation has prompted extensive interdisciplinary research.",
+  "explanation": "We use 'which' for scientific and social phenomena. The clause describes the phenomenon's characteristics and significance.",
+  "chunks": {
+    "PHENOMENON": ["phenomenon", "anomaly", "pattern", "manifestation"],
+    "CHARACTERISTIC": ["defies conventional explanation", "exhibits remarkable complexity", "transcends disciplinary boundaries", "challenges established models"],
+    "IMPLICATION": ["prompted extensive interdisciplinary research", "necessitated paradigmatic reassessment", "stimulated theoretical innovation", "generated sustained scholarly debate"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "obscure"
+      }
+    }
+  }
+}

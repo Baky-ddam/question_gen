@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_COMMUNICATION_B1_TYPE1_GROUPA",
+  "focus": "suffix_able_formation",
+  "level": "B1",
+  "domain": "communication",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The instructions were clear and ____ for everyone.",
+  "example": "The instructions were clear and understandable for everyone.",
+  "explanation": "The suffix '-able' transforms verbs into adjectives meaning 'can be done'. 'Understand' becomes 'understandable'.",
+  "chunks": {
+    "NOUN": ["everyone", "all participants", "the audience", "the readers"],
+    "VERB": {
+      "understandable": {
+        "correct_forms": ["understandable"],
+        "wrong_forms": ["understand", "understanding", "understood"],
+        "objects": [],
+        "distractor": "confusing"
+      },
+      "readable": {
+        "correct_forms": ["readable"],
+        "wrong_forms": ["read", "reading", "reader"],
+        "objects": [],
+        "distractor": "illegible"
+      },
+      "enjoyable": {
+        "correct_forms": ["enjoyable"],
+        "wrong_forms": ["enjoy", "enjoying", "enjoyed"],
+        "objects": [],
+        "distractor": "boring"
+      },
+      "believable": {
+        "correct_forms": ["believable"],
+        "wrong_forms": ["believe", "believing", "believed"],
+        "objects": [],
+        "distractor": "incredible"
+      }
+    }
+  }
+}

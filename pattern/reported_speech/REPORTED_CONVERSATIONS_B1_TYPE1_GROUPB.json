@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_CONVERSATIONS_B1_TYPE1_GROUPB",
+  "focus": "reported_speech_present_to_past_singular",
+  "level": "B1",
+  "domain": "conversations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "{REPORTER} said that {SUBJ} ____ {COMPLEMENT}.",
+  "example": "He said that she was feeling much better.",
+  "explanation": "In reported speech, present tense 'is' shifts to past tense 'was'. 'She is feeling better' becomes 'she was feeling better'.",
+  "chunks": {
+    "REPORTER": ["He", "She", "My mother", "The doctor"],
+    "SUBJ": ["she", "he", "the patient", "the baby"],
+    "COMPLEMENT": ["feeling much better", "very busy at work", "happy with the result", "worried about the exam"],
+    "VERB": {
+      "was": {
+        "correct_forms": ["was"],
+        "wrong_forms": ["is", "has been", "will be"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had been": {
+        "correct_forms": ["had been"],
+        "wrong_forms": ["has been", "was", "is"],
+        "objects": [],
+        "distractor": "ignore"
+      }
+    }
+  }
+}

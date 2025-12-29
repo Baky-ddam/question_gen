@@ -1,0 +1,44 @@
+{
+  "pattern_id": "GERUND_ENVIRONMENT_B2_TYPE1_GROUPB",
+  "focus": "gerund_required",
+  "level": "B2",
+  "domain": "environment",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ despite {CHALLENGE}.",
+  "example": "The government keeps promoting renewable energy despite industry resistance.",
+  "explanation": "Some verbs require gerunds (verb + -ing). Environmental verbs with gerunds: keep, consider, suggest, avoid, recommend, involve.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the government", "the organization", "the company"],
+    "MAINVERB": ["keeps", "considers", "suggests", "avoids", "recommends"],
+    "VERB": {
+      "promote": {
+        "correct_forms": ["promoting"],
+        "wrong_forms": ["to promote", "promote", "promotes"],
+        "objects": ["renewable energy", "sustainable practices", "conservation efforts", "green initiatives"],
+        "distractor": "opposing"
+      },
+      "reduce": {
+        "correct_forms": ["reducing"],
+        "wrong_forms": ["to reduce", "reduce", "reduces"],
+        "objects": ["carbon emissions", "waste production", "energy consumption", "pollution levels"],
+        "distractor": "increasing"
+      },
+      "implement": {
+        "correct_forms": ["implementing"],
+        "wrong_forms": ["to implement", "implement", "implements"],
+        "objects": ["environmental policies", "recycling programs", "conservation measures", "sustainability standards"],
+        "distractor": "abandoning"
+      },
+      "fund": {
+        "correct_forms": ["funding"],
+        "wrong_forms": ["to fund", "fund", "funds"],
+        "objects": ["climate research", "clean energy projects", "environmental programs", "conservation initiatives"],
+        "distractor": "cutting"
+      }
+    },
+    "CHALLENGE": ["industry resistance", "budget constraints", "political opposition", "economic pressures", "logistical difficulties"]
+  }
+}

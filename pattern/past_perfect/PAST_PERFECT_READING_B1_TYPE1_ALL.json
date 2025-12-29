@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_READING_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "reading",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "I had read the entire book before the movie came out.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the reader", "the student"],
+    "PAST_EVENT": ["the movie came out", "the discussion began", "the class started", "the book club met", "the exam day"],
+    "VERB": {
+      "read": {
+        "correct_forms": ["had read"],
+        "wrong_forms": ["have read", "read", "was reading"],
+        "objects": ["the entire book", "all the chapters", "the novel", "the article"],
+        "distractor": "skip"
+      },
+      "finish": {
+        "correct_forms": ["had finished"],
+        "wrong_forms": ["has finished", "finished", "was finishing"],
+        "objects": ["the story", "reading it", "the series", "the whole thing"],
+        "distractor": "abandon"
+      },
+      "understand": {
+        "correct_forms": ["had understood"],
+        "wrong_forms": ["have understood", "understood", "was understanding"],
+        "objects": ["the plot", "the main ideas", "the message", "everything"],
+        "distractor": "misread"
+      },
+      "learn": {
+        "correct_forms": ["had learned"],
+        "wrong_forms": ["has learned", "learned", "was learning"],
+        "objects": ["the vocabulary", "new concepts", "a lot", "the material"],
+        "distractor": "forget"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_EXERCISE_B1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B1",
+  "domain": "exercise",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before {PAST_EVENT}.",
+  "example": "She had warmed up before the training session began.",
+  "explanation": "Use 'had' + past participle with all subjects to talk about an action completed before another past event.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they", "the athlete", "the team"],
+    "PAST_EVENT": ["the game started", "the race began", "training ended", "the coach arrived", "the competition started"],
+    "VERB": {
+      "warm": {
+        "correct_forms": ["had warmed"],
+        "wrong_forms": ["have warmed", "warmed", "was warming"],
+        "objects": ["up properly", "up thoroughly", "up for an hour", "up their muscles"],
+        "distractor": "skip"
+      },
+      "stretch": {
+        "correct_forms": ["had stretched"],
+        "wrong_forms": ["has stretched", "stretched", "was stretching"],
+        "objects": ["for ten minutes", "their legs", "properly", "all muscles"],
+        "distractor": "neglect"
+      },
+      "run": {
+        "correct_forms": ["had run"],
+        "wrong_forms": ["have run", "ran", "was running"],
+        "objects": ["five kilometers", "around the track", "for an hour", "the distance"],
+        "distractor": "quit"
+      },
+      "train": {
+        "correct_forms": ["had trained"],
+        "wrong_forms": ["has trained", "trained", "was training"],
+        "objects": ["for months", "every day", "very hard", "intensively"],
+        "distractor": "stop"
+      }
+    }
+  }
+}

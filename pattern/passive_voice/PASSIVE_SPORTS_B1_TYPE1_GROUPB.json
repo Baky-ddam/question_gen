@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_SPORTS_B1_TYPE1_GROUPB",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The trophy was presented by the president of the federation.",
+  "explanation": "Use 'was' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the trophy", "the medal", "the record", "the title", "the prize", "the award"],
+    "AGENT": ["the president of the federation", "the coach", "a famous athlete", "the organizing committee", "the sponsors", "the judges"],
+    "VERB": {
+      "present": {
+        "correct_forms": ["was presented"],
+        "wrong_forms": ["were presented", "is presented", "has been presented"],
+        "objects": [],
+        "distractor": "withdrawn"
+      },
+      "break": {
+        "correct_forms": ["was broken"],
+        "wrong_forms": ["were broken", "is broken", "has been broken"],
+        "objects": [],
+        "distractor": "ignored"
+      },
+      "award": {
+        "correct_forms": ["was awarded"],
+        "wrong_forms": ["were awarded", "is awarded", "has been awarded"],
+        "objects": [],
+        "distractor": "denied"
+      },
+      "announce": {
+        "correct_forms": ["was announced"],
+        "wrong_forms": ["were announced", "is announced", "has been announced"],
+        "objects": [],
+        "distractor": "hidden"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_BUSINESS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "By the time the market opened, they had already secured the funding.",
+  "explanation": "Use 'had' + past participle to show an action was completed before another past event. 'By the time' emphasizes sequence.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the company", "the investors", "the executives", "the team"],
+    "PAST_EVENT": ["the market opened", "the CEO arrived", "the quarter ended", "the announcement came", "the deal closed"],
+    "VERB": {
+      "secure": {
+        "correct_forms": ["had secured"],
+        "wrong_forms": ["have secured", "secured", "was securing"],
+        "objects": ["the funding", "major investments", "the contract", "enough capital"],
+        "distractor": "forfeit"
+      },
+      "finalize": {
+        "correct_forms": ["had finalized"],
+        "wrong_forms": ["has finalized", "finalized", "was finalizing"],
+        "objects": ["the agreement", "the merger terms", "the partnership", "all negotiations"],
+        "distractor": "abandon"
+      },
+      "expand": {
+        "correct_forms": ["had expanded"],
+        "wrong_forms": ["have expanded", "expanded", "was expanding"],
+        "objects": ["into new markets", "the product line", "operations globally", "their reach"],
+        "distractor": "contract"
+      },
+      "acquire": {
+        "correct_forms": ["had acquired"],
+        "wrong_forms": ["has acquired", "acquired", "was acquiring"],
+        "objects": ["three startups", "the competitor", "valuable assets", "new technology"],
+        "distractor": "divest"
+      }
+    }
+  }
+}

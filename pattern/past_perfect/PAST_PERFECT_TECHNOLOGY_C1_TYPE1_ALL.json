@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_TECHNOLOGY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "technology",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "{SUBJ} ____ never {OBJ} until {PAST_EVENT}.",
+  "example": "The industry had never achieved such computational power until quantum computing emerged.",
+  "explanation": "Use 'had never' + past participle to emphasize that something happened for the first time before a specific past event.",
+  "chunks": {
+    "SUBJ": ["the industry", "engineers", "developers", "tech companies", "innovators", "the sector"],
+    "PAST_EVENT": ["quantum computing emerged", "the breakthrough was announced", "the new platform launched", "AI capabilities advanced", "the technology matured"],
+    "VERB": {
+      "achieve": {
+        "correct_forms": ["had achieved"],
+        "wrong_forms": ["have achieved", "achieved", "were achieving"],
+        "objects": ["such computational power", "this level of efficiency", "processing speeds like this", "such integration"],
+        "distractor": "abandon"
+      },
+      "envision": {
+        "correct_forms": ["had envisioned"],
+        "wrong_forms": ["has envisioned", "envisioned", "was envisioning"],
+        "objects": ["such possibilities", "applications of this scale", "this degree of automation", "such widespread adoption"],
+        "distractor": "dismiss"
+      },
+      "overcome": {
+        "correct_forms": ["had overcome"],
+        "wrong_forms": ["have overcome", "overcame", "were overcoming"],
+        "objects": ["these limitations", "such fundamental barriers", "challenges of this magnitude", "the technical obstacles"],
+        "distractor": "encounter"
+      },
+      "pioneer": {
+        "correct_forms": ["had pioneered"],
+        "wrong_forms": ["has pioneered", "pioneered", "was pioneering"],
+        "objects": ["solutions of this kind", "such innovative approaches", "technology at this scale", "methods like these"],
+        "distractor": "copy"
+      }
+    }
+  }
+}

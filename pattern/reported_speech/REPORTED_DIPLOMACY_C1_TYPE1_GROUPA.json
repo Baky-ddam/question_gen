@@ -1,0 +1,33 @@
+{
+  "pattern_id": "REPORTED_DIPLOMACY_C1_TYPE1_GROUPA",
+  "focus": "reported_speech_asserted_contended",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {OFFICIAL} {REPORTING_VERB} that the nations ____ {DIPLOMATIC_ACTION}, a claim that {IMPLICATION}.",
+  "example": "The ambassador asserted that the nations had reached a consensus, a claim that surprised many observers.",
+  "explanation": "Sophisticated reporting verbs like 'asserted' and 'contended' add nuance. Past tense shifts to past perfect.",
+  "chunks": {
+    "OFFICIAL": ["ambassador", "delegate", "envoy", "representative"],
+    "REPORTING_VERB": ["asserted", "contended", "maintained", "emphasized"],
+    "DIPLOMATIC_ACTION": ["reached a consensus", "achieved a breakthrough", "resolved their differences", "established new protocols"],
+    "IMPLICATION": ["surprised many observers", "signaled a shift in relations", "marked a historic moment", "contradicted earlier reports"],
+    "VERB": {
+      "had reached": {
+        "correct_forms": ["had reached"],
+        "wrong_forms": ["reached", "have reached", "would reach"],
+        "objects": [],
+        "distractor": "repudiate"
+      },
+      "had achieved": {
+        "correct_forms": ["had achieved"],
+        "wrong_forms": ["achieved", "have achieved", "were achieving"],
+        "objects": [],
+        "distractor": "disavow"
+      }
+    }
+  }
+}

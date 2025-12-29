@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FAMILY_B1_TYPE2_GROUPA",
+  "focus": "reported_speech_replied",
+  "level": "B1",
+  "domain": "family",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FAMILY_MEMBER} replied that {SUBJ} ____ {RESPONSE}.",
+  "example": "My father replied that they had already made plans.",
+  "explanation": "The reporting verb 'replied' introduces reported speech. 'Have made' becomes 'had made'.",
+  "chunks": {
+    "FAMILY_MEMBER": ["My father", "My mother", "My parents", "Grandpa"],
+    "SUBJ": ["they", "we", "the family", "everyone"],
+    "RESPONSE": ["already made plans", "decided to stay home", "booked the tickets", "finished the preparations"],
+    "VERB": {
+      "had already made": {
+        "correct_forms": ["had already made"],
+        "wrong_forms": ["have already made", "already made", "were making"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had decided": {
+        "correct_forms": ["had decided"],
+        "wrong_forms": ["decided", "have decided", "were deciding"],
+        "objects": [],
+        "distractor": "refuse"
+      }
+    }
+  }
+}

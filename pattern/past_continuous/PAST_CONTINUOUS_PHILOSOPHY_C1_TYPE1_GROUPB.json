@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_PHILOSOPHY_C1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "philosophy",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "implication_clause", "broader_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a situation that {BROADER_IMPLICATION}.",
+  "example": "The philosopher was formulating a comprehensive theory of consciousness at the research institute, a situation that challenged prevailing assumptions about the nature of subjective experience.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for past ongoing actions with broader implications.",
+  "chunks": {
+    "SUBJ": ["I", "the philosopher", "the ethicist", "the metaphysician"],
+    "PLACE": [
+      "at the research institute",
+      "within the academic symposium",
+      "at the distinguished philosophy department",
+      "during the international colloquium"
+    ],
+    "BROADER_IMPLICATION": [
+      "challenged prevailing assumptions about the nature of subjective experience",
+      "necessitated a fundamental reconsideration of established theoretical paradigms",
+      "prompted unprecedented dialogue between divergent schools of thought",
+      "ultimately transformed the intellectual landscape of contemporary discourse"
+    ],
+    "VERB": {
+      "formulate": {
+        "correct_forms": ["was formulating"],
+        "wrong_forms": ["were formulating", "formulated", "is formulating"],
+        "objects": ["a comprehensive theory of consciousness", "an innovative framework for ethical deliberation", "a rigorous methodology for phenomenological analysis", "a novel approach to the mind-body problem"],
+        "distractor": "nullify"
+      },
+      "articulate": {
+        "correct_forms": ["was articulating"],
+        "wrong_forms": ["were articulating", "articulated", "is articulating"],
+        "objects": ["the subtle distinctions between perception and cognition", "the intricate relationship between language and thought", "the fundamental principles of deontological ethics", "the nuanced implications of moral realism"],
+        "distractor": "abrogate"
+      },
+      "elucidate": {
+        "correct_forms": ["was elucidating"],
+        "wrong_forms": ["were elucidating", "elucidated", "is elucidating"],
+        "objects": ["the complex interplay between free will and determinism", "the profound tensions within utilitarian moral theory", "the epistemological challenges facing contemporary naturalism", "the hermeneutical dimensions of textual interpretation"],
+        "distractor": "rescind"
+      },
+      "propound": {
+        "correct_forms": ["was propounding"],
+        "wrong_forms": ["were propounding", "propounded", "is propounding"],
+        "objects": ["a revolutionary thesis on the nature of existence", "an unprecedented synthesis of Continental and analytical traditions", "a systematic critique of representationalist theories of mind", "a sophisticated defense of moral cognitivism"],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

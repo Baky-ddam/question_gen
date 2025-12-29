@@ -1,0 +1,44 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_APPOINTMENTS_A2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A2",
+  "domain": "appointments",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME} {PLACE}.",
+  "example": "I will see the doctor tomorrow at the clinic.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. At A2 level, we add place details to predictions about appointments.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "see": {
+        "correct_forms": ["will see"],
+        "wrong_forms": ["sees", "is going to see", "would see"],
+        "objects": ["the doctor", "the dentist", "the manager"],
+        "distractor": "cancel"
+      },
+      "meet": {
+        "correct_forms": ["will meet"],
+        "wrong_forms": ["meets", "is going to meet", "would meet"],
+        "objects": ["the teacher", "the boss", "the client"],
+        "distractor": "avoid"
+      },
+      "have": {
+        "correct_forms": ["will have"],
+        "wrong_forms": ["has", "is going to have", "would have"],
+        "objects": ["an appointment", "a meeting", "an interview"],
+        "distractor": "skip"
+      },
+      "visit": {
+        "correct_forms": ["will visit"],
+        "wrong_forms": ["visits", "is going to visit", "would visit"],
+        "objects": ["the hospital", "the office", "the bank"],
+        "distractor": "refuse"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next Monday", "next week", "in two days"],
+    "PLACE": ["at the clinic", "at the office", "downtown", "at 10 am"]
+  }
+}

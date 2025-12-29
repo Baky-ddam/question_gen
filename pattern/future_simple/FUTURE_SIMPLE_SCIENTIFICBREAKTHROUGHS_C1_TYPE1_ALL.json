@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_SCIENTIFICBREAKTHROUGHS_C1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "C1",
+  "domain": "scientific_breakthroughs",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "Researchers anticipate that {SUBJ} ____ {OBJ} as {TREND}.",
+  "example": "Researchers anticipate that gene therapy advances will enable personalized medicine as genomic research accelerates.",
+  "explanation": "Future simple uses 'will + base verb' in sophisticated C1 predictions about scientific breakthroughs.",
+  "chunks": {
+    "SUBJ": ["gene therapy advances", "quantum discoveries", "neuroscience research", "materials science", "pharmaceutical innovations", "space exploration"],
+    "VERB": {
+      "enable": {
+        "correct_forms": ["will enable"],
+        "wrong_forms": ["enables", "is going to enable", "would enable"],
+        "objects": ["personalized medicine", "unprecedented capabilities", "transformative applications"],
+        "distractor": "forsake"
+      },
+      "unlock": {
+        "correct_forms": ["will unlock"],
+        "wrong_forms": ["unlocks", "is going to unlock", "would unlock"],
+        "objects": ["new possibilities", "fundamental mysteries", "revolutionary treatments"],
+        "distractor": "obliterate"
+      },
+      "transform": {
+        "correct_forms": ["will transform"],
+        "wrong_forms": ["transforms", "is going to transform", "would transform"],
+        "objects": ["medical practice", "our understanding", "technological capabilities"],
+        "distractor": "renounce"
+      },
+      "revolutionize": {
+        "correct_forms": ["will revolutionize"],
+        "wrong_forms": ["revolutionizes", "is going to revolutionize", "would revolutionize"],
+        "objects": ["disease treatment", "scientific methodology", "human capabilities"],
+        "distractor": "repudiate"
+      }
+    },
+    "TREND": ["genomic research accelerates", "computational power increases", "funding priorities shift", "collaborative networks expand", "analytical techniques advance", "interdisciplinary approaches emerge"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ART_B2_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_size_age_art",
+  "level": "B2",
+  "domain": "art",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "The collector acquired a ____ {NOUN}.",
+  "example": "The collector acquired a magnificent large Renaissance painting.",
+  "explanation": "Opinion-Size-Age order. 'Magnificent large Renaissance' follows the correct sequence.",
+  "chunks": {
+    "NOUN": ["painting", "sculpture", "tapestry", "fresco"],
+    "VERB": {
+      "magnificent large Renaissance": {
+        "correct_forms": ["magnificent large Renaissance"],
+        "wrong_forms": ["large magnificent Renaissance", "Renaissance large magnificent", "Renaissance magnificent large"],
+        "objects": [],
+        "distractor": "mediocre"
+      },
+      "breathtaking enormous Baroque": {
+        "correct_forms": ["breathtaking enormous Baroque"],
+        "wrong_forms": ["enormous breathtaking Baroque", "Baroque enormous breathtaking", "Baroque breathtaking enormous"],
+        "objects": [],
+        "distractor": "uninspiring"
+      },
+      "exquisite small Medieval": {
+        "correct_forms": ["exquisite small Medieval"],
+        "wrong_forms": ["small exquisite Medieval", "Medieval small exquisite", "Medieval exquisite small"],
+        "objects": [],
+        "distractor": "crude"
+      }
+    }
+  }
+}

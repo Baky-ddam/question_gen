@@ -1,0 +1,99 @@
+{
+  "pattern_id": "PRESENT_PERFECT_SPORTS_A2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A2",
+  "domain": "sports",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} {EXPERIENCE_MARKER}.",
+  "example": "They have played tennis many times.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about sports experiences.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they"
+    ],
+    "EXPERIENCE_MARKER": [
+      "before",
+      "many times",
+      "several times",
+      "never"
+    ],
+    "VERB": {
+      "play": {
+        "correct_forms": [
+          "have played"
+        ],
+        "wrong_forms": [
+          "has played",
+          "had played",
+          "played"
+        ],
+        "objects": [
+          "tennis",
+          "basketball",
+          "football",
+          "volleyball"
+        ],
+        "distractor": "quit"
+      },
+      "win": {
+        "correct_forms": [
+          "have won"
+        ],
+        "wrong_forms": [
+          "has won",
+          "had won",
+          "won"
+        ],
+        "objects": [
+          "a match",
+          "a tournament",
+          "a competition",
+          "the game"
+        ],
+        "distractor": "waste"
+      },
+      "practice": {
+        "correct_forms": [
+          "have practiced"
+        ],
+        "wrong_forms": [
+          "has practiced",
+          "had practiced",
+          "practiced"
+        ],
+        "objects": [
+          "swimming",
+          "running",
+          "cycling",
+          "martial arts"
+        ],
+        "distractor": "abandon"
+      },
+      "join": {
+        "correct_forms": [
+          "have joined"
+        ],
+        "wrong_forms": [
+          "has joined",
+          "had joined",
+          "joined"
+        ],
+        "objects": [
+          "a sports club",
+          "a gym",
+          "a team",
+          "a fitness class"
+        ],
+        "distractor": "reject"
+      }
+    }
+  }
+}

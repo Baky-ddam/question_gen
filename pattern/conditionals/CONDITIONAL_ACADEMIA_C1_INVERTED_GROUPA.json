@@ -1,0 +1,25 @@
+{
+  "pattern_id": "CONDITIONAL_ACADEMIA_C1_INVERTED_GROUPA",
+  "focus": "conditional_inverted_academic",
+  "level": "C1",
+  "domain": "academia",
+  "category": "grammar",
+  "template_type": "inverted",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "____ the researchers {PAST_ACTION}, the implications would have {PAST_RESULT}.",
+  "example": "Had the researchers controlled for all variables, the implications would have been more definitive.",
+  "explanation": "Inverted conditional in academic writing. 'Had the researchers controlled' = 'If the researchers had controlled'.",
+  "chunks": {
+    "PAST_ACTION": ["controlled for all variables", "used a larger sample", "extended the study period", "validated the instruments"],
+    "PAST_RESULT": ["been more definitive", "been more compelling", "been widely cited", "supported stronger conclusions"],
+    "VERB": {
+      "Had": {
+        "correct_forms": ["Had"],
+        "wrong_forms": ["If", "Have", "Having"],
+        "objects": [],
+        "distractor": "compromise"
+      }
+    }
+  }
+}

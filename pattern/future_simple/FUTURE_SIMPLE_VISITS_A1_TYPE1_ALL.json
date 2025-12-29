@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_VISITS_A1_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "A1",
+  "domain": "visits",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "{SUBJ} ____ {OBJ} {FUTURE_TIME}.",
+  "example": "I will visit my grandma next week.",
+  "explanation": "Future simple uses 'will + base verb' for all subjects. Use it for plans about visiting people and places.",
+  "chunks": {
+    "SUBJ": ["I", "you", "he", "she", "we", "they"],
+    "VERB": {
+      "visit": {
+        "correct_forms": ["will visit"],
+        "wrong_forms": ["visits", "is going to visit", "would visit"],
+        "objects": ["my grandma", "my uncle", "my friend"],
+        "distractor": "avoid"
+      },
+      "see": {
+        "correct_forms": ["will see"],
+        "wrong_forms": ["sees", "is going to see", "would see"],
+        "objects": ["my family", "my cousin", "my neighbors"],
+        "distractor": "ignore"
+      },
+      "call": {
+        "correct_forms": ["will call"],
+        "wrong_forms": ["calls", "is going to call", "would call"],
+        "objects": ["my mom", "my dad", "my sister"],
+        "distractor": "forget"
+      },
+      "meet": {
+        "correct_forms": ["will meet"],
+        "wrong_forms": ["meets", "is going to meet", "would meet"],
+        "objects": ["friends", "my teacher", "the doctor"],
+        "distractor": "avoid"
+      }
+    },
+    "FUTURE_TIME": ["tomorrow", "next week", "next month", "soon"]
+  }
+}

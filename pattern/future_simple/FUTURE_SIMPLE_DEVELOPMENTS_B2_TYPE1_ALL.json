@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_DEVELOPMENTS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "developments",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "By {FUTURE_TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "By 2030, scientists will develop new treatments for common diseases.",
+  "explanation": "Future simple with 'By + time' for development predictions. Use 'will + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["Scientists", "Researchers", "Engineers", "Medical teams", "Experts", "Developers"],
+    "VERB": {
+      "develop": {
+        "correct_forms": ["will develop"],
+        "wrong_forms": ["develops", "is going to develop", "would develop"],
+        "objects": ["new treatments", "advanced solutions", "breakthrough technologies"],
+        "distractor": "obstruct"
+      },
+      "create": {
+        "correct_forms": ["will create"],
+        "wrong_forms": ["creates", "is going to create", "would create"],
+        "objects": ["new possibilities", "innovative products", "effective methods"],
+        "distractor": "hinder"
+      },
+      "discover": {
+        "correct_forms": ["will discover"],
+        "wrong_forms": ["discovers", "is going to discover", "would discover"],
+        "objects": ["new cures", "novel approaches", "important findings"],
+        "distractor": "overlook"
+      },
+      "achieve": {
+        "correct_forms": ["will achieve"],
+        "wrong_forms": ["achieves", "is going to achieve", "would achieve"],
+        "objects": ["major breakthroughs", "significant progress", "remarkable results"],
+        "distractor": "impede"
+      }
+    },
+    "FUTURE_TIME": ["2030", "the next decade", "2035", "five years", "2028", "the coming years"]
+  }
+}

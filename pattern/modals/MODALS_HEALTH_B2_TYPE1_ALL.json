@@ -1,0 +1,103 @@
+{
+  "pattern_id": "MODALS_HEALTH_B2_TYPE1_ALL",
+  "focus": "modal_might",
+  "level": "B2",
+  "domain": "health",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [
+    "modal_might"
+  ],
+  "template": "{SUBJ} ____ {OBJ} because {REASON}.",
+  "example": "The patient's condition might improve because the new treatment shows promise.",
+  "explanation": "Use 'might' + base verb with all subjects to express possibility about health outcomes. The 'because' clause provides the reason for the possibility.",
+  "chunks": {
+    "SUBJ": [
+      "the patient's condition",
+      "the recovery timeline",
+      "the treatment effectiveness",
+      "the symptoms",
+      "the prognosis",
+      "the health outcomes"
+    ],
+    "REASON": [
+      "the new treatment shows promise",
+      "early intervention was initiated",
+      "lifestyle modifications were implemented",
+      "advanced therapies are now available",
+      "diagnostic accuracy has improved",
+      "personalized medicine approaches are being used"
+    ],
+    "VERB": {
+      "improve": {
+        "correct_forms": [
+          "might improve"
+        ],
+        "wrong_forms": [
+          "will improve",
+          "can improve",
+          "should improve"
+        ],
+        "objects": [
+          "significantly over time",
+          "with proper intervention",
+          "beyond initial expectations",
+          "through comprehensive care"
+        ],
+        "distractor": "circumvent"
+      },
+      "worsen": {
+        "correct_forms": [
+          "might worsen"
+        ],
+        "wrong_forms": [
+          "will worsen",
+          "can worsen",
+          "should worsen"
+        ],
+        "objects": [
+          "without appropriate treatment",
+          "if complications develop",
+          "due to underlying factors",
+          "amid delayed diagnosis"
+        ],
+        "distractor": "obstruct"
+      },
+      "stabilize": {
+        "correct_forms": [
+          "might stabilize"
+        ],
+        "wrong_forms": [
+          "will stabilize",
+          "can stabilize",
+          "should stabilize"
+        ],
+        "objects": [
+          "with continued monitoring",
+          "after the acute phase",
+          "through medication adjustments",
+          "following specialist consultation"
+        ],
+        "distractor": "impede"
+      },
+      "fluctuate": {
+        "correct_forms": [
+          "might fluctuate"
+        ],
+        "wrong_forms": [
+          "will fluctuate",
+          "can fluctuate",
+          "should fluctuate"
+        ],
+        "objects": [
+          "during the treatment period",
+          "based on various factors",
+          "throughout the recovery process",
+          "depending on patient response"
+        ],
+        "distractor": "hinder"
+      }
+    }
+  }
+}

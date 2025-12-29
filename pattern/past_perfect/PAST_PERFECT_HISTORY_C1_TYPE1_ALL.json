@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_HISTORY_C1_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "C1",
+  "domain": "history",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "If {SUBJ} ____ {OBJ}, {RESULT_CLAUSE}.",
+  "example": "If the emperor had consolidated power earlier, the empire might not have fragmented.",
+  "explanation": "Use 'had' + past participle in third conditional sentences to express hypothetical situations in the past that didn't happen.",
+  "chunks": {
+    "SUBJ": ["the emperor", "the ruling dynasty", "military leaders", "the reformers", "colonial powers", "the revolutionaries"],
+    "RESULT_CLAUSE": ["the empire might not have fragmented", "the course of history would have been different", "subsequent events might not have occurred", "the outcome could have been altered", "the trajectory would have changed"],
+    "VERB": {
+      "consolidate": {
+        "correct_forms": ["had consolidated"],
+        "wrong_forms": ["have consolidated", "consolidated", "were consolidating"],
+        "objects": ["power earlier", "territorial gains", "their authority", "political control"],
+        "distractor": "relinquish"
+      },
+      "forge": {
+        "correct_forms": ["had forged"],
+        "wrong_forms": ["has forged", "forged", "was forging"],
+        "objects": ["strategic alliances", "lasting agreements", "stronger coalitions", "diplomatic ties"],
+        "distractor": "sever"
+      },
+      "suppress": {
+        "correct_forms": ["had suppressed"],
+        "wrong_forms": ["have suppressed", "suppressed", "were suppressing"],
+        "objects": ["the rebellion earlier", "internal dissent", "the uprising", "opposition forces"],
+        "distractor": "encourage"
+      },
+      "preserve": {
+        "correct_forms": ["had preserved"],
+        "wrong_forms": ["has preserved", "preserved", "was preserving"],
+        "objects": ["institutional stability", "the social order", "cultural traditions", "political unity"],
+        "distractor": "destroy"
+      }
+    }
+  }
+}

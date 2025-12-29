@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_NEGOTIATIONS_B2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "B2",
+  "domain": "negotiations",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN}, which {CONSEQUENCE}.",
+  "example": "The negotiator turns down the offer, which allows for better terms.",
+  "explanation": "These phrasal verbs are used in negotiation and deal-making contexts. They describe accepting, rejecting, or modifying proposals.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the negotiator", "the representative"],
+    "CONSEQUENCE": ["allows for better terms", "strengthens the position", "signals commitment", "opens new possibilities", "demonstrates flexibility"],
+    "VERB": {
+      "turn down": {
+        "correct_forms": ["turns down"],
+        "wrong_forms": ["turns on", "turns off", "turns up"],
+        "objects": ["offer", "proposal", "deal", "request"],
+        "distractor": "accepts"
+      },
+      "bring up": {
+        "correct_forms": ["brings up"],
+        "wrong_forms": ["brings on", "brings off", "brings in"],
+        "objects": ["issue", "concern", "point", "topic"],
+        "distractor": "suppresses"
+      },
+      "work out": {
+        "correct_forms": ["works out"],
+        "wrong_forms": ["works on", "works off", "works in"],
+        "objects": ["agreement", "compromise", "solution", "terms"],
+        "distractor": "abandons"
+      },
+      "draw up": {
+        "correct_forms": ["draws up"],
+        "wrong_forms": ["draws on", "draws off", "draws in"],
+        "objects": ["contract", "agreement", "proposal", "document"],
+        "distractor": "destroys"
+      }
+    }
+  }
+}

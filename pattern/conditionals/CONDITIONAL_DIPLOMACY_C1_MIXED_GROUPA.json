@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_DIPLOMACY_C1_MIXED_GROUPA",
+  "focus": "conditional_mixed_diplomatic",
+  "level": "C1",
+  "domain": "diplomacy",
+  "category": "grammar",
+  "template_type": "mixed",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If the nations ____ {PAST_DIPLOMATIC_ACTION}, relations would {PRESENT_STATE} now.",
+  "example": "If the nations had signed the treaty earlier, relations would be much warmer now.",
+  "explanation": "Mixed conditional in diplomatic context: past condition affects present state. 'Had signed' (past) + 'would be' (present).",
+  "chunks": {
+    "PAST_DIPLOMATIC_ACTION": ["signed the treaty earlier", "established dialogue sooner", "resolved their disputes", "built trust gradually"],
+    "PRESENT_STATE": ["be much warmer", "be more stable", "be flourishing", "be significantly improved"],
+    "VERB": {
+      "had signed": {
+        "correct_forms": ["had signed"],
+        "wrong_forms": ["signed", "have signed", "would sign"],
+        "objects": [],
+        "distractor": "violate"
+      },
+      "had established": {
+        "correct_forms": ["had established"],
+        "wrong_forms": ["established", "have established", "would establish"],
+        "objects": [],
+        "distractor": "sever"
+      }
+    }
+  }
+}

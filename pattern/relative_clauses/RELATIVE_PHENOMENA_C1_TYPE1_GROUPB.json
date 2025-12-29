@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_PHENOMENA_C1_TYPE1_GROUPB",
+  "focus": "relative_clause_that_phenomenon",
+  "level": "C1",
+  "domain": "phenomena",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {PHENOMENON} ____ researchers have documented exemplifies {PRINCIPLE}.",
+  "example": "The trend that researchers have documented exemplifies the broader transformation of contemporary society.",
+  "explanation": "We use 'that' for defining relative clauses in academic discourse. The clause specifies which particular phenomenon we are discussing.",
+  "chunks": {
+    "PHENOMENON": ["trend", "dynamic", "trajectory", "development"],
+    "PRINCIPLE": ["the broader transformation of contemporary society", "underlying systemic interconnections", "emergent properties of complex systems", "fundamental principles of social organization"],
+    "VERB": {
+      "that": {
+        "correct_forms": ["that"],
+        "wrong_forms": ["who", "whom", "where"],
+        "objects": [],
+        "distractor": "misrepresent"
+      }
+    }
+  }
+}

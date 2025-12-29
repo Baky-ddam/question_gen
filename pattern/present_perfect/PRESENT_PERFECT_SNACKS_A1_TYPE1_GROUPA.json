@@ -1,0 +1,42 @@
+{
+  "pattern_id": "PRESENT_PERFECT_SNACKS_A1_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "A1",
+  "domain": "snacks",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_perfect"],
+  "template": "{SUBJ} ____ {OBJ} before.",
+  "example": "I have eaten pizza before.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to talk about food experiences.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they", "my friends", "the children"],
+    "VERB": {
+      "eat": {
+        "correct_forms": ["have eaten"],
+        "wrong_forms": ["has eaten", "had eaten", "ate"],
+        "objects": ["pizza", "ice cream", "chocolate", "sushi"],
+        "distractor": "waste"
+      },
+      "try": {
+        "correct_forms": ["have tried"],
+        "wrong_forms": ["has tried", "had tried", "tried"],
+        "objects": ["this cake", "the cookies", "new food", "this snack"],
+        "distractor": "refuse"
+      },
+      "drink": {
+        "correct_forms": ["have drunk"],
+        "wrong_forms": ["has drunk", "had drunk", "drank"],
+        "objects": ["hot chocolate", "lemonade", "milkshake", "juice"],
+        "distractor": "spill"
+      },
+      "make": {
+        "correct_forms": ["have made"],
+        "wrong_forms": ["has made", "had made", "made"],
+        "objects": ["cookies", "a cake", "popcorn", "pancakes"],
+        "distractor": "burn"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_CAREERS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "careers",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "By the time she received the offer, she had already accepted another position.",
+  "explanation": "Use 'had' + past participle to show an action was completed before another past event. 'By the time' emphasizes sequence.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she", "they", "the candidate", "the employee", "the manager"],
+    "PAST_EVENT": ["she received the offer", "the promotion came", "the company restructured", "the interview ended", "the decision was made"],
+    "VERB": {
+      "accept": {
+        "correct_forms": ["had accepted"],
+        "wrong_forms": ["have accepted", "accepted", "was accepting"],
+        "objects": ["another position", "a better offer", "the new role", "the promotion"],
+        "distractor": "decline"
+      },
+      "gain": {
+        "correct_forms": ["had gained"],
+        "wrong_forms": ["has gained", "gained", "was gaining"],
+        "objects": ["valuable experience", "necessary skills", "industry recognition", "a strong reputation"],
+        "distractor": "lose"
+      },
+      "establish": {
+        "correct_forms": ["had established"],
+        "wrong_forms": ["have established", "established", "was establishing"],
+        "objects": ["a solid network", "their credibility", "strong relationships", "a track record"],
+        "distractor": "destroy"
+      },
+      "complete": {
+        "correct_forms": ["had completed"],
+        "wrong_forms": ["has completed", "completed", "was completing"],
+        "objects": ["the training program", "all certifications", "the required coursework", "the internship"],
+        "distractor": "abandon"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_NIGHTLIFE_A2_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "A2",
+  "domain": "nightlife",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous"],
+  "template": "{SUBJ} ____ {OBJ} when {INTERRUPTION}.",
+  "example": "He was ordering drinks when the music stopped.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' for actions interrupted by another event in the past.",
+  "chunks": {
+    "SUBJ": ["I", "he", "she"],
+    "INTERRUPTION": [
+      "the music stopped",
+      "the lights came on",
+      "my friends arrived",
+      "the party ended"
+    ],
+    "VERB": {
+      "order": {
+        "correct_forms": ["was ordering"],
+        "wrong_forms": ["were ordering", "ordered", "is ordering"],
+        "objects": ["drinks", "cocktails", "refreshments"],
+        "distractor": "refuse"
+      },
+      "talk": {
+        "correct_forms": ["was talking"],
+        "wrong_forms": ["were talking", "talked", "is talking"],
+        "objects": ["to friends", "to the bartender", "about work"],
+        "distractor": "skip"
+      },
+      "wait": {
+        "correct_forms": ["was waiting"],
+        "wrong_forms": ["were waiting", "waited", "is waiting"],
+        "objects": ["at the bar", "for a taxi", "in line"],
+        "distractor": "abandon"
+      },
+      "watch": {
+        "correct_forms": ["was watching"],
+        "wrong_forms": ["were watching", "watched", "is watching"],
+        "objects": ["the band", "the show", "the fireworks"],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

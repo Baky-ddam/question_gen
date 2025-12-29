@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PHRASAL_BUSINESS_B2_TYPE1_GROUPC",
+  "focus": "phrasal_verb_inseparable",
+  "level": "B2",
+  "domain": "business",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ {NOUN}, which {CONSEQUENCE}.",
+  "example": "We go through the contract, which ensures compliance.",
+  "explanation": "These inseparable business phrasal verbs describe analysis, review, and implementation processes in corporate contexts.",
+  "chunks": {
+    "SUBJ": ["I", "you", "we", "they"],
+    "NOUN": ["the contract", "the proposal", "the budget", "the terms"],
+    "CONSEQUENCE": ["ensures compliance", "reduces risks", "identifies issues", "reveals opportunities", "clarifies expectations"],
+    "VERB": {
+      "go through": {
+        "correct_forms": ["go through"],
+        "wrong_forms": ["go over", "go on", "go into"],
+        "objects": [],
+        "distractor": "overlook"
+      },
+      "look into": {
+        "correct_forms": ["look into"],
+        "wrong_forms": ["look at", "look for", "look on"],
+        "objects": [],
+        "distractor": "disregard"
+      },
+      "run into": {
+        "correct_forms": ["run into"],
+        "wrong_forms": ["run on", "run at", "run off"],
+        "objects": [],
+        "distractor": "avoid"
+      },
+      "come across": {
+        "correct_forms": ["come across"],
+        "wrong_forms": ["come on", "come at", "come into"],
+        "objects": [],
+        "distractor": "miss"
+      }
+    }
+  }
+}

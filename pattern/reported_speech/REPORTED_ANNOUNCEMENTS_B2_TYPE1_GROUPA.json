@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_ANNOUNCEMENTS_B2_TYPE1_GROUPA",
+  "focus": "reported_speech_stated",
+  "level": "B2",
+  "domain": "announcements",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "The {AUTHORITY} stated that {SUBJ} ____ {STATEMENT}.",
+  "example": "The spokesperson stated that the negotiations were progressing well.",
+  "explanation": "The formal verb 'stated' introduces official information. 'Are progressing' becomes 'were progressing'.",
+  "chunks": {
+    "AUTHORITY": ["spokesperson", "representative", "official", "administrator"],
+    "SUBJ": ["the negotiations", "the discussions", "the talks", "the proceedings"],
+    "STATEMENT": ["progressing well", "moving forward", "reaching a critical stage", "entering the final phase"],
+    "VERB": {
+      "were progressing": {
+        "correct_forms": ["were progressing"],
+        "wrong_forms": ["are progressing", "have been progressing", "will be progressing"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "were reaching": {
+        "correct_forms": ["were reaching"],
+        "wrong_forms": ["are reaching", "have been reaching", "will reach"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

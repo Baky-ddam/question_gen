@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_CAREERS_B2_TYPE3_GROUPA",
+  "focus": "conditional_type_3_careers_past",
+  "level": "B2",
+  "domain": "careers",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_a",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ earlier in their careers, {SUBJ} would have {PAST_CAREER_RESULT}.",
+  "example": "If they had specialized earlier in their careers, they would have reached senior positions sooner.",
+  "explanation": "Third conditional for career regrets. 'Had specialized' expresses a past action that didn't happen.",
+  "chunks": {
+    "SUBJ": ["they", "we", "the professionals", "the employees"],
+    "PAST_CAREER_RESULT": ["reached senior positions sooner", "earned more throughout their careers", "built stronger reputations", "achieved greater recognition"],
+    "VERB": {
+      "had specialized": {
+        "correct_forms": ["had specialized"],
+        "wrong_forms": ["specialized", "have specialized", "would specialize"],
+        "objects": [],
+        "distractor": "stagnate"
+      },
+      "had networked": {
+        "correct_forms": ["had networked"],
+        "wrong_forms": ["networked", "have networked", "would network"],
+        "objects": [],
+        "distractor": "isolate"
+      }
+    }
+  }
+}

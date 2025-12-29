@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_WORK_B1_TYPE2_GROUPA",
+  "focus": "prefix_re_formation",
+  "level": "B1",
+  "domain": "work",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The company decided to ____ the entire department.",
+  "example": "The company decided to reorganize the entire department.",
+  "explanation": "The prefix 're-' means 'again' or 'back'. 'Organize' becomes 'reorganize' (organize again).",
+  "chunks": {
+    "NOUN": ["department", "division", "team", "branch"],
+    "VERB": {
+      "reorganize": {
+        "correct_forms": ["reorganize"],
+        "wrong_forms": ["organize", "disorganize", "unorganize"],
+        "objects": [],
+        "distractor": "abandon"
+      },
+      "restructure": {
+        "correct_forms": ["restructure"],
+        "wrong_forms": ["structure", "destructure", "unstructure"],
+        "objects": [],
+        "distractor": "maintain"
+      },
+      "reconsider": {
+        "correct_forms": ["reconsider"],
+        "wrong_forms": ["consider", "disconsider", "unconsider"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "rebuild": {
+        "correct_forms": ["rebuild"],
+        "wrong_forms": ["build", "unbuild", "disbuild"],
+        "objects": [],
+        "distractor": "demolish"
+      }
+    }
+  }
+}

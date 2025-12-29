@@ -1,0 +1,101 @@
+{
+  "pattern_id": "PRESENT_PERFECT_RESEARCH_B2_TYPE1_GROUPA",
+  "focus": "present_perfect",
+  "level": "B2",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": [
+    "present_perfect"
+  ],
+  "template": "{SUBJ} ____ {OBJ} since {SINCE_CLAUSE}.",
+  "example": "We have published groundbreaking findings since the longitudinal study began.",
+  "explanation": "Use 'have' + past participle with 'I/you/we/they' to describe ongoing research activities from a specific past point to the present.",
+  "chunks": {
+    "SUBJ": [
+      "I",
+      "you",
+      "we",
+      "they",
+      "the researchers",
+      "the scientists"
+    ],
+    "SINCE_CLAUSE": [
+      "the initial hypothesis was proposed",
+      "the funding was approved",
+      "the longitudinal study commenced",
+      "the methodology was established"
+    ],
+    "VERB": {
+      "conduct": {
+        "correct_forms": [
+          "have conducted"
+        ],
+        "wrong_forms": [
+          "has conducted",
+          "had conducted",
+          "conducted"
+        ],
+        "objects": [
+          "extensive clinical trials",
+          "peer-reviewed studies",
+          "comprehensive meta-analyses",
+          "rigorous experimental research"
+        ],
+        "distractor": "disregard"
+      },
+      "analyze": {
+        "correct_forms": [
+          "have analyzed"
+        ],
+        "wrong_forms": [
+          "has analyzed",
+          "had analyzed",
+          "analyzed"
+        ],
+        "objects": [
+          "the empirical data systematically",
+          "the statistical correlations",
+          "the qualitative findings",
+          "the research outcomes thoroughly"
+        ],
+        "distractor": "overlook"
+      },
+      "publish": {
+        "correct_forms": [
+          "have published"
+        ],
+        "wrong_forms": [
+          "has published",
+          "had published",
+          "published"
+        ],
+        "objects": [
+          "groundbreaking findings",
+          "peer-reviewed articles",
+          "comprehensive research reports",
+          "significant academic papers"
+        ],
+        "distractor": "suppress"
+      },
+      "validate": {
+        "correct_forms": [
+          "have validated"
+        ],
+        "wrong_forms": [
+          "has validated",
+          "had validated",
+          "validated"
+        ],
+        "objects": [
+          "the theoretical framework",
+          "the experimental methodology",
+          "the research instruments",
+          "the preliminary conclusions"
+        ],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

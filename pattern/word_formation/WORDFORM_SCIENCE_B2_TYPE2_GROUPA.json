@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_SCIENCE_B2_TYPE2_GROUPA",
+  "focus": "prefix_counter_formation",
+  "level": "B2",
+  "domain": "science",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The new findings ____ the previous assumptions.",
+  "example": "The new findings contradict the previous assumptions.",
+  "explanation": "The prefix 'contra-/counter-' means 'against' or 'opposite'. Forms verbs indicating opposition.",
+  "chunks": {
+    "NOUN": ["assumptions", "claims", "beliefs", "theories"],
+    "VERB": {
+      "contradict": {
+        "correct_forms": ["contradict"],
+        "wrong_forms": ["dict", "predict", "counterdict"],
+        "objects": [],
+        "distractor": "confirm"
+      },
+      "counteract": {
+        "correct_forms": ["counteract"],
+        "wrong_forms": ["act", "react", "interact"],
+        "objects": [],
+        "distractor": "enhance"
+      },
+      "counterbalance": {
+        "correct_forms": ["counterbalance"],
+        "wrong_forms": ["balance", "imbalance", "unbalance"],
+        "objects": [],
+        "distractor": "reinforce"
+      },
+      "disprove": {
+        "correct_forms": ["disprove"],
+        "wrong_forms": ["prove", "unprove", "reprove"],
+        "objects": [],
+        "distractor": "validate"
+      }
+    }
+  }
+}

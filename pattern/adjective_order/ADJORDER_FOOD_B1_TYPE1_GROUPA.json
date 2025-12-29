@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FOOD_B1_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_origin",
+  "level": "B1",
+  "domain": "food",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "I ordered some ____ {NOUN}.",
+  "example": "I ordered some delicious Italian pasta.",
+  "explanation": "Opinion comes before origin in adjective order. 'Delicious Italian' not 'Italian delicious'.",
+  "chunks": {
+    "NOUN": ["pasta", "cheese", "wine", "bread"],
+    "VERB": {
+      "delicious Italian": {
+        "correct_forms": ["delicious Italian"],
+        "wrong_forms": ["Italian delicious", "Italian and delicious", "delicious and Italian"],
+        "objects": [],
+        "distractor": "tasteless"
+      },
+      "wonderful French": {
+        "correct_forms": ["wonderful French"],
+        "wrong_forms": ["French wonderful", "French and wonderful", "wonderful and French"],
+        "objects": [],
+        "distractor": "bland"
+      },
+      "amazing Japanese": {
+        "correct_forms": ["amazing Japanese"],
+        "wrong_forms": ["Japanese amazing", "Japanese and amazing", "amazing and Japanese"],
+        "objects": [],
+        "distractor": "terrible"
+      }
+    }
+  }
+}

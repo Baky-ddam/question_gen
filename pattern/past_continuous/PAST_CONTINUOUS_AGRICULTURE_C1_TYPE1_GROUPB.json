@@ -1,0 +1,54 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AGRICULTURE_C1_TYPE1_GROUPB",
+  "focus": "past_continuous",
+  "level": "C1",
+  "domain": "agriculture",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["past_continuous", "implication_clause", "broader_consequence"],
+  "template": "{SUBJ} ____ {OBJ} {PLACE}, a situation that {BROADER_IMPLICATION}.",
+  "example": "The agronomist was documenting the phenological responses to variable climatic conditions at the long-term research station, a situation that ultimately informed national adaptation strategies for agricultural resilience.",
+  "explanation": "Use 'was' + verb-ing with 'I/he/she/it' or singular nouns for past ongoing agricultural research with broader implications.",
+  "chunks": {
+    "SUBJ": ["I", "the agronomist", "the crop scientist", "the soil ecologist"],
+    "PLACE": [
+      "at the long-term research station",
+      "within the experimental watershed",
+      "at the precision agriculture demonstration facility",
+      "during the collaborative field evaluation"
+    ],
+    "BROADER_IMPLICATION": [
+      "ultimately informed national adaptation strategies for agricultural resilience",
+      "necessitated a fundamental reconceptualization of conventional yield optimization approaches",
+      "generated unprecedented insights into the complex dynamics of agroecosystem functioning",
+      "prompted significant policy revisions regarding sustainable intensification pathways"
+    ],
+    "VERB": {
+      "document": {
+        "correct_forms": ["was documenting"],
+        "wrong_forms": ["were documenting", "documented", "is documenting"],
+        "objects": ["the phenological responses to variable climatic conditions", "the cascading effects of biodiversity loss on pollination services", "the spatiotemporal variability in soil microbial communities", "the yield-environment interactions across heterogeneous landscapes"],
+        "distractor": "nullify"
+      },
+      "quantify": {
+        "correct_forms": ["was quantifying"],
+        "wrong_forms": ["were quantifying", "quantified", "is quantifying"],
+        "objects": ["the ecosystem service benefits of diversified farming systems", "the nitrogen use efficiency under varying management intensities", "the hydrological impacts of land use conversion", "the carbon flux dynamics across the agricultural-forest boundary"],
+        "distractor": "abrogate"
+      },
+      "elucidate": {
+        "correct_forms": ["was elucidating"],
+        "wrong_forms": ["were elucidating", "elucidated", "is elucidating"],
+        "objects": ["the mechanistic pathways underlying allelopathic interactions", "the genetic determinants of stress tolerance in staple crops", "the biogeochemical processes governing nutrient availability", "the ecological principles underlying sustainable weed management"],
+        "distractor": "rescind"
+      },
+      "synthesize": {
+        "correct_forms": ["was synthesizing"],
+        "wrong_forms": ["were synthesizing", "synthesized", "is synthesizing"],
+        "objects": ["the multi-decadal findings from the comparative cropping systems trials", "the transdisciplinary knowledge required for climate-smart agriculture", "the stakeholder perspectives on sustainable land management", "the empirical evidence supporting regenerative agricultural transitions"],
+        "distractor": "countermand"
+      }
+    }
+  }
+}

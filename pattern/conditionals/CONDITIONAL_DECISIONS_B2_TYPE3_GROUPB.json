@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_DECISIONS_B2_TYPE3_GROUPB",
+  "focus": "conditional_type_3_decisions_past_singular",
+  "level": "B2",
+  "domain": "decisions",
+  "category": "grammar",
+  "template_type": "type_3",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ the warning, {SUBJ} would have {PAST_OUTCOME}.",
+  "example": "If he had heeded the warning, he would have escaped the danger.",
+  "explanation": "Third conditional for past regrets. 'Had heeded' expresses an action that didn't happen but should have.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the pilot", "the captain"],
+    "PAST_OUTCOME": ["escaped the danger", "avoided the accident", "saved the situation", "prevented the disaster"],
+    "VERB": {
+      "had heeded": {
+        "correct_forms": ["had heeded"],
+        "wrong_forms": ["heeded", "has heeded", "would heed"],
+        "objects": [],
+        "distractor": "ignore"
+      },
+      "had noticed": {
+        "correct_forms": ["had noticed"],
+        "wrong_forms": ["noticed", "has noticed", "would notice"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PAST_PERFECT_MEETINGS_B2_TYPE1_ALL",
+  "focus": "past_perfect",
+  "level": "B2",
+  "domain": "meetings",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": ["past_perfect"],
+  "template": "By the time {PAST_EVENT}, {SUBJ} ____ {OBJ}.",
+  "example": "By the time the CEO joined the call, we had already covered the main agenda items.",
+  "explanation": "Use 'had' + past participle to show an action was completed before another past event. 'By the time' emphasizes sequence.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "the participants", "the committee", "the board", "the executives"],
+    "PAST_EVENT": ["the CEO joined the call", "the meeting ended", "everyone arrived", "the presentation began", "the session concluded"],
+    "VERB": {
+      "cover": {
+        "correct_forms": ["had covered"],
+        "wrong_forms": ["have covered", "covered", "was covering"],
+        "objects": ["the main agenda items", "all key points", "important topics", "the essential matters"],
+        "distractor": "skip"
+      },
+      "discuss": {
+        "correct_forms": ["had discussed"],
+        "wrong_forms": ["has discussed", "discussed", "was discussing"],
+        "objects": ["the critical issues", "preliminary matters", "potential solutions", "the proposal"],
+        "distractor": "avoid"
+      },
+      "prepare": {
+        "correct_forms": ["had prepared"],
+        "wrong_forms": ["have prepared", "prepared", "was preparing"],
+        "objects": ["the presentation materials", "detailed reports", "all documents", "the briefing"],
+        "distractor": "neglect"
+      },
+      "circulate": {
+        "correct_forms": ["had circulated"],
+        "wrong_forms": ["has circulated", "circulated", "was circulating"],
+        "objects": ["the agenda", "the meeting notes", "relevant documents", "the draft proposal"],
+        "distractor": "withhold"
+      }
+    }
+  }
+}

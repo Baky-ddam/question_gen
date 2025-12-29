@@ -1,0 +1,42 @@
+{
+  "pattern_id": "WORDFORM_GOVERNANCE_C1_TYPE1_GROUPA",
+  "focus": "prefix_trans_formation",
+  "level": "C1",
+  "domain": "governance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["word_formation"],
+  "template": "The ____ nature of climate change necessitates unprecedented levels of international cooperation.",
+  "example": "The transboundary nature of climate change necessitates unprecedented levels of international cooperation.",
+  "explanation": "The prefix 'trans-' means 'across' or 'beyond'. 'Boundary' becomes 'transboundary'.",
+  "chunks": {
+    "NOUN": ["cooperation", "collaboration", "coordination", "partnership"],
+    "VERB": {
+      "transboundary": {
+        "correct_forms": ["transboundary"],
+        "wrong_forms": ["boundary", "unboundary", "cross-boundary"],
+        "objects": [],
+        "distractor": "localized"
+      },
+      "transnational": {
+        "correct_forms": ["transnational"],
+        "wrong_forms": ["national", "international", "supranational"],
+        "objects": [],
+        "distractor": "domestic"
+      },
+      "transcontinental": {
+        "correct_forms": ["transcontinental"],
+        "wrong_forms": ["continental", "intercontinental", "uncontinental"],
+        "objects": [],
+        "distractor": "regional"
+      },
+      "transformative": {
+        "correct_forms": ["transformative"],
+        "wrong_forms": ["transform", "transformation", "transforming"],
+        "objects": [],
+        "distractor": "incremental"
+      }
+    }
+  }
+}

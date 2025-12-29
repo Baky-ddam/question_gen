@@ -1,0 +1,43 @@
+{
+  "pattern_id": "FUTURE_SIMPLE_EXPANSIONS_B2_TYPE1_ALL",
+  "focus": "future_simple",
+  "level": "B2",
+  "domain": "expansions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "all",
+  "sub_grammar": [],
+  "template": "By {FUTURE_TIME}, {SUBJ} ____ {OBJ}.",
+  "example": "By next quarter, the company will expand into new markets.",
+  "explanation": "Future simple with 'By + time' for business expansion predictions. Use 'will + base verb' for all subjects.",
+  "chunks": {
+    "SUBJ": ["The company", "The business", "The organization", "The brand", "The franchise", "The corporation"],
+    "VERB": {
+      "expand": {
+        "correct_forms": ["will expand"],
+        "wrong_forms": ["expands", "is going to expand", "would expand"],
+        "objects": ["into new markets", "operations globally", "its reach"],
+        "distractor": "obstruct"
+      },
+      "grow": {
+        "correct_forms": ["will grow"],
+        "wrong_forms": ["grows", "is going to grow", "would grow"],
+        "objects": ["significantly", "by 20 percent", "rapidly"],
+        "distractor": "hinder"
+      },
+      "open": {
+        "correct_forms": ["will open"],
+        "wrong_forms": ["opens", "is going to open", "would open"],
+        "objects": ["new branches", "additional offices", "more locations"],
+        "distractor": "close"
+      },
+      "enter": {
+        "correct_forms": ["will enter"],
+        "wrong_forms": ["enters", "is going to enter", "would enter"],
+        "objects": ["new territories", "emerging markets", "the Asian market"],
+        "distractor": "circumvent"
+      }
+    },
+    "FUTURE_TIME": ["next quarter", "year-end", "2026", "the next fiscal year", "six months", "December"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pattern_id": "INFINITIVE_CAREER_B1_TYPE1_GROUPB",
+  "focus": "infinitive_required",
+  "level": "B1",
+  "domain": "career",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["present_simple"],
+  "template": "{SUBJ} {MAINVERB} ____ {CONTEXT}.",
+  "example": "She plans to pursue a career in medicine soon.",
+  "explanation": "Some verbs require infinitives (to + verb). Use infinitives after: want, plan, hope, decide, need, promise, agree, expect.",
+  "chunks": {
+    "SUBJ": ["he", "she", "my colleague", "the manager"],
+    "MAINVERB": ["plans", "hopes", "decides", "wants", "expects"],
+    "VERB": {
+      "pursue": {
+        "correct_forms": ["to pursue"],
+        "wrong_forms": ["pursuing", "pursue", "pursues"],
+        "objects": ["a career in medicine", "new opportunities", "a promotion", "advanced studies"],
+        "distractor": "to abandon"
+      },
+      "lead": {
+        "correct_forms": ["to lead"],
+        "wrong_forms": ["leading", "lead", "leads"],
+        "objects": ["the team", "a project", "the department", "initiatives"],
+        "distractor": "to follow"
+      },
+      "achieve": {
+        "correct_forms": ["to achieve"],
+        "wrong_forms": ["achieving", "achieve", "achieves"],
+        "objects": ["goals", "success", "targets", "milestones"],
+        "distractor": "to fail"
+      },
+      "negotiate": {
+        "correct_forms": ["to negotiate"],
+        "wrong_forms": ["negotiating", "negotiate", "negotiates"],
+        "objects": ["a raise", "better conditions", "a contract", "terms"],
+        "distractor": "to accept"
+      }
+    },
+    "CONTEXT": ["soon", "this year", "before the deadline", "in the coming months", "eventually"]
+  }
+}

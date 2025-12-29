@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PHRASAL_SHOPPING_A2_TYPE1_GROUPB",
+  "focus": "phrasal_verb_separable",
+  "level": "A2",
+  "domain": "shopping",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["phrasal_verbs"],
+  "template": "{SUBJ} ____ the {NOUN} {PLACE}.",
+  "example": "She tries on the jacket in the fitting room.",
+  "explanation": "Phrasal verbs combine a verb with a particle to create a new meaning. In shopping, we use phrasal verbs like 'try on', 'pick up', and 'put back'.",
+  "chunks": {
+    "SUBJ": ["he", "she", "the customer", "my friend"],
+    "PLACE": ["at the store", "in the fitting room", "at the mall", "at the market"],
+    "VERB": {
+      "try on": {
+        "correct_forms": ["tries on"],
+        "wrong_forms": ["tries off", "tries up", "tries out"],
+        "objects": ["jacket", "shoes", "dress", "pants"],
+        "distractor": "rejects"
+      },
+      "pick up": {
+        "correct_forms": ["picks up"],
+        "wrong_forms": ["picks on", "picks off", "picks at"],
+        "objects": ["groceries", "package", "order", "items"],
+        "distractor": "drops"
+      },
+      "put back": {
+        "correct_forms": ["puts back"],
+        "wrong_forms": ["puts on", "puts off", "puts up"],
+        "objects": ["shirt", "book", "product", "item"],
+        "distractor": "takes"
+      },
+      "look for": {
+        "correct_forms": ["looks for"],
+        "wrong_forms": ["looks at", "looks on", "looks up"],
+        "objects": ["bargains", "deals", "discounts", "sales"],
+        "distractor": "ignores"
+      }
+    }
+  }
+}

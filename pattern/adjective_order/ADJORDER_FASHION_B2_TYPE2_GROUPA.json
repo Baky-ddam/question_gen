@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_FASHION_B2_TYPE2_GROUPA",
+  "focus": "adjective_order_opinion_age_material_fashion",
+  "level": "B2",
+  "domain": "fashion",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "He inherited a ____ {NOUN}.",
+  "example": "He inherited a beautiful vintage silk tie.",
+  "explanation": "Opinion-Age-Material order. 'Beautiful vintage silk' follows OSASCOMP correctly.",
+  "chunks": {
+    "NOUN": ["tie", "watch", "cufflinks", "brooch"],
+    "VERB": {
+      "beautiful vintage silk": {
+        "correct_forms": ["beautiful vintage silk"],
+        "wrong_forms": ["vintage beautiful silk", "silk vintage beautiful", "silk beautiful vintage"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "elegant antique gold": {
+        "correct_forms": ["elegant antique gold"],
+        "wrong_forms": ["antique elegant gold", "gold antique elegant", "gold elegant antique"],
+        "objects": [],
+        "distractor": "tasteless"
+      },
+      "exquisite old pearl": {
+        "correct_forms": ["exquisite old pearl"],
+        "wrong_forms": ["old exquisite pearl", "pearl old exquisite", "pearl exquisite old"],
+        "objects": [],
+        "distractor": "crude"
+      }
+    }
+  }
+}

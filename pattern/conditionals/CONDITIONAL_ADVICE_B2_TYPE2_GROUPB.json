@@ -1,0 +1,31 @@
+{
+  "pattern_id": "CONDITIONAL_ADVICE_B2_TYPE2_GROUPB",
+  "focus": "conditional_type_2_advice_result",
+  "level": "B2",
+  "domain": "advice",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_b",
+  "sub_grammar": ["conditionals"],
+  "template": "If {SUBJ} ____ my advice, {SUBJ} would {BENEFIT}.",
+  "example": "If she followed my advice, she would get promoted.",
+  "explanation": "Second conditional with 'followed' (past tense) expresses hypothetical advice and its potential outcome.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the employee", "the student"],
+    "BENEFIT": ["get promoted", "improve significantly", "achieve better results", "avoid common mistakes"],
+    "VERB": {
+      "followed": {
+        "correct_forms": ["followed"],
+        "wrong_forms": ["follows", "would follow", "has followed"],
+        "objects": [],
+        "distractor": "reject"
+      },
+      "took": {
+        "correct_forms": ["took"],
+        "wrong_forms": ["takes", "would take", "has taken"],
+        "objects": [],
+        "distractor": "dismiss"
+      }
+    }
+  }
+}

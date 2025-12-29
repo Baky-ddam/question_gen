@@ -1,0 +1,60 @@
+{
+  "pattern_id": "PAST_CONTINUOUS_AVIATION_B2_TYPE1_GROUPA",
+  "focus": "past_continuous",
+  "level": "B2",
+  "domain": "aviation",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["past_continuous", "complex_interruption", "relative_clause"],
+  "template": "{SUBJ} ____ {OBJ} {PREP_PLACE} when {INTERRUPTION}, which {CONSEQUENCE}.",
+  "example": "We were monitoring the radar display in the control tower when turbulence alerts appeared, which required immediate rerouting.",
+  "explanation": "Use 'were' + verb-ing with 'you/we/they' for ongoing past actions interrupted by events that led to consequences.",
+  "chunks": {
+    "SUBJ": ["you", "we", "they"],
+    "PREP_PLACE": [
+      "in the control tower",
+      "at the departure gate",
+      "on the tarmac",
+      "in the cockpit"
+    ],
+    "INTERRUPTION": [
+      "turbulence alerts appeared on the system",
+      "the weather conditions deteriorated rapidly",
+      "an emergency signal was received",
+      "technical malfunctions were detected"
+    ],
+    "CONSEQUENCE": [
+      "required immediate rerouting of aircraft",
+      "necessitated a complete protocol review",
+      "prompted an urgent safety assessment",
+      "demanded coordinated response from all units"
+    ],
+    "VERB": {
+      "monitor": {
+        "correct_forms": ["were monitoring"],
+        "wrong_forms": ["was monitoring", "monitored", "are monitoring"],
+        "objects": ["the radar display", "the flight trajectories", "the air traffic patterns", "the communication channels"],
+        "distractor": "disregard"
+      },
+      "coordinate": {
+        "correct_forms": ["were coordinating"],
+        "wrong_forms": ["was coordinating", "coordinated", "are coordinating"],
+        "objects": ["the landing sequences", "the departure schedules", "the ground operations", "the flight paths"],
+        "distractor": "obstruct"
+      },
+      "oversee": {
+        "correct_forms": ["were overseeing"],
+        "wrong_forms": ["was overseeing", "oversaw", "are overseeing"],
+        "objects": ["the boarding procedures", "the refueling operations", "the maintenance checks", "the cargo loading"],
+        "distractor": "overlook"
+      },
+      "assess": {
+        "correct_forms": ["were assessing"],
+        "wrong_forms": ["was assessing", "assessed", "are assessing"],
+        "objects": ["the runway conditions", "the fuel requirements", "the safety compliance", "the weather forecasts"],
+        "distractor": "undermine"
+      }
+    }
+  }
+}

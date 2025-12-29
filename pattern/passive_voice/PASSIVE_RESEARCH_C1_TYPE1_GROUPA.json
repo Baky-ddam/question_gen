@@ -1,0 +1,44 @@
+{
+  "pattern_id": "PASSIVE_RESEARCH_C1_TYPE1_GROUPA",
+  "focus": "passive_perfect",
+  "level": "C1",
+  "domain": "research",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT} to {PURPOSE}.",
+  "example": "Groundbreaking discoveries have been made by researchers to advance our understanding of genetic diseases.",
+  "explanation": "Use 'have been' + past participle with plural subjects for present perfect passive to describe completed actions with current relevance.",
+  "chunks": {
+    "SUBJ": ["groundbreaking discoveries", "significant findings", "innovative methodologies", "comprehensive studies", "peer-reviewed publications", "collaborative projects"],
+    "AGENT": ["researchers", "scientists", "academic institutions", "research teams", "international collaborators", "leading experts"],
+    "PURPOSE": ["advance our understanding of genetic diseases", "develop new treatment protocols", "establish evidence-based guidelines", "transform current paradigms", "address critical knowledge gaps", "inform policy decisions"],
+    "VERB": {
+      "make": {
+        "correct_forms": ["have been made"],
+        "wrong_forms": ["has been made", "were made", "are made"],
+        "objects": [],
+        "distractor": "dismissed"
+      },
+      "publish": {
+        "correct_forms": ["have been published"],
+        "wrong_forms": ["has been published", "were published", "are published"],
+        "objects": [],
+        "distractor": "retracted"
+      },
+      "validate": {
+        "correct_forms": ["have been validated"],
+        "wrong_forms": ["has been validated", "were validated", "are validated"],
+        "objects": [],
+        "distractor": "disproved"
+      },
+      "conduct": {
+        "correct_forms": ["have been conducted"],
+        "wrong_forms": ["has been conducted", "were conducted", "are conducted"],
+        "objects": [],
+        "distractor": "abandoned"
+      }
+    }
+  }
+}

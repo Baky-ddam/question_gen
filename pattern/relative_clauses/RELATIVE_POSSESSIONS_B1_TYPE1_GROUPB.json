@@ -1,0 +1,25 @@
+{
+  "pattern_id": "RELATIVE_POSSESSIONS_B1_TYPE1_GROUPB",
+  "focus": "relative_clause_whose_thing",
+  "level": "B1",
+  "domain": "possessions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["relative_clauses"],
+  "template": "I met the {PERSON} ____ {QUALITY} impressed everyone.",
+  "example": "I met the artist whose paintings impressed everyone.",
+  "explanation": "We use 'whose' for possession with both people and things. It shows the relationship between the person and what belongs to them.",
+  "chunks": {
+    "PERSON": ["artist", "musician", "chef", "designer"],
+    "QUALITY": ["paintings", "songs", "recipes", "creations"],
+    "VERB": {
+      "whose": {
+        "correct_forms": ["whose"],
+        "wrong_forms": ["who", "which", "whom"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pattern_id": "REPORTED_INTERVIEWS_B2_TYPE1_GROUPB",
+  "focus": "reported_speech_claimed_singular",
+  "level": "B2",
+  "domain": "interviews",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_b",
+  "sub_grammar": ["reported_speech"],
+  "template": "The interviewee claimed that {SUBJ} ____ {CLAIM}.",
+  "example": "The interviewee claimed that she had extensive experience in the field.",
+  "explanation": "The verb 'claimed' can suggest the statement needs verification. 'Has' becomes 'had' in reported speech.",
+  "chunks": {
+    "SUBJ": ["she", "he", "the applicant", "the expert"],
+    "CLAIM": ["extensive experience in the field", "unique qualifications for the role", "special expertise in this area", "remarkable achievements"],
+    "VERB": {
+      "had": {
+        "correct_forms": ["had"],
+        "wrong_forms": ["has", "have", "was having"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had earned": {
+        "correct_forms": ["had earned"],
+        "wrong_forms": ["earned", "has earned", "was earning"],
+        "objects": [],
+        "distractor": "dispute"
+      }
+    }
+  }
+}

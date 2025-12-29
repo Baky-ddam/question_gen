@@ -1,0 +1,26 @@
+{
+  "pattern_id": "RELATIVE_INSTITUTIONS_B2_TYPE1_GROUPA",
+  "focus": "relative_clause_which_institution",
+  "level": "B2",
+  "domain": "institutions",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["relative_clauses"],
+  "template": "The {INSTITUTION} ____ {ROLE} has {ACHIEVEMENT}.",
+  "example": "The organization which oversees international trade has implemented new regulations.",
+  "explanation": "We use 'which' to describe organizations and institutions. The clause explains their function or achievements.",
+  "chunks": {
+    "INSTITUTION": ["organization", "agency", "foundation", "corporation"],
+    "ROLE": ["oversees international trade", "funds medical research", "promotes education", "regulates the industry"],
+    "ACHIEVEMENT": ["implemented new regulations", "achieved remarkable results", "expanded its influence", "received global recognition"],
+    "VERB": {
+      "which": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "whom"],
+        "objects": [],
+        "distractor": "overlook"
+      }
+    }
+  }
+}

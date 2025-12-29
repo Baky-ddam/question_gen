@@ -1,0 +1,36 @@
+{
+  "pattern_id": "ADJORDER_ANIMALS_B1_TYPE1_GROUPA",
+  "focus": "adjective_order_opinion_size_animals",
+  "level": "B1",
+  "domain": "animals",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["adjective_order"],
+  "template": "We saw a ____ {NOUN} at the zoo.",
+  "example": "We saw a beautiful big elephant at the zoo.",
+  "explanation": "Opinion comes before size in adjective order. 'Beautiful big' not 'big beautiful'.",
+  "chunks": {
+    "NOUN": ["elephant", "lion", "tiger", "bear"],
+    "VERB": {
+      "beautiful big": {
+        "correct_forms": ["beautiful big"],
+        "wrong_forms": ["big beautiful", "big and beautiful", "beautiful and big"],
+        "objects": [],
+        "distractor": "ugly"
+      },
+      "lovely small": {
+        "correct_forms": ["lovely small"],
+        "wrong_forms": ["small lovely", "small and lovely", "lovely and small"],
+        "objects": [],
+        "distractor": "hideous"
+      },
+      "cute little": {
+        "correct_forms": ["cute little"],
+        "wrong_forms": ["little cute", "little and cute", "cute and little"],
+        "objects": [],
+        "distractor": "scary"
+      }
+    }
+  }
+}

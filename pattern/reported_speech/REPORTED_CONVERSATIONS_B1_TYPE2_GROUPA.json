@@ -1,0 +1,33 @@
+{
+  "pattern_id": "REPORTED_CONVERSATIONS_B1_TYPE2_GROUPA",
+  "focus": "reported_speech_past_to_past_perfect",
+  "level": "B1",
+  "domain": "conversations",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{REPORTER} told me that {SUBJ} ____ {ACTION} {TIME}.",
+  "example": "She told me that they had finished their homework before dinner.",
+  "explanation": "In reported speech, past tense shifts to past perfect. 'They finished' becomes 'they had finished' when reported.",
+  "chunks": {
+    "REPORTER": ["She", "He", "My colleague", "The manager"],
+    "SUBJ": ["they", "we", "the students", "the workers"],
+    "ACTION": ["finished their homework", "completed the task", "solved the problem", "cleaned the house"],
+    "TIME": ["before dinner", "early in the morning", "the day before", "last week"],
+    "VERB": {
+      "had finished": {
+        "correct_forms": ["had finished"],
+        "wrong_forms": ["finished", "have finished", "were finishing"],
+        "objects": [],
+        "distractor": "forget"
+      },
+      "had completed": {
+        "correct_forms": ["had completed"],
+        "wrong_forms": ["completed", "have completed", "were completing"],
+        "objects": [],
+        "distractor": "neglect"
+      }
+    }
+  }
+}

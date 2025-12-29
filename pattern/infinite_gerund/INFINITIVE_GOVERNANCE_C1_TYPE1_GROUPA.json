@@ -1,0 +1,45 @@
+{
+  "pattern_id": "INFINITIVE_GOVERNANCE_C1_TYPE1_GROUPA",
+  "focus": "infinitive_required",
+  "level": "C1",
+  "domain": "governance",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["present_simple"],
+  "template": "While {CONTRAST}, {SUBJ} {MAINVERB} ____, thereby {OUTCOME}.",
+  "example": "While stakeholders express concerns, board members agree to enhance transparency mechanisms, thereby strengthening corporate accountability.",
+  "explanation": "Advanced verbs requiring infinitives: agree, refuse, decide, promise, threaten, demand, expect, pledge, undertake.",
+  "chunks": {
+    "SUBJ": ["I", "we", "they", "board members", "trustees", "directors"],
+    "MAINVERB": ["agree", "refuse", "decide", "pledge", "undertake"],
+    "VERB": {
+      "enhance": {
+        "correct_forms": ["to enhance"],
+        "wrong_forms": ["enhancing", "enhance", "enhances"],
+        "objects": ["transparency mechanisms", "oversight protocols", "accountability frameworks", "compliance standards"],
+        "distractor": "to undermine"
+      },
+      "reform": {
+        "correct_forms": ["to reform"],
+        "wrong_forms": ["reforming", "reform", "reforms"],
+        "objects": ["governance structures", "institutional practices", "regulatory frameworks", "organizational protocols"],
+        "distractor": "to preserve"
+      },
+      "safeguard": {
+        "correct_forms": ["to safeguard"],
+        "wrong_forms": ["safeguarding", "safeguard", "safeguards"],
+        "objects": ["stakeholder interests", "institutional integrity", "fiduciary responsibilities", "organizational values"],
+        "distractor": "to jeopardize"
+      },
+      "codify": {
+        "correct_forms": ["to codify"],
+        "wrong_forms": ["codifying", "codify", "codifies"],
+        "objects": ["ethical standards", "best practices", "governance principles", "compliance requirements"],
+        "distractor": "to obscure"
+      }
+    },
+    "CONTRAST": ["stakeholders express concerns", "critics question motives", "regulators scrutinize practices", "activists demand accountability", "shareholders seek assurances"],
+    "OUTCOME": ["strengthening corporate accountability", "reinforcing institutional legitimacy", "demonstrating commitment to reform", "establishing robust frameworks", "signaling cultural transformation"]
+  }
+}

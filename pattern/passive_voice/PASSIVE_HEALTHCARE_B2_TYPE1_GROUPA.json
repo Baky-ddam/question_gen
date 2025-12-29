@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_HEALTHCARE_B2_TYPE1_GROUPA",
+  "focus": "passive_present",
+  "level": "B2",
+  "domain": "healthcare",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ because {REASON}.",
+  "example": "New treatments are developed because diseases continue to evolve.",
+  "explanation": "Use 'are' + past participle with plural subjects for present passive to describe ongoing situations.",
+  "chunks": {
+    "SUBJ": ["new treatments", "medical procedures", "clinical trials", "health protocols", "preventive measures", "diagnostic tests"],
+    "REASON": ["diseases continue to evolve", "patient outcomes need to improve", "healthcare costs are rising", "technology enables new possibilities", "population health is a priority", "prevention is more effective than cure"],
+    "VERB": {
+      "develop": {
+        "correct_forms": ["are developed"],
+        "wrong_forms": ["is developed", "were developed", "have been developed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "conduct": {
+        "correct_forms": ["are conducted"],
+        "wrong_forms": ["is conducted", "were conducted", "have been conducted"],
+        "objects": [],
+        "distractor": "cancelled"
+      },
+      "recommend": {
+        "correct_forms": ["are recommended"],
+        "wrong_forms": ["is recommended", "were recommended", "have been recommended"],
+        "objects": [],
+        "distractor": "prohibited"
+      },
+      "administer": {
+        "correct_forms": ["are administered"],
+        "wrong_forms": ["is administered", "were administered", "have been administered"],
+        "objects": [],
+        "distractor": "withheld"
+      }
+    }
+  }
+}

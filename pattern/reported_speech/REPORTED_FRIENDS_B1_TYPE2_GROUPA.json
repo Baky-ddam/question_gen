@@ -1,0 +1,32 @@
+{
+  "pattern_id": "REPORTED_FRIENDS_B1_TYPE2_GROUPA",
+  "focus": "reported_speech_answered",
+  "level": "B1",
+  "domain": "friends",
+  "category": "grammar",
+  "template_type": "type_2",
+  "subject_group": "group_a",
+  "sub_grammar": ["reported_speech"],
+  "template": "{FRIEND} answered that {SUBJ} ____ {RESPONSE}.",
+  "example": "My best friend answered that they had seen the movie before.",
+  "explanation": "With 'answered', we report responses. Past tense 'saw' becomes past perfect 'had seen'.",
+  "chunks": {
+    "FRIEND": ["My best friend", "My roommate", "My teammate", "My colleague"],
+    "SUBJ": ["they", "we", "the others", "everyone"],
+    "RESPONSE": ["seen the movie before", "visited that place last year", "tried the restaurant already", "heard the news earlier"],
+    "VERB": {
+      "had seen": {
+        "correct_forms": ["had seen"],
+        "wrong_forms": ["saw", "have seen", "were seeing"],
+        "objects": [],
+        "distractor": "deny"
+      },
+      "had visited": {
+        "correct_forms": ["had visited"],
+        "wrong_forms": ["visited", "have visited", "were visiting"],
+        "objects": [],
+        "distractor": "forget"
+      }
+    }
+  }
+}

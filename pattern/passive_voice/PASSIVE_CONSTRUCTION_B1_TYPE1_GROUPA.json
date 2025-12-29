@@ -1,0 +1,43 @@
+{
+  "pattern_id": "PASSIVE_CONSTRUCTION_B1_TYPE1_GROUPA",
+  "focus": "passive_past",
+  "level": "B1",
+  "domain": "construction",
+  "category": "grammar",
+  "template_type": "type_1",
+  "subject_group": "group_a",
+  "sub_grammar": ["passive_voice"],
+  "template": "{SUBJ} ____ by {AGENT}.",
+  "example": "The foundations were laid by skilled workers.",
+  "explanation": "Use 'were' + past participle + 'by' + agent to show who performed the action.",
+  "chunks": {
+    "SUBJ": ["the foundations", "the walls", "the structures", "the installations", "the repairs", "the renovations"],
+    "AGENT": ["skilled workers", "construction crews", "licensed contractors", "specialized teams", "local builders", "experienced engineers"],
+    "VERB": {
+      "lay": {
+        "correct_forms": ["were laid"],
+        "wrong_forms": ["was laid", "are laid", "have been laid"],
+        "objects": [],
+        "distractor": "damaged"
+      },
+      "complete": {
+        "correct_forms": ["were completed"],
+        "wrong_forms": ["was completed", "are completed", "have been completed"],
+        "objects": [],
+        "distractor": "abandoned"
+      },
+      "inspect": {
+        "correct_forms": ["were inspected"],
+        "wrong_forms": ["was inspected", "are inspected", "have been inspected"],
+        "objects": [],
+        "distractor": "overlooked"
+      },
+      "approve": {
+        "correct_forms": ["were approved"],
+        "wrong_forms": ["was approved", "are approved", "have been approved"],
+        "objects": [],
+        "distractor": "rejected"
+      }
+    }
+  }
+}
