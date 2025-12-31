@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}EYESH - English Question Generator{% endblock %}
+
+{% block content %}
+<div class="text-center py-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">EYESH Question Generator</h1>
+    <p class="text-xl text-gray-600 mb-8">Generate grammatically correct English exam questions from pattern templates</p>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-12">
+        <!-- Developer Mode Card -->
+        <a href="/test" class="block p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow border-2 border-transparent hover:border-indigo-500">
+            <div class="text-indigo-600 mb-4">
+                <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Developer Mode</h2>
+            <p class="text-gray-600">Test and validate JSON patterns. View questions with answers and pattern info for debugging.</p>
+        </a>
+
+        <!-- User Exam Card -->
+        <a href="/exam" class="block p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow border-2 border-transparent hover:border-green-500">
+            <div class="text-green-600 mb-4">
+                <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                </svg>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Take Exam</h2>
+            <p class="text-gray-600">Generate and take practice exams. Submit answers to see your score and explanations.</p>
+        </a>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="mt-12 flex justify-center space-x-4">
+        <a href="/patterns" class="text-indigo-600 hover:text-indigo-800 font-medium">Browse All Patterns</a>
+        <span class="text-gray-400">|</span>
+        <a href="/api/docs" class="text-indigo-600 hover:text-indigo-800 font-medium">API Documentation</a>
+    </div>
+</div>
+
+<!-- Stats Section -->
+<div id="stats-section" class="mt-16 bg-white rounded-xl shadow-lg p-8">
+    <h3 class="text-xl font-bold text-gray-900 mb-6 text-center">Pattern Statistics</h3>
+    <div id="stats-loading" class="text-center text-gray-500">Loading statistics...</div>
+    <div id="stats-content" class="hidden grid md:grid-cols-3 gap-6">
+        <div class="text-center p-4 bg-gray-50 rounded-lg">
+            <div id="total-patterns" class="text-3xl font-bold text-indigo-600">-</div>
+            <div class="text-gray-600">Total Patterns</div>
+        </div>
+        <div class="text-center p-4 bg-gray-50 rounded-lg">
+            <div id="total-levels" class="text-3xl font-bold text-green-600">-</div>
+            <div class="text-gray-600">CEFR Levels</div>
+        </div>
+        <div class="text-center p-4 bg-gray-50 rounded-lg">
+            <div id="total-focuses" class="text-3xl font-bold text-purple-600">-</div>
+            <div class="text-gray-600">Grammar Types</div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    async function loadStats() {
+        try {
+            const stats = await API.getStats();
+            document.getElementById('total-patterns').textContent = stats.total_patterns;
+            document.getElementById('total-levels').textContent = Object.keys(stats.by_level).length;
+            document.getElementById('total-focuses').textContent = Object.keys(stats.by_focus).length;
+            document.getElementById('stats-loading').classList.add('hidden');
+            document.getElementById('stats-content').classList.remove('hidden');
+        } catch (e) {
+            document.getElementById('stats-loading').textContent = 'Failed to load statistics';
+        }
+    }
+    loadStats();
+</script>
+{% endblock %}
