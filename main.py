@@ -32,36 +32,44 @@ def print_banner():
     print(banner)
 
 
-def print_question(question: dict, index: int):
+def print_question(question: dict, index: int, test_mode: bool = False):
     """
     Print a question to console in formatted style.
 
     Args:
         question: Question dictionary
         index: Question number
+        test_mode: If True, hide correct answer and explanation
     """
     print(f"\n{'='*70}")
     print(f"Question {index}")
     print(f"{'='*70}")
-    print(f"ID: {question['question_id']}")
-    print(f"Pattern: {question['pattern_id']}")
-    print(f"Focus: {question['focus']} | Level: {question['level']}", end="")
-    if question.get('domain'):
-        print(f" | Domain: {question['domain']}")
-    else:
-        print()
+
+    if not test_mode:
+        print(f"ID: {question['question_id']}")
+        print(f"Pattern: {question['pattern_id']}")
+        print(f"Focus: {question['focus']} | Level: {question['level']}", end="")
+        if question.get('domain'):
+            print(f" | Domain: {question['domain']}")
+        else:
+            print()
     print()
 
     print(question['sentence'])
     print()
 
-    # Print options
+    # Print options (without checkmark in test mode)
     for letter in sorted(question['options'].keys()):
-        marker = " ✓" if letter == question['correct_answer'] else ""
-        print(f"  {letter}. {question['options'][letter]}{marker}")
+        if test_mode:
+            print(f"  {letter}. {question['options'][letter]}")
+        else:
+            marker = " ✓" if letter == question['correct_answer'] else ""
+            print(f"  {letter}. {question['options'][letter]}{marker}")
 
-    print(f"\nCorrect Answer: {question['correct_answer']}")
-    print(f"Explanation: {question['explanation']}")
+    # Only show correct answer and explanation in non-test mode
+    if not test_mode:
+        print(f"\nCorrect Answer: {question['correct_answer']}")
+        print(f"Explanation: {question['explanation']}")
 
 
 def display_stats(generator: QuestionGenerator):
@@ -179,6 +187,18 @@ Examples:
         help='Don\'t show banner'
     )
 
+    parser.add_argument(
+        '--test-mode', '-t',
+        action='store_true',
+        help='Test mode: hide correct answers and explanations (exam format)'
+    )
+
+    parser.add_argument(
+        '--level',
+        choices=['beginner', 'intermediate', 'advanced'],
+        help='Filter by proficiency level (beginner=A1/A2, intermediate=B1/B2, advanced=C1/C2)'
+    )
+
     args = parser.parse_args()
 
     # Print banner
@@ -216,12 +236,14 @@ Examples:
         return 0
 
     # Generate questions
-    print(f"\nGenerating {args.count} question(s)...")
+    level_msg = f" (level: {args.level})" if args.level else ""
+    print(f"\nGenerating {args.count} question(s){level_msg}...")
 
     try:
         questions = generator.generate_multiple(
             count=args.count,
-            pattern_id=args.pattern
+            pattern_id=args.pattern,
+            level=args.level
         )
 
         if not questions:
@@ -234,7 +256,7 @@ Examples:
         if args.format in ['console', 'both']:
             # Display questions on console
             for i, question in enumerate(questions, 1):
-                print_question(question, i)
+                print_question(question, i, test_mode=args.test_mode)
 
         if args.format in ['json', 'both']:
             # Export to JSON
@@ -244,7 +266,7 @@ Examples:
         if args.format == 'txt':
             # Export to TXT
             output_path = args.output or 'output/questions.txt'
-            generator.export_txt(questions, output_path)
+            generator.export_txt(questions, output_path, test_mode=args.test_mode)
 
         print(f"\n{'='*70}")
         print("✓ Generation complete!")

@@ -48,7 +48,7 @@ class PatternLoader:
                 pattern = self._load_pattern_file(json_file)
                 if self._validate_pattern(pattern):
                     self.patterns.append(pattern)
-                    print(f"✓ Loaded: {json_file.name}")
+                    # print(f"✓ Loaded: {json_file.name}")
                 else:
                     print(f"✗ Skipped (invalid): {json_file.name}")
             except Exception as e:

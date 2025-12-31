@@ -70,11 +70,39 @@ class QuestionGenerator:
         self.question_counter += 1
         return question
 
+    # Level mapping for filtering
+    LEVEL_MAP = {
+        'beginner': ['A1', 'A2'],
+        'intermediate': ['B1', 'B2'],
+        'advanced': ['C1', 'C2']
+    }
+
+    def _filter_patterns_by_level(self, level: Optional[str]) -> List[Dict]:
+        """
+        Filter patterns by proficiency level.
+
+        Args:
+            level: Level name (beginner, intermediate, advanced) or None for all
+
+        Returns:
+            List of filtered patterns
+        """
+        if not level:
+            return self.patterns
+
+        allowed_levels = self.LEVEL_MAP.get(level, [])
+        if not allowed_levels:
+            return self.patterns
+
+        filtered = [p for p in self.patterns if p.get('level', '').upper() in allowed_levels]
+        return filtered
+
     def generate_multiple(
         self,
         count: int,
         pattern_id: Optional[str] = None,
-        shuffle_patterns: bool = True
+        shuffle_patterns: bool = True,
+        level: Optional[str] = None
     ) -> List[Dict]:
         """
         Generate multiple questions.
@@ -83,22 +111,32 @@ class QuestionGenerator:
             count: Number of questions to generate
             pattern_id: Specific pattern ID to use (optional)
             shuffle_patterns: If True, randomly select from all patterns
+            level: Proficiency level filter (beginner, intermediate, advanced)
 
         Returns:
             List of generated questions
         """
         questions = []
 
+        # Get filtered patterns based on level
+        available_patterns = self._filter_patterns_by_level(level)
+
+        if not available_patterns:
+            print(f"⚠ No patterns found for level '{level}'")
+            return questions
+
         for i in range(count):
             try:
                 if pattern_id:
                     question = self.generate_question(pattern_id=pattern_id)
                 elif shuffle_patterns:
-                    question = self.generate_question()
+                    # Select from filtered patterns
+                    pattern = random.choice(available_patterns)
+                    question = self.generate_question(pattern=pattern)
                 else:
-                    # Cycle through patterns
-                    pattern_idx = i % len(self.patterns)
-                    pattern = self.patterns[pattern_idx]
+                    # Cycle through filtered patterns
+                    pattern_idx = i % len(available_patterns)
+                    pattern = available_patterns[pattern_idx]
                     question = self.generate_question(pattern=pattern)
 
                 questions.append(question)
@@ -387,7 +425,8 @@ class QuestionGenerator:
     def export_txt(
         self,
         questions: List[Dict],
-        filepath: str = "output/questions.txt"
+        filepath: str = "output/questions.txt",
+        test_mode: bool = False
     ) -> None:
         """
         Export questions to human-readable text file.
@@ -395,35 +434,44 @@ class QuestionGenerator:
         Args:
             questions: List of question dictionaries
             filepath: Output file path
+            test_mode: If True, hide correct answers and explanations
         """
         output_path = Path(filepath)
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         with open(output_path, 'w', encoding='utf-8') as f:
+            header = "EYESH ENGLISH EXAM - TEST" if test_mode else "EYESH ENGLISH EXAM - GENERATED QUESTIONS"
             f.write("=" * 80 + "\n")
-            f.write("EYESH ENGLISH EXAM - GENERATED QUESTIONS\n")
+            f.write(f"{header}\n")
             f.write("=" * 80 + "\n\n")
 
             for i, q in enumerate(questions, 1):
                 f.write(f"Question {i}\n")
                 f.write("-" * 80 + "\n")
-                f.write(f"ID: {q['question_id']}\n")
-                f.write(f"Pattern: {q['pattern_id']}\n")
-                f.write(f"Focus: {q['focus']}\n")
-                f.write(f"Level: {q['level']}\n")
-                if q.get('domain'):
-                    f.write(f"Domain: {q['domain']}\n")
+
+                if not test_mode:
+                    f.write(f"ID: {q['question_id']}\n")
+                    f.write(f"Pattern: {q['pattern_id']}\n")
+                    f.write(f"Focus: {q['focus']}\n")
+                    f.write(f"Level: {q['level']}\n")
+                    if q.get('domain'):
+                        f.write(f"Domain: {q['domain']}\n")
                 f.write("\n")
 
                 f.write(f"{q['sentence']}\n\n")
 
-                # Write options
+                # Write options (without markers in test mode)
                 for letter in sorted(q['options'].keys()):
-                    marker = " ✓" if letter == q['correct_answer'] else ""
-                    f.write(f"  {letter}. {q['options'][letter]}{marker}\n")
+                    if test_mode:
+                        f.write(f"  {letter}. {q['options'][letter]}\n")
+                    else:
+                        marker = " ✓" if letter == q['correct_answer'] else ""
+                        f.write(f"  {letter}. {q['options'][letter]}{marker}\n")
 
-                f.write(f"\nCorrect Answer: {q['correct_answer']}\n")
-                f.write(f"Explanation: {q['explanation']}\n")
+                if not test_mode:
+                    f.write(f"\nCorrect Answer: {q['correct_answer']}\n")
+                    f.write(f"Explanation: {q['explanation']}\n")
+
                 f.write("\n" + "=" * 80 + "\n\n")
 
         print(f"✓ Exported {len(questions)} questions to {filepath}")
