@@ -35,9 +35,9 @@
           "might change"
         ],
         "wrong_forms": [
-          "will change",
-          "can change",
-          "should change"
+          "mights change",
+          "might changes",
+          "might changing"
         ],
         "objects": [
           "dramatically by evening",
@@ -52,9 +52,9 @@
           "might intensify"
         ],
         "wrong_forms": [
-          "will intensify",
-          "can intensify",
-          "should intensify"
+          "mights intensify",
+          "might intensifies",
+          "might intensifying"
         ],
         "objects": [
           "as the day progresses",
@@ -69,9 +69,9 @@
           "might clear"
         ],
         "wrong_forms": [
-          "will clear",
-          "can clear",
-          "should clear"
+          "mights clear",
+          "might clears",
+          "might clearing"
         ],
         "objects": [
           "by tomorrow morning",
@@ -86,9 +86,9 @@
           "might deteriorate"
         ],
         "wrong_forms": [
-          "will deteriorate",
-          "can deteriorate",
-          "should deteriorate"
+          "mights deteriorate",
+          "might deteriorates",
+          "might deteriorating"
         ],
         "objects": [
           "rapidly this weekend",

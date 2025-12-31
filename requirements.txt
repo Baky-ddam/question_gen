@@ -1,23 +1,17 @@
 # EYESH English Question Generator - Requirements
 # ===============================================
 #
-# This project uses only Python standard library modules.
-# No external dependencies are required.
+# Core modules (standard library - no install needed):
+# - json, pathlib, random, argparse, re, typing, sys
 #
 # Minimum Python version: 3.8+
-#
-# Standard library modules used:
-# - json (for pattern loading)
-# - pathlib (for file handling)
-# - random (for randomization)
-# - argparse (for CLI)
-# - re (for regex operations)
-# - typing (for type hints)
-# - sys (for system operations)
 
-# If you want to contribute or develop:
-# No packages needed - all built-in!
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
 
-# To verify your Python version:
-# python --version
-# (Should be 3.8 or higher)
+# Template rendering
+jinja2>=3.1.2
+
+# Form handling
+python-multipart>=0.0.6

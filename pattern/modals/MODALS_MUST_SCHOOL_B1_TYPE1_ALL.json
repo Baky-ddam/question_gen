@@ -33,9 +33,9 @@
           "must attend"
         ],
         "wrong_forms": [
-          "should attend",
-          "can attend",
-          "have to attend"
+          "musts attend",
+          "must attends",
+          "must attending"
         ],
         "objects": [
           "all classes",
@@ -49,9 +49,9 @@
           "must complete"
         ],
         "wrong_forms": [
-          "should complete",
-          "can complete",
-          "have to complete"
+          "musts complete",
+          "must completes",
+          "must completing"
         ],
         "objects": [
           "homework",
@@ -65,9 +65,9 @@
           "must submit"
         ],
         "wrong_forms": [
-          "should submit",
-          "can submit",
-          "have to submit"
+          "musts submit",
+          "must submits",
+          "must submitting"
         ],
         "objects": [
           "essays",
@@ -81,9 +81,9 @@
           "must follow"
         ],
         "wrong_forms": [
-          "should follow",
-          "can follow",
-          "have to follow"
+          "musts follow",
+          "must follows",
+          "must following"
         ],
         "objects": [
           "school rules",

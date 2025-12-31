@@ -35,9 +35,9 @@
           "may rise"
         ],
         "wrong_forms": [
-          "will rise",
-          "must rise",
-          "can rise"
+          "mays rise",
+          "may rises",
+          "may rising"
         ],
         "objects": [
           "significantly this quarter",
@@ -52,9 +52,9 @@
           "may fall"
         ],
         "wrong_forms": [
-          "will fall",
-          "must fall",
-          "can fall"
+          "mays fall",
+          "may falls",
+          "may falling"
         ],
         "objects": [
           "below critical thresholds",
@@ -69,9 +69,9 @@
           "may stabilize"
         ],
         "wrong_forms": [
-          "will stabilize",
-          "must stabilize",
-          "can stabilize"
+          "mays stabilize",
+          "may stabilizes",
+          "may stabilizing"
         ],
         "objects": [
           "at current levels",
@@ -86,9 +86,9 @@
           "may fluctuate"
         ],
         "wrong_forms": [
-          "will fluctuate",
-          "must fluctuate",
-          "can fluctuate"
+          "mays fluctuate",
+          "may fluctuates",
+          "may fluctuating"
         ],
         "objects": [
           "within a narrow range",

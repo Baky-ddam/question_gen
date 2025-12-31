@@ -27,9 +27,9 @@
           "can swim"
         ],
         "wrong_forms": [
-          "could swim",
-          "must swim",
-          "should swim"
+          "cans swim",
+          "can swims",
+          "can swimming"
         ],
         "distractor": "avoid",
         "objects": [
@@ -43,9 +43,9 @@
           "can dive"
         ],
         "wrong_forms": [
-          "could dive",
-          "must dive",
-          "should dive"
+          "cans dive",
+          "can dives",
+          "can diving"
         ],
         "distractor": "stop",
         "objects": [
@@ -59,9 +59,9 @@
           "can float"
         ],
         "wrong_forms": [
-          "could float",
-          "must float",
-          "should float"
+          "cans float",
+          "can floats",
+          "can floating"
         ],
         "distractor": "forget",
         "objects": [
@@ -75,9 +75,9 @@
           "can hold"
         ],
         "wrong_forms": [
-          "could hold",
-          "must hold",
-          "should hold"
+          "cans hold",
+          "can holds",
+          "can holding"
         ],
         "distractor": "lose",
         "objects": [

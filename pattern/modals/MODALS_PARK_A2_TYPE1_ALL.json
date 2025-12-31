@@ -33,9 +33,9 @@
           "can walk"
         ],
         "wrong_forms": [
-          "could walk",
-          "must walk",
-          "should walk"
+          "cans walk",
+          "can walks",
+          "can walking"
         ],
         "objects": [
           "the dog",
@@ -50,9 +50,9 @@
           "can play"
         ],
         "wrong_forms": [
-          "could play",
-          "must play",
-          "should play"
+          "cans play",
+          "can plays",
+          "can playing"
         ],
         "objects": [
           "soccer",
@@ -67,9 +67,9 @@
           "can picnic"
         ],
         "wrong_forms": [
-          "could picnic",
-          "must picnic",
-          "should picnic"
+          "cans picnic",
+          "can picnics",
+          "can picnicking"
         ],
         "objects": [
           "with family",
@@ -84,9 +84,9 @@
           "can relax"
         ],
         "wrong_forms": [
-          "could relax",
-          "must relax",
-          "should relax"
+          "cans relax",
+          "can relaxes",
+          "can relaxing"
         ],
         "objects": [
           "on the bench",

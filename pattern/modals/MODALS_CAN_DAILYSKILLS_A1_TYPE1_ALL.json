@@ -27,15 +27,15 @@
           "can clean"
         ],
         "wrong_forms": [
-          "could clean",
-          "must clean",
-          "should clean"
+          "cans clean",
+          "can cleans",
+          "can cleaning"
         ],
         "distractor": "ignore",
         "objects": [
-          "the house",
-          "my room",
-          "the kitchen"
+          "the house well. I learned how",
+          "my room perfectly. I have the skill",
+          "the kitchen fast. I know how"
         ]
       },
       "wash": {
@@ -43,15 +43,15 @@
           "can wash"
         ],
         "wrong_forms": [
-          "could wash",
-          "must wash",
-          "should wash"
+          "cans wash",
+          "can washes",
+          "can to wash"
         ],
         "distractor": "break",
         "objects": [
-          "clothes",
-          "dishes",
-          "the car"
+          "clothes properly. I have the ability",
+          "dishes quickly. I learned this skill",
+          "the car well. I know the technique"
         ]
       },
       "fix": {
@@ -59,15 +59,15 @@
           "can fix"
         ],
         "wrong_forms": [
-          "could fix",
-          "must fix",
-          "should fix"
+          "cans fix",
+          "can fixes",
+          "can fixing"
         ],
         "distractor": "forget",
         "objects": [
-          "things",
-          "bikes",
-          "computers"
+          "things easily. I have this skill",
+          "bikes well. I learned how",
+          "computers. I know how to do it"
         ]
       },
       "organize": {
@@ -75,15 +75,15 @@
           "can organize"
         ],
         "wrong_forms": [
-          "could organize",
-          "must organize",
-          "should organize"
+          "cans organize",
+          "can organizes",
+          "can to organize"
         ],
         "distractor": "lose",
         "objects": [
-          "my desk",
-          "my closet",
-          "my schedule"
+          "my desk well. I have this ability",
+          "my closet perfectly. I know how",
+          "my schedule. I learned this skill"
         ]
       }
     }

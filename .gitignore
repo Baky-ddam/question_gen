@@ -23,7 +23,8 @@ wheels/
 
 # Virtual environments
 venv/
-ENV/
+.venv/
+.env/
 env/
 
 # IDE
@@ -42,3 +43,4 @@ Thumbs.db
 *.backup2
 
 /dataset
+/output/

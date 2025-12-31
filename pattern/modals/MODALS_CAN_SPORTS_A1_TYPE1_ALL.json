@@ -27,9 +27,9 @@
           "can run"
         ],
         "wrong_forms": [
-          "could run",
-          "must run",
-          "should run"
+          "cans run",
+          "can runs",
+          "can running"
         ],
         "distractor": "stop",
         "objects": [
@@ -43,9 +43,9 @@
           "can jump"
         ],
         "wrong_forms": [
-          "could jump",
-          "must jump",
-          "should jump"
+          "cans jump",
+          "can jumps",
+          "can jumping"
         ],
         "distractor": "avoid",
         "objects": [
@@ -59,9 +59,9 @@
           "can catch"
         ],
         "wrong_forms": [
-          "could catch",
-          "must catch",
-          "should catch"
+          "cans catch",
+          "can catches",
+          "can catching"
         ],
         "distractor": "lose",
         "objects": [
@@ -75,9 +75,9 @@
           "can throw"
         ],
         "wrong_forms": [
-          "could throw",
-          "must throw",
-          "should throw"
+          "cans throw",
+          "can throws",
+          "can throwing"
         ],
         "distractor": "break",
         "objects": [

@@ -35,9 +35,9 @@
           "might reveal"
         ],
         "wrong_forms": [
-          "will reveal",
-          "can reveal",
-          "should reveal"
+          "mights reveal",
+          "might reveals",
+          "might revealing"
         ],
         "objects": [
           "unexpected patterns",
@@ -52,9 +52,9 @@
           "might confirm"
         ],
         "wrong_forms": [
-          "will confirm",
-          "can confirm",
-          "should confirm"
+          "mights confirm",
+          "might confirms",
+          "might confirming"
         ],
         "objects": [
           "the initial hypothesis",
@@ -69,9 +69,9 @@
           "might challenge"
         ],
         "wrong_forms": [
-          "will challenge",
-          "can challenge",
-          "should challenge"
+          "mights challenge",
+          "might challenges",
+          "might challenging"
         ],
         "objects": [
           "existing assumptions",
@@ -86,9 +86,9 @@
           "might contradict"
         ],
         "wrong_forms": [
-          "will contradict",
-          "can contradict",
-          "should contradict"
+          "mights contradict",
+          "might contradicts",
+          "might contradicting"
         ],
         "objects": [
           "previous research findings",

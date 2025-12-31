@@ -33,9 +33,9 @@
           "can visit"
         ],
         "wrong_forms": [
-          "could visit",
-          "must visit",
-          "should visit"
+          "cans visit",
+          "can visits",
+          "can visiting"
         ],
         "objects": [
           "the gallery",
@@ -50,9 +50,9 @@
           "can see"
         ],
         "wrong_forms": [
-          "could see",
-          "must see",
-          "should see"
+          "cans see",
+          "can sees",
+          "can seeing"
         ],
         "objects": [
           "the paintings",
@@ -67,9 +67,9 @@
           "can photograph"
         ],
         "wrong_forms": [
-          "could photograph",
-          "must photograph",
-          "should photograph"
+          "cans photograph",
+          "can photographs",
+          "can photographing"
         ],
         "objects": [
           "the artwork",
@@ -84,9 +84,9 @@
           "can explore"
         ],
         "wrong_forms": [
-          "could explore",
-          "must explore",
-          "should explore"
+          "cans explore",
+          "can explores",
+          "can exploring"
         ],
         "objects": [
           "the museum",

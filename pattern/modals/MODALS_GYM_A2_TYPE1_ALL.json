@@ -33,9 +33,9 @@
           "can exercise"
         ],
         "wrong_forms": [
-          "could exercise",
-          "must exercise",
-          "should exercise"
+          "cans exercise",
+          "can exercises",
+          "can exercising"
         ],
         "objects": [
           "freely",
@@ -50,9 +50,9 @@
           "can train"
         ],
         "wrong_forms": [
-          "could train",
-          "must train",
-          "should train"
+          "cans train",
+          "can trains",
+          "can training"
         ],
         "objects": [
           "with weights",
@@ -67,9 +67,9 @@
           "can use"
         ],
         "wrong_forms": [
-          "could use",
-          "must use",
-          "should use"
+          "cans use",
+          "can uses",
+          "can using"
         ],
         "objects": [
           "the equipment",
@@ -84,9 +84,9 @@
           "can swim"
         ],
         "wrong_forms": [
-          "could swim",
-          "must swim",
-          "should swim"
+          "cans swim",
+          "can swims",
+          "can swimming"
         ],
         "objects": [
           "laps",

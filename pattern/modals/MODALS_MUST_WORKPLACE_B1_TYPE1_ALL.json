@@ -33,9 +33,9 @@
           "must wear"
         ],
         "wrong_forms": [
-          "should wear",
-          "can wear",
-          "have to wear"
+          "musts wear",
+          "must wears",
+          "must wearing"
         ],
         "objects": [
           "ID badges",
@@ -49,9 +49,9 @@
           "must follow"
         ],
         "wrong_forms": [
-          "should follow",
-          "can follow",
-          "have to follow"
+          "musts follow",
+          "must follows",
+          "must following"
         ],
         "objects": [
           "company policies",
@@ -65,9 +65,9 @@
           "must report"
         ],
         "wrong_forms": [
-          "should report",
-          "can report",
-          "have to report"
+          "musts report",
+          "must reports",
+          "must reporting"
         ],
         "objects": [
           "incidents immediately",
@@ -81,9 +81,9 @@
           "must complete"
         ],
         "wrong_forms": [
-          "should complete",
-          "can complete",
-          "have to complete"
+          "musts complete",
+          "must completes",
+          "must completing"
         ],
         "objects": [
           "training sessions",

@@ -33,9 +33,9 @@
           "can pay"
         ],
         "wrong_forms": [
-          "could pay",
-          "must pay",
-          "should pay"
+          "cans pay",
+          "can pays",
+          "can paying"
         ],
         "objects": [
           "by card",
@@ -50,9 +50,9 @@
           "can buy"
         ],
         "wrong_forms": [
-          "could buy",
-          "must buy",
-          "should buy"
+          "cans buy",
+          "can buys",
+          "can buying"
         ],
         "objects": [
           "the items",
@@ -67,9 +67,9 @@
           "can return"
         ],
         "wrong_forms": [
-          "could return",
-          "must return",
-          "should return"
+          "cans return",
+          "can returns",
+          "can returning"
         ],
         "objects": [
           "the item",
@@ -84,9 +84,9 @@
           "can exchange"
         ],
         "wrong_forms": [
-          "could exchange",
-          "must exchange",
-          "should exchange"
+          "cans exchange",
+          "can exchanges",
+          "can exchanging"
         ],
         "objects": [
           "the item",

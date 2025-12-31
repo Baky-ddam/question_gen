@@ -35,9 +35,9 @@
           "could grow"
         ],
         "wrong_forms": [
-          "can grow",
-          "would grow",
-          "should grow"
+          "coulds grow",
+          "could grows",
+          "could growing"
         ],
         "objects": [
           "at a sustainable pace",
@@ -52,9 +52,9 @@
           "could contract"
         ],
         "wrong_forms": [
-          "can contract",
-          "would contract",
-          "should contract"
+          "coulds contract",
+          "could contracts",
+          "could contracting"
         ],
         "objects": [
           "if conditions deteriorate",
@@ -69,9 +69,9 @@
           "could stabilize"
         ],
         "wrong_forms": [
-          "can stabilize",
-          "would stabilize",
-          "should stabilize"
+          "coulds stabilize",
+          "could stabilizes",
+          "could stabilizing"
         ],
         "objects": [
           "after recent turbulence",
@@ -86,9 +86,9 @@
           "could recover"
         ],
         "wrong_forms": [
-          "can recover",
-          "would recover",
-          "should recover"
+          "coulds recover",
+          "could recovers",
+          "could recovering"
         ],
         "objects": [
           "faster than expected",

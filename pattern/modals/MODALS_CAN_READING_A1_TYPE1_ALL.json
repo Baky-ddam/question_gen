@@ -27,9 +27,9 @@
           "can read"
         ],
         "wrong_forms": [
-          "could read",
-          "must read",
-          "should read"
+          "cans read",
+          "can reads",
+          "can reading"
         ],
         "distractor": "ignore",
         "objects": [
@@ -43,9 +43,9 @@
           "can understand"
         ],
         "wrong_forms": [
-          "could understand",
-          "must understand",
-          "should understand"
+          "cans understand",
+          "can understands",
+          "can understanding"
         ],
         "distractor": "forget",
         "objects": [
@@ -59,9 +59,9 @@
           "can spell"
         ],
         "wrong_forms": [
-          "could spell",
-          "must spell",
-          "should spell"
+          "cans spell",
+          "can spells",
+          "can spelling"
         ],
         "distractor": "hate",
         "objects": [
@@ -75,9 +75,9 @@
           "can pronounce"
         ],
         "wrong_forms": [
-          "could pronounce",
-          "must pronounce",
-          "should pronounce"
+          "cans pronounce",
+          "can pronounces",
+          "can pronouncing"
         ],
         "distractor": "avoid",
         "objects": [

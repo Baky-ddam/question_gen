@@ -33,9 +33,9 @@
           "should communicate"
         ],
         "wrong_forms": [
-          "must communicate",
-          "can communicate",
-          "could communicate"
+          "shoulds communicate",
+          "should communicates",
+          "should communicating"
         ],
         "objects": [
           "clearly",
@@ -49,9 +49,9 @@
           "should prioritize"
         ],
         "wrong_forms": [
-          "must prioritize",
-          "can prioritize",
-          "could prioritize"
+          "shoulds prioritize",
+          "should prioritizes",
+          "should prioritizing"
         ],
         "objects": [
           "important tasks",
@@ -65,9 +65,9 @@
           "should delegate"
         ],
         "wrong_forms": [
-          "must delegate",
-          "can delegate",
-          "could delegate"
+          "shoulds delegate",
+          "should delegates",
+          "should delegating"
         ],
         "objects": [
           "tasks appropriately",
@@ -81,9 +81,9 @@
           "should plan"
         ],
         "wrong_forms": [
-          "must plan",
-          "can plan",
-          "could plan"
+          "shoulds plan",
+          "should plans",
+          "should planning"
         ],
         "objects": [
           "ahead",

@@ -33,9 +33,9 @@
           "should save"
         ],
         "wrong_forms": [
-          "must save",
-          "can save",
-          "could save"
+          "shoulds save",
+          "should saves",
+          "should saving"
         ],
         "objects": [
           "money regularly",
@@ -49,9 +49,9 @@
           "should budget"
         ],
         "wrong_forms": [
-          "must budget",
-          "can budget",
-          "could budget"
+          "shoulds budget",
+          "should budgets",
+          "should budgeting"
         ],
         "objects": [
           "monthly expenses",
@@ -65,9 +65,9 @@
           "should invest"
         ],
         "wrong_forms": [
-          "must invest",
-          "can invest",
-          "could invest"
+          "shoulds invest",
+          "should invests",
+          "should investing"
         ],
         "objects": [
           "in diverse assets",
@@ -81,9 +81,9 @@
           "should track"
         ],
         "wrong_forms": [
-          "must track",
-          "can track",
-          "could track"
+          "shoulds track",
+          "should tracks",
+          "should tracking"
         ],
         "objects": [
           "spending habits",

@@ -27,9 +27,9 @@
           "can draw"
         ],
         "wrong_forms": [
-          "could draw",
-          "must draw",
-          "should draw"
+          "cans draw",
+          "can draws",
+          "can drawing"
         ],
         "distractor": "hate",
         "objects": [
@@ -43,9 +43,9 @@
           "can paint"
         ],
         "wrong_forms": [
-          "could paint",
-          "must paint",
-          "should paint"
+          "cans paint",
+          "can paints",
+          "can painting"
         ],
         "distractor": "break",
         "objects": [
@@ -59,9 +59,9 @@
           "can create"
         ],
         "wrong_forms": [
-          "could create",
-          "must create",
-          "should create"
+          "cans create",
+          "can creates",
+          "can creating"
         ],
         "distractor": "ignore",
         "objects": [
@@ -75,9 +75,9 @@
           "can design"
         ],
         "wrong_forms": [
-          "could design",
-          "must design",
-          "should design"
+          "cans design",
+          "can designs",
+          "can designing"
         ],
         "distractor": "forget",
         "objects": [

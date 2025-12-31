@@ -35,9 +35,9 @@
           "could increase"
         ],
         "wrong_forms": [
-          "can increase",
-          "would increase",
-          "should increase"
+          "coulds increase",
+          "could increases",
+          "could increasing"
         ],
         "objects": [
           "substantially over time",
@@ -52,9 +52,9 @@
           "could decrease"
         ],
         "wrong_forms": [
-          "can decrease",
-          "would decrease",
-          "should decrease"
+          "coulds decrease",
+          "could decreases",
+          "could decreasing"
         ],
         "objects": [
           "during market corrections",
@@ -69,9 +69,9 @@
           "could fluctuate"
         ],
         "wrong_forms": [
-          "can fluctuate",
-          "would fluctuate",
-          "should fluctuate"
+          "coulds fluctuate",
+          "could fluctuates",
+          "could fluctuating"
         ],
         "objects": [
           "significantly in volatile markets",
@@ -86,9 +86,9 @@
           "could outperform"
         ],
         "wrong_forms": [
-          "can outperform",
-          "would outperform",
-          "should outperform"
+          "coulds outperform",
+          "could outperforms",
+          "could outperforming"
         ],
         "objects": [
           "traditional investment options",

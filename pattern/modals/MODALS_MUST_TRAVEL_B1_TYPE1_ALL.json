@@ -33,9 +33,9 @@
           "must have"
         ],
         "wrong_forms": [
-          "should have",
-          "can have",
-          "have to have"
+          "musts have",
+          "must has",
+          "must having"
         ],
         "objects": [
           "a valid passport",
@@ -49,9 +49,9 @@
           "must show"
         ],
         "wrong_forms": [
-          "should show",
-          "can show",
-          "have to show"
+          "musts show",
+          "must shows",
+          "must showing"
         ],
         "objects": [
           "identification",
@@ -65,9 +65,9 @@
           "must carry"
         ],
         "wrong_forms": [
-          "should carry",
-          "can carry",
-          "have to carry"
+          "musts carry",
+          "must carries",
+          "must carrying"
         ],
         "objects": [
           "valid tickets",
@@ -81,9 +81,9 @@
           "must declare"
         ],
         "wrong_forms": [
-          "should declare",
-          "can declare",
-          "have to declare"
+          "musts declare",
+          "must declares",
+          "must declaring"
         ],
         "objects": [
           "customs items",

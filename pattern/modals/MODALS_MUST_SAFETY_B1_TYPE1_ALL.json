@@ -33,9 +33,9 @@
           "must wear"
         ],
         "wrong_forms": [
-          "should wear",
-          "can wear",
-          "have to wear"
+          "musts wear",
+          "must wears",
+          "must wearing"
         ],
         "objects": [
           "safety helmets",
@@ -49,9 +49,9 @@
           "must follow"
         ],
         "wrong_forms": [
-          "should follow",
-          "can follow",
-          "have to follow"
+          "musts follow",
+          "must follows",
+          "must following"
         ],
         "objects": [
           "safety guidelines",
@@ -65,9 +65,9 @@
           "must check"
         ],
         "wrong_forms": [
-          "should check",
-          "can check",
-          "have to check"
+          "musts check",
+          "must checks",
+          "must checking"
         ],
         "objects": [
           "equipment regularly",
@@ -81,9 +81,9 @@
           "must use"
         ],
         "wrong_forms": [
-          "should use",
-          "can use",
-          "have to use"
+          "musts use",
+          "must uses",
+          "must using"
         ],
         "objects": [
           "proper equipment",

@@ -33,9 +33,9 @@
           "can order"
         ],
         "wrong_forms": [
-          "could order",
-          "must order",
-          "should order"
+          "cans order",
+          "can orders",
+          "can ordering"
         ],
         "objects": [
           "food",
@@ -50,9 +50,9 @@
           "can reserve"
         ],
         "wrong_forms": [
-          "could reserve",
-          "must reserve",
-          "should reserve"
+          "cans reserve",
+          "can reserves",
+          "can reserving"
         ],
         "objects": [
           "a table",
@@ -67,9 +67,9 @@
           "can sit"
         ],
         "wrong_forms": [
-          "could sit",
-          "must sit",
-          "should sit"
+          "cans sit",
+          "can sits",
+          "can sitting"
         ],
         "objects": [
           "outside",
@@ -84,9 +84,9 @@
           "can eat"
         ],
         "wrong_forms": [
-          "could eat",
-          "must eat",
-          "should eat"
+          "cans eat",
+          "can eats",
+          "can eating"
         ],
         "objects": [
           "lunch",

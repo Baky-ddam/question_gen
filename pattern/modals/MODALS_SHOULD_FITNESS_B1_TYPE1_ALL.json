@@ -33,9 +33,9 @@
           "should exercise"
         ],
         "wrong_forms": [
-          "must exercise",
-          "can exercise",
-          "could exercise"
+          "shoulds exercise",
+          "should exercises",
+          "should exercising"
         ],
         "objects": [
           "regularly",
@@ -49,9 +49,9 @@
           "should eat"
         ],
         "wrong_forms": [
-          "must eat",
-          "can eat",
-          "could eat"
+          "shoulds eat",
+          "should eats",
+          "should eating"
         ],
         "objects": [
           "healthy food",
@@ -65,9 +65,9 @@
           "should sleep"
         ],
         "wrong_forms": [
-          "must sleep",
-          "can sleep",
-          "could sleep"
+          "shoulds sleep",
+          "should sleeps",
+          "should sleeping"
         ],
         "objects": [
           "eight hours",
@@ -81,9 +81,9 @@
           "should stretch"
         ],
         "wrong_forms": [
-          "must stretch",
-          "can stretch",
-          "could stretch"
+          "shoulds stretch",
+          "should stretches",
+          "should stretching"
         ],
         "objects": [
           "before workouts",

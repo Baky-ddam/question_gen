@@ -35,9 +35,9 @@
           "might succeed"
         ],
         "wrong_forms": [
-          "will succeed",
-          "can succeed",
-          "should succeed"
+          "mights succeed",
+          "might succeeds",
+          "might succeeding"
         ],
         "objects": [
           "beyond expectations",
@@ -52,9 +52,9 @@
           "might fail"
         ],
         "wrong_forms": [
-          "will fail",
-          "can fail",
-          "should fail"
+          "mights fail",
+          "might fails",
+          "might failing"
         ],
         "objects": [
           "to meet requirements",
@@ -69,9 +69,9 @@
           "might delay"
         ],
         "wrong_forms": [
-          "will delay",
-          "can delay",
-          "should delay"
+          "mights delay",
+          "might delays",
+          "might delaying"
         ],
         "objects": [
           "the launch significantly",
@@ -86,9 +86,9 @@
           "might exceed"
         ],
         "wrong_forms": [
-          "will exceed",
-          "can exceed",
-          "should exceed"
+          "mights exceed",
+          "might exceeds",
+          "might exceeding"
         ],
         "objects": [
           "the allocated budget",

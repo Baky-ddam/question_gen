@@ -35,9 +35,9 @@
           "may succeed"
         ],
         "wrong_forms": [
-          "will succeed",
-          "must succeed",
-          "can succeed"
+          "mays succeed",
+          "may succeeds",
+          "may succeeding"
         ],
         "objects": [
           "after prolonged deliberations",
@@ -52,9 +52,9 @@
           "may fail"
         ],
         "wrong_forms": [
-          "will fail",
-          "must fail",
-          "can fail"
+          "mays fail",
+          "may fails",
+          "may failing"
         ],
         "objects": [
           "to reach a breakthrough",
@@ -69,9 +69,9 @@
           "may extend"
         ],
         "wrong_forms": [
-          "will extend",
-          "must extend",
-          "can extend"
+          "mays extend",
+          "may extends",
+          "may extending"
         ],
         "objects": [
           "beyond the original deadline",
@@ -86,9 +86,9 @@
           "may stall"
         ],
         "wrong_forms": [
-          "will stall",
-          "must stall",
-          "can stall"
+          "mays stall",
+          "may stalls",
+          "may stalling"
         ],
         "objects": [
           "over contentious points",

@@ -27,9 +27,9 @@
           "can type"
         ],
         "wrong_forms": [
-          "could type",
-          "must type",
-          "should type"
+          "cans type",
+          "can types",
+          "can typing"
         ],
         "distractor": "forget",
         "objects": [
@@ -43,9 +43,9 @@
           "can use"
         ],
         "wrong_forms": [
-          "could use",
-          "must use",
-          "should use"
+          "cans use",
+          "can uses",
+          "can using"
         ],
         "distractor": "break",
         "objects": [
@@ -59,9 +59,9 @@
           "can play"
         ],
         "wrong_forms": [
-          "could play",
-          "must play",
-          "should play"
+          "cans play",
+          "can plays",
+          "can playing"
         ],
         "distractor": "hate",
         "objects": [
@@ -75,9 +75,9 @@
           "can download"
         ],
         "wrong_forms": [
-          "could download",
-          "must download",
-          "should download"
+          "cans download",
+          "can downloads",
+          "can downloading"
         ],
         "distractor": "lose",
         "objects": [

@@ -27,9 +27,9 @@
           "can cook"
         ],
         "wrong_forms": [
-          "could cook",
-          "must cook",
-          "should cook"
+          "cans cook",
+          "can cooks",
+          "can cooking"
         ],
         "distractor": "break",
         "objects": [
@@ -43,9 +43,9 @@
           "can bake"
         ],
         "wrong_forms": [
-          "could bake",
-          "must bake",
-          "should bake"
+          "cans bake",
+          "can bakes",
+          "can baking"
         ],
         "distractor": "lose",
         "objects": [
@@ -59,9 +59,9 @@
           "can make"
         ],
         "wrong_forms": [
-          "could make",
-          "must make",
-          "should make"
+          "cans make",
+          "can makes",
+          "can making"
         ],
         "distractor": "stop",
         "objects": [
@@ -75,9 +75,9 @@
           "can prepare"
         ],
         "wrong_forms": [
-          "could prepare",
-          "must prepare",
-          "should prepare"
+          "cans prepare",
+          "can prepares",
+          "can preparing"
         ],
         "distractor": "forget",
         "objects": [

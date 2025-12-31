@@ -168,7 +168,7 @@ class QuestionGenerator:
 
         # Generate distractors
         distractors = self._generate_distractors(
-            pattern, correct_answer, blank_item_used
+            pattern, correct_answer, blank_item_used, selected_chunks
         )
 
         # Create options (1 correct + 4 distractors = 5 total for EYESH format A-E)
@@ -190,13 +190,9 @@ class QuestionGenerator:
 
         # Generate explanation
         item_explanation = None
-        # Find the blank chunk and get explanation from the selected item
-        for chunk_name, chunk_values in chunks.items():
-            if isinstance(chunk_values, dict) and self._is_blank_chunk(chunk_values):
-                if blank_item_used in chunk_values:
-                    item_data = chunk_values[blank_item_used]
-                    item_explanation = item_data.get('explanation')
-                break
+        # Use the stored item data if available
+        if 'BLANK_ITEM_DATA' in selected_chunks:
+            item_explanation = selected_chunks['BLANK_ITEM_DATA'].get('explanation')
 
         explanation = self.grammar_engine.generate_answer_explanation(
             pattern, blank_item_used, correct_answer, item_explanation
@@ -235,14 +231,22 @@ class QuestionGenerator:
 
         for chunk_name, chunk_values in chunks.items():
             # Check if this is a "blank chunk" (has nested structure with correct_forms)
-            if isinstance(chunk_values, dict) and self._is_blank_chunk(chunk_values):
+            if self._is_blank_chunk(chunk_values):
                 # This is the chunk that goes in the blank (VERB, AUX, MODAL, etc.)
-                chunk_dict = chunk_values
-                selected_item = random.choice(list(chunk_dict.keys()))
-                selected[chunk_name] = selected_item
 
-                # Get item data
-                item_data = chunk_dict[selected_item]
+                # Handle list structure (e.g., past_simple patterns)
+                if isinstance(chunk_values, list):
+                    # Select a random item from the list
+                    item_data = random.choice(chunk_values)
+                    # Use index as identifier for list-based chunks
+                    selected_item = chunk_values.index(item_data)
+                    selected[chunk_name] = selected_item
+                # Handle dict structure (e.g., modal patterns)
+                else:
+                    chunk_dict = chunk_values
+                    selected_item = random.choice(list(chunk_dict.keys()))
+                    selected[chunk_name] = selected_item
+                    item_data = chunk_dict[selected_item]
 
                 # Select correct form (usually just one item in the list)
                 selected['CORRECT_FORM'] = random.choice(item_data['correct_forms'])
@@ -261,8 +265,10 @@ class QuestionGenerator:
                             selected['OBJ'] = obj
                         break
 
-                # Store the selected item name for later use (for explanations, distractors)
+                # Store the selected item data for later use (for explanations, distractors)
                 selected['BLANK_ITEM'] = selected_item
+                # Also store the actual item data for list-based chunks
+                selected['BLANK_ITEM_DATA'] = item_data
 
             elif isinstance(chunk_values, list):
                 # Simple list - select random item
@@ -276,21 +282,30 @@ class QuestionGenerator:
 
         return selected
 
-    def _is_blank_chunk(self, chunk_dict: Dict) -> bool:
+    def _is_blank_chunk(self, chunk_value) -> bool:
         """
-        Check if a chunk dictionary is a "blank chunk" (contains correct_forms, wrong_forms, etc.).
+        Check if a chunk is a "blank chunk" (contains correct_forms, wrong_forms, etc.).
+        Handles both dict structure (modals) and list structure (past_simple).
 
         Args:
-            chunk_dict: Chunk dictionary to check
+            chunk_value: Chunk value to check (can be dict or list)
 
         Returns:
             True if this is a blank chunk (VERB, AUX, MODAL, etc.)
         """
-        if not isinstance(chunk_dict, dict):
+        # Handle list structure (e.g., past_simple patterns)
+        if isinstance(chunk_value, list):
+            for item in chunk_value:
+                if isinstance(item, dict) and 'correct_forms' in item and 'wrong_forms' in item:
+                    return True
+            return False
+
+        # Handle dict structure (e.g., modal patterns)
+        if not isinstance(chunk_value, dict):
             return False
 
         # Check if at least one value has the required structure
-        for value in chunk_dict.values():
+        for value in chunk_value.values():
             if isinstance(value, dict) and 'correct_forms' in value and 'wrong_forms' in value:
                 return True
 
@@ -343,7 +358,8 @@ class QuestionGenerator:
         self,
         pattern: Dict,
         correct_answer: str,
-        blank_item_used: str
+        blank_item_used: str,
+        selected_chunks: Optional[Dict] = None
     ) -> List[str]:
         """
         Generate distractor options from the blank chunk data.
@@ -353,29 +369,40 @@ class QuestionGenerator:
             pattern: Pattern dictionary
             correct_answer: The correct answer
             blank_item_used: The item that was selected from the blank chunk (verb, aux, etc.)
+            selected_chunks: Selected chunks dict containing BLANK_ITEM_DATA
 
         Returns:
             List of distractor strings (exactly 4 for EYESH format)
         """
         distractors = []
 
-        # Find the blank chunk (the one with nested structure)
-        if 'chunks' in pattern:
-            for chunk_name, chunk_values in pattern['chunks'].items():
-                if isinstance(chunk_values, dict) and self._is_blank_chunk(chunk_values):
-                    # Found the blank chunk
-                    if blank_item_used in chunk_values:
-                        item_data = chunk_values[blank_item_used]
+        # Try to get item_data from selected_chunks first (handles both list and dict structures)
+        item_data = None
+        if selected_chunks and 'BLANK_ITEM_DATA' in selected_chunks:
+            item_data = selected_chunks['BLANK_ITEM_DATA']
+        else:
+            # Fallback: Find the blank chunk (the one with nested structure)
+            if 'chunks' in pattern:
+                for chunk_name, chunk_values in pattern['chunks'].items():
+                    if self._is_blank_chunk(chunk_values):
+                        # Handle dict structure
+                        if isinstance(chunk_values, dict) and blank_item_used in chunk_values:
+                            item_data = chunk_values[blank_item_used]
+                        # Handle list structure
+                        elif isinstance(chunk_values, list) and isinstance(blank_item_used, int):
+                            if 0 <= blank_item_used < len(chunk_values):
+                                item_data = chunk_values[blank_item_used]
+                        break
 
-                        # Add wrong_forms (3 grammatical transformations)
-                        if 'wrong_forms' in item_data:
-                            distractors.extend(item_data['wrong_forms'])
+        # Extract distractors from item_data
+        if item_data:
+            # Add wrong_forms (3 grammatical transformations)
+            if 'wrong_forms' in item_data:
+                distractors.extend(item_data['wrong_forms'])
 
-                        # Add distractor (semantically inappropriate option)
-                        if 'distractor' in item_data:
-                            distractors.append(item_data['distractor'])
-
-                    break  # Found the blank chunk, no need to continue
+            # Add distractor (semantically inappropriate option)
+            if 'distractor' in item_data:
+                distractors.append(item_data['distractor'])
 
         # Ensure distractors are unique and different from correct answer
         distractors = self.grammar_engine.ensure_unique_options(

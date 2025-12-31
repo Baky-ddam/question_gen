@@ -33,9 +33,9 @@
           "can print"
         ],
         "wrong_forms": [
-          "could print",
-          "must print",
-          "should print"
+          "cans print",
+          "can prints",
+          "can printing"
         ],
         "objects": [
           "documents",
@@ -50,9 +50,9 @@
           "can copy"
         ],
         "wrong_forms": [
-          "could copy",
-          "must copy",
-          "should copy"
+          "cans copy",
+          "can copies",
+          "can copying"
         ],
         "objects": [
           "the papers",
@@ -67,9 +67,9 @@
           "can scan"
         ],
         "wrong_forms": [
-          "could scan",
-          "must scan",
-          "should scan"
+          "cans scan",
+          "can scans",
+          "can scanning"
         ],
         "objects": [
           "documents",
@@ -84,9 +84,9 @@
           "can fax"
         ],
         "wrong_forms": [
-          "could fax",
-          "must fax",
-          "should fax"
+          "cans fax",
+          "can faxes",
+          "can faxing"
         ],
         "objects": [
           "the forms",

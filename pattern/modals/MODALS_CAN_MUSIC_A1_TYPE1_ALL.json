@@ -27,9 +27,9 @@
           "can play"
         ],
         "wrong_forms": [
-          "could play",
-          "must play",
-          "should play"
+          "cans play",
+          "can plays",
+          "can playing"
         ],
         "distractor": "break",
         "objects": [
@@ -43,9 +43,9 @@
           "can sing"
         ],
         "wrong_forms": [
-          "could sing",
-          "must sing",
-          "should sing"
+          "cans sing",
+          "can sings",
+          "can singing"
         ],
         "distractor": "stop",
         "objects": [
@@ -59,9 +59,9 @@
           "can dance"
         ],
         "wrong_forms": [
-          "could dance",
-          "must dance",
-          "should dance"
+          "cans dance",
+          "can dances",
+          "can dancing"
         ],
         "distractor": "hate",
         "objects": [
@@ -75,9 +75,9 @@
           "can compose"
         ],
         "wrong_forms": [
-          "could compose",
-          "must compose",
-          "should compose"
+          "cans compose",
+          "can composes",
+          "can composing"
         ],
         "distractor": "forget",
         "objects": [

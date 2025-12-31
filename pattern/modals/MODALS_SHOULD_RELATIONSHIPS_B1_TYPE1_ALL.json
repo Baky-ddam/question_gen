@@ -33,9 +33,9 @@
           "should listen"
         ],
         "wrong_forms": [
-          "must listen",
-          "can listen",
-          "could listen"
+          "shoulds listen",
+          "should listens",
+          "should listening"
         ],
         "objects": [
           "carefully",
@@ -49,9 +49,9 @@
           "should support"
         ],
         "wrong_forms": [
-          "must support",
-          "can support",
-          "could support"
+          "shoulds support",
+          "should supports",
+          "should supporting"
         ],
         "objects": [
           "each other",
@@ -65,9 +65,9 @@
           "should understand"
         ],
         "wrong_forms": [
-          "must understand",
-          "can understand",
-          "could understand"
+          "shoulds understand",
+          "should understands",
+          "should understanding"
         ],
         "objects": [
           "different perspectives",
@@ -81,9 +81,9 @@
           "should respect"
         ],
         "wrong_forms": [
-          "must respect",
-          "can respect",
-          "could respect"
+          "shoulds respect",
+          "should respects",
+          "should respecting"
         ],
         "objects": [
           "boundaries",

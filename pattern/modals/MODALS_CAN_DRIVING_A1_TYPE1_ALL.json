@@ -27,9 +27,9 @@
           "can drive"
         ],
         "wrong_forms": [
-          "could drive",
-          "must drive",
-          "should drive"
+          "cans drive",
+          "can drives",
+          "can driving"
         ],
         "distractor": "avoid",
         "objects": [
@@ -43,9 +43,9 @@
           "can park"
         ],
         "wrong_forms": [
-          "could park",
-          "must park",
-          "should park"
+          "cans park",
+          "can parks",
+          "can parking"
         ],
         "distractor": "ignore",
         "objects": [
@@ -59,9 +59,9 @@
           "can ride"
         ],
         "wrong_forms": [
-          "could ride",
-          "must ride",
-          "should ride"
+          "cans ride",
+          "can rides",
+          "can riding"
         ],
         "distractor": "break",
         "objects": [
@@ -75,9 +75,9 @@
           "can navigate"
         ],
         "wrong_forms": [
-          "could navigate",
-          "must navigate",
-          "should navigate"
+          "cans navigate",
+          "can navigates",
+          "can navigating"
         ],
         "distractor": "lose",
         "objects": [

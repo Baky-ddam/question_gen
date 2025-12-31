@@ -33,9 +33,9 @@
           "should review"
         ],
         "wrong_forms": [
-          "must review",
-          "can review",
-          "could review"
+          "shoulds review",
+          "should reviews",
+          "should reviewing"
         ],
         "objects": [
           "the material",
@@ -49,9 +49,9 @@
           "should practice"
         ],
         "wrong_forms": [
-          "must practice",
-          "can practice",
-          "could practice"
+          "shoulds practice",
+          "should practices",
+          "should practicing"
         ],
         "objects": [
           "regularly",
@@ -65,9 +65,9 @@
           "should prepare"
         ],
         "wrong_forms": [
-          "must prepare",
-          "can prepare",
-          "could prepare"
+          "shoulds prepare",
+          "should prepares",
+          "should preparing"
         ],
         "objects": [
           "in advance",
@@ -81,9 +81,9 @@
           "should focus"
         ],
         "wrong_forms": [
-          "must focus",
-          "can focus",
-          "could focus"
+          "shoulds focus",
+          "should focuses",
+          "should focusing"
         ],
         "objects": [
           "on difficult topics",

@@ -27,9 +27,9 @@
           "can speak"
         ],
         "wrong_forms": [
-          "could speak",
-          "must speak",
-          "should speak"
+          "cans speak",
+          "can speaks",
+          "can speaking"
         ],
         "distractor": "forget",
         "objects": [
@@ -43,9 +43,9 @@
           "can read"
         ],
         "wrong_forms": [
-          "could read",
-          "must read",
-          "should read"
+          "cans read",
+          "can reads",
+          "can reading"
         ],
         "distractor": "ignore",
         "objects": [
@@ -59,9 +59,9 @@
           "can write"
         ],
         "wrong_forms": [
-          "could write",
-          "must write",
-          "should write"
+          "cans write",
+          "can writes",
+          "can writing"
         ],
         "distractor": "avoid",
         "objects": [
@@ -75,9 +75,9 @@
           "can understand"
         ],
         "wrong_forms": [
-          "could understand",
-          "must understand",
-          "should understand"
+          "cans understand",
+          "can understands",
+          "can understanding"
         ],
         "distractor": "hate",
         "objects": [

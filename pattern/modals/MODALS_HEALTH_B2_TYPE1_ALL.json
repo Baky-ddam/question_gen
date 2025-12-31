@@ -35,9 +35,9 @@
           "might improve"
         ],
         "wrong_forms": [
-          "will improve",
-          "can improve",
-          "should improve"
+          "mights improve",
+          "might improves",
+          "might improving"
         ],
         "objects": [
           "significantly over time",
@@ -52,9 +52,9 @@
           "might worsen"
         ],
         "wrong_forms": [
-          "will worsen",
-          "can worsen",
-          "should worsen"
+          "mights worsen",
+          "might worsens",
+          "might worsening"
         ],
         "objects": [
           "without appropriate treatment",
@@ -69,9 +69,9 @@
           "might stabilize"
         ],
         "wrong_forms": [
-          "will stabilize",
-          "can stabilize",
-          "should stabilize"
+          "mights stabilize",
+          "might stabilizes",
+          "might stabilizing"
         ],
         "objects": [
           "with continued monitoring",
@@ -86,9 +86,9 @@
           "might fluctuate"
         ],
         "wrong_forms": [
-          "will fluctuate",
-          "can fluctuate",
-          "should fluctuate"
+          "mights fluctuate",
+          "might fluctuates",
+          "might fluctuating"
         ],
         "objects": [
           "during the treatment period",

@@ -33,9 +33,9 @@
           "can borrow"
         ],
         "wrong_forms": [
-          "could borrow",
-          "must borrow",
-          "should borrow"
+          "cans borrow",
+          "can borrows",
+          "can borrowing"
         ],
         "objects": [
           "books",
@@ -50,9 +50,9 @@
           "can read"
         ],
         "wrong_forms": [
-          "could read",
-          "must read",
-          "should read"
+          "cans read",
+          "can reads",
+          "can reading"
         ],
         "objects": [
           "the newspapers",
@@ -67,9 +67,9 @@
           "can study"
         ],
         "wrong_forms": [
-          "could study",
-          "must study",
-          "should study"
+          "cans study",
+          "can studies",
+          "can studying"
         ],
         "objects": [
           "quietly",
@@ -84,9 +84,9 @@
           "can use"
         ],
         "wrong_forms": [
-          "could use",
-          "must use",
-          "should use"
+          "cans use",
+          "can uses",
+          "can using"
         ],
         "objects": [
           "the computers",

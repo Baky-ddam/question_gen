@@ -35,9 +35,9 @@
           "could advance"
         ],
         "wrong_forms": [
-          "can advance",
-          "would advance",
-          "should advance"
+          "coulds advance",
+          "could advances",
+          "could advancing"
         ],
         "objects": [
           "to senior management",
@@ -52,9 +52,9 @@
           "could improve"
         ],
         "wrong_forms": [
-          "can improve",
-          "would improve",
-          "should improve"
+          "coulds improve",
+          "could improves",
+          "could improving"
         ],
         "objects": [
           "significantly over time",
@@ -69,9 +69,9 @@
           "could stagnate"
         ],
         "wrong_forms": [
-          "can stagnate",
-          "would stagnate",
-          "should stagnate"
+          "coulds stagnate",
+          "could stagnates",
+          "could stagnating"
         ],
         "objects": [
           "without proper development",
@@ -86,9 +86,9 @@
           "could transform"
         ],
         "wrong_forms": [
-          "can transform",
-          "would transform",
-          "should transform"
+          "coulds transform",
+          "could transforms",
+          "could transforming"
         ],
         "objects": [
           "in unexpected directions",

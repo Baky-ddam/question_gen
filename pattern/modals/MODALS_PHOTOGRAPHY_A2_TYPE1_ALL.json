@@ -33,9 +33,9 @@
           "can take"
         ],
         "wrong_forms": [
-          "could take",
-          "must take",
-          "should take"
+          "cans take",
+          "can takes",
+          "can taking"
         ],
         "objects": [
           "photos",
@@ -50,9 +50,9 @@
           "can use"
         ],
         "wrong_forms": [
-          "could use",
-          "must use",
-          "should use"
+          "cans use",
+          "can uses",
+          "can using"
         ],
         "objects": [
           "the camera",
@@ -67,9 +67,9 @@
           "can record"
         ],
         "wrong_forms": [
-          "could record",
-          "must record",
-          "should record"
+          "cans record",
+          "can records",
+          "can recording"
         ],
         "objects": [
           "videos",
@@ -84,9 +84,9 @@
           "can capture"
         ],
         "wrong_forms": [
-          "could capture",
-          "must capture",
-          "should capture"
+          "cans capture",
+          "can captures",
+          "can capturing"
         ],
         "objects": [
           "the moment",

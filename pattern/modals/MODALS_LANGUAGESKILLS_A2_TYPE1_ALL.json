@@ -33,9 +33,9 @@
           "can speak"
         ],
         "wrong_forms": [
-          "could speak",
-          "must speak",
-          "should speak"
+          "cans speak",
+          "can speaks",
+          "can speaking"
         ],
         "objects": [
           "English",
@@ -50,9 +50,9 @@
           "can understand"
         ],
         "wrong_forms": [
-          "could understand",
-          "must understand",
-          "should understand"
+          "cans understand",
+          "can understands",
+          "can understanding"
         ],
         "objects": [
           "the language",
@@ -67,9 +67,9 @@
           "can read"
         ],
         "wrong_forms": [
-          "could read",
-          "must read",
-          "should read"
+          "cans read",
+          "can reads",
+          "can reading"
         ],
         "objects": [
           "books",
@@ -84,9 +84,9 @@
           "can write"
         ],
         "wrong_forms": [
-          "could write",
-          "must write",
-          "should write"
+          "cans write",
+          "can writes",
+          "can writing"
         ],
         "objects": [
           "emails",

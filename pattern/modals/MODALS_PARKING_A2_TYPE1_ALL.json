@@ -33,9 +33,9 @@
           "can park"
         ],
         "wrong_forms": [
-          "could park",
-          "must park",
-          "should park"
+          "cans park",
+          "can parks",
+          "can parking"
         ],
         "objects": [
           "the car",
@@ -50,9 +50,9 @@
           "can leave"
         ],
         "wrong_forms": [
-          "could leave",
-          "must leave",
-          "should leave"
+          "cans leave",
+          "can leaves",
+          "can leaving"
         ],
         "objects": [
           "the car",
@@ -67,9 +67,9 @@
           "can stop"
         ],
         "wrong_forms": [
-          "could stop",
-          "must stop",
-          "should stop"
+          "cans stop",
+          "can stops",
+          "can stopping"
         ],
         "objects": [
           "the car",
@@ -84,9 +84,9 @@
           "can wait"
         ],
         "wrong_forms": [
-          "could wait",
-          "must wait",
-          "should wait"
+          "cans wait",
+          "can waits",
+          "can waiting"
         ],
         "objects": [
           "for passengers",

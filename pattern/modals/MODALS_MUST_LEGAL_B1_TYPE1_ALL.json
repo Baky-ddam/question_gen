@@ -33,9 +33,9 @@
           "must pay"
         ],
         "wrong_forms": [
-          "should pay",
-          "can pay",
-          "have to pay"
+          "musts pay",
+          "must pays",
+          "must paying"
         ],
         "objects": [
           "taxes",
@@ -49,9 +49,9 @@
           "must register"
         ],
         "wrong_forms": [
-          "should register",
-          "can register",
-          "have to register"
+          "musts register",
+          "must registers",
+          "must registering"
         ],
         "objects": [
           "vehicles",
@@ -65,9 +65,9 @@
           "must report"
         ],
         "wrong_forms": [
-          "should report",
-          "can report",
-          "have to report"
+          "musts report",
+          "must reports",
+          "must reporting"
         ],
         "objects": [
           "income",
@@ -81,9 +81,9 @@
           "must comply"
         ],
         "wrong_forms": [
-          "should comply",
-          "can comply",
-          "have to comply"
+          "musts comply",
+          "must complies",
+          "must complying"
         ],
         "objects": [
           "with regulations",
