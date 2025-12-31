@@ -1,8 +1,10 @@
 """
 Health check and stats routes
 """
+import os
+from pathlib import Path
 from fastapi import APIRouter, Depends
-from api.dependencies import get_generator
+from api.dependencies import get_generator, BASE_DIR, PATTERN_DIR
 from api.schemas.patterns import StatsResponse
 
 router = APIRouter()
@@ -15,6 +17,23 @@ async def health_check(generator=Depends(get_generator)):
         "status": "healthy",
         "version": "1.0.0",
         "patterns_loaded": len(generator.patterns)
+    }
+
+
+@router.get("/debug")
+async def debug_info():
+    """Debug endpoint to check paths"""
+    pattern_exists = PATTERN_DIR.exists()
+    pattern_files = []
+    if pattern_exists:
+        pattern_files = [f.name for f in PATTERN_DIR.iterdir()][:10]
+
+    return {
+        "base_dir": str(BASE_DIR),
+        "pattern_dir": str(PATTERN_DIR),
+        "pattern_dir_exists": pattern_exists,
+        "cwd": os.getcwd(),
+        "pattern_sample_files": pattern_files
     }
 
 
