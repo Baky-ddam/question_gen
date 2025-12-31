@@ -7,18 +7,38 @@
   "template_type": "type_1",
   "subject_group": "group_a",
   "sub_grammar": ["relative_clauses"],
-  "template": "Where is the {OBJECT} ____ {DESCRIPTION}?",
+  "template": "Where is the {OBJ} ____ {DESCRIPTION}?",
   "example": "Where is the key which opens the garage?",
   "explanation": "We use 'which' when asking about things or objects we need to identify.",
   "chunks": {
-    "OBJECT": ["key", "bag", "letter", "document"],
-    "DESCRIPTION": ["opens the garage", "I left here", "came yesterday", "you need to sign"],
     "VERB": {
-      "which": {
+      "key": {
         "correct_forms": ["which"],
         "wrong_forms": ["who", "where", "what"],
-        "objects": [],
-        "distractor": "lose"
+        "distractor": "lose",
+        "objects": ["key", "keycard", "remote"],
+        "descriptions": ["opens the garage", "unlocks the door", "starts the car"]
+      },
+      "bag": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["bag", "backpack", "purse"],
+        "descriptions": ["I left here", "you brought", "was on the table"]
+      },
+      "letter": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["letter", "package", "mail"],
+        "descriptions": ["came yesterday", "arrived this morning", "was delivered"]
+      },
+      "document": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["document", "form", "paper"],
+        "descriptions": ["you need to sign", "I have to submit", "we prepared"]
       }
     }
   }

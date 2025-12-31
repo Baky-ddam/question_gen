@@ -7,19 +7,42 @@
   "template_type": "type_1",
   "subject_group": "group_a",
   "sub_grammar": ["relative_clauses"],
-  "template": "The {THING} ____ {DESCRIPTION} is {QUALITY}.",
+  "template": "The {OBJ} ____ {DESCRIPTION} is {QUALITY}.",
   "example": "The book which I read was interesting.",
   "explanation": "We use 'which' to give more information about things or animals. 'Which' refers back to the thing mentioned before it.",
   "chunks": {
-    "THING": ["book", "movie", "song", "cake"],
-    "DESCRIPTION": ["I read", "we watched", "she sang", "my mom made"],
-    "QUALITY": ["interesting", "really good", "very popular", "delicious"],
     "VERB": {
-      "which": {
+      "book": {
         "correct_forms": ["which"],
         "wrong_forms": ["who", "where", "what"],
-        "objects": [],
-        "distractor": "lose"
+        "distractor": "lose",
+        "objects": ["book", "novel", "story"],
+        "descriptions": ["I read", "she bought", "he borrowed"],
+        "qualities": ["interesting", "fascinating", "very good"]
+      },
+      "movie": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["movie", "film", "show"],
+        "descriptions": ["we watched", "I saw", "they enjoyed"],
+        "qualities": ["really good", "exciting", "funny"]
+      },
+      "song": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["song", "music", "melody"],
+        "descriptions": ["she sang", "I heard", "we played"],
+        "qualities": ["very popular", "beautiful", "catchy"]
+      },
+      "cake": {
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose",
+        "objects": ["cake", "pie", "dessert"],
+        "descriptions": ["my mom made", "she baked", "I prepared"],
+        "qualities": ["delicious", "tasty", "very sweet"]
       }
     }
   }

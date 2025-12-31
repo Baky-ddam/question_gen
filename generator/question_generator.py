@@ -265,6 +265,14 @@ class QuestionGenerator:
                             selected['OBJ'] = obj
                         break
 
+                # Select descriptions if available (for semantic pairing)
+                if 'descriptions' in item_data and item_data['descriptions']:
+                    selected['DESCRIPTION'] = random.choice(item_data['descriptions'])
+
+                # Select qualities if available (for semantic pairing)
+                if 'qualities' in item_data and item_data['qualities']:
+                    selected['QUALITY'] = random.choice(item_data['qualities'])
+
                 # Store the selected item data for later use (for explanations, distractors)
                 selected['BLANK_ITEM'] = selected_item
                 # Also store the actual item data for list-based chunks
