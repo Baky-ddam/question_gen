@@ -11,16 +11,39 @@
   "example": "The book which I read was interesting.",
   "explanation": "We use 'which' to give more information about things or animals. 'Which' refers back to the thing mentioned before it.",
   "chunks": {
-    "THING": ["book", "movie", "song", "cake"],
-    "DESCRIPTION": ["I read", "we watched", "she sang", "my mom made"],
-    "QUALITY": ["interesting", "really good", "very popular", "delicious"],
-    "VERB": {
-      "which": {
+    "VERB": [
+      {
+        "THING": "book",
+        "DESCRIPTION": "I read",
+        "QUALITY": "interesting",
         "correct_forms": ["which"],
         "wrong_forms": ["who", "where", "what"],
-        "objects": [],
+        "distractor": "lose"
+      },
+      {
+        "THING": "movie",
+        "DESCRIPTION": "we watched",
+        "QUALITY": "really good",
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose"
+      },
+      {
+        "THING": "song",
+        "DESCRIPTION": "she sang",
+        "QUALITY": "very popular",
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
+        "distractor": "lose"
+      },
+      {
+        "THING": "cake",
+        "DESCRIPTION": "my mom made",
+        "QUALITY": "delicious",
+        "correct_forms": ["which"],
+        "wrong_forms": ["who", "where", "what"],
         "distractor": "lose"
       }
-    }
+    ]
   }
 }

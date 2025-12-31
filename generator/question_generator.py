@@ -234,7 +234,7 @@ class QuestionGenerator:
             if self._is_blank_chunk(chunk_values):
                 # This is the chunk that goes in the blank (VERB, AUX, MODAL, etc.)
 
-                # Handle list structure (e.g., past_simple patterns)
+                # Handle list structure (e.g., past_simple patterns, relative clauses)
                 if isinstance(chunk_values, list):
                     # Select a random item from the list
                     item_data = random.choice(chunk_values)
@@ -264,6 +264,14 @@ class QuestionGenerator:
                         else:
                             selected['OBJ'] = obj
                         break
+
+                # Copy any coordinated chunks from item_data to selected
+                # This handles patterns where multiple placeholders need to be selected together
+                # (e.g., THING, DESCRIPTION, QUALITY in relative clauses)
+                for key, value in item_data.items():
+                    if key.isupper() and isinstance(value, str):
+                        # This is a template placeholder field (all caps, string value)
+                        selected[key] = value
 
                 # Store the selected item data for later use (for explanations, distractors)
                 selected['BLANK_ITEM'] = selected_item
