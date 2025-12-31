@@ -3,6 +3,7 @@ EYESH Question Generator - Web API
 ==================================
 FastAPI application for generating English exam questions.
 """
+import os
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -21,8 +22,12 @@ app = FastAPI(
 # Get base directory
 BASE_DIR = Path(__file__).resolve().parent
 
-# Mount static files
-app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
+# Check if running on Vercel (serverless) or locally
+IS_VERCEL = os.environ.get("VERCEL", False)
+
+# Mount static files only when not on Vercel (Vercel serves from public/)
+if not IS_VERCEL:
+    app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 
 # Initialize templates
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
